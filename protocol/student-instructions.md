@@ -8,8 +8,11 @@ Você receberá, para cada artigo atribuído (IDs `A01…`):
 
 ## Antes de começar
 
-**Cronometre** o tempo de fichamento (leitura → entrega) e registre em
-minutos. Esse dado é de pesquisa e **não** será mostrado aos juízes.
+Registre o **tempo total estimado** do fichamento (leitura do artigo +
+produção), em minutos — uma estimativa honesta basta, não precisa
+cronometrar ao segundo. Esse dado é de pesquisa (custo-tempo do trabalho
+humano, para compararmos com o custo de usar IA) e **não** será mostrado
+aos juízes.
 
 ## Como fichar
 

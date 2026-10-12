@@ -55,8 +55,10 @@ a taxa de detecção deve subir do pré para o pós.
 |---|---|
 | taxa de detecção | erros encontrados / erros plantados |
 | falsos positivos | flags que não correspondem a erro plantado |
-| tempo | elapsed_minutes (eficiência da revisão) |
 | especificidade | detecção por código de erro (ele pega alucinação mas não omissão?) |
+
+(Sem medida de tempo na tarefa B: auto-reportada em tarefa curta é
+ruidosa e incentivaria pressa artificial.)
 
 ### Custo e agenda
 
@@ -73,6 +75,11 @@ a taxa de detecção deve subir do pré para o pós.
 
 - **O quê**: curva individual de notas BARS × ordem de fichamento;
   `elapsed_minutes` × qualidade; evolução do perfil de erros por código.
+- **`elapsed_minutes` = tempo total estimado** (leitura + fichamento),
+  auto-reportado por artigo. Leitura principal: **métrica econômica** —
+  custo-tempo humano por fichamento, comparável depois ao tempo/custo de
+  geração+revisão com IA ("economia de tempo da IA"). Uso secundário:
+  covariável descritiva na trajetória de aprendizagem.
 - **Já está nos dados** — só exige código de análise (incluir no
   `fichamento analyze` se aprovado).
 
