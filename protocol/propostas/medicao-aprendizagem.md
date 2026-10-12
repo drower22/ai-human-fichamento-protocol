@@ -28,14 +28,46 @@ produtiva.
 
 ## Módulo B — Teste de detecção de erros (transfer test)
 
-- **O quê**: pré-R1 e pós-R2, cada estudante revisa um fichamento com
-  erros *plantados* da taxonomia (`hallucination`, `omission`,
-  `invalid_source_ref`…). Mede taxa de detecção + falsos positivos.
-- **Por que é forte**: é literalmente o teste de proficiência da tarefa
-  final do protocolo (revisar saída de IA).
-- **Custo**: ~30–45 min × 2 aplicações; requer artigo fora do corpus +
-  2 versões contrabalançadas do fichamento plantado.
-- **Impacto no schema**: novo arquivo `data/learning/error-spotting-*.json`.
+**O quê**: pré-R1 e pós-R2, cada estudante revisa um fichamento com erros
+*plantados* da taxonomia (`hallucination`, `omission`, `misinterpretation`,
+`invalid_source_ref`…). Mede taxa de detecção + falsos positivos.
+
+**Por que é forte**: é literalmente o teste de proficiência da tarefa final
+do protocolo — revisar saída de IA. Se o checklist da calibração funciona,
+a taxa de detecção deve subir do pré para o pós.
+
+### Como se parece o instrumento
+
+- Um artigo **fora do corpus** (ninguém ficha ele no estudo) — evita
+  contaminação.
+- Um fichamento construído pelos pesquisadores com ~10 erros conhecidos,
+  um por código da taxonomia, com a resposta-chave registrada em arquivo
+  privado (`data/learning/error-spotting-key.json`).
+- Duas versões contrabalançadas (erros diferentes no mesmo artigo, ou dois
+  artigos): metade dos estudantes recebe a versão X no pré e Y no pós —
+  controla efeito de memorização do item específico.
+- Tarefa do estudante: "marque os problemas que encontrar e classifique-os"
+  — mesmo vocabulário da rubrica que os juízes usam.
+
+### Medidas
+
+| métrica | definição |
+|---|---|
+| taxa de detecção | erros encontrados / erros plantados |
+| falsos positivos | flags que não correspondem a erro plantado |
+| tempo | elapsed_minutes (eficiência da revisão) |
+| especificidade | detecção por código de erro (ele pega alucinação mas não omissão?) |
+
+### Custo e agenda
+
+- ~30–45 min por aplicação × 2 (pré-R1, pós-R2).
+- Trabalho de preparação: construir o fichamento plantado + chave —
+  ~1 dia de trabalho dos pesquisadores, fora do pipeline automático.
+- **Não precisa estar pronto sexta**: o pré pode ser aplicado na primeira
+  semana da R1, antes dos primeiros fichamentos.
+
+- **Impacto no schema**: novo arquivo `data/learning/error-spotting-*.json`
+  (não toca fichamento.schema).
 
 ## Módulo C — Trajetória por estudante (custo zero)
 
@@ -75,5 +107,10 @@ ou o humano?*
 
 ## Recomendação (proponente)
 
-A + C: baixíssimo custo, alto alinhamento com o objetivo final do projeto.
-B se houver disponibilidade de tempo dos estudantes.
+**Pacote mínimo: A + C + D** — ~3 min/fichamento de custo total, alto
+alinhamento com o objetivo final do projeto. **B é o stretch goal**: o
+teste mais direto da competência-alvo, mas exige ~1 dia de preparação e
+2× ~40 min dos estudantes; o pré pode ser aplicado na primeira semana da
+R1, então não é blocker para a reunião de sexta — mas a decisão de
+incluí-lo precisa sair nessa reunião, pois é o único módulo que exige
+coleta extra *antes* dos fichamentos começarem.
