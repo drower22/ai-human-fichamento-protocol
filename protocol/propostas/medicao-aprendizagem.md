@@ -55,6 +55,24 @@ Com ~3 fichamentos/estudante/rodada, trajetórias individuais são
 **exploratórias/descritivas** — não sustentam inferência estatística.
 Reportar como tal; o valor está nos padrões, não em p-valores.
 
+## O desenho JÁ é pré/pós (insight do pesquisador, 2026-10-12)
+
+As duas rodadas já são estruturalmente um **pré-teste → intervenção →
+pós-teste**: a calibração (checklist de estudantes + refinamento do
+prompt) é a intervenção. Isso sugere reframing elegante para o paper:
+**calibração simétrica** — o protocolo calibra a máquina (prompt) e o
+humano (checklist); medir aprendizagem = medir o efeito da calibração
+humana. Pergunta extra "de graça": *o protocolo calibra melhor a máquina
+ou o humano?*
+
+### Confounds e mitigações
+
+| risco | mitigação |
+|---|---|
+| checklist vs. maturação (prática sozinha já melhora) | (a) reportar efeito bundado "prática+checklist" como descritivo; (b) análise por código de erro — se o checklist mira omissões e só omissões caem, é evidência de efeito específico; (c) split-half (5 recebem, 5 não) se quiserem claim causal — custa n e simetria |
+| dificuldade dos artigos difere entre rodadas | sortear alocação artigo→rodada com seed registrada (ver PROTOCOL §2) — necessário independentemente deste módulo |
+| n pequeno por estudante | reportar trajetórias individuais como descritivas; testes só no agregado |
+
 ## Recomendação (proponente)
 
 A + C: baixíssimo custo, alto alinhamento com o objetivo final do projeto.

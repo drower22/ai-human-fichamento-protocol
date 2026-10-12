@@ -24,6 +24,10 @@ Validação **às cegas** em **duas rodadas**:
   um achado do estudo.
 - A **Rodada 2** mede o impacto da calibração.
 
+**Alocação por rodada**: os 32 artigos são distribuídos entre R1 e R2 por
+**sorteio com seed registrada** (equilibra dificuldade entre rodadas —
+condição para ler "efeito da calibração" sem confundir com mix de artigos).
+
 ```
 Juízes indicam artigos ──► Corpus (16/rodada)
                                │
