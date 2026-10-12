@@ -8,18 +8,17 @@ the manifest and flags the resulting fichamento (``generator.forced``).
 from __future__ import annotations
 
 import json
-import re
 import time
 from datetime import datetime, timezone
 
-import litellm
-
 from . import paths
+from .llm import call_model as _call_model
 from .models import (
     AIGenerator,
     Fichamento,
     FichamentoContent,
     ManifestOverride,
+    TheoryVerdict,
 )
 from .pdf2md import check_gate
 from .registry import load_articles
@@ -27,43 +26,65 @@ from .registry import load_articles
 SCHEMA_HINT = """{
   "executive_summary": "string (~300 palavras)",
   "research_question": "string",
-  "theories": [{"name": "...", "tradition": "...", "role": "...", "source_refs": ["p.3/L12"]}],
-  "key_concepts": [{"concept": "...", "definition": "...", "source_refs": ["p.N"]}]  // exatamente 3 ou 4,
-  "methodology": {"design": "...", "sample_size": int|null, "sector": "...",
-                  "period": "...", "methods": ["..."], "source_refs": ["p.N"]},
+  "theories": [{"name": "...", "tradition": "...", "role": "...",
+                "source_refs": ["p.3/L12"]}]
+      // somente teorias relevantes FORA do pool de candidatos; [] se nenhuma,
+  "theory_verdicts": []  // preenchido por chamada separada; responda [],
+  "key_concepts": [{"concept": "...", "definition": "...", "quote": "trecho literal",
+                    "source_refs": ["p.N"]}]  // exatamente 3 ou 4,
+  "methodology": {"study_type": "teórico|empírico|...", "design": "...",
+                  "sample_type": "...", "sample_size": int|null, "sector": "...",
+                  "period": "...", "methods": ["..."],
+                  "analysis_note": "...", "source_refs": ["p.N"]},
   "main_findings": [{"finding": "...", "type": "empirical|proposition|model",
-                     "source_refs": ["p.N"]}],
+                     "quote": "trecho literal", "source_refs": ["p.N"]}],
   "contribution": {"theoretical": "...", "practical": "..."}
 }"""
 
 
-def _extract_json(text: str) -> dict:
-    text = text.strip()
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        m = re.search(r"\{.*\}", text, re.DOTALL)
-        if not m:
-            raise ValueError("model output contains no JSON object")
-        return json.loads(m.group(0))
+def classify_theory_pool(
+    article_id: str,
+    round_: int,
+    model: str,
+    verdicts_version: str,
+    temperature: float,
+    md: str,
+) -> tuple[list[TheoryVerdict], str | None]:
+    """Second, independent call: the model assigns uses/discusses/
+    does_not_use to each item of the candidate pool — the same closed task
+    students perform, enabling per-item AI×human agreement."""
+    from .candidates import VERDICT_SCHEMA_HINT, load_pool
 
-
-def _call_model(model: str, prompt: str, temperature: float) -> tuple[dict, dict]:
-    kwargs = dict(
-        model=model,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=temperature,
+    pool = load_pool(round_, article_id)
+    if pool is None:
+        return [], None
+    cand = [
+        {"item_id": i.item_id, "name": i.name, "tradition": i.tradition,
+         "definition": i.definition}
+        for i in pool.items if i.active
+    ]
+    if not cand:
+        return [], None
+    tpl = paths.prompt_path(verdicts_version).read_text()
+    prompt = tpl.format(
+        schema_hint=VERDICT_SCHEMA_HINT,
+        candidates=json.dumps(cand, ensure_ascii=False, indent=1),
+        document=md,
     )
-    try:
-        resp = litellm.completion(**kwargs, response_format={"type": "json_object"})
-    except Exception:
-        resp = litellm.completion(**kwargs)
-    usage = getattr(resp, "usage", None)
-    meta = {
-        "input_tokens": getattr(usage, "prompt_tokens", None),
-        "output_tokens": getattr(usage, "completion_tokens", None),
-    }
-    return _extract_json(resp.choices[0].message.content), meta
+    data, _ = _call_model(model, prompt, temperature)
+    by_id = {i.item_id: i for i in pool.items}
+    verdicts = [
+        TheoryVerdict(
+            item_id=v["item_id"],
+            name=v.get("name") or by_id[v["item_id"]].name,
+            verdict=v["verdict"],
+            source_refs=v.get("source_refs", []),
+            note=v.get("note", ""),
+        )
+        for v in data.get("verdicts", [])
+        if v.get("item_id") in by_id
+    ]
+    return verdicts, verdicts_version
 
 
 def generate_article(
@@ -72,6 +93,7 @@ def generate_article(
     model: str,
     prompt_version: str,
     temperature: float,
+    verdicts_version: str | None = "1.0.0-theory-verdicts",
     force: bool = False,
     overwrite: bool = False,
 ) -> Fichamento | None:
@@ -119,6 +141,14 @@ def generate_article(
         content = FichamentoContent.model_validate(data)
         meta = {k: (meta.get(k) or 0) + (meta2.get(k) or 0) or None for k in meta}
 
+    used_verdicts_version = None
+    if verdicts_version:
+        verdicts, used_verdicts_version = classify_theory_pool(
+            article_id, round_, model, verdicts_version, temperature, md
+        )
+        if verdicts:
+            content.theory_verdicts = verdicts
+
     provider = model.split("/")[0] if "/" in model else "openai"
     fich = Fichamento(
         fichamento_id=f"F-R{round_}-{article_id}-AI",
@@ -136,6 +166,7 @@ def generate_article(
             latency_s=round(time.time() - t0, 2),
             md_sha256=manifest.md_sha256,
             forced=bool(problems),
+            verdicts_prompt_version=used_verdicts_version,
         ),
         content=content,
     )
@@ -154,6 +185,7 @@ def generate_round(
     model: str,
     prompt_version: str,
     temperature: float = 0.2,
+    verdicts_version: str | None = "1.0.0-theory-verdicts",
     force: bool = False,
     overwrite: bool = False,
 ) -> None:
@@ -164,5 +196,5 @@ def generate_round(
     for a in articles:
         generate_article(
             a.article_id, round_, model, prompt_version,
-            temperature, force, overwrite,
+            temperature, verdicts_version, force, overwrite,
         )

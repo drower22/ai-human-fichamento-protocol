@@ -71,17 +71,33 @@ L02| We argue that ...
 - **Gate**: `fichamento generate` só roda com `coverage_complete=true` e
   checksum do MD batendo. Override (`--force`) é possível mas fica
   **registrado** no manifest (`overrides[]`) e no fichamento gerado.
-- Fichamentos citam a fonte de cada elemento como `p.N/Lnn` (`source_refs`),
-  permitindo auditoria linha-a-linha pelos juízes.
+- Fichamentos citam a fonte de cada elemento como `p.N`/`Lnn`
+  (`source_refs`), permitindo auditoria linha-a-linha pelos juízes.
+
+### 4.1 Pool de teorias candidatas (seção fechada)
+
+`fichamento candidates` roda **antes** do fichamento: a IA extrai os
+candidatos a teoria (`usa`/`discute`/`does_not_use`) para
+`data/candidates/roundN/A{nn}.candidates.json` + um checklist em Markdown
+(`A{nn}.pool.md`) que os estudantes recebem junto ao PDF. O arquivo do
+pool é **editável para curadoria** (itens adicionados com
+`origin:"researcher"`; desativar com `active:false` em vez de deletar —
+preserva o que a IA propôs).
 
 ## 5. Estrutura do fichamento
 
 1. **Resumo executivo** — síntese em ~300 palavras
 2. **Questão de pesquisa** — o que o artigo pergunta
-3. **Teorias presentes** — frameworks e tradições teóricas
-4. **Conceitos-chave** — 3–4 construtos com definições
-5. **Metodologia** — design, N, setor, período
-6. **Achados principais** — resultados e proposições
+3. **Teorias presentes** — *instrumento fechado*: pool de candidatos
+   gerado previamente (IA → curadoria opcional); cada item recebe veredito
+   `uses` / `discusses` / `does_not_use` com `source_refs` obrigatórios
+   para vereditos positivos. Teorias fora do pool → lista livre (mede
+   omissões do pool). IA responde o mesmo pool numa 2ª chamada →
+   concordância IA×humano item a item.
+4. **Conceitos-chave** — 3–4 construtos com definições + quote literal
+5. **Metodologia** — tipo de estudo, delineamento, tipo/tamanho de
+   amostra, setor, período, técnicas de análise
+6. **Achados principais** — resultados e proposições + quote literal
 7. **Contribuição** — avanços teóricos e utilidade prática
 8. *Tempo de fichamento* — apenas estudante (metadado `generator`)
 
@@ -131,6 +147,9 @@ aparecem no material do juiz.
 - Preferência A/B: teste binomial; modelo Bradley–Terry com produtores
   (`S01–S10` + IA) como "jogadores" → ranking de produtores.
 - Concordância inter-rater: Krippendorff α (ordinal) por seção.
+- **Pool de teorias**: concordância IA×humano item a item; taxa de
+  rejeição de candidatos (alucinação do pool) e adições humanas
+  (omissões do pool).
 - Evolução R1→R2: Δ de médias, Δ de taxas de erro, Δ de preferência.
 
 **Qualitativa**

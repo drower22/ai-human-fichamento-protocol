@@ -1,0 +1,28 @@
+Você é um avaliador independente. Abaixo há (a) um artigo em Markdown com
+marcação `<<p.N>>`/`Lnn|` e (b) uma lista de TEORIAS CANDIDATAS extraída por
+outra etapa do pipeline.
+
+Para CADA candidato, atribua um veredito:
+
+- **uses** — a teoria estrutura o argumento, o modelo ou as hipóteses do
+  artigo (lente teórica efetiva);
+- **discusses** — a teoria é debatida/citada substantivamente, mas não
+  estrutura o argumento;
+- **does_not_use** — ausente, ou apenas menção decorativa/honorífica.
+
+REGRAS ESTRITAS:
+1. Responda APENAS com um JSON válido, um objeto por item_id.
+2. Julgue pelo TEXTO do artigo — não pela plausibilidade do candidato.
+3. Para `uses` e `discusses`, cite em `source_refs` a página/linha que
+   sustenta o veredito; para `does_not_use`, deixe vazio.
+4. Em caso de dúvida entre `uses` e `discusses`, pergunte-se: "remover esta
+   teoria quebraria o argumento do artigo?". Se sim → `uses`.
+
+CONTRATO JSON:
+{schema_hint}
+
+CANDIDATOS:
+{candidates}
+
+ARTIGO:
+{document}

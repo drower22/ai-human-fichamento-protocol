@@ -1,12 +1,15 @@
 """PDF -> line-marked markdown with a verifiable ingestion manifest.
 
-Output format (audited unit consumed by `fichamento generate`)::
+Output format (audited unit consumed by `fichamento generate`) — line
+numbers are GLOBAL across the document (matches citation style
+"linhas 161-180"); pages are marked as blocks::
 
     <!-- pdf2md article=A01 tool="pymupdf x.y" pdf_sha256=... pages=22 -->
     <<p.1>>
-    L01| Journal of ...
+    L001| Journal of ...
+    L002| ...
     <<p.5 method=ocr>>
-    L01| ...
+    L161| ...
 
 Coverage rule: every PDF page must appear as a block, tagged by method
 (text / ocr / empty / manual). Pages OCR'd or empty are flagged
@@ -55,6 +58,7 @@ def convert(article: ArticleEntry, ocr_lang: str = "por+eng") -> IngestionManife
     pages: list[PageIngest] = []
     blocks: list[str] = []
     ocr_used = False
+    ln = 0  # global line counter across the whole document
 
     for i, page in enumerate(doc, start=1):
         text = page.get_text("text")
@@ -79,7 +83,9 @@ def convert(article: ArticleEntry, ocr_lang: str = "por+eng") -> IngestionManife
 
         tag = f"<<p.{i}>>" if method == "text" else f"<<p.{i} method={method}>>"
         blocks.append(tag)
-        blocks.extend(f"L{n:02d}| {ln}" for n, ln in enumerate(lines, 1))
+        for line in lines:
+            ln += 1
+            blocks.append(f"L{ln:03d}| {line}")
         pages.append(
             PageIngest(
                 page=i,

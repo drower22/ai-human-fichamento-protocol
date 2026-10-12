@@ -94,6 +94,18 @@
           "default": false,
           "title": "Forced",
           "type": "boolean"
+        },
+        "verdicts_prompt_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Verdicts Prompt Version"
         }
       },
       "required": [
@@ -140,6 +152,14 @@
             "$ref": "#/$defs/Theory"
           },
           "title": "Theories",
+          "type": "array"
+        },
+        "theory_verdicts": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/TheoryVerdict"
+          },
+          "title": "Theory Verdicts",
           "type": "array"
         },
         "key_concepts": {
@@ -193,10 +213,15 @@
           "title": "Type",
           "type": "string"
         },
+        "quote": {
+          "default": "",
+          "title": "Quote",
+          "type": "string"
+        },
         "source_refs": {
           "default": [],
           "items": {
-            "pattern": "^p\\.\\d+(/L\\d+)?$",
+            "pattern": "^(p\\.\\d+(-\\d+)?(/L\\d+(-\\d+)?)?|L\\d+(-\\d+)?)$",
             "type": "string"
           },
           "title": "Source Refs",
@@ -299,10 +324,15 @@
           "title": "Definition",
           "type": "string"
         },
+        "quote": {
+          "default": "",
+          "title": "Quote",
+          "type": "string"
+        },
         "source_refs": {
           "default": [],
           "items": {
-            "pattern": "^p\\.\\d+(/L\\d+)?$",
+            "pattern": "^(p\\.\\d+(-\\d+)?(/L\\d+(-\\d+)?)?|L\\d+(-\\d+)?)$",
             "type": "string"
           },
           "title": "Source Refs",
@@ -318,8 +348,18 @@
     },
     "Methodology": {
       "properties": {
+        "study_type": {
+          "default": "",
+          "title": "Study Type",
+          "type": "string"
+        },
         "design": {
           "title": "Design",
+          "type": "string"
+        },
+        "sample_type": {
+          "default": "",
+          "title": "Sample Type",
           "type": "string"
         },
         "sample_size": {
@@ -352,10 +392,15 @@
           "title": "Methods",
           "type": "array"
         },
+        "analysis_note": {
+          "default": "",
+          "title": "Analysis Note",
+          "type": "string"
+        },
         "source_refs": {
           "default": [],
           "items": {
-            "pattern": "^p\\.\\d+(/L\\d+)?$",
+            "pattern": "^(p\\.\\d+(-\\d+)?(/L\\d+(-\\d+)?)?|L\\d+(-\\d+)?)$",
             "type": "string"
           },
           "title": "Source Refs",
@@ -387,7 +432,7 @@
         "source_refs": {
           "default": [],
           "items": {
-            "pattern": "^p\\.\\d+(/L\\d+)?$",
+            "pattern": "^(p\\.\\d+(-\\d+)?(/L\\d+(-\\d+)?)?|L\\d+(-\\d+)?)$",
             "type": "string"
           },
           "title": "Source Refs",
@@ -398,6 +443,54 @@
         "name"
       ],
       "title": "Theory",
+      "type": "object"
+    },
+    "TheoryVerdict": {
+      "description": "uses = theory structures the argument; discusses = debated/cited\nsubstantively; does_not_use = absent or merely decorative mention.",
+      "properties": {
+        "item_id": {
+          "title": "Item Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "verdict": {
+          "enum": [
+            "uses",
+            "discusses",
+            "does_not_use"
+          ],
+          "title": "Verdict",
+          "type": "string"
+        },
+        "source_refs": {
+          "default": [],
+          "items": {
+            "pattern": "^(p\\.\\d+(-\\d+)?(/L\\d+(-\\d+)?)?|L\\d+(-\\d+)?)$",
+            "type": "string"
+          },
+          "title": "Source Refs",
+          "type": "array"
+        },
+        "quote": {
+          "default": "",
+          "title": "Quote",
+          "type": "string"
+        },
+        "note": {
+          "default": "",
+          "title": "Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_id",
+        "name",
+        "verdict"
+      ],
+      "title": "TheoryVerdict",
       "type": "object"
     }
   },

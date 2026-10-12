@@ -30,11 +30,23 @@ def main() -> None:
     p.add_argument("--article", help="só um artigo (ex.: A03)")
     p.add_argument("--ocr-lang", default="por+eng")
 
+    p = sub.add_parser("candidates", help="IA extrai pool de teorias candidatas")
+    p.add_argument("--round", type=int, choices=[1, 2], required=True)
+    p.add_argument("--model", required=True)
+    p.add_argument("--prompt-version", default="1.0.0-theory-pool")
+    p.add_argument("--temperature", type=float, default=0.2)
+    p.add_argument("--article", help="só um artigo")
+    p.add_argument("--force", action="store_true")
+    p.add_argument("--overwrite", action="store_true")
+
     p = sub.add_parser("generate", help="gera fichamentos de IA (com gate)")
     p.add_argument("--round", type=int, choices=[1, 2], required=True)
     p.add_argument("--model", required=True,
                    help="string litellm, ex.: gpt-4o | claude-sonnet-4-5 | gemini/gemini-2.0-flash")
-    p.add_argument("--prompt-version", required=True)
+    p.add_argument("--prompt-version", required=True,
+                   help="id do prompt = nome do arquivo, ex.: 1.0.0-baseline")
+    p.add_argument("--verdicts-version", default="1.0.0-theory-verdicts",
+                   help="prompt da classificação do pool; 'none' desativa")
     p.add_argument("--temperature", type=float, default=0.2)
     p.add_argument("--article", help="só um artigo")
     p.add_argument("--force", action="store_true",
@@ -82,15 +94,26 @@ def main() -> None:
                 continue
             convert(a, ocr_lang=args.ocr_lang)
 
+    elif args.cmd == "candidates":
+        from .candidates import build_pool, build_round
+        if args.article:
+            build_pool(args.article, args.round, args.model,
+                       args.prompt_version, args.temperature,
+                       args.force, args.overwrite)
+        else:
+            build_round(args.round, args.model, args.prompt_version,
+                        args.temperature, args.force, args.overwrite)
+
     elif args.cmd == "generate":
         from .generate import generate_article, generate_round
+        vv = None if args.verdicts_version.lower() == "none" else args.verdicts_version
         if args.article:
             generate_article(args.article, args.round, args.model,
                              args.prompt_version, args.temperature,
-                             args.force, args.overwrite)
+                             vv, args.force, args.overwrite)
         else:
             generate_round(args.round, args.model, args.prompt_version,
-                           args.temperature, args.force, args.overwrite)
+                           args.temperature, vv, args.force, args.overwrite)
 
     elif args.cmd == "import-human":
         from .ingest import import_human

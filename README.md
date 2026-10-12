@@ -54,21 +54,25 @@ pip install -e ".[dev]"
 
 # 1) Cadastre artigos em data/articles/registry.jsonl e coloque os PDFs em
 #    data/articles/pdfs/<ARTICLE_ID>.pdf
-# 2) Gere os fichamentos de IA (ex.: OpenAI; qualquer provider litellm)
+# 2) Ingestão auditável: PDF -> markdown com páginas/linhas + manifesto
+fichamento pdf2md --round 1
+# 3) Pool de teorias candidatas (instrumento fechado dos estudantes)
+fichamento candidates --round 1 --model gpt-4o
+# 4) Gere os fichamentos de IA (qualquer provider litellm)
 export OPENAI_API_KEY=...
-fichamento generate --round 1 --model gpt-4o --prompt-version 1.0.0
+fichamento generate --round 1 --model gpt-4o --prompt-version 1.0.0-baseline
 
-# 3) Crie o cegamento e o pacote para os juízes
+# 5) Crie o cegamento e o pacote para os juízes
 fichamento blind --round 1 --seed 42
 
-# 4) Após coleta via Google Forms: ingira o CSV exportado
+# 6) Após coleta via Google Forms: ingira o CSV exportado
 fichamento ingest --round 1 --csv forms_export.csv
 
-# 5) Valide todo o dataset e rode a análise
+# 7) Valide todo o dataset e rode a análise
 fichamento validate
 fichamento analyze --round 1
 
-# 6) Exporte nós/arestas p/ knowledge graph
+# 8) Exporte nós/arestas p/ knowledge graph
 fichamento export-kg --out analysis/reports/kg
 ```
 

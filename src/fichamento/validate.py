@@ -11,7 +11,14 @@ import sys
 from pydantic import ValidationError
 
 from . import paths
-from .models import ArticleEntry, BlindingMap, Evaluation, Fichamento, IngestionManifest
+from .models import (
+    ArticleEntry,
+    BlindingMap,
+    CandidatePool,
+    Evaluation,
+    Fichamento,
+    IngestionManifest,
+)
 
 
 def validate_all() -> int:
@@ -42,6 +49,9 @@ def validate_all() -> int:
         m = _check(p, IngestionManifest)
         if m:
             manifests[m.article_id] = m
+
+    for p in sorted(paths.DATA.glob("candidates/round*/*.json")):
+        _check(p, CandidatePool)
 
     fichamentos: dict[str, Fichamento] = {}
     for p in sorted(paths.DATA.glob("fichamentos/round*/*/*.json")):

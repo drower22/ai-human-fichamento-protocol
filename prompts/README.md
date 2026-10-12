@@ -1,12 +1,14 @@
 # Prompts — política de versionamento
 
-Cada prompt de geração de fichamento é versionado com **semver**
-(`v{MAJOR}.{MINOR}.{PATCH}-{tag}.txt`) e congelado por rodada:
+Cada prompt é versionado com **semver + tag de papel** e o **id é o nome
+do arquivo**: `v{id}.txt`. Três papéis atuais:
 
-| versão | rodada | descrição |
+| arquivo / id | papel | rodada |
 |---|---|---|
-| `v1.0.0-baseline` | R1 | prompt baseline zero-shot |
-| `v1.1.0-calibrated` | R2 | refinado na calibração (diff documentado abaixo) |
+| `v1.0.0-baseline.txt` | prompt principal de fichamento (zero-shot) | R1 |
+| `v1.0.0-theory-pool.txt` | extrai pool de teorias candidatas | R1 |
+| `v1.0.0-theory-verdicts.txt` | 2ª chamada: IA classifica o pool | R1 |
+| `v1.1.0-calibrated.txt` | refinado na calibração (diff documentado) | R2 |
 
 Regras:
 

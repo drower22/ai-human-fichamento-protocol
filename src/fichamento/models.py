@@ -37,8 +37,12 @@ ErrorCode = Literal[
 ]
 ERROR_CODES: list[str] = list(ErrorCode.__args__)  # type: ignore[attr-defined]
 
-# Provenance pointer into the paged/line-numbered markdown: "p.3" or "p.3/L12"
-SourceRef = Annotated[str, Field(pattern=r"^p\.\d+(/L\d+)?$")]
+# Provenance pointer into the line-marked markdown. Lines are numbered
+# GLOBALLY across the document (L001…Lnnn); pages via p.N. Accepts ranges:
+# "p.3", "p.104-106", "L302", "L161-180", "p.3/L12", "p.3/L12-15"
+SourceRef = Annotated[
+    str, Field(pattern=r"^(p\.\d+(-\d+)?(/L\d+(-\d+)?)?|L\d+(-\d+)?)$")
+]
 Score = Annotated[int, Field(ge=1, le=7, description="BARS 1-7")]
 
 
@@ -97,6 +101,63 @@ class IngestionManifest(BaseModel):
     created_at: datetime
 
 
+# ----------------------------------------------------- candidate pool
+# For the "theories" section the instrument is CLOSED: a pool of candidate
+# theories is extracted first (by AI, optionally curated), then students
+# AND the AI (separate call) classify each item uses/discusses/does_not_use.
+
+class CandidateItem(BaseModel):
+    item_id: str = Field(pattern=r"^[A-Z]\d+$")   # T1, T2, …
+    kind: Literal["theory", "concept"] = "theory"
+    name: str
+    definition: str = ""
+    tradition: str = ""
+    origin: Literal["ai", "judge", "researcher", "corpus"] = "ai"
+    source_refs: list[SourceRef] = []
+    active: bool = True  # curator deactivates instead of deleting
+
+
+class PoolGenerator(BaseModel):
+    provider: str
+    model: str
+    prompt_version: str
+    at: datetime
+    md_sha256: str = ""
+
+
+class CandidatePool(BaseModel):
+    schema_version: str = SCHEMA_VERSION
+    article_id: str = Field(pattern=r"^A\d{2}$")
+    round: Literal[1, 2]
+    kind: Literal["theory"] = "theory"
+    generated_by: PoolGenerator | None = None
+    items: list[CandidateItem] = []
+    curated: bool = False
+    curated_by: str = ""
+    notes: str = ""
+
+
+class TheoryVerdict(BaseModel):
+    """uses = theory structures the argument; discusses = debated/cited
+    substantively; does_not_use = absent or merely decorative mention."""
+
+    item_id: str
+    name: str                    # echoed for readability of the JSON
+    verdict: Literal["uses", "discusses", "does_not_use"]
+    source_refs: list[SourceRef] = []
+    quote: str = ""              # verbatim evidence supporting the verdict
+    note: str = ""
+
+    @model_validator(mode="after")
+    def _positive_verdict_requires_evidence(self) -> "TheoryVerdict":
+        if self.verdict in ("uses", "discusses") and not self.source_refs:
+            raise ValueError(
+                f"{self.item_id}: verdict '{self.verdict}' exige >=1 "
+                "source_ref (p.N[/Lnn]) — aponte onde a teoria aparece"
+            )
+        return self
+
+
 # -------------------------------------------------------------- fichamento
 
 class Theory(BaseModel):
@@ -109,21 +170,26 @@ class Theory(BaseModel):
 class KeyConcept(BaseModel):
     concept: str
     definition: str
+    quote: str = ""              # verbatim quote anchoring the definition
     source_refs: list[SourceRef] = []
 
 
 class Methodology(BaseModel):
-    design: str
+    study_type: str = ""         # teórico | empírico | simulação | ...
+    design: str                  # delineamento (survey, case study, conceptual…)
+    sample_type: str = ""        # tipo de amostra ( firms, students, N/A…)
     sample_size: int | None = None
     sector: str = ""
     period: str = ""
-    methods: list[str] = []
+    methods: list[str] = []      # técnicas de análise (tags p/ KG)
+    analysis_note: str = ""      # descrição livre do método de análise
     source_refs: list[SourceRef] = []
 
 
 class Finding(BaseModel):
     finding: str
     type: Literal["empirical", "proposition", "model"] = "empirical"
+    quote: str = ""              # verbatim evidence
     source_refs: list[SourceRef] = []
 
 
@@ -138,6 +204,7 @@ class FichamentoContent(BaseModel):
     executive_summary: str
     research_question: str
     theories: list[Theory] = []
+    theory_verdicts: list[TheoryVerdict] = []
     key_concepts: list[KeyConcept] = Field(min_length=3, max_length=4)
     methodology: Methodology
     main_findings: list[Finding] = Field(min_length=1)
@@ -157,6 +224,7 @@ class AIGenerator(BaseModel):
     latency_s: float | None = None
     md_sha256: str = ""     # binds generation to the exact ingested document
     forced: bool = False    # True when generate ran with --force override
+    verdicts_prompt_version: str | None = None  # prompt da classificação do pool
 
 
 class HumanGenerator(BaseModel):

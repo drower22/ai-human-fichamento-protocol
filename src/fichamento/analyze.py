@@ -16,7 +16,8 @@ from scipy import stats
 
 from . import paths
 from .blind import load_blindmap
-from .models import ERROR_CODES, SECTIONS, Evaluation
+from .candidates import load_pool
+from .models import ERROR_CODES, SECTIONS, Evaluation, Fichamento
 
 
 def _load_evals(round_: int) -> list[Evaluation]:
@@ -214,17 +215,77 @@ def _bradley_terry(pref: pd.DataFrame, fich_src: pd.DataFrame) -> pd.DataFrame:
     ).sort_values("bt_rating", ascending=False)
 
 
+def _load_fich(round_: int, article_id: str, source: str) -> Fichamento | None:
+    p = paths.fichamento_path(round_, article_id, source)
+    return Fichamento.model_validate_json(p.read_text()) if p.exists() else None
+
+
+def _theory_agreement(round_: int) -> pd.DataFrame:
+    """Per-item AI×human agreement on the closed theory pool.
+
+    Surfaces two objective error signals: AI candidate rejections
+    (humans mark does_not_use on ai-origin items) and AI omissions
+    (theories students added beyond the pool via content.theories)."""
+    article_ids = sorted(
+        {p.name.split("-")[2]
+         for p in paths.fichamento_dir(round_, "ai").glob("*.json")}
+    )
+    rows = []
+    for aid in article_ids:
+        pool = load_pool(round_, aid)
+        ai = _load_fich(round_, aid, "ai")
+        if pool is None or ai is None:
+            continue
+        ai_v = {v.item_id: v.verdict for v in ai.content.theory_verdicts}
+        hum_files = sorted(
+            paths.fichamento_dir(round_, "human").glob(f"F-R{round_}-{aid}-*.json")
+        )
+        for hum_path in hum_files:
+            hum = Fichamento.model_validate_json(hum_path.read_text())
+            sid = getattr(hum.generator, "participant_id", "?")
+            hum_v = {v.item_id: v for v in hum.content.theory_verdicts}
+            for item in pool.items:
+                if not item.active:
+                    continue
+                hv = hum_v.get(item.item_id)
+                rows.append({
+                    "article_id": aid, "item_id": item.item_id,
+                    "theory": item.name, "origin": item.origin,
+                    "ai_verdict": ai_v.get(item.item_id),
+                    "human_verdict": hv.verdict if hv else None,
+                    "student": sid,
+                    "agree": bool(hv) and ai_v.get(item.item_id) == hv.verdict,
+                })
+            for extra in hum.content.theories:
+                rows.append({
+                    "article_id": aid, "item_id": "+ADD", "theory": extra.name,
+                    "origin": "human_added", "ai_verdict": None,
+                    "human_verdict": "added", "student": sid, "agree": None,
+                })
+    return pd.DataFrame(rows)
+
+
 def analyze(rounds: list[int]) -> None:
     out_root = paths.REPORTS
     out_root.mkdir(parents=True, exist_ok=True)
     per_round = {}
     for r in rounds:
+        out_dir = out_root / f"round{r}"
+        out_dir.mkdir(parents=True, exist_ok=True)
+
+        tag = _theory_agreement(r)
+        if not tag.empty:
+            tag.to_csv(out_dir / "theory_agreement.csv", index=False)
+            n_rej = int(((tag.origin == "ai") & (tag.human_verdict == "does_not_use")).sum())
+            n_add = int((tag.origin == "human_added").sum())
+            ok = tag.agree.dropna()
+            print(f"  teorias: concordância IA×humano {ok.mean():.0%} ({len(ok)} itens) | "
+                  f"candidatos rejeitados: {n_rej} | adições humanas: {n_add}")
+
         evals = _load_evals(r)
         if not evals:
             print(f"round {r}: no evaluations yet")
             continue
-        out_dir = out_root / f"round{r}"
-        out_dir.mkdir(parents=True, exist_ok=True)
         scores, errors, pref = _long_scores(r), _long_errors(r), _preferences(r)
         per_round[r] = (scores, errors, pref)
 

@@ -41,6 +41,18 @@ def eval_path(round_: int, article_id: str, judge_id: str) -> Path:
     return eval_dir(round_) / f"E-R{round_}-{article_id}-{judge_id}.json"
 
 
+def candidates_dir(round_: int) -> Path:
+    return DATA / "candidates" / f"round{round_}"
+
+
+def pool_path(round_: int, article_id: str) -> Path:
+    return candidates_dir(round_) / f"{article_id}.candidates.json"
+
+
+def pool_sheet_path(round_: int, article_id: str) -> Path:
+    return candidates_dir(round_) / f"{article_id}.pool.md"
+
+
 def blindmap_path(round_: int) -> Path:
     return PRIVATE / f"blinding-map-round{round_}.json"
 
@@ -50,9 +62,12 @@ def packets_dir(round_: int) -> Path:
 
 
 def prompt_path(version: str) -> Path:
-    matches = sorted(PROMPTS.glob(f"v{version}-*.txt"))
-    if not matches:
-        raise FileNotFoundError(
-            f"no prompt file matching 'v{version}-*.txt' in {PROMPTS}"
-        )
-    return matches[0]
+    """Prompt id IS the filename: 'v{version}.txt' (e.g. '1.0.0-baseline',
+    '1.0.0-theory-pool', '1.0.0-theory-verdicts')."""
+    p = PROMPTS / f"v{version}.txt"
+    if p.exists():
+        return p
+    available = ", ".join(x.stem for x in sorted(PROMPTS.glob("v*.txt")))
+    raise FileNotFoundError(
+        f"prompt '{version}' not found. Available: {available}"
+    )
