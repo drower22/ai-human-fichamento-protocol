@@ -49,11 +49,30 @@ Juízes indicam artigos ──► Corpus (16/rodada)
 | papel | n | função |
 |---|---|---|
 | Juízes (indicação) | 4 | indicam 4 artigos cada → 16 artigos/rodada |
-| Estudantes | 10 | produzem fichamentos manuais (~3 artigos cada/rodada) |
+| Estudantes | ~4–5 por juiz | produzem fichamentos manuais (~2 artigos cada/rodada) |
 | IA (API) | 1+ | produz fichamentos dos mesmos artigos; provider/modelo registrados |
-| Juízes (avaliação) | 4 | avaliam 32 fichamentos/rodada (16 IA + 16 humanos), às cegas |
+| Juízes (avaliação) | 4 | avaliam **todos** os 32 fichamentos/rodada, às cegas |
+| Coordenador | 1 | não-juiz; executa sorteios, guarda mapas privados |
 
-Pseudonimização: juízes `J1–J4`, estudantes `S01–S10`. A tabela
+### 3.1 Atribuição artigo→estudante (grupos cruzados)
+
+Estudantes se organizam em grupos por orientador (`G1–G4`, em
+`data/private/groups.json`). Regra: **artigos indicados por J_i são
+fichados por estudantes de OUTRO grupo** (`cross` map, escolhido pela
+área mais próxima). O sorteio dentro do grupo destino é feito pelo
+coordenador via `fichamento assign --seed N`, e a tabela fica em
+`data/private/assignments-roundN.json` (privada até o descegamento).
+
+Por quê: se o juiz soubesse qual estudante fichou seu artigo indicado, o
+cego A/B vazaria (viés de lealdade + adivinhação por estilo). Com grupos
+cruzados, nem o nominador nem o orientador conseguem ligar fichamento a
+autor.
+
+Regra complementar: orientadores **não coacheiam** os fichamentos durante
+o estudo (treino geral de método, ok; feedback sobre fichamento
+específico, não).
+
+Pseudonimização: juízes `J1–J4`, estudantes `S01–S…`. A tabela
 identidade↔pseudônimo fica em `data/private/participants.csv` (nunca commitada).
 
 ## 4. Pipeline de ingestão (auditoria de leitura integral)

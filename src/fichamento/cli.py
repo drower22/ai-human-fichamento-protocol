@@ -62,6 +62,11 @@ def main() -> None:
     p.add_argument("--minutes", type=int)
     p.add_argument("--overwrite", action="store_true")
 
+    p = sub.add_parser("assign", help="sorteia artigos→estudantes (grupos cruzados)")
+    p.add_argument("--round", type=int, choices=[1, 2], required=True)
+    p.add_argument("--seed", type=int, default=42)
+    p.add_argument("--groups", help="groups.json (default: data/private/groups.json)")
+
     p = sub.add_parser("blind", help="cegamento A/B + pacotes dos juízes")
     p.add_argument("--round", type=int, choices=[1, 2], required=True)
     p.add_argument("--seed", type=int, default=42)
@@ -119,6 +124,10 @@ def main() -> None:
         from .ingest import import_human
         import_human(args.round, args.article, args.file,
                      args.participant, args.minutes, args.overwrite)
+
+    elif args.cmd == "assign":
+        from .assign import assign
+        assign(args.round, args.seed, args.groups)
 
     elif args.cmd == "blind":
         from .blind import create_blinding

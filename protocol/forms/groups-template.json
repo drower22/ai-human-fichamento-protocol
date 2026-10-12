@@ -1,0 +1,10 @@
+{
+  "comment": "Copie para data/private/groups.json e preencha. 'cross' define o cruzamento: artigos indicados pelo juiz X vão para o grupo indicado (NUNCA o próprio grupo — isso preserva o cegamento). Escolha os pares pela área mais próxima entre orientadores.",
+  "groups": [
+    {"group_id": "G1", "advisor_id": "J1", "students": ["S01", "S02", "S03", "S04"]},
+    {"group_id": "G2", "advisor_id": "J2", "students": ["S05", "S06", "S07", "S08"]},
+    {"group_id": "G3", "advisor_id": "J3", "students": ["S09", "S10", "S11", "S12"]},
+    {"group_id": "G4", "advisor_id": "J4", "students": ["S13", "S14", "S15", "S16"]}
+  ],
+  "cross": {"J1": "G3", "J2": "G4", "J3": "G1", "J4": "G2"}
+}
