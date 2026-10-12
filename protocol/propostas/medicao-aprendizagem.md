@@ -80,6 +80,11 @@ a taxa de detecção deve subir do pré para o pós.
 
 - 3 perguntas abertas por fichamento: o que foi difícil / o que aprendeu /
   o que faria diferente. Codificação temática → evidência qualitativa.
+- **Momento**: imediatamente após submeter cada fichamento, no mesmo
+  formulário de entrega — antes de qualquer retorno dos juízes (o log
+  deve refletir a experiência de produção, não a nota recebida).
+- Alternativa de menor carga: 1 log por rodada — perde a granularidade
+  por artigo que conecta o relato ao perfil de erros.
 
 ## Ressalva metodológica
 
