@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets — never commit API keys
+.env
+.env.*
+
+# Private research data: blinding maps, participant identities.
+# Publish these files only after unblinding (see data/private/README.md).
+data/private/*
+!data/private/README.md
+
+# Article PDFs are copyrighted material — keep the registry, not the files.
+data/articles/pdfs/*
+!data/articles/pdfs/.gitkeep
+
+# Analysis artifacts
+analysis/reports/*.png
+analysis/reports/*.csv.tmp
+
+# OS
+.DS_Store

@@ -1,0 +1,80 @@
+{
+  "description": "One row of data/articles/registry.jsonl.",
+  "properties": {
+    "article_id": {
+      "pattern": "^A\\d{2}$",
+      "title": "Article Id",
+      "type": "string"
+    },
+    "round": {
+      "enum": [
+        1,
+        2
+      ],
+      "title": "Round",
+      "type": "integer"
+    },
+    "nominated_by": {
+      "pattern": "^J[1-4]$",
+      "title": "Nominated By",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "authors": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Authors",
+      "type": "array"
+    },
+    "year": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Year"
+    },
+    "venue": {
+      "default": "",
+      "title": "Venue",
+      "type": "string"
+    },
+    "doi": {
+      "default": "",
+      "title": "Doi",
+      "type": "string"
+    },
+    "language": {
+      "default": "en",
+      "title": "Language",
+      "type": "string"
+    },
+    "pdf_path": {
+      "default": "",
+      "title": "Pdf Path",
+      "type": "string"
+    },
+    "notes": {
+      "default": "",
+      "title": "Notes",
+      "type": "string"
+    }
+  },
+  "required": [
+    "article_id",
+    "round",
+    "nominated_by",
+    "title"
+  ],
+  "title": "ArticleEntry",
+  "type": "object"
+}

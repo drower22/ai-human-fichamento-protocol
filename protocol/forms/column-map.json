@@ -1,0 +1,39 @@
+{
+  "comment": "Mapeamento coluna do CSV exportado do Google Forms -> campo do schema de avaliação. Se o Forms gerar cabeçalhos diferentes, edite os valores (lado direito).",
+  "timestamp": "Carimbo de data/hora",
+  "judge_id": "judge_id",
+  "article_id": "article_id",
+  "confidence": "confidence",
+  "preference": "preference",
+  "preference_reason": "preference_reason",
+  "per_position": {
+    "A": {
+      "score.executive_summary": "A.score.executive_summary",
+      "score.research_question": "A.score.research_question",
+      "score.theories": "A.score.theories",
+      "score.key_concepts": "A.score.key_concepts",
+      "score.methodology": "A.score.methodology",
+      "score.main_findings": "A.score.main_findings",
+      "score.contribution": "A.score.contribution",
+      "errors": "A.errors",
+      "error_sections": "A.error_sections",
+      "error_note": "A.error_note",
+      "would_question": "A.would_question",
+      "missing": "A.missing"
+    },
+    "B": {
+      "score.executive_summary": "B.score.executive_summary",
+      "score.research_question": "B.score.research_question",
+      "score.theories": "B.score.theories",
+      "score.key_concepts": "B.score.key_concepts",
+      "score.methodology": "B.score.methodology",
+      "score.main_findings": "B.score.main_findings",
+      "score.contribution": "B.score.contribution",
+      "errors": "B.errors",
+      "error_sections": "B.error_sections",
+      "error_note": "B.error_note",
+      "would_question": "B.would_question",
+      "missing": "B.missing"
+    }
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "$defs": {
+    "AIGenerator": {
+      "properties": {
+        "kind": {
+          "const": "ai",
+          "default": "ai",
+          "title": "Kind",
+          "type": "string"
+        },
+        "provider": {
+          "title": "Provider",
+          "type": "string"
+        },
+        "model": {
+          "title": "Model",
+          "type": "string"
+        },
+        "prompt_version": {
+          "title": "Prompt Version",
+          "type": "string"
+        },
+        "temperature": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Temperature"
+        },
+        "seed": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Seed"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "title": "Generated At",
+          "type": "string"
+        },
+        "input_tokens": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Input Tokens"
+        },
+        "output_tokens": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Output Tokens"
+        },
+        "latency_s": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Latency S"
+        },
+        "md_sha256": {
+          "default": "",
+          "title": "Md Sha256",
+          "type": "string"
+        },
+        "forced": {
+          "default": false,
+          "title": "Forced",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "provider",
+        "model",
+        "prompt_version",
+        "generated_at"
+      ],
+      "title": "AIGenerator",
+      "type": "object"
+    },
+    "Contribution": {
+      "properties": {
+        "theoretical": {
+          "title": "Theoretical",
+          "type": "string"
+        },
+        "practical": {
+          "default": "",
+          "title": "Practical",
+          "type": "string"
+        }
+      },
+      "required": [
+        "theoretical"
+      ],
+      "title": "Contribution",
+      "type": "object"
+    },
+    "FichamentoContent": {
+      "description": "The payload judges actually read \u2014 the same contract for AI and humans.",
+      "properties": {
+        "executive_summary": {
+          "title": "Executive Summary",
+          "type": "string"
+        },
+        "research_question": {
+          "title": "Research Question",
+          "type": "string"
+        },
+        "theories": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Theory"
+          },
+          "title": "Theories",
+          "type": "array"
+        },
+        "key_concepts": {
+          "items": {
+            "$ref": "#/$defs/KeyConcept"
+          },
+          "maxItems": 4,
+          "minItems": 3,
+          "title": "Key Concepts",
+          "type": "array"
+        },
+        "methodology": {
+          "$ref": "#/$defs/Methodology"
+        },
+        "main_findings": {
+          "items": {
+            "$ref": "#/$defs/Finding"
+          },
+          "minItems": 1,
+          "title": "Main Findings",
+          "type": "array"
+        },
+        "contribution": {
+          "$ref": "#/$defs/Contribution"
+        }
+      },
+      "required": [
+        "executive_summary",
+        "research_question",
+        "key_concepts",
+        "methodology",
+        "main_findings",
+        "contribution"
+      ],
+      "title": "FichamentoContent",
+      "type": "object"
+    },
+    "Finding": {
+      "properties": {
+        "finding": {
+          "title": "Finding",
+          "type": "string"
+        },
+        "type": {
+          "default": "empirical",
+          "enum": [
+            "empirical",
+            "proposition",
+            "model"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "source_refs": {
+          "default": [],
+          "items": {
+            "pattern": "^p\\.\\d+(/L\\d+)?$",
+            "type": "string"
+          },
+          "title": "Source Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "finding"
+      ],
+      "title": "Finding",
+      "type": "object"
+    },
+    "HumanGenerator": {
+      "properties": {
+        "kind": {
+          "const": "human",
+          "default": "human",
+          "title": "Kind",
+          "type": "string"
+        },
+        "participant_id": {
+          "pattern": "^S\\d{2}$",
+          "title": "Participant Id",
+          "type": "string"
+        },
+        "elapsed_minutes": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Elapsed Minutes"
+        },
+        "submitted_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Submitted At"
+        }
+      },
+      "required": [
+        "participant_id"
+      ],
+      "title": "HumanGenerator",
+      "type": "object"
+    },
+    "HumanReview": {
+      "description": "Post-calibration human review of an AI fichamento (scale phase).",
+      "properties": {
+        "reviewed": {
+          "default": false,
+          "title": "Reviewed",
+          "type": "boolean"
+        },
+        "reviewer_id": {
+          "default": "",
+          "title": "Reviewer Id",
+          "type": "string"
+        },
+        "reviewed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reviewed At"
+        },
+        "changes_summary": {
+          "default": "",
+          "title": "Changes Summary",
+          "type": "string"
+        }
+      },
+      "title": "HumanReview",
+      "type": "object"
+    },
+    "KeyConcept": {
+      "properties": {
+        "concept": {
+          "title": "Concept",
+          "type": "string"
+        },
+        "definition": {
+          "title": "Definition",
+          "type": "string"
+        },
+        "source_refs": {
+          "default": [],
+          "items": {
+            "pattern": "^p\\.\\d+(/L\\d+)?$",
+            "type": "string"
+          },
+          "title": "Source Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "concept",
+        "definition"
+      ],
+      "title": "KeyConcept",
+      "type": "object"
+    },
+    "Methodology": {
+      "properties": {
+        "design": {
+          "title": "Design",
+          "type": "string"
+        },
+        "sample_size": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sample Size"
+        },
+        "sector": {
+          "default": "",
+          "title": "Sector",
+          "type": "string"
+        },
+        "period": {
+          "default": "",
+          "title": "Period",
+          "type": "string"
+        },
+        "methods": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Methods",
+          "type": "array"
+        },
+        "source_refs": {
+          "default": [],
+          "items": {
+            "pattern": "^p\\.\\d+(/L\\d+)?$",
+            "type": "string"
+          },
+          "title": "Source Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "design"
+      ],
+      "title": "Methodology",
+      "type": "object"
+    },
+    "Theory": {
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "tradition": {
+          "default": "",
+          "title": "Tradition",
+          "type": "string"
+        },
+        "role": {
+          "default": "",
+          "title": "Role",
+          "type": "string"
+        },
+        "source_refs": {
+          "default": [],
+          "items": {
+            "pattern": "^p\\.\\d+(/L\\d+)?$",
+            "type": "string"
+          },
+          "title": "Source Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "Theory",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "fichamento_id": {
+      "pattern": "^F-R[12]-A\\d{2}-(AI|HUM)$",
+      "title": "Fichamento Id",
+      "type": "string"
+    },
+    "article_id": {
+      "pattern": "^A\\d{2}$",
+      "title": "Article Id",
+      "type": "string"
+    },
+    "round": {
+      "enum": [
+        1,
+        2
+      ],
+      "title": "Round",
+      "type": "integer"
+    },
+    "source": {
+      "enum": [
+        "ai",
+        "human"
+      ],
+      "title": "Source",
+      "type": "string"
+    },
+    "generator": {
+      "discriminator": {
+        "mapping": {
+          "ai": "#/$defs/AIGenerator",
+          "human": "#/$defs/HumanGenerator"
+        },
+        "propertyName": "kind"
+      },
+      "oneOf": [
+        {
+          "$ref": "#/$defs/AIGenerator"
+        },
+        {
+          "$ref": "#/$defs/HumanGenerator"
+        }
+      ],
+      "title": "Generator"
+    },
+    "content": {
+      "$ref": "#/$defs/FichamentoContent"
+    },
+    "human_review": {
+      "$ref": "#/$defs/HumanReview",
+      "default": {
+        "reviewed": false,
+        "reviewer_id": "",
+        "reviewed_at": null,
+        "changes_summary": ""
+      }
+    }
+  },
+  "required": [
+    "fichamento_id",
+    "article_id",
+    "round",
+    "source",
+    "generator",
+    "content"
+  ],
+  "title": "Fichamento",
+  "type": "object"
+}

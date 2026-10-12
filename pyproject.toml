@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fichamento"
+version = "0.1.0"
+description = "Iterative AI–human calibration protocol for structured literature-review fichamentos (open science)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "pydantic>=2.6",
+    "litellm>=1.40",
+    "pymupdf>=1.24",
+    "pandas>=2.1",
+    "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "matplotlib>=3.8",
+    "jupyter",
+]
+
+[project.scripts]
+fichamento = "fichamento.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

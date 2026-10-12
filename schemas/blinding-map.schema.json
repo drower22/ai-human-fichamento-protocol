@@ -1,0 +1,86 @@
+{
+  "$defs": {
+    "BlindEntry": {
+      "properties": {
+        "blind_id": {
+          "pattern": "^B\\d{2,}$",
+          "title": "Blind Id",
+          "type": "string"
+        },
+        "article_id": {
+          "title": "Article Id",
+          "type": "string"
+        },
+        "fichamento_id": {
+          "title": "Fichamento Id",
+          "type": "string"
+        },
+        "source": {
+          "enum": [
+            "ai",
+            "human"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "position": {
+          "enum": [
+            "A",
+            "B"
+          ],
+          "title": "Position",
+          "type": "string"
+        }
+      },
+      "required": [
+        "blind_id",
+        "article_id",
+        "fichamento_id",
+        "source",
+        "position"
+      ],
+      "title": "BlindEntry",
+      "type": "object"
+    }
+  },
+  "description": "PRIVATE \u2014 lives under data/private/, published only after unblinding.",
+  "properties": {
+    "schema_version": {
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "round": {
+      "enum": [
+        1,
+        2
+      ],
+      "title": "Round",
+      "type": "integer"
+    },
+    "seed": {
+      "title": "Seed",
+      "type": "integer"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "entries": {
+      "items": {
+        "$ref": "#/$defs/BlindEntry"
+      },
+      "title": "Entries",
+      "type": "array"
+    }
+  },
+  "required": [
+    "round",
+    "seed",
+    "created_at",
+    "entries"
+  ],
+  "title": "BlindingMap",
+  "type": "object"
+}

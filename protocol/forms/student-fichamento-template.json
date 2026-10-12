@@ -1,0 +1,36 @@
+{
+  "executive_summary": "Síntese em ~300 palavras: problema, teoria, método, achados, contribuição.",
+  "research_question": "A pergunta que o artigo busca responder.",
+  "theories": [
+    {
+      "name": "Nome da teoria/framework",
+      "tradition": "Tradição ou campo teórico",
+      "role": "Papel no artigo (lente principal, citação periférica...)",
+      "source_refs": ["p.3/L12"]
+    }
+  ],
+  "key_concepts": [
+    {"concept": "Construto 1", "definition": "Como o artigo define/usa", "source_refs": ["p.4"]},
+    {"concept": "Construto 2", "definition": "...", "source_refs": ["p.5/L03"]},
+    {"concept": "Construto 3", "definition": "...", "source_refs": ["p.6"]}
+  ],
+  "methodology": {
+    "design": "survey | case study | experimento | teórico | ...",
+    "sample_size": 0,
+    "sector": "setor/indústria dos dados",
+    "period": "período dos dados",
+    "methods": ["técnica de análise 1", "técnica 2"],
+    "source_refs": ["p.8"]
+  },
+  "main_findings": [
+    {
+      "finding": "Achado ou proposição central",
+      "type": "empirical | proposition | model",
+      "source_refs": ["p.10/L20"]
+    }
+  ],
+  "contribution": {
+    "theoretical": "Avanço teórico que o artigo entrega",
+    "practical": "Utilidade prática"
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "$defs": {
+    "ErrorFlag": {
+      "properties": {
+        "code": {
+          "enum": [
+            "hallucination",
+            "omission",
+            "misinterpretation",
+            "misattribution",
+            "terminology",
+            "extrapolation",
+            "invalid_source_ref",
+            "other"
+          ],
+          "title": "Code",
+          "type": "string"
+        },
+        "sections": {
+          "default": [],
+          "items": {
+            "enum": [
+              "executive_summary",
+              "research_question",
+              "theories",
+              "key_concepts",
+              "methodology",
+              "main_findings",
+              "contribution"
+            ],
+            "type": "string"
+          },
+          "title": "Sections",
+          "type": "array"
+        },
+        "note": {
+          "default": "",
+          "title": "Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "code"
+      ],
+      "title": "ErrorFlag",
+      "type": "object"
+    },
+    "Preference": {
+      "properties": {
+        "choice": {
+          "enum": [
+            "A",
+            "B",
+            "tie"
+          ],
+          "title": "Choice",
+          "type": "string"
+        },
+        "reason": {
+          "default": "",
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "choice"
+      ],
+      "title": "Preference",
+      "type": "object"
+    },
+    "Rating": {
+      "description": "A judge's assessment of ONE blinded fichamento (position A or B).",
+      "properties": {
+        "blind_id": {
+          "pattern": "^B\\d{2,}$",
+          "title": "Blind Id",
+          "type": "string"
+        },
+        "position": {
+          "enum": [
+            "A",
+            "B"
+          ],
+          "title": "Position",
+          "type": "string"
+        },
+        "scores": {
+          "$ref": "#/$defs/SectionScores"
+        },
+        "errors": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/ErrorFlag"
+          },
+          "title": "Errors",
+          "type": "array"
+        },
+        "would_question": {
+          "default": "",
+          "title": "Would Question",
+          "type": "string"
+        },
+        "missing": {
+          "default": "",
+          "title": "Missing",
+          "type": "string"
+        }
+      },
+      "required": [
+        "blind_id",
+        "position",
+        "scores"
+      ],
+      "title": "Rating",
+      "type": "object"
+    },
+    "SectionScores": {
+      "properties": {
+        "executive_summary": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Executive Summary",
+          "type": "integer"
+        },
+        "research_question": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Research Question",
+          "type": "integer"
+        },
+        "theories": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Theories",
+          "type": "integer"
+        },
+        "key_concepts": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Key Concepts",
+          "type": "integer"
+        },
+        "methodology": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Methodology",
+          "type": "integer"
+        },
+        "main_findings": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Main Findings",
+          "type": "integer"
+        },
+        "contribution": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Contribution",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "executive_summary",
+        "research_question",
+        "theories",
+        "key_concepts",
+        "methodology",
+        "main_findings",
+        "contribution"
+      ],
+      "title": "SectionScores",
+      "type": "object"
+    }
+  },
+  "description": "One submission = one (judge x article): rates both blind fichamentos.",
+  "properties": {
+    "schema_version": {
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "evaluation_id": {
+      "pattern": "^E-R[12]-A\\d{2}-J[1-4]$",
+      "title": "Evaluation Id",
+      "type": "string"
+    },
+    "round": {
+      "enum": [
+        1,
+        2
+      ],
+      "title": "Round",
+      "type": "integer"
+    },
+    "article_id": {
+      "pattern": "^A\\d{2}$",
+      "title": "Article Id",
+      "type": "string"
+    },
+    "judge_id": {
+      "pattern": "^J[1-4]$",
+      "title": "Judge Id",
+      "type": "string"
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "maximum": 3,
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Confidence"
+    },
+    "ratings": {
+      "items": {
+        "$ref": "#/$defs/Rating"
+      },
+      "maxItems": 2,
+      "minItems": 2,
+      "title": "Ratings",
+      "type": "array"
+    },
+    "preference": {
+      "$ref": "#/$defs/Preference"
+    },
+    "submitted_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Submitted At"
+    }
+  },
+  "required": [
+    "evaluation_id",
+    "round",
+    "article_id",
+    "judge_id",
+    "ratings",
+    "preference"
+  ],
+  "title": "Evaluation",
+  "type": "object"
+}
