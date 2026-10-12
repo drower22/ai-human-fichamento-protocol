@@ -50,7 +50,15 @@ Juízes indicam artigos ──► Corpus (16/rodada)
 |---|---|---|
 | Juízes (indicação) | 4 | indicam 4 artigos cada/rodada → 16 artigos/rodada (8 por juiz no total) |
 | Estudantes | ~4–5 por juiz | produzem fichamentos manuais (~2 artigos cada/rodada) |
-| IA (API) | 1+ | produz fichamentos dos mesmos artigos; provider/modelo registrados |
+| IA (API) | **1 modelo fixo** | produz fichamentos dos mesmos artigos; provider/modelo/versão/temperature registrados em `generator.*` |
+
+**Modelo único**: o objeto do estudo é **calibração e limitação de cada
+produtor** (estudante × máquina), não benchmark entre LLMs. A IA é um
+instrumento do experimento — especificada como qualquer instrumento:
+modelo fixo escolhido por representatividade prática, versão e
+temperature registradas. O protocolo é modelo-agnóstico por desenho
+(`--model` parametriza qualquer provider); replicação cruzada de modelos
+fica como trabalho futuro sugerido.
 | Juízes (avaliação) | 4 | avaliam **somente os artigos que indicaram**: 4 artigos × 2 = **8 fichamentos/rodada/juiz**, às cegas |
 | Coordenador | 1 | não-juiz; executa sorteios, guarda mapas privados |
 
