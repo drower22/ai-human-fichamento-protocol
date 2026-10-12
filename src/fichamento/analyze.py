@@ -27,10 +27,10 @@ def _load_evals(round_: int) -> list[Evaluation]:
     return out
 
 
-def _long_scores(round_: int) -> pd.DataFrame:
+def _long_scores(round_: int, evals: list[Evaluation]) -> pd.DataFrame:
     bmap = {e.blind_id: e for e in load_blindmap(round_).entries}
     rows = []
-    for ev in _load_evals(round_):
+    for ev in evals:
         for r in ev.ratings:
             entry = bmap[r.blind_id]
             for sec in SECTIONS:
@@ -50,10 +50,10 @@ def _long_scores(round_: int) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def _long_errors(round_: int) -> pd.DataFrame:
+def _long_errors(round_: int, evals: list[Evaluation]) -> pd.DataFrame:
     bmap = {e.blind_id: e for e in load_blindmap(round_).entries}
     rows = []
-    for ev in _load_evals(round_):
+    for ev in evals:
         for r in ev.ratings:
             entry = bmap[r.blind_id]
             for ef in r.errors:
@@ -71,14 +71,14 @@ def _long_errors(round_: int) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def _preferences(round_: int) -> pd.DataFrame:
+def _preferences(round_: int, evals: list[Evaluation]) -> pd.DataFrame:
     bmap = load_blindmap(round_)
     pos2src = {
         (e.article_id, e.position): (e.source, e.fichamento_id)
         for e in bmap.entries
     }
     rows = []
-    for ev in _load_evals(round_):
+    for ev in evals:
         choice = ev.preference.choice
         src = pos2src.get((ev.article_id, choice), (None, None))[0] if choice in "AB" else "tie"
         rows.append(
@@ -274,12 +274,13 @@ def _theory_agreement(round_: int) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def analyze(rounds: list[int]) -> None:
+def analyze(rounds: list[int], exclude_judges: tuple[str, ...] = ()) -> None:
     out_root = paths.REPORTS
     out_root.mkdir(parents=True, exist_ok=True)
     per_round = {}
     for r in rounds:
-        out_dir = out_root / f"round{r}"
+        out_dir = out_root / f"round{r}" if not exclude_judges else \
+            out_root / f"round{r}-excl-{'_'.join(exclude_judges)}"
         out_dir.mkdir(parents=True, exist_ok=True)
 
         tag = _theory_agreement(r)
@@ -292,10 +293,16 @@ def analyze(rounds: list[int]) -> None:
                   f"candidatos rejeitados: {n_rej} | adições humanas: {n_add}")
 
         evals = _load_evals(r)
+        if exclude_judges:
+            kept = [e for e in evals if e.judge_id not in exclude_judges]
+            print(f"round {r}: sensitivity — excluídos juízes "
+                  f"{', '.join(exclude_judges)} ({len(kept)}/{len(evals)} avaliações)")
+            evals = kept
         if not evals:
             print(f"round {r}: no evaluations yet")
             continue
-        scores, errors, pref = _long_scores(r), _long_errors(r), _preferences(r)
+        scores, errors, pref = (_long_scores(r, evals), _long_errors(r, evals),
+                                _preferences(r, evals))
         per_round[r] = (scores, errors, pref)
 
         scores.to_csv(out_dir / "scores_long.csv", index=False)

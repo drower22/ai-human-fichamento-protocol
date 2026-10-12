@@ -87,6 +87,16 @@ Regra complementar: orientadores **não coacheiam** os fichamentos durante
 o estudo (treino geral de método, ok; feedback sobre fichamento
 específico, não).
 
+**Conflito de interesse (juiz = orientador/coautor do estudo).** Se um
+juiz acumular papel de orientador ou coautor, duas proteções se aplicam:
+(a) com grupos cruzados + avaliação-por-nominador, ele **nunca avalia
+fichamentos dos próprios orientandos** (o `assign` recusa cross-map que
+roteie para o grupo dele); (b) ele nunca tem acesso ao blinding map nem
+às assignments (coordenador é o único guardião). No relato: declarar o
+papel duplo e reportar a **análise de sensibilidade**
+`fichamento analyze --all --exclude-judge J{n}` — resultados devem se
+manter sem as avaliações dele.
+
 Pseudonimização: juízes `J1–J4`, estudantes `S01–S…`. A tabela
 identidade↔pseudônimo fica em `data/private/participants.csv` (nunca commitada).
 

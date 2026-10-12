@@ -81,6 +81,8 @@ def main() -> None:
     p = sub.add_parser("analyze", help="análise quantitativa")
     p.add_argument("--round", type=int, choices=[1, 2], action="append")
     p.add_argument("--all", action="store_true", help="ambas as rodadas")
+    p.add_argument("--exclude-judge", action="append", default=[],
+                   help="sensibilidade: descarta avaliações destes juízes (repetível)")
 
     p = sub.add_parser("export-kg", help="exporta nós/arestas JSONL")
     p.add_argument("--out", default=str(paths.REPORTS / "kg"))
@@ -146,7 +148,7 @@ def main() -> None:
         rounds = [1, 2] if args.all else (args.round or [])
         if not rounds:
             ap.error("informe --round N ou --all")
-        analyze(rounds)
+        analyze(rounds, tuple(args.exclude_judge))
 
     elif args.cmd == "export-kg":
         from .kg import export_kg
