@@ -21,8 +21,9 @@ fichamentos em **JSON validado por schema** que alimenta análises posteriores
 1. **4 juízes** indicam 4 artigos cada → 16 artigos por rodada.
 2. Cada artigo recebe **2 fichamentos independentes**: um gerado por IA
    (API), um produzido por estudante.
-3. **4 juízes avaliam às cegas** os 32 fichamentos da rodada (Likert 1–5 por
-   seção + perguntas qualitativas + preferência A/B).
+3. **4 juízes avaliam às cegas** somente os fichamentos dos artigos que
+   indicaram (4 artigos × 2 = 8 avaliações/juiz/rodada): BARS 1–7 por seção
+   + taxonomia de erros + preferência A/B.
 4. **Rodada 1 = baseline** → análise → **calibração** (refina prompt da IA e
    cria checklist para estudantes) → **Rodada 2 = pós-calibração**.
 5. Análise final: médias por seção, IA vs. humano, evolução R1→R2, padrões

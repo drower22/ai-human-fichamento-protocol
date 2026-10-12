@@ -6,7 +6,10 @@ de qual é qual**. Não tente adivinhar a origem; avalie o que está escrito.
 
 ## O que você recebe
 
-- O artigo original (PDF) — você indicou esses artigos, então os conhece.
+- Você avalia **apenas os artigos que indicou** — por rodada, os seus
+  4 artigos → **8 fichamentos** (4 pares A/B).
+- O artigo original (PDF) — você indicou esses artigos, então os conhece;
+  é essa familiaridade que garante a verificação linha-a-linha.
 - Um pacote por artigo: Fichamento A e Fichamento B.
 - Um formulário (Google Forms) — **uma submissão por artigo**.
 

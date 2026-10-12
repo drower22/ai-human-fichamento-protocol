@@ -133,7 +133,16 @@ def _wilcoxon_table(scores: pd.DataFrame) -> pd.DataFrame:
 
 
 def _krippendorff_alpha(scores: pd.DataFrame) -> pd.DataFrame:
-    """Interval-metric Krippendorff alpha: units=fichamentos, raters=judges."""
+    """Interval-metric Krippendorff alpha: units=fichamentos, raters=judges.
+    With nominator-only evaluation (1 rater per fichamento) alpha is
+    undefined — returns NaN rows so the report states it explicitly."""
+    raters = scores.groupby("blind_id")["judge_id"].nunique()
+    if raters.max() < 2:
+        return pd.DataFrame(
+            [{"section": s, "alpha": None, "n_units": scores.blind_id.nunique(),
+              "n_raters": int(raters.max()),
+              "note": "single-rater design (nominator-only)"} for s in SECTIONS]
+        )
     out = []
     for sec in SECTIONS:
         sub = scores[scores.section == sec]

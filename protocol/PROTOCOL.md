@@ -48,11 +48,18 @@ Juízes indicam artigos ──► Corpus (16/rodada)
 
 | papel | n | função |
 |---|---|---|
-| Juízes (indicação) | 4 | indicam 4 artigos cada → 16 artigos/rodada |
+| Juízes (indicação) | 4 | indicam 4 artigos cada/rodada → 16 artigos/rodada (8 por juiz no total) |
 | Estudantes | ~4–5 por juiz | produzem fichamentos manuais (~2 artigos cada/rodada) |
 | IA (API) | 1+ | produz fichamentos dos mesmos artigos; provider/modelo registrados |
-| Juízes (avaliação) | 4 | avaliam **todos** os 32 fichamentos/rodada, às cegas |
+| Juízes (avaliação) | 4 | avaliam **somente os artigos que indicaram**: 4 artigos × 2 = **8 fichamentos/rodada/juiz**, às cegas |
 | Coordenador | 1 | não-juiz; executa sorteios, guarda mapas privados |
+
+**Por que avaliação só pelo nominador**: cada juiz avalia exatamente os
+artigos que domina — maximiza a verificação linha-a-linha e reduz a carga
+(8 vs. 32 avaliações). Custo assumido: 1 rater por fichamento → sem
+concordância inter-rater clássica, e severidade-do-juiz fica associada ao
+seu conjunto de artigos. A comparação principal (IA vs. humano) é protegida
+pelo **pareamento intra-juiz**: o mesmo juiz avalia A e B do mesmo artigo.
 
 ### 3.1 Atribuição artigo→estudante (grupos cruzados)
 
@@ -169,7 +176,9 @@ aparecem no material do juiz.
 - Taxa de cada tipo de erro × fonte (qui-quadrado/Fisher).
 - Preferência A/B: teste binomial; modelo Bradley–Terry com produtores
   (`S01–S10` + IA) como "jogadores" → ranking de produtores.
-- Concordância inter-rater: Krippendorff α (ordinal) por seção.
+- Concordância inter-rater: N/A no desenho nominator-only (1 rater/item);
+  confiabilidade vem do pareamento intra-juiz. Se 2º rater por artigo for
+  adicionado depois, α ordinal por seção está implementado.
 - **Pool de teorias**: concordância IA×humano item a item; taxa de
   rejeição de candidatos (alucinação do pool) e adições humanas
   (omissões do pool).

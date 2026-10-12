@@ -57,10 +57,14 @@ def create_blinding(round_: int, seed: int) -> BlindingMap:
     paths.PRIVATE.mkdir(parents=True, exist_ok=True)
     paths.blindmap_path(round_).write_text(bmap.model_dump_json(indent=2))
 
+    # Nominator-only evaluation: each judge receives packets only for the
+    # articles HE nominated -> judge-packets/roundN/J{k}/A{nn}.md
+    nominated = {a.article_id: a.nominated_by for a in articles}
     out_dir = paths.packets_dir(round_)
-    out_dir.mkdir(parents=True, exist_ok=True)
-    index = ["article_id,packet_file,blind_A,blind_B"]
     for article_id, pair in packets:
+        judge = nominated[article_id]
+        jdir = out_dir / judge
+        jdir.mkdir(parents=True, exist_ok=True)
         md = [
             f"# Artigo {article_id} — avaliação às cegas",
             "",
@@ -80,11 +84,14 @@ def create_blinding(round_: int, seed: int) -> BlindingMap:
             render_fichamento_md(pair["B"]),
             "",
         ]
-        (out_dir / f"{article_id}.md").write_text("\n".join(md))
+        (jdir / f"{article_id}.md").write_text("\n".join(md))
+    index = ["judge_id,article_id,packet_file,blind_A,blind_B"]
+    for article_id, _ in packets:
+        judge = nominated[article_id]
         bA = next(e.blind_id for e in entries if e.article_id == article_id and e.position == "A")
         bB = next(e.blind_id for e in entries if e.article_id == article_id and e.position == "B")
-        index.append(f"{article_id},{article_id}.md,{bA},{bB}")
-    (out_dir / "index.csv").write_text("\n".join(index) + "\n")
+        index.append(f"{judge},{article_id},{judge}/{article_id}.md,{bA},{bB}")
+    (out_dir / "index.csv").write_text("\n".join(sorted(index)) + "\n")
 
     print(
         f"round {round_}: {len(entries)} fichamentos cegados → "
