@@ -158,17 +158,17 @@
     <label><input type="radio" name="tcle" value="nao_aceito"> Não aceito participar</label>
   </div>
   <p id="decline" style="display:none;margin-top:14px;font-size:15px;color:var(--slate)">
-    Sem problema — obrigado pela atenção. Você pode fechar esta página.
+    Sem problema - obrigado pela atenção. Você pode fechar esta página.
     Se mudar de ideia, marque "Li e aceito participar".</p>
 </section>
 
 <div id="resto" hidden>
 
 <header>
-  <h1>Fichamento — Rodada 1</h1>
+  <h1>Fichamento - Rodada 1</h1>
   <p><b>Antes de começar:</b> leia o artigo numerado por completo e tenha-o aberto ao lado.
   Escreva em português, com suas palavras. Toda afirmação sobre o artigo leva a referência
-  da linha entre parênteses, no formato <b>(p.N Lnnn)</b> — ex.: (p.5 L165) ou um intervalo
+  da linha entre parênteses, no formato <b>(p.N Lnnn)</b> - ex.: (p.5 L165) ou um intervalo
   (p.5 L165-170). Trabalhe sozinho, sem IA e sem consultar colegas.
   Ao final, o botão <b>Enviar</b> manda seu fichamento direto para a coordenação
   (se preferir, você também pode baixar o .json e enviar por e-mail).</p>
@@ -176,18 +176,20 @@
 
 <section>
   <h2>2. Identificação</h2>
-  <p class="desc">Seus dados pessoais servem apenas para caracterizar a amostra da
-  pesquisa. Eles NÃO aparecem no fichamento que os juízes avaliam.</p>
+  <p class="desc">Seus dados vêm preenchidos do seu cadastro - confira e corrija
+  o que estiver errado (ou complete o que estiver em branco). Eles servem apenas
+  para caracterizar a amostra da pesquisa e NÃO aparecem no fichamento que os
+  juízes avaliam.</p>
   <div class="row2">
     <div><label class="q">Nome completo</label><input type="text" name="full_name"></div>
     <div><label class="q">Idade (anos)</label><input type="number" name="age" min="16" max="99"></div>
   </div>
   <div class="row2">
     <div><label class="q">Gênero</label>
-      <select name="gender"><option value="">—</option><option>Feminino</option>
+      <select name="gender"><option value="">-</option><option>Feminino</option>
       <option>Masculino</option><option>Outro</option><option>Prefiro não informar</option></select></div>
     <div><label class="q">Programa</label>
-      <select name="program"><option value="">—</option><option>Mestrado</option>
+      <select name="program"><option value="">-</option><option>Mestrado</option>
       <option>Doutorado</option></select></div>
   </div>
   <div class="row2">
@@ -201,16 +203,17 @@
 
 <section>
   <h2>3. Resumo executivo</h2>
-  <label class="q">Resumo executivo<small>Síntese em ~300 palavras: problema, abordagem teórica, método, achados e contribuição. Referências entre parênteses: (p.N Lnnn).</small></label>
-  <details class="desc"><summary><b>Ver texto-modelo</b> (exemplo de formato, de outro artigo — o conteúdo é ilustrativo)</summary>
+  <label class="q">Resumo executivo<small>Síntese de até 300 palavras: problema, abordagem teórica, método, achados e contribuição. Referências entre parênteses: (p.N Lnnn).</small></label>
+  <details class="desc"><summary><b>Ver texto-modelo</b> (exemplo de formato, de outro artigo - o conteúdo é ilustrativo)</summary>
   <p style="white-space:pre-line">O artigo investiga como se dá a prática de planejamento estratégico em uma empresa organizada por projetos, contexto em que a teoria contingencial levaria a esperar tomada de decisão pouco estruturada, próxima de uma adhocracia (p.3 L070-73). A questão de fundo, não enunciada como pergunta explícita, é reconstruível a partir do objetivo: observar a formulação e implementação do planejamento em um contexto improvável para mecanismos formais.
 
 Guiado pela abordagem de estratégia como prática e pela teoria da estruturação (Giddens), o estudo adota caso único e exploratório (p.8 L334-340), justificado pela profundidade que o método permite (p.8 L349-353). Os dados combinam 16 entrevistas com 15 profissionais (cerca de 20 horas de gravação, amostragem oportunista), documentos e observação (p.8 L371-375; p.9 L384-390), analisados com apoio de software qualitativo (p.10 L511).
 
 Contrariando a expectativa teórica, o caso mostra fases sucessivas de formalização do planejamento ao longo da história da empresa e a permanência de mecanismos formais como componentes recursivos da prática, mesmo quando processos emergentes e flexíveis dominavam (p.3 L074-80; p.17 L1003-1010). A leitura pela estruturação interpreta o planejamento como modalidade que se reestrutura na interação dos agentes (p.17 L1011-1012).
 
-A contribuição teórica é dupla: evidencia estruturação do planejamento em contexto não previsto pelas análises contingenciais (p.19 L1093-1100) e ilustra como profissionais negociam o processo — disputa interna e agência raramente observadas na literatura (p.19 L1108-1113). Na prática, o artigo sugere que esforços de mudança mal avaliados no curto prazo podem deixar diferenças estruturais relevantes no longo prazo (p.19 L1114-1118).</p></details>
+A contribuição teórica é dupla: evidencia estruturação do planejamento em contexto não previsto pelas análises contingenciais (p.19 L1093-1100) e ilustra como profissionais negociam o processo - disputa interna e agência raramente observadas na literatura (p.19 L1108-1113). Na prática, o artigo sugere que esforços de mudança mal avaliados no curto prazo podem deixar diferenças estruturais relevantes no longo prazo (p.19 L1114-1118).</p></details>
   <textarea name="executive_summary"></textarea>
+  <p class="hint" id="wc"><span id="wcN">0</span>/300 palavras</p>
 </section>
 
 <section>
@@ -231,15 +234,15 @@ Marcou USA ou DISCUTE? Então indique onde está no artigo: referência (p.N Lnn
 e, idealmente, o trecho literal.
 
 Atenção: teoria só citada na revisão de literatura, sem retomada na análise,
-NÃO é DISCUTE — é NÃO USA.</p>
+NÃO é DISCUTE - é NÃO USA.</p>
   <div id="theories"><p class="hint">Carregando suas teorias…</p></div>
-  <label class="q">Teorias fora da lista (opcional)<small>O artigo usa ou discute alguma teoria que NÃO está na lista? Uma por linha: nome — tradição — uses ou discusses — (p.N Lnnn). A lista foi montada antes da sua leitura e pode não cobrir tudo: encontrar o que faltou conta pontos a seu favor.</small></label>
+  <label class="q">Teorias fora da lista (opcional)<small>O artigo usa ou discute alguma teoria que NÃO está na lista? Uma por linha: nome - tradição - uses ou discusses - (p.N Lnnn). A lista foi montada antes da sua leitura e pode não cobrir tudo: encontrar o que faltou conta pontos a seu favor.</small></label>
   <textarea name="extra_theories" class="short"></textarea>
 </section>
 
 <section>
   <h2>6. Conceitos-chave</h2>
-  <p class="desc">Liste os conceitos centrais do artigo (mínimo 1 — adicione mais se o
+  <p class="desc">Liste os conceitos centrais do artigo (mínimo 1 - adicione mais se o
   artigo pedir): os construtos sem os quais o argumento não se sustenta. Para cada um:
   o nome e como o artigo o define ou usa; se puder, inclua a evidência no próprio texto
   (p.N Lnnn) e o trecho literal.</p>
@@ -251,7 +254,7 @@ NÃO é DISCUTE — é NÃO USA.</p>
   <h2>7. Metodologia</h2>
   <div class="row3">
     <div><label class="q">Tipo de estudo</label>
-      <select name="m_study"><option value="">—</option>
+      <select name="m_study"><option value="">-</option>
       <option value="empírico">Empírico (coleta/analisa dados)</option>
       <option value="teórico">Teórico / conceitual</option>
       <option value="revisão">Revisão de literatura</option>
@@ -259,7 +262,7 @@ NÃO é DISCUTE — é NÃO USA.</p>
       <option value="outro">Outro</option></select></div>
     <div><label class="q">Delineamento<small>ex.: estudo de caso único exploratório</small></label>
       <input type="text" name="m_design"></div>
-    <div><label class="q">Referência<small>opcional — (p.N Lnnn) da seção de método</small></label>
+    <div><label class="q">Referência<small>opcional - (p.N Lnnn) da seção de método</small></label>
       <input type="text" name="m_refs"></div>
   </div>
   <div class="row3">
@@ -282,7 +285,7 @@ NÃO é DISCUTE — é NÃO USA.</p>
 
 <section>
   <h2>8. Achados principais</h2>
-  <p class="desc">Liste os achados principais do artigo (mínimo 1 — adicione mais se
+  <p class="desc">Liste os achados principais do artigo (mínimo 1 - adicione mais se
   precisar), com suas palavras. Classifique cada um: empírico (veio dos dados),
   proposição (afirmação proposta para teste futuro) ou modelo (framework/figura que
   organiza o argumento). Se puder, indique onde está (p.N Lnnn).</p>
@@ -303,7 +306,7 @@ NÃO é DISCUTE — é NÃO USA.</p>
 <section>
   <h2>10. Auto-avaliação</h2>
   <p class="desc">Avalie o SEU fichamento com a MESMA régua dos juízes (BARS 1–7, âncoras
-  em 1 / 4 / 7; notas intermediárias interpolam). Seja honesto — a pesquisa mede a
+  em 1 / 4 / 7; notas intermediárias interpolam). Seja honesto - a pesquisa mede a
   diferença entre a sua auto-nota e a nota dos juízes. Não será mostrado a eles.
 
   Regra geral: a fidelidade limita a nota. Conteúdo inventado, extrapolado ou
@@ -344,7 +347,7 @@ NÃO é DISCUTE — é NÃO USA.</p>
     <span class="check"><svg class="icon" viewBox="0 0 24 24" style="width:34px;height:34px"><path d="M20 6L9 17l-5-5"/></svg></span>
     <h2>Fichamento enviado!</h2>
     <p id="doneMsg"></p>
-    <p>Obrigado pela participação — você já pode fechar esta página.</p>
+    <p>Obrigado pela participação - você já pode fechar esta página.</p>
   </div>
 </div>
 </div>
@@ -362,16 +365,26 @@ const showErr=t=>{const e=document.getElementById('errors');
     +'recebeu por e-mail da coordenação.');return;}
   try{const r=await fetch(`students/${encodeURIComponent(_tok)}.json`);
     if(!r.ok)throw 0;PACK=await r.json();}
-  catch{showErr('Link inválido ou pacote não encontrado — confira o endereço '
+  catch{showErr('Link inválido ou pacote não encontrado - confira o endereço '
     +'ou fale com a coordenação.');return;}
   POOL=PACK.pool||[];
   document.querySelector('[name=participant_id]').value=PACK.participant_id||'';
   document.querySelector('[name=article_id]').value=PACK.article_id||'';
   document.getElementById('artinfo').textContent=
     [PACK.title,PACK.authors,PACK.year,PACK.venue].filter(Boolean).join(' · ');
+  ['full_name','age','gender','program'].forEach(n=>{
+    const v=PACK[n];if(v!=null&&String(v).trim()!=='')
+      document.querySelector(`[name=${n}]`).value=v;});
   renderTheories();
   submitBtn.disabled=false;
 })();
+
+// contador de palavras do resumo executivo (teto 300)
+const _es=document.querySelector('[name=executive_summary]');
+_es.addEventListener('input',()=>{
+  const n=_es.value.trim().split(/\s+/).filter(Boolean).length;
+  document.getElementById('wcN').textContent=n;
+  document.getElementById('wc').style.color=n>300?'var(--err)':'';});
 
 // TCLE gate: aceite troca de tela (termo some, form aparece)
 document.querySelectorAll('input[name=tcle]').forEach(r=>
@@ -388,7 +401,7 @@ const td=document.getElementById('theories');
 function renderTheories(){
   td.innerHTML=POOL.map(t=>`
   <div class="theory">
-    <div class="tname">${t.item_id} — ${t.name}</div>
+    <div class="tname">${t.item_id} - ${t.name}</div>
     <div class="tdef">${t.authors||''}</div>
     <div class="radios">
       <label><input type="radio" name="v_${t.item_id}" value="uses"> USA</label>
@@ -444,7 +457,7 @@ const addFinding=()=>{if(findings.children.length>=8)return;seqF++;
     <label class="q">Achado / proposição</label><textarea name="f${seqF}_f" class="short"></textarea>
     <div class="row2">
       <div><label class="q">Tipo</label>
-        <select name="f${seqF}_t"><option value="">—</option>
+        <select name="f${seqF}_t"><option value="">-</option>
         <option value="empirical">Empírico (veio dos dados)</option>
         <option value="proposition">Proposição (a testar)</option>
         <option value="model">Modelo / framework</option></select></div>
@@ -468,7 +481,7 @@ const ANCHORS={
 executive_summary:{a1:'Ausente, genérico a ponto de valer para qualquer artigo, ou contradiz o artigo',
   a4:'Cobre problema, método e resultado centrais, mas perde nuances ou omite partes importantes, ou é colagem de trechos literais em vez de síntese elaborada',
   a7:'Síntese fiel e completa (~300 palavras), com elaboração própria: problema, método, achados e contribuição; quem lê entende o artigo sem abrir o PDF'},
-research_question:{a1:'Ausente ou errada (não é a pergunta do artigo) — inclui inventar uma questão explícita que o artigo não enuncia',
+research_question:{a1:'Ausente ou errada (não é a pergunta do artigo) - inclui inventar uma questão explícita que o artigo não enuncia',
   a4:'Correta mas imprecisa: ampla demais, captura só parte, ou copia o objetivo declarado quando a questão real é outra',
   a7:'Formula precisamente a pergunta do artigo, no escopo correto; se implícita, reconstruí-la a partir do objetivo/argumento/conclusão e sinalizar que é implícita conta como precisão'},
 theories:{a1:'Teorias centrais ausentes ou inventadas',
@@ -484,7 +497,7 @@ main_findings:{a1:'Achados inventados, invertidos ou que o artigo não sustenta'
   a4:'Achados corretos mas incompletos, ou sem distinguir evidência de especulação',
   a7:'Captura todos os achados/proposições centrais, distinguindo empírico de proposição/modelo'},
 contribution:{a1:'Ausente ou não corresponde ao que o artigo reivindica/entrega',
-  a4:'Identifica contribuição real mas superficial (repete o abstract) ou a infla — inflar mantém a nota em 4',
+  a4:'Identifica contribuição real mas superficial (repete o abstract) ou a infla - inflar mantém a nota em 4',
   a7:'Articula avanço teórico e utilidade prática com a força que o artigo sustenta: nem repete a retórica inflada do próprio artigo, nem infla, nem reduz'}};
 document.getElementById('selfass').innerHTML=SECS.map(s=>`
   <div class="slot"><h3>${PT[s]}</h3>
@@ -498,7 +511,7 @@ const REF=/\(p\.\d+(?:-\d+)?(?:[\/ ]L\d+(?:-\d+)?)?\)|\(L\d+(?:-\d+)?\)/;
 const g=n=>document.querySelector(`[name=${n}]`)?.value.trim()||'';
 const parseEv=t=>{const refs=[...(t.match(/p\.\d+(?:-\d+)?(?:[\/ ]L\d+(?:-\d+)?)?|L\d+(?:-\d+)?/g)||[])];
   const quote=t.replace(/p\.\d+(?:-\d+)?(?:[\/ ]L\d+(?:-\d+)?)?|L\d+(?:-\d+)?/g,'')
-    .replace(/[()\[\];,\-—]/g,' ').replace(/\s+/g,' ').trim();
+    .replace(/[()\[\];,\-\u2014]/g,' ').replace(/\s+/g,' ').trim();
   return{refs,quote};};
 
 document.getElementById('f').addEventListener('submit',async e=>{
@@ -526,7 +539,7 @@ document.getElementById('f').addEventListener('submit',async e=>{
   const extra=[];
   g('extra_theories').split('\n').forEach(l=>{
     if(!l.trim())return;
-    const p=l.split(/—|;/).map(x=>x.trim()).filter(Boolean);
+    const p=l.split(/\s+[-\u2014]\s+|\s*;\s*/).map(x=>x.trim()).filter(Boolean);
     const{refs}=parseEv(l);
     extra.push({name:p[0]||'',tradition:p[1]||'',role:(p[2]||'').toLowerCase(),source_refs:refs});
   });
@@ -611,8 +624,8 @@ document.getElementById('f').addEventListener('submit',async e=>{
   }catch{
     baixar();
     okb.textContent=location.protocol==='file:'
-      ?`Você está testando o arquivo local — o envio só funciona no link publicado. Baixamos ${fname} para conferir o conteúdo.`
-      :`O envio automático falhou. Baixamos o arquivo ${fname} para você — envie-o EM ANEXO por e-mail à coordenação.`;
+      ?`Você está testando o arquivo local - o envio só funciona no link publicado. Baixamos ${fname} para conferir o conteúdo.`
+      :`O envio automático falhou. Baixamos o arquivo ${fname} para você - envie-o EM ANEXO por e-mail à coordenação.`;
     okb.style.display='block';window.scrollTo({top:0,behavior:'smooth'});
   }
 });

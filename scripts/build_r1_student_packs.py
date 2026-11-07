@@ -40,8 +40,8 @@ SEED = 20261107
 def load() -> tuple[dict, dict, dict, dict]:
     build = json.loads((PRIV / "r1-pool-build.json").read_text())
     assign = json.loads((PRIV / "assignments-round1.json").read_text())
-    names = {
-        r["participant_id"]: r["name"]
+    people = {
+        r["participant_id"]: r
         for r in csv.DictReader((PRIV / "participants.csv").read_text().splitlines())
     }
     registry = {}
@@ -49,7 +49,7 @@ def load() -> tuple[dict, dict, dict, dict]:
         if line.strip():
             e = json.loads(line)
             registry[e["article_id"]] = e
-    return build, assign, names, registry
+    return build, assign, people, registry
 
 
 def md_sha(article_id: str) -> str:
@@ -62,7 +62,7 @@ def authors_str(entry: dict) -> str:
 
 
 def main() -> None:
-    build, assign, names, registry = load()
+    build, assign, people, registry = load()
     rng = random.Random(SEED)
     now = datetime.now(timezone.utc).isoformat()
 
@@ -160,6 +160,7 @@ def main() -> None:
     for ent in sorted(assign["entries"], key=lambda e: e["student_id"]):
         sid, art = ent["student_id"], ent["article_id"]
         reg = registry[art]
+        person = people.get(sid, {})
         tok = new_token()
         pack = {
             "participant_id": sid,
@@ -169,6 +170,10 @@ def main() -> None:
             "authors": authors_str(reg),
             "year": reg.get("year"),
             "venue": reg.get("venue", ""),
+            "full_name": person.get("name", ""),
+            "age": person.get("age", ""),
+            "gender": person.get("gender", ""),
+            "program": person.get("program", ""),
             "pool": pools[art],
         }
         (students_dir / f"{tok}.json").write_text(
@@ -177,7 +182,7 @@ def main() -> None:
         links["students"].append(
             {
                 "participant_id": sid,
-                "name": names.get(sid, "?"),
+                "name": person.get("name", "?"),
                 "article_id": art,
                 "token": tok,
                 "url": f"{BASE_URL}/r1/?s={tok}",
