@@ -1,17 +1,16 @@
-# Instruções aos estudantes (fichamento manual)
+# Instruções aos estudantes — fichamento manual (v2 · Rodada 1)
 
-Você receberá, para cada artigo atribuído (IDs `A01…`; no piloto, o
-`artigo-piloto`):
+Você recebeu por e-mail:
 
-1. O **PDF numerado do artigo** (`*-numerado.pdf`) — o artigo original
-   aparece ao centro da página e cada linha de texto tem um rótulo na
-   margem esquerda no formato **`p.N Lnnn`** (página + número de linha
-   global). Quando linhas ficam muito juntas (tabelas, figuras), o rótulo
-   mostra um intervalo (`p.15 L846-857`).
-2. O **link do formulário** —
-   `https://ai-human-fichamento-protocol-form-s.vercel.app/` — onde você
-   preencherá e enviará o fichamento. O pool de teorias candidatas já vem
-   embutido nele.
+1. O **PDF numerado do seu artigo** (`A{nn}-numerado.pdf`) — o artigo
+   original aparece ao centro da página e cada linha de texto tem um
+   rótulo na margem, no formato **`p.N Lnnn`** (página + número de linha
+   global). Em artigos de duas colunas, a coluna da direita é rotulada na
+   **margem direita**; em páginas muito densas (tabelas), os rótulos
+   aparecem em duas colunas na mesma margem, intercalados.
+2. O **seu link pessoal do formulário** — `…/r1/?s=XXXXX`. Ele é
+   individual e intransferível: ao abrir, o formulário já sabe quem você
+   é e qual é o seu artigo. Não compartilhe o link.
 
 > **Por que o PDF é numerado?** A IA que produzirá o fichamento rival
 > lê o artigo com a mesma numeração `p.N Lnnn`. Citar dessa forma garante
@@ -20,10 +19,19 @@ Você receberá, para cada artigo atribuído (IDs `A01…`; no piloto, o
 
 ## Antes de começar
 
-Ao abrir o formulário, a **primeira tela é o Termo de Consentimento
-(TCLE)**. Leia por completo e marque *"Li e aceito participar"* — só
-então o formulário aparece. Se preferir não participar, marque a outra
-opção e avise a coordenação (não há qualquer prejuízo).
+- Ao abrir o formulário, a **primeira tela é o Termo de Consentimento
+  (TCLE)**. Leia por completo e marque *"Li e aceito participar"* — só
+  então o formulário aparece. Se preferir não participar, marque a outra
+  opção e avise a coordenação (não há qualquer prejuízo).
+- A seção **Identificação** já vem preenchida com os seus dados de
+  cadastro e **não pode ser alterada** no formulário — eles servem só
+  para caracterizar a amostra e não aparecem para os juízes. Se algo
+  estiver errado ou em branco, escreva para a coordenação antes de
+  enviar.
+- **Seu trabalho fica salvo automaticamente no seu navegador** — você
+  pode fechar, dar F5 e voltar pelo mesmo link que tudo continua lá.
+  Atenção: o rascunho é por navegador, então comece e termine no mesmo
+  dispositivo.
 
 ## Como fichar
 
@@ -47,6 +55,14 @@ Não basta dizer a página quando a afirmação vem de uma linha ou trecho —
 o juiz vai conferir suas referências no mesmo PDF numerado. As
 referências são importantes, mas a falta delas **não bloqueia** o envio.
 
+### Resumo executivo — até 300 palavras
+
+Síntese com suas palavras cobrindo problema, abordagem teórica, método,
+achados e contribuição, com referências entre parênteses. O formulário
+mostra um **texto-modelo** (de outro artigo, só como exemplo de formato)
+e um **contador de palavras** embaixo do campo — ele fica vermelho se
+passar de 300.
+
 ### Seção de teorias (instrumento fechado)
 
 O formulário lista as **teorias candidatas** (T1, T2…) com nome e
@@ -60,6 +76,9 @@ autores. Para **cada uma**, escolha um veredito:
 
 - Em dúvida entre **USA** e **DISCUTE**, pergunte: *"remover esta teoria
   quebraria o argumento do artigo?"* Se sim → **USA**.
+- **Atenção:** teoria só citada na revisão de literatura, sem retomada
+  na análise, **não é DISCUTE — é NÃO USA**. O que conta é o papel que
+  ela cumpre no argumento, não o fato de aparecer no texto.
 - **Faltou teoria no pool?** Pode acontecer — a lista foi montada antes
   da leitura e não cobre tudo. Se o artigo **usa ou discute** uma teoria
   não listada, registre-a no campo de "outras teorias", com nome e
@@ -72,20 +91,21 @@ Livres, conforme o formulário. Em conceitos e achados, **cite linha**
 (`p.N Lnnn`) junto do texto e inclua o trecho literal quando possível —
 os juízes podem conferir diretamente no PDF numerado.
 
-No **resumo executivo**, o formulário mostra um **texto-modelo completo
-do artigo-piloto** como referência do que a seção espera (problema,
-método, achados e contribuição, com referências entre parênteses) —
-leia-o antes de escrever o seu.
-
 ## Depois de terminar o fichamento — meta-avaliação e log
 
-Dois blocos finais, **respondidos por você sobre o seu próprio
+Três blocos finais, **respondidos por você sobre o seu próprio
 trabalho** (não são mostrados aos juízes):
 
 1. **Auto-avaliação** — sua nota **1–7 em cada uma das 7 seções**, usando
    as mesmas âncoras que os juízes usarão (elas aparecem em cada seção).
    Seja honesto: o objetivo é medir o quanto cada pessoa consegue avaliar
    a própria produção — o gap entre a sua nota e a do juiz é o dado.
+
+   **Regra geral da régua (vale para você e para os juízes):** a
+   fidelidade limita a nota. Uma seção com conteúdo inventado,
+   extrapolado ou copiado literalmente do artigo **não passa de 4**, por
+   mais completa que pareça.
+
 2. **Registro reflexivo** — quatro respostas curtas e sinceras sobre as
    dificuldades e barreiras da tarefa:
    - *Quais dificuldades ou barreiras você encontrou com o artigo e o
@@ -104,23 +124,19 @@ trabalho** (não são mostrados aos juízes):
 
 ## Enviando
 
-Clique em **"Enviar meu fichamento"** — o formulário transmite suas
-respostas diretamente à coordenação, em formato já auditável. A tela
-final confirma o envio.
-
-Se o envio automático falhar, o formulário **baixa um arquivo `.json`**
+Clique em **"Enviar meu fichamento"**. Se o envio automático não estiver
+disponível, o formulário **baixa automaticamente um arquivo `.json`**
 com tudo preenchido — nesse caso, **anexe esse arquivo a um e-mail**
-para a coordenação.
+para a coordenação. O nome do arquivo já sai no formato certo; não o
+renomeie nem edite o conteúdo.
 
-## A fase piloto
+## Sobre as rodadas
 
-A primeira atividade é um **piloto**: todos os estudantes ficham o mesmo
-artigo (o `artigo-piloto`, fora do corpus do estudo). Depois, **um
-fichamento será sorteado** (com seed registrada) e os juízes o avaliarão
-para **calibrar as âncoras da rubrica** — a régua final sai dessa
-calibração e fica congelada para as rodadas oficiais. Ou seja: seu
-fichamento do piloto conta para a pesquisa *e* define a qualidade da
-régua.
+O estudo tem **duas rodadas**: em cada uma você ficha **um artigo**,
+sempre pelo link pessoal enviado por e-mail (o link da Rodada 2 chega
+depois, com o artigo correspondente). Seu fichamento é comparado, às
+cegas, com um fichamento do mesmo artigo produzido por IA — os juízes
+não sabem qual é qual, e você não deve tentar adivinhar.
 
 ## Regras
 
@@ -130,6 +146,8 @@ régua.
 - Não use IA para ler ou fichar o artigo — o objeto de estudo é
   justamente o fichamento humano. Se algo escapar a essa regra, declare
   na última pergunta reflexiva.
+- Trabalhe sempre pelo **seu link**, no **mesmo navegador**, para o
+  rascunho automático funcionar.
 
 ## Após a Rodada 1
 
