@@ -1,19 +1,19 @@
 {
-  "_LEIA-ME": "Preencha os campos. Teorias: marque os vereditos do pool recebido em 'theory_verdicts'; use 'theories' APENAS para teorias que o artigo usa/discute e NÃO estavam no pool. Veredito 'usa'/'discute' EXIGE source_refs (p.N ou p.N/Lnn). Apague este campo _LEIA-ME antes de entregar.",
-  "executive_summary": "Síntese em ~300 palavras: problema, teoria, método, achados, contribuição.",
+  "_LEIA-ME": "Preencha os campos. 'executive_summary' traz um TEXTO MODELO do artigo-piloto mostrando o que a seção espera (problema, método, achados, contribuição, com refs entre parênteses) — substitua pelo SEU resumo do artigo atribuído. Teorias: marque os vereditos do pool recebido em 'theory_verdicts'; use 'theories' APENAS para teorias que o artigo usa/discute e NÃO estavam no pool. Veredito 'uses'/'discusses' EXIGE source_refs. No texto, refs SEMPRE entre parênteses '(p.N Lnnn)'; em 'source_refs', o mesmo identificador SEM parênteses. 'self_assessment': sua nota BARS 1-7 por seção (Módulo A). 'reflection_log': responda q1-q4 (Módulo D). 'elapsed_minutes': sua estimativa de tempo total (ler + fichar), no final. Apague este campo _LEIA-ME antes de entregar.",
+  "executive_summary": "TEXTO MODELO (do artigo-piloto — substitua pelo seu): O artigo investiga como se dá a prática de planejamento estratégico em uma empresa organizada por projetos, contexto em que a teoria contingencial levaria a esperar tomada de decisão pouco estruturada, próxima de uma adhocracia (p.3 L070-73). A questão de fundo, não enunciada como pergunta explícita, é reconstruível a partir do objetivo: observar a formulação e implementação do planejamento em um contexto improvável para mecanismos formais. Guiado pela abordagem de estratégia como prática e pela teoria da estruturação (Giddens), o estudo adota caso único e exploratório (p.8 L334-340), justificado pela profundidade que o método permite (p.8 L349-353). Os dados combinam 16 entrevistas com 15 profissionais (cerca de 20 horas de gravação, amostragem oportunista), documentos e observação (p.8 L371-375; p.9 L384-390), analisados com apoio de software qualitativo (p.10 L511). Contrariando a expectativa teórica, o caso mostra fases sucessivas de formalização do planejamento ao longo da história da empresa e a permanência de mecanismos formais como componentes recursivos da prática, mesmo quando processos emergentes e flexíveis dominavam (p.3 L074-80; p.17 L1003-1010). A leitura pela estruturação interpreta o planejamento como modalidade que se reestrutura na interação dos agentes (p.17 L1011-1012). A contribuição teórica é dupla: evidencia estruturação do planejamento em contexto não previsto pelas análises contingenciais (p.19 L1093-1100) e ilustra como profissionais negociam o processo — disputa interna e agência raramente observadas na literatura (p.19 L1108-1113). Na prática, o artigo sugere que esforços de mudança mal avaliados no curto prazo podem deixar diferenças estruturais relevantes no longo prazo (p.19 L1114-1118).",
   "research_question": "A pergunta que o artigo busca responder.",
   "theory_verdicts": [
     {
       "item_id": "T1",
-      "name": "Resource-Based View",
+      "name": "Abordagem contingencial da estratégia",
       "verdict": "uses",
-      "source_refs": ["p.2/L01", "L161-180"],
+      "source_refs": ["p.3 L54-58", "p.17 L991-995"],
       "quote": "trecho literal opcional",
       "note": "opcional"
     },
     {
       "item_id": "T2",
-      "name": "Stakeholder Theory",
+      "name": "Capacidades dinâmicas",
       "verdict": "does_not_use",
       "source_refs": [],
       "quote": "",
@@ -24,8 +24,8 @@
     {
       "name": "Teoria que você identificou e NÃO estava no pool",
       "tradition": "tradição/campo",
-      "role": "usa | discute",
-      "source_refs": ["p.N/Lnn"]
+      "role": "uses | discusses",
+      "source_refs": ["p.N Lnnn"]
     }
   ],
   "key_concepts": [
@@ -33,19 +33,19 @@
       "concept": "Construto 1",
       "definition": "Como o artigo define/usa",
       "quote": "trecho literal do artigo (recomendado)",
-      "source_refs": ["p.4/L02"]
+      "source_refs": ["p.6 L264-266"]
     },
     {
       "concept": "Construto 2",
       "definition": "...",
       "quote": "",
-      "source_refs": ["p.5"]
+      "source_refs": ["p.7 L285-292"]
     },
     {
       "concept": "Construto 3",
       "definition": "...",
       "quote": "",
-      "source_refs": ["p.6"]
+      "source_refs": ["p.7 L293-300"]
     }
   ],
   "methodology": {
@@ -55,20 +55,36 @@
     "sample_size": 214,
     "sector": "setor/indústria dos dados",
     "period": "período dos dados",
-    "methods": ["SEM", "análise temática"],
+    "methods": ["entrevistas semiestruturadas", "análise documental", "observação direta"],
     "analysis_note": "descrição livre do método de análise, se necessário",
-    "source_refs": ["p.8/L01"]
+    "source_refs": ["p.8 L333-377"]
   },
   "main_findings": [
     {
       "finding": "Achado ou proposição central",
       "type": "empirical | proposition | model",
       "quote": "trecho literal que evidencia o achado (recomendado)",
-      "source_refs": ["p.10/L20"]
+      "source_refs": ["p.17 L1018-1025"]
     }
   ],
   "contribution": {
     "theoretical": "Avanço teórico que o artigo entrega",
     "practical": "Utilidade prática"
-  }
+  },
+  "self_assessment": {
+    "executive_summary": 4,
+    "research_question": 4,
+    "theories": 4,
+    "key_concepts": 4,
+    "methodology": 4,
+    "main_findings": 4,
+    "contribution": 4
+  },
+  "reflection_log": {
+    "q1": "Quais dificuldades ou barreiras você encontrou com o artigo e o tema, o conteúdo que leu?",
+    "q2": "Quais dificuldades ou barreiras você encontrou com o formato da pesquisa, o instrumento (formulário, PDF numerado, vereditos, referências p.N Lnnn)?",
+    "q3": "Se você fosse refazer este fichamento, o que mudaria na sua abordagem?",
+    "q4": "Você usou alguma ferramenta de IA ou auxílio externo para ler ou fichar? Se sim, qual e como?"
+  },
+  "elapsed_minutes": 0
 }

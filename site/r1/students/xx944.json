@@ -1,0 +1,51 @@
+{
+  "participant_id": "S08",
+  "article_id": "A04",
+  "round": 1,
+  "title": "Organizational Strategy, Structure, and Process",
+  "authors": "Raymond E. Miles; Charles C. Snow; Alan D. Meyer; Henry J. Coleman Jr.",
+  "year": 1978,
+  "venue": "Academy of Management Review 3(3), 546-562",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Abordagem da escolha estratégica",
+      "authors": "Chandler; Child; Cyert & March; Drucker; Thompson; Weick"
+    },
+    {
+      "item_id": "T2",
+      "name": "Teorias da administração: Tradicional, Relações Humanas e Recursos Humanos",
+      "authors": "Miles (1975)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria institucional",
+      "authors": "Selznick; DiMaggio & Powell; Meyer & Rowan"
+    },
+    {
+      "item_id": "T4",
+      "name": "Modelo mecanicista vs. orgânico",
+      "authors": "Burns & Stalker (1961)"
+    },
+    {
+      "item_id": "T5",
+      "name": "Teoria contingencial da administração",
+      "authors": "Lawrence & Lorsch; Thompson"
+    },
+    {
+      "item_id": "T6",
+      "name": "Visão baseada em recursos (RBV)",
+      "authors": "Wernerfelt; Barney"
+    },
+    {
+      "item_id": "T7",
+      "name": "Tecnologia de produção",
+      "authors": "Woodward (1965)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Tipologias correlatas de comportamento organizacional",
+      "authors": "autores diversos (refs. 1, 2, 3, 15-17)"
+    }
+  ]
+}

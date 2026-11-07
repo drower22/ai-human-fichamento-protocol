@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A01",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "ad6e12275449402f0a5b1f1409c34c35f8cd7a55aafceeb8060e97501468c84f"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Open strategy (estratégia aberta)",
+      "definition": "Lente sobre a abertura do processo estratégico a mais atores: transparência e inclusão como pilares, com dilemas associados.",
+      "tradition": "estratégia / abertura e transparência",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Teoria institucional",
+      "definition": "Perspectiva sobre como pressões institucionais e processos de institucionalização moldam práticas e estruturas organizacionais.",
+      "tradition": "sociologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Ética das virtudes aplicada à estratégia",
+      "definition": "Abordagem ética centrada no caráter e nas virtudes do agente, aplicada por Tsoukas às organizações e à estratégia.",
+      "tradition": "filosofia / ética organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Teoria ator-rede",
+      "definition": "Abordagem relacional que trata humanos e não-humanos como atores em rede, dissolvendo a divisão sujeito-objeto.",
+      "tradition": "sociologia da ciência / STS",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Perspectiva prática / práticas sociais da estratégia",
+      "definition": "Entende a estratégia como atividade situada e socialmente efetivada — o 'fazer' dos estrategistas no cotidiano.",
+      "tradition": "virada prática / estudos de estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Perspectiva dialógica da open strategy",
+      "definition": "Vertente da open strategy que trata a abertura como construída dialogicamente, entre vozes e audiências.",
+      "tradition": "estratégia / discurso",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Teoria dos movimentos sociais",
+      "definition": "Corpo teórico sobre ação coletiva, mobilização e pressão social sobre organizações e instituições.",
+      "tradition": "sociologia política",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Contextos extremos (extreme contexts)",
+      "definition": "Perspectiva sobre organizações em ambientes onde eventos extremos podem ocorrer — risco físico ou psicológico severo.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Teoria da identidade social",
+      "definition": "Explica comportamento intergrupal pela necessidade de os indivíduos se classificarem em grupos e derivarem identidade deles.",
+      "tradition": "psicologia social",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Legitimidade organizacional e gerenciamento de impressões",
+      "definition": "Conjunto sobre como organizações buscam aprovação social e gerenciam percepções de stakeholders.",
+      "tradition": "teoria organizacional / institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Amor mundi / ética multinível",
+      "definition": "Conceito arendtiano de 'amor ao mundo' como cuidado pelo espaço comum, base de uma ética multinível.",
+      "tradition": "filosofia política",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Desenraizamento (uprootedness)",
+      "definition": "Condição de indivíduos/comunidades destituídos de terra, referências e pertencimento.",
+      "tradition": "filosofia / estudos sociais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Mediatização",
+      "definition": "Perspectiva sobre a profunda penetração das mídias nos processos sociais e organizacionais.",
+      "tradition": "estudos de mídia e comunicação",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teoria dos stakeholders",
+      "definition": "Perspectiva de que a firma deve gerir relações com todos os grupos que afeta ou por ela é afetado.",
+      "tradition": "estratégia / ética empresarial",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Sensemaking organizacional",
+      "definition": "Perspectiva sobre como atores constroem sentido plausível e retroativo para eventos ambíguos.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T16",
+      "kind": "theory",
+      "name": "Deontologia kantiana / ética do cuidado",
+      "definition": "Paradigmas éticos alternativos: dever universal (Kant) e ética centrada no cuidado das relações.",
+      "tradition": "filosofia moral",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T17",
+      "kind": "theory",
+      "name": "Teoria de redes organizacionais",
+      "definition": "Perspectiva que explica estruturas e resultados organizacionais por laços e posições em redes.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T18",
+      "kind": "theory",
+      "name": "Open organizing",
+      "definition": "Extensão da abertura da estratégia para o desenho e a governança da organização como um todo.",
+      "tradition": "estratégia / organização aberta",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

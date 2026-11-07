@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A14",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "2d4a9ab8b8491d0c0defb4e5d8c2ec4c7ed68ffe8c8fd3d35cf0312fcfa22270"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Framework de riscos de internacionalização (intercultural, cambial, país, comercial)",
+      "definition": "Classificação dos riscos da internacionalização em quatro dimensões.",
+      "tradition": "negócios internacionais / risco",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Modelo de Uppsala de internacionalização gradual",
+      "definition": "Modelo de entrada internacional incremental por experiência acumulada, com distância psíquica.",
+      "tradition": "negócios internacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Teoria institucional / visão baseada em instituições",
+      "definition": "Visão de que pressões regulatórias, normativas e cultural-cognitivas explicam barreiras e facilitadores.",
+      "tradition": "sociologia organizacional / IB",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Teoria dos custos de transação",
+      "definition": "Framework que explica formas de governança (mercado vs. hierarquia) pelos custos de transação.",
+      "tradition": "economia institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Classificação de serviços hard/soft e firmas de serviços profissionais (PSFs)",
+      "definition": "Distinção entre serviços separáveis do produtor (hard) e inseparáveis (soft), e tipologia de PSFs.",
+      "tradition": "marketing/IB de serviços",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Born global",
+      "definition": "Abordagem de empresas que internacionalizam desde o nascimento ou logo após.",
+      "tradition": "negócios internacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Estratégia follow-the-client das PSFs",
+      "definition": "Tese de que firmas de serviços profissionais seguem clientes a novos mercados e formam parcerias.",
+      "tradition": "IB / serviços profissionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Paradigma eclético (OLI)",
+      "definition": "Framework que explica a produção internacional por vantagens de propriedade, localização e internalização.",
+      "tradition": "negócios internacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Conceito de risco em negócios internacionais",
+      "definition": "Definições de risco como consequência potencial de decisões com probabilidade de perdas extremas.",
+      "tradition": "negócios internacionais / risco",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Confiança interorganizacional",
+      "definition": "Papel da confiança na mitigação de riscos em relações de negócios internacionais.",
+      "tradition": "relações interorganizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Liability of foreignness e outsidership",
+      "definition": "Custos adicionais de operar no exterior por estranheza e por estigmas de país de origem.",
+      "tradition": "negócios internacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Teoria de redes",
+      "definition": "Perspectiva de que alianças e posições em redes moldam a internacionalização e a mitigação de riscos.",
+      "tradition": "negócios internacionais / redes",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

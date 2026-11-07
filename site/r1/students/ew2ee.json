@@ -1,0 +1,71 @@
+{
+  "participant_id": "S13",
+  "article_id": "A03",
+  "round": 1,
+  "title": "Strategic Responses to Institutional Processes",
+  "authors": "Christine Oliver",
+  "year": 1991,
+  "venue": "Academy of Management Review 16(1), 145-179",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Teoria institucional",
+      "authors": "Selznick; Meyer & Rowan; DiMaggio & Powell"
+    },
+    {
+      "item_id": "T2",
+      "name": "Teoria da dependência de recursos",
+      "authors": "Pfeffer & Salancik (1978)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Legitimidade organizacional (social vs. econômica)",
+      "authors": "Oliver; Dowling & Pfeffer; Suchman"
+    },
+    {
+      "item_id": "T4",
+      "name": "Teoria da agência",
+      "authors": "Jensen & Meckling; Eisenhardt"
+    },
+    {
+      "item_id": "T5",
+      "name": "Isomorfismo institucional",
+      "authors": "DiMaggio & Powell (1983)"
+    },
+    {
+      "item_id": "T6",
+      "name": "Desacoplamento, cerimônia e mito formal",
+      "authors": "Meyer & Rowan (1977)"
+    },
+    {
+      "item_id": "T7",
+      "name": "Cooptação",
+      "authors": "Selznick (1949); Pfeffer (1974)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Visão baseada em recursos (RBV)",
+      "authors": "Wernerfelt; Barney"
+    },
+    {
+      "item_id": "T9",
+      "name": "Modelos político e institucional como complementares",
+      "authors": "DiMaggio (1988)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Discricionariedade gerencial",
+      "authors": "Hambrick & Finkelstein (1987); Pfeffer & Salancik"
+    },
+    {
+      "item_id": "T11",
+      "name": "Construção social da realidade",
+      "authors": "Berger & Luckmann (1967)"
+    },
+    {
+      "item_id": "T12",
+      "name": "Exit, voice and loyalty",
+      "authors": "Hirschman (1970)"
+    }
+  ]
+}

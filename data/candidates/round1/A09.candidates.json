@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A09",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "300bb7466d581c25219896b80d97cec6b4291b6f4dc0411e4a00479a1b4bc671"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Resourcing / recursos em uso",
+      "definition": "Perspectiva de que recursos só ganham valor quando mobilizados em práticas — do potencial ao recurso-em-uso.",
+      "tradition": "estratégia como prática / recursos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Ontologia processual e praxeológica / teoria das práticas",
+      "definition": "Ontologia de que a realidade organizacional evolui continuamente, moldada por ações e interpretações dos atores.",
+      "tradition": "filosofia social / practice theory",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Teoria institucional",
+      "definition": "Perspectiva sobre como pressões institucionais moldam práticas e estruturas organizacionais.",
+      "tradition": "sociologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Abordagem econômica de recursos: RBV, dependência de recursos e capacidades dinâmicas",
+      "definition": "Bloco clássico que enfatiza a natureza estática e qualidades intrínsecas dos recursos.",
+      "tradition": "estratégia / economia de recursos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Estratégia como processo emergente e situado",
+      "definition": "Concepção de estratégia como processo emergente, situado e coletivo.",
+      "tradition": "estratégia / processo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Aprendizagem organizacional",
+      "definition": "Perspectiva sobre como organizações adquirem, interpretam e codificam conhecimento.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Dinâmica de rotinas",
+      "definition": "Corpo sobre como rotinas mudam pela relação entre dimensões ostensiva e performativa.",
+      "tradition": "teoria organizacional / rotinas",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Precarização do trabalho docente na EaD",
+      "definition": "Corpo crítico sobre insegurança laboral e perda de sentido do papel docente na educação a distância.",
+      "tradition": "sociologia do trabalho / educação",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

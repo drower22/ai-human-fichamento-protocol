@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A05",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "5e590b4ad0054da8db6628c2f683cee3acb8ea270e05ac66c250a2ff9bd6140c"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Lógicas institucionais",
+      "definition": "Padrões historicamente constituídos de símbolos culturais e práticas materiais que orientam a ação num campo.",
+      "tradition": "teoria institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Institucionalismo sociológico",
+      "definition": "Vertente do neo-institucionalismo que enfatiza cultura, cognição e legitimidade sobre eficiência.",
+      "tradition": "sociologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Teoria da dependência de recursos",
+      "definition": "Teoria de que organizações dependem de recursos controlados por outros e gerenciam essas dependências.",
+      "tradition": "estratégia / relações organização-ambiente",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Hibridismo de lógicas institucionais",
+      "definition": "Combinação de elementos de lógicas distintas num mesmo campo ou organização, gerando práticas híbridas.",
+      "tradition": "teoria institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Tipo ideal weberiano",
+      "definition": "Construto analítico que exagera traços essenciais de um fenômeno para permitir comparação com casos reais.",
+      "tradition": "sociologia / método comparativo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Teoria crítica da educação (pedagogia crítica)",
+      "definition": "Abordagem que lê a educação como prática política de dominação ou emancipação.",
+      "tradition": "educação / teoria crítica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Mecanismos isomórficos coercitivo, mimético e normativo",
+      "definition": "Três mecanismos pelos quais práticas se difundem e organizações se homogeneizam num campo.",
+      "tradition": "sociologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Abordagens histórica e de escolha racional do institucionalismo",
+      "definition": "Vertentes que explicam instituições por trajetórias históricas ou por cálculo de atores racionais.",
+      "tradition": "ciência política / institucionalismo comparado",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Neoliberalismo",
+      "definition": "Vertente econômica que prioriza livre mercado e participação mínima do Estado.",
+      "tradition": "economia política",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Mudança institucional",
+      "definition": "Abordagem sobre como arranjos institucionais se transformam por conflito de lógicas e ação de atores.",
+      "tradition": "teoria institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Teoria da sociedade em rede",
+      "definition": "Concepção de estrutura social organizada em redes movidas pelas tecnologias de informação.",
+      "tradition": "sociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Tradução de lógicas institucionais",
+      "definition": "Abordagem de como ideias e lógicas são transformadas ao circular entre contextos.",
+      "tradition": "teoria institucional / escandinava",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

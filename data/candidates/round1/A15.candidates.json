@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A15",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "379502ca65d19258bbc0d054467e4c47d1845f46a8e485b8f8918aca9e1263de"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Desempenho organizacional como construto multidimensional (objetivo x subjetivo)",
+      "definition": "Conceituação do desempenho organizacional e a utilidade de medidas subjetivas de TMTs.",
+      "tradition": "estratégia / mensuração",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Teoria da contingência",
+      "definition": "Abordagem de que o arranjo organizacional adequado depende de variáveis de contingência.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Três enquadramentos de eficácia organizacional",
+      "definition": "Três abordagens clássicas para definir e operacionalizar a eficácia/desempenho organizacional.",
+      "tradition": "teoria organizacional / eficácia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Efeitos de indústria sobre a rentabilidade da firma",
+      "definition": "Corpo sobre o quanto a indústria (vs. a firma) prediz a rentabilidade.",
+      "tradition": "estratégia / economia industrial",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Teoria da agência",
+      "definition": "Modela relações principal-agente: conflito de interesses, monitoramento e incentivos.",
+      "tradition": "economia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Créditos idiossincráticos",
+      "definition": "Noção de 'créditos' que legitimam desvios — aplicada ao acesso do pesquisador a dados.",
+      "tradition": "psicologia social / liderança",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Aspirações e desempenho relativo ao desejado",
+      "definition": "Ideia de medir resultados relativamente às aspirações que guiam as ações.",
+      "tradition": "decisão organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Níveis de estratégia: corporativa vs. de negócio",
+      "definition": "Distinção clássica entre estratégia corporativa (portfólio) e de unidade de negócio (competitiva).",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Equipe de alta gestão (TMT) e decisões estratégicas",
+      "definition": "Corpo sobre a influência da TMT nas decisões estratégicas — usado só como critério de amostragem.",
+      "tradition": "estratégia / alta administração",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Teoria normativa da gestão estratégica baseada em evidência",
+      "definition": "Apelo programático por teoria normativa de estratégia fundada em investigação empírica.",
+      "tradition": "estratégia / agenda do campo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Organização e ambiente",
+      "definition": "Obra clássica sobre diferenciação e integração organizacional — só fonte de item do questionário.",
+      "tradition": "teoria organizacional / contingência",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

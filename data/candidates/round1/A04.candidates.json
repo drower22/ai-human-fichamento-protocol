@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A04",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "baa24f85708b86f4288a273450bfbf4016faedbb057d2394ad653e2509b49d3a"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Abordagem da escolha estratégica",
+      "definition": "Perspectiva de que gestores escolhem ativamente domínios e arranjos, em vez de apenas reagir ao ambiente.",
+      "tradition": "estratégia / teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Teorias da administração: Tradicional, Relações Humanas e Recursos Humanos",
+      "definition": "Esquema de Miles que liga pressupostos sobre atitudes humanas a políticas gerenciais e expectativas de desempenho.",
+      "tradition": "administração / gestão de pessoas",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Teoria institucional",
+      "definition": "Perspectiva sobre como pressões institucionais e mitos racionais moldam estruturas e práticas.",
+      "tradition": "sociologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Modelo mecanicista vs. orgânico",
+      "definition": "Distinção clássica entre sistemas de gestão mecanicistas (estáveis) e orgânicos (adaptativos).",
+      "tradition": "teoria organizacional / estrutura",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Teoria contingencial da administração",
+      "definition": "Abordagem de que não há um melhor modo de organizar: o arranjo adequado depende de variáveis contextuais.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Visão baseada em recursos (RBV)",
+      "definition": "Perspectiva de que a vantagem competitiva advém de recursos internos valiosos, raros e inimitáveis.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Tecnologia de produção",
+      "definition": "Tipologia que relaciona o tipo de tecnologia produtiva (unitária, massa, processo) à estrutura organizacional.",
+      "tradition": "teoria organizacional / tecnologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Tipologias correlatas de comportamento organizacional",
+      "definition": "Outras tipologias de orientação organizacional mencionadas como precedentes da proposta.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

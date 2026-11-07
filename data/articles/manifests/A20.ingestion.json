@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A20",
+  "pdf_path": "data/articles/pdfs/A20.pdf",
+  "pdf_sha256": "43bed783526888fcdf06790086cbb3b2194d8d2cc6bbae0f317ebaf4ec4c5c66",
+  "md_path": "data/articles/markdown/A20.md",
+  "md_sha256": "2598f788d0d3f15fdb8f7214fffbf20b117aba7edc9dcc74d06def406d7b2fb8",
+  "tool": "pymupdf 1.28.2",
+  "ocr_tool": null,
+  "pages_pdf": 10,
+  "pages_extracted": 10,
+  "est_tokens": 11751,
+  "pages": [
+    {
+      "page": 1,
+      "n_lines": 28,
+      "n_chars": 2392,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 2,
+      "n_lines": 98,
+      "n_chars": 4850,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 3,
+      "n_lines": 102,
+      "n_chars": 5193,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 4,
+      "n_lines": 96,
+      "n_chars": 4612,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 5,
+      "n_lines": 101,
+      "n_chars": 5174,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 6,
+      "n_lines": 101,
+      "n_chars": 5070,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 7,
+      "n_lines": 102,
+      "n_chars": 5211,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 8,
+      "n_lines": 93,
+      "n_chars": 4598,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 9,
+      "n_lines": 90,
+      "n_chars": 5355,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 10,
+      "n_lines": 80,
+      "n_chars": 4552,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    }
+  ],
+  "coverage_complete": true,
+  "overrides": [],
+  "created_at": "2026-11-07T18:56:46.891195Z"
+}

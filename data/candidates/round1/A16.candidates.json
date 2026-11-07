@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A16",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "dc3063919ebc53a74e15548d9bc7eb3ea689a36a0b6246f94a21683dd100de37"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Gestão de riscos corporativos (Enterprise Risk Management)",
+      "definition": "Proposta de gestão integrada de todos os riscos da organização, alinhada a governança e estratégia.",
+      "tradition": "governança / gestão de riscos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Pesquisa em gestão micro/macro sobre risco, decisão e organizações",
+      "definition": "O corpo de pesquisa em gestão mobilizado como base crítica para a teoria e prática de ERM.",
+      "tradition": "teoria organizacional / decisão",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Concepções gerenciais de risco",
+      "definition": "Achados de que gestores concebem risco pela magnitude da perda potencial, não probabilisticamente.",
+      "tradition": "decisão organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Teoria prospectiva",
+      "definition": "Teoria da escolha sob risco: perdas pesam mais que ganhos e preferências dependem do ponto de referência.",
+      "tradition": "decisão comportamental",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Teoria comportamental / racionalidade limitada",
+      "definition": "Modelos implícitos, absorção de incerteza e remédios organizacionais que agravam problemas.",
+      "tradition": "decisão organizacional / Carnegie",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Finanças corporativas: risco sistemático, CAPM e valor da gestão de risco",
+      "definition": "Debate sobre se o acionista só liga para risco sistemático e quando gerir risco cria valor.",
+      "tradition": "finanças",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Teoria da agência e funções do conselho",
+      "definition": "Ênfase na função de controle do conselho que ignora sua função de aconselhamento.",
+      "tradition": "governança",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Vieses cognitivos no julgamento sob incerteza",
+      "definition": "Corpo sobre excesso de confiança, otimismo aprendido e groupthink.",
+      "tradition": "decisão comportamental",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Teoria dos acidentes normais",
+      "definition": "Tese de que sistemas complexos e fortemente acoplados produzem falhas inevitáveis ('acidentes normais').",
+      "tradition": "teoria organizacional / risco",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Cognição gerencial e ambientes 'enacted'",
+      "definition": "Gestores operam em ambientes 'enacted' por modelos mentais e interpretações.",
+      "tradition": "cognição organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Níveis de análise",
+      "definition": "Cautela de que o risco em níveis superiores não é agregação simples dos inferiores.",
+      "tradition": "metodologia / teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Cultura organizacional e crítica a 'risk culture'",
+      "definition": "Corpo sobre a dificuldade de definir cultura e a ingenuidade do conceito de 'cultura de risco'.",
+      "tradition": "teoria organizacional / cultura",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Mudança organizacional",
+      "definition": "Corpo sobre processos de mudança, usado para criticar a visão 'ingênua' de implementação de ERM.",
+      "tradition": "teoria organizacional / mudança",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Horizonte temporal gerencial",
+      "definition": "Corpo sobre horizontes temporais dos gestores e a natureza variável do risco no tempo.",
+      "tradition": "decisão organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Estratégia e risco; planejamento estratégico formal",
+      "definition": "Corpo sobre como escolhas estratégicas influenciam o risco da firma.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T16",
+      "kind": "theory",
+      "name": "Teoria da contingência de ERM",
+      "definition": "Proposta de que a eficácia do ERM depende de ajuste a variáveis contextuais.",
+      "tradition": "governança / contingência",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T17",
+      "kind": "theory",
+      "name": "Teoria dos stakeholders",
+      "definition": "Proposição de que firmas têm objetivos além de lucro e riqueza do acionista.",
+      "tradition": "estratégia / ética empresarial",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T18",
+      "kind": "theory",
+      "name": "Adoção de práticas por pressão externa",
+      "definition": "Achado de que a adoção de práticas depende de pressões regulatórias, normas da indústria etc.",
+      "tradition": "teoria institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T19",
+      "kind": "theory",
+      "name": "Nível de aspiração e tomada de risco",
+      "definition": "Achado de que firmas assumem mais risco quando o desempenho cai abaixo do nível de aspiração.",
+      "tradition": "decisão organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T20",
+      "kind": "theory",
+      "name": "Ciência engajada",
+      "definition": "Modelo de pesquisa produzida em colaboração com praticantes.",
+      "tradition": "metodologia / engajamento",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

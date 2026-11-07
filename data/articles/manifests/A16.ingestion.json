@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A16",
+  "pdf_path": "data/articles/pdfs/A16.pdf",
+  "pdf_sha256": "8c6ed08c9bb8a9c50b007e4e3c60c92e0d83d79fbdfebccb3740aa761ddb9e87",
+  "md_path": "data/articles/markdown/A16.md",
+  "md_sha256": "dc3063919ebc53a74e15548d9bc7eb3ea689a36a0b6246f94a21683dd100de37",
+  "tool": "pymupdf 1.28.2",
+  "ocr_tool": null,
+  "pages_pdf": 12,
+  "pages_extracted": 12,
+  "est_tokens": 17740,
+  "pages": [
+    {
+      "page": 1,
+      "n_lines": 44,
+      "n_chars": 3935,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 2,
+      "n_lines": 71,
+      "n_chars": 5803,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 3,
+      "n_lines": 83,
+      "n_chars": 6591,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 4,
+      "n_lines": 58,
+      "n_chars": 6011,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 5,
+      "n_lines": 57,
+      "n_chars": 5579,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 6,
+      "n_lines": 57,
+      "n_chars": 5924,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 7,
+      "n_lines": 58,
+      "n_chars": 6216,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 8,
+      "n_lines": 70,
+      "n_chars": 6497,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 9,
+      "n_lines": 55,
+      "n_chars": 5611,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 10,
+      "n_lines": 80,
+      "n_chars": 8197,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 11,
+      "n_lines": 81,
+      "n_chars": 8604,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 12,
+      "n_lines": 18,
+      "n_chars": 1992,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    }
+  ],
+  "coverage_complete": true,
+  "overrides": [],
+  "created_at": "2026-11-07T20:18:35.837723Z"
+}

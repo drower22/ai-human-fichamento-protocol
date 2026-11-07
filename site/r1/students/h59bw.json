@@ -1,0 +1,66 @@
+{
+  "participant_id": "S11",
+  "article_id": "A15",
+  "round": 1,
+  "title": "Measuring Organizational Performance in the Absence of Objective Measures: The Case of the Privately-Held Firm and Conglomerate Business Unit",
+  "authors": "Gregory G. Dess; Richard B. Robinson Jr",
+  "year": 1984,
+  "venue": "Strategic Management Journal 5(3), 265-273",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Desempenho organizacional como construto multidimensional (objetivo x subjetivo)",
+      "authors": "Venkatraman & Ramanujam; literatura de mensuração"
+    },
+    {
+      "item_id": "T2",
+      "name": "Teoria da contingência",
+      "authors": "Lawrence & Lorsch; Thompson"
+    },
+    {
+      "item_id": "T3",
+      "name": "Três enquadramentos de eficácia organizacional",
+      "authors": "Etzioni (metas); Yuchtman & Seashore (recursos-sistema); Thompson (constituintes); Ford & Schellenberg (1982)"
+    },
+    {
+      "item_id": "T4",
+      "name": "Efeitos de indústria sobre a rentabilidade da firma",
+      "authors": "Lieberson & O'Connor (1972); Beard & Dess (1979, 1981); Rumelt"
+    },
+    {
+      "item_id": "T5",
+      "name": "Teoria da agência",
+      "authors": "Jensen & Meckling; Eisenhardt"
+    },
+    {
+      "item_id": "T6",
+      "name": "Créditos idiossincráticos",
+      "authors": "Hollander (1974)"
+    },
+    {
+      "item_id": "T7",
+      "name": "Aspirações e desempenho relativo ao desejado",
+      "authors": "Kirchhoff (1979); teoria dos níveis de aspiração"
+    },
+    {
+      "item_id": "T8",
+      "name": "Níveis de estratégia: corporativa vs. de negócio",
+      "authors": "Hofer & Schendel (1978)"
+    },
+    {
+      "item_id": "T9",
+      "name": "Equipe de alta gestão (TMT) e decisões estratégicas",
+      "authors": "Hambrick & Snow (1977); Hambrick & Mason"
+    },
+    {
+      "item_id": "T10",
+      "name": "Teoria normativa da gestão estratégica baseada em evidência",
+      "authors": "Schendel & Hofer (1979)"
+    },
+    {
+      "item_id": "T11",
+      "name": "Organização e ambiente",
+      "authors": "Lawrence & Lorsch (1967)"
+    }
+  ]
+}

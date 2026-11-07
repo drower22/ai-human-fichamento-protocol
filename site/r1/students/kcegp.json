@@ -1,0 +1,81 @@
+{
+  "participant_id": "S04",
+  "article_id": "A11",
+  "round": 1,
+  "title": "Resources, Resourcing, and Ampliative Cycles in Organizations",
+  "authors": "Martha S. Feldman; Monica Worline",
+  "year": 2011,
+  "venue": "The Oxford Handbook of Positive Organizational Scholarship (ch. 47)",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Teoria do resourcing",
+      "authors": "Feldman (2004); Feldman & Orlikowski; Sewell (1992)"
+    },
+    {
+      "item_id": "T2",
+      "name": "Ciclos ampliativos e resourcing endógeno",
+      "authors": "Feldman & Quick (2009)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Mecanismos de resourcing: ajuste mútuo, justaposição e narração",
+      "authors": "Jaquith; Howard-Grenville et al.; Quinn & Worline"
+    },
+    {
+      "item_id": "T4",
+      "name": "Teoria da agência",
+      "authors": "Jensen & Meckling; Eisenhardt"
+    },
+    {
+      "item_id": "T5",
+      "name": "Positive Organizational Scholarship (espirais positivas)",
+      "authors": "Cameron, Dutton & Quinn (orgs.)"
+    },
+    {
+      "item_id": "T6",
+      "name": "Teoria da dependência de recursos",
+      "authors": "Pfeffer & Salancik (1978)"
+    },
+    {
+      "item_id": "T7",
+      "name": "Visão baseada em recursos (RBV)",
+      "authors": "Barney (1991); Barney, Wright & Ketchen (2001)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Capacidades dinâmicas",
+      "authors": "Eisenhardt & Martin (2000); Teece, Pisano & Shuen (1997)"
+    },
+    {
+      "item_id": "T9",
+      "name": "Teoria institucional",
+      "authors": "Selznick; DiMaggio & Powell; Meyer & Rowan"
+    },
+    {
+      "item_id": "T10",
+      "name": "Teoria de Sewell: estrutura como esquemas e recursos",
+      "authors": "Sewell (1992)"
+    },
+    {
+      "item_id": "T11",
+      "name": "Práticas cotidianas",
+      "authors": "de Certeau (1984)"
+    },
+    {
+      "item_id": "T12",
+      "name": "Sensemaking e linguagem",
+      "authors": "Weick (1995)"
+    },
+    {
+      "item_id": "T13",
+      "name": "Objetos de fronteira e tecnologia em uso",
+      "authors": "Bechky (2003); Carlile (2002, 2004); Orlikowski (2000)"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teorias de emoções positivas (broaden-and-build)",
+      "authors": "Fredrickson (2003)"
+    }
+  ]
+}

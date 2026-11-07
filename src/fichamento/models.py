@@ -39,9 +39,10 @@ ERROR_CODES: list[str] = list(ErrorCode.__args__)  # type: ignore[attr-defined]
 
 # Provenance pointer into the line-marked markdown. Lines are numbered
 # GLOBALLY across the document (L001…Lnnn); pages via p.N. Accepts ranges:
-# "p.3", "p.104-106", "L302", "L161-180", "p.3/L12", "p.3/L12-15"
+# "p.3", "p.104-106", "L302", "L161-180", "p.3/L12", "p.3 L165",
+# "p.3/L12-15", "p.3 L165-170" — page/line separator pode ser "/" ou " ".
 SourceRef = Annotated[
-    str, Field(pattern=r"^(p\.\d+(-\d+)?(/L\d+(-\d+)?)?|L\d+(-\d+)?)$")
+    str, Field(pattern=r"^(p\.\d+(-\d+)?([/ ]L\d+(-\d+)?)?|L\d+(-\d+)?)$")
 ]
 Score = Annotated[int, Field(ge=1, le=7, description="BARS 1-7")]
 
@@ -205,7 +206,7 @@ class FichamentoContent(BaseModel):
     research_question: str
     theories: list[Theory] = []
     theory_verdicts: list[TheoryVerdict] = []
-    key_concepts: list[KeyConcept] = Field(min_length=3, max_length=4)
+    key_concepts: list[KeyConcept] = Field(min_length=1, max_length=8)
     methodology: Methodology
     main_findings: list[Finding] = Field(min_length=1)
     contribution: Contribution
@@ -232,6 +233,11 @@ class HumanGenerator(BaseModel):
     participant_id: str = Field(pattern=r"^S\d{2}$")
     elapsed_minutes: int | None = None
     submitted_at: datetime | None = None
+    # Módulo A (aprendizagem): auto-avaliação BARS 1–7 por seção
+    self_assessment: "SectionScores | None" = None
+    # Módulo D (aprendizagem): log de reflexão — respostas curtas às
+    # perguntas Q1–Q4 das instruções ao estudante
+    reflection_log: dict[str, str] | None = None
 
 
 Generator = Annotated[

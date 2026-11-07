@@ -1,0 +1,71 @@
+{
+  "participant_id": "S02",
+  "article_id": "A05",
+  "round": 1,
+  "title": "Entre a sociedade, o estado e o capital no campo da Educação a Distância",
+  "authors": "Bruno Eduardo Slongo Garcia; Mayla Cristina Costa Maroni Saraiva; Jane Mendes Ferreira; Johnny Ribas da Motta",
+  "year": 2024,
+  "venue": "Educação, Escola & Sociedade 19(21), 1-26",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Lógicas institucionais",
+      "authors": "Thornton & Ocasio; Thornton, Ocasio & Lounsbury; Friedland & Alford"
+    },
+    {
+      "item_id": "T2",
+      "name": "Institucionalismo sociológico",
+      "authors": "Meyer & Rowan; DiMaggio & Powell; Hall & Taylor"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria da dependência de recursos",
+      "authors": "Pfeffer & Salancik"
+    },
+    {
+      "item_id": "T4",
+      "name": "Hibridismo de lógicas institucionais",
+      "authors": "Mars & Lounsbury; Teixeira, Róglio & Ferreira; Fávero & Guimarães"
+    },
+    {
+      "item_id": "T5",
+      "name": "Tipo ideal weberiano",
+      "authors": "Weber (1922); Thornton, Ocasio & Lounsbury (2012)"
+    },
+    {
+      "item_id": "T6",
+      "name": "Teoria crítica da educação (pedagogia crítica)",
+      "authors": "Freire; Giroux; escola de Frankfurt"
+    },
+    {
+      "item_id": "T7",
+      "name": "Mecanismos isomórficos coercitivo, mimético e normativo",
+      "authors": "Meyer & Rowan; DiMaggio & Powell (1983)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Abordagens histórica e de escolha racional do institucionalismo",
+      "authors": "Hall & Taylor (2003); North (1990)"
+    },
+    {
+      "item_id": "T9",
+      "name": "Neoliberalismo",
+      "authors": "Harvey; teoria econômico-política"
+    },
+    {
+      "item_id": "T10",
+      "name": "Mudança institucional",
+      "authors": "DellaPosta, Nee & Opper (2017)"
+    },
+    {
+      "item_id": "T11",
+      "name": "Teoria da sociedade em rede",
+      "authors": "Castells"
+    },
+    {
+      "item_id": "T12",
+      "name": "Tradução de lógicas institucionais",
+      "authors": "estudos de tradução institucional (Czarniawska; Sahlin & Wedlin)"
+    }
+  ]
+}

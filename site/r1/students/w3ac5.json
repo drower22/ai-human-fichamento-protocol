@@ -1,0 +1,71 @@
+{
+  "participant_id": "S09",
+  "article_id": "A10",
+  "round": 1,
+  "title": "The constitution of the identity of professors in advanced degree courses of two higher education institutions: a study based on the relations of power and the roles in organizations",
+  "authors": "Marcos Vinícius Pereira Correa; Mariane Lemos Lourenço",
+  "year": 2016,
+  "venue": "Cadernos EBAPE.BR 14(2), 858-871",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Identidade e identificação em organizações",
+      "authors": "Albert & Whetten (1985); Ashforth & Mael (1989); Dutton et al. (1994); Hatch & Schultz (2002)"
+    },
+    {
+      "item_id": "T2",
+      "name": "Teoria da Identidade Social e Teoria da Autocategorização",
+      "authors": "Tajfel & Turner (1979, 1985)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Papéis sociais e a metáfora dramatúrgica",
+      "authors": "Goffman (2011)"
+    },
+    {
+      "item_id": "T4",
+      "name": "Teoria institucional",
+      "authors": "Selznick; DiMaggio & Powell; Meyer & Rowan"
+    },
+    {
+      "item_id": "T5",
+      "name": "Socialização e construção social da realidade",
+      "authors": "Berger & Luckmann (1998)"
+    },
+    {
+      "item_id": "T6",
+      "name": "Poder, espaço e tempo organizacionais",
+      "authors": "Fisher (1994); Lefebvre (1991); Hassard (1996); Hardy & Clegg (2001); Foucault"
+    },
+    {
+      "item_id": "T7",
+      "name": "Teoria social de Bourdieu (campo e habitus)",
+      "authors": "Bourdieu"
+    },
+    {
+      "item_id": "T8",
+      "name": "Cultura organizacional como instrumento de poder",
+      "authors": "Freitas (2000)"
+    },
+    {
+      "item_id": "T9",
+      "name": "Identidade organizacional (macro) vs. identidade em organizações",
+      "authors": "Corley et al. (2006); Gioia (1998)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Identidade x papéis",
+      "authors": "Castells (2002)"
+    },
+    {
+      "item_id": "T11",
+      "name": "Sensemaking",
+      "authors": "Weick (1995)"
+    },
+    {
+      "item_id": "T12",
+      "name": "Teorias clássicas da administração",
+      "authors": "Taylor; Fayol; Mayo; Barnard"
+    }
+  ]
+}

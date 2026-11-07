@@ -1,0 +1,111 @@
+{
+  "participant_id": "S05",
+  "article_id": "A16",
+  "round": 1,
+  "title": "Enterprise Risk Management: Review, Critique, and Research Directions",
+  "authors": "Philip Bromiley; Michael McShane; Anil Nair; Elzotbek Rustambekov",
+  "year": 2015,
+  "venue": "Long Range Planning 48(5), 265-276",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Gestão de riscos corporativos (Enterprise Risk Management)",
+      "authors": "COSO; literatura de ERM (Fraser & Simkins)"
+    },
+    {
+      "item_id": "T2",
+      "name": "Pesquisa em gestão micro/macro sobre risco, decisão e organizações",
+      "authors": "literatura de management (March, Simon, Weick et al.)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Concepções gerenciais de risco",
+      "authors": "March & Shapira (1987); Shapira (1995)"
+    },
+    {
+      "item_id": "T4",
+      "name": "Teoria prospectiva",
+      "authors": "Kahneman & Tversky (1979)"
+    },
+    {
+      "item_id": "T5",
+      "name": "Teoria comportamental / racionalidade limitada",
+      "authors": "March & Simon (1958); Simon"
+    },
+    {
+      "item_id": "T6",
+      "name": "Finanças corporativas: risco sistemático, CAPM e valor da gestão de risco",
+      "authors": "Sharpe; Lintner; Shapiro & Titman; Stulz; Schrand & Unal"
+    },
+    {
+      "item_id": "T7",
+      "name": "Teoria da agência e funções do conselho",
+      "authors": "Jensen & Meckling; Westphal (1999)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Vieses cognitivos no julgamento sob incerteza",
+      "authors": "Russo & Schoemaker; Deaves et al.; Seligman; Esser"
+    },
+    {
+      "item_id": "T9",
+      "name": "Teoria dos acidentes normais",
+      "authors": "Perrow (1984)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Cognição gerencial e ambientes 'enacted'",
+      "authors": "Weick (1969); Reger & Huff; Schwenk; Jackson & Dutton"
+    },
+    {
+      "item_id": "T11",
+      "name": "Níveis de análise",
+      "authors": "Rousseau (1985); Simon (1981)"
+    },
+    {
+      "item_id": "T12",
+      "name": "Cultura organizacional e crítica a 'risk culture'",
+      "authors": "Barley (1995); Saffold (1988)"
+    },
+    {
+      "item_id": "T13",
+      "name": "Mudança organizacional",
+      "authors": "Argyris (1993); Tidd et al. (2005); March & Simon"
+    },
+    {
+      "item_id": "T14",
+      "name": "Horizonte temporal gerencial",
+      "authors": "Das (1987); Marginson & McAulay; Souder & Bromiley (2012)"
+    },
+    {
+      "item_id": "T15",
+      "name": "Estratégia e risco; planejamento estratégico formal",
+      "authors": "Bettis (1983); Bromiley & Rau (2010); Fraser & Simkins"
+    },
+    {
+      "item_id": "T16",
+      "name": "Teoria da contingência de ERM",
+      "authors": "Gordon, Loeb & Tseng (2009); Mikes & Kaplan (2013)"
+    },
+    {
+      "item_id": "T17",
+      "name": "Teoria dos stakeholders",
+      "authors": "Freeman et al. (2010)"
+    },
+    {
+      "item_id": "T18",
+      "name": "Adoção de práticas por pressão externa",
+      "authors": "Plambeck & Weber (2010)"
+    },
+    {
+      "item_id": "T19",
+      "name": "Nível de aspiração e tomada de risco",
+      "authors": "Bromiley et al. (2001); behavioral theory of the firm"
+    },
+    {
+      "item_id": "T20",
+      "name": "Ciência engajada",
+      "authors": "Van de Ven (2007)"
+    }
+  ]
+}

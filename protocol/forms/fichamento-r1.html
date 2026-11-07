@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termo de Consentimento</title>
+<style>
+  :root{--blue:#2563eb;--navy:#1e3a5f;--slate:#475569;--ink:#1e293b;
+    --bg:#f1f5f9;--card:#fff;--line:#cbd5e1;--soft:#e2e8f0;--err:#b91c1c}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);font-family:"Segoe UI",system-ui,sans-serif;
+    color:var(--ink);line-height:1.5}
+  .wrap{max-width:900px;margin:0 auto;padding:40px 24px 120px}
+  header{background:var(--navy);color:#fff;border-radius:14px;padding:30px 34px;margin-bottom:26px}
+  header h1{font-size:30px}
+  header p{font-size:16px;color:#cbd5e1;margin-top:8px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:28px 30px;margin-bottom:22px}
+  section h2{font-size:22px;color:var(--navy);margin-bottom:6px}
+  section .desc{font-size:15px;color:var(--slate);margin-bottom:18px;white-space:pre-line}
+  label.q{display:block;font-size:16px;font-weight:600;color:var(--navy);margin:18px 0 6px}
+  label.q small{font-weight:400;color:var(--slate);display:block;margin-top:2px}
+  input[type=text],input[type=number],textarea,select{width:100%;border:1px solid var(--line);
+    border-radius:9px;padding:10px 13px;font-size:15px;font-family:inherit;color:var(--ink)}
+  textarea{min-height:110px;resize:vertical}
+  textarea.short{min-height:70px}
+  input:focus,textarea:focus,select:focus{outline:2px solid #93c5fd;border-color:var(--blue)}
+  input[readonly]{background:#f1f5f9;color:var(--slate)}
+  button:disabled{background:#94a3b8;cursor:not-allowed}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:end}
+  .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;align-items:end}
+  .theory{border:1px solid var(--soft);border-radius:12px;padding:16px 18px;margin:12px 0}
+  .theory .tname{font-weight:700;color:var(--navy);font-size:16px}
+  .theory .tdef{font-size:14px;color:var(--slate);margin:4px 0 10px}
+  .radios{display:flex;gap:18px;flex-wrap:wrap}
+  .radios label{display:flex;align-items:center;gap:7px;font-size:15px;font-weight:600;
+    padding:6px 14px;border:1px solid var(--line);border-radius:999px;cursor:pointer}
+  .radios input{accent-color:var(--blue)}
+  .radios label:has(input:checked){border-color:var(--blue);background:#eff6ff}
+  .ev{margin-top:10px;display:none}
+  .ev.show{display:block}
+  .slot{border-left:4px solid var(--blue);padding-left:16px;margin:16px 0}
+  .slot h3{font-size:15px;color:var(--slate);text-transform:uppercase;letter-spacing:.5px}
+  .consent{display:flex;gap:10px;align-items:flex-start;font-size:15px;color:var(--ink);
+    background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:14px 16px;margin-top:18px}
+  .consent input{margin-top:3px;accent-color:var(--blue)}
+  button{background:var(--blue);color:#fff;border:none;border-radius:10px;
+    font-size:18px;font-weight:700;padding:16px 40px;cursor:pointer;width:100%}
+  button:hover{background:var(--navy)}
+  .errors{background:#fef2f2;border:1px solid #fecaca;color:var(--err);border-radius:10px;
+    padding:16px 20px;font-size:15px;margin-bottom:18px;display:none;white-space:pre-line}
+  .ok{background:#ecfdf5;border:1px solid #a7f3d0;color:#065f46;border-radius:10px;
+    padding:16px 20px;font-size:15px;margin-bottom:18px;display:none}
+  .hint{font-size:13px;color:var(--slate);margin-top:8px}
+  .addbtn{background:#fff;color:var(--blue);border:1.5px dashed var(--blue);
+    border-radius:10px;font-size:15px;font-weight:600;padding:11px 22px;
+    cursor:pointer;width:auto;margin-top:6px}
+  .addbtn:hover{background:#eff6ff}
+  .rm{display:inline-block;font-size:13px;color:var(--err);margin-top:6px;
+    text-decoration:none}
+  .rm:hover{text-decoration:underline}
+  .done{text-align:center;padding:80px 20px}
+  .done h2{font-size:30px;color:var(--navy);margin:18px 0 10px}
+  .done p{font-size:17px;color:var(--slate);line-height:1.6}
+  .done .check{width:64px;height:64px;border-radius:50%;background:var(--blue);
+    display:inline-flex;align-items:center;justify-content:center}
+  .done .check svg{stroke:#fff}
+  .anch{font-size:13.5px;color:var(--slate);line-height:1.55;margin:6px 0 10px}
+  .anch b{display:inline-block;background:var(--navy);color:#fff;border-radius:6px;
+    min-width:22px;text-align:center;padding:0 5px;margin-right:6px}
+  .tcle{border:1px solid var(--line);border-radius:12px;background:#f8fafc;
+    padding:20px 24px;max-height:340px;overflow-y:auto;font-size:15px;
+    line-height:1.65;color:var(--ink);margin:14px 0}
+  .tcle h3{font-size:15px;color:var(--navy);margin:18px 0 6px}
+  .tcle h3:first-child{margin-top:0}
+  .tcle p{margin:0 0 10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="errors" id="errors"></div>
+<div class="ok" id="ok"></div>
+
+<form id="f" novalidate>
+
+<section id="tcleSec">
+  <h2>1. Termo de Consentimento Livre e Esclarecido</h2>
+  <p class="desc">Leia o termo abaixo por completo antes de decidir. O formulário só
+  será liberado depois da sua resposta.</p>
+
+  <div class="tcle">
+  <h3>Identificação do projeto</h3>
+  <p><b>Título da pesquisa:</b> Protocolo de validação iterativa IA–humano para a
+  produção de fichamentos de revisão de literatura.<br>
+  <b>Instituição:</b> Universidade Federal do Paraná (UFPR).</p>
+
+  <h3>Convite e justificativa</h3>
+  <p>Você está sendo convidado(a) a participar de um estudo que desenvolve e valida
+  um protocolo de produção de fichamentos de literatura científica, comparando
+  fichamentos elaborados por estudantes e por inteligência artificial. A pesquisa
+  busca tornar o trabalho mecânico de fichamento mais confiável e auditável,
+  liberando tempo do pesquisador para reflexão e análise teórica.</p>
+
+  <h3>O que a sua participação envolve</h3>
+  <p>Ler um artigo científico indicado e produzir um fichamento completo usando
+  este formulário, incluindo: resumo, questão de pesquisa, teorias, conceitos,
+  metodologia, achados e contribuição, sempre com referências de página e linha
+  do artigo. Ao final, você também fará uma auto-avaliação e um breve registro de
+  reflexão, e enviará o resultado pelo botão Enviar (ou por e-mail, baixando o
+  arquivo gerado).</p>
+
+  <h3>Critério de seleção</h3>
+  <p>Você foi convidado(a) por ser estudante do curso e integrante do grupo de
+  respondentes sorteado pela coordenação para esta rodada do estudo.</p>
+
+  <h3>Desconfortos e riscos</h3>
+  <p>Não há riscos previstos além do tempo dedicado à leitura e ao fichamento. Caso
+  sinta qualquer desconforto ou cansaço, você pode interromper a atividade a
+  qualquer momento.</p>
+
+  <h3>Benefícios</h3>
+  <p>Não há benefício financeiro. Os benefícios esperados são o aprimoramento da
+  sua prática de leitura e fichamento acadêmico e a contribuição para um protocolo
+  público e replicável de revisão de literatura.</p>
+
+  <h3>Despesas e ressarcimento</h3>
+  <p>A participação não envolve custos para você e não há remuneração prevista.
+  Suas respostas só saem do seu navegador quando você clica em Enviar (ou decide
+  baixar o arquivo e mandar por e-mail); nada é transmitido automaticamente.</p>
+
+  <h3>Sigilo, anonimato e proteção de dados</h3>
+  <p>Seu fichamento é identificado apenas por um código (S01, S02…). Os juízes
+  avaliadores recebem os fichamentos sem qualquer identificação dos autores.
+  Seus dados pessoais (nome, idade, gênero, programa) ficam em arquivo privado da
+  coordenação, separados do material avaliado, e são tratados conforme a Lei Geral
+  de Proteção de Dados (LGPD, Lei nº 13.709/2018). Resultados publicados serão
+  sempre agregados e anonimizados.</p>
+
+  <h3>Voluntariedade e direito de desistência</h3>
+  <p>Participar é totalmente voluntário. Você pode recusar-se agora, desistir a
+  qualquer momento e solicitar a exclusão dos seus dados, sem justificativa e sem
+  qualquer prejuízo acadêmico ou pessoal. Para desistir, basta não enviar o
+  arquivo ou pedir a exclusão à coordenação.</p>
+
+  <h3>Dúvidas</h3>
+  <p>Em caso de dúvidas sobre a pesquisa, escreva para
+  <b>ismar.drower@ufpr.br</b> antes de enviar.
+  Este estudo segue as orientações éticas da Resolução CNS nº 510/2016 para
+  pesquisas em ciências humanas e sociais.</p>
+  </div>
+
+  <p style="font-size:15px;margin:14px 0 8px"><b>Declaração:</b> declaro que li e
+  compreendi as informações acima, que tive oportunidade de esclarecer dúvidas e
+  que minha decisão de participar é livre e esclarecida.</p>
+  <div class="radios" style="font-size:16px">
+    <label><input type="radio" name="tcle" value="aceito"> <b>Li e aceito participar</b></label>
+    <label><input type="radio" name="tcle" value="nao_aceito"> Não aceito participar</label>
+  </div>
+  <p id="decline" style="display:none;margin-top:14px;font-size:15px;color:var(--slate)">
+    Sem problema — obrigado pela atenção. Você pode fechar esta página.
+    Se mudar de ideia, marque "Li e aceito participar".</p>
+</section>
+
+<div id="resto" hidden>
+
+<header>
+  <h1>Fichamento — Rodada 1</h1>
+  <p><b>Antes de começar:</b> leia o artigo numerado por completo e tenha-o aberto ao lado.
+  Escreva em português, com suas palavras. Toda afirmação sobre o artigo leva a referência
+  da linha entre parênteses, no formato <b>(p.N Lnnn)</b> — ex.: (p.5 L165) ou um intervalo
+  (p.5 L165-170). Trabalhe sozinho, sem IA e sem consultar colegas.
+  Ao final, o botão <b>Enviar</b> manda seu fichamento direto para a coordenação
+  (se preferir, você também pode baixar o .json e enviar por e-mail).</p>
+</header>
+
+<section>
+  <h2>2. Identificação</h2>
+  <p class="desc">Seus dados pessoais servem apenas para caracterizar a amostra da
+  pesquisa. Eles NÃO aparecem no fichamento que os juízes avaliam.</p>
+  <div class="row2">
+    <div><label class="q">Nome completo</label><input type="text" name="full_name"></div>
+    <div><label class="q">Idade (anos)</label><input type="number" name="age" min="16" max="99"></div>
+  </div>
+  <div class="row2">
+    <div><label class="q">Gênero</label>
+      <select name="gender"><option value="">—</option><option>Feminino</option>
+      <option>Masculino</option><option>Outro</option><option>Prefiro não informar</option></select></div>
+    <div><label class="q">Programa</label>
+      <select name="program"><option value="">—</option><option>Mestrado</option>
+      <option>Doutorado</option></select></div>
+  </div>
+  <div class="row2">
+    <div><label class="q">Seu código<small>travado pelo seu link pessoal</small></label>
+      <input type="text" name="participant_id" readonly></div>
+    <div><label class="q">Seu artigo<small>travado pelo seu link pessoal</small></label>
+      <input type="text" name="article_id" readonly></div>
+  </div>
+  <p class="hint" id="artinfo"></p>
+</section>
+
+<section>
+  <h2>3. Resumo executivo</h2>
+  <label class="q">Resumo executivo<small>Síntese em ~300 palavras: problema, abordagem teórica, método, achados e contribuição. Referências entre parênteses: (p.N Lnnn).</small></label>
+  <details class="desc"><summary><b>Ver texto-modelo</b> (exemplo de formato, de outro artigo — o conteúdo é ilustrativo)</summary>
+  <p style="white-space:pre-line">O artigo investiga como se dá a prática de planejamento estratégico em uma empresa organizada por projetos, contexto em que a teoria contingencial levaria a esperar tomada de decisão pouco estruturada, próxima de uma adhocracia (p.3 L070-73). A questão de fundo, não enunciada como pergunta explícita, é reconstruível a partir do objetivo: observar a formulação e implementação do planejamento em um contexto improvável para mecanismos formais.
+
+Guiado pela abordagem de estratégia como prática e pela teoria da estruturação (Giddens), o estudo adota caso único e exploratório (p.8 L334-340), justificado pela profundidade que o método permite (p.8 L349-353). Os dados combinam 16 entrevistas com 15 profissionais (cerca de 20 horas de gravação, amostragem oportunista), documentos e observação (p.8 L371-375; p.9 L384-390), analisados com apoio de software qualitativo (p.10 L511).
+
+Contrariando a expectativa teórica, o caso mostra fases sucessivas de formalização do planejamento ao longo da história da empresa e a permanência de mecanismos formais como componentes recursivos da prática, mesmo quando processos emergentes e flexíveis dominavam (p.3 L074-80; p.17 L1003-1010). A leitura pela estruturação interpreta o planejamento como modalidade que se reestrutura na interação dos agentes (p.17 L1011-1012).
+
+A contribuição teórica é dupla: evidencia estruturação do planejamento em contexto não previsto pelas análises contingenciais (p.19 L1093-1100) e ilustra como profissionais negociam o processo — disputa interna e agência raramente observadas na literatura (p.19 L1108-1113). Na prática, o artigo sugere que esforços de mudança mal avaliados no curto prazo podem deixar diferenças estruturais relevantes no longo prazo (p.19 L1114-1118).</p></details>
+  <textarea name="executive_summary"></textarea>
+</section>
+
+<section>
+  <h2>4. Questão de pesquisa</h2>
+  <label class="q">Questão de pesquisa<small>A pergunta que o artigo busca responder, formulada com precisão e com suas palavras.</small></label>
+  <textarea name="research_question" class="short"></textarea>
+</section>
+
+<section>
+  <h2>5. Teorias</h2>
+  <p class="desc">Para cada teoria abaixo, diga como ela aparece no artigo:
+
+• USA = o artigo constrói o argumento em cima dela (se remover, o argumento quebra)
+• DISCUTE = é citada ou debatida com algum peso, mas não estrutura o argumento
+• NÃO USA = não aparece, ou aparece só de passagem/decoração
+
+Marcou USA ou DISCUTE? Então indique onde está no artigo: referência (p.N Lnnn)
+e, idealmente, o trecho literal.
+
+Atenção: teoria só citada na revisão de literatura, sem retomada na análise,
+NÃO é DISCUTE — é NÃO USA.</p>
+  <div id="theories"><p class="hint">Carregando suas teorias…</p></div>
+  <label class="q">Teorias fora da lista (opcional)<small>O artigo usa ou discute alguma teoria que NÃO está na lista? Uma por linha: nome — tradição — uses ou discusses — (p.N Lnnn). A lista foi montada antes da sua leitura e pode não cobrir tudo: encontrar o que faltou conta pontos a seu favor.</small></label>
+  <textarea name="extra_theories" class="short"></textarea>
+</section>
+
+<section>
+  <h2>6. Conceitos-chave</h2>
+  <p class="desc">Liste os conceitos centrais do artigo (mínimo 1 — adicione mais se o
+  artigo pedir): os construtos sem os quais o argumento não se sustenta. Para cada um:
+  o nome e como o artigo o define ou usa; se puder, inclua a evidência no próprio texto
+  (p.N Lnnn) e o trecho literal.</p>
+  <div id="concepts"></div>
+  <button type="button" class="addbtn" id="addC">+ Adicionar conceito (opcional)</button>
+</section>
+
+<section>
+  <h2>7. Metodologia</h2>
+  <div class="row3">
+    <div><label class="q">Tipo de estudo</label>
+      <select name="m_study"><option value="">—</option>
+      <option value="empírico">Empírico (coleta/analisa dados)</option>
+      <option value="teórico">Teórico / conceitual</option>
+      <option value="revisão">Revisão de literatura</option>
+      <option value="simulação">Simulação</option>
+      <option value="outro">Outro</option></select></div>
+    <div><label class="q">Delineamento<small>ex.: estudo de caso único exploratório</small></label>
+      <input type="text" name="m_design"></div>
+    <div><label class="q">Referência<small>opcional — (p.N Lnnn) da seção de método</small></label>
+      <input type="text" name="m_refs"></div>
+  </div>
+  <div class="row3">
+    <div><label class="q">Tipo de amostra<small>ex.: profissionais da empresa; N/A se não houver</small></label>
+      <input type="text" name="m_sample"></div>
+    <div><label class="q">Tamanho (N)<small>número ou N/A</small></label>
+      <input type="text" name="m_n"></div>
+    <div><label class="q">Setor<small>setor/indústria dos dados</small></label>
+      <input type="text" name="m_sector"></div>
+  </div>
+  <div class="row2">
+    <div><label class="q">Período<small>período coberto pelos dados</small></label>
+      <input type="text" name="m_period"></div>
+    <div><label class="q">Técnicas<small>separadas por vírgula (ex.: entrevistas semiestruturadas, análise documental)</small></label>
+      <input type="text" name="m_methods"></div>
+  </div>
+  <label class="q">Nota de análise (opcional)<small>como os dados foram analisados</small></label>
+  <textarea name="m_note" class="short"></textarea>
+</section>
+
+<section>
+  <h2>8. Achados principais</h2>
+  <p class="desc">Liste os achados principais do artigo (mínimo 1 — adicione mais se
+  precisar), com suas palavras. Classifique cada um: empírico (veio dos dados),
+  proposição (afirmação proposta para teste futuro) ou modelo (framework/figura que
+  organiza o argumento). Se puder, indique onde está (p.N Lnnn).</p>
+  <div id="findings"></div>
+  <button type="button" class="addbtn" id="addF">+ Adicionar achado (opcional)</button>
+</section>
+
+<section>
+  <h2>9. Contribuição</h2>
+  <div class="row2">
+    <div><label class="q">Teórica<small>o avanço teórico que o artigo entrega</small></label>
+      <textarea name="c_theo" class="short"></textarea></div>
+    <div><label class="q">Prática<small>a utilidade prática</small></label>
+      <textarea name="c_prac" class="short"></textarea></div>
+  </div>
+</section>
+
+<section>
+  <h2>10. Auto-avaliação</h2>
+  <p class="desc">Avalie o SEU fichamento com a MESMA régua dos juízes (BARS 1–7, âncoras
+  em 1 / 4 / 7; notas intermediárias interpolam). Seja honesto — a pesquisa mede a
+  diferença entre a sua auto-nota e a nota dos juízes. Não será mostrado a eles.
+
+  Regra geral: a fidelidade limita a nota. Conteúdo inventado, extrapolado ou
+  copiado literalmente do texto deixa a seção no máximo em 4, por mais completa
+  que ela pareça.</p>
+  <div id="selfass"></div>
+</section>
+
+<section>
+  <h2>11. Reflexão</h2>
+  <p class="desc">Quatro respostas curtas e sinceras sobre as dificuldades e barreiras
+  da tarefa. Não são avaliadas nem mostradas aos juízes.</p>
+  <label class="q">Quais dificuldades ou barreiras você encontrou com o artigo e o tema, o conteúdo que leu?</label>
+  <textarea name="r1" class="short"></textarea>
+  <label class="q">Quais dificuldades ou barreiras você encontrou com o formato da pesquisa, o instrumento (formulário, PDF numerado, vereditos, referências p.N Lnnn)?</label>
+  <textarea name="r2" class="short"></textarea>
+  <label class="q">Se você fosse refazer este fichamento, o que mudaria na sua abordagem?</label>
+  <textarea name="r3" class="short"></textarea>
+  <label class="q">Você usou alguma ferramenta de IA ou auxílio externo para ler ou fichar? Se sim, qual e como?</label>
+  <textarea name="r4" class="short"></textarea>
+</section>
+
+<section>
+  <h2>12. Tempo total</h2>
+  <p class="desc">Última pergunta. Estime o tempo total, em minutos, que levou para
+  ler o artigo e produzir o fichamento. Estimativa honesta basta. Este dado é de
+  pesquisa (custo-tempo do trabalho humano) e não vai aos juízes.</p>
+  <label class="q">Tempo total (min)</label>
+  <input type="number" name="elapsed_minutes" min="1">
+</section>
+
+<button type="submit">Enviar meu fichamento</button>
+</div><!-- /resto -->
+</form>
+
+<div id="done" hidden>
+  <div class="done">
+    <span class="check"><svg class="icon" viewBox="0 0 24 24" style="width:34px;height:34px"><path d="M20 6L9 17l-5-5"/></svg></span>
+    <h2>Fichamento enviado!</h2>
+    <p id="doneMsg"></p>
+    <p>Obrigado pela participação — você já pode fechar esta página.</p>
+  </div>
+</div>
+</div>
+
+<script>
+// R1: pacote individual via link pessoal ?s=TOKEN -> students/TOKEN.json
+const _tok=new URLSearchParams(location.search).get('s')||'';
+let PACK=null,POOL=[];
+const submitBtn=document.querySelector('button[type=submit]');
+submitBtn.disabled=true;
+const showErr=t=>{const e=document.getElementById('errors');
+  e.textContent=t;e.style.display='block';window.scrollTo({top:0});};
+(async()=>{
+  if(!_tok){showErr('Este formulário é individual: use o link pessoal que você '
+    +'recebeu por e-mail da coordenação.');return;}
+  try{const r=await fetch(`students/${encodeURIComponent(_tok)}.json`);
+    if(!r.ok)throw 0;PACK=await r.json();}
+  catch{showErr('Link inválido ou pacote não encontrado — confira o endereço '
+    +'ou fale com a coordenação.');return;}
+  POOL=PACK.pool||[];
+  document.querySelector('[name=participant_id]').value=PACK.participant_id||'';
+  document.querySelector('[name=article_id]').value=PACK.article_id||'';
+  document.getElementById('artinfo').textContent=
+    [PACK.title,PACK.authors,PACK.year,PACK.venue].filter(Boolean).join(' · ');
+  renderTheories();
+  submitBtn.disabled=false;
+})();
+
+// TCLE gate: aceite troca de tela (termo some, form aparece)
+document.querySelectorAll('input[name=tcle]').forEach(r=>
+  r.addEventListener('change',()=>{
+    const aceito=r.value==='aceito';
+    document.getElementById('tcleSec').hidden=aceito;
+    document.getElementById('resto').hidden=!aceito;
+    document.getElementById('decline').style.display=aceito?'none':'block';
+    if(aceito)window.scrollTo({top:0,behavior:'smooth'});
+  }));
+
+// theories (renderiza quando o pacote chega)
+const td=document.getElementById('theories');
+function renderTheories(){
+  td.innerHTML=POOL.map(t=>`
+  <div class="theory">
+    <div class="tname">${t.item_id} — ${t.name}</div>
+    <div class="tdef">${t.authors||''}</div>
+    <div class="radios">
+      <label><input type="radio" name="v_${t.item_id}" value="uses"> USA</label>
+      <label><input type="radio" name="v_${t.item_id}" value="discusses"> DISCUTE</label>
+      <label><input type="radio" name="v_${t.item_id}" value="does_not_use"> NÃO USA</label>
+    </div>
+    <div class="ev" id="ev_${t.item_id}">
+      <input type="text" name="e_${t.item_id}" placeholder="Onde ela aparece? (p.N Lnnn) e o trecho literal">
+    </div>
+  </div>`).join('');
+  POOL.forEach(t=>{
+    document.querySelectorAll(`input[name=v_${t.item_id}]`).forEach(r=>
+      r.addEventListener('change',()=>{
+        document.getElementById('ev_'+t.item_id)
+          .classList.toggle('show',r.value!=='does_not_use');}));
+  });
+}
+
+// concept slots (1-3 obrig; demais sob demanda, max 8)
+const concepts=document.getElementById('concepts');
+const addC=document.getElementById('addC');
+let seqC=0;
+const renum=()=>concepts.querySelectorAll('.slot h3').forEach((h,i)=>
+  h.textContent=`Conceito ${i+1}${i>=1?' (opcional)':''}`);
+const updC=()=>{const n=concepts.children.length;
+  concepts.querySelectorAll('.rm').forEach((a,i)=>a.hidden=i<1);
+  addC.style.display=n>=8?'none':'';};
+const addConcept=()=>{if(concepts.children.length>=8)return;seqC++;
+  const d=document.createElement('div');d.className='slot';
+  d.innerHTML=`<h3></h3>
+    <label class="q">Nome</label><input type="text" name="kc${seqC}_c">
+    <label class="q">Definição / uso no artigo<small>inclua a evidência no próprio texto: (p.N Lnnn) e o trecho literal</small></label>
+    <textarea name="kc${seqC}_d" class="short"></textarea>
+    <a href="#" class="rm" hidden>remover este conceito</a>`;
+  concepts.appendChild(d);renum();updC();};
+addConcept();
+addC.onclick=addConcept;
+concepts.addEventListener('click',e=>{const a=e.target.closest('.rm');
+  if(!a||a.hidden)return;e.preventDefault();a.closest('.slot').remove();renum();updC();});
+
+// finding slots (1 obrig; demais sob demanda, max 8)
+const findings=document.getElementById('findings');
+const addF=document.getElementById('addF');
+let seqF=0;
+const renumF=()=>findings.querySelectorAll('.slot h3').forEach((h,i)=>
+  h.textContent=`Achado ${i+1}${i>=1?' (opcional)':''}`);
+const updF=()=>{const n=findings.children.length;
+  findings.querySelectorAll('.rm').forEach((a,i)=>a.hidden=i<1);
+  addF.style.display=n>=8?'none':'';};
+const addFinding=()=>{if(findings.children.length>=8)return;seqF++;
+  const d=document.createElement('div');d.className='slot';
+  d.innerHTML=`<h3></h3>
+    <label class="q">Achado / proposição</label><textarea name="f${seqF}_f" class="short"></textarea>
+    <div class="row2">
+      <div><label class="q">Tipo</label>
+        <select name="f${seqF}_t"><option value="">—</option>
+        <option value="empirical">Empírico (veio dos dados)</option>
+        <option value="proposition">Proposição (a testar)</option>
+        <option value="model">Modelo / framework</option></select></div>
+      <div><label class="q">Evidência<small>opcional</small></label>
+        <input type="text" name="f${seqF}_e" placeholder="(p.N Lnnn) trecho literal"></div>
+    </div>
+    <a href="#" class="rm" hidden>remover este achado</a>`;
+  findings.appendChild(d);renumF();updF();};
+addFinding();
+addF.onclick=addFinding;
+findings.addEventListener('click',e=>{const a=e.target.closest('.rm');
+  if(!a||a.hidden)return;e.preventDefault();a.closest('.slot').remove();renumF();updF();});
+
+// self assessment
+const SECS=['executive_summary','research_question','theories','key_concepts',
+  'methodology','main_findings','contribution'];
+const PT={executive_summary:'Resumo executivo',research_question:'Questão de pesquisa',
+  theories:'Teorias',key_concepts:'Conceitos-chave',methodology:'Metodologia',
+  main_findings:'Achados principais',contribution:'Contribuição'};
+const ANCHORS={
+executive_summary:{a1:'Ausente, genérico a ponto de valer para qualquer artigo, ou contradiz o artigo',
+  a4:'Cobre problema, método e resultado centrais, mas perde nuances ou omite partes importantes, ou é colagem de trechos literais em vez de síntese elaborada',
+  a7:'Síntese fiel e completa (~300 palavras), com elaboração própria: problema, método, achados e contribuição; quem lê entende o artigo sem abrir o PDF'},
+research_question:{a1:'Ausente ou errada (não é a pergunta do artigo) — inclui inventar uma questão explícita que o artigo não enuncia',
+  a4:'Correta mas imprecisa: ampla demais, captura só parte, ou copia o objetivo declarado quando a questão real é outra',
+  a7:'Formula precisamente a pergunta do artigo, no escopo correto; se implícita, reconstruí-la a partir do objetivo/argumento/conclusão e sinalizar que é implícita conta como precisão'},
+theories:{a1:'Teorias centrais ausentes ou inventadas',
+  a4:'Vereditos corretos na maioria, mas confunde o papel: marca usa/discute o que é só citação de revisão, ou omite tradição relevante',
+  a7:'Vereditos fiéis ao papel no argumento: usa = estrutura a análise · discute = tratada com substância sem estruturar · citação decorativa na revisão = não usa; zero invenção'},
+key_concepts:{a1:'Conceitos errados, inventados ou definições incorretas',
+  a4:'3–4 conceitos corretos e fiéis, mas a seleção é discutível: deixou de fora construto que carrega a análise, ou incluiu termo periférico como central',
+  a7:'3–4 construtos que de fato operam na análise (não apenas mencionados), com definições fiéis ao uso no artigo'},
+methodology:{a1:'Design/método errados ou inventados',
+  a4:'Design correto mas omite informação essencial (N, setor, período, técnicas)',
+  a7:'Design, N, setor, período e técnicas corretos e completos'},
+main_findings:{a1:'Achados inventados, invertidos ou que o artigo não sustenta',
+  a4:'Achados corretos mas incompletos, ou sem distinguir evidência de especulação',
+  a7:'Captura todos os achados/proposições centrais, distinguindo empírico de proposição/modelo'},
+contribution:{a1:'Ausente ou não corresponde ao que o artigo reivindica/entrega',
+  a4:'Identifica contribuição real mas superficial (repete o abstract) ou a infla — inflar mantém a nota em 4',
+  a7:'Articula avanço teórico e utilidade prática com a força que o artigo sustenta: nem repete a retórica inflada do próprio artigo, nem infla, nem reduz'}};
+document.getElementById('selfass').innerHTML=SECS.map(s=>`
+  <div class="slot"><h3>${PT[s]}</h3>
+    <p class="anch"><b>1</b> ${ANCHORS[s].a1}<br><b>4</b> ${ANCHORS[s].a4}<br><b>7</b> ${ANCHORS[s].a7}</p>
+    <div class="radios">${[1,2,3,4,5,6,7].map(n=>
+      `<label><input type="radio" name="sa_${s}" value="${n}"> ${n}</label>`).join('')}
+    </div>
+  </div>`).join('');
+
+const REF=/\(p\.\d+(?:-\d+)?(?:[\/ ]L\d+(?:-\d+)?)?\)|\(L\d+(?:-\d+)?\)/;
+const g=n=>document.querySelector(`[name=${n}]`)?.value.trim()||'';
+const parseEv=t=>{const refs=[...(t.match(/p\.\d+(?:-\d+)?(?:[\/ ]L\d+(?:-\d+)?)?|L\d+(?:-\d+)?/g)||[])];
+  const quote=t.replace(/p\.\d+(?:-\d+)?(?:[\/ ]L\d+(?:-\d+)?)?|L\d+(?:-\d+)?/g,'')
+    .replace(/[()\[\];,\-—]/g,' ').replace(/\s+/g,' ').trim();
+  return{refs,quote};};
+
+document.getElementById('f').addEventListener('submit',async e=>{
+  e.preventDefault();
+  const errs=[];
+  const need=(v,label)=>{if(!v)errs.push('• '+label+' está vazio.');};
+
+  need(g('full_name'),'Nome completo');need(g('age'),'Idade');
+  need(g('gender'),'Gênero');need(g('program'),'Programa');
+  need(g('elapsed_minutes'),'Tempo total');
+  const tcle=document.querySelector('input[name=tcle]:checked');
+  if(!tcle)errs.push('• Termo de consentimento: marque se aceita participar.');
+  else if(tcle.value==='nao_aceito')errs.push('• Você marcou "não aceito". Se mudar de ideia, selecione "Li e aceito participar".');
+  need(g('executive_summary'),'Resumo executivo');
+  need(g('research_question'),'Questão de pesquisa');
+
+  const verdicts=[];
+  POOL.forEach(t=>{
+    const v=document.querySelector(`input[name=v_${t.item_id}]:checked`);
+    if(!v){errs.push(`• ${t.item_id}: escolha um veredito.`);return;}
+    const ev=g('e_'+t.item_id);const{refs,quote}=parseEv(ev);
+    verdicts.push({item_id:t.item_id,name:t.name,verdict:v.value,source_refs:refs,quote,note:''});
+  });
+
+  const extra=[];
+  g('extra_theories').split('\n').forEach(l=>{
+    if(!l.trim())return;
+    const p=l.split(/—|;/).map(x=>x.trim()).filter(Boolean);
+    const{refs}=parseEv(l);
+    extra.push({name:p[0]||'',tradition:p[1]||'',role:(p[2]||'').toLowerCase(),source_refs:refs});
+  });
+
+  const concepts=[];
+  document.querySelectorAll('#concepts .slot').forEach((s,idx)=>{
+    const c=s.querySelector('input').value.trim(),d=s.querySelector('textarea').value.trim();
+    const n=idx+1;
+    if(n===1)need(c,'Conceito 1 (nome)');
+    if(!c&&!d)return;
+    if(!c){errs.push(`• Conceito ${n}: informe o nome.`);return;}
+    if(!d){errs.push(`• Conceito ${n}: informe a definição / uso.`);return;}
+    const{refs}=parseEv(d);
+    concepts.push({concept:c,definition:d,quote:'',source_refs:refs});
+  });
+
+  need(g('m_study'),'Tipo de estudo');need(g('m_design'),'Delineamento');
+  const mrefs=parseEv(g('m_refs')).refs;
+
+  const findings=[];
+  document.querySelectorAll('#findings .slot').forEach((s,idx)=>{
+    const n=idx+1;
+    const f=s.querySelector('textarea').value.trim();
+    const t=s.querySelector('select').value;
+    const ev=s.querySelector('input').value.trim();
+    if(n===1)need(f,'Achado 1');
+    if(!f&&!ev)return;
+    if(!f){errs.push(`• Achado ${n}: escreva o achado.`);return;}
+    if(!t)errs.push(`• Achado ${n}: escolha o tipo.`);
+    const{refs,quote}=parseEv(ev);
+    findings.push({finding:f,type:t||'empirical',quote,source_refs:refs});
+  });
+
+  need(g('c_theo'),'Contribuição teórica');need(g('c_prac'),'Contribuição prática');
+
+  const sa={};SECS.forEach(s=>{const v=document.querySelector(`input[name=sa_${s}]:checked`);
+    if(!v)errs.push(`• Auto-avaliação: nota de "${PT[s]}".`);else sa[s]=+v.value;});
+
+  need(g('r1'),'Reflexão 1');need(g('r2'),'Reflexão 2');need(g('r3'),'Reflexão 3');need(g('r4'),'Reflexão 4');
+
+  const ebox=document.getElementById('errors'),okb=document.getElementById('ok');
+  if(errs.length){
+    ebox.textContent='Corrija antes de enviar:\n'+errs.join('\n');
+    ebox.style.display='block';okb.style.display='none';
+    window.scrollTo({top:0,behavior:'smooth'});return;
+  }
+  ebox.style.display='none';
+
+  const payload={
+    article_id:g('article_id'),participant_id:g('participant_id'),consent:'aceito',
+    elapsed_minutes:+g('elapsed_minutes'),
+    full_name:g('full_name'),age:g('age'),gender:g('gender'),program:g('program'),
+    executive_summary:g('executive_summary'),research_question:g('research_question'),
+    theory_verdicts:verdicts,theories:extra,key_concepts:concepts,
+    methodology:{study_type:g('m_study'),design:g('m_design'),
+      sample_type:g('m_sample'),sample_size:/^\d+$/.test(g('m_n'))?+g('m_n'):null,
+      sector:g('m_sector'),period:g('m_period'),
+      methods:g('m_methods').split(',').map(x=>x.trim()).filter(Boolean),
+      analysis_note:g('m_note'),source_refs:mrefs},
+    main_findings:findings,
+    contribution:{theoretical:g('c_theo'),practical:g('c_prac')},
+    self_assessment:sa,
+    reflection_log:{q1:g('r1'),q2:g('r2'),q3:g('r3'),q4:g('r4')}
+  };
+  // R1: arquivo identificado pelo código S travado no link pessoal
+  const fname=`${payload.participant_id||'S00'}_${payload.article_id||'SEM'}.json`;
+  const jtxt=JSON.stringify(payload,null,2);
+  const baixar=()=>{const blob=new Blob([jtxt],{type:'application/json'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+    a.download=fname;a.click();};
+
+  try{
+    const r=await fetch('/api/send',{method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({filename:fname,json:jtxt})});
+    if(!r.ok)throw 0;
+    document.getElementById('f').style.display='none';
+    document.getElementById('doneMsg').textContent=
+      `Recebemos o seu fichamento (${fname}).`;
+    document.getElementById('done').hidden=false;
+    window.scrollTo({top:0,behavior:'smooth'});
+  }catch{
+    baixar();
+    okb.textContent=location.protocol==='file:'
+      ?`Você está testando o arquivo local — o envio só funciona no link publicado. Baixamos ${fname} para conferir o conteúdo.`
+      :`O envio automático falhou. Baixamos o arquivo ${fname} para você — envie-o EM ANEXO por e-mail à coordenação.`;
+    okb.style.display='block';window.scrollTo({top:0,behavior:'smooth'});
+  }
+});
+</script>
+</body>
+</html>

@@ -271,6 +271,32 @@
           ],
           "default": null,
           "title": "Submitted At"
+        },
+        "self_assessment": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SectionScores"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "reflection_log": {
+          "anyOf": [
+            {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reflection Log"
         }
       },
       "required": [
@@ -411,6 +437,70 @@
         "design"
       ],
       "title": "Methodology",
+      "type": "object"
+    },
+    "SectionScores": {
+      "properties": {
+        "executive_summary": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Executive Summary",
+          "type": "integer"
+        },
+        "research_question": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Research Question",
+          "type": "integer"
+        },
+        "theories": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Theories",
+          "type": "integer"
+        },
+        "key_concepts": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Key Concepts",
+          "type": "integer"
+        },
+        "methodology": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Methodology",
+          "type": "integer"
+        },
+        "main_findings": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Main Findings",
+          "type": "integer"
+        },
+        "contribution": {
+          "description": "BARS 1-7",
+          "maximum": 7,
+          "minimum": 1,
+          "title": "Contribution",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "executive_summary",
+        "research_question",
+        "theories",
+        "key_concepts",
+        "methodology",
+        "main_findings",
+        "contribution"
+      ],
+      "title": "SectionScores",
       "type": "object"
     },
     "Theory": {

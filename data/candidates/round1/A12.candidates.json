@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A12",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "c1aa05f8f0cf3ba3230b279f648acce958f223dc0baf83e0552b69bd2d03d681"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Estratégia como prática (strategy-as-practice)",
+      "definition": "Abordagem que trata estratégia como algo que pessoas fazem, não algo que firmas têm.",
+      "tradition": "virada prática / estudos de estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Estratégia como padrão em fluxo de ações / estratégia emergente",
+      "definition": "Concepção clássica de estratégia como padrão num fluxo de ações, deliberado ou emergente.",
+      "tradition": "estratégia / escola de aprendizagem",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Consequencialidade das atividades estratégicas",
+      "definition": "Visão de que atividades são estratégicas por suas consequências para resultados, direção e sobrevivência.",
+      "tradition": "strategy-as-practice",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Teoria da dependência de recursos",
+      "definition": "Teoria de que organizações dependem de recursos controlados por outros e gerenciam essas dependências.",
+      "tradition": "estratégia / relações organização-ambiente",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Frameworks centrais de SAP: 3Ps, Who/What/How, 4Ps",
+      "definition": "Os frameworks consolidados do campo SAP para analisar prática, praticantes e práticas.",
+      "tradition": "strategy-as-practice",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Visão nominalista: estratégia como rótulo/discurso",
+      "definition": "Visão de que atividades são estratégicas quando rotuladas como tais por praticantes.",
+      "tradition": "SAP / discurso",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Ontologia da prática e conhecimento prático ('coping')",
+      "definition": "Perspectiva de que a consistência dos padrões emerge de disposições corporais não refletidas.",
+      "tradition": "filosofia social / practice theory",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Visão baseada em conhecimento (KBV)",
+      "definition": "Perspectiva de que a firma existe para criar, integrar e aplicar conhecimento.",
+      "tradition": "estratégia / conhecimento",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Cognição gerencial e visão baseada em atenção (ABV)",
+      "definition": "Perspectiva de que o que organizações fazem depende de como focam atenção, ligada a SAP.",
+      "tradition": "estratégia / cognição",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Planejamento estratégico e performatividade da estratégia",
+      "definition": "Corpo sobre planejamento formal e sobre como teorias de estratégia produzem o que descrevem.",
+      "tradition": "estratégia / performatividade",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Liderança estratégica / upper echelons",
+      "definition": "Corpo que liga CEOs, equipes de alta gestão e conselhos a resultados e desempenho estratégico.",
+      "tradition": "estratégia / alta administração",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Capacidades dinâmicas e capacidades gerenciais dinâmicas",
+      "definition": "Corpo sobre reconfiguração de recursos e microfundamentos gerenciais das capacidades.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Perspectivas emic x etic",
+      "definition": "Distinção entre categorizações feitas pelos próprios praticantes (emic) e pelos pesquisadores (etic).",
+      "tradition": "metodologia / antropologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Fronteiras do campo de gestão estratégica",
+      "definition": "Debate sobre o que conta como estratégia e como delimitar o campo da gestão estratégica.",
+      "tradition": "estratégia / definição do campo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Sensemaking e sensebreaking",
+      "definition": "Corpo sobre construção e ruptura de sentido em mudanças estratégicas.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T16",
+      "kind": "theory",
+      "name": "Estratégia aberta (open strategy)",
+      "definition": "Corpo sobre abertura do processo estratégico a mais participantes e transparência.",
+      "tradition": "estratégia / abertura",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T17",
+      "kind": "theory",
+      "name": "Dinâmica de rotinas",
+      "definition": "Corpo sobre a relação entre ações performativas e padrões recorrentes em rotinas.",
+      "tradition": "teoria organizacional / rotinas",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T18",
+      "kind": "theory",
+      "name": "Performatividade de gênero",
+      "definition": "Noção de gênero como padrão performativo produzido pela repetição de comportamentos.",
+      "tradition": "teoria social / gênero",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

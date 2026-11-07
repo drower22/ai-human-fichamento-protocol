@@ -1,0 +1,71 @@
+{
+  "participant_id": "S03",
+  "article_id": "A02",
+  "round": 1,
+  "title": "Rememoração como prática social na construção de sentido nas organizações",
+  "authors": "Pablo Henrique Paschoal Capucho; Ingrid de Matos Martins; Beatriz Lima Zanoni; Natália Rese",
+  "year": 2025,
+  "venue": "Cadernos EBAPE.BR 23(6), e2025-0046",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Fenomenologia hermenêutica da memória",
+      "authors": "Paul Ricœur"
+    },
+    {
+      "item_id": "T2",
+      "name": "Práticas sociais e microrresistências",
+      "authors": "Michel de Certeau"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria da estruturação",
+      "authors": "Giddens (1984)"
+    },
+    {
+      "item_id": "T4",
+      "name": "Sensemaking",
+      "authors": "Weick (1995); Sandberg & Tsoukas (2020); Glynn & Watkiss (2020)"
+    },
+    {
+      "item_id": "T5",
+      "name": "Sensegiving e sensebreaking como formas de poder",
+      "authors": "Schildt, Mantere & Cornelissen (2020)"
+    },
+    {
+      "item_id": "T6",
+      "name": "Memória coletiva",
+      "authors": "Halbwachs (1990)"
+    },
+    {
+      "item_id": "T7",
+      "name": "Memória organizacional funcional e memória transacional",
+      "authors": "Walsh & Ungson (1991); Wegner (1987)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Aprendizagem organizacional",
+      "authors": "Argyris & Schön; Huber"
+    },
+    {
+      "item_id": "T9",
+      "name": "Perspectivas dos estudos de memória organizacional e organizational remembering",
+      "authors": "Foroughi et al. (2020); Rowlinson et al. (2010); Feldman & Feldman (2006)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Lado sombrio das organizações (dark side)",
+      "authors": "Linstead, Maréchal & Griffin"
+    },
+    {
+      "item_id": "T11",
+      "name": "Razão instrumental / intencionalidade consequencialista",
+      "authors": "Chia & Holt (2023)"
+    },
+    {
+      "item_id": "T12",
+      "name": "História organizacional como recurso estratégico",
+      "authors": "Suddaby, Foster & Trank (2010); Hatch & Schultz (2017)"
+    }
+  ]
+}

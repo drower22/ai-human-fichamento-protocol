@@ -154,10 +154,16 @@ Schema: [`../schemas/fichamento.schema.json`](../schemas/fichamento.schema.json)
 
 ## 6. Avaliação (instrumento dos juízes)
 
-Definida em [`rubric.md`](rubric.md) — **congelar antes da R1**.
+Definida em [`rubric.md`](rubric.md) — âncoras validadas em **piloto R0**
+(artigo fora do corpus; juízes avaliam às cegas um fichamento de
+estudante sorteado) e **congeladas para as duas rodadas**.
 
-- **BARS 1–7** por seção, com âncoras verbais em 1, 4 e 7 (comportamentos
-  observáveis por nota — reduz variância inter-rater).
+- **BARS adaptada 1–7** por seção, com âncoras verbais em 1, 4 e 7
+  (comportamentos observáveis por nota). As âncoras tornam cada nota
+  **auditável** e garantem que o mesmo juiz avalie A e B do mesmo artigo
+  na mesma régua — a comparação protegida é o pareamento intra-juiz, não
+  concordância inter-rater (1 rater/fichamento por desenho). Os códigos
+  de erro compartilham vocabulário com a calibração dos estudantes.
 - **Taxonomia de erros** marcável por seção: `hallucination`, `omission`,
   `misinterpretation`, `misattribution`, `terminology`, `extrapolation`,
   `invalid_source_ref`, `other`. Alimenta diretamente a calibração.

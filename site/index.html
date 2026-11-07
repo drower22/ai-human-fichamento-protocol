@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fichamento — Artigo-Piloto</title>
+<style>
+  :root{--blue:#2563eb;--navy:#1e3a5f;--slate:#475569;--ink:#1e293b;
+    --bg:#f1f5f9;--card:#fff;--line:#cbd5e1;--soft:#e2e8f0;--err:#b91c1c}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);font-family:"Segoe UI",system-ui,sans-serif;
+    color:var(--ink);line-height:1.5}
+  .wrap{max-width:900px;margin:0 auto;padding:40px 24px 120px}
+  header{background:var(--navy);color:#fff;border-radius:14px;padding:30px 34px;margin-bottom:26px}
+  header h1{font-size:30px}
+  header p{font-size:16px;color:#cbd5e1;margin-top:8px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:28px 30px;margin-bottom:22px}
+  section h2{font-size:22px;color:var(--navy);margin-bottom:6px}
+  section .desc{font-size:15px;color:var(--slate);margin-bottom:18px;white-space:pre-line}
+  label.q{display:block;font-size:16px;font-weight:600;color:var(--navy);margin:18px 0 6px}
+  label.q small{font-weight:400;color:var(--slate);display:block;margin-top:2px}
+  input[type=text],input[type=number],textarea,select{width:100%;border:1px solid var(--line);
+    border-radius:9px;padding:10px 13px;font-size:15px;font-family:inherit;color:var(--ink)}
+  textarea{min-height:110px;resize:vertical}
+  textarea.short{min-height:70px}
+  input:focus,textarea:focus,select:focus{outline:2px solid #93c5fd;border-color:var(--blue)}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+  .theory{border:1px solid var(--soft);border-radius:12px;padding:16px 18px;margin:12px 0}
+  .theory .tname{font-weight:700;color:var(--navy);font-size:16px}
+  .theory .tdef{font-size:14px;color:var(--slate);margin:4px 0 10px}
+  .radios{display:flex;gap:18px;flex-wrap:wrap}
+  .radios label{display:flex;align-items:center;gap:7px;font-size:15px;font-weight:600;
+    padding:6px 14px;border:1px solid var(--line);border-radius:999px;cursor:pointer}
+  .radios input{accent-color:var(--blue)}
+  .radios label:has(input:checked){border-color:var(--blue);background:#eff6ff}
+  .ev{margin-top:10px;display:none}
+  .ev.show{display:block}
+  .slot{border-left:4px solid var(--blue);padding-left:16px;margin:16px 0}
+  .slot h3{font-size:15px;color:var(--slate);text-transform:uppercase;letter-spacing:.5px}
+  .consent{display:flex;gap:10px;align-items:flex-start;font-size:15px;color:var(--ink);
+    background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:14px 16px;margin-top:18px}
+  .consent input{margin-top:3px;accent-color:var(--blue)}
+  button{background:var(--blue);color:#fff;border:none;border-radius:10px;
+    font-size:18px;font-weight:700;padding:16px 40px;cursor:pointer;width:100%}
+  button:hover{background:var(--navy)}
+  .errors{background:#fef2f2;border:1px solid #fecaca;color:var(--err);border-radius:10px;
+    padding:16px 20px;font-size:15px;margin-bottom:18px;display:none;white-space:pre-line}
+  .ok{background:#ecfdf5;border:1px solid #a7f3d0;color:#065f46;border-radius:10px;
+    padding:16px 20px;font-size:15px;margin-bottom:18px;display:none}
+  .hint{font-size:13px;color:var(--slate);margin-top:8px}
+  .anch{font-size:13.5px;color:var(--slate);line-height:1.55;margin:6px 0 10px}
+  .anch b{display:inline-block;background:var(--navy);color:#fff;border-radius:6px;
+    min-width:22px;text-align:center;padding:0 5px;margin-right:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Fichamento — Artigo-Piloto</h1>
+  <p><b>Antes de começar:</b> leia o artigo numerado por completo e tenha-o aberto ao lado.
+  Escreva em português, com suas palavras. Toda afirmação sobre o artigo leva a referência
+  da linha entre parênteses, no formato <b>(p.N Lnnn)</b> — ex.: (p.5 L165) ou um intervalo
+  (p.5 L165-170). Trabalhe sozinho, sem IA e sem consultar colegas. Ao final, o formulário
+  gera um arquivo .json para você enviar por e-mail à coordenação.</p>
+</header>
+
+<div class="errors" id="errors"></div>
+<div class="ok" id="ok"></div>
+
+<form id="f" novalidate>
+
+<section>
+  <h2>1. Identificação</h2>
+  <p class="desc">Seus dados pessoais servem apenas para caracterizar a amostra da
+  pesquisa. Eles NÃO aparecem no fichamento que os juízes avaliam — quem avalia vê
+  somente o seu identificador.</p>
+  <div class="row2">
+    <div><label class="q">Nome completo</label><input type="text" name="full_name"></div>
+    <div><label class="q">Idade (anos)</label><input type="number" name="age" min="16" max="99"></div>
+  </div>
+  <div class="row2">
+    <div><label class="q">Gênero</label>
+      <select name="gender"><option value="">—</option><option>Feminino</option>
+      <option>Masculino</option><option>Outro</option><option>Prefiro não informar</option></select></div>
+    <div><label class="q">Programa</label>
+      <select name="program"><option value="">—</option><option>Mestrado</option>
+      <option>Doutorado</option></select></div>
+  </div>
+  <div class="row3">
+    <div><label class="q">Seu identificador<small>o código S que você recebeu da coordenação</small></label>
+      <select name="participant_id" id="pid"></select></div>
+    <div><label class="q">Artigo</label>
+      <input type="text" name="article_id" value="PILOTO" readonly></div>
+    <div><label class="q">Tempo total (min)<small>quanto tempo levou no total (ler + fichar); estimativa honesta, não vai aos juízes</small></label>
+      <input type="number" name="elapsed_minutes" min="1"></div>
+  </div>
+</section>
+
+<section>
+  <h2>2. Termo de Consentimento Livre e Esclarecido</h2>
+  <p class="desc">Você está sendo convidado(a) a participar de uma pesquisa acadêmica que
+  compara fichamentos produzidos por estudantes e por inteligência artificial. A sua
+  participação consiste em ler um artigo e produzir um fichamento usando este formulário.
+
+  • <b>Voluntariedade:</b> participar é totalmente voluntário. Você pode desistir a
+  qualquer momento, sem qualquer prejuízo ou necessidade de justificativa — basta não
+  enviar o arquivo ou pedir a exclusão dos seus dados.
+  • <b>Anonimato:</b> seu fichamento é identificado apenas por um código (S01, S02…).
+  Seus dados pessoais ficam em arquivo privado da coordenação e nunca são mostrados
+  aos avaliadores.
+  • <b>Uso dos dados:</b> suas respostas serão analisadas de forma agregada para fins
+  de pesquisa científica, podendo aparecer em publicações apenas de forma anonimizada.
+  • <b>Riscos e benefícios:</b> não há riscos previstos além do tempo dedicado. O
+  benefício é contribuir para um protocolo público e aprimorar sua prática de leitura.
+
+  Em caso de dúvidas, fale com a coordenação antes de enviar.</p>
+  <div class="radios" style="font-size:16px">
+    <label><input type="radio" name="tcle" value="aceito"> <b>Li e aceito participar</b></label>
+    <label><input type="radio" name="tcle" value="nao_aceito"> Não aceito participar</label>
+  </div>
+</section>
+
+<section>
+  <h2>3. Resumo executivo</h2>
+  <label class="q">Resumo executivo<small>Síntese em ~300 palavras: problema, abordagem teórica, método, achados e contribuição. Referências entre parênteses: (p.N Lnnn).</small></label>
+  <textarea name="executive_summary"></textarea>
+</section>
+
+<section>
+  <h2>4. Questão de pesquisa</h2>
+  <label class="q">Questão de pesquisa<small>A pergunta que o artigo busca responder, formulada com precisão. Inclua (p.N Lnnn).</small></label>
+  <textarea name="research_question" class="short"></textarea>
+</section>
+
+<section>
+  <h2>5. Teorias</h2>
+  <p class="desc">Para cada teoria abaixo, diga como ela aparece no artigo:
+
+• USA = o artigo constrói o argumento em cima dela (se remover, o argumento quebra)
+• DISCUTE = é citada ou debatida com algum peso, mas não estrutura o argumento
+• NÃO USA = não aparece, ou aparece só de passagem/decoração
+
+Marcou USA ou DISCUTE? Então indique onde está no artigo: referência (p.N Lnnn)
+e, idealmente, o trecho literal.</p>
+  <div id="theories"></div>
+  <label class="q">Teorias fora da lista (opcional)<small>O artigo usa ou discute alguma teoria que NÃO está na lista? Uma por linha: nome — tradição — uses ou discusses — (p.N Lnnn). A lista foi montada antes da sua leitura e pode não cobrir tudo: encontrar o que faltou conta pontos a seu favor.</small></label>
+  <textarea name="extra_theories" class="short"></textarea>
+</section>
+
+<section>
+  <h2>6. Conceitos-chave</h2>
+  <p class="desc">Liste de 3 a 4 conceitos centrais do artigo — os construtos sem os quais
+  o argumento não se sustenta. Para cada um: o nome, como o artigo o define ou usa,
+  e onde ele aparece (p.N Lnnn).</p>
+  <div id="concepts"></div>
+</section>
+
+<section>
+  <h2>7. Metodologia</h2>
+  <div class="row3">
+    <div><label class="q">Tipo de estudo</label>
+      <select name="m_study"><option value="">—</option>
+      <option value="empírico">Empírico (coleta/analisa dados)</option>
+      <option value="teórico">Teórico / conceitual</option>
+      <option value="revisão">Revisão de literatura</option>
+      <option value="simulação">Simulação</option>
+      <option value="outro">Outro</option></select></div>
+    <div><label class="q">Delineamento<small>ex.: estudo de caso único exploratório</small></label>
+      <input type="text" name="m_design"></div>
+    <div><label class="q">Referência<small>(p.N Lnnn) da seção de método</small></label>
+      <input type="text" name="m_refs"></div>
+  </div>
+  <div class="row3">
+    <div><label class="q">Tipo de amostra<small>ex.: profissionais da empresa; N/A se não houver</small></label>
+      <input type="text" name="m_sample"></div>
+    <div><label class="q">Tamanho (N)<small>número ou N/A</small></label>
+      <input type="text" name="m_n"></div>
+    <div><label class="q">Setor<small>setor/indústria dos dados</small></label>
+      <input type="text" name="m_sector"></div>
+  </div>
+  <div class="row2">
+    <div><label class="q">Período<small>período coberto pelos dados</small></label>
+      <input type="text" name="m_period"></div>
+    <div><label class="q">Técnicas<small>separadas por vírgula (ex.: entrevistas semiestruturadas, análise documental)</small></label>
+      <input type="text" name="m_methods"></div>
+  </div>
+  <label class="q">Nota de análise (opcional)<small>como os dados foram analisados</small></label>
+  <textarea name="m_note" class="short"></textarea>
+</section>
+
+<section>
+  <h2>8. Achados principais</h2>
+  <p class="desc">Liste de 3 a 5 achados principais do artigo, com suas palavras.
+  Classifique cada um: empírico (veio dos dados), proposição (afirmação proposta
+  para teste futuro) ou modelo (framework/figura que organiza o argumento).
+  Indique onde está (p.N Lnnn).</p>
+  <div id="findings"></div>
+</section>
+
+<section>
+  <h2>9. Contribuição</h2>
+  <div class="row2">
+    <div><label class="q">Teórica<small>o avanço teórico que o artigo entrega</small></label>
+      <textarea name="c_theo" class="short"></textarea></div>
+    <div><label class="q">Prática<small>a utilidade prática</small></label>
+      <textarea name="c_prac" class="short"></textarea></div>
+  </div>
+</section>
+
+<section>
+  <h2>10. Auto-avaliação</h2>
+  <p class="desc">Avalie o SEU fichamento com a MESMA régua dos juízes (BARS 1–7, âncoras
+  em 1 / 4 / 7; notas intermediárias interpolam). Seja honesto — a pesquisa mede a
+  diferença entre a sua auto-nota e a nota dos juízes. Não será mostrado a eles.</p>
+  <div id="selfass"></div>
+</section>
+
+<section>
+  <h2>11. Reflexão</h2>
+  <p class="desc">Três respostas curtas e sinceras sobre a experiência. Não são avaliadas
+  nem mostradas aos juízes.</p>
+  <label class="q">O que foi mais difícil neste fichamento, e por quê?</label>
+  <textarea name="r1" class="short"></textarea>
+  <label class="q">Se você fosse refazer, o que mudaria na sua abordagem?</label>
+  <textarea name="r2" class="short"></textarea>
+  <label class="q">Você usou alguma ferramenta de IA ou auxílio externo para ler ou fichar? Se sim, qual e como?</label>
+  <textarea name="r3" class="short"></textarea>
+</section>
+
+<button type="submit">Baixar meu fichamento (.json)</button>
+</form>
+</div>
+
+<script>
+const POOL = [{"item_id": "T1", "name": "Abordagem contingencial da estratégia", "tradition": "teoria organizacional / estratégia clássica", "definition": "Escola que ordena organizações num continuum de 'fit': o tipo adequado de formação estratégica decorre de variáveis como ambiente, tecnologia e estrutura (Lawrence & Lorsch; Burns & Stalker; Woodward; Donaldson; Chandler; Child)."}, {"item_id": "T2", "name": "Capacidades dinâmicas", "tradition": "estratégia / extensão da RBV", "definition": "Framework (Teece, Pisano & Shuen 1997) sobre a capacidade da firma de integrar, construir e reconfigurar competências para responder a ambientes em mudança."}, {"item_id": "T3", "name": "Estratégia como prática (strategy-as-practice)", "tradition": "virada prática / estudos de estratégia", "definition": "Abordagem que entende a estratégia como atividade situada e socialmente efetivada — o 'fazer' dos estrategistas com práticas, rotinas e ferramentas no cotidiano (Jarzabkowski; Whittington)."}, {"item_id": "T4", "name": "Abordagem de conteúdo da estratégia", "tradition": "estratégia clássica / prescriptiva", "definition": "Pesquisa focada em definir qual é a estratégia correta para a organização, via tipologias e ferramentas analíticas (Ansoff; Andrews; Porter; Rumelt)."}, {"item_id": "T5", "name": "Aprendizagem organizacional", "tradition": "teoria organizacional", "definition": "Perspectiva (Argyris & Schön; Huber) sobre como organizações adquirem, interpretam e codificam conhecimento ao longo do tempo."}, {"item_id": "T6", "name": "Teoria da estruturação", "tradition": "sociologia / teoria social", "definition": "Teoria social de Giddens (1984): estrutura e agência formam uma dualidade recursiva — a ação é moldada pela estrutura e, ao mesmo tempo, a (re)produz; conceitos: estruturas, interação, modalidades."}, {"item_id": "T7", "name": "Teoria institucional", "tradition": "sociologia organizacional", "definition": "Perspectiva (Selznick; DiMaggio & Powell; Meyer & Rowan) sobre como pressões institucionais e processos de institucionalização moldam práticas e estruturas organizacionais."}, {"item_id": "T8", "name": "Abordagem processual da estratégia", "tradition": "estudos de processo / estratégia", "definition": "Foco em como a estratégia é criada e realizada na organização — dinâmica interna, processos emergentes vs. deliberados (Mintzberg; Pettigrew; Johnson)."}, {"item_id": "T9", "name": "Teoria dos custos de transação", "tradition": "economia institucional", "definition": "Framework (Coase; Williamson) que explica formas de governança (mercado vs. hierarquia) pelos custos de transação envolvidos."}, {"item_id": "T10", "name": "Visão baseada em recursos (RBV)", "tradition": "estratégia", "definition": "Perspectiva (Wernerfelt; Barney; Penrose) de que a vantagem competitiva advém de recursos internos valiosos, raros, inimitáveis e organizados."}, {"item_id": "T11", "name": "Momentum burocrático", "tradition": "estudos de processo / estratégia", "definition": "Conceito de Mintzberg (1978): metáfora da física para a quantidade de movimento que mantém a organização em determinada trajetória de ação."}, {"item_id": "T12", "name": "Esquema de estruturação de Barley & Tolbert", "tradition": "sociologia organizacional", "definition": "Adaptação da teoria da estruturação ao nível organizacional (Barley & Tolbert, 1997): scripts/modalidades observáveis como práticas, articulando ação e instituições."}, {"item_id": "T13", "name": "Escola de aprendizagem (learning school)", "tradition": "escolas de estratégia", "definition": "Uma das escolas de formação estratégica de Mintzberg, Ahlstrand & Lampel (2000): estratégia como processo emergente de aprendizagem."}];
+
+// participant select S01..S30
+const pid=document.getElementById('pid');
+pid.innerHTML='<option value="">—</option>'+Array.from({length:30},(_,i)=>
+  `<option>S${String(i+1).padStart(2,'0')}</option>`).join('');
+
+// theories
+const td=document.getElementById('theories');
+td.innerHTML=POOL.map(t=>`
+  <div class="theory">
+    <div class="tname">${t.item_id} — ${t.name}</div>
+    <div class="tdef">${t.tradition||''}${t.tradition&&t.definition?' · ':''}${t.definition||''}</div>
+    <div class="radios">
+      <label><input type="radio" name="v_${t.item_id}" value="uses"> USA</label>
+      <label><input type="radio" name="v_${t.item_id}" value="discusses"> DISCUTE</label>
+      <label><input type="radio" name="v_${t.item_id}" value="does_not_use"> NÃO USA</label>
+    </div>
+    <div class="ev" id="ev_${t.item_id}">
+      <input type="text" name="e_${t.item_id}" placeholder="Onde ela aparece? (p.N Lnnn) e o trecho literal">
+    </div>
+  </div>`).join('');
+POOL.forEach(t=>{
+  document.querySelectorAll(`input[name=v_${t.item_id}]`).forEach(r=>
+    r.addEventListener('change',()=>{
+      document.getElementById('ev_'+t.item_id)
+        .classList.toggle('show',r.value!=='does_not_use');}));
+});
+
+// concept slots (1-3 obrig, 4 opc)
+document.getElementById('concepts').innerHTML=[1,2,3,4].map(i=>`
+  <div class="slot"><h3>Conceito ${i}${i===4?' (opcional)':''}</h3>
+    <label class="q">Nome</label><input type="text" name="kc${i}_c">
+    <label class="q">Definição / uso no artigo</label><textarea name="kc${i}_d" class="short"></textarea>
+    <label class="q">Evidência</label><input type="text" name="kc${i}_e" placeholder="(p.N Lnnn) trecho literal">
+  </div>`).join('');
+
+// finding slots (1-3 obrig, 4-5 opc)
+document.getElementById('findings').innerHTML=[1,2,3,4,5].map(i=>`
+  <div class="slot"><h3>Achado ${i}${i>3?' (opcional)':''}</h3>
+    <label class="q">Achado / proposição</label><textarea name="f${i}_f" class="short"></textarea>
+    <div class="row2">
+      <div><label class="q">Tipo</label>
+        <select name="f${i}_t"><option value="">—</option>
+        <option value="empirical">Empírico (veio dos dados)</option>
+        <option value="proposition">Proposição (a testar)</option>
+        <option value="model">Modelo / framework</option></select></div>
+      <div><label class="q">Evidência</label>
+        <input type="text" name="f${i}_e" placeholder="(p.N Lnnn) trecho literal"></div>
+    </div>
+  </div>`).join('');
+
+// self assessment
+const SECS=['executive_summary','research_question','theories','key_concepts',
+  'methodology','main_findings','contribution'];
+const PT={executive_summary:'Resumo executivo',research_question:'Questão de pesquisa',
+  theories:'Teorias',key_concepts:'Conceitos-chave',methodology:'Metodologia',
+  main_findings:'Achados principais',contribution:'Contribuição'};
+const ANCHORS={
+executive_summary:{a1:'Ausente, genérico a ponto de valer para qualquer artigo, ou contradiz o artigo',
+  a4:'Cobre problema, método e resultado centrais, mas perde nuances ou omite partes importantes',
+  a7:'Síntese fiel e completa (~300 palavras); quem lê entende o artigo sem abrir o PDF'},
+research_question:{a1:'Ausente ou errada (não é a pergunta do artigo)',
+  a4:'Correta mas imprecisa: ampla demais, ou captura só parte',
+  a7:'Formula precisamente a pergunta do artigo, no escopo correto'},
+theories:{a1:'Teorias centrais ausentes ou inventadas',
+  a4:'Lista as principais mas confunde papel (lente vs. citação periférica) ou omite tradição relevante',
+  a7:'Identifica todas as teorias centrais, sua tradição e o papel de cada uma; zero invenção'},
+key_concepts:{a1:'Conceitos errados, inventados ou definições incorretas',
+  a4:'3–4 conceitos corretos, mas definições genéricas ou escolha discutível',
+  a7:'3–4 construtos centrais com definições fiéis ao uso no artigo'},
+methodology:{a1:'Design/método errados ou inventados',
+  a4:'Design correto mas omite informação essencial (N, setor, período, técnicas)',
+  a7:'Design, N, setor, período e técnicas corretos e completos'},
+main_findings:{a1:'Achados inventados, invertidos ou que o artigo não sustenta',
+  a4:'Achados corretos mas incompletos, ou sem distinguir evidência de especulação',
+  a7:'Captura todos os achados/proposições centrais, distinguindo empírico de proposição/modelo'},
+contribution:{a1:'Ausente ou não corresponde ao que o artigo reivindica/entrega',
+  a4:'Identifica contribuição real mas superficial (repete abstract) ou infla',
+  a7:'Articula avanço teórico e utilidade prática de forma fiel e calibrada'}};
+document.getElementById('selfass').innerHTML=SECS.map(s=>`
+  <div class="slot"><h3>${PT[s]}</h3>
+    <p class="anch"><b>1</b> ${ANCHORS[s].a1}<br><b>4</b> ${ANCHORS[s].a4}<br><b>7</b> ${ANCHORS[s].a7}</p>
+    <div class="radios">${[1,2,3,4,5,6,7].map(n=>
+      `<label><input type="radio" name="sa_${s}" value="${n}"> ${n}</label>`).join('')}
+    </div>
+  </div>`).join('');
+
+const REF=/\(p\.\d+(?:-\d+)?(?:[\/ ]L\d+(?:-\d+)?)?\)|\(L\d+(?:-\d+)?\)/;
+const g=n=>document.querySelector(`[name=${n}]`)?.value.trim()||'';
+const parseEv=t=>{const refs=[...(t.match(/p\.\d+(?:-\d+)?(?:[\/ ]L\d+(?:-\d+)?)?|L\d+(?:-\d+)?/g)||[])];
+  const quote=t.replace(/p\.\d+(?:-\d+)?(?:[\/ ]L\d+(?:-\d+)?)?|L\d+(?:-\d+)?/g,'')
+    .replace(/[()\[\];,\-—]/g,' ').replace(/\s+/g,' ').trim();
+  return{refs,quote};};
+
+document.getElementById('f').addEventListener('submit',e=>{
+  e.preventDefault();
+  const errs=[];
+  const need=(v,label)=>{if(!v)errs.push('• '+label+' está vazio.');};
+
+  need(g('full_name'),'Nome completo');need(g('age'),'Idade');
+  need(g('gender'),'Gênero');need(g('program'),'Programa');
+  need(g('participant_id'),'Identificador');need(g('elapsed_minutes'),'Tempo total');
+  const tcle=document.querySelector('input[name=tcle]:checked');
+  if(!tcle)errs.push('• Termo de consentimento: marque se aceita participar.');
+  else if(tcle.value==='nao_aceito')errs.push('• Você marcou "não aceito". Se mudar de ideia, selecione "Li e aceito participar".');
+  need(g('executive_summary'),'Resumo executivo');
+  need(g('research_question'),'Questão de pesquisa');
+
+  const verdicts=[];
+  POOL.forEach(t=>{
+    const v=document.querySelector(`input[name=v_${t.item_id}]:checked`);
+    if(!v){errs.push(`• ${t.item_id}: escolha um veredito.`);return;}
+    const ev=g('e_'+t.item_id);const{refs,quote}=parseEv(ev);
+    if(v.value!=='does_not_use'&&!refs.length)
+      errs.push(`• ${t.item_id}: veredito "${v.value}" exige referência (p.N Lnnn) na evidência.`);
+    verdicts.push({item_id:t.item_id,name:t.name,verdict:v.value,source_refs:refs,quote,note:''});
+  });
+
+  const extra=[];
+  g('extra_theories').split('\n').forEach(l=>{
+    if(!l.trim())return;
+    const p=l.split(/—|;/).map(x=>x.trim()).filter(Boolean);
+    const{refs}=parseEv(l);
+    extra.push({name:p[0]||'',tradition:p[1]||'',role:(p[2]||'').toLowerCase(),source_refs:refs});
+  });
+
+  const concepts=[];
+  for(let i=1;i<=4;i++){
+    const c=g('kc'+i+'_c'),d=g('kc'+i+'_d'),ev=g('kc'+i+'_e');
+    if(i<=3)need(c,`Conceito ${i} (nome)`);
+    if(!c)continue;
+    const{refs,quote}=parseEv(ev);
+    if(!refs.length)errs.push(`• Conceito ${i}: informe a evidência (p.N Lnnn).`);
+    concepts.push({concept:c,definition:d,quote,source_refs:refs});
+  }
+
+  need(g('m_study'),'Tipo de estudo');need(g('m_design'),'Delineamento');
+  const mrefs=parseEv(g('m_refs')).refs;
+  if(!mrefs.length)errs.push('• Metodologia: informe a referência (p.N Lnnn).');
+
+  const findings=[];
+  for(let i=1;i<=5;i++){
+    const f=g('f'+i+'_f'),t=g('f'+i+'_t'),ev=g('f'+i+'_e');
+    if(i<=3)need(f,`Achado ${i}`);
+    if(!f)continue;
+    const{refs,quote}=parseEv(ev);
+    if(!t)errs.push(`• Achado ${i}: escolha o tipo.`);
+    if(!refs.length)errs.push(`• Achado ${i}: informe a evidência (p.N Lnnn).`);
+    findings.push({finding:f,type:t,quote,source_refs:refs});
+  }
+
+  need(g('c_theo'),'Contribuição teórica');need(g('c_prac'),'Contribuição prática');
+
+  const sa={};SECS.forEach(s=>{const v=document.querySelector(`input[name=sa_${s}]:checked`);
+    if(!v)errs.push(`• Auto-avaliação: nota de "${PT[s]}".`);else sa[s]=+v.value;});
+
+  need(g('r1'),'Reflexão 1');need(g('r2'),'Reflexão 2');need(g('r3'),'Reflexão 3');
+
+  const ebox=document.getElementById('errors'),okb=document.getElementById('ok');
+  if(errs.length){
+    ebox.textContent='Corrija antes de baixar:\n'+errs.join('\n');
+    ebox.style.display='block';okb.style.display='none';
+    window.scrollTo({top:0,behavior:'smooth'});return;
+  }
+  ebox.style.display='none';
+
+  const payload={
+    article_id:g('article_id'),participant_id:g('participant_id'),consent:'aceito',
+    elapsed_minutes:+g('elapsed_minutes'),
+    full_name:g('full_name'),age:g('age'),gender:g('gender'),program:g('program'),
+    executive_summary:g('executive_summary'),research_question:g('research_question'),
+    theory_verdicts:verdicts,theories:extra,key_concepts:concepts,
+    methodology:{study_type:g('m_study'),design:g('m_design'),
+      sample_type:g('m_sample'),sample_size:/^\d+$/.test(g('m_n'))?+g('m_n'):null,
+      sector:g('m_sector'),period:g('m_period'),
+      methods:g('m_methods').split(',').map(x=>x.trim()).filter(Boolean),
+      analysis_note:g('m_note'),source_refs:mrefs},
+    main_findings:findings,
+    contribution:{theoretical:g('c_theo'),practical:g('c_prac')},
+    self_assessment:sa,
+    reflection_log:{q1:g('r1'),q2:g('r2'),q3:g('r3')}
+  };
+  const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=`${payload.participant_id}_${payload.article_id}.json`;
+  a.click();
+  okb.textContent=`Arquivo ${a.download} baixado. Agora envie-o EM ANEXO por e-mail à coordenação.`;
+  okb.style.display='block';window.scrollTo({top:0,behavior:'smooth'});
+});
+</script>
+</body>
+</html>

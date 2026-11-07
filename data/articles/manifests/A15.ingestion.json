@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A15",
+  "pdf_path": "data/articles/pdfs/A15.pdf",
+  "pdf_sha256": "7e0af5b2ee6115fe89c47cda815728b0a9b8e8b6a8583d73214f6dd30f1921f1",
+  "md_path": "data/articles/markdown/A15.md",
+  "md_sha256": "379502ca65d19258bbc0d054467e4c47d1845f46a8e485b8f8918aca9e1263de",
+  "tool": "pymupdf 1.28.2",
+  "ocr_tool": null,
+  "pages_pdf": 10,
+  "pages_extracted": 10,
+  "est_tokens": 7511,
+  "pages": [
+    {
+      "page": 1,
+      "n_lines": 20,
+      "n_chars": 1286,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 2,
+      "n_lines": 50,
+      "n_chars": 3091,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 3,
+      "n_lines": 50,
+      "n_chars": 4146,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 4,
+      "n_lines": 44,
+      "n_chars": 3266,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 5,
+      "n_lines": 50,
+      "n_chars": 3999,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 6,
+      "n_lines": 49,
+      "n_chars": 3080,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 7,
+      "n_lines": 49,
+      "n_chars": 3148,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 8,
+      "n_lines": 48,
+      "n_chars": 3808,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 9,
+      "n_lines": 57,
+      "n_chars": 3713,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 10,
+      "n_lines": 8,
+      "n_chars": 510,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    }
+  ],
+  "coverage_complete": true,
+  "overrides": [],
+  "created_at": "2026-11-07T20:18:35.721832Z"
+}

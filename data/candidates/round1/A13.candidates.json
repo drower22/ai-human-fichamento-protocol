@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A13",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "20927fbcd56f4c4d6ce728a29d7ea15849932693b2b69d6ef659fc324f1c9875"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Observação participante / etnografia",
+      "definition": "Estratégia de campo que combina análise de documentos, entrevistas, participação, observação direta e introspecção.",
+      "tradition": "metodologia qualitativa",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Tipologia de papéis de membro em pesquisa de campo",
+      "definition": "Divide a observação participante em papéis periférico, ativo e completo.",
+      "tradition": "metodologia qualitativa",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Teoria ator-rede",
+      "definition": "Abordagem relacional que trata humanos e não-humanos como atores em rede.",
+      "tradition": "sociologia da ciência / STS",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Elementos empíricos e teóricos do método (liberdade, acesso, relacionamento, confiabilidade, especificidade, objetividade)",
+      "definition": "Quadro adaptado de elementos para avaliar desafios e benefícios da observação participante.",
+      "tradition": "metodologia qualitativa",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Confiabilidade e validade na pesquisa qualitativa",
+      "definition": "Critérios de qualidade dos achados qualitativos: independência de circunstâncias acidentais.",
+      "tradition": "metodologia / rigor",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Epistemologias interpretativa e crítica vs. positivista",
+      "definition": "Abordagens epistemológicas alternativas ao positivismo na pesquisa em administração da informação.",
+      "tradition": "epistemologia da pesquisa",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Metodologias qualitativas e teoria fundamentada nos dados",
+      "definition": "Corpo das metodologias qualitativas e da construção de teoria a partir dos dados.",
+      "tradition": "metodologia qualitativa",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Fenomenologia",
+      "definition": "Tradição que privilegia a experiência vivida e a consciência intencional como via de conhecimento.",
+      "tradition": "filosofia / epistemologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Estudo de caso único e revelador",
+      "definition": "Abordagem do estudo de caso adequado a interações complexas e ambíguas.",
+      "tradition": "metodologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Alinhamento estratégico negócio-TI e sua dimensão social",
+      "definition": "Corpo sobre o alinhamento estratégico entre negócio e TI e a dimensão social desse processo.",
+      "tradition": "administração da informação",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Drifting da tecnologia",
+      "definition": "Mudança do papel funcional da tecnologia em relação a objetivos e requisitos predefinidos.",
+      "tradition": "administração da informação",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Estratégia como prática",
+      "definition": "Abordagem que entende a estratégia como atividade situada e socialmente efetivada.",
+      "tradition": "virada prática / estudos de estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Dualidade da tecnologia",
+      "definition": "Modelo de Orlikowski da tecnologia como produto e produtora da ação humana.",
+      "tradition": "administração da informação / estruturação",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

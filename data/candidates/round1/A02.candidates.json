@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A02",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "bafdec616b2911983b773de3ab0866399f38b60d5403f72503111811e5922543"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Fenomenologia hermenêutica da memória",
+      "definition": "Abordagem que relaciona memória, história e esquecimento para conceituar a rememoração.",
+      "tradition": "filosofia / hermenêutica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Práticas sociais e microrresistências",
+      "definition": "Teoria das 'maneiras de fazer' cotidianas e das táticas de resistência dos sujeitos.",
+      "tradition": "sociologia / estudos da prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Teoria da estruturação",
+      "definition": "Teoria da dualidade estrutura-agência: a ação é moldada pela estrutura e, ao mesmo tempo, a (re)produz.",
+      "tradition": "sociologia / teoria social",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Sensemaking",
+      "definition": "Processo de construção de sentido: ser-no-mundo, temporalidade, corporeidade e linguagem.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Sensegiving e sensebreaking como formas de poder",
+      "definition": "Dádiva e ruptura de sentido enquanto exercício de poder: supressivo, autoritário, inspirador, expansivo.",
+      "tradition": "teoria organizacional / poder",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Memória coletiva",
+      "definition": "Conceitua a memória coletiva como representações do passado construídas e reconstruídas no presente.",
+      "tradition": "sociologia da memória",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Memória organizacional funcional e memória transacional",
+      "definition": "Visão funcionalista da memória organizacional como caixas de armazenamento e sistemas transacionais.",
+      "tradition": "teoria organizacional / cognição",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Aprendizagem organizacional",
+      "definition": "Perspectiva sobre como organizações adquirem, interpretam e codificam conhecimento ao longo do tempo.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Perspectivas dos estudos de memória organizacional e organizational remembering",
+      "definition": "Mapeamento das abordagens funcional, interpretativa, crítica e performativa da memória nas organizações.",
+      "tradition": "estudos de memória organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Lado sombrio das organizações (dark side)",
+      "definition": "Corpo sobre esquecimento institucional, crimes e disfunções organizacionais.",
+      "tradition": "estudos organizacionais críticos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Razão instrumental / intencionalidade consequencialista",
+      "definition": "Concepção da ação organizacional como orientada por cálculo instrumental e intenção prévia.",
+      "tradition": "filosofia da ação organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "História organizacional como recurso estratégico",
+      "definition": "Perspectiva da 'history as a resource': o passado mobilizado retoricamente para fins estratégicos.",
+      "tradition": "estratégia / usos retóricos da história",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

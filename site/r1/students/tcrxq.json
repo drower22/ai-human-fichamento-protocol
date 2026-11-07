@@ -1,0 +1,101 @@
+{
+  "participant_id": "S14",
+  "article_id": "A12",
+  "round": 1,
+  "title": "What makes activities strategic: Toward a new framework for strategy-as-practice research",
+  "authors": "David Seidl; Shenghui Ma; Violetta Splitter",
+  "year": 2024,
+  "venue": "Strategic Management Journal 45(12), 2395-2419",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Estratégia como prática (strategy-as-practice)",
+      "authors": "Johnson, Langley, Melin & Whittington; Jarzabkowski"
+    },
+    {
+      "item_id": "T2",
+      "name": "Estratégia como padrão em fluxo de ações / estratégia emergente",
+      "authors": "Mintzberg & Waters (1985); Mintzberg (1978)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Consequencialidade das atividades estratégicas",
+      "authors": "Johnson et al. (2003); Jarzabkowski et al. (2007, 2021)"
+    },
+    {
+      "item_id": "T4",
+      "name": "Teoria da dependência de recursos",
+      "authors": "Pfeffer & Salancik (1978)"
+    },
+    {
+      "item_id": "T5",
+      "name": "Frameworks centrais de SAP: 3Ps, Who/What/How, 4Ps",
+      "authors": "Whittington (2006, 2007); Jarzabkowski et al. (2016)"
+    },
+    {
+      "item_id": "T6",
+      "name": "Visão nominalista: estratégia como rótulo/discurso",
+      "authors": "Whittington (2003); Hardy & Thomas (2014); Knights & Morgan (1991)"
+    },
+    {
+      "item_id": "T7",
+      "name": "Ontologia da prática e conhecimento prático ('coping')",
+      "authors": "Orlikowski (2015); Chia & Holt (2006); Chia & MacKay (2007)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Visão baseada em conhecimento (KBV)",
+      "authors": "Grant; Kogut & Zander; Nonaka"
+    },
+    {
+      "item_id": "T9",
+      "name": "Cognição gerencial e visão baseada em atenção (ABV)",
+      "authors": "Ocasio et al. (2018); Nicolini & Korica (2021)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Planejamento estratégico e performatividade da estratégia",
+      "authors": "Ansoff; Mintzberg; Grant; Cabantous et al. (2018)"
+    },
+    {
+      "item_id": "T11",
+      "name": "Liderança estratégica / upper echelons",
+      "authors": "Hambrick & Mason (1984); Finkelstein et al. (2009)"
+    },
+    {
+      "item_id": "T12",
+      "name": "Capacidades dinâmicas e capacidades gerenciais dinâmicas",
+      "authors": "Teece; Eisenhardt & Martin; Helfat & Martin; Adner & Helfat"
+    },
+    {
+      "item_id": "T13",
+      "name": "Perspectivas emic x etic",
+      "authors": "Morris et al. (1999)"
+    },
+    {
+      "item_id": "T14",
+      "name": "Fronteiras do campo de gestão estratégica",
+      "authors": "Durand et al. (2017); Leiblein et al. (2018); Nag et al. (2007)"
+    },
+    {
+      "item_id": "T15",
+      "name": "Sensemaking e sensebreaking",
+      "authors": "Mantere, Schildt & Sillince (2012); Rouleau (2005); Weick"
+    },
+    {
+      "item_id": "T16",
+      "name": "Estratégia aberta (open strategy)",
+      "authors": "Whittington, Hautz et al.; Luedicke et al. (2017)"
+    },
+    {
+      "item_id": "T17",
+      "name": "Dinâmica de rotinas",
+      "authors": "Feldman (2024); Feldman & Pentland"
+    },
+    {
+      "item_id": "T18",
+      "name": "Performatividade de gênero",
+      "authors": "Butler (1988)"
+    }
+  ]
+}

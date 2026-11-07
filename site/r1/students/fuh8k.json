@@ -1,0 +1,81 @@
+{
+  "participant_id": "S06",
+  "article_id": "A07",
+  "round": 1,
+  "title": "Unpacking Diversity, Grasping Inequality: Rethinking Difference Through Critical Perspectives",
+  "authors": "Patrizia Zanoni; Maddy Janssens; Yvonne Benschop; Stella Nkomo",
+  "year": 2010,
+  "venue": "Organization 17(1), 9-29",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Estudos críticos de diversidade",
+      "authors": "Zanoni, Janssens, Benschop & Nkomo; Litvin; Prasad et al."
+    },
+    {
+      "item_id": "T2",
+      "name": "Performatividade crítica",
+      "authors": "Alvesson et al. (2008); Spicer, Alvesson & Kärreman (2009)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria queer",
+      "authors": "Butler; Sedgwick"
+    },
+    {
+      "item_id": "T4",
+      "name": "Teorias psicossociais de identidade social e homofilia",
+      "authors": "Tajfel & Turner (1986); Byrne (1971)"
+    },
+    {
+      "item_id": "T5",
+      "name": "Visão baseada em recursos (RBV) da diversidade",
+      "authors": "Richard (2000); Barney"
+    },
+    {
+      "item_id": "T6",
+      "name": "Perspectiva de informação/decisão em grupos diversos",
+      "authors": "Williams & O'Reilly; van Knippenberg"
+    },
+    {
+      "item_id": "T7",
+      "name": "Capital social",
+      "authors": "Bourdieu; Coleman; Putnam"
+    },
+    {
+      "item_id": "T8",
+      "name": "Paradigma da diversidade / business case",
+      "authors": "Thomas & Ely; literatura de gestão da diversidade"
+    },
+    {
+      "item_id": "T9",
+      "name": "Interseccionalidade",
+      "authors": "Crenshaw (1995); Holvino (2008)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Trabalho de identidade e estudos de branquitude",
+      "authors": "Sveningsson & Alvesson; estudos de whiteness"
+    },
+    {
+      "item_id": "T11",
+      "name": "Racismo cotidiano e 'inequality regimes'",
+      "authors": "Essed (1991); Acker (2006)"
+    },
+    {
+      "item_id": "T12",
+      "name": "Perspectiva pós-colonial",
+      "authors": "Kalonaityte; Said; Bhabha"
+    },
+    {
+      "item_id": "T13",
+      "name": "Diversidade como prática social ('practice turn' nos estudos de gênero)",
+      "authors": "Poggio (2006); estudos de prática"
+    },
+    {
+      "item_id": "T14",
+      "name": "Pós-estruturalismo, análise do discurso, teoria institucional e labour process theory",
+      "authors": "Foucault; labour process (Braverman)"
+    }
+  ]
+}

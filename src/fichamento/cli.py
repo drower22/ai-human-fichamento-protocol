@@ -30,6 +30,11 @@ def main() -> None:
     p.add_argument("--article", help="só um artigo (ex.: A03)")
     p.add_argument("--ocr-lang", default="por+eng")
 
+    p = sub.add_parser("numbered-pdf",
+                       help="PDF -> versão numerada (rótulos p.N Lnnn nas margens)")
+    p.add_argument("--round", type=int, choices=[1, 2], required=True)
+    p.add_argument("--article", help="só um artigo (ex.: A03)")
+
     p = sub.add_parser("candidates", help="IA extrai pool de teorias candidatas")
     p.add_argument("--round", type=int, choices=[1, 2], required=True)
     p.add_argument("--model", required=True)
@@ -54,18 +59,29 @@ def main() -> None:
     p.add_argument("--overwrite", action="store_true")
 
     p = sub.add_parser("import-human", help="importa fichamento de estudante")
-    p.add_argument("--round", type=int, choices=[1, 2], required=True)
-    p.add_argument("--article", required=True)
+    p.add_argument("--round", type=int, choices=[0, 1, 2], required=True,
+                   help="0 = piloto")
+    p.add_argument("--article", help="A01…A32; omita se o JSON já trouxer (ex.: PILOTO)")
     p.add_argument("--file", required=True,
-                   help="JSON de conteúdo (ver protocol/forms/student-fichamento-template.json)")
-    p.add_argument("--participant", required=True, help="S01…S10")
+                   help="JSON de conteúdo (template ou gerado pelo form HTML)")
+    p.add_argument("--participant", help="S01…S{nn}; omita se o JSON já trouxer")
     p.add_argument("--minutes", type=int)
     p.add_argument("--overwrite", action="store_true")
+
+    p = sub.add_parser("import-human-csv",
+                       help="CSV do Forms (fichamento do estudante) -> JSONs")
+    p.add_argument("--round", type=int, choices=[0, 1, 2], required=True,
+                   help="0 = piloto")
+    p.add_argument("--csv", required=True)
+    p.add_argument("--map", help="student-column-map.json alternativo")
+    p.add_argument("--pool", help="pool JSON p/ resolver nomes dos itens")
 
     p = sub.add_parser("assign", help="sorteia artigos→estudantes (grupos cruzados)")
     p.add_argument("--round", type=int, choices=[1, 2], required=True)
     p.add_argument("--seed", type=int, default=42)
     p.add_argument("--groups", help="groups.json (default: data/private/groups.json)")
+    p.add_argument("--mode", choices=["groups", "per-student"], default="groups",
+                   help="'groups' = cruzamento por grupo; 'per-student' = 1 artigo/aluno, só restrição orientador")
 
     p = sub.add_parser("blind", help="cegamento A/B + pacotes dos juízes")
     p.add_argument("--round", type=int, choices=[1, 2], required=True)
@@ -91,6 +107,15 @@ def main() -> None:
     sub.add_parser("schemas", help="regenera schemas/*.schema.json")
 
     args = ap.parse_args()
+
+    if args.cmd == "numbered-pdf":
+        from .numberpdf import number_article
+        from .registry import load_articles
+        for a in load_articles(args.round):
+            if args.article and a.article_id != args.article:
+                continue
+            number_article(a)
+        return
 
     if args.cmd == "pdf2md":
         from .pdf2md import convert
@@ -127,9 +152,16 @@ def main() -> None:
         import_human(args.round, args.article, args.file,
                      args.participant, args.minutes, args.overwrite)
 
+    elif args.cmd == "import-human-csv":
+        from .ingest import import_human_csv
+        import_human_csv(args.round, args.csv, args.map, args.pool)
+
     elif args.cmd == "assign":
-        from .assign import assign
-        assign(args.round, args.seed, args.groups)
+        from .assign import assign, assign_per_student
+        if args.mode == "per-student":
+            assign_per_student(args.round, args.seed, args.groups)
+        else:
+            assign(args.round, args.seed, args.groups)
 
     elif args.cmd == "blind":
         from .blind import create_blinding

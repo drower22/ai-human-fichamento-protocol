@@ -1,8 +1,9 @@
 # PROPOSTA — Medição de aprendizagem dos estudantes
 
-> **Status: sugestão para discussão com os coautores. NÃO implementada no
-> protocolo/schema.** Adicionar qualquer módulo exige decisão antes da
-> Rodada 1 (instrumento congelado) — idealmente entra no pré-registro OSF.
+> **Status: PARCIALMENTE APROVADA na reunião de coautores
+> (registrado em `diary/2026-10-15.md`): módulos A + C + D entram no
+> protocolo; módulo B descartado.** Schema: campo opcional
+> `self_assessment` em `generator` (human) implementado (Módulo A).
 
 ## Racional
 
@@ -27,6 +28,9 @@ produtiva.
   sobre-confiantes → hipótese testável.
 
 ## Módulo B — Teste de detecção de erros (transfer test)
+
+> **DESCARTADO na reunião de coautores (2026-10-15)** — mantido abaixo
+> como registro da alternativa avaliada.
 
 **O quê**: pré-R1 e pós-R2, cada estudante revisa um fichamento com erros
 *plantados* da taxonomia (`hallucination`, `omission`, `misinterpretation`,
@@ -71,15 +75,16 @@ ruidosa e incentivaria pressa artificial.)
 - **Impacto no schema**: novo arquivo `data/learning/error-spotting-*.json`
   (não toca fichamento.schema).
 
-## Módulo C — Trajetória por estudante (custo zero)
+## Módulo C — Tempo e qualidade agregada (custo zero)
 
-- **O quê**: curva individual de notas BARS × ordem de fichamento;
-  `elapsed_minutes` × qualidade; evolução do perfil de erros por código.
+- **O quê**: notas BARS agregadas R1→R2; evolução do perfil de erros por
+  código; `elapsed_minutes`.
 - **`elapsed_minutes` = tempo total estimado** (leitura + fichamento),
-  auto-reportado por artigo. Leitura principal: **métrica econômica** —
-  custo-tempo humano por fichamento, comparável depois ao tempo/custo de
-  geração+revisão com IA ("economia de tempo da IA"). Uso secundário:
-  covariável descritiva na trajetória de aprendizagem.
+  auto-reportado por artigo. É **métrica econômica, não de aprendizagem**:
+  estima o custo-tempo humano por artigo e, comparado ao custo de
+  geração+revisão com IA, quantifica quanto a IA **economiza por artigo**.
+  Não serve como trajetória individual — cada estudante ficha 1 artigo e
+  os artigos diferem entre rodadas, então Δ tempo não isola aprendizado.
 - **Já está nos dados** — só exige código de análise (incluir no
   `fichamento analyze` se aprovado).
 
@@ -95,9 +100,11 @@ ruidosa e incentivaria pressa artificial.)
 
 ## Ressalva metodológica
 
-Com ~3 fichamentos/estudante/rodada, trajetórias individuais são
-**exploratórias/descritivas** — não sustentam inferência estatística.
-Reportar como tal; o valor está nos padrões, não em p-valores.
+Com **1 fichamento por estudante por rodada**, não há trajetória
+individual mensurável — a leitura de aprendizagem é **agregada**
+(qualidade média e perfil de erros R1→R2, gap de auto-avaliação) mais os
+logs de reflexão. Reportar como **exploratório/descritivo**: o valor está
+nos padrões, não em p-valores.
 
 ## O desenho JÁ é pré/pós (insight do pesquisador, 2026-10-12)
 

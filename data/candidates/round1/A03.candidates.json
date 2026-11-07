@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A03",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "dab2e6f149972e616264235e4e6290177dbaa4038bdc2eba7b115fc8e5f0420b"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Teoria institucional",
+      "definition": "Perspectiva sobre institucionalização, pressões por conformidade e regras/mitos institucionais.",
+      "tradition": "sociologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Teoria da dependência de recursos",
+      "definition": "Teoria de que organizações dependem de recursos controlados por outros e gerenciam essas dependências.",
+      "tradition": "estratégia / relações organização-ambiente",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Legitimidade organizacional (social vs. econômica)",
+      "definition": "Distinção entre aptidão social (conformidade a normas) e aptidão econômica, antecedente das respostas.",
+      "tradition": "teoria institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Teoria da agência",
+      "definition": "Modela relações principal-agente: conflitos de interesse, custos de monitoramento e incentivos.",
+      "tradition": "economia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Isomorfismo institucional",
+      "definition": "Mecanismos coercitivo, mimético e normativo que tornam organizações de um campo semelhantes.",
+      "tradition": "sociologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Desacoplamento, cerimônia e mito formal",
+      "definition": "Noção de que estruturas formais podem ser cerimoniais e desacopladas das atividades de trabalho.",
+      "tradition": "sociologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Cooptação",
+      "definition": "Tática de absorver elementos ameaçadores do ambiente incorporando-os à estrutura de decisão.",
+      "tradition": "sociologia / poder organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Visão baseada em recursos (RBV)",
+      "definition": "Perspectiva de que a vantagem competitiva advém de recursos internos valiosos, raros e inimitáveis.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Modelos político e institucional como complementares",
+      "definition": "Proposta de articular modelos institucionais e de interesse/agência política como complementares.",
+      "tradition": "teoria institucional / agência",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Discricionariedade gerencial",
+      "definition": "Construto sobre a latitude de ação dos gestores frente a restrições internas e ambientais.",
+      "tradition": "estratégia / alta administração",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Construção social da realidade",
+      "definition": "Teoria de que a realidade social é construída por processos de externalização, objetivação e internalização.",
+      "tradition": "sociologia do conhecimento",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Exit, voice and loyalty",
+      "definition": "Esquema sobre as respostas de membros ao declínio de organizações: sair, manifestar-se ou permanecer leal.",
+      "tradition": "economia / teoria da escolha",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A04",
+  "pdf_path": "data/articles/pdfs/A04.pdf",
+  "pdf_sha256": "003420412003b8e3943bad95a2b94bd3279e08522c2e5891808aaad5c6aebeb4",
+  "md_path": "data/articles/markdown/A04.md",
+  "md_sha256": "baa24f85708b86f4288a273450bfbf4016faedbb057d2394ad653e2509b49d3a",
+  "tool": "pymupdf 1.28.2",
+  "ocr_tool": "tesseract 5.3.4",
+  "pages_pdf": 18,
+  "pages_extracted": 18,
+  "est_tokens": 14807,
+  "pages": [
+    {
+      "page": 1,
+      "n_lines": 58,
+      "n_chars": 1700,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 2,
+      "n_lines": 96,
+      "n_chars": 3997,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 3,
+      "n_lines": 106,
+      "n_chars": 3986,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 4,
+      "n_lines": 92,
+      "n_chars": 3942,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 5,
+      "n_lines": 95,
+      "n_chars": 4029,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 6,
+      "n_lines": 93,
+      "n_chars": 4214,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 7,
+      "n_lines": 97,
+      "n_chars": 2785,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 8,
+      "n_lines": 99,
+      "n_chars": 4124,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 9,
+      "n_lines": 88,
+      "n_chars": 2228,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 10,
+      "n_lines": 98,
+      "n_chars": 4223,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 11,
+      "n_lines": 91,
+      "n_chars": 2508,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 12,
+      "n_lines": 92,
+      "n_chars": 4179,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 13,
+      "n_lines": 98,
+      "n_chars": 4064,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 14,
+      "n_lines": 114,
+      "n_chars": 3173,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 15,
+      "n_lines": 93,
+      "n_chars": 4162,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 16,
+      "n_lines": 84,
+      "n_chars": 3608,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 17,
+      "n_lines": 50,
+      "n_chars": 2010,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 18,
+      "n_lines": 4,
+      "n_chars": 299,
+      "method": "ocr",
+      "needs_review": true,
+      "warnings": [
+        "no text layer; OCR applied — verify visually"
+      ]
+    }
+  ],
+  "coverage_complete": true,
+  "overrides": [],
+  "created_at": "2026-11-07T20:18:31.964219Z"
+}

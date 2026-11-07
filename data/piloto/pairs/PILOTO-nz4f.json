@@ -1,0 +1,431 @@
+{
+  "demo": false,
+  "article_id": "PILOTO",
+  "round": 0,
+  "title": "Entre o Planejamento Estratégico Formal e Informal: um Estudo de Caso Exploratório sobre a Prática de Estratégia nas Organizações",
+  "authors": "Souza, C. M. L.",
+  "year": 2011,
+  "venue": "RAC 15(5), 855-876",
+  "A": {
+    "executive_summary": "O artigo visa compreender quais as principais teorias estratégicas da administração, e de qual maneira elas se organizam, no texto, é utilizado o caso de uma organização, a InfraCO, de maneira em que é possível observar as diversas estratégias utilizadas pela orgnaização. Nessa é perceptível um forte aprendizado organizacional, passando por uma etapa que a estratégia como prática liderava a organização, de maneira que ia seguindo as tendências externas, aproveitando oportunidades momentâneas e se protegendo de possíveis crises que a organização passava. \nCom o passar dos anos, a organização começou a formalizar as suas estratégias",
+    "research_question": "Quais abordagens organizacionais são utilizadas durante o ciclo de vida das organizações?",
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Abordagem contingencial da estratégia",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T2",
+        "name": "Capacidades dinâmicas",
+        "verdict": "discusses",
+        "source_refs": [],
+        "quote": "Na introdução do texto.",
+        "note": ""
+      },
+      {
+        "item_id": "T3",
+        "name": "Estratégia como prática (strategy-as-practice)",
+        "verdict": "uses",
+        "source_refs": [],
+        "quote": "“Na época era muito focado em ‘que mercado nós vamos atacar? Que oportunidades que a gente vai perseguir?’ muito mais do que uma estruturação da empresa com a gestão dela mesma propriamente dita. A gestão aparecia como problemas de outros e que quem estivesse lá decidindo a estratégia não precisava também sugerir adequar... Era como se fosse uma coisa comprada e pronta estava ali pronta e você não precisava mexer” Entrevistado 05 .",
+        "note": ""
+      },
+      {
+        "item_id": "T4",
+        "name": "Abordagem de conteúdo da estratégia",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T5",
+        "name": "Aprendizagem organizacional",
+        "verdict": "uses",
+        "source_refs": [],
+        "quote": "A mudança se configurou como crescente formalização da gestão da organização de uma forma geral. No que tange às práticas utilizadas no planejamento estratégico houve a definição de um padrão com temas a serem cobertos pela estratégia análises formais que deveriam ser realizadas o reforço do acompanhamento e controle dos resultados.",
+        "note": ""
+      },
+      {
+        "item_id": "T6",
+        "name": "Teoria da estruturação",
+        "verdict": "uses",
+        "source_refs": [],
+        "quote": "Durante o processo de amadurecimento da organização",
+        "note": ""
+      },
+      {
+        "item_id": "T7",
+        "name": "Teoria institucional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T8",
+        "name": "Abordagem processual da estratégia",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T9",
+        "name": "Teoria dos custos de transação",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T10",
+        "name": "Visão baseada em recursos (RBV)",
+        "verdict": "discusses",
+        "source_refs": [],
+        "quote": "Introdução aborda o tema",
+        "note": ""
+      },
+      {
+        "item_id": "T11",
+        "name": "Momentum burocrático",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T12",
+        "name": "Esquema de estruturação de Barley & Tolbert",
+        "verdict": "discusses",
+        "source_refs": [],
+        "quote": "Aborda no ínicio da introdução.",
+        "note": ""
+      },
+      {
+        "item_id": "T13",
+        "name": "Escola de aprendizagem (learning school)",
+        "verdict": "uses",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      }
+    ],
+    "theories": [],
+    "key_concepts": [
+      {
+        "concept": "Estratégia organizacional",
+        "definition": "Apesar destas limitações, a pesquisa apresenta algumas contribuições. A principal delas foi\nevidenciar que, independentemente do caso estudado ser uma empresa organizada por projetos, houve\nesforços e estruturação da prática de planejamento estratégico, algo não esperado pelas análises",
+        "quote": "",
+        "source_refs": []
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico",
+      "design": "Estudo de caso único exploratório",
+      "sample_type": "Profissionais da organização",
+      "sample_size": 15,
+      "sector": "Projetos de infraestrutura",
+      "period": "10 anos",
+      "methods": [
+        "Entrevistas semiestruturadas",
+        "análise documental"
+      ],
+      "analysis_note": "",
+      "source_refs": []
+    },
+    "main_findings": [
+      {
+        "finding": "A organização passou por um processo de evolução estratégica e amadurecimento na sua estrutura organizacional.",
+        "type": "proposition",
+        "quote": "A InfraCo demonstrou a capacidade de se reinventar para surfar nas ondas do mercado criando soluções muitas vezes inovações e tendo um comportamento empreendedor em seus investimentos. É marcante que ela tenha perdurado no mercado por tantos anos passando por diversas oscilações da economia enquanto outras empresas concorrentes das primeiras décadas encerraram suas atividades. Apesar desta capacidade de adaptação ao mercado permear todo o histórico da empresa ela nem sempre derivou de um planejamento estratégico formal.",
+        "source_refs": []
+      }
+    ],
+    "contribution": {
+      "theoretical": "A principal delas foi\nevidenciar que, independentemente do caso estudado ser uma empresa organizada por projetos, houve\nesforços e estruturação da prática de planejamento estratégico, algo não esperado pelas análises",
+      "practical": "Compreender o funcionamento de uma organização e suas mudanças estratégicas."
+    }
+  },
+  "B": {
+    "executive_summary": "Problema: Esta ordenação quase prescritiva sobre o conteúdo, o processo e a prática de estratégia nas organizações pode causar a percepção de que é possível determinar o padrão de formação estratégica de uma organização pela simples análise de algumas variáveis pré-determinadas. (p.2 L023-026)\n\nAbordagem: estratégia como prática (Jarzabkowski, 2005, 2008; Whittington, 1996, 2006) (p.2 L026-027)\n\nMétodo: estudo de caso exploratório (p.2 L027-028)\n\nAchados: foi possível identificar processos de mudança que configuraram diferentes fases de aplicação dessa prática ao longo dos anos com características distintas de (in)formalidade. (p.2 L028-030)\n\nContribuição: se há um nível adequado de formalização da prática de planejamento estratégico nas organizações, este nível deve ser definido pela estruturação da prática na sua dinâmica social. (p.2 L031-032)",
+    "research_question": "Como determinar a estratégia de uma organização em contextos de mudança?",
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Abordagem contingencial da estratégia",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.3 L055",
+          "L060"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T2",
+        "name": "Capacidades dinâmicas",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T3",
+        "name": "Estratégia como prática (strategy-as-practice)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.4 L148-174"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T4",
+        "name": "Abordagem de conteúdo da estratégia",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.3 L096",
+          "p.4 L105"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T5",
+        "name": "Aprendizagem organizacional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T6",
+        "name": "Teoria da estruturação",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6 L241",
+          "p.7 L315"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T7",
+        "name": "Teoria institucional",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.4 L125-130",
+          "p.6 L243-245",
+          "p.18 L1067-1071"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T8",
+        "name": "Abordagem processual da estratégia",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.4 L131"
+        ],
+        "quote": "140",
+        "note": ""
+      },
+      {
+        "item_id": "T9",
+        "name": "Teoria dos custos de transação",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T10",
+        "name": "Visão baseada em recursos (RBV)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.4 L116-125"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T11",
+        "name": "Momentum burocrático",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.17 L1043-1056"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T12",
+        "name": "Esquema de estruturação de Barley & Tolbert",
+        "verdict": "uses",
+        "source_refs": [
+          "p.17 L1013-1016",
+          "p.6 L242"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T13",
+        "name": "Escola de aprendizagem (learning school)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.17 L996-1002"
+        ],
+        "quote": "",
+        "note": ""
+      }
+    ],
+    "theories": [
+      {
+        "name": "Organizar (organizing) (Weick, 1979) e Estrategizar (strategizing) (Jarzabkowski, Balogun, & Seidl, 2007)",
+        "tradition": "USA",
+        "role": "(p.5 l166-168)",
+        "source_refs": [
+          "p.5 L166-168"
+        ]
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Prática",
+        "definition": "a ação dos sujeitos e os diferentes procedimentos, rotinas e ferramentas utilizadas na sua interação (Jarzabkowski et al., 2007). (p.5 L170-171; p.7 L320-321)",
+        "quote": "",
+        "source_refs": [
+          "p.5 L170-171",
+          "p.7 L320-321"
+        ]
+      },
+      {
+        "concept": "Estratégia como prática",
+        "definition": "abordagem que propicia a observação da relação entre a perspectiva micro do cotidiano do estrategista e a perspectiva macro das práticas definidas para elaboração da estratégia, o que possibilita explorar como essa relação opera. (p.5 L172-174)",
+        "quote": "",
+        "source_refs": [
+          "p.5 L172-174"
+        ]
+      },
+      {
+        "concept": "Práxis",
+        "definition": "“a interconexão entre ações de indivíduos e grupos diferentes e dispersos e instituições incorporadas [embedded] de forma social, política e econômica na qual indivíduos agem e contribuem” (Jarzabkowski et al., 2007, p. 9). (p.6 L236-239)",
+        "quote": "",
+        "source_refs": [
+          "p.6 L236-239"
+        ]
+      },
+      {
+        "concept": "Recursividade entre agência e estrutura",
+        "definition": "Giddens converte o dualismo de sociedade e indivíduo, em uma dualidade entre estrutura e agência (Cohen, 1987). Ao estabelecer a dualidade, Giddens habilita a possibilidade da recursividade entre agência e estrutura, isto é, o agente tem sua ação moldada pela estrutura que, ao mesmo tempo, restringe e habilita sua ação. O agente, em sua prática cotidiana, também molda a estrutura e a repetição (recursiva) desse processo ao longo do tempo constitui os sistemas sociais, propiciando a sua estruturação. (p.6 L249-255)",
+        "quote": "",
+        "source_refs": [
+          "p.6 L249-255"
+        ]
+      },
+      {
+        "concept": "Estrutura",
+        "definition": "“estruturas são organizadas como propriedades dos sistemas sociais, isto é, elas não existem senão de forma virtual e só se concretizam como tal quando são aplicadas pelos agentes em sua ação. Apesar de também ser possível referir-se às estruturas como princípios de organização da sociedade ou características institucionalizadas de sistemas sociais ao longo do tempo, a noção de estrutura que nos interessa no momento é definida por regras e recursos envolvidos na articulação dos sistemas sociais. Por regras que constituem as estruturas, podemos entender os procedimentos metodológicos da interação social; estão ligadas, principalmente, às dimensões de significação e legitimação das estruturas. Os recursos podem ter duas características: (a) alocativa, vinculada a objetos materiais; e (b) impositiva, que se refere ao controle de pessoas, e estas estão conectadas à dimensão de dominação das estruturas.\" (p.6 L267-276)",
+        "quote": "",
+        "source_refs": [
+          "p.6 L267-276"
+        ]
+      },
+      {
+        "concept": "Interação",
+        "definition": "“a ação realizada pelos agentes e esta é restringida e habilitada pelas estruturas concretizadas em episódios. Dentro da interação, o poder de agência dos sujeitos é uma condição para a recursividade, pois confere àqueles envolvidos na ação a capacidade de transformação das estruturas, mesmo que esta transformação não seja necessariamente intencional (estratégica)”. (p.6 L277-280)",
+        "quote": "",
+        "source_refs": [
+          "p.6 L277-280"
+        ]
+      },
+      {
+        "concept": "Modalidades",
+        "definition": "“para habilitar a recursividade de seu modelo, Giddens elabora uma ligação entre os domínios de estrutura e interação por meio da noção de modalidades que são o meio de reprodução de componentes estruturais de sistemas de interação, mas que também são alteradas pelos próprios agentes. As modalidades são tratadas como conjunto de conhecimentos e recursos empregados por atores na constituição da interação como um feito habilidoso e informado, sob condições limitadas de racionalização (Giddens, 1984).” (p.7 L287-292).",
+        "quote": "",
+        "source_refs": [
+          "p.7 L287-292"
+        ]
+      },
+      {
+        "concept": "Eventos",
+        "definition": "“Os eventos representam momentos de recursividade entre agência e estrutura, que garante a possibilidade (e ocorrência) de mudanças nas modalidades; mas, para isso, a interiorização das práticas pelos atores deve ser abalada, possibilitando que sua ação seja contrária a estas práticas legitimadas (Machado-da-Silva et al., 2005), causando uma mudança ou, pelo menos, disposição à mudança. Nesse processo também pode ocorrer a alteração de estruturas: seja pela criação e adoção de novas práticas (recursos), seja pela aplicação de novas lógicas de pensamento e ação (regras) (Jarzabkowski, 2008; Whittington, 2006).” (p.7 L301-307)",
+        "quote": "",
+        "source_refs": [
+          "p.7 L301-307"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico",
+      "design": "estudo de caso único e exploratório (e.g. Balogun & Johnson, 2005; Selznick, 1966)",
+      "sample_type": "Profissionais da empresa",
+      "sample_size": null,
+      "sector": "projetos de engenharia (p.8 L355)",
+      "period": "1975 a 2008 (p.14 L741)",
+      "methods": [
+        "entrevistas semiestruturadas",
+        "análise documental"
+      ],
+      "analysis_note": "codificação temática para identificar temas e construtos-chave (Miles & Huberman, 1994) (p.10 L513-514)",
+      "source_refs": [
+        "p.8 L334-335"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "Modelo de formalização da prática de planejamento estratégico que organiza a evolução do planejamento estratégico na empresa ao longo de 30 anos em 5 fases distintas, correlacionando o nível de formalização (baixa, média e alta) a eventos-gatilho de crise ou premiação ao longo do tempo. As cinco fases foram: gênese/primeiros planos; reflexões estratégicas; baixa formalização; forte formalização; e flexibilização/ressaca.",
+        "type": "model",
+        "quote": "",
+        "source_refs": [
+          "p.14 L716-720",
+          "p.14 L762"
+        ]
+      },
+      {
+        "finding": "Trajetória recursiva de formalização da estratégia, evidenciada nos seguintes trechos:\n“apesar de uma tendência informal evidenciada pela flexibilização dos processos em períodos subseqüentes, percebemos que diversos mecanismos formais permaneceram em operação na prática da empresa, sendo componentes recursivos importantes para o desenvolvimento da estratégia na organização” (Machado-da-Silva, Fonseca, & Crubellate, 2005). \n\"Dessa forma, se olharmos o panorama da InfraCo, é possível identificar um incremento na formalização de procedimentos de gestão de seu planejamento estratégico, constatação que contraria os quadros analíticos contingenciais que indicariam um nível baixo de formalização de procedimentos e rotinas. A análise indica um processo de estruturação do planejamento estratégico que têm como fator central a dinâmica social da organização.\"",
+        "type": "empirical",
+        "quote": "",
+        "source_refs": [
+          "p.3 L077-080",
+          "p.17 L1038-042"
+        ]
+      },
+      {
+        "finding": "Excesso de burocratização como estímulo ao retorno de estratégias informais: o desgaste dos executivos com metas formais que engessavam o trabalho e/ou não executadas conforme previsto foi reportado como fator inibidor de criatividade, incentivando o retorno a uma estratégia mais flexível pós-premiação.\n“Ao serem comparadas as fases 1 e 2 com as fases 4 e 5, percebe-se que os processos de\nformalização que ocorreram nos primeiros períodos (1 e 4) foram considerados inadequados e tidos como excesso. Essa percepção derivou da frustração dos profissionais que se desgastaram no desenvolvimento dos planos e, frequentemente, não viam a sua efetividade no momento de implementação. Essa frustração na interação dos agentes parece ser o gérmen do retorno a um formato menos formalizado de planejamento, ocorrido nas fases subsequentes (2 e 5). Aparentemente, a fase 3 foi uma exceção a essa dinâmica de retorno a práticas menos formalizadas, mas devemos ressaltar a escassez de dados entre 1991 e 2000 para apoiar essa percepção”.",
+        "type": "empirical",
+        "quote": "",
+        "source_refs": [
+          "p.17 L1018-1025"
+        ]
+      },
+      {
+        "finding": "Mesmo no retorno de práticas informais, há a manutenção de elementos formais.\n“Em todos os períodos de mudança, marcados pelos eventos, ocorreu a criação de estruturas:\nregras e recursos, como a criação de um pensamento estratégico, aplicação de discursos da excelência, o uso de ferramentas de análise de portfólio, definição de perspectivas estratégicas e estruturas de análise (e.g. SWOT). Mesmo que a redução na formalização represente um movimento de retorno a estruturas menos formais, há resquícios da fase anterior que se mantêm em movimento pelos agentes, que continuam concretizando as estruturas por perceberem benefícios econômicos: e.g. eficiência pela redução de tempo de trabalho; e simbólicos: e.g. justificação da análise feita aos superiores; ou mesmo pela interiorização dessas estruturas pelos agentes” (Giddens, 1984).",
+        "type": "empirical",
+        "quote": "",
+        "source_refs": [
+          "p.17 L1026-1033"
+        ]
+      },
+      {
+        "finding": "A posição dos agentes na estrutura impacta qual tipo de estratégia será adotada em cada fase.\n“este estudo buscou destacar que este processo social é permeado por disputas entre agentes com posições distintas em relação ao trabalho de definição de estratégias, e à forma de concretização de estruturas ligadas ao planejamento na interação dos profissionais. \n(p.18 L1057-1059)",
+        "type": "empirical",
+        "quote": "",
+        "source_refs": [
+          "p.18 L1057-1059"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "Decisão sobre formalização da estratégia é definida pela dinâmica social e não por contingências estáticas. O nível “ideal” de formalização do planejamento estratégico não pode ser determinado de forma prescritiva por variáveis ambientais ou tecnológicas externas (como sustenta a teoria contingencial), devendo ser compreendido como uma dualidade recursiva da estruturação e das dinâmicas sociais que permeiam o contexto organizacional, eminentemente instável. (p.18 L1093-1107)",
+      "practical": "Estratégias formais mal-sucedidas no curto prazo não necessariamente se provarão mal-sucedidas no longo prazo.\nApesar da possibilidade de alguns esforços de mudança serem tidos como malsucedidos em análises de curto prazo, há a possibilidade de permanência de alguns aspectos dos esforços de realizados, promovendo diferenças sutis, mas que podem ser relevantes para o desenvolvimento da organização no longo prazo. \n(p.19 L1115-1118)"
+    }
+  }
+}

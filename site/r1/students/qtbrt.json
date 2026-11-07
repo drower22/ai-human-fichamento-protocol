@@ -1,0 +1,76 @@
+{
+  "participant_id": "S12",
+  "article_id": "A13",
+  "round": 1,
+  "title": "Observação participante em estudos de Administração da Informação no Brasil",
+  "authors": "Gustavo Abib; Norberto Hoppen; Paulo Hayashi Junior",
+  "year": 2013,
+  "venue": "RAE-Revista de Administração de Empresas 53(6), 604-616",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Observação participante / etnografia",
+      "authors": "Denzin (1989); tradição etnográfica"
+    },
+    {
+      "item_id": "T2",
+      "name": "Tipologia de papéis de membro em pesquisa de campo",
+      "authors": "Adler & Adler (1987)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria ator-rede",
+      "authors": "Latour; Callon"
+    },
+    {
+      "item_id": "T4",
+      "name": "Elementos empíricos e teóricos do método (liberdade, acesso, relacionamento, confiabilidade, especificidade, objetividade)",
+      "authors": "Johnson et al. (2006)"
+    },
+    {
+      "item_id": "T5",
+      "name": "Confiabilidade e validade na pesquisa qualitativa",
+      "authors": "Kirk & Miller (1986); Angrosino (2009)"
+    },
+    {
+      "item_id": "T6",
+      "name": "Epistemologias interpretativa e crítica vs. positivista",
+      "authors": "Chan & Reich (2007); Klein & Myers (1999); Orlikowski & Baroudi (1991)"
+    },
+    {
+      "item_id": "T7",
+      "name": "Metodologias qualitativas e teoria fundamentada nos dados",
+      "authors": "Strauss & Corbin (2008)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Fenomenologia",
+      "authors": "Husserl; Schütz"
+    },
+    {
+      "item_id": "T9",
+      "name": "Estudo de caso único e revelador",
+      "authors": "Yin (2005); Dubé & Paré (2003)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Alinhamento estratégico negócio-TI e sua dimensão social",
+      "authors": "Abib (2011); Chan & Reich (2007)"
+    },
+    {
+      "item_id": "T11",
+      "name": "Drifting da tecnologia",
+      "authors": "Ciborra (2002)"
+    },
+    {
+      "item_id": "T12",
+      "name": "Estratégia como prática",
+      "authors": "Jarzabkowski; Whittington"
+    },
+    {
+      "item_id": "T13",
+      "name": "Dualidade da tecnologia",
+      "authors": "Orlikowski (1992)"
+    }
+  ]
+}

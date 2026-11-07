@@ -47,6 +47,7 @@ class AssignmentMap(BaseModel):
     seed: int
     created_at: datetime
     entries: list[AssignmentEntry]
+    mode: str = "groups"
 
 
 def assignments_path(round_: int) -> Path:
@@ -107,5 +108,65 @@ def assign(round_: int, seed: int, groups_file: str | None = None) -> Assignment
         per_student.setdefault(e.student_id, []).append(e.article_id)
     for sid in sorted(per_student):
         print(f"  {sid}: {', '.join(sorted(per_student[sid]))}")
+    print(f"assignments → {out} (PRIVADO; publicar só após descegamento)")
+    return amap
+
+
+def assign_per_student(
+    round_: int, seed: int, groups_file: str | None = None
+) -> AssignmentMap:
+    """Um artigo por estudante; única regra: ninguém ficha artigo indicado
+    pelo próprio orientador. Emparelha listas embaralhadas (rejection
+    sampling: repete se algum par violar a regra — sorteio uniforme).
+    """
+    gf_path = Path(groups_file) if groups_file else paths.PRIVATE / "groups.json"
+    gf = GroupsFile.model_validate_json(gf_path.read_text())
+    advisor_of = {sid: g.advisor_id for g in gf.groups for sid in g.students}
+    group_of = {sid: g.group_id for g in gf.groups for sid in g.students}
+
+    articles = load_articles(round_)
+    nominated = {a.article_id: a.nominated_by for a in articles}
+    rng = random.Random(f"{seed}-assign-R{round_}-perstudent")
+    students = sorted(advisor_of)
+    if len(students) < len(articles):
+        raise ValueError(
+            f"{len(articles)} artigos para {len(students)} estudantes "
+            "— sorteio 1:1 exige estudantes >= artigos"
+        )
+    attempts = 0
+    while True:
+        attempts += 1
+        if attempts > 10000:
+            raise RuntimeError("sorteio não convergiu — restrições fortes demais?")
+        arts = [a.article_id for a in articles]
+        rng.shuffle(arts)
+        studs = list(students)
+        rng.shuffle(studs)
+        pairs = list(zip(studs[: len(arts)], arts))
+        if all(nominated[aid] != advisor_of[sid] for sid, aid in pairs):
+            break
+    amap = AssignmentMap(
+        round=round_, seed=seed,
+        created_at=datetime.now(timezone.utc),
+        entries=sorted(
+            (
+                AssignmentEntry(
+                    article_id=aid,
+                    student_id=sid,
+                    group_id=group_of[sid],
+                    nominated_by=nominated[aid],
+                )
+                for sid, aid in pairs
+            ),
+            key=lambda e: e.article_id,
+        ),
+        mode="per-student",
+    )
+    out = assignments_path(round_)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(amap.model_dump_json(indent=2))
+    print(f"  (tentativas até sorteio válido: {attempts})")
+    for e in amap.entries:
+        print(f"  {e.student_id} ({e.group_id}) ← {e.article_id} ({e.nominated_by})")
     print(f"assignments → {out} (PRIVADO; publicar só após descegamento)")
     return amap

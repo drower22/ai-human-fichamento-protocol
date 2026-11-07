@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A11",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "b9727c3f36c1f10229289f840372aad2b075b7e9dd1c0e690dbee121d853a69b"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Teoria do resourcing",
+      "definition": "Define recurso como 'anything that allows an actor to enact a schema': potencial → recurso em uso.",
+      "tradition": "estratégia como prática / recursos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Ciclos ampliativos e resourcing endógeno",
+      "definition": "Noção de ciclos de resourcing que crescem numa direção, gerando energia para meta-frameworks.",
+      "tradition": "POS / processos organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Mecanismos de resourcing: ajuste mútuo, justaposição e narração",
+      "definition": "Três mecanismos pelos quais recursos potenciais se tornam recursos em uso.",
+      "tradition": "processos organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Teoria da agência",
+      "definition": "Modela relações principal-agente: conflito de interesses, monitoramento e incentivos.",
+      "tradition": "economia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Positive Organizational Scholarship (espirais positivas)",
+      "definition": "Campo que estuda processos e resultados excepcionais, geradores de dinâmicas amplificadoras positivas.",
+      "tradition": "POS",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Teoria da dependência de recursos",
+      "definition": "Perspectiva de que a ação depende da disponibilidade de recursos com qualidades inatas.",
+      "tradition": "estratégia / relações organização-ambiente",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Visão baseada em recursos (RBV)",
+      "definition": "Argumenta que qualidades inatas dos recursos (valiosas, raras, inimitáveis) sustentam a vantagem.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Capacidades dinâmicas",
+      "definition": "Framework sobre a capacidade da firma de integrar, construir e reconfigurar competências.",
+      "tradition": "estratégia / extensão da RBV",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Teoria institucional",
+      "definition": "Perspectiva sobre como pressões institucionais moldam práticas e estruturas organizacionais.",
+      "tradition": "sociologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Teoria de Sewell: estrutura como esquemas e recursos",
+      "definition": "Reformulação de Sewell do pensamento de Giddens: recursos como fonte de poder na interação social.",
+      "tradition": "sociologia / estruturação",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Práticas cotidianas",
+      "definition": "Abordagem das táticas e 'maneiras de fazer' do cotidiano como repertório de ações alternativas.",
+      "tradition": "sociologia / estudos da prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Sensemaking e linguagem",
+      "definition": "Perspectiva sobre construção de sentido; aqui citada para a linguagem como recurso disponível.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Objetos de fronteira e tecnologia em uso",
+      "definition": "Corpo sobre objetos que medeiam trabalho entre comunidades e o uso situado da tecnologia.",
+      "tradition": "estudos de tecnologia/CO",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teorias de emoções positivas (broaden-and-build)",
+      "definition": "Teorias de que emoções positivas ampliam repertórios de pensamento-ação e constroem recursos.",
+      "tradition": "psicologia positiva",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

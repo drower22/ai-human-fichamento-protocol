@@ -24,6 +24,10 @@ def manifest_path(article_id: str) -> Path:
     return ARTICLES / "manifests" / f"{article_id}.ingestion.json"
 
 
+def numbered_pdf_path(article_id: str) -> Path:
+    return ARTICLES / "pdfs" / f"{article_id}-numerado.pdf"
+
+
 def fichamento_dir(round_: int, source: str) -> Path:
     return DATA / "fichamentos" / f"round{round_}" / source
 

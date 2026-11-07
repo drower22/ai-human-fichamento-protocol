@@ -1,0 +1,66 @@
+{
+  "participant_id": "S07",
+  "article_id": "A08",
+  "round": 1,
+  "title": "Speaking about vision, talking in the name of so much more: A methodological framework for ventriloquial analyses in organization studies",
+  "authors": "Ellen Nathues; Mark van Vuuren; François Cooren",
+  "year": 2021,
+  "venue": "Organization Studies 42(9), 1457-1476",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Constituição comunicativa das organizações (CCO)",
+      "authors": "Escola de Montreal: Taylor, Cooren, Robichaud"
+    },
+    {
+      "item_id": "T2",
+      "name": "Ventriloquismo organizacional",
+      "authors": "Cooren (2010)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria da estruturação",
+      "authors": "Giddens (1984)"
+    },
+    {
+      "item_id": "T4",
+      "name": "Ontologia relacional da agência",
+      "authors": "Cooren; teoria relacional da comunicação"
+    },
+    {
+      "item_id": "T5",
+      "name": "Visão organizacional (vision) como objeto de estudo",
+      "authors": "Kopaneva & Sias (2015); Collins & Porras (1996)"
+    },
+    {
+      "item_id": "T6",
+      "name": "Abordagens do discurso organizacional",
+      "authors": "Alvesson & Kärreman; Fairclough; Hardy & Thomas; Phillips et al."
+    },
+    {
+      "item_id": "T7",
+      "name": "Teoria da complexidade organizacional",
+      "authors": "Tsoukas; Cilliers; complexidade aplicada"
+    },
+    {
+      "item_id": "T8",
+      "name": "Teoria ator-rede",
+      "authors": "Latour (1996, 2005)"
+    },
+    {
+      "item_id": "T9",
+      "name": "Pensamento processual",
+      "authors": "Langley & Tsoukas (2017)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Polifonia e dialogismo",
+      "authors": "Bakhtin; Cooren & Sandler (2014)"
+    },
+    {
+      "item_id": "T11",
+      "name": "Estratégia/vision-making como prática",
+      "authors": "literatura de estratégia aplicada"
+    }
+  ]
+}

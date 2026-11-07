@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A07",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "ff71c7b67b12367192a25dc53cd78fa51dfb66d52cc4586fe2b7e4e95e757127"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Estudos críticos de diversidade",
+      "definition": "Campo que reage à reapropriação empresarial das 'oportunidades iguais' pela noção de diversidade.",
+      "tradition": "estudos organizacionais críticos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Performatividade crítica",
+      "definition": "Proposta de tornar a pesquisa crítica mais performativa: intervir em práticas sem abrir mão da reflexividade.",
+      "tradition": "estudos críticos de gestão",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Teoria queer",
+      "definition": "Abordagem que desestabiliza categorias fixas de identidade e orientação, lendo-as como performativas.",
+      "tradition": "estudos críticos / gênero",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Teorias psicossociais de identidade social e homofilia",
+      "definition": "Explicam discriminação pela categorização social e pela atração por semelhantes.",
+      "tradition": "psicologia social",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Visão baseada em recursos (RBV) da diversidade",
+      "definition": "Lente que trata a diversidade da força de trabalho como recurso raro, valioso e inimitável.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Perspectiva de informação/decisão em grupos diversos",
+      "definition": "Abordagem dos processos cognitivos e resultados de decisão em grupos heterogêneos.",
+      "tradition": "comportamento organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Capital social",
+      "definition": "Conjunto de recursos acessíveis via laços e pertencimento a redes e grupos.",
+      "tradition": "sociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Paradigma da diversidade / business case",
+      "definition": "Enquadramento que justifica a diversidade por sua contribuição ao desempenho e ao negócio.",
+      "tradition": "gestão de pessoas",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Interseccionalidade",
+      "definition": "Abordagem das identidades múltiplas e entrelaçadas que produzem posições sociais específicas de desigualdade.",
+      "tradition": "teoria feminista crítica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Trabalho de identidade e estudos de branquitude",
+      "definition": "Corpo sobre a construção ativa do self e a análise da branquitude como posição não marcada.",
+      "tradition": "estudos organizacionais críticos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Racismo cotidiano e 'inequality regimes'",
+      "definition": "Abordagens das práticas discriminatórias cotidianas e dos regimes organizacionais de desigualdade.",
+      "tradition": "sociologia crítica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Perspectiva pós-colonial",
+      "definition": "Lente sobre colonialidade, diferença e construção do 'outro' em contextos organizacionais.",
+      "tradition": "estudos pós-coloniais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Diversidade como prática social ('practice turn' nos estudos de gênero)",
+      "definition": "Reconceituação da diversidade como prática social dinâmica e contínua, não como atributo.",
+      "tradition": "teoria social / práticas",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Pós-estruturalismo, análise do discurso, teoria institucional e labour process theory",
+      "definition": "Conjunto de teorias críticas listadas como repertório do campo.",
+      "tradition": "teorias críticas diversas",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

@@ -1,0 +1,66 @@
+{
+  "participant_id": "S01",
+  "article_id": "A06",
+  "round": 1,
+  "title": "The Institutional Dynamics of the Separation of Bachelor's Degree in Social Communication",
+  "authors": "Bruno Eduardo Slongo Garcia; Pedro Chapaval Pimentel; Ricardo Tesseroli",
+  "year": 2025,
+  "venue": "Educação & Realidade 50, e145730",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Lógicas institucionais",
+      "authors": "Friedland & Alford; Thornton & Ocasio; Thornton, Ocasio & Lounsbury"
+    },
+    {
+      "item_id": "T2",
+      "name": "Hibridismo de lógicas institucionais",
+      "authors": "Glynn & Lounsbury; Mars & Lounsbury; Upton & Warshaw"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria dos stakeholders",
+      "authors": "Freeman et al."
+    },
+    {
+      "item_id": "T4",
+      "name": "Teoria das práticas sociais (estrutura de governança da prática)",
+      "authors": "Schatzki (1997/2003/2024); Langley & Tsoukas (2017)"
+    },
+    {
+      "item_id": "T5",
+      "name": "Tipos ideais weberianos aplicados às lógicas",
+      "authors": "Thornton, Ocasio & Lounsbury (2012); Weber"
+    },
+    {
+      "item_id": "T6",
+      "name": "Legitimidade organizacional",
+      "authors": "Suchman; Rossoni (2016)"
+    },
+    {
+      "item_id": "T7",
+      "name": "Teoria ator-rede",
+      "authors": "Latour; Callon"
+    },
+    {
+      "item_id": "T8",
+      "name": "Recursividade agência-estrutura institucional",
+      "authors": "Cloutier & Langley (2013); York et al. (2016)"
+    },
+    {
+      "item_id": "T9",
+      "name": "Capitalismo acadêmico / reformas neoliberais na educação superior",
+      "authors": "Slaughter & Rhoades; Upton & Warshaw (2016)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Complexidade institucional e respostas organizacionais",
+      "authors": "Greenwood et al. (2011); Lee & Lounsbury (2015); Oliver (1991)"
+    },
+    {
+      "item_id": "T11",
+      "name": "Desigualdades moldadas pelo contexto institucional",
+      "authors": "Macedo, Cedro & Batitucci (2024); Huang (2024)"
+    }
+  ]
+}

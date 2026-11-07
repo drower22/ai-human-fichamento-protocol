@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A10",
+  "round": 1,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-07T22:11:18.041615+00:00",
+    "md_sha256": "7239395d29bd11440f9a62461f73bac7115c2f04682c6f792e1ff2c8184f137d"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Identidade e identificação em organizações",
+      "definition": "Corpo sobre como indivíduos se definem e se vinculam a organizações por processos de socialização.",
+      "tradition": "comportamento organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Teoria da Identidade Social e Teoria da Autocategorização",
+      "definition": "Teorias das dimensões cognitiva, afetiva e avaliativa da identificação com grupos.",
+      "tradition": "psicologia social",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Papéis sociais e a metáfora dramatúrgica",
+      "definition": "Abordagem da vida social como drama: papéis, frente cênica e gerenciamento de impressões.",
+      "tradition": "sociologia / interacionismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Teoria institucional",
+      "definition": "Perspectiva sobre como pressões institucionais moldam práticas e estruturas organizacionais.",
+      "tradition": "sociologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Socialização e construção social da realidade",
+      "definition": "Abordagem da constituição dos sujeitos por socialização e construção de sentidos na organização.",
+      "tradition": "sociologia do conhecimento",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Poder, espaço e tempo organizacionais",
+      "definition": "Corpo sobre poder nas organizações, com espaço simbólico e tempo vivido como dimensões de análise.",
+      "tradition": "estudos organizacionais / poder",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Teoria social de Bourdieu (campo e habitus)",
+      "definition": "Esquema campo-habitus-capital para explicar posições sociais e disposições internalizadas.",
+      "tradition": "sociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Cultura organizacional como instrumento de poder",
+      "definition": "Abordagem da cultura organizacional como recurso de poder e fonte de identidade.",
+      "tradition": "estudos organizacionais / cultura",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Identidade organizacional (macro) vs. identidade em organizações",
+      "definition": "Distinção analítica entre a organização como entidade que 'tem' identidade e identidades dos membros.",
+      "tradition": "estudos de identidade",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Identidade x papéis",
+      "definition": "Distinção de Castells: identidades organizam significados, papéis organizam funções.",
+      "tradition": "sociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Sensemaking",
+      "definition": "Perspectiva sobre construção de interpretações compartilhadas e plausíveis da realidade.",
+      "tradition": "teoria organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Teorias clássicas da administração",
+      "definition": "Conjunto das abordagens fundadoras da administração, citado como pano de fundo.",
+      "tradition": "administração clássica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R1 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

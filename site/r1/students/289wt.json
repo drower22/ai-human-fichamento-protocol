@@ -1,0 +1,101 @@
+{
+  "participant_id": "S15",
+  "article_id": "A01",
+  "round": 1,
+  "title": "Uprooted by a petrochemical company: The ethical dimension of open strategy",
+  "authors": "Beatriz Lima Zanoni; Pablo Henrique Paschoal Capucho; Ingrid De Matos Martins; Natália Rese",
+  "year": 2024,
+  "venue": "RAM. Revista de Administração Mackenzie 25(5), eRAMG240065",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Open strategy (estratégia aberta)",
+      "authors": "Hautz, Seidl & Whittington; Whittington, Cailluet & Yakis-Douglas"
+    },
+    {
+      "item_id": "T2",
+      "name": "Teoria institucional",
+      "authors": "Selznick; DiMaggio & Powell; Meyer & Rowan"
+    },
+    {
+      "item_id": "T3",
+      "name": "Ética das virtudes aplicada à estratégia",
+      "authors": "Tsoukas (2018)"
+    },
+    {
+      "item_id": "T4",
+      "name": "Teoria ator-rede",
+      "authors": "Latour; Callon; Law"
+    },
+    {
+      "item_id": "T5",
+      "name": "Perspectiva prática / práticas sociais da estratégia",
+      "authors": "Whittington; Vaara & Whittington; Jarzabkowski"
+    },
+    {
+      "item_id": "T6",
+      "name": "Perspectiva dialógica da open strategy",
+      "authors": "Heracleous et al."
+    },
+    {
+      "item_id": "T7",
+      "name": "Teoria dos movimentos sociais",
+      "authors": "McAdam; Tarrow; Tilly"
+    },
+    {
+      "item_id": "T8",
+      "name": "Contextos extremos (extreme contexts)",
+      "authors": "Hannah et al. (2009); Hällgren, Rouleau & de Rond (2017)"
+    },
+    {
+      "item_id": "T9",
+      "name": "Teoria da identidade social",
+      "authors": "Tajfel & Turner"
+    },
+    {
+      "item_id": "T10",
+      "name": "Legitimidade organizacional e gerenciamento de impressões",
+      "authors": "Suchman; Cruz et al.; Ohlson & Yakis-Douglas"
+    },
+    {
+      "item_id": "T11",
+      "name": "Amor mundi / ética multinível",
+      "authors": "Hannah Arendt"
+    },
+    {
+      "item_id": "T12",
+      "name": "Desenraizamento (uprootedness)",
+      "authors": "Casarotto Filho; Deleuze & Guattari"
+    },
+    {
+      "item_id": "T13",
+      "name": "Mediatização",
+      "authors": "Couldry & Hepp (2017)"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria dos stakeholders",
+      "authors": "Freeman et al."
+    },
+    {
+      "item_id": "T15",
+      "name": "Sensemaking organizacional",
+      "authors": "Weick; Sandberg & Tsoukas"
+    },
+    {
+      "item_id": "T16",
+      "name": "Deontologia kantiana / ética do cuidado",
+      "authors": "Kant; Gilligan"
+    },
+    {
+      "item_id": "T17",
+      "name": "Teoria de redes organizacionais",
+      "authors": "Granovetter; Uzzi; Borgatti"
+    },
+    {
+      "item_id": "T18",
+      "name": "Open organizing",
+      "authors": "Splitter et al. (2023)"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "participant_id": "S10",
+  "article_id": "A09",
+  "round": 1,
+  "title": "Resources in Action: The dynamics of resourcing in an educational organization",
+  "authors": "Rodrigo Assunção Rosa; Marcos Vinícius Pereira Correa; Sergio Bulgacov",
+  "year": 2025,
+  "venue": "RAE-Revista de Administração de Empresas 65(5), e2024-0423",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Resourcing / recursos em uso",
+      "authors": "Feldman (2004); Feldman & Worline; Wiedner et al."
+    },
+    {
+      "item_id": "T2",
+      "name": "Ontologia processual e praxeológica / teoria das práticas",
+      "authors": "Reckwitz (2002); Schatzki (2005); Langley & Tsoukas (2017)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria institucional",
+      "authors": "Selznick; DiMaggio & Powell; Meyer & Rowan"
+    },
+    {
+      "item_id": "T4",
+      "name": "Abordagem econômica de recursos: RBV, dependência de recursos e capacidades dinâmicas",
+      "authors": "Helfat et al. (2023); Pfeffer & Salancik (1978); Teece et al. (1997)"
+    },
+    {
+      "item_id": "T5",
+      "name": "Estratégia como processo emergente e situado",
+      "authors": "estudos de processo/prática de estratégia"
+    },
+    {
+      "item_id": "T6",
+      "name": "Aprendizagem organizacional",
+      "authors": "Argyris & Schön; Huber"
+    },
+    {
+      "item_id": "T7",
+      "name": "Dinâmica de rotinas",
+      "authors": "Feldman, Pentland et al. (2016)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Precarização do trabalho docente na EaD",
+      "authors": "Veloso & Mill (2018); Casagrande et al. (2022)"
+    }
+  ]
+}

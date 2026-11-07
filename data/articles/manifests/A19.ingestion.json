@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A19",
+  "pdf_path": "data/articles/pdfs/A19.pdf",
+  "pdf_sha256": "23610121504db902c0a890aae5fba276bb5b3502ee407471019f2b3260bdebcf",
+  "md_path": "data/articles/markdown/A19.md",
+  "md_sha256": "c49db80438b6392fea749393938d1bb7c06e49febedcb9a2a09f1b541b293858",
+  "tool": "pymupdf 1.28.2",
+  "ocr_tool": null,
+  "pages_pdf": 15,
+  "pages_extracted": 15,
+  "est_tokens": 18208,
+  "pages": [
+    {
+      "page": 1,
+      "n_lines": 18,
+      "n_chars": 1150,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 2,
+      "n_lines": 99,
+      "n_chars": 4543,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 3,
+      "n_lines": 125,
+      "n_chars": 5448,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 4,
+      "n_lines": 128,
+      "n_chars": 5871,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 5,
+      "n_lines": 123,
+      "n_chars": 5311,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 6,
+      "n_lines": 125,
+      "n_chars": 5312,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 7,
+      "n_lines": 126,
+      "n_chars": 5480,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 8,
+      "n_lines": 126,
+      "n_chars": 5465,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 9,
+      "n_lines": 122,
+      "n_chars": 5304,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 10,
+      "n_lines": 126,
+      "n_chars": 5373,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 11,
+      "n_lines": 124,
+      "n_chars": 5269,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 12,
+      "n_lines": 126,
+      "n_chars": 5411,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 13,
+      "n_lines": 132,
+      "n_chars": 4563,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 14,
+      "n_lines": 138,
+      "n_chars": 4448,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 15,
+      "n_lines": 120,
+      "n_chars": 3884,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    }
+  ],
+  "coverage_complete": true,
+  "overrides": [],
+  "created_at": "2026-11-07T18:56:46.494469Z"
+}

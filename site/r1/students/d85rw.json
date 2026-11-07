@@ -1,0 +1,71 @@
+{
+  "participant_id": "S16",
+  "article_id": "A14",
+  "round": 1,
+  "title": "Risks in the internationalization process of service firms: a qualitative multiple-case study from an emerging market",
+  "authors": "Weber Henrique Radael; Gustavo Abib",
+  "year": 2025,
+  "venue": "International Journal of Emerging Markets, 1-22 (ahead-of-print)",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Framework de riscos de internacionalização (intercultural, cambial, país, comercial)",
+      "authors": "Cavusgil et al. (2019, 2020)"
+    },
+    {
+      "item_id": "T2",
+      "name": "Modelo de Uppsala de internacionalização gradual",
+      "authors": "Johanson & Vahlne (1977, 2009)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria institucional / visão baseada em instituições",
+      "authors": "Peng, Wang & Jiang (2008); DiMaggio & Powell; North"
+    },
+    {
+      "item_id": "T4",
+      "name": "Teoria dos custos de transação",
+      "authors": "Coase; Williamson"
+    },
+    {
+      "item_id": "T5",
+      "name": "Classificação de serviços hard/soft e firmas de serviços profissionais (PSFs)",
+      "authors": "Erramilli (1990); Sepulveda (2014); von Nordenflycht (2010)"
+    },
+    {
+      "item_id": "T6",
+      "name": "Born global",
+      "authors": "Cavusgil & Knight (2015); Oviatt & McDougall"
+    },
+    {
+      "item_id": "T7",
+      "name": "Estratégia follow-the-client das PSFs",
+      "authors": "Prashantham et al. (2019)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Paradigma eclético (OLI)",
+      "authors": "Dunning"
+    },
+    {
+      "item_id": "T9",
+      "name": "Conceito de risco em negócios internacionais",
+      "authors": "Eduardsen & Marinova (2020); Hardy & Maguire (2016)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Confiança interorganizacional",
+      "authors": "Zou et al. (2023); literatura de trust"
+    },
+    {
+      "item_id": "T11",
+      "name": "Liability of foreignness e outsidership",
+      "authors": "Zaheer; Benmamoun et al. (2019); Kim & Cavusgil (2020)"
+    },
+    {
+      "item_id": "T12",
+      "name": "Teoria de redes",
+      "authors": "Johanson & Mattsson; literatura de networks em IB"
+    }
+  ]
+}

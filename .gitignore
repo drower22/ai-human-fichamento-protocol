@@ -16,8 +16,22 @@ data/private/*
 !data/private/README.md
 
 # Article PDFs are copyrighted material — keep the registry, not the files.
+# O markdown extraído é o mesmo texto integral — mesma regra.
 data/articles/pdfs/*
 !data/articles/pdfs/.gitkeep
+data/articles/markdown/
+data/piloto/*.pdf
+data/piloto/artigo-piloto.md
+
+# Extração de teorias = gabarito (vereditos + refs) — só sobe após o descegamento.
+data/articles/theory-extraction/
+# Respostas brutas dos estudantes contêm nomes/demografia — só o par anonimizado sobe.
+data/piloto/responses/
+# Avaliações dos juízes carregam tokens/identificadores — privadas até o descegamento.
+data/piloto/evaluations/
+
+# Raw judge drop folders contain real names — never commit.
+juiz */
 
 # Analysis artifacts
 analysis/reports/*.png
