@@ -20,6 +20,7 @@ h3 { font-size: 11pt; color: #374151; margin: 16px 0 6px; }
 /* títulos nunca ficam órfãos no fim da página nem se separam do conteúdo */
 h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
 p, li { margin: 5px 0; orphans: 3; widows: 3; }
+ul, ol { break-inside: avoid; page-break-inside: avoid; }
 blockquote { background: #eff6ff; border-left: 4px solid #2563eb;
              margin: 12px 0; padding: 10px 14px; color: #1e3a8a;
              break-inside: avoid; }
