@@ -1,32 +1,26 @@
 # site/ — formulário do fichamento (deploy Vercel)
 
-`index.html` é uma **cópia publicável** de
-`protocol/forms/fichamento-piloto.html` (o form gera o `.json` que o
-estudante envia por e-mail). Edite sempre o original e sincronize:
+Estrutura publicada:
 
-```bash
-cp protocol/forms/fichamento-piloto.html site/index.html
-```
+- `index.html` — **redirect** para `/r1/` (preserva `?s=token`)
+- `r1/index.html` — **cópia publicável** de
+  `protocol/forms/fichamento-r1.html` (form da Rodada 1, link pessoal
+  `?s=token` → `r1/students/{token}.json`). Edite sempre o original e
+  sincronize: `cp protocol/forms/fichamento-r1.html site/r1/index.html`
+- `r1/students/{token}.json` — packs individuais (código S + artigo +
+  pool de teorias, sem gabarito), gerados por
+  `scripts/build_r1_student_packs.py`
+- `r1/students/teste.json` — pack demo (`?s=teste`)
+
+O form posta em `/api/send` (não existe neste deploy estático → cai no
+fallback: baixa o `.json` e instrui envio por e-mail).
 
 ## Publicar na Vercel
 
-### Opção A — CLI (recomendada)
-
-```bash
-npm i -g vercel        # uma vez
-cd site
-vercel --prod        # login na primeira vez; aceite os defaults
-```
-
-Saída: uma URL tipo `https://fichamento-piloto.vercel.app`.
-Deploys seguintes: editar o HTML, `cp` pra cá, `vercel --prod` de novo.
-
-### Opção B — arrasta-e-solta (sem CLI)
-
-https://vercel.com/new → aba "Deploy" → arraste a pasta `site/`.
+Deploy atual: projeto Vercel com root directory = `site/`, integração
+GitHub — push em `main` que tocar `site/` faz redeploy automático.
 
 ### Variantes de rodada
 
-Para R1/R2 com pools diferentes: gere `site/index.html` a partir de um
-`fichamento-r{N}.html` (mesmo arquivo, pool diferente) — ou suba pastas
-/`r1`, `/r2` cada uma com seu `index.html`.
+Para R2: gere `site/r2/` a partir de `fichamento-r2.html` + packs próprios
+e aponte o redirect da raiz para `/r2/` quando a rodada abrir.
