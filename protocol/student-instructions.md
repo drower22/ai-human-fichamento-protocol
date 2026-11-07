@@ -139,7 +139,6 @@ não sabem qual é qual, e você não deve tentar adivinhar.
 
 ## Regras
 
-- Nada que não esteja no artigo.
 - **Não** consulte o fichamento da IA nem o de colegas. A independência
   é o que torna a comparação válida.
 - Não use IA para ler ou fichar o artigo, porque o objeto de estudo é
