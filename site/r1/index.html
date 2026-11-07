@@ -27,6 +27,12 @@
   input:focus,textarea:focus,select:focus{outline:2px solid #93c5fd;border-color:var(--blue)}
   input[readonly]{background:#f1f5f9;color:var(--slate)}
   button:disabled{background:#94a3b8;cursor:not-allowed}
+  .artcard{background:#eff6ff;border:1px solid #bfdbfe;border-radius:12px;
+    padding:16px 18px;margin-top:18px}
+  .artcard .cap{font-size:12px;text-transform:uppercase;letter-spacing:.6px;
+    color:var(--slate);margin-bottom:4px}
+  .arttitle{font-size:17px;font-weight:700;color:var(--navy)}
+  .artmeta{font-size:14px;color:var(--slate);margin-top:4px}
   .row2{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:end}
   .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;align-items:end}
   .theory{border:1px solid var(--soft);border-radius:12px;padding:16px 18px;margin:12px 0}
@@ -176,29 +182,23 @@
 
 <section>
   <h2>2. Identificação</h2>
-  <p class="desc">Seus dados vêm preenchidos do seu cadastro - confira e corrija
-  o que estiver errado (ou complete o que estiver em branco). Eles servem apenas
-  para caracterizar a amostra da pesquisa e NÃO aparecem no fichamento que os
-  juízes avaliam.</p>
+  <p class="desc">Estes são os dados do seu cadastro na pesquisa - servem apenas
+  para caracterizar a amostra e NÃO aparecem no fichamento que os juízes
+  avaliam. Se algo estiver errado ou em branco, escreva para a coordenação
+  antes de enviar.</p>
   <div class="row2">
-    <div><label class="q">Nome completo</label><input type="text" name="full_name"></div>
-    <div><label class="q">Idade (anos)</label><input type="number" name="age" min="16" max="99"></div>
+    <div><label class="q">Nome completo</label><input type="text" name="full_name" readonly></div>
+    <div><label class="q">Idade (anos)</label><input type="number" name="age" min="16" max="99" readonly></div>
   </div>
   <div class="row2">
-    <div><label class="q">Gênero</label>
-      <select name="gender"><option value="">-</option><option>Feminino</option>
-      <option>Masculino</option><option>Outro</option><option>Prefiro não informar</option></select></div>
-    <div><label class="q">Programa</label>
-      <select name="program"><option value="">-</option><option>Mestrado</option>
-      <option>Doutorado</option></select></div>
+    <div><label class="q">Gênero</label><input type="text" name="gender" readonly></div>
+    <div><label class="q">Programa</label><input type="text" name="program" readonly></div>
   </div>
-  <div class="row2">
-    <div><label class="q">Seu código<small>travado pelo seu link pessoal</small></label>
-      <input type="text" name="participant_id" readonly></div>
-    <div><label class="q">Seu artigo<small>travado pelo seu link pessoal</small></label>
-      <input type="text" name="article_id" readonly></div>
+  <div class="artcard">
+    <div class="cap">Seu artigo para fichar</div>
+    <div class="arttitle" id="arttitle"></div>
+    <div class="artmeta" id="artmeta"></div>
   </div>
-  <p class="hint" id="artinfo"></p>
 </section>
 
 <section>
@@ -368,13 +368,13 @@ const showErr=t=>{const e=document.getElementById('errors');
   catch{showErr('Link inválido ou pacote não encontrado - confira o endereço '
     +'ou fale com a coordenação.');return;}
   POOL=PACK.pool||[];
-  document.querySelector('[name=participant_id]').value=PACK.participant_id||'';
-  document.querySelector('[name=article_id]').value=PACK.article_id||'';
-  document.getElementById('artinfo').textContent=
-    [PACK.title,PACK.authors,PACK.year,PACK.venue].filter(Boolean).join(' · ');
+  document.getElementById('arttitle').textContent=PACK.title||'';
+  document.getElementById('artmeta').textContent=
+    [PACK.authors,PACK.year,PACK.venue].filter(Boolean).join(' · ');
   ['full_name','age','gender','program'].forEach(n=>{
-    const v=PACK[n];if(v!=null&&String(v).trim()!=='')
-      document.querySelector(`[name=${n}]`).value=v;});
+    const el=document.querySelector(`[name=${n}]`),v=PACK[n];
+    if(v!=null&&String(v).trim()!==''){el.value=v;el.readOnly=true;}
+    else{el.readOnly=false;el.placeholder='preencha';}});
   renderTheories();
   submitBtn.disabled=false;
 })();
@@ -589,7 +589,7 @@ document.getElementById('f').addEventListener('submit',async e=>{
   ebox.style.display='none';
 
   const payload={
-    article_id:g('article_id'),participant_id:g('participant_id'),consent:'aceito',
+    article_id:PACK.article_id,participant_id:PACK.participant_id,consent:'aceito',
     elapsed_minutes:+g('elapsed_minutes'),
     full_name:g('full_name'),age:g('age'),gender:g('gender'),program:g('program'),
     executive_summary:g('executive_summary'),research_question:g('research_question'),
