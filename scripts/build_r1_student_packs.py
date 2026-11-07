@@ -32,7 +32,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 PRIV = DATA / "private"
 SITE_R1 = ROOT / "site" / "r1"
-BASE_URL = "https://ai-human-fichamento-protocol-form-s.vercel.app"
+BASE_URL = "https://ai-human-fichamento-protocol-site.vercel.app"
 TOKEN_ALPHABET = "abcdefghjkmnpqrstuvwxyz23456789"  # sem 0/o/1/l/i — evita erro de digitação
 SEED = 20261107
 
