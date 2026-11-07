@@ -338,6 +338,7 @@ NÃO é DISCUTE - é NÃO USA.</p>
   <input type="number" name="elapsed_minutes" min="1">
 </section>
 
+<p class="hint" style="text-align:center;margin-bottom:10px">Suas respostas ficam salvas automaticamente neste navegador - você pode fechar e voltar pelo mesmo link.</p>
 <button type="submit">Enviar meu fichamento</button>
 </div><!-- /resto -->
 </form>
@@ -376,6 +377,7 @@ const showErr=t=>{const e=document.getElementById('errors');
     if(v!=null&&String(v).trim()!==''){el.value=v;el.readOnly=true;}
     else{el.readOnly=false;el.placeholder='preencha';}});
   renderTheories();
+  restoreSaved();
   submitBtn.disabled=false;
 })();
 
@@ -385,6 +387,34 @@ _es.addEventListener('input',()=>{
   const n=_es.value.trim().split(/\s+/).filter(Boolean).length;
   document.getElementById('wcN').textContent=n;
   document.getElementById('wc').style.color=n>300?'var(--err)':'';});
+
+// rascunho automático no navegador (por link): restaura ao abrir, limpa ao enviar
+const LSKEY='fich_r1_'+_tok;
+let _svT;
+function saveDraft(){clearTimeout(_svT);_svT=setTimeout(()=>{
+  const o={};
+  document.querySelectorAll('#f [name]').forEach(el=>{
+    if(el.type==='radio'){if(el.checked)o[el.name]=el.value;}
+    else if(el.type==='checkbox'){o[el.name]=el.checked;}
+    else o[el.name]=el.value;});
+  try{localStorage.setItem(LSKEY,JSON.stringify(o));}catch{}},400);}
+document.getElementById('f').addEventListener('input',saveDraft);
+document.getElementById('f').addEventListener('change',saveDraft);
+function restoreSaved(){
+  let o;try{o=JSON.parse(localStorage.getItem(LSKEY)||'null');}catch{o=null;}
+  if(!o)return;
+  const idx=re=>Math.max(0,...Object.keys(o).map(k=>+(k.match(re)||[])[1]||0));
+  const needC=idx(/^kc(\d+)_c$/),needF=idx(/^f(\d+)_f$/);
+  while(needC&&!document.querySelector(`[name=kc${needC}_c]`))addConcept();
+  while(needF&&!document.querySelector(`[name=f${needF}_f]`))addFinding();
+  Object.entries(o).forEach(([k,v])=>{
+    document.querySelectorAll(`[name="${k}"]`).forEach(el=>{
+      if(el.type==='radio'){el.checked=el.value===v;
+        if(el.checked)el.dispatchEvent(new Event('change',{bubbles:true}));}
+      else if(el.type==='checkbox')el.checked=!!v;
+      else el.value=v;});});
+  _es.dispatchEvent(new Event('input'));
+}
 
 // TCLE gate: aceite troca de tela (termo some, form aparece)
 document.querySelectorAll('input[name=tcle]').forEach(r=>
@@ -616,6 +646,7 @@ document.getElementById('f').addEventListener('submit',async e=>{
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({filename:fname,json:jtxt})});
     if(!r.ok)throw 0;
+    try{localStorage.removeItem(LSKEY);}catch{}
     document.getElementById('f').style.display='none';
     document.getElementById('doneMsg').textContent=
       `Recebemos o seu fichamento (${fname}).`;
