@@ -24,7 +24,7 @@ EMAILS_CSV = ROOT / "data/private/student-emails.csv"
 INSTRUCOES = ROOT / "protocol/instrucoes-estudantes.pdf"
 PDFS = ROOT / "data/articles/pdfs"
 
-HOST = "outlook.office365.com"
+HOST = os.environ.get("IMAP_HOST", "imap.gmail.com")
 PORT = 993
 
 ASSUNTO = "Pesquisa de fichamentos: Rodada 1"
@@ -125,8 +125,9 @@ def main():
     missing_pdf = [r["student_id"] for r in recs if not r["pdf"].exists()]
     if not INSTRUCOES.exists():
         sys.exit(f"anexo ausente: {INSTRUCOES}")
-    if missing and not (args.eml or args.dry_run):
-        sys.exit(f"emails faltando em {EMAILS_CSV}: {', '.join(missing)}")
+    if missing:
+        print(f"aviso: {len(missing)} sem e-mail (Para vazio no rascunho): "
+              f"{', '.join(missing)}")
     if missing_pdf:
         sys.exit(f"PDFs ausentes: {', '.join(missing_pdf)}")
 
@@ -152,7 +153,7 @@ def main():
         print(f"pronto: {len(recs)} .eml em {outdir}")
         return
 
-    user = os.environ.get("IMAP_USER") or input("e-mail UFPR: ").strip()
+    user = os.environ.get("IMAP_USER") or input("seu e-mail: ").strip()
     pw = os.environ.get("IMAP_PASS") or getpass.getpass("senha/app password: ")
 
     conn = imaplib.IMAP4_SSL(HOST, PORT)
