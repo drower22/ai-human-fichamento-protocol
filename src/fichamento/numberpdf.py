@@ -44,42 +44,46 @@ def _fit_column(ys: list[float], y_top: float, y_bot: float):
     """Posiciona rótulos de UMA margem; retorna [(sub_col, y, font)]
     alinhado a ``ys`` (que chega ordenado).
 
-    1. 1 sub-coluna com anti-colisão a LABEL_PITCH (preserva baseline;
-       só empurra quando linhas dividem a mesma altura);
-    2. se estourar ``y_bot``: 2 sub-colunas **intercaladas** (índices
-       pares à esq., ímpares à dir.) nas posições naturais — cada
-       sub-coluna vê 1 rótulo a cada 2 linhas, o dobro do respiro;
-    3. último recurso: passo uniforme comprimido por sub-coluna.
+    Cada rótulo ancora na baseline da sua linha; o passe direto empurra
+    para baixo mantendo o passo mínimo e o passe reverso puxa a cauda
+    para dentro de ``y_bot``. Preferência sempre por 1 sub-coluna;
+    sub-colunas extras só entram quando nem com o passo mínimo o drift
+    máximo fica <= DRIFT_MAX (tabelas muito densas).
     """
     n = len(ys)
-    res: list[tuple[int, float, float] | None] = [None] * n
-    prev = None
-    for i, y0 in enumerate(ys):
-        yy = max(y0, y_top)
-        if prev is not None and yy < prev + LABEL_PITCH:
-            yy = prev + LABEL_PITCH
-        prev = yy
-        if yy > y_bot:
-            break
-        res[i] = (0, yy, LABEL_SIZE)
-    if res[-1] is not None:
-        return res  # type: ignore[return-value]
+    DRIFT_MAX = 25.0
 
-    res = [None] * n
-    for j in range(LABEL_MAX_COLS):
-        idxs = list(range(j, n, LABEL_MAX_COLS))
-        gaps = [ys[b] - ys[a] for a, b in zip(idxs, idxs[1:])]
-        min_gap = min(gaps) if gaps else 99.0
-        font = min(LABEL_SIZE, min_gap - 0.4)
-        if font >= 3.4:
-            for i in idxs:
-                res[i] = (j, ys[i], font)
-        else:
-            pitch = max(3.2, (y_bot - y_top) / len(idxs))
-            for k, i in enumerate(idxs):
-                res[i] = (j, y_top + k * pitch,
-                          max(3.0, min(LABEL_SIZE, pitch - 0.7)))
-    return res  # type: ignore[return-value]
+    def fit_chain(idxs, pitch):
+        res = {}
+        prev = None
+        for i in idxs:
+            yy = max(ys[i], y_top)
+            if prev is not None and yy < prev + pitch:
+                yy = prev + pitch
+            prev = yy
+            res[i] = yy
+        if res[idxs[-1]] > y_bot:
+            res[idxs[-1]] = y_bot
+            for k in range(len(idxs) - 2, -1, -1):
+                i = idxs[k]
+                res[i] = min(res[i], res[idxs[k + 1]] - pitch)
+        return res
+
+    best = None
+    for ncols in (1, 2, 3, 4):
+        for pitch in (LABEL_PITCH, 5.8, 4.6, 3.8, 3.3):
+            res = {}
+            for j in range(ncols):
+                res.update(fit_chain(list(range(j, n, ncols)), pitch))
+            maxdy = max(abs(res[i] - ys[i]) for i in range(n))
+            if best is None or maxdy < best[0]:
+                best = (maxdy, ncols, pitch, res)
+            if maxdy <= DRIFT_MAX:
+                font = min(LABEL_SIZE, 88.0 / ncols / 5.0, pitch - 0.7)
+                return [(i % ncols, res[i], font) for i in range(n)]
+    _, ncols, pitch, res = best
+    font = min(LABEL_SIZE, 88.0 / ncols / 5.0, pitch - 0.7)
+    return [(i % ncols, res[i], font) for i in range(n)]
 
 
 def _draw_labels(newp, pending, x_right: float, y_bot: float) -> None:
@@ -95,14 +99,16 @@ def _draw_labels(newp, pending, x_right: float, y_bot: float) -> None:
         ys = [y for y, _ in items]
         placed = _fit_column(ys, M_TOP + 2, y_bot)
         ncols = max(j for j, _, _ in placed) + 1
+        col_w = min(LABEL_COL_W, 88.0 / ncols)
         for (j, yy, size), (_, label) in zip(placed, items):
             if side == "L":
-                xx = LABEL_X_LEFT if ncols == 1 else 4.0 + j * LABEL_COL_W
+                xx = LABEL_X_LEFT if ncols == 1 else 4.0 + j * col_w
             else:
-                xx = x_right + j * LABEL_COL_W
+                xx = x_right + j * col_w
             newp.insert_text(
                 pymupdf.Point(xx, yy), label,
-                fontsize=size, fontname="helv", color=LABEL_COLOR,
+                fontsize=min(size, col_w / 5.0), fontname="helv",
+                color=LABEL_COLOR,
             )
 
 
@@ -208,11 +214,21 @@ def number_article(article: ArticleEntry) -> int:
             continue
         lines = _page_lines(page)
         col = _columns_of(lines)
+        rot = page.rotation
+        rmat = page.rotation_matrix if rot else None
         pending = []
         for text, bbox, base in lines:
             ln += 1
-            side = "R" if col((text, bbox, base)) else "L"
-            pending.append((side, M_TOP + base, f"p.{i} L{ln:03d}"))
+            if rmat is not None:
+                # página girada (/Rotate 90/270): a baseline vem no
+                # espaço NÃO rotacionado — converte para o espaço de
+                # exibição antes de posicionar o rótulo e escolher a margem
+                c = pymupdf.Point((bbox.x0 + bbox.x1) / 2, base) * rmat
+                side = "R" if c.x > ow / 2 else "L"
+                pending.append((side, M_TOP + c.y, f"p.{i} L{ln:03d}"))
+            else:
+                side = "R" if col((text, bbox, base)) else "L"
+                pending.append((side, M_TOP + base, f"p.{i} L{ln:03d}"))
         _draw_labels(newp, pending, M_LEFT + ow + 6, M_TOP + oh - 4)
     out_path = paths.numbered_pdf_path(article.article_id)
     out_path.parent.mkdir(parents=True, exist_ok=True)
