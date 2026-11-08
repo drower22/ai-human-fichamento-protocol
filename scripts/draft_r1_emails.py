@@ -28,6 +28,7 @@ HOST = "outlook.office365.com"
 PORT = 993
 
 ASSUNTO = "Pesquisa de fichamentos: Rodada 1"
+REPLY_TO = "ismar.drower@ufpr.br"  # respostas caem na caixa institucional
 PRAZO = "13/11/26 - 23:59"  # ajuste aqui se mudar o prazo
 
 CORPO = """Bom dia, {primeiro_nome}
@@ -74,6 +75,8 @@ def build_message(rec, sender):
     msg = EmailMessage()
     msg["Subject"] = ASSUNTO
     msg["From"] = sender
+    if sender != REPLY_TO:
+        msg["Reply-To"] = REPLY_TO
     if "@" in rec["email"]:
         msg["To"] = Address(display_name=rec["name"], addr_spec=rec["email"])
     msg["Date"] = formatdate(localtime=True)
