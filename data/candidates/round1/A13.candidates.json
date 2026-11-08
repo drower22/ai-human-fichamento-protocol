@@ -7,7 +7,7 @@
     "provider": "devin",
     "model": "swe-2-high (leitura integral assistida; ver theory-extraction/)",
     "prompt_version": "n/a",
-    "at": "2026-11-07T22:11:18.041615+00:00",
+    "at": "2026-11-08T13:26:31.776091+00:00",
     "md_sha256": "20927fbcd56f4c4d6ce728a29d7ea15849932693b2b69d6ef659fc324f1c9875"
   },
   "items": [
