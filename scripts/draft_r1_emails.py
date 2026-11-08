@@ -6,8 +6,9 @@ Nao envia nada: cada mensagem e gravada como rascunho com os dois anexos
 manualmente pelo Outlook.
 
 Uso:
+  python scripts/draft_r1_emails.py --eml /tmp/r1-emails   # gera os .eml (arraste p/ Rascunhos no Thunderbird)
   IMAP_USER=voce@ufpr.br IMAP_PASS=senha-de-app \
-    python scripts/draft_r1_emails.py            # cria os 16 rascunhos
+    python scripts/draft_r1_emails.py            # cria os 16 rascunhos via IMAP
   python scripts/draft_r1_emails.py --dry-run    # so valida, sem conectar
   python scripts/draft_r1_emails.py --only S01   # um destinatario
 """
@@ -104,6 +105,7 @@ def find_drafts_folder(conn):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--eml", help="grava .eml prontos neste diretorio")
     ap.add_argument("--only", help="ex.: S01")
     args = ap.parse_args()
 
@@ -127,6 +129,18 @@ def main():
             print(f'{r["student_id"]} {r["name"]} <{r["email"]}> '
                   f'[{r["pdf"].name}] {r["link"]}')
         print(f"ok: {len(recs)} rascunhos seriam criados")
+        return
+
+    if args.eml:
+        outdir = Path(args.eml)
+        outdir.mkdir(parents=True, exist_ok=True)
+        sender = os.environ.get("IMAP_USER") or "ismar.drower@ufpr.br"
+        for r in recs:
+            msg = build_message(r, sender)
+            (outdir / f'{r["student_id"]}-{r["email"].split("@")[0]}.eml'
+             ).write_bytes(msg.as_bytes())
+            print(f'{r["student_id"]} -> {r["email"]}: {r["pdf"].name}')
+        print(f"pronto: {len(recs)} .eml em {outdir}")
         return
 
     user = os.environ.get("IMAP_USER") or input("e-mail UFPR: ").strip()
