@@ -147,7 +147,5 @@ não sabem qual é qual, e você não deve tentar adivinhar.
 - Trabalhe sempre pelo **seu link**, no **mesmo navegador**, para o
   rascunho automático funcionar.
 
-## Após a Rodada 1
-
-Você receberá o `checklist-students.md`, derivado dos padrões de erro da
-R1, e é ele que operacionaliza a calibração humana.
+Após a Rodada 1 você recebe um novo link, com o próximo artigo, e o
+mesmo processo se repete.
