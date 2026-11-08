@@ -58,6 +58,8 @@ def load_recipients():
     out = []
     for s in links["students"]:
         sid = s["participant_id"]
+        if emails.get(sid, "").upper() == "SKIP":
+            continue
         out.append({
             "student_id": sid,
             "name": s["name"],
