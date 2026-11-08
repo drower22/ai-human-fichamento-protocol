@@ -74,7 +74,8 @@ def build_message(rec, sender):
     msg = EmailMessage()
     msg["Subject"] = ASSUNTO
     msg["From"] = sender
-    msg["To"] = Address(display_name=rec["name"], addr_spec=rec["email"])
+    if "@" in rec["email"]:
+        msg["To"] = Address(display_name=rec["name"], addr_spec=rec["email"])
     msg["Date"] = formatdate(localtime=True)
     primeiro = rec["name"].split()[0]
     msg.set_content(CORPO.format(primeiro_nome=primeiro,
@@ -121,7 +122,7 @@ def main():
     missing_pdf = [r["student_id"] for r in recs if not r["pdf"].exists()]
     if not INSTRUCOES.exists():
         sys.exit(f"anexo ausente: {INSTRUCOES}")
-    if missing:
+    if missing and not (args.eml or args.dry_run):
         sys.exit(f"emails faltando em {EMAILS_CSV}: {', '.join(missing)}")
     if missing_pdf:
         sys.exit(f"PDFs ausentes: {', '.join(missing_pdf)}")
@@ -137,11 +138,14 @@ def main():
         outdir = Path(args.eml)
         outdir.mkdir(parents=True, exist_ok=True)
         sender = os.environ.get("IMAP_USER") or "ismar.drower@ufpr.br"
+        import re, unicodedata
         for r in recs:
             msg = build_message(r, sender)
-            (outdir / f'{r["student_id"]}-{r["email"].split("@")[0]}.eml'
-             ).write_bytes(msg.as_bytes())
-            print(f'{r["student_id"]} -> {r["email"]}: {r["pdf"].name}')
+            base = unicodedata.normalize("NFKD", r["name"]).encode("ascii", "ignore").decode()
+            slug = re.sub(r"[^a-z0-9]+", "-", base.lower()).strip("-")
+            (outdir / f'{r["student_id"]}-{slug}.eml').write_bytes(msg.as_bytes())
+            dest = r["email"] or "(preencher Para)"
+            print(f'{r["student_id"]} {r["name"]} -> {dest}: {r["pdf"].name}')
         print(f"pronto: {len(recs)} .eml em {outdir}")
         return
 
