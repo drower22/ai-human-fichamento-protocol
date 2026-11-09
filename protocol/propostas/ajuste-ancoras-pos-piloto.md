@@ -61,7 +61,7 @@ juiz reconhece a própria coluna.</sub>
    trade-off, a comparação IA×humano mede a opinião do juiz sobre o
    trade-off — não a qualidade.
 
-## 2. Regra geral proposta — **[DECIDIR]**
+## 2. Regra geral proposta — **[APROVADO]**
 
 > **Fidelidade limita a nota.** Completude não compensa fabricação nem
 > cópia literal: uma seção com conteúdo inventado, extrapolado ou colado
@@ -72,7 +72,7 @@ disputa central numa linha, sem reescrever a escala.
 
 ## 3. Propostas por seção
 
-### 3.1 Resumo executivo — **[DECIDIR]**
+### 3.1 Resumo executivo — **[APROVADO]**
 
 | | texto |
 |---|---|
@@ -84,7 +84,7 @@ disputa central numa linha, sem reescrever a escala.
 *Motivo:* divergência 4/6/2; um juiz puniu "reprodução literal sem
 elaboração" — comportamento hoje ausente das âncoras.
 
-### 3.2 Questão de pesquisa — **[DECIDIR]**
+### 3.2 Questão de pesquisa — **[APROVADO]**
 
 | | texto |
 |---|---|
@@ -99,7 +99,7 @@ fidelidade merece nota alta (um juiz sugeriu isso ao punir quem não
 sinalizou a ausência). Alternativa: punir reconstrução sempre —
 rejeitada, pois premiaria só artigos "bem-comportados".
 
-### 3.3 Teorias presentes — **[DECIDIR]**
+### 3.3 Teorias presentes — **[APROVADO]**
 
 | | texto |
 |---|---|
@@ -112,7 +112,7 @@ usado para menções de revisão. A âncora passa a definir os três
 vereditos pelo **papel**, não pela presença da citação. O mesmo texto
 alimenta o checklist dos estudantes — critério único para os dois lados.
 
-### 3.4 Conceitos-chave — **[DECIDIR]**
+### 3.4 Conceitos-chave — **[APROVADO]**
 
 | | texto |
 |---|---|
@@ -123,7 +123,7 @@ alimenta o checklist dos estudantes — critério único para os dois lados.
 outro distinguiu "fiel porque cita literal" de "preciso porque é central".
 A âncora passa a julgar a escolha tanto quanto a definição.
 
-### 3.5 Contribuição — **[DECIDIR]**
+### 3.5 Contribuição — **[APROVADO]**
 
 | | texto |
 |---|---|
@@ -133,7 +133,7 @@ A âncora passa a julgar a escolha tanto quanto a definição.
 *Motivo:* um juiz chamou o fichamento de "superinflado" e ainda assim
 deu 6 — a fronteira 4↔7 estava solta.
 
-### 3.6 O que NÃO muda — **[DECIDIR: manter]**
+### 3.6 O que NÃO muda — **[APROVADO: manter]**
 
 - **`methodology`** (range 1 nos dois fichamentos) e **`main_findings`**
   (range 2; a âncora 1 "inventados" foi usada corretamente) — régua
@@ -146,7 +146,8 @@ deu 6 — a fronteira 4↔7 estava solta.
 ## 4. O lado dos estudantes — instruções e checklist
 
 O critério é um só, dos dois lados: toda mudança de âncora tem reflexo
-nos materiais dos estudantes. Três frentes — **[DECIDIR]** cada uma:
+nos materiais dos estudantes. Três frentes decididas na reunião
+(4.1 e 4.2 aprovadas; 4.3 = opção (a); 4.4 aprovada):
 
 ### 4.1 Vereditos de teoria — a definição já existe e falhou
 
@@ -205,7 +206,7 @@ rubric* (4.1) e usabilidade — não coaching de qualidade.
 *Recomendação*: (c). Separa "aprender a usar o instrumento" de
 "aprender a fazer bem" — e mantém o Δ interpretável.
 
-### 4.4 Log reflexivo passa a 4 perguntas — **[DECIDIR]**
+### 4.4 Log reflexivo passa a 4 perguntas — **[APROVADO]**
 
 O log é **diagnóstico do estudo** — mapear dificuldades/barreiras da
 tarefa — e não exercício de aprendizagem do estudante. No piloto, a
@@ -224,17 +225,20 @@ q3 abordagem, q4 uso de IA.
 
 | # | item | decisão |
 |---|---|---|
-| 2 | regra geral (fidelidade limita nota) | ☐ |
-| 3.1 | resumo — síntese vs. colagem | ☐ |
-| 3.2 | questão implícita reconstruída | ☐ |
-| 3.3 | teorias — papel no argumento | ☐ |
-| 3.4 | conceitos — seleção conta | ☐ |
-| 3.5 | contribuição — inflação trava no 4 | ☐ |
-| 3.6 | demais seções inalteradas | ☐ |
-| 4.1 | instruções: alerta "citar ≠ discutir" + exercício T1/T12/T13 | ☐ |
-| 4.2 | sincronizar âncoras nos forms (juiz + estudante) antes da R1 | ☐ |
-| 4.3 | estratégias dos logs: (a) agora / (b) pós-R1 / (c) só usabilidade | ☐ |
-| 4.4 | log reflexivo: 3 para 4 perguntas (conteúdo × formato) | ☐ |
+| 2 | regra geral (fidelidade limita nota) | **MUDAR** |
+| 3.1 | resumo — síntese vs. colagem | **MUDAR** |
+| 3.2 | questão implícita reconstruída | **MUDAR** |
+| 3.3 | teorias — papel no argumento | **MUDAR** |
+| 3.4 | conceitos — seleção conta | **MUDAR** |
+| 3.5 | contribuição — inflação trava no 4 | **MUDAR** |
+| 3.6 | demais seções inalteradas | **MANTER** |
+| 4.1 | instruções: alerta "citar ≠ discutir" + exercício T1/T12/T13 | **MUDAR** |
+| 4.2 | sincronizar âncoras nos forms (juiz + estudante) antes da R1 | **MUDAR** |
+| 4.3 | estratégias dos logs: (a) agora / (b) pós-R1 / (c) só usabilidade | **(a) socializadas na reunião** |
+| 4.4 | log reflexivo: 3 para 4 perguntas (conteúdo × formato) | **MUDAR** |
+
+Tabela transcrita retroativamente em 09/11 a partir do registro verbal
+da reunião — as 11 propostas foram aprovadas (4.3 na opção (a)).
 
 Após a reunião: changelog `v1.1.0 — pós-piloto R0` em `rubric.md`,
 registro em `diary/2026-11-06.md` e propagação do vocabulário para
