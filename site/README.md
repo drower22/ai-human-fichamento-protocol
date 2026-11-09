@@ -12,8 +12,11 @@ Estrutura publicada:
   `scripts/build_r1_student_packs.py`
 - `r1/students/teste.json` — pack demo (`?s=teste`)
 
-O form posta em `/api/send` (não existe neste deploy estático → cai no
-fallback: baixa o `.json` e instrui envio por e-mail).
+O form posta em `/api/send` (`api/send.js`, Vercel serverless + Resend;
+env vars `RESEND_API_KEY` e `TO_EMAIL`). Se o POST falha, o form cai no
+fallback: baixa o `.json` e instrui envio por e-mail. Sem domínio
+verificado no Resend, o e-mail só chega ao endereço da conta dona da
+API key.
 
 ## Publicar na Vercel
 
