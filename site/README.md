@@ -11,6 +11,15 @@ Estrutura publicada:
   pool de teorias, sem gabarito), gerados por
   `scripts/build_r1_student_packs.py`
 - `r1/students/teste.json` — pack demo (`?s=teste`)
+- `juizes/index.html` — form de avaliação dos juízes (cópia publicável de
+  `protocol/forms/juizes.html`). Links: `?j=<token>` trava o juiz;
+  `&r=<0|1|2>` e `&a=<artigo>` travam rodada e par (auto-carrega após o
+  TCLE). `?j` sozinho mantém o comportamento do piloto (R0 + PILOTO).
+- `juizes/pairs/{artigo}[-{juiz}].json` — pares cegos A/B servidos ao
+  form. Só conteúdo avaliável (7 seções), igual ao piloto.
+- `acompanhar/index.html` — painel de status das avaliações (3 colunas:
+  Piloto/R1/R2, um card por par + status e link por juiz), gerado por
+  `scripts/build_painel.py`. Não linkado a partir do index — URL direta.
 
 O form posta em `/api/send` (`api/send.js`, Vercel serverless + Resend;
 env vars `RESEND_API_KEY` e `TO_EMAIL`). Se o POST falha, o form cai no
