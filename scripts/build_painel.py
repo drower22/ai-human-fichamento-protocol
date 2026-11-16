@@ -126,6 +126,10 @@ def link_btn(round_: int, art: str, tok: str, live: bool) -> str:
 def judge_row(round_: int, art: str, jid: str, live: bool) -> str:
     tok = JUDGES[jid]
     done = eval_done(round_, art, tok)
+    if round_ == 0:  # piloto encerrado: sem link, falta = não respondeu
+        status = ('<span class="st done">respondido</span>' if done
+                  else '<span class="st pend">não respondeu</span>')
+        return f'<div class="jrow"><span class="jname">{jid}</span>{status}</div>'
     status = ('<span class="st done">respondido</span>' if done
               else '<span class="st pend">pendente</span>')
     return (f'<div class="jrow"><span class="jname">{jid}</span>{status}'
@@ -203,7 +207,8 @@ def piloto_pair_block() -> str:
         return len(s.get("key_concepts") or []) + len(s.get("main_findings") or [])
     sides = sorted(("A", "B"), key=cov, reverse=True)
     out = ['<div class="pairview"><b>O par avaliado</b> '
-           '<span class="artt">(lado A/B variava por juiz; respondentes anônimos)</span>']
+           '<span class="artt">(ambos produzidos por alunos; '
+           'lado A/B variava por juiz; respondentes anônimos)</span>']
     for i, side in enumerate(sides, 1):
         resp = _pilot_respondent(pair[side])
         stu = (student_html(resp.get("elapsed_minutes"), resp.get("self_assessment"),
@@ -223,9 +228,8 @@ def piloto_card() -> str:
         p = eval_path(0, "PILOTO", tok)
         done = p.exists()
         status = ('<span class="st done">respondido</span>' if done
-                  else '<span class="st pend">pendente</span>')
-        row = (f'<div class="jrow"><span class="jname">{jid}</span>{status}'
-               f'{link_btn(0, "PILOTO", tok, True)}</div>')
+                  else '<span class="st pend">não respondeu</span>')
+        row = f'<div class="jrow"><span class="jname">{jid}</span>{status}</div>'
         if done:
             ev = json.loads(p.read_text())
             row += (f'<details class="det"><summary>ver resposta de {jid}</summary>'
