@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R1-A04-HUM",
+  "article_id": "A04",
+  "round": 1,
+  "source": "human",
+  "generator": {
+    "kind": "human",
+    "participant_id": "S08",
+    "elapsed_minutes": 300,
+    "submitted_at": "2026-11-16T13:17:16.740162Z",
+    "self_assessment": {
+      "executive_summary": 6,
+      "research_question": 6,
+      "theories": 4,
+      "key_concepts": 4,
+      "methodology": 6,
+      "main_findings": 5,
+      "contribution": 5
+    },
+    "reflection_log": {
+      "q1": "Ao passar por alguns conceitos, o autor considera que o leitor tem entendimento. Também não consegui entender quais são os autores que ele cita no artigo. As referencias não estão demonstradas no texto.",
+      "q2": "A forma definida para o fichamento considerando dados específicos. Minha estrutura mental é diferente da proposta neste fichamento.",
+      "q3": "Não tenho contribuições",
+      "q4": "Não usei IA. Apenas o tradutor para algumas palavras."
+    }
+  },
+  "content": {
+    "executive_summary": "O artigo apresenta uma revisão bibliográfica da literatura incluindo estudos de industria em textos publicados. De acordo com os autores, a adaptação organizacional é um tema com lacunas. A abordagem oferece uma proposta que apresenta um ciclo adaptativo em que três áreas principais da organização devem ser pensadas com soluções sinérgicas: problema do empreendedor, problema da engenharia e problema do administrativo.\nOs autores ainda consolidam uma proposta de quatro arquétipos que estabelecem, características estratégicas agrupando-as em defensor, prospectos, analisador e reacionário.",
+    "research_question": "Contribuir para a previsão e construção de modelos estratégicos a partir de arquétipos consolidados baseado em respostas a problemas de engenharia, empreendedor e administrativo em um ciclo adaptativo.",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Abordagem da escolha estratégica",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.3 L248-253"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T2",
+        "name": "Teorias da administração: Tradicional, Relações Humanas e Recursos Humanos",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.13 L1182"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T3",
+        "name": "Teoria institucional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T4",
+        "name": "Modelo mecanicista vs. orgânico",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T5",
+        "name": "Teoria contingencial da administração",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T6",
+        "name": "Visão baseada em recursos (RBV)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T7",
+        "name": "Tecnologia de produção",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T8",
+        "name": "Tipologias correlatas de comportamento organizacional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Adaptive Cycle",
+        "definition": "Although these choices are numerous and complex, they can be viewed as three broad \"problems\" of organizational adaptation: the entrepreneurial problem, the engineering problem, and the administrative problem. In mature organizations, management must solve each of these problems simultaneously, but for explanatory purposes, these adaptive problems can be discussed as if they occurred sequentially. (p.3 L254-264)",
+        "quote": "",
+        "source_refs": [
+          "p.3 L254-264"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "revisão",
+      "design": "Revisão de literatura",
+      "sample_type": "NA",
+      "sample_size": null,
+      "sector": "Industria",
+      "period": "NA",
+      "methods": [
+        "análise documental",
+        "revisão bibliográfica"
+      ],
+      "analysis_note": "",
+      "source_refs": [
+        "p.1 L018-020"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "O ciclo adaptativo é uma proposta que considera que as organizações precisam resolver três principais problemas simultaneamente: problema do empreendedor, problema da engenharia e problema do administrativo. A estratégia adotada para a solução desses problemas traz equilíbrio para a organização.",
+        "type": "model",
+        "quote": "Although these choices are numerous and com plex they can be viewed as three broad \"prob lems\" of organizational adaptation: the enfre preneurial problem the engineering problem and the administrative problem. In mature or ganizations management must solve each of these problems simultaneously but for explan atory purposes these adaptive problems can be discussed as if they occurred sequentially.",
+        "source_refs": [
+          "p.3 L254-264"
+        ]
+      },
+      {
+        "finding": "O artigo apresenta uma tipologia estratégica como a construção de quatro arquétipos organizacionais que respondem as perguntas dos problemas do ciclo adaptativo de forma característica. Os tipos de organizações são: defensores, prospectores, analisadores e reativos",
+        "type": "model",
+        "quote": "",
+        "source_refs": [
+          "p.5 L398-411"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "O artigo apresenta uma proposta definindo quatro tipos de estratégias organizacionais (defensor, analisador, prospector e reacionário) que respondem de formas diferentes a três principais problemas: empreendedor, engenharia, administrador.",
+      "practical": "Ao estabelecer essa matriz conceitual, podemos entender a forma como as organizações atuam através de seu posicionamento, seus processo, sua estrutura."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

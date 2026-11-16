@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R1-A10-HUM",
+  "article_id": "A10",
+  "round": 1,
+  "source": "human",
+  "generator": {
+    "kind": "human",
+    "participant_id": "S09",
+    "elapsed_minutes": 154,
+    "submitted_at": "2026-11-16T13:17:16.980975Z",
+    "self_assessment": {
+      "executive_summary": 5,
+      "research_question": 6,
+      "theories": 6,
+      "key_concepts": 6,
+      "methodology": 6,
+      "main_findings": 6,
+      "contribution": 5
+    },
+    "reflection_log": {
+      "q1": "A principal barreira encontrada é a língua. Ainda que se tenha sido estudado um contexto localizado e brasileiro, em um periódico igualmente brasileiro, o artigo é disponibilizado no idioma Inglês, Isso aumentou o tempo de análise do artigo, pois tive que recorrer a tradutores da web, e isso faz com que algumas questões importantes possam ser perdidas. O tema é de fácil entendimento, haja vista que é amplamente estudado nas pesquisas da área.",
+      "q2": "Não encontrei dificuldades",
+      "q3": "Eu daria mais ênfase aos achados de pesquisa.",
+      "q4": "Não."
+    }
+  },
+  "content": {
+    "executive_summary": "O artigo busca investigar processos de identificação de professores que atuam em cursos de pós graduação em relação à sua carreira. Para tanto, se baseia em autores seminas que pesquisam sobre a construção de identidade e processos de identificação (Berger & Luckman e Fernandes, Marques e Carrieri), assim como na construção da identidade no ensino superior (Freitas e Bastos) e relações de poder que atravessam estas relações, sob uma perspectiva de espaço e tempo (Foucault e Castells). Para tanto, a pesquisa se utiliza de entrevistas semiestruturadas com docentes de cursos de pós graduação de duas universidades, que abordam estes elementos, cujos dados foram analisados por uma análise de conteúdo de Bardin (2010). Os achados demonstram que os docentes se identificam às instituições das quais fazem parte, em especial por exemplos e pelo incentivo à pesquisa. Ao mesmo tempo, consideram suas rotinas exaustivas devido ao acúmulo de papeis e a necessidade de publicações, porém entendem que conquistarão estes espaços com o tempo. assim como ocorreu com colegas seniores. Como principal contribuição, foi possível demonstrar como os atores se identificam, dados os elementos espaço, tempo e poder.",
+    "research_question": "De que forma é compreendida a constituição da identidade de professores em cursos de pós graduação com base nas relações de poder e nos papéis organizacionais?",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Identidade e identificação em organizações",
+        "verdict": "uses",
+        "source_refs": [
+          "p.4 L146",
+          "p.4 L179"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T2",
+        "name": "Teoria da Identidade Social e Teoria da Autocategorização",
+        "verdict": "uses",
+        "source_refs": [
+          "p.4 L168",
+          "p.4 L170"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T3",
+        "name": "Papéis sociais e a metáfora dramatúrgica",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.10 L443"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T4",
+        "name": "Teoria institucional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T5",
+        "name": "Socialização e construção social da realidade",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.9 L409"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T6",
+        "name": "Poder, espaço e tempo organizacionais",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6 L240",
+          "p.10 L47",
+          "p.11 L506",
+          "p.6 L246",
+          "p.6 L245"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T7",
+        "name": "Teoria social de Bourdieu (campo e habitus)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T8",
+        "name": "Cultura organizacional como instrumento de poder",
+        "verdict": "uses",
+        "source_refs": [
+          "p.4 L144"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T9",
+        "name": "Identidade organizacional (macro) vs. identidade em organizações",
+        "verdict": "uses",
+        "source_refs": [
+          "p.4 L152"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T10",
+        "name": "Identidade x papéis",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3 L127"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T11",
+        "name": "Sensemaking",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3 L116"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T12",
+        "name": "Teorias clássicas da administração",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "identidade",
+        "definition": "das linhas p.3 L108 a 114 e p.7 L303 a 1306\nOs processos de socialização permitem compreender a maneira como os indivíduos no campo social interagem e compartilham significados, moldando a si mesmos e ao mundo por meio da relação com o outro, em uma mediação entre indivíduos e estruturas sociais (BERGER e LUCKMANN, 1998; DUBAR, 1997).\nComo a identidade se baseia no aspecto relacional, o indivíduo desempenha diferentes papéis em relação a outros sujeitos em um determinado ambiente social. O indivíduo pode assumir diferentes papéis no “palco social” a fim de transmitir uma imagem para se comunicar com o outro (FERNANDES, MARQUES e CARRIERI, 2010; GOFFMAN, 2011). Os papéis sociais estão ligados a um conjunto de atividades específicas realizadas pelos indivíduos no contexto social Identidade: a construção social por meio de processos de socialização, considerando a característica reflexiva dos sujeitos que buscam uma autorreferência em suas experiências e transformações ao longo da vida e no contexto das organizações. A identidade baseia-se em processos de identificação do sujeito com a organização e com os grupos que dela fazem parte.",
+        "quote": "",
+        "source_refs": [
+          "p.3 L108",
+          "p.7 L303"
+        ]
+      },
+      {
+        "concept": "identificação profissional",
+        "definition": "p.4 L146 a 156\nSegundo Hatch e Schultz (2002), é a partir do trabalho de Albert e Whetten (1985) que se destacam os primeiros estudos sobre identidade no campo organizacional (ALVESSON, 1990; ASHFORTH e MAEL, 1989; DUTTON e DUKERICH, 1991; GINZEL, KRAMES e SUTTON, 1993; SCHWARTZ, 1987). Com base nesses estudos, surgiram novos conceitos e níveis de análise relativos à identidade, o que permitiu novos insights sobre as organizações (GIOIA, 1998). O termo “identidade organizacional” refere-se a uma compreensão da organização como uma entidade coletiva (macro). No entanto, “identidade nas organizações” refere-se à relação entre a constituição do eu individual, em sua interação com a organização e seus membros, incluindo a inter-relação entre os diferentes níveis organizacionais (CORLEY, HARQUAIL, PRATT et al., 2006). Ao se relacionar com a organização em um processo de identificação, o indivíduo não possui uma “identidade \norganizacional”, de modo que o termo “organizacional”, quando usado dessa forma, poderia implicar uma confusão conceitual entre os níveis de análise. A identidade dos indivíduos está relacionada à cultura organizacional, pois expressa os elementos culturais de uma determinada organização (HATCH e SHULTZ, 2002).",
+        "quote": "",
+        "source_refs": [
+          "p.4 L146"
+        ]
+      },
+      {
+        "concept": "Poder no contexto de tempo e espaço",
+        "definition": "p.6 L255 a 281\nUma vez que “[...] o exercício do poder não consiste em dar ordens ou tomar decisões, mas em definir o campo, estruturar o espaço no qual as decisões são tomadas” (PAGÈS et al., 1987, p. 51), estabelece-se uma relação entre espaço e tempo. A dimensão do tempo estabelece uma certa ordem na vida dos sujeitos (SENNET, 2009). Dessa forma, o tempo não se configura apenas por meio da demarcação cronológica do trabalho de acordo com o relógio de ponto da organização. O tempo se configura também pela forma como o próprio sujeito o significa e se relaciona com ele nas atividades cotidianas e nas interações face a face, desdobrando-se em um tempo qualitativo, circular e no pertencimento do sujeito aos seus laços sociais (GOFFMAN, 2011; HASSARD, 1996; LORENZO, 2008; NOGUEIRA, 2003).",
+        "quote": "",
+        "source_refs": [
+          "p.6 L255"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico",
+      "design": "estudo de caso múltiplo",
+      "sample_type": "professores de cursos de pós graduação",
+      "sample_size": 19,
+      "sector": "dois cursos de pos graduação em engenharia",
+      "period": "julho e setembro de 2014",
+      "methods": [
+        "entrevistas semiestruturadas",
+        "análise de conteúdo"
+      ],
+      "analysis_note": "",
+      "source_refs": []
+    },
+    "main_findings": [
+      {
+        "finding": "Figuras identificatórias",
+        "type": "empirical",
+        "quote": "a",
+        "source_refs": [
+          "p.8 L358",
+          "L372"
+        ]
+      },
+      {
+        "finding": "Dimensão avaliativa",
+        "type": "empirical",
+        "quote": "a 380",
+        "source_refs": [
+          "p.8 L373"
+        ]
+      },
+      {
+        "finding": "Diversidade de papeis",
+        "type": "empirical",
+        "quote": "a",
+        "source_refs": [
+          "p.10 L408",
+          "L446"
+        ]
+      },
+      {
+        "finding": "Poder no contexto do espaço",
+        "type": "empirical",
+        "quote": "a",
+        "source_refs": [
+          "p.10 L472",
+          "L499"
+        ]
+      },
+      {
+        "finding": "Poder no contexto do tempo",
+        "type": "empirical",
+        "quote": "a 517",
+        "source_refs": [
+          "p.11 L500"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "Articula aspectos da teoria institucional e de poder dentro de um contexto organizacional específico (docência)",
+      "practical": "Compreender como os processos de identificação podem influenciar o trabalho docente"
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

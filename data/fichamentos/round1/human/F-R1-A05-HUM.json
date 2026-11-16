@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R1-A05-HUM",
+  "article_id": "A05",
+  "round": 1,
+  "source": "human",
+  "generator": {
+    "kind": "human",
+    "participant_id": "S02",
+    "elapsed_minutes": 120,
+    "submitted_at": "2026-11-16T13:17:15.329792Z",
+    "self_assessment": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 7,
+      "methodology": 7,
+      "main_findings": 7,
+      "contribution": 5
+    },
+    "reflection_log": {
+      "q1": "Não conhecia a relação de hibridismo com as lógicas institucionais, então foi um assunto novo. O artigo não teve uma contribuição prática clara, muitas vezes os estudos organizacionais não seguem essas linhas tão pragmáticas, então muitas vezes a contribuição prática está na compreensão do leitor de aquilo existe. Sem impactar um grupo definitivamente. Não sei, se manter essa contribuição prática seria relevante para determinados artigos.",
+      "q2": "Nunca ouvi falar de Análise Axiológica dos normativos.",
+      "q3": "Deixaria o resumo por último, pois ele é último a ser feito.",
+      "q4": "Não, mas queria kkkk"
+    }
+  },
+  "content": {
+    "executive_summary": "O artigo buscou compreender como as lógicas institucionais contribuíram para institucionalizar o EaD no Brasil (p.1 L007-p.1 L009)\nO trabalho foi guiado pela abordagem do institucionalismo sociológico (p.2 L058-p.2 L059), utilizando as lógicas institucionais para compreender como as organizações adotam práticas parecidas (P.3 L085-p.3 L087) e com isso investigar o EaD no Brasil, por meio do hibridismo, que explica o conflito entre o que compõe as lógicas institucionais e as consequências delas para as organizações (p. 5 L169-p.5 L170).\nComo metodologia, foi feita uma análise histórica com 23 documentos, por meio da tipificação Weberiana, seguida de codificação e análise de conteúdo. Essa análise foi submetida a axiologia, para identificar os fins sociais normativos por meio do conteúdo analisado (p.6 L207-p.8 L414).\nOs principais achados e contribuições desse trabalho consistem na utilização da dinâmica híbrida das lógicas institucionais para modificar práticas e conceitos. (p.21 L1106-p.21 L1107). Na qual, a normatização atuou como uma mudança institucional. (p.15 L893-p.15 L894).",
+    "research_question": "O artigo busca entender como as lógicas institucionais contribuíram para institucionalizar o EaD no Brasil",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Lógicas institucionais",
+        "verdict": "uses",
+        "source_refs": [
+          "p.4 L140",
+          "p.4 L141"
+        ],
+        "quote": "Nesta abordagem é possível estudar as instituições a partir das suas lógicas institucionais.",
+        "note": ""
+      },
+      {
+        "item_id": "T2",
+        "name": "Institucionalismo sociológico",
+        "verdict": "uses",
+        "source_refs": [
+          "p.2 L076"
+        ],
+        "quote": "P.2 l074 Na abordagem sociológica por exemplo a institucionalização refere se ao processo no qual as expectativas da sociedade influenciam a estruturação do campo e o comportamento dos atores",
+        "note": ""
+      },
+      {
+        "item_id": "T3",
+        "name": "Teoria da dependência de recursos",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T4",
+        "name": "Hibridismo de lógicas institucionais",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5 L181",
+          "p.5 L183"
+        ],
+        "quote": "Neste sentido o hibridismo possibilita compreender quais elementos podem ser combinados para criar uma lógica sendo uma perspectiva plausível para compreender as lógicas institucionais e o surgimento de novas formas organizacionais como a EaD",
+        "note": ""
+      },
+      {
+        "item_id": "T5",
+        "name": "Tipo ideal weberiano",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6 L191",
+          "p.6 L193"
+        ],
+        "quote": "empregam o conceito de tipificação ideal de Weber 1922 na qual constituem um tipo ideal para identificar a lógica institucional predominante no campo.",
+        "note": ""
+      },
+      {
+        "item_id": "T6",
+        "name": "Teoria crítica da educação (pedagogia crítica)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T7",
+        "name": "Mecanismos isomórficos coercitivo, mimético e normativo",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3 L110",
+          "p.3 L113"
+        ],
+        "quote": "Ao investigar como ocorre a institucionalização a partir das lógicas institucionais há a possibilidade de esclarecer a adoção de práticas para além dos mecanismos coercitivos miméticos e normativos passando a explicar a origem desses mecanismos na modalidade a distância.",
+        "note": ""
+      },
+      {
+        "item_id": "T8",
+        "name": "Abordagens histórica e de escolha racional do institucionalismo",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.4 L126",
+          "p.4 L131"
+        ],
+        "quote": "A abordagem histórica critica o estruturalismo e o funcionalismo e considera as instituições como um conjunto de protocolos normas e convenções que são determinadas pela vida política Hall Taylor 2003 . Diferentemente a abordagem econômica ou da escolha racional é constituída a luz do homem econômico que busca maximizar seus ganhos. Nesta perspectiva as instituições são criadas para incentivar as ações dos indivíduos e reduzir as incertezas North 1990 .",
+        "note": ""
+      },
+      {
+        "item_id": "T9",
+        "name": "Neoliberalismo",
+        "verdict": "uses",
+        "source_refs": [
+          "p.10 L474",
+          "p.10 L485"
+        ],
+        "quote": "Considerando a presença do mercado na modalidade a década de 1970 resultou em desafios para a educação mudanças neoliberais em escala mundial e no Brasil promoveram alterações mercadológicas no campo da educação. O neoliberalismo uma vertente econômica que prioriza o livre mercado e a participação mínima do Estado descentralizou o Estado e ampliou a necessidade do uso da EaD para atender as demandas sociais e o campo do trabalho. A mudança neoliberal pressionou a composição da LDB de 1971 propondo a EaD como modalidade complementar ao ensino presencial. Como consequência a população demonstrou interesse em usufruir dos estudos a distância para se profissionalizar e em 1977 fomentaram os primeiros cursos complementares ofertados pela Fundação Roberto Marinho. Nesse período a EaD passou a cumprir os objetivos da política neoliberal isto é: formar um mercado para a modalidade a distância Chaves 2010 Cruz Paula 2015 .",
+        "note": ""
+      },
+      {
+        "item_id": "T10",
+        "name": "Mudança institucional",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.5 L165",
+          "p.5 L167"
+        ],
+        "quote": "Essa visão é compartilhada por DellaPosta et al. 2017 ao discutir movimentos sociais que promoveram fontes de legitimação para a reinstitucionalização e por consequência configuraram o campo organizacional em que se encontravam.",
+        "note": ""
+      },
+      {
+        "item_id": "T11",
+        "name": "Teoria da sociedade em rede",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T12",
+        "name": "Tradução de lógicas institucionais",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "EaD",
+        "definition": "L437-p.9 L445 \"A EaD foi apresentada como uma oportunidade para reduzir essas dificuldades, \ndisseminando o conhecimento e profissionalizando a população brasileira a partir da \nparticipação e iniciativa dos atores não governamentais, como as organizações de ensino \nprivado (Alves, 2011). Durante as primeiras décadas a EaD foi caracterizada por \nmovimentos sociais que buscavam ampliar o acesso à educação. Neste contexto, o projeto \nde educação para a EaD - principalmente no ensino superior - promoveu a mudança \ninstitucional no campo da educação para atuar como valor social, proporcionando a \nparticipação da população para tomar decisões a respeito do bem-estar social (Fávero; \nGuimarães, 2019).\"",
+        "quote": "",
+        "source_refs": [
+          "L437",
+          "p.9 L445"
+        ]
+      },
+      {
+        "concept": "Lógica Institucional",
+        "definition": "p.4 L141-p4 L147 as lógicas são padrões \nhistóricos de símbolos culturais e práticas materiais socialmente constituídos, incluindo \nsuposições, valores e crenças, pelas quais indivíduos e organizações dão sentido à sua \natividade diária, organizam tempo e espaço e reproduzem suas vidas e experiências. Ao \naproximar a abordagem institucional com à educação, é possível dizer que existe um \nsistema de valores e crenças construídos socio-historicamente, permeados por símbolos que, no conjunto, representam a sustentação das práticas adotadas neste campo.",
+        "quote": "",
+        "source_refs": [
+          "p.4 L141",
+          "L147"
+        ]
+      },
+      {
+        "concept": "Abordagem Sociológica",
+        "definition": "P.4 L130-p.4 L136 Nesta perspectiva, as instituições são criadas para \nincentivar as ações dos indivíduos e reduzir as incertezas (North, 1990). Contudo, a abordagem sociológica do institucionalismo possui uma visão alternativa para \ncompreensão das instituições, na qual recursos materiais são substituídos por elementos culturais, dispostos em valores, símbolos, mitos e crenças na expressão social das \n organizações (Carvalho et al., 2016).",
+        "quote": "",
+        "source_refs": [
+          "L130",
+          "p.4 L136"
+        ]
+      },
+      {
+        "concept": "Institucionalização",
+        "definition": "p.22 L1140-p. 22 L1145: A modalidade a distância foi inserida no Brasil por iniciativa dos atores da \nsociedade, como as organizações de ensino. Neste contexto, foi institucionalizada por \nmeio da lógica da educação como valor social, a qual prevê a participação e controle \npopular em questões sobre o bem-estar social. Contudo, as organizações privadas \napoiaram a modalidade com o intuito de torná-la um mercado, possibilitando que as \nlógicas compartilhassem elementos.",
+        "quote": "",
+        "source_refs": [
+          "p.22 L1140",
+          "L1145"
+        ]
+      },
+      {
+        "concept": "Hibridismo",
+        "definition": "p. 5 L1174-p.5 L176 Para avançar \npropõe-se o hibridismo no qual as lógicas podem combinar elementos e formar uma nova \nlógica e, por consequência, novas práticas disseminadas no campo.",
+        "quote": "",
+        "source_refs": [
+          "L1174",
+          "p.5 L176"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico",
+      "design": "pesquisa histórica seguindo a Análise Axiológica dos Normativos",
+      "sample_type": "documentos",
+      "sample_size": 23,
+      "sector": "documentos históricos e normativos da  EaD",
+      "period": "Não consta",
+      "methods": [
+        "Pesquisa documental;Tipificação Weberiana; Análise de Conteúdo;Axiologia"
+      ],
+      "analysis_note": "Documentos pegos na: Associação Brasileira de Educação a Distância (ABED) e do Ministério da Educação (MEC).",
+      "source_refs": [
+        "p.1 L010"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "O EaD no Brasil surgiu pela necessidade de disseminar a educação em populações com baixos índices de alfabetização, acesso restrito ao ensino e investimentos reduzidos em educação.",
+        "type": "empirical",
+        "quote": "l432 l433",
+        "source_refs": [
+          "p.9",
+          "p.9"
+        ]
+      },
+      {
+        "finding": "O EaD teve um valor social como uma lógica institucional para que as práticas influenciassem a sociedade e o Estado para o acontecimento do EaD.",
+        "type": "empirical",
+        "quote": "l458 l464",
+        "source_refs": [
+          "p.10",
+          "p.10"
+        ]
+      },
+      {
+        "finding": "O neoliberalismo ampliou a necessidade e pressionou o uso do EaD, fazendo do EaD um mercado",
+        "type": "empirical",
+        "quote": "l474 l485",
+        "source_refs": [
+          "p.10",
+          "p.10"
+        ]
+      },
+      {
+        "finding": "O hibridismo aparece entre a lógica da \neducação como valor social e a lógica da educação como mercado",
+        "type": "empirical",
+        "quote": "",
+        "source_refs": [
+          "p.14 L881",
+          "p.14 L882"
+        ]
+      },
+      {
+        "finding": "A partir da axiologia os autores identificam o plano vertical e horizontal. As normativas atuam como uma mudança institucional.",
+        "type": "empirical",
+        "quote": "",
+        "source_refs": [
+          "p.15 L893",
+          "p.15 L894"
+        ]
+      },
+      {
+        "finding": "A mudança institucional é compreendida pelo hibridismo das lógicas institucionais (p.19 L1056-p.19 L1058). As organizações privadas utilizaram à dinâmica híbrida das lógicas institucionais \npara modificar práticas e conceitos. (p.21 L1106-p.21 L1107).",
+        "type": "empirical",
+        "quote": "e .",
+        "source_refs": [
+          "p.19 L1056",
+          "p.19 L1058",
+          "p.21 L1106",
+          "p.21 L1107"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "A contribuição do trabalho está em demonstrar como as lógicas institucionais puderem tornar híbridas no EaD (p.21 L1126-p.21 L1128).",
+      "practical": "Entender como o hibridismo atua de forma prática no ensino EaD, por meio das lógicas institucionais."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

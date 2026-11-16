@@ -1,0 +1,230 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R1-A08-HUM",
+  "article_id": "A08",
+  "round": 1,
+  "source": "human",
+  "generator": {
+    "kind": "human",
+    "participant_id": "S07",
+    "elapsed_minutes": 300,
+    "submitted_at": "2026-11-16T13:17:16.522975Z",
+    "self_assessment": {
+      "executive_summary": 4,
+      "research_question": 4,
+      "theories": 6,
+      "key_concepts": 7,
+      "methodology": 5,
+      "main_findings": 7,
+      "contribution": 6
+    },
+    "reflection_log": {
+      "q1": "Não encontrei dificuldades, pois já tinha uma bagagem anterior de leitura sobre análise do discurso bakhtiniana e a teoria de ator-rede do Latour; ambas sustentam a proposição metodológica do artigo. Mas creio que uma pessoa sem essa bagagem prévia não conseguiria perceber as referências e talvez tivesse mais dificuldade de entender a proposição.",
+      "q2": "A seção de autoavaliação me deixou um pouco confusa em relação a qual é a real proposta do experimento: avaliar se conseguimos extrair as informações necessárias e corretas do artigo consultado ou avaliar uma \"pseudo\" resenha crítica dele. São 2 gêneros acadêmicos diferentes: a resenha crítica é o que demanda reescrita e elaboração por parte do aluno; já o fichamento deve sistematizar as citações ipsis litteris. Trato da diferença neste artigo: https://doi.org/10.5433/1519-5392.2023v23n1Espp234-253",
+      "q3": "A nomenclatura \"USA\" e \"DISCUTE\", mesmo com as definições explícitas, ainda gera uma certa confusão no preenchimento. Sempre tenho de voltar para ver se não estou marcando errado, pois não há uma diferença óbvia entre eles. Quem sabe \"NÃO CITA\", \"CITA\" e \"FUNDAMENTA\" não ficaria melhor?",
+      "q4": "Não."
+    }
+  },
+  "content": {
+    "executive_summary": "Problema: Organizations have long been treated as stable and fixed entities, defined by concrete buildings, catchy names, and strategic goals neatly written on paper. Besides organizational objects and ceremonials, however, organizational scholars need to consider how communicative and symbolic practices influence which organizational phenomena come into existence. (p.1 L023-027)\n\nAbordagem teórica: The Communicative Constitution of Organizations (CCO) school proposes an alternative, practice-grounded conceptualization for studying organizations as emerging in communicative (inter)actions. (p.1 L024-026) \n\nMétodo: Five focus groups with 23 participants at the employee level in four German organizations: a regional bank, a fire brigade, a hospital, and a direct-selling business for sensual products. Ventriloquial analyses were carried out. (p.5 L225-L229) \n\nAchados: We created a four-step framework for ventriloquial analyses and explored how visions are talked into existence. (p.1 L031-032) The four-step framework comprises identifying, grouping and assigning activities, relating, showing. (p.6 L241-250)  \n\nContribuição: We thus provide organizational (communication) scholars with\na new methodological tool that facilitates the systematic inquiry into organizing and the organized from a communicative constitutive perspective. (p.1 L033-035)",
+    "research_question": "How are employee conversations about visions—a classic constituent of organizations—\"talked\" into existence? (p.1 L031-032)",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Constituição comunicativa das organizações (CCO)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3 L098-105",
+          "p.3 L106-110",
+          "p.3 L114-118",
+          "p.4 L155-157"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T2",
+        "name": "Ventriloquismo organizacional",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3 L097",
+          "p.3 L110-114",
+          "p.3 L131-139",
+          "p.4 L164",
+          "p.4 L150-163"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T3",
+        "name": "Teoria da estruturação",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T4",
+        "name": "Ontologia relacional da agência",
+        "verdict": "uses",
+        "source_refs": [
+          "p.4 L142-149"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T5",
+        "name": "Visão organizacional (vision) como objeto de estudo",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5 L215-224"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T6",
+        "name": "Abordagens do discurso organizacional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T7",
+        "name": "Teoria da complexidade organizacional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T8",
+        "name": "Teoria ator-rede",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3 L118-122"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T9",
+        "name": "Pensamento processual",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.17 L969-971"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T10",
+        "name": "Polifonia e dialogismo",
+        "verdict": "uses",
+        "source_refs": [
+          "p.2 L053-055",
+          "p.3 L110-114",
+          "p.4 L175-179",
+          "p.4 L183-185",
+          "p.8 L391-393"
+        ],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T11",
+        "name": "Estratégia/vision-making como prática",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3 L101-105",
+          "p.15 L908-914",
+          "p.16 L919-930"
+        ],
+        "quote": "",
+        "note": ""
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Ventriloquism",
+        "definition": "“... identifying in the name of what or whom a given actor appears to speak” (Cooren, 2010a, p. 135; italics in original). It hereby also consists of identifying what animates this actor, an animation that often is to be found in the attachment a person expresses vis-a-vis what she is ventriloquizing.\" (p.4 L165-168). In other words, “Ventriloquism is about speaking and acting in the name of other beings (the command structure, the CEO’s order) in order to make a convincing case for some other beings or audiences (Cooren & Sandler, 2014)” (p.4 L183-185).\nVentriloquism (Cooren, 2010a) illustrates how human interactants can give voice to other beings (they ventriloquize a hygrometer, camera, or declaration) as well as how humans can come to speak and act for other things (they are ventriloquized by a value, feeling, principle, etc.; Brummans & Cooren, 2011; Cooren, 2012; Cooren & Sandler, 2014) (p.3 L110-114). Ventriloquism aligns with CCO’s core premise of simultaneously engaging ideas of the material and linguistic turns (Schoeneborn et al., 2019), but is unique in its decentered consideration of agency and materiality as conversational resources rather than physical manifestations. In so doing, ventriloquism can ascribe agentic qualities even to absent, missing, or not-yet-existing beings, as long as they materialize—come to matter—in communicative turns (Cooren, 2018). (p.4 L155-160).",
+        "quote": "",
+        "source_refs": [
+          "p.4 L165-168",
+          "p.4 L183-185",
+          "p.3 L110-114",
+          "p.4 L155-160"
+        ]
+      },
+      {
+        "concept": "Agency",
+        "definition": "is not merely \"intentionality, choice, and selfhood\" (Martin, Sugarman, & Hickinbottom, 2010). For the Montreal school, and in line with Bruno Latour (1996, 2005), agency encompasses “a broader sense to include everything that appears to make a difference or to do something in a situation (Bencherki, 2016; Caronia & Cooren, 2014; Cooren, 2004)”. (p.3 L114-118) Agency thus gains a relational ontology, being understood “as a joint mediation shared among various beings (Caronia & Cooren, 2014; Cooren, Fairhurst, & Huët, 2012; Kuhn, Ashcraft, & Cooren, 2017) that altogether co-enact a situation (Cooren et al., 2013; Cooren & Bencherki, 2010).” (p.3 L132-135)",
+        "quote": "",
+        "source_refs": [
+          "p.3 L114-118",
+          "p.3 L132-135"
+        ]
+      },
+      {
+        "concept": "Vision as practice",
+        "definition": "Visions express long-term goals and provide direction, they are ubiquitous in organizations and associated with effective leadership (Carton, Murphy, & Clark, 2014; Kantabutra & Avery, 2010). (p.5 L217-218). Visions appear to be multi-focal, multi-vocal, and central in organizations (p.5 L222). Framework for vision as practice (p.10 L462-521)",
+        "quote": "",
+        "source_refs": [
+          "p.5 L217-218",
+          "p.5 L222",
+          "p.10 L462-521"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico",
+      "design": "grupo focal",
+      "sample_type": "Empregados das empresas",
+      "sample_size": null,
+      "sector": "a regional bank, a fire brigade, a hospital, and a direct-selling business for sensual products. (p.5 L225-L229)",
+      "period": "N/A",
+      "methods": [
+        "grupo focal"
+      ],
+      "analysis_note": "Ventriloquial analysis (inspired by Bakhtinian discourse analysis)",
+      "source_refs": [
+        "p.5 L227-229"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "A framework for ventriloquial analyses, encompassing the four phases: 1) identifying explicit and implicit invocations (figures) and animations (vents); 2) grouping vents and figures into clusters and assigning activities to clusters; 3) relating clusters and collections to main voices by tracing back chains of authorship, and showing/presenting findings through vignettes of real-data excerpts.",
+        "type": "model",
+        "quote": "",
+        "source_refs": [
+          "p.6 L238-252",
+          "p.6 L278-283",
+          "p.10 L462-521"
+        ]
+      },
+      {
+        "finding": "Ventriloquial analysis of visionary talk: Ventriloquial analyses can help identify sources for strategists’ claims, beyond conventional abstractions. Strategists need to present a vision that is worthy to be ventriloquized by members and that they themselves ventriloquize in their behavior. Communicative materializations are given by connecting an abstract concept to the specific people, things, and sources that talk vision into being through ventriloquial dynamics—or not (Cooren, 2010a). This stresses how visions’ connection to activities, values, etc. is key to make visions matter for organization members. Accordingly, the authors suggest perceiving visions as visionary in the truest sense of this word, as detailed verbal portraits that easily and truthfully materialize in figures of everyday practice.",
+        "type": "empirical",
+        "quote": "",
+        "source_refs": [
+          "p.15 L908",
+          "p.16 L930"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "Methodological contribution: Our paper offers organizational (communication) scholars a methodological tool that can systematically guide them through ventriloquial analyses, that is, through identifying what leads a person to say what she is saying or what voice can be recognized in what she is saying. It thus offers a framework that helps explain how organizational elements are talked into existence, by uncovering what substantiates them in everyday communication (Cooren, 2010b). (p.16 L935-942)\nThe framework’s systematicity promotes the inclusiveness of ventriloquial analyses as the three analytical questions account both for the palpable character of figures (i.e., explicit and implicit) and ventriloquism’s essential bi-directionality (i.e., including vents, which have mostly been absent from previous ventriloquial studies, e.g., Long et al., 2018). (p.16 L945-949)\nOur framework supplements the nouns of vents and figures with verbs (phase 2). In so doing, and in contrast to previous ventriloquial analyses (e.g., Long et al.,2018), our framework answers not only the question of what communicatively constitutes realities but likewise the question of how voices enter interactions. We consider this dimension a crucial addition as it highlights the continually in flux and processual character of organizational phenomena that the communicative constitutive school advocates (see also Langley & Tsoukas, 2017). (p.17 L966-971)",
+      "practical": "(...) “we encourage methodological papers to focus on (a) identifying ventriloquial effects and (b) presenting findings, as these activities appeared most decisive for performing a ventriloquial analysis.” (p.17 L982-984)\n(...) “we encourage scholars to apply our framework and embark on ventriloquial explorations of organizational phenomena, including values, missions, and identities”. (p.17 L995-996) \n\"Such analyses will not only help in advancing our understanding of the communicative practices that constitute organizational realities, situations, and activities, but will also contribute to further breaking up the perpetual disconnect between the various voices that materialize (themselves) in interaction, conversation, and sensemaking.\" (p.17 L1001-1005)\n\"The framework we have presented can itself be seen as speaking in the name of other voices, such as our experiences, thoughts, and discussions, scholars and articles that inspired and guided us, our focus group participants, the inspiring voice of a great mentor, and many more. What we envision is this number of voices growing in future research. And for that, we hope that this paper will animate deep thinking, insightful exploration, and systematic application.\" (p.18 L1008-1012)"
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R1-A15-HUM",
+  "article_id": "A15",
+  "round": 1,
+  "source": "human",
+  "generator": {
+    "kind": "human",
+    "participant_id": "S11",
+    "elapsed_minutes": 400,
+    "submitted_at": "2026-11-16T13:17:17.573718Z",
+    "self_assessment": {
+      "executive_summary": 5,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 5,
+      "methodology": 4,
+      "main_findings": 5,
+      "contribution": 5
+    },
+    "reflection_log": {
+      "q1": "Alguns pontos não estavam explícitos no texto como perdido exato que foi elaborado a pesquisa, bem como o delineamento da pesquisa. Além disso, não apresenta as contribuições práticas e teóricas de modo explícito.",
+      "q2": "Está tudo ok, não encontrei nenhuma dificuldade.",
+      "q3": "Não mudaria nada.",
+      "q4": "Não utilizei nenhuma ferramenta de IA.  Apenas utilizei o google tradutor para ajudar na tradução de algumas partes do texto."
+    }
+  },
+  "content": {
+    "executive_summary": "O desempenho organizacional é um fenômeno complexo e multidimensional, sendo difícil estabelecer medidas precisas para acompanhá-las. Para isso o presente estudo investigou se o uso de medidas subjetivas é uma maneira de confirmar dois indicadores econômicos (retorno sobre ativos e crescimento nas vendas) comumente usados no desempenho organizacional. Para tanto, foram contatadas 26 empresas privadas, não diversificadas que competiam no setor de tintas e produtos relacionados.  Primeiramente, 24 delas aceitaram participar da pesquisa. Então foram realizadas entrevistas com os CEOS, as quais permitiram a identificação do pessoal da alta administração. Após a primeira etapa, 22 permaneceram na segunda fase, na qual foi elaborado um questionário e enviado para 102 membros da alta administração, sendo apenas 95 utilizáveis. Por fim, foi enviado aos 22 CEOs um questionário de desempenho, mas 18 responderam. Foram utilizadas duas medidas de desempenho econômico: Retorno sobre o total de ativos após impostos e Crescimento nas vendas. A partir dessas medidas utilizadas, os resultados destacam que os membros da alta administração forneceram percepções subjetivas sobre a queda ou melhoria sobre os ativos e das vendas da empresa em relação as empresas do mesmo setor no período de cinco anos. Assim como, as medidas subjetivas estavam correlacionadas com as medidas objetivas nas mudanças de retorno sobre os ativos e nas vendas no período analisado, todavia, os achados deste estudo não estão dizendo que medidas subjetivas devem substituir as medidas objetivas. Sobretudo, ao apresentar esses achados, o presente estudo apresenta contribuições teóricas, ao destacar que podem ser utilizads medidas subjetivas para medir questões mais amplas, como contexto e sociedade. Ao passo que traz contribuições práticas ao evidenciar que os pesquisadores de desempenho organizacional na ausência de evidências objetivas e ao considerar remover a medidas objetivas podem utilizar medidas subjetivas.",
+    "research_question": "O uso de medidas subjetivas é uma maneira de confirmar dois indicadores econômicos (retorno sobre ativos e crescimento nas vendas) comumente usados no desempenho organizacional?",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Desempenho organizacional como construto multidimensional (objetivo x subjetivo)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.2 L059",
+          "L060"
+        ],
+        "quote": "Regardless of the framework chosen to conceptualize OP it is apparent that OP is a complex and multidimensional phenomeno",
+        "note": ""
+      },
+      {
+        "item_id": "T2",
+        "name": "Teoria da contingência",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T3",
+        "name": "Três enquadramentos de eficácia organizacional",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.2 L052",
+          "L053",
+          "L054",
+          "L055",
+          "L056",
+          "L057",
+          "L058"
+        ],
+        "quote": "The goal approach Etzioni 1964 seeks a definition based upon explicit goals or goals which can be implied from the behaviour of organizational members. The systems resource approach Yuchtman and Seashore 1967 provides a framework to assess OP in terms of the key internal and external factors upon which the organization depends for survival. The constituency approach views the organization as existing to benefit numerous 'constituencies' both internal and external to the organization with OP assessment focused on fulfillment of constituent needs Thompson 1967 .",
+        "note": ""
+      },
+      {
+        "item_id": "T4",
+        "name": "Efeitos de indústria sobre a rentabilidade da firma",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T5",
+        "name": "Teoria da agência",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T6",
+        "name": "Créditos idiossincráticos",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T7",
+        "name": "Aspirações e desempenho relativo ao desejado",
+        "verdict": "uses",
+        "source_refs": [
+          "p.8 L328",
+          "L329",
+          "L330",
+          "L331",
+          "L332",
+          "L333"
+        ],
+        "quote": "A second implication of this study concerns the multidimensionality of OP. Whether taking a goal systems or constituent perspective numerous authors have argued that OP includes broader societal/environment and employee/community dimensions rather than more narrow strictly economic criteria. Although offering a compelling conceptualization this multidimensional view of OP has proved difficult to operationalize in policy research Kirchhoff 1979 .",
+        "note": ""
+      },
+      {
+        "item_id": "T8",
+        "name": "Níveis de estratégia: corporativa vs. de negócio",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T9",
+        "name": "Equipe de alta gestão (TMT) e decisões estratégicas",
+        "verdict": "uses",
+        "source_refs": [
+          "p.8 L314",
+          "L315",
+          "L316"
+        ],
+        "quote": "Members of a firm's TMT provided subjective perceptions of their firm's improvement or decline in return on assets and sales relative to 'similar' firms in their industry over a 5 year time period.",
+        "note": ""
+      },
+      {
+        "item_id": "T10",
+        "name": "Teoria normativa da gestão estratégica baseada em evidência",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T11",
+        "name": "Organização e ambiente",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Desempenho Organizacional",
+        "definition": "Complexo e muldidimencional (p.2 L059 - L060)  \nRegardless of the framework chosen to conceptualize OP, it is apparent that OP is a complex and multidimensional phenomenon.",
+        "quote": "",
+        "source_refs": [
+          "p.2 L059",
+          "L060"
+        ]
+      },
+      {
+        "concept": "Dificuladde em operacionalizar o Desemeonho Organizacional",
+        "definition": "É dificil operacionalizar o Desempenho Organizacional:  (p.2 L060- L061) Operationalizing such a complex concept is  inherently difficult.",
+        "quote": "",
+        "source_refs": [
+          "p.2 L060",
+          "L061"
+        ]
+      },
+      {
+        "concept": "Medidas subjetivas",
+        "definition": "Percepeções (p.8 L314 - L315 - L316)  What is suggested by the findings of this research? Members of a firm's TMT provided (subjective) perceptions of their firm's improvement (or decline) in return on assets and\n sales relative to 'similar' firms in their industry over a 5 year time period",
+        "quote": "",
+        "source_refs": [
+          "p.8 L314",
+          "L315",
+          "L316"
+        ]
+      },
+      {
+        "concept": "Medidas objetivas",
+        "definition": "Medidas econômicas (p.5 L180 - L181 - L182)\nTwo measures of economic performance were used in this study. 'After tax return on total assets' is commonly viewed as one operational measure of the efficiency of a firm with\n regard to the profitable use of its total asset base (Ansoff, 1965; Bourgeois, 1980; Gale,\n 1972).",
+        "quote": "",
+        "source_refs": [
+          "p.5 L180",
+          "L181",
+          "L182"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico",
+      "design": "Exploratória",
+      "sample_type": "CEOS e pessoas da alta administração",
+      "sample_size": null,
+      "sector": "Tintas e Relacionados",
+      "period": "",
+      "methods": [
+        "Entrevistas e questionários"
+      ],
+      "analysis_note": "",
+      "source_refs": []
+    },
+    "main_findings": [
+      {
+        "finding": "Os membros da Alta Administração forneceram percepções subjetivas sobre a queda ou melhoria sobre os ativos e das vendas da empresa em relação as empresas do mesmo setor no período de cinco anos.",
+        "type": "empirical",
+        "quote": "What is suggested by the findings of this research? Members of a firm's TMT provided subjective perceptions of their firm's improvement or decline in return on assets and sales relative to 'similar' firms in their industry over a 5 year time period.",
+        "source_refs": [
+          "p.8 L314",
+          "L315",
+          "L316"
+        ]
+      },
+      {
+        "finding": "A percepeção dos membros da Alta Administração estavam correlacionadas com as medidas objetivas.",
+        "type": "empirical",
+        "quote": "These subjective perceptions of relative improvement were strongly correlated with objective measures of the absolute changes in return on assets and sales over the same time period.",
+        "source_refs": [
+          "p.8 L316",
+          "L317",
+          "L318"
+        ]
+      },
+      {
+        "finding": "Esse estudo evidencia sobre a multimensinalidade do desempenho organizacional, ou seja, as medidas subjetivas conseguem produzir respostas consitentes sobre desempenho geral.",
+        "type": "empirical",
+        "quote": "Providing several 'cues' about the multidimensionality of OP coupled with a subjective question about 'overall performance' produced consistent answers within each TMT and major variance between each firm. Therefore subjective measures may be useful in attempting to operationalize broader non economic dimensions of OP",
+        "source_refs": [
+          "p.8 L335",
+          "L336",
+          "L337",
+          "L338",
+          "L339"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "O desempenho não é estritamente econômico, podem envolver outras questões sociedade, ambiente, funcionários e comunidade. Portanto, esse estudo consegue evidenciar que as medidas subjetivas podem ajudar a opercaionalizar essas dimensões mais amplas.",
+      "practical": "Essa pesquisa traz contribuições práticas aos pesquisadores de desempenho organizacional. Ao mostrar que, os pesquisadores quando não utilizam medidas objetivas por falta de acesso ou por considerar remover a consideração de desempenho, as percepções subjetivas ajudam. Dessa forma, entende-se que os pesquisadores podem usar a percepção em dois momentos:\n1- Quando medidas objetivas não estão disponíveis; \n2-Quando for necessário remover a consideração do desempenho da pesquisa."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

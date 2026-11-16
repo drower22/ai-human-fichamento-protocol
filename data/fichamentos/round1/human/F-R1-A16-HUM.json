@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R1-A16-HUM",
+  "article_id": "A16",
+  "round": 1,
+  "source": "human",
+  "generator": {
+    "kind": "human",
+    "participant_id": "S05",
+    "elapsed_minutes": 75,
+    "submitted_at": "2026-11-16T13:17:15.966985Z",
+    "self_assessment": {
+      "executive_summary": 2,
+      "research_question": 6,
+      "theories": 6,
+      "key_concepts": 5,
+      "methodology": 5,
+      "main_findings": 4,
+      "contribution": 6
+    },
+    "reflection_log": {
+      "q1": "Nesse, nenhuma.",
+      "q2": "Nenhuma",
+      "q3": "Colocaria o resumo por último.",
+      "q4": "Nenhuma"
+    }
+  },
+  "content": {
+    "executive_summary": "O artigo desenvolve uma revisão da literarua a respeito da Gestão de Riscos Empresariais (ERM, em inglês) e desenvolve uma perspectiva integralizadora do conceito e para a gestão, alinhando risco, governança e estratégia. Oference um campo de pesquisa aos pesquisadores de administração e contribui tanto de maneira teórica quanto de maneira prática. Pauta seu embasamento teórico na ERM e utiliza uma revisão teórica a respeito do conceito de risco da sua gestão dentro das organizações, revisitando estudos clássicos e abordagens consolidadas define a ERM, demonstra seus achados e correlaciona-a com estudos acadêmicos e compreensões organizacionais. Realiza uma síntese crítica a respeito das teorias envolvidas em sua revisão ao analisar, descrever e debater possíveis limites e campos de pesquisa ainda pouco observados tanto por pesquisadores quanto por gerentes.",
+    "research_question": "O artigo utiliza uma revisão crítica da pesquisa em Gestão de Riscos empresariais para identificar lacunas e limitações que os acadêmicos de administração podem responder. (p.1 L12-15)",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Gestão de riscos corporativos (Enterprise Risk Management)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.1 L09",
+          "L014"
+        ],
+        "quote": ". ERMproposes the integrated management of all the risks an organization faces which inherently requires alignment of risk management with corporate governance and strategy. Academic research on ERM is still in its infancy with articles largely in accounting and finance journals but rarely in management journals. We argue that ERM offers an important new research domain for management scholars. A critical review of ERM research allows us to identify limitations and gaps that management scholars are best equipped to address. This paper not only identifies how management scholars can contribute to ERM research but also points out why ERM research and practice needs management research for its development.",
+        "note": ""
+      },
+      {
+        "item_id": "T2",
+        "name": "Pesquisa em gestão micro/macro sobre risco, decisão e organizações",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6 L325",
+          "L328"
+        ],
+        "quote": "Objective and subjective measures of risk can serve different purposes in ERMresearch.Whilewemightuseobjectivemeasuresofrisktoassesstheoutcomesofrisk relatedbehaviors we need managerial perceptions of risk to explain managerial behavior. Managers make decisions based on what they believe March and Simon 1958 Miller 1993 . Perceptions often differ greatly from “objective” measures of risk.",
+        "note": ""
+      },
+      {
+        "item_id": "T3",
+        "name": "Concepções gerenciais de risco",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5 L271",
+          "L277"
+        ],
+        "quote": ". In contrast management scholars emphasize understanding how firms behave and sometimes the association of such behaviors with performance. However a demonstrated connection to performance is not essential for scholarship to offer important insights. For example while the scholarly literature emphasized risk as variation in returns March and Shapira 1987 and Shapira 1995 found that managerial conceptions of risk emphasized the size of the potential loss and often did not consider it aprobabilistic concept.Atechniquethathasdesirable outcomeswhenriskismeasuredbyvariancein returns could have quite different outcomes when used by managers who see risk as size of potential loss or in some other way.",
+        "note": ""
+      },
+      {
+        "item_id": "T4",
+        "name": "Teoria prospectiva",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T5",
+        "name": "Teoria comportamental / racionalidade limitada",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T6",
+        "name": "Finanças corporativas: risco sistemático, CAPM e valor da gestão de risco",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.3 L180-190"
+        ],
+        "quote": "For many years mainstream finance questioned the need for corporate risk management arguing that stockholders only care about systematic risk beta so investing resources to reduce unsystematic risk was wasteful Lintner 1965 Sharpe 1964 . However in recent years finance scholars have developed arguments justifying the management of unsystematic risks largely associated with the idea that unsystematic risk imposes costs on the firm. In academic finance Shapiro and Titman 1986 discussed the “benefits to integrating risk management activities in a single framework ” and Stulz 1996 proposed that academic theory expand beyond the traditional risk management TRM goal of “variance minimization” with its focus on the downside of risk. He argued that firms should reduce exposure to risk in areas where they have no comparative advantage while exploiting risks where they have an advantage. Drawing on Stulz 1996 Schrand and Unal 1998 advocated “coordinated risk management ” and found that corporate managers tended to hedge exposure to activ ities likely to earn low returns such as investments in efficient markets and increase exposure to business activities inwhich they enjoy comparative information advantages.",
+        "note": ""
+      },
+      {
+        "item_id": "T7",
+        "name": "Teoria da agência e funções do conselho",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T8",
+        "name": "Vieses cognitivos no julgamento sob incerteza",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6 L337-343"
+        ],
+        "quote": "The extensive literature on an individual's judgments of probabilities finds that individuals usually underestimate the amount of uncertainty they face see e.g. Alpert and Raiffa 1982 Klayman et al. 1999 Lichtenstein et al. 1982 . For example if asked to give the limits within which a variable will fall X% of the time termed a subjective confidence interval or CI individuals usually select insufficiently wide ranges. Deaves et al. 2010 report that the 90% CI's of financial market prac titioners in Germany for the German market index DAX six months ahead included the actual value between 40% and 70% of the time. Russo and Schoemaker 1992 found 90% CIs of business managers captured the true value between 42% and 62% of the time while 50% CIs had included the true values about 20% of the time.",
+        "note": ""
+      },
+      {
+        "item_id": "T9",
+        "name": "Teoria dos acidentes normais",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T10",
+        "name": "Cognição gerencial e ambientes 'enacted'",
+        "verdict": "uses",
+        "source_refs": [
+          "p.7 L385-388"
+        ],
+        "quote": "Management scholars have a particular advantage in studying how managers think about the causes of risks. March and Simon 1958 argued thatmanagersoperatewithin implicit models of theworld. Weick 1969 argued thatmanagers operate in “enacted environments” d their perception of the environment depends on a variety of individual and organizational factors.",
+        "note": ""
+      },
+      {
+        "item_id": "T11",
+        "name": "Níveis de análise",
+        "verdict": "uses",
+        "source_refs": [
+          "p.7 L406-412"
+        ],
+        "quote": "Management scholars have studied how substantively different phenomena may exist as we move to different levels of analysis Rousseau 1985 .Forexample wecouldexamineasingleloanofficer'slending branchbanklending overalllendingby a bank or lending by the banking system. Lending decision at each level has risk associated with it but the risks may not aggregate in an obvious way. Thus risk at the loan officer's level depends on an individual's assessment of potential borrowers and the actual risk of those borrowers. In contrast risk at the banking system level may depend on regulations average house pricesacrossthecountry changesininterestrates andevenrisksofnationaldefaultbyothercountries.Whilelowerlevelsofthe systemcannotbeignored riskathigherlevelsdoesnotnecessarilyreflectasimpleaggregationofthelowerlevels Simon 1981",
+        "note": ""
+      },
+      {
+        "item_id": "T12",
+        "name": "Cultura organizacional e crítica a 'risk culture'",
+        "verdict": "uses",
+        "source_refs": [
+          "p.7",
+          "L423-439"
+        ],
+        "quote": "p8 Whether corpo rations actually have consistent risk cultures and appetites is an empirical issue meriting consideration. Furthermore the concept of culture is problematic d Barley 1995 p. 121 notes that “Culture is a notoriously difficult concept to define.” Organizational culture had a brief period of high activity in management scholarship but became less fash ionable due to definitional problems. As culture appeared to be a portmanteau concept researchers replaced it with its constituent terms. In the ERM literature culture has other problematic meanings. For example Brooks 2010 p. 87 definescultureas“whatdetermineshowdecisionsaremadeinanorganization ”andgoesontosay “astrongcultureis one inwhichdecisionsaremade inadisciplinedway taking intoaccount considerationsof riskandrewardonan informed basis.” Here strong culture has by definition a positive connotation in contrast to organizational approacheswhere",
+        "note": ""
+      },
+      {
+        "item_id": "T13",
+        "name": "Mudança organizacional",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.9 L503-507"
+        ],
+        "quote": "Advocates have implicitly assumed firms will use “better” tools in ways the originators intend and that the tools will influence firm behavior in obvious desirable ways. The massive literature on organizational change clearly demonstrates the shortcomings of such assumptions Argyris 1993 McEwen et al. 1988 Tidd et al. 2005 . Simpleminded attempts at organizational change often result in complex unforeseen dynamics. Thus implementation of ERM offers a new and important area in which to study organizational change management.",
+        "note": ""
+      },
+      {
+        "item_id": "T14",
+        "name": "Horizonte temporal gerencial",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.7 L396-404"
+        ],
+        "quote": "Risk changes with time Barrieu and Karoui 2004 . For example in the subprime lending market short term risk measuredbymanyloanoriginatorsbydefault ratesinthe first three months hadlittleassociationwith longer termrisk d a factor that according to some experts played a role in the 2008 financial crisis. Or consider the example of outsourcing d where firms contract out activities such as manufacturing or IT d to suppliers. Outsourcing may involve minimal short term operational or supply chain risks but could lead to high long term strategic risks due to spillover of firm's know how or development of core rigidities that constrain adaptation Quinn 1999 . This time varying nature of risk ties to the man agement literature on managerial time horizons Das 1987 Marginson and McAulay 2008 Souder and Bromiley 2012 . Risk inherently involves future outcomes. Management scholars might productively integrate concerns from the time horizon literature into their understanding of managerial risk taking",
+        "note": ""
+      },
+      {
+        "item_id": "T15",
+        "name": "Estratégia e risco; planejamento estratégico formal",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T16",
+        "name": "Teoria da contingência de ERM",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.4 L247-251"
+        ],
+        "quote": "The extant research also has insuffi ciently addressed inter firm differences in ERM. Mikes 2005 2009 found heterogeneity in the understanding and imple mentation of ERM with firms differing in their emphasis on formally quantifying risk versus using qualitative “measures” of risk. Mikes andKaplan 2013 proposedacontingencyframework andcalledforresearchthatwouldleadtothedevelopment of a contingency theory of ERM.",
+        "note": ""
+      },
+      {
+        "item_id": "T17",
+        "name": "Teoria dos stakeholders",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.5 L287-291"
+        ],
+        "quote": "If a firm's management considers both risk and return as legitimate dimensions of performance then risk management could work even though it did not increase returns. This opens a wider debate over the objectives of the firm. Unlike scholars in finance and accounting manage ment scholars have entertained the proposition that firms have objectives beyond profits or shareholder wealth Freeman et al. 2010 .",
+        "note": ""
+      },
+      {
+        "item_id": "T18",
+        "name": "Adoção de práticas por pressão externa",
+        "verdict": "uses",
+        "source_refs": [
+          "p.8 L450-464"
+        ],
+        "quote": "ERMimplementationalsoprovidesarichsettingformanagementscholars.StudiesofERMimplementationmayconsider twoverydifferentquestions: adoptionand implementation. First whatdetermineswhether afirmadoptsERM?The adoptionofotherbusinesspracticeshasbeenshowntodependonfactorsthatincluderegulatorypressures industrynorms thepracticesoffirmsonwhichthefirm'sboardmembersserve etc. PlambeckandWeber 2010 .Atleastpartoftheimpetus toimplementriskmanagementcomes fromexternalactors.TheU.S. SecuritiesandExchangeCommissionnowrequires publiclyheldcompaniestorevealhowtheymanageriskandtheincentivesforrisktakingbyseniormanagement.Rating agenciessuchasS&Phavestartedtoconsiderriskmanagementintheirratingsofinsurancecompanies.Studiesinavarietyof disciplineshaveexaminedhowfirmsrespondtoexternalpressures includingregulatorychanges.Forexample Plambeckand Weber 2010 looksathowmanagerialinterpretationsinfluencedfirmresponsestotheEuropeanEconomicCommunity. In thiscontext scholarscanexaminehowtheregulatoryframeworkanditsenforcementinteractwithfirmcharacteristicsto influenceriskbehaviors.TheimplementationofERMgloballyoffersmanagementscholarsanopportunitytostudyhowa largeinternationalpopulationoffirmsrespondstosimilarbutnotidenticalexternalpressures.InERM wehavevariationsin regulatoryenvironment alongwithvariations infirmsandhost countries interactingto influencecorporatebehavior. However becauseallofthechangeshavesomeverysimilarbases wehavealimitedheterogeneityintheunderlyingintent makingcomparativestudiesparticularlypromising.",
+        "note": ""
+      },
+      {
+        "item_id": "T19",
+        "name": "Nível de aspiração e tomada de risco",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T20",
+        "name": "Ciência engajada",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.9 L534-539"
+        ],
+        "quote": "However formanagementscholarstocontributetoERMrequiresadifferentfocusthanpastmanagementresearchonrisk. Much of the management and strategy literatureon risk tried to explain differences in firm risk over time and across firms. To contribute to the ongoing ERM discussion management scholars need to take a more prescriptive stance and pay more attention to the effectiveness of different practices and activities. Such a stance would align both with historical studies on planning systems and organizational change management and with recent efforts to increase engaged scholarship among management scholars Van de Ven 2007 .",
+        "note": ""
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Gestão de Risco Empresarial",
+        "definition": "(p.2 L092-102) Authors and regulators disagree on exactly what constitutes ERM.Asevidenceofthis disagreement,Tables1and2provide\ndefinitions and descriptions of ERM from various sources. One of the larger distinctions is between those who see risk as\nlargely defined independently of firm objectives (e.g., Miccolis, 2000; AS/NZS, 1995; S&P, 2008), and those who explicitly\ndefined risk in terms of achievement of organizational objectives (e.g., IIA, 2001; COSO, 2004). Another major distinction is\nbetween those who see risk as largely a problem to be mitigated (e.g., S&P, 2008; RIMS, 2011), and those who see risk as a\npotential source of value creation (e.g., Tillinghast-Towers Perrin, 2001; CAS, 2003a). Addressing the variety of definitions and\nimplementations of ERM, Power(2007)urged caution, asserting that ERM is an “umbrella concept” and managers should not\n“… assume that ERM refers unequivocally to a coherent set of practices.” As regulators pressure firms to integrate risk\nmanagement into corporate governance, new risk categories and definitions have been created, leading to the “risk man\nagement of everything” (Power, 2004), which Power (Power, 2009) ultimately concluded had resulted in the “risk man\nagement of nothing.",
+        "quote": "",
+        "source_refs": [
+          "p.2 L092-102"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "teórico",
+      "design": "Estudo de revisão teórica",
+      "sample_type": "N/A",
+      "sample_size": null,
+      "sector": "Leitura acadêmica e profissional",
+      "period": "N/A",
+      "methods": [
+        "Análise teórica"
+      ],
+      "analysis_note": "",
+      "source_refs": []
+    },
+    "main_findings": [
+      {
+        "finding": "O artigo propoe que os acadêmicos de administração podem contribuir para a pesquisa em ERM através de uma persperctiva holística, alterando o foco sobre risco estudado até então e utilizando uma medida mais prescritiva e eficaz sobre as práticas de gestão de risco.",
+        "type": "model",
+        "quote": "L 527 550",
+        "source_refs": [
+          "p.9"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "O artigo propoe um avanço teórico na perspectiva de gestão de risco empresarial ao possibilitar e incentivar que pesquisadores da área de negócios participem e contribuam com novos estudos.",
+      "practical": "Compreensão dos profissionais a respeito de definição de risco a partir de diferentes indivíduos e grupos, captando vieses e desafios na implementação de iniciativas de gestão de risco."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R1-A03-HUM",
+  "article_id": "A03",
+  "round": 1,
+  "source": "human",
+  "generator": {
+    "kind": "human",
+    "participant_id": "S13",
+    "elapsed_minutes": 315,
+    "submitted_at": "2026-11-16T13:17:17.850082Z",
+    "self_assessment": {
+      "executive_summary": 3,
+      "research_question": 5,
+      "theories": 5,
+      "key_concepts": 4,
+      "methodology": 4,
+      "main_findings": 5,
+      "contribution": 5
+    },
+    "reflection_log": {
+      "q1": "Dificuldades em concatenar todas as ideias ao longo da leitura, pareceu um texto denso conceitualmente e por vezes confuso no entendimento.",
+      "q2": "É complicado e ao mesmo tempo cansativo buscar as referência de página e linha, é necessário reler um mesmo trecho algumas vezes. O idioma também acaba sendo uma barreira nesse contexto.",
+      "q3": "Faria no mínimo duas leituras antes de fazer o fichamento, realizando anotações em outro arquivo.",
+      "q4": "Sim, nesse caso tive que traduzir o documento para português, a leitura em inglês não estava sendo nada produtiva. Usei a IA para me auxiliar a relembrar alguns conceitos e teorias que apareceram no texto."
+    }
+  },
+  "content": {
+    "executive_summary": "Trata-se de um artigo teórico que cria hipóteses em torno das respostas estratégicas que as organizações criam para lidar com as pressões e processos institucionais no âmbito organizacional (p.1 L008-0015). Utilizando o institucionalismo e a teoria da dependência de recursos, a autora, inicialmente avalia os pontos convergentes e divergentes entre tais teorias. (p.2, L067-L081) Após isso, avalia como a resposta estratégica ocorre, partindo de um posicionamento passivo por parte da organização, até um posicionamento pró-ativo.\n\nFica evidente que o institucionalismo tende uma resposta passiva, enquanto que a teoria da dependência de recursos parece proporcionar uma resposta mais ativa para a estratégia da organização ao lidar com as pressões e processos institucionais.(p.5, L246-L250)\n\nElaborando um total de 10 hipóteses, a autora relaciona as variáveis aquiescência, compromisso, esquiva, desafio e manipulação com as variáveis contexto, causa, constituintes, controle e conteúdo. Essas 10 hipóteses mostram como o grau de influência entre essas variáveis pode alterar a maneira como a organização responde a uma determinada contingência.(p.16, L790 - L850)\n\nO artigo demonstra a importância de se associar o institucionalismo com a dependência de recursos para tentar prever a antever o comportamento e a resposta estratégica das organizações. A pesquisa sugere como trabalhos futuros, uma validação empírica das hipóteses criadas e discutidas pela autora. (p.28, L1449-L1489)",
+    "research_question": "Quais são as respostas estratégicas que as organizações utilizam frente a pressões e processos institucionais quando combinamos os aspectos convergentes do institucionalismo e da teoria da dependência de recursos e sob qual condição elas resistem ou aceitam tais pressões? (p.1 L007 - L014)",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Teoria institucional",
+        "verdict": "uses",
+        "source_refs": [
+          "p.1 L018",
+          "L022"
+        ],
+        "quote": "As primeiras versões da teoria institucional conferiam ênfase especial ao caráter de algo dado como certo inerente a regras mitos e crenças institucionais enquanto realidade social compartilhada e aos processos pelos quais as organizações tendem a ser impregnadas de valor e significado social.",
+        "note": ""
+      },
+      {
+        "item_id": "T2",
+        "name": "Teoria da dependência de recursos",
+        "verdict": "uses",
+        "source_refs": [
+          "p.2 L087",
+          "L088"
+        ],
+        "quote": "as organizações precisam ser responsivas às demandas e expectativas externas para sobreviver",
+        "note": ""
+      },
+      {
+        "item_id": "T3",
+        "name": "Legitimidade organizacional (social vs. econômica)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T4",
+        "name": "Teoria da agência",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T5",
+        "name": "Isomorfismo institucional",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5 L285",
+          "L291"
+        ],
+        "quote": "O isomorfismo enfatiza o papel da conformidade do hábito e da convenção em detrimento do poder e do controle organizacionais na promoção da estabilidade além disso o poder tende a ser atribuído ao ambiente institucional e não à organização.",
+        "note": ""
+      },
+      {
+        "item_id": "T6",
+        "name": "Desacoplamento, cerimônia e mito formal",
+        "verdict": "uses",
+        "source_refs": [
+          "L018",
+          "L025"
+        ],
+        "quote": "p. 1 As primeiras versões da teoria institucional conferiam ênfase especial ao caráter de algo dado como certo inerente a regras mitos e crenças institucionais enquanto realidade social compartilhada e aos processos pelos quais as organizações tendem a ser impregnadas de valor e significado social Berger & Luckmann 1967 Selznick 1949 1957 . Abordagens mais recentes sobre a institucionalização aprofundaram a compreensão da natureza e da variedade desses processos institucionais DiMaggio & Powell 1983 Meyer & Rowan 1977 Zucker 1977 1988 ....",
+        "note": ""
+      },
+      {
+        "item_id": "T7",
+        "name": "Cooptação",
+        "verdict": "uses",
+        "source_refs": [
+          "p.13 L690",
+          "L694"
+        ],
+        "quote": "O estudo de Selznick 1949 sobre a Tennessee Valley Authority também descreveu de forma detalhada como interesses externos foram cooptados pela organização e persuadidos a apoiar seus projetos. O efeito pretendido das táticas de cooptação é neutralizar a oposição institucional e aumentar a legitimidade.",
+        "note": ""
+      },
+      {
+        "item_id": "T8",
+        "name": "Visão baseada em recursos (RBV)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T9",
+        "name": "Modelos político e institucional como complementares",
+        "verdict": "uses",
+        "source_refs": [
+          "L1531",
+          "L1533"
+        ],
+        "quote": "p. 29 De acordo com a recomendação de DiMaggio 1988 de que os modelos institucionais e políticos devem ser considerados ferramentas complementares para a compreensão dos fenômenos institucionais",
+        "note": ""
+      },
+      {
+        "item_id": "T10",
+        "name": "Discricionariedade gerencial",
+        "verdict": "uses",
+        "source_refs": [
+          "p.22 L1169",
+          "L1171"
+        ],
+        "quote": "Diversos teóricos e pesquisadores têm enfatizado a importância da discricionariedade organizacional e da autonomia na tomada de decisões nas relações entre organização e ambiente.",
+        "note": ""
+      },
+      {
+        "item_id": "T11",
+        "name": "Construção social da realidade",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": ""
+      },
+      {
+        "item_id": "T12",
+        "name": "Exit, voice and loyalty",
+        "verdict": "uses",
+        "source_refs": [
+          "p.11 L586",
+          "L589"
+        ],
+        "quote": "Uma resposta de esquiva mais drástica às pressões institucionais em prol da conformidade é a fuga isto é uma organização pode sair do domínio no qual a pressão é exercida Hirschman 1970 ou alterar significativamente seus próprios objetivos atividades ou domínio.",
+        "note": ""
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Institucionalismo",
+        "definition": "(p.1 L007 - L009) Este artigo aplica as contribuições convergentes das perspectivas institucional e de dependência de recursos à previsão de respostas estratégicas a processos institucionais.",
+        "quote": "",
+        "source_refs": [
+          "p.1 L007",
+          "L009"
+        ]
+      },
+      {
+        "concept": "Teoria da Dependencia de Recursos",
+        "definition": "(p.1 L007 - L009) Este artigo aplica as contribuições convergentes das perspectivas institucional e de dependência de recursos à previsão de respostas estratégicas a processos institucionais.",
+        "quote": "",
+        "source_refs": [
+          "p.1 L007",
+          "L009"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "teórico",
+      "design": "Sintese Teórica?",
+      "sample_type": "N/A",
+      "sample_size": null,
+      "sector": "",
+      "period": "",
+      "methods": [],
+      "analysis_note": "",
+      "source_refs": []
+    },
+    "main_findings": [
+      {
+        "finding": "A teoria institucionais e a teoria da dependência de recursos são complementares.",
+        "type": "proposition",
+        "quote": "",
+        "source_refs": []
+      },
+      {
+        "finding": "Os desdobramentos dos tipos de resposta estratégica através das hipóteses propostas pela autora.",
+        "type": "proposition",
+        "quote": "",
+        "source_refs": []
+      }
+    ],
+    "contribution": {
+      "theoretical": "Integração entre o institucionalismo e a teoria da dependência de recursos e as respostas estratégicas das organizações em função das pressões institucionais.",
+      "practical": "NA."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}
