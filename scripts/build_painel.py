@@ -30,6 +30,28 @@ sys.path.insert(0, str(ROOT / "src"))
 from fichamento.render import render_fichamento_md  # noqa: E402
 
 
+def student_html(elapsed, sa: dict | None, refl: dict | None, labels: dict) -> str:
+    """Autoavaliação (notas 1-7 por seção) + tempo declarado + log reflexivo.
+    who/identidade nunca entra — só S# ou 'respondente i'."""
+    out = []
+    if elapsed is not None:
+        out.append(f'<div class="meta2">tempo declarado: <b>{e(elapsed)} min</b></div>')
+    if sa:
+        tot = sum(v for v in sa.values() if isinstance(v, int))
+        rows = "".join(f"<tr><td>{e(lbl)}</td><td>{e(sa.get(k))}</td></tr>"
+                       for k, lbl in SECS)
+        out.append('<div class="meta2"><b>autoavaliação (1–7 por seção)</b></div>'
+                   f'<table class="sc"><tr><th>seção</th><th>nota</th></tr>{rows}'
+                   f'<tr class="tot"><td>total</td><td>{tot}</td></tr></table>')
+    if refl:
+        items = "".join(
+            f'<div class="qside"><b>{e(labels.get(k, k))}:</b> {e(v)}</div>'
+            for k, v in refl.items() if v)
+        if items:
+            out.append(f'<div class="meta2"><b>log reflexivo</b></div>{items}')
+    return f'<div class="resp">{"".join(out)}</div>' if out else ""
+
+
 def _ns(d):
     """dict -> SimpleNamespace recursivo (render sem validação de schema:
     o par do piloto precede o gate de source_refs)."""
@@ -58,6 +80,15 @@ ERR_LABEL = {
     "invalid_source_ref": "Ref. inválida", "other": "Outro",
 }
 SEC_LABEL = dict(SECS)
+
+# rótulos das perguntas do log reflexivo (protocol/forms/student-form.md)
+REFL_PILOT = {"q1": "O que foi mais difícil?",
+              "q2": "O que faria diferente?",
+              "q3": "Usou IA ou ferramentas externas?"}
+REFL_R1 = {"q1": "Dificuldades com o artigo e o tema",
+           "q2": "Dificuldades com o formato da pesquisa (formulário, PDF numerado, referências)",
+           "q3": "O que mudaria na abordagem",
+           "q4": "Usou IA ou auxílio externo?"}
 
 e = lambda s: html_mod.escape(str(s or ""))
 
@@ -150,21 +181,38 @@ def _fich_html(side_content: dict) -> str:
     return markdown.markdown(md)
 
 
+def _pilot_respondent(side_content: dict) -> dict | None:
+    """Casa um lado do par à resposta X_* do piloto pelo conteúdo —
+    full_name fica de fora (anonimização na página)."""
+    key = (side_content.get("executive_summary"),
+           side_content.get("research_question"))
+    for p in sorted((DATA / "piloto" / "responses").glob("X_*.json")):
+        d = json.loads(p.read_text())
+        if (d.get("executive_summary"), d.get("research_question")) == key:
+            return d
+    return None
+
+
 def piloto_pair_block() -> str:
     """Os dois fichamentos do par do piloto. A/B era sorteado por juiz, então
-    rotulamos Fichamento 1/2 (convenção da reunião: 1 = maior cobertura)."""
+    rotulamos Fichamento 1/2 (convenção da reunião: 1 = maior cobertura).
+    Cada um traz autoavaliação + tempo + log reflexivo do respondente."""
     pair = json.loads((DATA / "piloto" / "pairs" / "PILOTO.json").read_text())
     def cov(side):
         s = pair[side]
         return len(s.get("key_concepts") or []) + len(s.get("main_findings") or [])
     sides = sorted(("A", "B"), key=cov, reverse=True)
     out = ['<div class="pairview"><b>O par avaliado</b> '
-           '<span class="artt">(lado A/B variava por juiz)</span>']
+           '<span class="artt">(lado A/B variava por juiz; respondentes anônimos)</span>']
     for i, side in enumerate(sides, 1):
+        resp = _pilot_respondent(pair[side])
+        stu = (student_html(resp.get("elapsed_minutes"), resp.get("self_assessment"),
+                            resp.get("reflection_log"), REFL_PILOT)
+               if resp else "")
         out.append(
             f'<details class="det"><summary>ver Fichamento {i} '
             f'<span class="artt">({cov(side)} conceitos+achados)</span></summary>'
-            f'<div class="fich">{_fich_html(pair[side])}</div></details>')
+            f'<div class="fich">{_fich_html(pair[side])}</div>{stu}</details>')
     out.append("</div>")
     return "".join(out)
 
@@ -189,12 +237,32 @@ def piloto_card() -> str:
             f'{piloto_pair_block()}{"".join(rows)}</div>')
 
 
+def _human_fich(round_: int, art: str) -> dict | None:
+    p = DATA / "fichamentos" / f"round{round_}" / "human" / f"F-R{round_}-{art}-HUM.json"
+    return json.loads(p.read_text()) if p.exists() else None
+
+
 def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
     badge = ('<span class="pair live">par no ar</span>' if live
              else '<span class="pair soon">par pendente</span>')
     t = f'<div class="artt">{e(title)}</div>' if title else ""
+    # lado do estudante: autoavaliação + tempo + log (S# é o id anonimizado)
+    fich = _human_fich(round_, art)
+    stu = ""
+    if fich:
+        g = fich.get("generator") or {}
+        sid = g.get("participant_id", "")
+        stu = (f'<details class="det"><summary>estudante {e(sid)}: '
+               f'autoavaliação + log</summary>'
+               f'{student_html(g.get("elapsed_minutes"), g.get("self_assessment"),
+                               g.get("reflection_log"), REFL_R1)}</details>')
+    else:
+        raw = list(Path.home().joinpath("Downloads").glob(f"S*_{art}.json"))
+        if raw:
+            stu = ('<div class="artt">fichamento recebido: '
+                   "aguardando validação</div>")
     return (f'<div class="card"><div class="art">{art} {badge}</div>{t}'
-            f'{judge_row(round_, art, jid, live)}</div>')
+            f'{judge_row(round_, art, jid, live)}{stu}</div>')
 
 
 def build() -> Path:
@@ -268,6 +336,7 @@ table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
 .fich ul{{padding-left:18px}}
 .fich blockquote{{border-left:3px solid var(--line);color:#64748b;
   margin:4px 0;padding:2px 10px;font-style:italic}}
+.meta2{{font-size:11px;color:#64748b;margin:8px 0 4px}}
 .foot{{max-width:1500px;margin:22px auto 0;font-size:11px;color:#94a3b8}}
 </style></head><body>
 <div style="max-width:1500px;margin:0 auto 16px">
