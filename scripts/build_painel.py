@@ -250,14 +250,15 @@ def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
     badge = ('<span class="pair live">par no ar</span>' if live
              else '<span class="pair soon">par pendente</span>')
     t = f'<div class="artt">{e(title)}</div>' if title else ""
-    # lado do estudante: autoavaliação + tempo + log (S# é o id anonimizado)
+    # lado do estudante: resposta completa + autoavaliação + tempo + log
     fich = _human_fich(round_, art)
     stu = ""
     if fich:
         g = fich.get("generator") or {}
         sid = g.get("participant_id", "")
-        stu = (f'<details class="det"><summary>estudante {e(sid)}: '
-               f'autoavaliação + log</summary>'
+        stu = (f'<details class="det"><summary>ver Fichamento '
+               f'<span class="artt">(estudante {e(sid)})</span></summary>'
+               f'<div class="fich">{_fich_html(fich.get("content") or {})}</div>'
                f'{student_html(g.get("elapsed_minutes"), g.get("self_assessment"),
                                g.get("reflection_log"), REFL_R1)}</details>')
     else:
@@ -265,7 +266,7 @@ def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
         if raw:
             stu = ('<div class="artt">fichamento recebido: '
                    "aguardando validação</div>")
-    return (f'<div class="card"><div class="art">{art} {badge}</div>{t}'
+    return (f'<div class="card"><div class="art">Artigo {art[1:]} {badge}</div>{t}'
             f'{judge_row(round_, art, jid, live)}{stu}</div>')
 
 
