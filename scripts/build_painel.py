@@ -294,7 +294,7 @@ def build() -> Path:
                         pair_live(a["article_id"]), a.get("title", ""))
                    for a in by_round[2])
 
-    now = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M UTC")
+    now = datetime.now().astimezone().strftime("%d/%m/%Y %H:%M")
     n_done = sum(eval_done(0, "PILOTO", t) for t in JUDGES.values())
     n1 = sum(eval_done(1, a["article_id"], JUDGES[a["nominated_by"]]) for a in by_round[1])
     n2 = sum(eval_done(2, a["article_id"], JUDGES[a["nominated_by"]]) for a in by_round[2])
@@ -360,7 +360,8 @@ table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
 <div style="max-width:1500px;margin:0 auto 16px">
   <h1>Acompanhamento das avaliações</h1>
   <p class="sub">Fichamentos cegos A/B por artigo e status de resposta de cada juiz (J1 a J4).
-  O botão abre o formulário já preenchido com juiz, rodada e par.</p>
+  O botão abre o formulário já preenchido com juiz, rodada e par.
+  <b>Atualizado em {now}.</b></p>
 </div>
 <div class="grid">
   <div class="col"><h2>Piloto (R0)</h2><div class="meta">{n_done}/4 avaliações recebidas</div>{col0}</div>
@@ -368,7 +369,7 @@ table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
   <div class="col"><h2>Rodada 2</h2><div class="meta">{n2}/{len(by_round[2])} avaliações recebidas · início 23/11</div>{col2}</div>
 </div>
 <p class="foot">Cada juiz avalia apenas os artigos que indicou (4 por rodada).
-Atualizado em {now}. Página gerada por scripts/build_painel.py.</p>
+Página gerada por scripts/build_painel.py.</p>
 </body></html>"""
 
     out = SITE / "acompanhar" / "index.html"
