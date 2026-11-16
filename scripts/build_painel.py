@@ -16,12 +16,28 @@ Regerar a cada nova avaliação importada e fazer deploy.
 """
 import html as html_mod
 import json
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from types import SimpleNamespace
+
+import markdown
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SITE = ROOT / "site"
+sys.path.insert(0, str(ROOT / "src"))
+from fichamento.render import render_fichamento_md  # noqa: E402
+
+
+def _ns(d):
+    """dict -> SimpleNamespace recursivo (render sem validação de schema:
+    o par do piloto precede o gate de source_refs)."""
+    if isinstance(d, dict):
+        return SimpleNamespace(**{k: _ns(v) for k, v in d.items()})
+    if isinstance(d, list):
+        return [_ns(x) for x in d]
+    return d
 
 JUDGES = {"J1": "nz4f", "J2": "bq8w", "J3": "mv3r", "J4": "gx6t"}
 
@@ -128,6 +144,31 @@ def eval_html(ev: dict) -> str:
 </div>"""
 
 
+def _fich_html(side_content: dict) -> str:
+    """Renderiza o conteúdo de um lado do par como HTML (mesmo render dos pacotes)."""
+    md = render_fichamento_md(SimpleNamespace(content=_ns(side_content)))
+    return markdown.markdown(md)
+
+
+def piloto_pair_block() -> str:
+    """Os dois fichamentos do par do piloto. A/B era sorteado por juiz, então
+    rotulamos Fichamento 1/2 (convenção da reunião: 1 = maior cobertura)."""
+    pair = json.loads((DATA / "piloto" / "pairs" / "PILOTO.json").read_text())
+    def cov(side):
+        s = pair[side]
+        return len(s.get("key_concepts") or []) + len(s.get("main_findings") or [])
+    sides = sorted(("A", "B"), key=cov, reverse=True)
+    out = ['<div class="pairview"><b>O par avaliado</b> '
+           '<span class="artt">(lado A/B variava por juiz)</span>']
+    for i, side in enumerate(sides, 1):
+        out.append(
+            f'<details class="det"><summary>ver Fichamento {i} '
+            f'<span class="artt">({cov(side)} conceitos+achados)</span></summary>'
+            f'<div class="fich">{_fich_html(pair[side])}</div></details>')
+    out.append("</div>")
+    return "".join(out)
+
+
 def piloto_card() -> str:
     rows = []
     for jid, tok in JUDGES.items():
@@ -145,7 +186,7 @@ def piloto_card() -> str:
     return (f'<div class="card"><div class="art">PILOTO '
             f'<span class="pair live">par no ar</span></div>'
             f'<div class="artt">par cego único: todos os juízes avaliaram o mesmo par</div>'
-            f'{"".join(rows)}</div>')
+            f'{piloto_pair_block()}{"".join(rows)}</div>')
 
 
 def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
@@ -219,6 +260,14 @@ table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
   padding:6px 10px;margin:6px 0}}
 .errs{{margin:2px 0 6px 8px}}
 .errl{{font-size:11px;color:#7f1d1d;margin:2px 0}}
+.pairview{{background:#f8fafc;border:1px solid var(--line);border-radius:8px;
+  padding:8px 10px;margin:8px 0}}
+.fich{{font-size:11.5px;line-height:1.55;margin-top:8px;
+  max-height:480px;overflow:auto;border-top:1px solid var(--line);padding-top:6px}}
+.fich h2{{font-size:12px;color:var(--navy);margin:10px 0 4px}}
+.fich ul{{padding-left:18px}}
+.fich blockquote{{border-left:3px solid var(--line);color:#64748b;
+  margin:4px 0;padding:2px 10px;font-style:italic}}
 .foot{{max-width:1500px;margin:22px auto 0;font-size:11px;color:#94a3b8}}
 </style></head><body>
 <div style="max-width:1500px;margin:0 auto 16px">
