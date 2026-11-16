@@ -1,16 +1,20 @@
 """Gera site/acompanhar/index.html: painel de acompanhamento das
 avaliações dos juízes, 3 colunas (Piloto / R1 / R2).
 
+- Juízes aparecem anonimizados (J1..J4); nomes nunca saem na página.
 - Cada juiz avalia só os artigos que indicou (registry.nominated_by).
 - Link do form: /juizes/?j=<token>&r=<rodada>&a=<artigo> — trava tudo e
-  carrega o par sozinho após o aceite do TCLE.
+  carrega o par sozinho após o aceite do TCLE. Botão só aparece quando
+  o par está publicado em site/juizes/pairs/ (senão o fetch daria 404).
 - Status "respondido" = JSON da avaliação já importado em
   data/piloto/evaluations/ (R0) ou data/evaluations/roundN/ (R1/R2).
-- "par no ar" = site/juizes/pairs/<artigo>.json publicado.
+- Piloto: respostas completas embutidas (notas, preferência, qualitativos,
+  taxonomia) num <details> por juiz.
 
 Uso:  .venv/bin/python scripts/build_painel.py
 Regerar a cada nova avaliação importada e fazer deploy.
 """
+import html as html_mod
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -19,12 +23,27 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SITE = ROOT / "site"
 
-JUDGES = {
-    "J1": ("Natália", "nz4f"),
-    "J2": ("Bruno", "bq8w"),
-    "J3": ("Marcos", "mv3r"),
-    "J4": ("Gustavo", "gx6t"),
+JUDGES = {"J1": "nz4f", "J2": "bq8w", "J3": "mv3r", "J4": "gx6t"}
+
+SECS = [
+    ("executive_summary", "Resumo"),
+    ("research_question", "Questão de pesquisa"),
+    ("theories", "Teorias"),
+    ("key_concepts", "Conceitos-chave"),
+    ("methodology", "Metodologia"),
+    ("main_findings", "Achados"),
+    ("contribution", "Contribuição"),
+]
+
+ERR_LABEL = {
+    "hallucination": "Invenção", "omission": "Omissão",
+    "misinterpretation": "Interp. errada", "misattribution": "Atribuição errada",
+    "terminology": "Terminologia", "extrapolation": "Extrapolação",
+    "invalid_source_ref": "Ref. inválida", "other": "Outro",
 }
+SEC_LABEL = dict(SECS)
+
+e = lambda s: html_mod.escape(str(s or ""))
 
 
 def articles_by_round() -> dict[int, list[dict]]:
@@ -37,56 +56,121 @@ def articles_by_round() -> dict[int, list[dict]]:
     return out
 
 
-def eval_done(round_: int, article_id: str, token: str) -> bool:
+def eval_path(round_: int, article_id: str, token: str) -> Path:
     if round_ == 0:
-        return (DATA / "piloto" / "evaluations" / f"E-R0-{article_id}-{token}.json").exists()
-    return (DATA / "evaluations" / f"round{round_}" / f"E-R{round_}-{article_id}-{token}.json").exists()
+        return DATA / "piloto" / "evaluations" / f"E-R0-{article_id}-{token}.json"
+    return DATA / "evaluations" / f"round{round_}" / f"E-R{round_}-{article_id}-{token}.json"
+
+
+def eval_done(round_: int, article_id: str, token: str) -> bool:
+    return eval_path(round_, article_id, token).exists()
 
 
 def pair_live(article_id: str) -> bool:
     return (SITE / "juizes" / "pairs" / f"{article_id}.json").exists()
 
 
-def judge_row(round_: int, art: str, jid: str) -> str:
-    name, tok = JUDGES[jid]
+def link_btn(round_: int, art: str, tok: str, live: bool) -> str:
+    if live:
+        return f'<a class="go" href="/juizes/?j={tok}&r={round_}&a={art}">abrir&nbsp;→</a>'
+    return '<span class="go off" title="par ainda não publicado">aguardando</span>'
+
+
+def judge_row(round_: int, art: str, jid: str, live: bool) -> str:
+    tok = JUDGES[jid]
     done = eval_done(round_, art, tok)
     status = ('<span class="st done">respondido</span>' if done
               else '<span class="st pend">pendente</span>')
-    return (f'<div class="jrow"><span class="jname">{name} <i>({jid})</i></span>{status}'
-            f'<a class="go" href="/juizes/?j={tok}&r={round_}&a={art}">abrir&nbsp;→</a></div>')
+    return (f'<div class="jrow"><span class="jname">{jid}</span>{status}'
+            f'{link_btn(round_, art, tok, live)}</div>')
 
 
-def card(round_: int, art: str, jids: list[str], live: bool, title: str = "") -> str:
+def eval_html(ev: dict) -> str:
+    """Renderiza uma avaliação recebida (notas, preferência, qualitativos, erros)."""
+    sc = ev.get("scores") or {}
+    qual = ev.get("qualitative") or {}
+    tax = ev.get("error_taxonomy") or {}
+    pref = qual.get("preferred", "")
+    conf = qual.get("confidence", "")
+
+    rows = "".join(
+        f"<tr><td>{e(lbl)}</td><td>{e((sc.get('A') or {}).get(k))}</td>"
+        f"<td>{e((sc.get('B') or {}).get(k))}</td></tr>"
+        for k, lbl in SECS)
+    tot_a = sum(v for v in (sc.get("A") or {}).values() if isinstance(v, int))
+    tot_b = sum(v for v in (sc.get('B') or {}).values() if isinstance(v, int))
+    table = (f'<table class="sc"><tr><th>seção</th><th>A</th><th>B</th></tr>{rows}'
+             f'<tr class="tot"><td>total</td><td>{tot_a}</td><td>{tot_b}</td></tr></table>')
+
+    def errs(side: str) -> str:
+        by = (tax.get(side) or {}).get("by_section") or {}
+        if not by:
+            return ""
+        chips = []
+        for sec, d in by.items():
+            names = ", ".join(ERR_LABEL.get(c, c) for c in d.get("codes", []))
+            note = f' — <i>{e(d["other_note"])}</i>' if d.get("other_note") else ""
+            chips.append(f'<div class="errl"><b>{e(SEC_LABEL.get(sec, sec))}:</b> {e(names)}{note}</div>')
+        return f'<div class="errs">{"".join(chips)}</div>'
+
+    def qual_side(side: str) -> str:
+        q = qual.get(side) or {}
+        return (f'<div class="qside"><b>{side} · questionaria:</b> {e(q.get("question_would_ask"))}<br>'
+                f'<b>{side} · faltou:</b> {e(q.get("missing"))}</div>')
+
+    pref_txt = {"A": "Fichamento A", "B": "Fichamento B", "empate": "Empate"}.get(pref, pref)
+    notes = f'<div class="qside"><b>Observações:</b> {e(ev.get("notes"))}</div>' if ev.get("notes") else ""
+    return f"""<div class="resp">
+  <div class="prefline"><b>Preferência:</b> {e(pref_txt)} · <b>familiaridade:</b> {e(conf)}</div>
+  {table}
+  <div class="qside"><b>Por quê:</b> {e(qual.get('why'))}</div>
+  {qual_side('A')}{errs('A')}{qual_side('B')}{errs('B')}{notes}
+</div>"""
+
+
+def piloto_card() -> str:
+    rows = []
+    for jid, tok in JUDGES.items():
+        p = eval_path(0, "PILOTO", tok)
+        done = p.exists()
+        status = ('<span class="st done">respondido</span>' if done
+                  else '<span class="st pend">pendente</span>')
+        row = (f'<div class="jrow"><span class="jname">{jid}</span>{status}'
+               f'{link_btn(0, "PILOTO", tok, True)}</div>')
+        if done:
+            ev = json.loads(p.read_text())
+            row += (f'<details class="det"><summary>ver resposta de {jid}</summary>'
+                    f'{eval_html(ev)}</details>')
+        rows.append(row)
+    return (f'<div class="card"><div class="art">PILOTO '
+            f'<span class="pair live">par no ar</span></div>'
+            f'<div class="artt">par cego único: todos os juízes avaliaram o mesmo par</div>'
+            f'{"".join(rows)}</div>')
+
+
+def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
     badge = ('<span class="pair live">par no ar</span>' if live
              else '<span class="pair soon">par pendente</span>')
-    t = f'<div class="artt">{title}</div>' if title else ""
-    rows = "".join(judge_row(round_, art, j) for j in jids)
-    return f'<div class="card"><div class="art">{art} {badge}</div>{t}{rows}</div>'
+    t = f'<div class="artt">{e(title)}</div>' if title else ""
+    return (f'<div class="card"><div class="art">{art} {badge}</div>{t}'
+            f'{judge_row(round_, art, jid, live)}</div>')
 
 
 def build() -> Path:
     by_round = articles_by_round()
 
-    piloto_rows = "".join(judge_row(0, "PILOTO", j) for j in JUDGES)
-    col0 = (f'<div class="card"><div class="art">PILOTO '
-            f'<span class="pair live">par no ar</span></div>'
-            f'<div class="artt">par cego único: todos os juízes avaliaram o mesmo par</div>'
-            f"{piloto_rows}</div>")
-
-    col1 = "".join(
-        card(1, a["article_id"], [a["nominated_by"]],
-             pair_live(a["article_id"]), a.get("title", ""))
-        for a in by_round[1])
-
-    col2 = "".join(
-        card(2, a["article_id"], [a["nominated_by"]],
-             pair_live(a["article_id"]), a.get("title", ""))
-        for a in by_round[2])
+    col0 = piloto_card()
+    col1 = "".join(card(1, a["article_id"], a["nominated_by"],
+                        pair_live(a["article_id"]), a.get("title", ""))
+                   for a in by_round[1])
+    col2 = "".join(card(2, a["article_id"], a["nominated_by"],
+                        pair_live(a["article_id"]), a.get("title", ""))
+                   for a in by_round[2])
 
     now = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M UTC")
-    n_done = sum(eval_done(0, "PILOTO", t[1]) for t in JUDGES.values())
-    n1 = sum(eval_done(1, a["article_id"], JUDGES[a["nominated_by"]][1]) for a in by_round[1])
-    n2 = sum(eval_done(2, a["article_id"], JUDGES[a["nominated_by"]][1]) for a in by_round[2])
+    n_done = sum(eval_done(0, "PILOTO", t) for t in JUDGES.values())
+    n1 = sum(eval_done(1, a["article_id"], JUDGES[a["nominated_by"]]) for a in by_round[1])
+    n2 = sum(eval_done(2, a["article_id"], JUDGES[a["nominated_by"]]) for a in by_round[2])
 
     html = f"""<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8">
@@ -115,19 +199,31 @@ h1{{color:var(--navy);font-size:22px;margin-bottom:4px}}
 .pair.soon{{background:#f1f5f9;color:#64748b}}
 .jrow{{display:flex;align-items:center;gap:8px;margin-top:8px;
   border-top:1px solid var(--line);padding-top:8px}}
-.jname{{font-size:13px;flex:1}}
-.jname i{{color:#94a3b8;font-style:normal;font-size:11px}}
+.jname{{font-size:13px;font-weight:700;color:var(--navy);flex:1}}
 .st{{font-size:11px;font-weight:600;border-radius:999px;padding:2px 9px}}
 .st.done{{background:#dcfce7;color:#166534}}
 .st.pend{{background:#fef9c3;color:#854d0e}}
 .go{{font-size:12px;font-weight:600;color:var(--blue);text-decoration:none;
-  border:1.5px solid var(--blue);border-radius:8px;padding:3px 10px}}
+  border:1.5px solid var(--blue);border-radius:8px;padding:3px 10px;white-space:nowrap}}
 .go:hover{{background:#eff6ff}}
+.go.off{{color:#94a3b8;border-color:#e2e8f0;cursor:default;font-weight:500}}
+.det{{margin-top:6px}}
+.det summary{{font-size:12px;color:var(--blue);cursor:pointer;font-weight:600}}
+.resp{{margin-top:8px;font-size:12px;line-height:1.55}}
+.prefline{{background:#eff6ff;border-radius:8px;padding:6px 10px;margin-bottom:8px}}
+table.sc{{border-collapse:collapse;width:100%;margin:6px 0;font-size:11.5px}}
+table.sc th{{background:var(--navy);color:#fff;padding:3px 8px;text-align:left}}
+table.sc td{{border:1px solid var(--line);padding:3px 8px}}
+table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
+.qside{{background:#f8fafc;border:1px solid var(--line);border-radius:8px;
+  padding:6px 10px;margin:6px 0}}
+.errs{{margin:2px 0 6px 8px}}
+.errl{{font-size:11px;color:#7f1d1d;margin:2px 0}}
 .foot{{max-width:1500px;margin:22px auto 0;font-size:11px;color:#94a3b8}}
 </style></head><body>
 <div style="max-width:1500px;margin:0 auto 16px">
   <h1>Acompanhamento das avaliações</h1>
-  <p class="sub">Fichamentos cegos A/B por artigo e status de resposta de cada juiz.
+  <p class="sub">Fichamentos cegos A/B por artigo e status de resposta de cada juiz (J1 a J4).
   O botão abre o formulário já preenchido com juiz, rodada e par.</p>
 </div>
 <div class="grid">
