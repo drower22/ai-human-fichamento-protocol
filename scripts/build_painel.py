@@ -249,7 +249,7 @@ def _human_fich(round_: int, art: str) -> dict | None:
 def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
     badge = ('<span class="pair live">par no ar</span>' if live
              else '<span class="pair soon">par pendente</span>')
-    t = f'<div class="artt">{e(title)}</div>' if title else ""
+    t = f'<div class="artt">Título: {e(title)}</div>' if title else ""
     # lado do estudante: resposta completa + autoavaliação + tempo + log
     fich = _human_fich(round_, art)
     stu = ""
@@ -262,10 +262,23 @@ def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
                f'{student_html(g.get("elapsed_minutes"), g.get("self_assessment"),
                                g.get("reflection_log"), REFL_R1)}</details>')
     else:
-        raw = list(Path.home().joinpath("Downloads").glob(f"S*_{art}.json"))
-        if raw:
-            stu = ('<div class="artt">fichamento recebido: '
-                   "aguardando validação</div>")
+        # resposta bruta ainda fora do schema: exibe com marcação pendente
+        raws = list(Path.home().joinpath("Downloads").glob(f"S*_{art}.json"))
+        if raws:
+            d = json.loads(raws[0].read_text())
+            content = {k: d.get(k) for k in
+                       ("executive_summary", "research_question", "theories",
+                        "theory_verdicts", "key_concepts", "methodology",
+                        "main_findings", "contribution")}
+            sid = d.get("participant_id", "")
+            stu = ('<div class="artt">recebido: aguardando validação</div>'
+                   f'<details class="det"><summary>ver Fichamento '
+                   f'<span class="artt">(estudante {e(sid)}; '
+                   f'aguardando validação)</span></summary>'
+                   f'<div class="fich">{_fich_html(content)}</div>'
+                   f'{student_html(d.get("elapsed_minutes"),
+                                   d.get("self_assessment"),
+                                   d.get("reflection_log"), REFL_R1)}</details>')
     return (f'<div class="card"><div class="art">Artigo {art[1:]} {badge}</div>{t}'
             f'{judge_row(round_, art, jid, live)}{stu}</div>')
 
