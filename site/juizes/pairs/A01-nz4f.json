@@ -1,0 +1,610 @@
+{
+ "demo": false,
+ "article_id": "A01",
+ "round": 1,
+ "title": "Uprooted by a petrochemical company: The ethical dimension of open strategy",
+ "authors": "Beatriz Lima Zanoni, Pablo Henrique Paschoal Capucho, Ingrid De Matos Martins, Natália Rese",
+ "year": 2024,
+ "venue": "RAM. Revista de Administração Mackenzie 25(5), eRAMG240065",
+ "A": {
+  "executive_summary": "O artigo debate a abertura da estratégia (open strategy) sob a ótica da pressão social sobre as organizações e defende que a dimensão ética seja incluída nesse debate (p.2/L039-048; p.5/L152-154). Os autores partem da pouca reflexão ética nos estudos de estratégia e de open strategy e argumentam que, em contextos extremos como crimes ambientais corporativos (ecocídio), a organização pode responder à pressão de movimentos sociais com uma abertura apenas cerimonial, sem compromisso ético (p.4/L099-108; p.5/L148-152). O referencial combina open strategy, com transparência e inclusão como pilares (p.7/L250-262), os cinco dilemas da open strategy de Hautz et al., criticados por ignorarem o dilema ético (p.8/L277-278; p.8/L316-318), movimentos sociais como possíveis promotores da abertura (p.9/L351-363) e a ética das virtudes de Tsoukas (p.6/L200-203; p.24/L1027-1028). O caso começou com tremores e rachaduras em bairros de Maceió em 2018, e o relatório da CPRM de 2019 apontou a extração de sal-gema pela Braskem como causa principal (p.5/L161-172; p.15/L617-620). O método é um estudo de caso documental qualitativo do \"fenômeno geológico\" da Braskem em Maceió (AL), com 32 reportagens do Estadão e da Folha de S.Paulo e um relatório da empresa, analisados por análise de conteúdo conforme Bardin (p.11/L446-448; p.13/L533-535; p.12/L468-473). Os achados indicam que a Braskem tratou o evento como fenômeno geológico, questionou o relatório da CPRM e ofereceu compensação e realocação, o que os autores interpretam como abertura cerimonial voltada à própria legitimidade (p.15/L645-652; p.16/L660-675; p.20/L853-864; p.22/L929-934). Os moradores, unidos pela dor compartilhada no Movimento Unificado das Vítimas da Braskem, cobraram transparência e inclusão e são caracterizados como desenraizados (p.16/L687-689; p.17/L707-713; p.19/L782-785). Concluem que a abertura deve ser construída dialogicamente, com práticas sociais situadas e ética não utilitária, sob pena de a transparência permanecer abertura gerenciada (p.2/L059-061; p.25/L1051-1053).",
+  "research_question": "O artigo não enuncia uma pergunta de pesquisa explícita; declara como objetivo debater a abertura da estratégia, entendida como pressão social sobre as organizações, como dimensão de destaque na formulação da estratégia (p.5/L152-154). Reconstruída como pergunta implícita: como a pressão social exercida por movimentos sociais em contextos extremos, a exemplo do ecocídio da Braskem em Maceió, se relaciona com a abertura da estratégia, e que lugar a dimensão ética deve ocupar nesse processo (p.5/L152-154; p.6/L204-207; p.2/L057-059).",
+  "theories": [],
+  "theory_verdicts": [
+   {
+    "item_id": "T1",
+    "name": "Open strategy (estratégia aberta)",
+    "verdict": "uses",
+    "source_refs": [
+     "p.2/L045-047",
+     "p.7/L240-246"
+    ],
+    "quote": "we use the theoretical framework of open strategy, assuming a practical perspective of this worldwide social phenomenon",
+    "note": "Referencial central do artigo, definido a partir de Hautz et al. (2017) com transparência e inclusão como pilares."
+   },
+   {
+    "item_id": "T2",
+    "name": "Teoria institucional",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "Aparece só como uma das abordagens da literatura de open strategy (p.6/L199-200) e como menção a lógica institucional na justificativa da análise documental (p.12/L460-464), sem desenvolvimento teórico."
+   },
+   {
+    "item_id": "T3",
+    "name": "Ética das virtudes aplicada à estratégia",
+    "verdict": "uses",
+    "source_refs": [
+     "p.24/L1027-1028",
+     "p.9/L353-356"
+    ],
+    "quote": "In this paper, we approximate the ethic of virtue proposed by Tsoukas (2018)",
+    "note": "Sustenta a proposta de incluir a dimensão ética na open strategy."
+   },
+   {
+    "item_id": "T4",
+    "name": "Teoria ator-rede",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "Não há menção à teoria ator-rede no texto."
+   },
+   {
+    "item_id": "T5",
+    "name": "Perspectiva prática / práticas sociais da estratégia",
+    "verdict": "uses",
+    "source_refs": [
+     "p.2/L045-047",
+     "p.6/L200-203",
+     "p.24/L995-998"
+    ],
+    "quote": "We propose an ethical dimension within the discussion of social practices",
+    "note": "Os autores assumem uma perspectiva prática da open strategy."
+   },
+   {
+    "item_id": "T6",
+    "name": "Perspectiva dialógica da open strategy",
+    "verdict": "uses",
+    "source_refs": [
+     "p.2/L059-060",
+     "p.7/L236-239",
+     "p.23/L987-989"
+    ],
+    "quote": "Openness is built from a dialogic perspective",
+    "note": "Aparece como achado declarado no resumo e na conclusão."
+   },
+   {
+    "item_id": "T7",
+    "name": "Teoria dos movimentos sociais",
+    "verdict": "uses",
+    "source_refs": [
+     "p.6/L204-207",
+     "p.9/L351-363",
+     "p.10/L395-399"
+    ],
+    "quote": "we propose that social movements should also be interpreted as motivators of change, mainly in terms of the opening and closing of these strategies",
+    "note": "Movimentos sociais são um dos dois grandes temas relacionados à open strategy e estruturam a análise do caso."
+   },
+   {
+    "item_id": "T8",
+    "name": "Contextos extremos (extreme contexts)",
+    "verdict": "uses",
+    "source_refs": [
+     "p.4/L130-135",
+     "p.5/L149-152",
+     "p.20/L841-844"
+    ],
+    "quote": "Extreme contexts are defined by Hannah et al. (2009) as environments in which extreme events may or may not occur that go beyond the organization’s capacity to avert them",
+    "note": "Enquadra o caso Braskem e a hipótese de abertura cerimonial sob pressão."
+   },
+   {
+    "item_id": "T9",
+    "name": "Teoria da identidade social",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "Cita identidade social compartilhada como fator de formação dos movimentos (p.11/L426-432), sem recorrer à teoria da identidade social."
+   },
+   {
+    "item_id": "T10",
+    "name": "Legitimidade organizacional e gerenciamento de impressões",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.4/L127-129",
+     "p.20/L858-860",
+     "p.21/L869-871"
+    ],
+    "quote": "transparency increases legitimacy, reduces information asymmetries, and collaborates in managing impressions",
+    "note": "Sustenta a interpretação da abertura da Braskem, sem estruturar o referencial."
+   },
+   {
+    "item_id": "T11",
+    "name": "Amor mundi / ética multinível",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.19/L801-807"
+    ],
+    "quote": "We assume that ethics is a multilevel concept, particularly in the discussions of Hannah Arendt and her concept of world love (or love of the world)",
+    "note": "Explicado brevemente para fundamentar a ética multinível."
+   },
+   {
+    "item_id": "T12",
+    "name": "Desenraizamento (uprootedness)",
+    "verdict": "uses",
+    "source_refs": [
+     "p.18/L768-770",
+     "p.19/L782-785",
+     "p.20/L837-839"
+    ],
+    "quote": "People have had their roots cracked like their houses, and thus, they can be characterized as uprooted",
+    "note": "Estrutura a leitura do caso e dá título ao artigo; também é usado como alegoria do movimento social."
+   },
+   {
+    "item_id": "T13",
+    "name": "Mediatização",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.12/L457-460",
+     "p.12/L460-464"
+    ],
+    "quote": "this study assumes a perspective of reality as seen through the media and analyzes this process of profound mediatization",
+    "note": "Fundamenta a escolha da pesquisa documental em reportagens."
+   },
+   {
+    "item_id": "T14",
+    "name": "Teoria dos stakeholders",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "Usa o termo stakeholders como vocabulário (p.5/L175-176) e faz um contraste de uma frase (p.8/L320-323), sem apresentar a teoria; só aparece como título em referência (p.28/L1185-1186)."
+   },
+   {
+    "item_id": "T15",
+    "name": "Sensemaking organizacional",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "Citado apenas como uma das abordagens da literatura de open strategy (p.6/L198) e em passagem sobre conhecimento (p.7/L246-249), sem desenvolvimento."
+   },
+   {
+    "item_id": "T16",
+    "name": "Deontologia kantiana / ética do cuidado",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "Aparecem só como paradigmas éticos alternativos sugeridos para pesquisas futuras (p.24/L1028-1030)."
+   },
+   {
+    "item_id": "T17",
+    "name": "Teoria de redes organizacionais",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "Citada apenas como uma das abordagens da literatura (p.6/L199) e em menção a interconexão entre organizações (p.23/L979-980)."
+   },
+   {
+    "item_id": "T18",
+    "name": "Open organizing",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.25/L1041-1044",
+     "p.23/L961-965"
+    ],
+    "quote": "a step beyond discussing open strategy would be discussing open organizing (Splitter et al., 2023), which goes beyond elaborating strategy and permeates all the activities undertaken by an organization",
+    "note": "Apresentado como passo seguinte da agenda, não como lente da análise."
+   }
+  ],
+  "key_concepts": [
+   {
+    "concept": "Open strategy (estratégia aberta)",
+    "definition": "Conjunto dinâmico de práticas que dá a atores internos e externos maior transparência e/ou inclusão na estratégia, em graus variáveis conforme as contingências (definição de Hautz et al., adotada pelos autores).",
+    "quote": "a dynamic bundle of practices that affords internal and external actors greater strategic transparency and/or inclusion, the balance and extent of which respond to evolving contingencies derived from both within and without organizational boundaries",
+    "source_refs": [
+     "p.7/L242-246"
+    ]
+   },
+   {
+    "concept": "Abertura cerimonial",
+    "definition": "Abertura da estratégia feita sob pressão social, sem compromisso ético; classificada assim quando a transparência não cumpre intencionalidade, visibilidade e qualidade e visa reduzir as consequências negativas para a organização.",
+    "quote": "The ceremonial opening movement is classified as such because the transparency of the information did not fulfill the tenets of intentionality, visibility, and quality",
+    "source_refs": [
+     "p.22/L929-931",
+     "p.5/L150-152"
+    ]
+   },
+   {
+    "concept": "Desenraizamento (uprooted)",
+    "definition": "Pessoas que criaram raízes em seu bairro e cidade por anos e as tiveram arrancadas à força quando o solo cedeu; o termo também serve de alegoria para o movimento social em debate.",
+    "quote": "In this paper, we understand the uprooted as those who created roots in their neighborhood and city for years but had them taken away by force when the ground shook",
+    "source_refs": [
+     "p.18/L777",
+     "p.19/L782-785"
+    ]
+   },
+   {
+    "concept": "Dimensão ética não utilitária da estratégia",
+    "definition": "Proposta de incorporar a ética à formulação da estratégia e aos processos abertos como prática virtuosa e espaço de coexistência entre organização e seus pares relacionais, e não como um recurso.",
+    "quote": "We propose incorporating the ethical dimension in this debate in a non-utilitarian form, instead in social and organizational actions, in formulating strategy and open processes",
+    "source_refs": [
+     "p.23/L981-984",
+     "p.25/L1059-1062"
+    ]
+   }
+  ],
+  "methodology": {
+   "study_type": "empírico (qualitativo)",
+   "design": "Estudo de caso documental do \"fenômeno geológico\" da Braskem em Maceió (AL), ocorrido em 2018.",
+   "sample_type": "Reportagens de jornal (Estadão e Folha de S.Paulo) e relatório corporativo da Braskem (2023b).",
+   "sample_size": 32,
+   "sector": "Petroquímico (Braskem, mineração de sal-gema em Maceió, Alagoas)",
+   "period": "Reportagens de março de 2018 a março de 2023",
+   "methods": [
+    "pesquisa documental",
+    "análise de conteúdo (Bardin, 2016)"
+   ],
+   "analysis_note": "Análise de conteúdo em três etapas de Bardin (pré-análise, exploração do material, tratamento e interpretação). Do total de 46 artigos do Estadão e 29 da Folha, foram selecionados 17 e 15 (32 no corpus); um relatório da empresa foi acrescentado. Não houve codificação por unidades de registro nem quantificação: priorizaram-se os sentimentos presentes nos trechos (p.13/L494-499; p.13/L533-535; p.14/L589-593).",
+   "source_refs": [
+    "p.11/L446-448",
+    "p.12/L451-453",
+    "p.12/L468-473",
+    "p.13/L494-499",
+    "p.13/L533-535",
+    "p.14/L583-593"
+   ]
+  },
+  "main_findings": [
+   {
+    "finding": "A Braskem tratou o evento como \"fenômeno geológico\" e não assumiu responsabilidade, mesmo após o relatório da CPRM de 8 de dezembro de 2019 apontar a extração de sal-gema como causa principal.",
+    "type": "empirical",
+    "quote": "To the company, there is no relationship between this geological phenomenon and the rock salt mining used in its industrial processes",
+    "source_refs": [
+     "p.15/L617-620",
+     "p.16/L660-669"
+    ]
+   },
+   {
+    "finding": "A transparência alegada pela Braskem não se sustentou: foram apontadas omissão de dados e falta de qualidade nos dados apresentados.",
+    "type": "empirical",
+    "quote": "there is an absence of data for 27 [. . .] of the 35 existing mines",
+    "source_refs": [
+     "p.15/L632-644"
+    ]
+   },
+   {
+    "finding": "A mobilização social nasceu da dor compartilhada, começou fragmentada (SOS Pinheiro e associações de Mutange e Bom Parto) e se consolidou no Movimento Unificado das Vítimas da Braskem, com postura confrontacional que exigia transparência e inclusão.",
+    "type": "empirical",
+    "quote": "the beginning of the residents’ mobilization in these communities was constructed based on the shared pain generated by this ecocide",
+    "source_refs": [
+     "p.16/L687-689",
+     "p.16/L690-695",
+     "p.17/L697-713"
+    ]
+   },
+   {
+    "finding": "O dano ultrapassou a compensação financeira e a realocação: a perda de vínculos e memórias, a escala (de 200 moradores a 14,5 mil imóveis abandonados, 20% de Maceió) e consequências ainda latentes, como o bairro virar cidade fantasma.",
+    "type": "empirical",
+    "quote": "By 2023, 14.5 thousand homes, apartments, and commercial establishments had been abandoned, equivalent to 20% of the city of Maceió",
+    "source_refs": [
+     "p.17/L726-735",
+     "p.20/L830-834",
+     "p.21/L886-896"
+    ]
+   },
+   {
+    "finding": "A Braskem ampliou transparência e inclusão após ser responsabilizada (abertura a órgãos governamentais e Programa de Compensação Financeira e Apoio à Realocação), o que os autores classificam como abertura cerimonial.",
+    "type": "empirical",
+    "quote": "the organization increased transparency and inclusion when it responded to an extreme event by making itself available to governmental bodies and instituting programs that promote dialogue with the affected local community through the Financial Compensation and Relocation Support Program",
+    "source_refs": [
+     "p.22/L917-921",
+     "p.22/L929-934"
+    ]
+   },
+   {
+    "finding": "A abertura da Braskem é administrada para não afetar sua estratégia nem seus dilemas de abertura, sustentada por visão instrumental e cerimonial.",
+    "type": "empirical",
+    "quote": "the company is upholding the status quo through an instrumental and ceremonial strategic vision",
+    "source_refs": [
+     "p.20/L858-864",
+     "p.21/L867-876"
+    ]
+   },
+   {
+    "finding": "Os dados não permitem saber o grau de abertura que a organização precisou aceitar, mas sua postura responsiva mostra o potencial dos movimentos sociais organizados em comunidades.",
+    "type": "empirical",
+    "quote": "the fact that the organization assumed a responsive posture demonstrates the seriousness and potential of social movements and other external actors concerning a strategic opening once they organize themselves into communities",
+    "source_refs": [
+     "p.22/L935-940"
+    ]
+   },
+   {
+    "finding": "Movimentos sociais devem ser interpretados como motivadores de mudança na abertura e no fechamento da estratégia, além de usuário, firma e mercado.",
+    "type": "proposition",
+    "quote": "we propose that social movements should also be interpreted as motivators of change, mainly in terms of the opening and closing of these strategies",
+    "source_refs": [
+     "p.10/L395-399"
+    ]
+   },
+   {
+    "finding": "A dimensão ética precisa entrar nos debates sobre open strategy; a abertura é construída dialogicamente, a partir de práticas sociais situadas.",
+    "type": "proposition",
+    "quote": "Openness is built from a dialogic perspective, and social practices are considered a social-historic and culturally situated framework",
+    "source_refs": [
+     "p.2/L057-061",
+     "p.24/L995-1002"
+    ]
+   },
+   {
+    "finding": "Sem levar a ética a sério, a transparência será sempre abertura gerenciada e as organizações seguirão cerimoniais.",
+    "type": "proposition",
+    "quote": "In the final analysis, the dimension of transparency will always be managed openness",
+    "source_refs": [
+     "p.25/L1046-1053"
+    ]
+   }
+  ],
+  "contribution": {
+   "theoretical": "Propõe incluir a dimensão ética, ancorada na ética das virtudes de Tsoukas, no debate sobre open strategy (p.2/L042-048; p.24/L1027-1028) e interpretar movimentos sociais como motivadores da abertura e do fechamento da estratégia (p.10/L395-399). Aplica a open strategy a um setor em que a abertura é pouco relevante, diferente de muitos estudos centrados em tecnologia e inovação (p.23/L974-980), e propõe uma agenda: dados primários sobre abertura cerimonial, outros paradigmas éticos e open organizing (p.24/L1023-1030; p.25/L1041-1045).",
+   "practical": "O artigo não traz seção própria de implicações gerenciais. A utilidade prática indicada é lidar com os dilemas da open strategy sem perspectiva funcional-sistêmica, com mudanças práticas na formulação da estratégia (p.25/L1046-1048), e o caso mostra que a abertura sob pressão social pode ser apenas cerimonial (p.22/L929-934)."
+  }
+ },
+ "B": {
+  "executive_summary": "O artigo debate a dimensão ética da abertura da estratégia no contexto de eventos extremos (p. 4 L099-135). Para tal ele articula a teoria de estratégia aberta (Tavakoli et al., 2017 e Hautz et al, 2017) (p. 7 L228-249) e movimentos sociais (Alaggia & Wang, 2020 e Appleyard & Chesbrough, 2017) (p. 9 L353-364). A questão de pesquisa indaga como a abertura da estratégia, enquanto parte da pressão social às organizações, pode atuar como dimensão ética na formulação da estratégia. (p. 5 L152-156).\n\nPara explorar tal questão, o estudo se estrutura como uma pesquisa qualitativa estudando o caso extremo da Braskem em Maceió (p. 11, L434-445) a partir de coleta e análise documental de conteúdo das notícias dos jornais brasileiros Estadão e Folha S. Paulo (p. 11, L446-447; p. 12 L452-467). \n\nOs principais achados demonstram como a Braskem usou da abertura da estratégia como uma tática para diluir a pressão social e manobrar as expectativas de Stakeholders (p. 16 L654-693). Outro achado importante foi como tais ações se pautavam em uma reparação de ética instrumentalizada (p. 19 L782-821) e desprezavam condições mais profundas como questões psicológicas (p. 21 L877-885) e os riscos derivados (p. 21 L886-896). Por fim, os achados demonstram o uso de especialista para legitimação (p. 22 L922-940).\nO estudo conclui propondo que a abertura estratégia ligada às pressões sociais podem criar uma nova organização que se aproxime de uma ética não-instrumental (p. 23 L957-984) e propõe a dimensão ética como uma forma de dar seriedade aos dilemas (e limitações) da teoria de estratégia aberta (p.25 L1038-1062).",
+  "research_question": "Como a abertura da estratégia, enquanto pressão social às organizações, pode ser atuar como dimensão (ética) no contexto do desenvolvimento da estratégia? (p. 5 L152-156)",
+  "theories": [],
+  "theory_verdicts": [
+   {
+    "item_id": "T1",
+    "name": "Open strategy (estratégia aberta)",
+    "verdict": "uses",
+    "source_refs": [
+     "p.4 L108-112",
+     "p.7",
+     "L228-264",
+     "p.8",
+     "L328-350",
+     "L958-969",
+     "L928-934"
+    ],
+    "quote": "240 249 p. 7 L 269 323 p. 9 p. 23 p. 22",
+    "note": ""
+   },
+   {
+    "item_id": "T2",
+    "name": "Teoria institucional",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T3",
+    "name": "Ética das virtudes aplicada à estratégia",
+    "verdict": "uses",
+    "source_refs": [
+     "L099-101",
+     "L104-106",
+     "L201-203",
+     "L316-330",
+     "L805-807",
+     "L981-984",
+     "L1003-1010"
+    ],
+    "quote": "p. 4 p. 6 p. 8 p. 19 p. 21 874 876 p. 23 p. 24",
+    "note": ""
+   },
+   {
+    "item_id": "T4",
+    "name": "Teoria ator-rede",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T5",
+    "name": "Perspectiva prática / práticas sociais da estratégia",
+    "verdict": "uses",
+    "source_refs": [
+     "L1010-1018"
+    ],
+    "quote": "p. 6 200 203 p. 24",
+    "note": ""
+   },
+   {
+    "item_id": "T6",
+    "name": "Perspectiva dialógica da open strategy",
+    "verdict": "discusses",
+    "source_refs": [
+     "L108-116",
+     "L253-256",
+     "L421-425"
+    ],
+    "quote": "p. 4 p. 7 p. 11",
+    "note": ""
+   },
+   {
+    "item_id": "T7",
+    "name": "Teoria dos movimentos sociais",
+    "verdict": "uses",
+    "source_refs": [
+     "p.9 L356-363",
+     "L368-407",
+     "L411-432"
+    ],
+    "quote": "p. 10 p. 11",
+    "note": ""
+   },
+   {
+    "item_id": "T8",
+    "name": "Contextos extremos (extreme contexts)",
+    "verdict": "discusses",
+    "source_refs": [
+     "L132-136",
+     "L140-147",
+     "L1019-1030",
+     "L837-848"
+    ],
+    "quote": "p. 4 p. 5 p. 24 p. 20",
+    "note": ""
+   },
+   {
+    "item_id": "T9",
+    "name": "Teoria da identidade social",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T10",
+    "name": "Legitimidade organizacional e gerenciamento de impressões",
+    "verdict": "discusses",
+    "source_refs": [
+     "L127-131",
+     "L589-601",
+     "L922-929"
+    ],
+    "quote": "p. 4 p. 14 p. 22",
+    "note": ""
+   },
+   {
+    "item_id": "T11",
+    "name": "Amor mundi / ética multinível",
+    "verdict": "discusses",
+    "source_refs": [
+     "L799-805"
+    ],
+    "quote": "p. 19",
+    "note": ""
+   },
+   {
+    "item_id": "T12",
+    "name": "Desenraizamento (uprootedness)",
+    "verdict": "discusses",
+    "source_refs": [
+     "L786-794",
+     "p.18 L771-777",
+     "L782-785",
+     "L807-815"
+    ],
+    "quote": "p. 19 p. 19 p. 19",
+    "note": ""
+   },
+   {
+    "item_id": "T13",
+    "name": "Mediatização",
+    "verdict": "discusses",
+    "source_refs": [
+     "L457-460"
+    ],
+    "quote": "p. 12",
+    "note": ""
+   },
+   {
+    "item_id": "T14",
+    "name": "Teoria dos stakeholders",
+    "verdict": "discusses",
+    "source_refs": [],
+    "quote": "p. 4 L 104 108",
+    "note": ""
+   },
+   {
+    "item_id": "T15",
+    "name": "Sensemaking organizacional",
+    "verdict": "discusses",
+    "source_refs": [
+     "L198"
+    ],
+    "quote": "p. 6",
+    "note": ""
+   },
+   {
+    "item_id": "T16",
+    "name": "Deontologia kantiana / ética do cuidado",
+    "verdict": "discusses",
+    "source_refs": [
+     "L1028-1030"
+    ],
+    "quote": "p. 24",
+    "note": ""
+   },
+   {
+    "item_id": "T17",
+    "name": "Teoria de redes organizacionais",
+    "verdict": "discusses",
+    "source_refs": [
+     "L199"
+    ],
+    "quote": "p. 6",
+    "note": ""
+   },
+   {
+    "item_id": "T18",
+    "name": "Open organizing",
+    "verdict": "discusses",
+    "source_refs": [
+     "L1041-1045"
+    ],
+    "quote": "p. 25",
+    "note": ""
+   }
+  ],
+  "key_concepts": [
+   {
+    "concept": "Movimentos Sociais",
+    "definition": "As secondary stakeholders of the\norganization, the people affected gathered in their communities (Dobusch\n& Kapeller, 2018) to create what we call social movements.  p. 5 L175-177; \n\nTherefore, socialmovements, like one or more communities in society, can exert pressure on\nthe organization by demanding transparency and inclusion in strategic prac-\ntices, promoting the opening of the organization’s strategy (Ohlson & Yakis-\nDouglas, 2019).  (p.9 L339-343)",
+    "quote": "",
+    "source_refs": [
+     "L175-177",
+     "p.9 L339-343"
+    ]
+   },
+   {
+    "concept": "Estratégia Aberta",
+    "definition": "The open strategy approach proposes greater openness, with an organi-\nzation’s internal and external members participating more significantly in\nelaborating and implementing strategy (Tavakoli et al., 2017). Hautz et al.\n(2017) define it as “a dynamic bundle of practices that affords internal and\nexternal actors greater strategic transparency and/or inclusion, the balance\nand extent of which respond to evolving contingencies derived from both\nwithin and without organizational boundaries.” Including different forms of\nknowledge enables an organization to create a more robust sensemaking\nsystem, which is capable of dealing with the complexity of an organization’s\ncontext (Seidl & Werle, 2018). (p. 7 L240-249)",
+    "quote": "",
+    "source_refs": [
+     "L240-249"
+    ]
+   }
+  ],
+  "methodology": {
+   "study_type": "empírico",
+   "design": "Estudo de caso único",
+   "sample_type": "Notícias e relatórios",
+   "sample_size": 32,
+   "sector": "Jornais e Minérios",
+   "period": "Março de 2018 a Março de 2023",
+   "methods": [
+    "análise de conteúdo",
+    "análise documental"
+   ],
+   "analysis_note": "Duas triagens, primeiro direta sobre o evento e depois outra que incluía perspectivas relacionadas de afetados e reguladores, seleção de excertos ligados com movimentos sociais. Foco em sentimentos expressos nos excertos.",
+   "source_refs": []
+  },
+  "main_findings": [
+   {
+    "finding": "A inclusão da sociedade local cria uma nova forma de organização, incorporando novas vozes e prontificando-a ao diálogo que a torna mais ética. As organizações, porém, reagem para freá-la com discursos instrumentais de reparação e o contrato de especialistas para legitimar suas ações",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": []
+   },
+   {
+    "finding": "Incorporação da dimensão ética com base não-utilitária na formulação de estratégia e abertura estratégica. Isso deve incluir a dimensão sociohistórica da formulação da estratégia.",
+    "type": "proposition",
+    "quote": "",
+    "source_refs": []
+   },
+   {
+    "finding": "A estratégia aberta pode ser usada como cerimonialismo para diminuir a intensidade da reação de movimentos sociais. Ademais, isso se dá de maneira instrumental, destacando os aspectos econômicos.",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": []
+   }
+  ],
+  "contribution": {
+   "theoretical": "O artigo advoga pela análise ética das ações organizações, em especial,  as práticas de abertura de estratégia. Demonstrando os limites da visão instrumental para com o desenvolvimento social e o tratamento de situações alta crise (como ecocídio).",
+   "practical": "O fortalecimento de movimentos sociais, em conjunto com a abertura estratégica, pode auxiliar a tomada de decisão ética que avance o cerimonialismo sistêmico-funcional."
+  }
+ }
+}

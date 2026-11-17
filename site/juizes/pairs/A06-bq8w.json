@@ -1,0 +1,445 @@
+{
+ "demo": false,
+ "article_id": "A06",
+ "round": 1,
+ "title": "The Institutional Dynamics of the Separation of Bachelor's Degree in Social Communication",
+ "authors": "Bruno Eduardo Slongo Garcia, Pedro Chapaval Pimentel, Ricardo Tesseroli",
+ "year": 2025,
+ "venue": "Educação & Realidade 50, e145730",
+ "A": {
+  "executive_summary": "O estudo examina como a dinâmica das lógicas institucionais (re)configurou a prática social da educação em Comunicação Social durante a separação dos bacharelados em uma instituição pública de ensino superior (p.1/L008-012; p.2/L075-078). Apoia-se na abordagem das lógicas institucionais, com tipos ideais de Thornton, Ocasio e Lounsbury, no hibridismo e na perspectiva da prática, que analisa a estrutura de governança da prática por entendimentos, regras e estruturas teleoafetivas (p.3/L123-129; p.4/L149-157; p.5/L192-204; p.8/L398-404). O método é um estudo de caso qualitativo em uma universidade federal chamada Alpha, com análise de 34 documentos (atas e normativos) e entrevistas com oito pessoas, tratados por análise de conteúdo interpretativa e abordagem configuracional (p.5/L225-229; p.6/L249-262; p.7/L320-337). Os resultados indicam que a separação foi impulsionada pela lógica dominante da Comunicação Social como Profissão, que prioriza a formação técnica para o mercado (p.1/L012-016; p.13/L687-692). A Alpha, porém, resistiu à abordagem tecnicista e integrou elementos das lógicas acadêmica e normativa em uma lógica híbrida regional, que preservou práticas críticas e reflexivas e a autonomia docente (p.1/L015-019; p.19/L1006-1011; p.22/L1181-1183). As práticas mudaram: as reuniões passaram a ser por programa, o planejamento das aulas incorporou competências de mercado, os estudantes enfrentaram menos disciplinas optativas e a gestão se centralizou nas coordenações (p.15/L788-792; p.16/L881-884; p.18/L953-961; p.18/L976-981). Os autores argumentam que a busca por legitimidade levou à hibridização e alertam que organizações privadas podem não ter os mesmos recursos para adotá-la (p.19/L1024-1029; p.20/L1070-1080). Reconhecem como limitação o caso único em um departamento e sugerem estudos comparativos (p.24/L1277-1286).",
+  "research_question": "Como a dinâmica das lógicas institucionais na separação dos bacharelados (re)configurou a prática social da educação em Comunicação Social em uma instituição pública de ensino superior? A pergunta é enunciada explicitamente (p.2/L075-078) e repetida na seção metodológica (p.5/L221-224).",
+  "theories": [],
+  "theory_verdicts": [
+   {
+    "item_id": "T1",
+    "name": "Lógicas institucionais",
+    "verdict": "uses",
+    "source_refs": [
+     "p.3/L123-129",
+     "p.2/L081-084"
+    ],
+    "quote": "Institutional logics can be understood as the grammar of valuation practices, regularities, rules, and conventions that sustain these moments of valuation",
+    "note": "Abordagem central usada para explicar a separação dos bacharelados."
+   },
+   {
+    "item_id": "T2",
+    "name": "Hibridismo de lógicas institucionais",
+    "verdict": "uses",
+    "source_refs": [
+     "p.4/L149-157",
+     "p.19/L1006-1011"
+    ],
+    "quote": "Hybridity emerges from the combination of elements belonging to different logics, creating new practices that reflect this mix",
+    "note": "A hibridização é o principal resultado e a resposta da Alpha às lógicas do campo."
+   },
+   {
+    "item_id": "T3",
+    "name": "Teoria dos stakeholders",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "'Stakeholders' aparece apenas como termo geral (p.20/L1046-1048; p.20/L1052); a teoria dos stakeholders não é apresentada."
+   },
+   {
+    "item_id": "T4",
+    "name": "Teoria das práticas sociais (estrutura de governança da prática)",
+    "verdict": "uses",
+    "source_refs": [
+     "p.5/L192-204",
+     "p.7/L320-330"
+    ],
+    "quote": "Understanding how practices are organized requires examining their governance structure, which comprises three key elements: understandings, rules, and teleoaffective structures",
+    "note": "A estrutura de governança da prática (Schatzki) organiza a análise da prática educacional na Alpha."
+   },
+   {
+    "item_id": "T5",
+    "name": "Tipos ideais weberianos aplicados às lógicas",
+    "verdict": "uses",
+    "source_refs": [
+     "p.11/L553-565",
+     "p.8/L398-404"
+    ],
+    "quote": "The ideal types presented in this section are analytical constructions of reality developed by Thornton, Ocasio, and Lounsbury (2012) based on the concept proposed by Max Weber",
+    "note": "Os tipos ideais (Tabela 3) identificam as lógicas profissional, acadêmica e normativa."
+   },
+   {
+    "item_id": "T6",
+    "name": "Legitimidade organizacional",
+    "verdict": "uses",
+    "source_refs": [
+     "p.19/L1024-1029",
+     "p.20/L1046-1051"
+    ],
+    "quote": "Alpha understood it needed to adapt to achieve legitimacy",
+    "note": "A busca por legitimidade explica por que a Alpha adotou práticas do mercado e uma lógica híbrida."
+   },
+   {
+    "item_id": "T7",
+    "name": "Teoria ator-rede",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "A teoria ator-rede não é mencionada."
+   },
+   {
+    "item_id": "T8",
+    "name": "Recursividade agência-estrutura institucional",
+    "verdict": "uses",
+    "source_refs": [
+     "p.20/L1057-1069",
+     "p.22/L1175-1183"
+    ],
+    "quote": "The recursivity addressed in this article is a phenomenon rarely explored in institutional studies and can be defined as the capacity of actors to act upon the institutional context",
+    "note": "A recursividade explica como a Alpha agiu sobre o contexto ao combinar práticas de lógicas distintas."
+   },
+   {
+    "item_id": "T9",
+    "name": "Capitalismo acadêmico / reformas neoliberais na educação superior",
+    "verdict": "uses",
+    "source_refs": [
+     "p.23/L1207-1220",
+     "p.9/L453-467"
+    ],
+    "quote": "its foundation lies in the neoliberal reforms that have influenced higher education in Brazil since the 1996 educational reforms",
+    "note": "Reformas neoliberais e capitalismo acadêmico são o pano de fundo da lógica profissional dominante (p.12/L651-654)."
+   },
+   {
+    "item_id": "T10",
+    "name": "Complexidade institucional e respostas organizacionais",
+    "verdict": "uses",
+    "source_refs": [
+     "p.19/L1003-1011",
+     "p.15/L806-811"
+    ],
+    "quote": "the organization’s response through hybridity, combining elements of the three logics identified in this study and forming a regional hybrid logic",
+    "note": "A resposta organizacional à pluralidade de lógicas é o objeto da seção sobre hibridismo; Greenwood et al. são citados para a heterogeneidade de práticas (p.15/L806-808)."
+   },
+   {
+    "item_id": "T11",
+    "name": "Desigualdades moldadas pelo contexto institucional",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.24/L1245-1250",
+     "p.20/L1070-1080"
+    ],
+    "quote": "the availability and compatibility of certain logics with specific types of organizations can reinforce inequality",
+    "note": "Discutida como ponto adicional; os autores declaram que o estudo não focou nos mecanismos de desigualdade (p.20/L1076-1077)."
+   }
+  ],
+  "key_concepts": [
+   {
+    "concept": "Lógicas institucionais",
+    "definition": "Gramática das práticas de valoração, regularidades, regras e convenções; conjunto de práticas materiais e construções simbólicas que operam como tríade que liga sujeito, objeto e práticas.",
+    "quote": "Institutional logics can be understood as the grammar of valuation practices, regularities, rules, and conventions that sustain these moments of valuation",
+    "source_refs": [
+     "p.3/L123-129"
+    ]
+   },
+   {
+    "concept": "Hibridismo institucional",
+    "definition": "Combinação de elementos de lógicas distintas que cria novas práticas que refletem essa mistura, sem exigir sobreposição completa das lógicas.",
+    "quote": "Hybridity emerges from the combination of elements belonging to different logics, creating new practices that reflect this mix",
+    "source_refs": [
+     "p.4/L149-157"
+    ]
+   },
+   {
+    "concept": "Tipos ideais das lógicas da Comunicação Social",
+    "definition": "Três lógicas identificadas no campo: Comunicação Social como Profissão (formação para a prática profissional), Acadêmica (preparação intelectual e pesquisa) e Normativa (regulação das atividades).",
+    "quote": "The Social Communication as Profession logic is characterized by practices that influenced education with the aim of preparing professionals in the field with practical knowledge",
+    "source_refs": [
+     "p.12/L656-679",
+     "p.12/L568-655"
+    ]
+   },
+   {
+    "concept": "Estrutura de governança da prática",
+    "definition": "Conjunto de entendimentos (conhecimentos e habilidades), regras (diretrizes formais ou informais) e estruturas teleoafetivas (objetivos, ações e sentimentos considerados apropriados) que organiza uma prática.",
+    "quote": "Understanding how practices are organized requires examining their governance structure, which comprises three key elements: understandings, rules, and teleoaffective structures",
+    "source_refs": [
+     "p.5/L192-204"
+    ]
+   },
+   {
+    "concept": "Recursividade",
+    "definition": "Capacidade dos atores de agir sobre o contexto institucional, desconstruindo significados tomados como dados.",
+    "quote": "The recursivity addressed in this article is a phenomenon rarely explored in institutional studies and can be defined as the capacity of actors to act upon the institutional context",
+    "source_refs": [
+     "p.20/L1057-1063"
+    ]
+   },
+   {
+    "concept": "Comunicação Social Multidisciplinar (lógica híbrida regional)",
+    "definition": "Lógica híbrida que concilia demandas normativas, de mercado e profissionais da área, preservando as especificidades regionais da organização e espaços de debate crítico.",
+    "quote": "We refer to this approach as Multidisciplinary Social Communication, which seeks to reconcile and dialogue with the normative, market, and professional demands of the field while preserving the regional specificities of the organization",
+    "source_refs": [
+     "p.21/L1103-1109",
+     "p.24/L1257-1261"
+    ]
+   }
+  ],
+  "methodology": {
+   "study_type": "empírico (qualitativo)",
+   "design": "Estudo de caso em uma universidade federal brasileira (Alpha), com triangulação de documentos históricos e entrevistas.",
+   "sample_type": "34 documentos selecionados (25 atas e 9 normativos) e 8 entrevistados (3 docentes, 3 estudantes e 2 técnicos administrativos)",
+   "sample_size": 8,
+   "sector": "educação superior pública (curso de Comunicação Social)",
+   "period": "contexto desde 1995; separação dos bacharelados discutida de 2013 a 2016, com transição até 2020-2021",
+   "methods": [
+    "estudo de caso",
+    "análise documental",
+    "entrevistas",
+    "análise de conteúdo interpretativa",
+    "abordagem configuracional"
+   ],
+   "analysis_note": "Foram revisados 124 documentos e selecionados 34, com 975 páginas, aplicando critérios de Merriam (p.6/L249-255). As entrevistas partiram de uma conversa com um docente e a coordenadora do curso e seguiram indicações (p.6/L255-262). A análise teve duas etapas: identificação dos tipos ideais das lógicas e abordagem configuracional da governança da prática antes e depois da separação (p.7/L320-330), com análise de conteúdo interpretativa (Flores, 1994) em quatro passos: leitura flutuante, codificação, categorização e interpretação (p.7/L331-337). Os autores afirmam que não buscam generalização estatística (p.6/L306-308).",
+   "source_refs": [
+    "p.5/L225-231",
+    "p.6/L249-262",
+    "p.6/L306-308",
+    "p.7/L320-337"
+   ]
+  },
+  "main_findings": [
+   {
+    "finding": "A separação dos bacharelados foi conduzida pela lógica dominante da Comunicação Social como Profissão, que levou ao fracionamento da formação para um desempenho profissional mais efetivo.",
+    "type": "empirical",
+    "quote": "The professionalization movement of the period was guided by the dominant Social Communication as Profession logic",
+    "source_refs": [
+     "p.13/L687-692",
+     "p.19/L1003-1005"
+    ]
+   },
+   {
+    "finding": "A Alpha respondeu às lógicas do campo por hibridismo, integrando elementos profissionais, acadêmicos e normativos e preservando sua missão acadêmica.",
+    "type": "empirical",
+    "quote": "The hybrid institutional logic enabled the organization to act recursively and legitimately, using combined practices that met institutional demands while safeguarding its own academic mission",
+    "source_refs": [
+     "p.22/L1181-1183",
+     "p.19/L1006-1011",
+     "p.20/L1076-1080"
+    ]
+   },
+   {
+    "finding": "As práticas docentes mudaram: as reuniões passaram a ser por programa, o planejamento incorporou competências de mercado e houve redução da exposição a conteúdo teórico em favor de disciplinas de prática profissional.",
+    "type": "empirical",
+    "quote": "The practice of teaching underwent changes, with a reduction in the exposure to theoretical content, favoring activities aligned with market demands and the inclusion of courses focused on professional practice",
+    "source_refs": [
+     "p.16/L881-884",
+     "p.15/L788-792",
+     "p.22/L1127-1161"
+    ]
+   },
+   {
+    "finding": "Estudantes enfrentaram redução de optativas e menor participação no processo, e a gestão administrativa foi centralizada nas coordenações dos programas.",
+    "type": "empirical",
+    "quote": "students faced challenges with these changes, especially with the reduction in the number of elective courses available in the department",
+    "source_refs": [
+     "p.18/L954-961",
+     "p.18/L976-981",
+     "p.19/L988-990"
+    ]
+   },
+   {
+    "finding": "A hibridização, adotada em busca de legitimidade, pode não estar igualmente disponível a organizações privadas, o que pode reforçar desigualdades.",
+    "type": "proposition",
+    "quote": "other educational institutions—particularly in the private sector—may lack the legitimacy or resources Alpha had to adopt a hybrid logic",
+    "source_refs": [
+     "p.20/L1070-1080",
+     "p.24/L1245-1250"
+    ]
+   },
+   {
+    "finding": "O estudo avança a teoria das lógicas institucionais ao demonstrar a formação de uma lógica híbrida regional como resposta específica a contextos educacionais de países em desenvolvimento.",
+    "type": "proposition",
+    "quote": "This study advances the theory of institutional logics by demonstrating the formation of a regional hybrid logic as a specific response to educational contexts in developing nations",
+    "source_refs": [
+     "p.23/L1200-1206"
+    ]
+   }
+  ],
+  "contribution": {
+   "theoretical": "Contribui para o entendimento de lógicas institucionais híbridas no contexto educacional brasileiro, antes explorado sobretudo em universidades dos Estados Unidos e do Reino Unido, e propõe uma lógica híbrida regional (p.23/L1196-1206). Mostra o impacto da dinâmica institucional nos microfundamentos da prática educacional (p.24/L1251-1256) e avança na compreensão do que motiva a adoção de lógicas híbridas, com a recursividade como mecanismo (p.19/L1014-1016; p.20/L1057-1066).",
+   "practical": "Indicam a necessidade de debate público cuidadoso sobre política educacional, tratando a educação como espaço democrático, crítico e reflexivo, e oferecem a coordenadores e lideranças de instituições públicas pistas para gerir tensões institucionais preservando identidade e autonomia (p.24/L1271-1276)."
+  }
+ },
+ "B": {
+  "executive_summary": "O paper avalia como a separação dos bacharelados em comunicacao social reconfigurou praticas educacionais em uma univ. publica brasileira, que ele chamou de alpha. Ele articula a perspectiva das logicas institucionais com a abordagem das praticas sociais, e conecta transformações no campo as atividades que sao realizadas na universidade. (p.2 L075-087; p.3 L091-109).\n\nFoi feito no formato de estudo de caso com entrevistas e documentos historicos. dos mais de 100 documentos xaminados, foram selecionados aprox. 30. As entrevistas envolveram tres professores, tres estudantes e dois tecnicos adm. Os dados foram trabalhados por analise de conteudo interpretativa, com identificacao das logicas e analises da estrutura de governanca das praticas. (p.5 L225-231; p.6 L249-262; p.7 L320-344).\n\nForam encontradas tres logicas: profissional, academica e normativa. A profisional predominou. (p.12 L656-679; p.13 L685-726; p.19 L1003-1023).\n\nA contribuição esta em mostrar como a hibridizacao se realiza nas praticas e permite responder pressoes institucionais. (p.22 L1173-1183; p.24 L1251-1270; p.24 L1277-1286).",
+  "research_question": "Como a interação entre lógicas institucionais modificou a pratica educacional em Com. Social na univ. Publica? (p.2 L075-080).",
+  "theories": [
+   {
+    "name": "(p.20 L1070-1080)",
+    "tradition": "",
+    "role": "",
+    "source_refs": [
+     "p.20 L1070-1080"
+    ]
+   }
+  ],
+  "theory_verdicts": [
+   {
+    "item_id": "T1",
+    "name": "Lógicas institucionais",
+    "verdict": "uses",
+    "source_refs": [
+     "p.2 L081-087",
+     "p.8 L398-408",
+     "p.19 L1003-1011"
+    ],
+    "quote": ".",
+    "note": ""
+   },
+   {
+    "item_id": "T2",
+    "name": "Hibridismo de lógicas institucionais",
+    "verdict": "uses",
+    "source_refs": [
+     "p.4 L149-157",
+     "p.19 L1003-1023"
+    ],
+    "quote": ".",
+    "note": ""
+   },
+   {
+    "item_id": "T3",
+    "name": "Teoria dos stakeholders",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T4",
+    "name": "Teoria das práticas sociais (estrutura de governança da prática)",
+    "verdict": "uses",
+    "source_refs": [
+     "p.5 L192-204",
+     "p.7 L369-386",
+     "p.14 L743-774"
+    ],
+    "quote": ".",
+    "note": ""
+   },
+   {
+    "item_id": "T5",
+    "name": "Tipos ideais weberianos aplicados às lógicas",
+    "verdict": "uses",
+    "source_refs": [
+     "p.8 L398-404",
+     "p.11 L553-565"
+    ],
+    "quote": ".",
+    "note": ""
+   },
+   {
+    "item_id": "T6",
+    "name": "Legitimidade organizacional",
+    "verdict": "uses",
+    "source_refs": [
+     "p.19 L1024-1033",
+     "p.20 L1037-1069"
+    ],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T7",
+    "name": "Teoria ator-rede",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T8",
+    "name": "Recursividade agência-estrutura institucional",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T9",
+    "name": "Capitalismo acadêmico / reformas neoliberais na educação superior",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.9 L453-474",
+     "p.23 L1207-1234"
+    ],
+    "quote": ".",
+    "note": ""
+   },
+   {
+    "item_id": "T10",
+    "name": "Complexidade institucional e respostas organizacionais",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.15 L793-808",
+     "p.17 L926-933"
+    ],
+    "quote": ".",
+    "note": ""
+   },
+   {
+    "item_id": "T11",
+    "name": "Desigualdades moldadas pelo contexto institucional",
+    "verdict": "uses",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   }
+  ],
+  "key_concepts": [
+   {
+    "concept": "Lógicas institucionais",
+    "definition": "raticas e materiais e construcoes simbolicas que orientam a interpretacao. p.3 L123)",
+    "quote": "",
+    "source_refs": [
+     "p.3 L123"
+    ]
+   },
+   {
+    "concept": "Estrutura de governança da prática",
+    "definition": "Organização da prática por entendimentos, regras e estruturas teleoafetivas. (p.14 L743-774)",
+    "quote": "",
+    "source_refs": [
+     "p.14 L743-774"
+    ]
+   }
+  ],
+  "methodology": {
+   "study_type": "empírico",
+   "design": "estudo de caso único em uma universidade federal",
+   "sample_type": "participantes envolvidos na transição dos bacharelados",
+   "sample_size": null,
+   "sector": "educacao superior pública.",
+   "period": "campo em 1995, debates de 2014, novos cursos de 2016 até 2021.",
+   "methods": [
+    "entrevistas + analise documental."
+   ],
+   "analysis_note": "analise de conteudo interpetativa.",
+   "source_refs": []
+  },
+  "main_findings": [
+   {
+    "finding": "a separacao dos bacharelados foi orientada pela valorização da formação técnica e da profissionalização.",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.13 L685-726"
+    ]
+   },
+   {
+    "finding": "reorganizacao envolveu reunioes por curso.",
+    "type": "proposition",
+    "quote": "",
+    "source_refs": []
+   }
+  ],
+  "contribution": {
+   "theoretical": "aproxima a logica institucional da analise das praticas. acompanha a combinacao entre elementos profissionais, academicos e normativos.",
+   "practical": "para coordenacoes e dirigentes, o caso oferece elementos para refletir sobre reformas curriculares. (p.24 L1271-1276)."
+  }
+ }
+}

@@ -113,8 +113,11 @@ def eval_done(round_: int, article_id: str, token: str) -> bool:
     return eval_path(round_, article_id, token).exists()
 
 
-def pair_live(article_id: str) -> bool:
-    return (SITE / "juizes" / "pairs" / f"{article_id}.json").exists()
+def pair_live(article_id: str, jid: str = "") -> bool:
+    """Par publicado = arquivo do juiz (A{nn}-{slug}.json) ou o genérico."""
+    d = SITE / "juizes" / "pairs"
+    return ((jid and (d / f"{article_id}-{JUDGES[jid]}.json").exists())
+            or (d / f"{article_id}.json").exists())
 
 
 def link_btn(round_: int, art: str, tok: str, live: bool) -> str:
@@ -288,10 +291,12 @@ def build() -> Path:
 
     col0 = piloto_card()
     col1 = "".join(card(1, a["article_id"], a["nominated_by"],
-                        pair_live(a["article_id"]), a.get("title", ""))
+                        pair_live(a["article_id"], a["nominated_by"]),
+                        a.get("title", ""))
                    for a in by_round[1])
     col2 = "".join(card(2, a["article_id"], a["nominated_by"],
-                        pair_live(a["article_id"]), a.get("title", ""))
+                        pair_live(a["article_id"], a["nominated_by"]),
+                        a.get("title", ""))
                    for a in by_round[2])
 
     now = datetime.now().astimezone().strftime("%d/%m/%Y %H:%M")
@@ -355,6 +360,7 @@ table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
 .fich blockquote{{border-left:3px solid var(--line);color:#64748b;
   margin:4px 0;padding:2px 10px;font-style:italic}}
 .meta2{{font-size:11px;color:#64748b;margin:8px 0 4px}}
+.meta a{{color:var(--blue);text-decoration:none;font-weight:600}}
 .foot{{max-width:1500px;margin:22px auto 0;font-size:11px;color:#94a3b8}}
 </style></head><body>
 <div style="max-width:1500px;margin:0 auto 16px">
@@ -365,7 +371,8 @@ table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
 </div>
 <div class="grid">
   <div class="col"><h2>Piloto (R0)</h2><div class="meta">{n_done}/4 avaliações recebidas</div>{col0}</div>
-  <div class="col"><h2>Rodada 1</h2><div class="meta">{n1}/{len(by_round[1])} avaliações recebidas · juízes 16–22/11</div>{col1}</div>
+  <div class="col"><h2>Rodada 1</h2><div class="meta">{n1}/{len(by_round[1])} avaliações recebidas · juízes 16–22/11 · páginas:
+    {" ".join(f'<a href="/juizes/j/{t}/">{j}</a>' for j, t in JUDGES.items())}</div>{col1}</div>
   <div class="col"><h2>Rodada 2</h2><div class="meta">{n2}/{len(by_round[2])} avaliações recebidas · início 23/11</div>{col2}</div>
 </div>
 <p class="foot">Cada juiz avalia apenas os artigos que indicou (4 por rodada).

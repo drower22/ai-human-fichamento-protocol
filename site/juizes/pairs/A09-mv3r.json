@@ -1,0 +1,423 @@
+{
+ "demo": false,
+ "article_id": "A09",
+ "round": 1,
+ "title": "Resources in Action: The dynamics of resourcing in an educational organization",
+ "authors": "Rodrigo Assunção Rosa, Marcos Vinícius Pereira Correa, Sergio Bulgacov",
+ "year": 2025,
+ "venue": "RAE-Revista de Administração de Empresas 65(5), e2024-0423",
+ "A": {
+  "executive_summary": "O estudo explora o conceito de resourcing (recursos em uso), isto é, a transformação de recursos por atores organizacionais em suas práticas cotidianas, indo além de uma abordagem econômica da estratégia (p.1/L022-028). A pergunta de pesquisa é como os atores mobilizam recursos em suas atividades diárias para responder às restrições impostas por uma mudança estratégica inesperada (p.2/L086-088). O referencial contrasta as visões que tratam recursos como ativos estáticos, como dependência de recursos, visão baseada em recursos e capacidades dinâmicas, com a perspectiva do resourcing, de ontologia processual e praxeológica, para a qual o valor dos recursos emerge de seu uso (p.2/L056-066; p.2/L067-073; p.3/L112-117). O método é um estudo de caso único, de abordagem etnográfica, em uma unidade de educação a distância de uma universidade privada, com seis meses de observação, 42 entrevistas semiestruturadas e análise de documentos, tratados por codificação aberta e pelo método de Gioia (p.5/L190-212; p.5/L217-220; p.6/L228-238). Uma nova estratégia comercial gerou aumento inesperado de 200% nas matrículas e triplicou o número de alunos por docente, pressionando tempo, espaço e papéis profissionais (p.6/L250-259; p.7/L277-298). Os autores identificam três dinâmicas de resourcing: a responsiva, com soluções imediatas e internas, como a planilha de correção e vídeos; a configuracional, com FAQ, inteligência artificial e indicadores de trabalho remoto criados por outras áreas; e a ocupacional, em que docentes reinterpretam seus papéis (p.12/L525-529; p.13/L535-557; p.8/L329-341; p.10/L393-411). Concluem que as três se complementam e que tempo, espaço e papéis profissionais são recursos fundamentais (p.14/L611-626; p.14/L641-642). Criticam a expansão acelerada da EaD, que pode precarizar o trabalho docente (p.15/L679-695), e reconhecem como limitação o curto período de observação (p.16/L734-737).",
+  "research_question": "Como os atores mobilizam recursos em suas atividades diárias para responder às restrições impostas por uma mudança estratégica inesperada? A pergunta é enunciada explicitamente (p.2/L086-088) e retomada como objetivo principal nas considerações finais (p.16/L711-713).",
+  "theories": [],
+  "theory_verdicts": [
+   {
+    "item_id": "T1",
+    "name": "Resourcing / recursos em uso",
+    "verdict": "uses",
+    "source_refs": [
+     "p.4/L139-142",
+     "p.2/L063-066"
+    ],
+    "quote": "the creation in practice of assets such as people, time, money, knowledge, or skill; and qualities of relationships such as trust, authority, or complementarity such that they enable actors to enact schemas",
+    "note": "Conceito central: o resourcing, de Feldman, orienta a análise das dinâmicas."
+   },
+   {
+    "item_id": "T2",
+    "name": "Ontologia processual e praxeológica / teoria das práticas",
+    "verdict": "uses",
+    "source_refs": [
+     "p.2/L067-073",
+     "p.3/L118-125",
+     "p.3/L126-132"
+    ],
+    "quote": "Grounded in a processual and praxeological ontology, the resourcing perspective enables the analysis of the dynamics of daily activities and strategic action in organizational change processes",
+    "note": "Base ontológica declarada; usa Reckwitz e Schatzki para definir práticas."
+   },
+   {
+    "item_id": "T3",
+    "name": "Teoria institucional",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "Não há teoria institucional; 'institutional' aparece em sentido descritivo (p.5/L185; p.6/L231)."
+   },
+   {
+    "item_id": "T4",
+    "name": "Abordagem econômica de recursos: RBV, dependência de recursos e capacidades dinâmicas",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.2/L056-066",
+     "p.3/L105-111"
+    ],
+    "quote": "The concept of resources has been central to various management perspectives, including resource dependence theory (Pfeffer & Salancik, 1978), the resource-based view (Helfat et al., 2023), and dynamic capabilities (Teece et al., 1997)",
+    "note": "Apresentadas como a visão tradicional, de recursos estáticos, que o resourcing busca superar."
+   },
+   {
+    "item_id": "T5",
+    "name": "Estratégia como processo emergente e situado",
+    "verdict": "uses",
+    "source_refs": [
+     "p.14/L627-637"
+    ],
+    "quote": "Resourcing broadens the view of strategy as an emergent, situated, and collective process, emphasizing how the daily actions and interactions of organizational actors influence the construction and adaptation of strategy over time",
+    "note": "A relação entre estratégia e resourcing é a principal contribuição declarada."
+   },
+   {
+    "item_id": "T6",
+    "name": "Aprendizagem organizacional",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "Aprendizagem organizacional não é mencionada; 'learning' refere-se a ensino a distância e ao aprendizado dos estudantes."
+   },
+   {
+    "item_id": "T7",
+    "name": "Dinâmica de rotinas",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "A dinâmica de rotinas aparece apenas em citação de referência para justificar procedimentos (p.4/L163; p.17/L766-768) e em 'routine behaviors' (p.3/L127)."
+   },
+   {
+    "item_id": "T8",
+    "name": "Precarização do trabalho docente na EaD",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.15/L679-695",
+     "p.16/L701-709"
+    ],
+    "quote": "Short-term changes arising from improvised and creative practices often provide only temporary relief within the context of precarious academic labor",
+    "note": "Discutida na seção de discussão como implicação crítica; não estrutura o referencial."
+   }
+  ],
+  "key_concepts": [
+   {
+    "concept": "Resourcing",
+    "definition": "Criação em prática de ativos, como pessoas, tempo, dinheiro, conhecimento ou habilidade, e de qualidades de relacionamentos, como confiança e autoridade, que permitem aos atores atualizar esquemas.",
+    "quote": "the creation in practice of assets such as people, time, money, knowledge, or skill; and qualities of relationships such as trust, authority, or complementarity such that they enable actors to enact schemas",
+    "source_refs": [
+     "p.4/L139-142"
+    ]
+   },
+   {
+    "concept": "Recursos potenciais e recursos em uso",
+    "definition": "Distinção entre elementos disponíveis (objetos, artefatos, pessoas, informação) e a mobilização efetiva desses recursos no tempo e no espaço das dinâmicas organizacionais.",
+    "quote": "it is crucial to distinguish between potential resources – such as objects, artifacts, people, or information – and the resourcing process, which involves the actual mobilization of these resources",
+    "source_refs": [
+     "p.4/L143-149",
+     "p.8/L331-333"
+    ]
+   },
+   {
+    "concept": "Resourcing responsivo",
+    "definition": "Transformação de recursos potenciais em recursos em uso por atores das práticas de ensino para resolver desafios de eficiência em curto prazo, com soluções internas e imediatas.",
+    "quote": "Responsive resourcing: It occurs when actors within teaching practices transform potential resources into resources-in-use to address efficiency challenges arising from strategic change within a short timeframe",
+    "source_refs": [
+     "p.12/L525-529",
+     "p.13/L535-536"
+    ]
+   },
+   {
+    "concept": "Resourcing configuracional",
+    "definition": "Colaboração entre áreas interdependentes para resolver problemas e aumentar a eficiência das práticas de ensino, com mudanças estruturais em prazo mais longo.",
+    "quote": "Configurational resourcing: It entails collaboration between interdependent areas to solve problems and enhance the efficiency of teaching practices",
+    "source_refs": [
+     "p.13/L537-546"
+    ]
+   },
+   {
+    "concept": "Resourcing ocupacional",
+    "definition": "Processo dinâmico e emergente pelo qual os atores reconstroem seus esquemas interpretativos dos papéis profissionais ao transformar recursos.",
+    "quote": "Occupational resourcing: It is a dynamic and emergent process through which organizational actors reconstruct their interpretative frameworks of professional roles by transforming resources",
+    "source_refs": [
+     "p.13/L547-557"
+    ]
+   }
+  ],
+  "methodology": {
+   "study_type": "empírico (qualitativo)",
+   "design": "Estudo de caso único com abordagem etnográfica em uma unidade de educação a distância de uma universidade privada brasileira (UAlpha), com abordagem abdutiva.",
+   "sample_type": "gestores, professores online e funcionários de uma unidade de EaD",
+   "sample_size": 42,
+   "sector": "educação superior privada a distância",
+   "period": "seis meses de observação; planejamento estratégico citado em entrevista para 2018",
+   "methods": [
+    "estudo de caso",
+    "etnografia",
+    "observação não participante",
+    "entrevistas semiestruturadas",
+    "análise documental",
+    "codificação aberta e live coding",
+    "método de Gioia"
+   ],
+   "analysis_note": "O primeiro autor fez 51 visitas de campo, cerca de 300 horas em seis meses, observando 29 reuniões e acessando cursos como estudante (p.5/L194-201). Foram feitas 42 entrevistas semiestruturadas (p.5/L202-206) e analisados documentos internos e fontes secundárias (p.5/L207-210). A análise combinou codificação aberta e live coding no Atlas.ti (p.5/L211-219) e categorias de primeira e segunda ordem e dimensões agregadas, seguindo Gioia et al. (p.6/L228-238).",
+   "source_refs": [
+    "p.4/L164-167",
+    "p.5/L190-210",
+    "p.5/L211-219",
+    "p.6/L228-238"
+   ]
+  },
+  "main_findings": [
+   {
+    "finding": "Uma nova estratégia comercial, desconhecida pela maioria dos setores, causou aumento inesperado de 200% nas matrículas e triplicou o número de alunos por docente online.",
+    "type": "empirical",
+    "quote": "most other sectors were unaware of the strategy, leading to unexpected consequences, including a 200% increase in enrollments",
+    "source_refs": [
+     "p.6/L250-259",
+     "p.7/L277-278"
+    ]
+   },
+   {
+    "finding": "No resourcing responsivo, docentes padronizaram e customizaram atividades com recursos disponíveis, como a planilha de correção em Excel e vídeos explicativos, para reduzir a pressão de tempo.",
+    "type": "empirical",
+    "quote": "the transformation of potential resources into resources-in-use addressed key challenges and redefined the work standards of online lecturers by promoting adaptive and improvised solutions",
+    "source_refs": [
+     "p.8/L329-341",
+     "p.9/L349-358",
+     "p.9/L372-386"
+    ]
+   },
+   {
+    "finding": "No resourcing configuracional, outras áreas criaram um FAQ, propuseram um chat com IA e desenvolveram indicadores de trabalho remoto, transferindo perguntas administrativas para o suporte.",
+    "type": "empirical",
+    "quote": "there was a consensus that answering administrative questions should not fall under the online lecturers’ responsibilities but should instead be assigned to support professionals or an artificial intelligence (AI) system",
+    "source_refs": [
+     "p.10/L393-411",
+     "p.10/L412-421",
+     "p.11/L437-441"
+    ]
+   },
+   {
+    "finding": "No resourcing ocupacional, docentes reinterpretaram seus papéis e passaram a ver a situação como temporária, apoiados por gestores e supervisores.",
+    "type": "empirical",
+    "quote": "Online lecturers began perceiving the current situation as temporary, believing that other areas would ultimately resolve existing challenges",
+    "source_refs": [
+     "p.13/L547-557",
+     "p.11/L442-448",
+     "p.11/L462-469"
+    ]
+   },
+   {
+    "finding": "Os três tipos de resourcing se complementam, e o alcance das transformações depende de sua interdependência.",
+    "type": "proposition",
+    "quote": "the scope of organizational transformations depends on the interdependence of these three resourcing types",
+    "source_refs": [
+     "p.14/L611-626"
+    ]
+   },
+   {
+    "finding": "Tempo, espaço e papéis profissionais são recursos fundamentais para a ação organizacional e são afetados por decisões estratégicas.",
+    "type": "proposition",
+    "quote": "The findings indicate that time, space, and professional roles are fundamental resources for organizational action",
+    "source_refs": [
+     "p.14/L638-647"
+    ]
+   }
+  ],
+  "contribution": {
+   "theoretical": "Conecta o contexto estratégico à dinâmica microorganizacional da ação, representada pela interdependência entre atividades operacionais (p.14/L631-637), amplia a compreensão da mudança estratégica ao destacar o papel ativo dos atores sob incerteza e escassez (p.14/L638-641) e identifica três processos de resourcing, enfatizando tempo, espaço e papéis profissionais (p.15/L656-665).",
+   "practical": "Oferece implicações para organizações educacionais em contextos de mudança rápida (p.1/L027-028) e contribui para a crítica da expansão acelerada da EaD, com impacto na qualidade do ensino e nas condições de trabalho dos docentes online (p.15/L679-689; p.16/L703-709; p.16/L728-733)."
+  }
+ },
+ "B": {
+  "executive_summary": "O estudo foi realizado na unidade de educação a distância da universidade privada UAlpha (p.5 L183-185). Uma nova estratégia comercial aumentou as matrículas acima do esperado e criou restrições ao ensino (p.6 L250-257). Diante desse cenário, o artigo apresenta a seguinte pergunta: como os atores mobilizam recursos em suas atividades diárias para responder às restrições impostas por uma mudança estratégica inesperada? (p.2 L086-088).\nA análise se apoia na perspectiva de resourcing e em uma visão voltada aos processos e às práticas. Nessa perspectiva, os recursos não possuem valor fixo. Esse valor surge quando os profissionais utilizam e interpretam os recursos em situações concretas (p.2 L067-073).\nTrata-se de um caso único e qualitativo, com abordagem etnográfica e análise abdutiva (p.4 L160-167). Ao longo de seis meses, a pesquisa reuniu 51 visitas a campo, 42 entrevistas, documentos internos e dados secundários (p.5 L194-210). A codificação foi aberta e emergente, com o apoio do Atlas.ti (p.5 L211-220).\nForam identificados três processos de resourcing. O responsivo oferece soluções rápidas e reduz a pressão de tempo (p.12 L525-529; p.13 L535-536). O configuracional conecta áreas e reorganiza práticas diante das limitações de tempo e espaço (p.13 L537-546). O ocupacional ajuda os profissionais a adaptar suas atividades e redefinir seus papéis (p.13 L547-557). Os três processos acontecem ao mesmo tempo e são interdependentes ((p.12 L483-486). As tecnologias também tiveram papel central na mobilização dos recursos (p.14 L618-620).\nComo contribuição teórica, o artigo relaciona as decisões estratégicas ao trabalho diário, destaca a ação dos profissionais diante da incerteza e da falta de recursos e mostra que o valor dos recursos depende do uso e do contexto (p.14 L631-646). Também identifica três processos de resourcing ligados ao tempo, ao espaço e aos papéis profissionais. Esses processos podem aparecer em diferentes mudanças, mas sua importância varia conforme a natureza, a urgência e o contexto (p.15 L656-678). \nComo contribuição prática, alerta que a expansão da educação a distância exige planejamento para proteger o ensino e o trabalho dos professores (p.16 L703-709).",
+  "research_question": "os autores apresentam de forma explícita (p.2 L086-088): como atores mobilizam recursos em suas atividades diárias para responder a restrições impostas por uma mudança estratégica inesperada?",
+  "theories": [
+   {
+    "name": "não localizei outras",
+    "tradition": "",
+    "role": "",
+    "source_refs": []
+   }
+  ],
+  "theory_verdicts": [
+   {
+    "item_id": "T1",
+    "name": "Resourcing / recursos em uso",
+    "verdict": "uses",
+    "source_refs": [
+     "p.3 L112-113",
+     "p.4 L143-145"
+    ],
+    "quote": "Em diversos trechos destaco dois: The resourcing perspective provides a valuable framework for analyzing and understanding the use of resources Feldman & Orlikowski 2011 Feldman & Worline 2016 . According to Wiedner et al. 2017 it is crucial to distinguish between potential resources – such as objects artifacts people or information – and the resourcing process which involves the actual mobilization of these resources within the time and space of organizational dynamics.",
+    "note": ""
+   },
+   {
+    "item_id": "T2",
+    "name": "Ontologia processual e praxeológica / teoria das práticas",
+    "verdict": "uses",
+    "source_refs": [
+     "p.2 L067-069",
+     "p.16 L721-723"
+    ],
+    "quote": "Em diversos trechos destaco dois: Grounded in a processual and praxeological ontology the resourcing perspective enables the analysis of the dynamics of daily activities and strategic action in organizational change processes Feldman & Orlikowski 2011 . The practice and process based approach adopted in this study enabled a more nuanced analysis of the interactions between resources daily activities and the organizational context moving beyond a purely economic perspective on strategy.",
+    "note": ""
+   },
+   {
+    "item_id": "T3",
+    "name": "Teoria institucional",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T4",
+    "name": "Abordagem econômica de recursos: RBV, dependência de recursos e capacidades dinâmicas",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T5",
+    "name": "Estratégia como processo emergente e situado",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.3 L107-109",
+     "L629-631"
+    ],
+    "quote": "In contrast practice and process perspectives explore how organizational actors mobilize resources in everyday life Schneider et al. 2022 Sonenshein 2014 Wiedner et al. 2017 . p14 Resourcing broadens the view of strategy as an emergent situated and collective process emphasizing how the daily actions and interactions of organizational actors influence the construction and adaptation of strategy over time.",
+    "note": ""
+   },
+   {
+    "item_id": "T6",
+    "name": "Aprendizagem organizacional",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T7",
+    "name": "Dinâmica de rotinas",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T8",
+    "name": "Precarização do trabalho docente na EaD",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.15 L686-689",
+     "p.15 L690-692"
+    ],
+    "quote": "This often unregulated expansion driven by competition among large private education groups has led to abrupt transformations in teaching practices increasing job insecurity for online lecturers and distorting the meaning attributed to their professional roles Casagrande et al. 2022 . Short term changes arising from improvised and creative practices often provide only temporary relief within the context of precarious academic labor acting as stopgap solutions to the pressures of work overload and increasing student to professor ratios Veloso & Mill 2018 .",
+    "note": ""
+   }
+  ],
+  "key_concepts": [
+   {
+    "concept": "Resourcing",
+    "definition": "tradução do próprio texto dos autores:\ncriação, na prática, de ativos como pessoas, tempo, dinheiro, conhecimento ou habilidade; e de qualidades das relações, como confiança, autoridade ou complementaridade, de modo que permitam aos atores colocar esquemas em prática (p.4 L139-142)\ntrecho literal: In this sense, resourcing refers to “the creation in practice of assets such as people, time, money, knowledge, or skill; and qualities of relationships such as trust, authority, or complementarity such that they enable actors to enact schemas\" (Feldman, 2004, p. 296).",
+    "quote": "",
+    "source_refs": [
+     "p.4 L139-142"
+    ]
+   },
+   {
+    "concept": "Potential resources",
+    "definition": "objetos, artefatos, pessoas ou informaçoes. (p.4 L143-144) According to Wiedner et al. (2017), it is crucial to distinguish between potential resources – such as objects, artifacts, people, or information",
+    "quote": "",
+    "source_refs": [
+     "p.4 L143-144"
+    ]
+   },
+   {
+    "concept": "Responsive resourcing",
+    "definition": "transformação rápida de recursos potenciais em recursos em uso para resolver problemas urgentes causados por uma mudança estratégica\n(p.12 L525-529) e (p.13 L535-536): \"Responsive resourcing: It occurs when actors within teaching practices transform potential resources into resources-in-use to address efficiency challenges arising from strategic change within a short timeframe. Faced with unexpected work demands and time constraints, these  actors collaborate to resolve urgent issues, adapting their daily activities based on available \nresources. In this process, they may standardize or customize their activities to manage time \"",
+    "quote": "",
+    "source_refs": [
+     "p.12 L525-529",
+     "p.13 L535-536"
+    ]
+   },
+   {
+    "concept": "Configurational resourcing",
+    "definition": "colaboração entre diferentes áreas para mobilizar recursos e realizar mudanças estruturais nas práticas ao longo de um período maior\n(p.13 L537-546): Configurational resourcing: It entails collaboration between interdependent areas to solve problems and enhance the efficiency of teaching practices. When internal changes impact these practices, non-teaching areas must develop resources that enable adaptation to the new strategic conditions. Addressing different constraints requires specific solutions, such as the mobilization of potential and in-use resources by support and indicator areas to improve teaching activities. Unlike responsive resourcing, this process unfolds over a longer period, requiring more time to modify resources and teaching practices while fostering a shared understanding of the change process among organizational actors. Configurational resourcing aims to bring structural modifications to teaching practices, as seen in the transfer of administrative queries to the support area, which enhances resource flexibility in an uncertain environment.",
+    "quote": "",
+    "source_refs": [
+     "p.13 L537-546"
+    ]
+   },
+   {
+    "concept": "Occupational resourcing",
+    "definition": "processo pelo qual os profissionais transformam recursos, adaptam suas práticas e redefinem a forma como entendem seus papéis\n(p.13 L547-557): Occupational resourcing: It is a dynamic and emergent process through which organizational actors reconstruct their interpretative frameworks of professional roles by transforming resources.\nAlthough interdependent activities did not immediately alter the structure of teaching practices, the resources developed by the indicator and support areas shaped actors’ expectations about future changes. Online lecturers began perceiving the current situation as temporary, believing that other areas would ultimately resolve existing challenges. Meanwhile, managers reinforced the pursuit of teaching quality during the transition, mitigating concerns about its impact.\nThese actions helped online lecturers adapt to new dynamics and redefine their professional roles more effectively. The transformation of potential resources into resources in use by online lecturers involved both interpretative shifts and practical adjustments to professional practices to navigate uncertainties during the transition.",
+    "quote": "",
+    "source_refs": [
+     "p.13 L547-557"
+    ]
+   }
+  ],
+  "methodology": {
+   "study_type": "empírico",
+   "design": "estudo qualitativo de caso único com abordagem etnográfica",
+   "sample_type": "Atores de diferentes áreas",
+   "sample_size": null,
+   "sector": "Ensino superior no Brasil",
+   "period": "6 meses",
+   "methods": [
+    "Observação não participante",
+    "entrevistas semi-estruturadas",
+    "dados secundários (documentos e registros)"
+   ],
+   "analysis_note": "Dinâmica reflexiva e interativa. abordagem de código aberto com códigos emergentes. micro análise de todos os documentos com Atlas.ti. utilizou parágrafos e sentenças para contextualização dos eventos.",
+   "source_refs": [
+    "p.4",
+    "L160-162"
+   ]
+  },
+  "main_findings": [
+   {
+    "finding": "o resourcing responsivo reduziu a pressão de tempo no curto prazo por meio da adaptação e padronização das atividades.",
+    "type": "empirical",
+    "quote": "Standardization and customization of activities by transforming potential resources into resourcesin use reducing the time pressure of activities in the short term.",
+    "source_refs": []
+   },
+   {
+    "finding": "o resourcing configuracional conectou diferentes áreas e reorganizou as práticas para enfrentar limitações de tempo e espaço.",
+    "type": "empirical",
+    "quote": "Connecting different areas in the reconfiguration of teaching practices by transforming potential resources into resources inuse and reorganizing activities to address time and space restrictions in the short and medium term.",
+    "source_refs": []
+   },
+   {
+    "finding": "O resourcing ocupacional modificou a forma como os professores on-line entendiam seus papéis, suas competências e o significado do trabalho.",
+    "type": "empirical",
+    "quote": "Implications of the strategic change process in the representation of the professional roles of online lecturers based on the reorganization of competencies and the emergence of new meanings about the work.",
+    "source_refs": []
+   },
+   {
+    "finding": "Os três processos de resourcing ocorreram simultaneamente e de forma interdependente",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.12 L483-486"
+    ]
+   },
+   {
+    "finding": "As tecnologias tiveram papel central na mobilização dos recursos durante a mudança",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.14 L618-620"
+    ]
+   },
+   {
+    "finding": "tempo, espaço e papéis profissionais foram recursos fundamentais para a ação organizacional",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.14 L641-642"
+    ]
+   }
+  ],
+  "contribution": {
+   "theoretical": "1) O artigo mostra como as decisões estratégicas afetam as atividades diárias da organização. (p.14 L631-634). 2) Amplia a compreensão da mudança estratégica ao destacar o papel ativo dos atores em situações de incerteza e escassez de recursos (p.14 L638-641). 3) Reforça que o valor estratégico dos recursos surge de seu uso na prática e depende do contexto (p.14 L645-646). 4) Identifica três processos de resourcing e mostra o papel da escassez de tempo, espaço e papéis profissionais na utilização dos recursos (p.15 L656-659). 5) Propõe que os três processos de resourcing podem aparecer nas mudanças estratégicas mas sua predominância varia conforme a natureza, a urgência e o contexto da mudança (p.15 L666-678)",
+   "practical": "1) O artigo alerta que expandir a educação a distância rapidamente e sem planejamento pode reduzir a qualidade do ensino, sobrecarregar os professores e aumentar a insegurança no trabalho (p.15 L679-689). 2) Orienta que as instituições devem organizar melhor os recursos ao ampliar a educação a distância, sem prejudicar o ensino nem os professores (p.16 L703-709). 3) A falta de planejamento pode prejudicar o trabalho dos professores (p.16 L730-733)"
+  }
+ }
+}

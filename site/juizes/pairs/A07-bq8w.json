@@ -1,0 +1,592 @@
+{
+ "demo": false,
+ "article_id": "A07",
+ "round": 1,
+ "title": "Unpacking Diversity, Grasping Inequality: Rethinking Difference Through Critical Perspectives",
+ "authors": "Patrizia Zanoni, Maddy Janssens, Yvonne Benschop, Stella Nkomo",
+ "year": 2010,
+ "venue": "Organization 17(1), 9-29",
+ "A": {
+  "executive_summary": "O problema discutido foi a apropriação do conceito de diversidade em estudos organizacionais, como uma abordagem positiva e \"empoderadora\" que valoriza as diferentes capacidades individuais (p.1 L025-028) porém não elimina as desigualdades, e acaba também, por ocultar desigualdades nas relações de poder, assim como dificulta o questionamento teórico. Para isto, usando método de discussão analítica crítica-histórica da construção e utilização do conceito de diversidade nas organizações, o texto começa apresentando a evolução dos estudos sobre a produção social da desigualdade (p.3 L106-110) enquanto grupos, cita estudos que: explicam a necessidade humana/social de classificação em grupos (p.3 L122-124), aborda o surgimento do preconceito e do viés de opinião a partir da necessidade humana de avaliar seu próprio grupo para construir uma auto identidade positiva (p3 L126-128), conecta explicando que uma verdade inconveniente, segregação vertical e a predominância de abordagens da psicologia social resultaram na compreensão limitada de processos que levam à desigualdade, desconsiderando fatores estruturais e características específicas de cada contexto (p.3 L133 - p.4 L147). Em construção teórica o estudo demonstra 3 principais reflexões sobre a literatura existente (p.5 L220 - p.6 L-284) e aponta direções futuras, apresentando pontos de atenção com direcionamento ao campo de estudos organizacionais sobre diversidade. O uso da identidade dominante como parâmetro de definição e da ambiguidade do termo \"diverso\" (p.5 L221-L245); a tendência de subestimar (ou usar apenas como moderador em estudos) o contexto social e organizacional que molda o conceito de diversidade (p.6 L246-258); e a teorização instrumental inadequada de poder estabelecida por essas diversidades nas organizações (p.6 L259 p.7 L334) são resultado da análise crítica da literatura. Os apontamentos futuros direcionam a atenção para estudos empíricos, abordagens pela própria força de trabalho \"diversa\", que considerem os espaços, contextos e imagens e que relacionem discursos com as práticas sociais, ou seja, estudos sobre diversidade com novas formas de organização, capazes de promover a emancipação (p.9-p.11).",
+  "research_question": "O que é diversidade nas organizações? (não o termo guarda-chuvas para as minorias) mas como diferenças entre os indivíduos são construídas, percebidas e tratadas nas organizações? E como a diversidade gerada por essas diferenças estabelece as relações de poder?",
+  "theories": [],
+  "theory_verdicts": [
+   {
+    "item_id": "T1",
+    "name": "Estudos críticos de diversidade",
+    "verdict": "uses",
+    "source_refs": [],
+    "quote": "Muitas vezes",
+    "note": ""
+   },
+   {
+    "item_id": "T2",
+    "name": "Performatividade crítica",
+    "verdict": "uses",
+    "source_refs": [],
+    "quote": "Muitas vezes",
+    "note": ""
+   },
+   {
+    "item_id": "T3",
+    "name": "Teoria queer",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T4",
+    "name": "Teorias psicossociais de identidade social e homofilia",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.3"
+    ],
+    "quote": "Cita em: \"social identity theories explain discriminating behaviour as resulting from the need of human beings to classify themselves and others into groups to reduce the complexity of the social world and better anticipate social behaviour\" Tajfel and Turner 1986 Turner 1987 121 124 e \"homophily and the similarity attraction paradigm rather explain discriminatory behaviour by positing that individuals tend to interact more frequently and to like others who are similar to them\" Byrne 1971 .",
+    "note": ""
+   },
+   {
+    "item_id": "T5",
+    "name": "Visão baseada em recursos (RBV) da diversidade",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.4 L161-163",
+     "p.5 L216-219"
+    ],
+    "quote": "\"diversity was conceptualized as a set of rare valuable and difficult to imitate resources\" \"Richard 2000 elevated the study of the effects of diversity from the group level to the organization level drawing upon a resource based view of the fi rm that positioned cultural diversity as a source of sustained competitive advantage\"",
+    "note": ""
+   },
+   {
+    "item_id": "T6",
+    "name": "Perspectiva de informação/decisão em grupos diversos",
+    "verdict": "discusses",
+    "source_refs": [
+     "L181-183"
+    ],
+    "quote": "\"business rationale\" understanding the effects of a variety of identities on groups = processes and outcomes p. 4",
+    "note": ""
+   },
+   {
+    "item_id": "T7",
+    "name": "Capital social",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   },
+   {
+    "item_id": "T8",
+    "name": "Paradigma da diversidade / business case",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.6 L253",
+     "L167"
+    ],
+    "quote": "social psychological approache: diversity perspectives exposure to a wider range of perspectives and increase or ganizational fl exibility in increasingly turbulent contexts p. 4",
+    "note": ""
+   },
+   {
+    "item_id": "T9",
+    "name": "Interseccionalidade",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.7 L335",
+     "p.8 L351"
+    ],
+    "quote": "the simultaneous and dynamic interaction of race and gender",
+    "note": ""
+   },
+   {
+    "item_id": "T10",
+    "name": "Trabalho de identidade e estudos de branquitude",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.7 L296-317"
+    ],
+    "quote": "\"to construct maintain and/or disrupt multiple identities favourable to them challenging inequalities\"",
+    "note": ""
+   },
+   {
+    "item_id": "T11",
+    "name": "Racismo cotidiano e 'inequality regimes'",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.8 L356-365"
+    ],
+    "quote": "\"everyday racism that integrates the macro and micro dimensions of racism to account for the processes that incorporate racist notions into the daily practices of organizing\" \" Acker 2006 proposed the notion of ‘inequality regimes’ to conceptualize interlocking practices and processes that result in continuing inequalities in all work organizations\"",
+    "note": ""
+   },
+   {
+    "item_id": "T12",
+    "name": "Perspectiva pós-colonial",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.11 L507-520"
+    ],
+    "quote": "\"Kalonaityte summarizes the school’s diversity management practices as a form of ‘internal border control’ versus its stated goal of integrating members of ethnic minority groups into the organization. Her research also demonstrates the potential of post colonial perspectives for surfacing the impossibility of hegemonic consolidation and cultural essentialism\"",
+    "note": ""
+   },
+   {
+    "item_id": "T13",
+    "name": "Diversidade como prática social ('practice turn' nos estudos de gênero)",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.10 L489-492",
+     "p.3 L092-093"
+    ],
+    "quote": "\"practice turn in gender studies\" could help re conceptualize diversity as an ongoing dynamic social practice shedding light on the various ways in which in dividuals as agents relate to the structural restraints of multiple organ izational inequalities \"vast literature on gender in organizations\"",
+    "note": ""
+   },
+   {
+    "item_id": "T14",
+    "name": "Pós-estruturalismo, análise do discurso, teoria institucional e labour process theory",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": ""
+   }
+  ],
+  "key_concepts": [
+   {
+    "concept": "business rationale",
+    "definition": "To understanding the effects of a variety of identities on groups processes and outcomes, used to explain the popularity of this notion within the US business world. (p.4 L177-185)",
+    "quote": "",
+    "source_refs": [
+     "p.4 L177-185"
+    ]
+   },
+   {
+    "concept": "Identity work",
+    "definition": "\"specifically attempting to construct positive, empowering professional identities\" (p.7 L296) - \"diversity practitioners constantly negotiate the meaning of diversity in their jobs, struggling to balance the business case and equality rationales in order to be heard by key stakeholders, effectively advance equality, and maintain a meaningful professional identity\" (p.7 L300)",
+    "quote": "",
+    "source_refs": [
+     "p.7 L296",
+     "p.7 L300"
+    ]
+   },
+   {
+    "concept": "Intersectionality",
+    "definition": "\"Applied to organizations, intersectionality allows connecting multiple work identities to wider societal \nphenomena, leading to a more fi ne-grained analysis of processes of identity construction and the underlying power relations\" (p.8 L346-348)",
+    "quote": "",
+    "source_refs": [
+     "p.8 L346-348"
+    ]
+   },
+   {
+    "concept": "Inequality Regimes",
+    "definition": "\"interlocking practices and processes that result in continuing inequalities in all work organizations\" (p.8 L364-365)",
+    "quote": "",
+    "source_refs": [
+     "p.8 L364-365"
+    ]
+   },
+   {
+    "concept": "Ambiguity \"diverse\"",
+    "definition": "\"the heterogeneity in a group, in the comparison, it is actually the other that becomes the object of study and that is discursively constituted as marginal, from the vantage point of a dominant identity\" (p. 6 L243-245)",
+    "quote": "",
+    "source_refs": [
+     "L243-245"
+    ]
+   },
+   {
+    "concept": "Identidade dominante",
+    "definition": "\"Identities are conceptualized as ready made, fixed, clear-cut, easily measurable categories and ready to be operationalized as the independent variable to explain the specific phenomenon under study\" (p.5 L225-229)",
+    "quote": "",
+    "source_refs": [
+     "p.5 L225-229"
+    ]
+   },
+   {
+    "concept": "Diversity",
+    "definition": "\"Diversity served as an umbrella concept under which any individual characteristic could be subsumed, diminishing the risk of inter-group confl ict between the majority and minorities\" (p.4 174-176)",
+    "quote": "",
+    "source_refs": [
+     "p.4"
+    ]
+   },
+   {
+    "concept": "Everyday racism",
+    "definition": "\"integrates the macro and micro dimensions of racism to account for the processes that incorporate\nracist notions into the daily practices of organizing\" (p.8 L356-358)",
+    "quote": "",
+    "source_refs": [
+     "p.8 L356-358"
+    ]
+   }
+  ],
+  "methodology": {
+   "study_type": "teórico",
+   "design": "Análise teórica histórico-conceitual crítica do conceito de diversidade nas organizações",
+   "sample_type": "Análise teórica",
+   "sample_size": null,
+   "sector": "Organizações",
+   "period": "1970-2015",
+   "methods": [],
+   "analysis_note": "",
+   "source_refs": [
+    "p.2 L058-066"
+   ]
+  },
+  "main_findings": [
+   {
+    "finding": "Proposição encontrada através da analise de estudos: \"problems deriving from a positivistic ontology of identity underlying these studies\"",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.5 L224-225"
+    ]
+   },
+   {
+    "finding": "Proposição encontrada através da analise de estudos: problema apontado deriva do uso = \"Identities are conceptualized as ready made, fixed, clear-cut, easily measurable categories (Janssens and Zanoni, 2005; Litvin, 1997, 2002; Nkomo and Cox,1996),\n\nAND: ready to be operationalized as the independent variable to explain the specific phenomenon under study\"",
+    "type": "empirical",
+    "quote": "225 229",
+    "source_refs": [
+     "p.5"
+    ]
+   },
+   {
+    "finding": "\"social psychological approaches have often been criticized for their tendency to downplay the role of organizational and societal contexts in shaping the meaning of diversity\"",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.6 L246-248"
+    ]
+   },
+   {
+    "finding": "\"point of critique concerns the inadequate theorization of power\" - quando explicam a desigualdade por atitudes discriminatórias individuais, ignorando fatores históricos e estruturais que determinam a distribuição desigual de recursos e oportunidades entre grupos sociais, também ao adotar perspectiva gerencial, tratam as diferenças como recurso que pode ser utilizado para melhorar o desempenho (vantagem competitiva - rbv), em vez de questionar as relações de poder e desigualdade existentes",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.7 L259-274"
+    ]
+   },
+   {
+    "finding": "Direcionamentos futuros: 1) Necessidade de investigações empíricas da diversidade em contexto organizacional - importância da micro analise discursiva e analise das relações de poder \"Unequal power relations can be bent, circumvented, strategically appropriated or countered through language, creating openings not only for alternative meanings but also for micro-emancipatory projects\"",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.9 L404-426"
+    ]
+   },
+   {
+    "finding": "Direcionamentos futuros: 2) Investigar como a diversidade faz sentido e como é vivenciada pela própria força de trabalho diversa, ao invés em vez do ponto de vista de top-gestores e/ou formuladores de políticas - business rationale e desigualdades estruturais",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.9 L427",
+     "L440"
+    ]
+   },
+   {
+    "finding": "Direcionamentos futuros: 3) Novos estudos não devem se limitar à análise de textos e discursos escritos, mas sim considerar os espaços físicos, práticas sociais, ambientes virtuais, imagens e materiais promocionais que produzem e comunicam (signos) significados sobre identidades e diversidade \"The article clearly shows how visual imagery is implicated in representational power struggles\"",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.10 L456-476"
+    ]
+   },
+   {
+    "finding": "Direcionamentos futuros: 4) As pesquisas podem investigar como os discursos sobre diversidade influenciam as práticas sociais e como essas práticas reproduzem os discursos, nas organizações (diversidade como prática social dinâmica) considerando como as pessoas agem e interagem dentro de estruturas organizacionais que podem reproduzir desigualdades \" how identity is involved in the micro-processes of organizing\"",
+    "type": "empirical",
+    "quote": "",
+    "source_refs": [
+     "p.10 L477-492"
+    ]
+   }
+  ],
+  "contribution": {
+   "theoretical": "Conforme achados",
+   "practical": "Os achados ampliam a análise sobre os estudos organizacionais, com o tema diversidade, identificando as diferenças entre o que as organizações declaram sobre diversidade e permite identificar o que realmente acontece no cotidiano de trabalho"
+  }
+ },
+ "B": {
+  "executive_summary": "O editorial da edição especial da revista Organization faz um balanço de uma década de estudos críticos de diversidade e propõe direções para a área (p.1/L023-033; p.2/L058-063). Esses estudos surgiram em meados dos anos 1990 como reação à reapropriação da igualdade de oportunidades pelas empresas por meio da noção de diversidade, e compartilham uma compreensão não positivista e não essencialista da diversidade como socialmente (re)produzida (p.1/L023-033; p.2/L049-057). Os autores reconstroem a trajetória: os estudos sobre gênero e raça/etnia que mostraram a produção social da desigualdade, a virada para abordagens psicossociais, como identidade social e homofilia, e o paradigma da diversidade, que trata diferenças como ativos estratégicos, inclusive pela visão baseada em recursos (p.2/L069-074; p.3/L106-132; p.4/L145-147; p.4/L156-169). A literatura crítica se apoia em três críticas: a ontologia positivista da identidade, a pouca atenção ao contexto e a teorização inadequada do poder, e já avançou por análise de discurso, trabalho de identidade, branquitude, interseccionalidade e estudos sobre o contexto de cada país (p.5/L221-236; p.6/L246-274; p.7/L294-310; p.7/L335-340; p.8/L346-349; p.8/L371-374). A parte final propõe cinco direções: mais pesquisa empírica sobre como atores se apropriam dos discursos, estudo da experiência da força de trabalho diversa, análise de representações além do texto, ligação entre discursos e práticas sociais, inclusive pela virada de prática dos estudos de gênero, e uma pesquisa mais performativa, com pesquisa-ação (p.9/L404-415; p.9/L427-431; p.10/L457-459; p.10/L477-492; p.11/L528-541; p.12/L560-566). O texto situa os artigos da edição especial nessas direções (p.9/L415-426; p.9/L432-440; p.10/L469-476; p.11/L507-523). Por ser um editorial, não relata coleta própria de dados.",
+  "research_question": "O artigo é um editorial e não enuncia pergunta de pesquisa; declara o propósito de fazer um balanço dos novos insights teóricos dos estudos críticos de diversidade e iniciar uma conversa sobre os caminhos da área (p.2/L058-063). Reconstruída como pergunta implícita: o que as perspectivas críticas permitem repensar sobre a diferença para compreender a desigualdade, e para onde a pesquisa deve ir (p.2/L058-063; p.9/L399-403).",
+  "theories": [],
+  "theory_verdicts": [
+   {
+    "item_id": "T1",
+    "name": "Estudos críticos de diversidade",
+    "verdict": "uses",
+    "source_refs": [
+     "p.1/L023-033",
+     "p.2/L049-057"
+    ],
+    "quote": "Critical diversity studies emerged in the mid-1990s as a reaction to the re-appropriation of equal opportunities by business through the notion of diversity",
+    "note": "Objeto e lente centrais do editorial."
+   },
+   {
+    "item_id": "T2",
+    "name": "Performatividade crítica",
+    "verdict": "uses",
+    "source_refs": [
+     "p.11/L528-541",
+     "p.12/L551-559"
+    ],
+    "quote": "it is time for the critical literature to become more performative, explicitly dealing with stimulating social change",
+    "note": "A performatividade crítica sustenta a quinta direção proposta pelos autores."
+   },
+   {
+    "item_id": "T3",
+    "name": "Teoria queer",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "A teoria queer aparece apenas no título de uma referência (p.14/L624-625), sem menção no texto."
+   },
+   {
+    "item_id": "T4",
+    "name": "Teorias psicossociais de identidade social e homofilia",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.3/L119-132",
+     "p.6/L246-258"
+    ],
+    "quote": "social identity theories explain discriminating behaviour as resulting from the need of human beings to classify themselves and others into groups to reduce the complexity of the social world",
+    "note": "Apresentadas e criticadas como base da literatura psicossocial, não adotadas como referencial."
+   },
+   {
+    "item_id": "T5",
+    "name": "Visão baseada em recursos (RBV) da diversidade",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.4/L156-169",
+     "p.5/L216-219"
+    ],
+    "quote": "Richard (2000) elevated the study of the effects of diversity from the group level to the organization level",
+    "note": "A visão baseada em recursos é descrita como fundamento do paradigma da diversidade e depois criticada."
+   },
+   {
+    "item_id": "T6",
+    "name": "Perspectiva de informação/decisão em grupos diversos",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.5/L204-216"
+    ],
+    "quote": "on an information/decision making perspective to analyse the cognitive processes and outcomes of diverse groups’ work",
+    "note": "Descrita como abordagem da literatura de diversidade, sujeita à crítica geral às teorias psicossociais."
+   },
+   {
+    "item_id": "T7",
+    "name": "Capital social",
+    "verdict": "does_not_use",
+    "source_refs": [],
+    "quote": "",
+    "note": "Capital social não aparece no texto; só em título de referência (p.13/L759-760)."
+   },
+   {
+    "item_id": "T8",
+    "name": "Paradigma da diversidade / business case",
+    "verdict": "uses",
+    "source_refs": [
+     "p.4/L149-169",
+     "p.4/L177-180",
+     "p.6/L266-274"
+    ],
+    "quote": "The business rationale at the core of diversity has often been used to explain the popularity of this notion within the US business world",
+    "note": "O paradigma da diversidade e o business case são o alvo da crítica que estrutura o editorial."
+   },
+   {
+    "item_id": "T9",
+    "name": "Interseccionalidade",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.7/L335-340",
+     "p.8/L346-352",
+     "p.9/L432-440"
+    ],
+    "quote": "Yet another promising approach to diversity in organizations draws on intersectionality studies",
+    "note": "Apresentada como abordagem promissora e ilustrada com o estudo de Roggeband e Boogaard."
+   },
+   {
+    "item_id": "T10",
+    "name": "Trabalho de identidade e estudos de branquitude",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.7/L294-310",
+     "p.7/L320-328"
+    ],
+    "quote": "Despite their subordinate positions, subjects continuously engage, as agents, in identity work",
+    "note": "Trabalho de identidade e estudos de branquitude são apresentados como linhas da literatura crítica."
+   },
+   {
+    "item_id": "T11",
+    "name": "Racismo cotidiano e 'inequality regimes'",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.8/L353-365"
+    ],
+    "quote": "Acker (2006) proposed the notion of ‘inequality regimes’ to conceptualize interlocking practices and processes that result in continuing inequalities in all work organizations",
+    "note": "Racismo cotidiano (Essed) e regimes de desigualdade (Acker) são explicados em uma frase cada, em um parágrafo de síntese."
+   },
+   {
+    "item_id": "T12",
+    "name": "Perspectiva pós-colonial",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.11/L507-523"
+    ],
+    "quote": "Drawing from a post-colonial perspective, Kalonaityte examines the simultaneous construction of the majority’s identity as related and opposed to migrant identities",
+    "note": "Perspectiva pós-colonial apresentada a partir de um artigo da edição especial."
+   },
+   {
+    "item_id": "T13",
+    "name": "Diversidade como prática social ('practice turn' nos estudos de gênero)",
+    "verdict": "uses",
+    "source_refs": [
+     "p.10/L485-492",
+     "p.11/L499-506"
+    ],
+    "quote": "studies (Poggio 2006) could help re-conceptualize diversity as an ongoing dynamic social practice",
+    "note": "Quarta direção proposta pelos autores: tratar a diversidade como prática social."
+   },
+   {
+    "item_id": "T14",
+    "name": "Pós-estruturalismo, análise do discurso, teoria institucional e labour process theory",
+    "verdict": "discusses",
+    "source_refs": [
+     "p.2/L041-049",
+     "p.6/L275-287"
+    ],
+    "quote": "the critical diversity literature has recently expanded by drawing on a broad variety of critical theories including post-structuralism",
+    "note": "Análise de discurso é desenvolvida (p.6/L275-287); pós-estruturalismo, teoria institucional e labour process theory são apenas listados."
+   }
+  ],
+  "key_concepts": [
+   {
+    "concept": "Estudos críticos de diversidade",
+    "definition": "Abordagens que, apesar de perspectivas distintas, contestam a visão instrumental das diferenças do paradigma da diversidade e a tratam como socialmente (re)produzida em processos específicos de contexto.",
+    "quote": "Despite their distinct perspectives, critical approaches to diversity all contest the instrumental view of differences inherent to the diversity paradigm",
+    "source_refs": [
+     "p.2/L049-057"
+    ]
+   },
+   {
+    "concept": "Paradigma da diversidade (business case)",
+    "definition": "Racional de negócio que trata as diferenças como ativos estratégicos que, bem geridos, geram vantagem competitiva e que orientou também grande parte da pesquisa acadêmica sobre diversidade.",
+    "quote": "The business rationale at the core of diversity has often been used to explain the popularity of this notion within the US business world",
+    "source_refs": [
+     "p.4/L149-169",
+     "p.4/L177-186"
+    ]
+   },
+   {
+    "concept": "Três críticas à literatura de diversidade",
+    "definition": "Ontologia positivista da identidade, que a naturaliza como categoria fixa; negligência do papel dos contextos organizacionais e sociais; e teorização inadequada do poder, com perspectiva gerencial sobre as diferenças.",
+    "quote": "The critical diversity literature has developed on the ground of three fundamental points of critique towards the diversity literature",
+    "source_refs": [
+     "p.5/L221-236",
+     "p.6/L246-274"
+    ]
+   },
+   {
+    "concept": "Trabalho de identidade (identity work)",
+    "definition": "Engajamento ativo de sujeitos, mesmo em posições subordinadas, na construção, manutenção ou ruptura de identidades favoráveis a eles, desafiando desigualdades.",
+    "quote": "Despite their subordinate positions, subjects continuously engage, as agents, in identity work",
+    "source_refs": [
+     "p.7/L294-310"
+    ]
+   },
+   {
+    "concept": "Interseccionalidade",
+    "definition": "Conceito originado nos estudos feministas negros, aplicado às organizações para conectar múltiplas identidades de trabalho a fenômenos sociais amplos e às relações de poder subjacentes.",
+    "quote": "Applied to organizations, intersectionality allows connecting multiple work identities to wider societal phenomena",
+    "source_refs": [
+     "p.7/L335-340",
+     "p.8/L346-349"
+    ]
+   },
+   {
+    "concept": "Diversidade como prática social",
+    "definition": "Proposta de tratar a diversidade como prática social contínua, que abrange as práticas culturais disponíveis de 'fazer diversidade', tidas como dadas, e o ato de praticá-la na interação.",
+    "quote": "diversity as a social practice could be developed to encompass both the currently available cultural practices to ‘do diversity’, which are now largely taken for granted",
+    "source_refs": [
+     "p.11/L499-503"
+    ]
+   },
+   {
+    "concept": "Performatividade crítica",
+    "definition": "Postura que pede à literatura crítica atuar na mudança social, indo além da crítica rumo a práticas e intervenções afirmativas e engajadas.",
+    "quote": "it is time for the critical literature to become more performative, explicitly dealing with stimulating social change",
+    "source_refs": [
+     "p.11/L532-541"
+    ]
+   }
+  ],
+  "methodology": {
+   "study_type": "teórico (editorial de edição especial)",
+   "design": "Editorial que reconstrói a trajetória dos estudos de gênero, raça e diversidade, revisa a literatura crítica e propõe direções para pesquisa, situando os artigos da edição especial.",
+   "sample_type": "não se aplica (sem coleta de dados)",
+   "sample_size": null,
+   "sector": "",
+   "period": "",
+   "methods": [
+    "editorial",
+    "revisão narrativa da literatura"
+   ],
+   "analysis_note": "O texto não descreve critérios de busca ou seleção da literatura. A organização é argumentativa: raízes da pesquisa (p.2/L064-066), paradigma da diversidade (p.4/L148-149), críticas (p.5/L221-223) e caminhos futuros (p.9/L399-403).",
+   "source_refs": [
+    "p.2/L058-066",
+    "p.9/L399-403"
+   ]
+  },
+  "main_findings": [
+   {
+    "finding": "A predominância de abordagens psicossociais na literatura sobre gênero, raça e diversidade levou a uma compreensão estreita dos processos que geram desigualdade, que ignora elementos estruturais e específicos de contexto.",
+    "type": "proposition",
+    "quote": "the predominance of social psychological approaches has also resulted in a narrow understanding of the processes leading to inequality",
+    "source_refs": [
+     "p.4/L145-147",
+     "p.3/L106-132"
+    ]
+   },
+   {
+    "finding": "O paradigma da diversidade, ancorado em um racional de negócio e na visão baseada em recursos, tratou as diferenças pela primeira vez como ativos estratégicos.",
+    "type": "proposition",
+    "quote": "The business rationale at the core of diversity has often been used to explain the popularity of this notion within the US business world",
+    "source_refs": [
+     "p.4/L149-169",
+     "p.4/L177-180"
+    ]
+   },
+   {
+    "finding": "A literatura psicossocial naturaliza identidades como categorias fixas, em vez de reconhecer sua construção social.",
+    "type": "proposition",
+    "quote": "Such unproblematic approach naturalizes identities into objective entities, rather than acknowledging their socially constructed nature",
+    "source_refs": [
+     "p.5/L223-236"
+    ]
+   },
+   {
+    "finding": "Atores organizacionais não repetem discursos hegemônicos de diversidade, mas se apropriam deles seletivamente, o que abre espaço para formas cotidianas de resistência.",
+    "type": "proposition",
+    "quote": "Organizational actors do not simply take over existing grand, hegemonic discourses of diversity but rather selectively appropriate them",
+    "source_refs": [
+     "p.9/L404-415"
+    ]
+   },
+   {
+    "finding": "A maior parte da pesquisa crítica mostrou que práticas de gestão da diversidade não diminuem as desigualdades e até contribuem para sua reprodução.",
+    "type": "proposition",
+    "quote": "most critical diversity research has focused on examining organizational inequalities and showing how existing (diversity) management practices not only do not diminish them",
+    "source_refs": [
+     "p.11/L528-532"
+    ]
+   },
+   {
+    "finding": "A pesquisa deve buscar formas emancipatórias de organizar, tornar-se mais performativa e tratar a diversidade como prática social, com apoio em pesquisa-ação.",
+    "type": "proposition",
+    "quote": "we plea for diversity studies that actively search for new, emancipating forms of organizing",
+    "source_refs": [
+     "p.11/L528-541",
+     "p.10/L485-492",
+     "p.12/L560-566",
+     "p.12/L584-585"
+    ]
+   }
+  ],
+  "contribution": {
+   "theoretical": "Faz um balanço de uma década de estudos críticos de diversidade, traça suas raízes nos estudos críticos de gênero e raça e propõe cinco direções para a pesquisa (p.2/L058-066; p.9/L399-403). Defende uma pesquisa mais empírica, centrada na experiência da força de trabalho, aberta a outras formas de representação, atenta à relação entre discurso e prática e mais performativa, com 'reflexividade reconstrutiva' (p.9/L404-431; p.10/L457-492; p.11/L528-541).",
+   "practical": "O editorial não traz seção de implicações gerenciais. Defende estudos performativos e pesquisa-ação que apoiem organizações na mudança de relações raciais e de gênero, aprendendo com desafios e conquistas (p.12/L560-566; p.12/L581-585)."
+  }
+ }
+}
