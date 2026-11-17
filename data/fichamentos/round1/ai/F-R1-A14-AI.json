@@ -1,0 +1,300 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R1-A14-AI",
+  "article_id": "A14",
+  "round": 1,
+  "source": "ai",
+  "generator": {
+    "kind": "ai",
+    "provider": "anthropic",
+    "model": "claude-sonnet-5.5-medium (execução assistida, sem API)",
+    "prompt_version": "1.0.0-baseline",
+    "temperature": null,
+    "seed": null,
+    "generated_at": "2026-11-17T10:48:06.729147Z",
+    "input_tokens": null,
+    "output_tokens": null,
+    "latency_s": null,
+    "md_sha256": "2d4a9ab8b8491d0c0defb4e5d8c2ec4c7ed68ffe8c8fd3d35cf0312fcfa22270",
+    "forced": false,
+    "verdicts_prompt_version": "1.0.0-theory-verdicts"
+  },
+  "content": {
+    "executive_summary": "O estudo analisa como os riscos de internacionalização são percebidos por serviços hard, serviços soft e firmas de serviços profissionais (PSFs) em um mercado emergente, o Brasil (p.1/L021-024; p.2/L101-104). O referencial adota a tipologia de Cavusgil et al. (2019), com riscos intercultural, cambial, de país e comercial, a distinção hard e soft de Erramilli e as PSFs, além do modelo de Uppsala enriquecido pela teoria institucional e da noção emergente de entrada virtual (p.2/L085-088; p.3/L134-171; p.4/L192-195; p.6/L305-326). O método é um estudo de casos múltiplos, qualitativo e exploratório, com 15 empresas de serviços, entrevistas semiestruturadas e dados secundários, codificação aberta no ATLAS.ti e comparação entre casos (p.6/L328-331; p.8/L393-407; p.8/L419-432). Entre os serviços hard, três de quatro empresas operam remotamente e veem os riscos cultural, cambial e de país como relevantes, mas não proibitivos, com o risco de país ligado a tributação e burocracia (p.12/L720-726; p.12/L743-749; p.13/L756-765). Entre soft services e PSFs, várias empresas usam modos virtuais, e o risco de país foi o mais significativo (p.14/L859-865; p.15/L866-868; p.1/L027-030). Os autores concluem que soft services e PSFs não percebem riscos maiores que os hard services e que o risco intercultural não é barreira (p.15/L872-879; p.15/L892-894), e propõem quatro proposições, uma por tipo de risco (p.15/L911-914; p.16/L921-936). Como contribuições, destacam o modo virtual para serviços puros, a menor percepção de risco e a distinção entre tipos de serviço (p.17/L961-991). Reconhecem limitações como o viés retrospectivo, a polissemia do risco e a relutância em discutir erros, e afirmam que os achados não são generalizáveis (p.18/L1005-1014).",
+    "research_question": "Como os riscos de internacionalização são percebidos entre serviços hard, serviços soft e firmas de serviços profissionais em um mercado emergente? A pergunta é enunciada explicitamente (p.2/L101-104) e retomada na conclusão (p.15/L872-874).",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Framework de riscos de internacionalização (intercultural, cambial, país, comercial)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.2/L085-088",
+          "p.4/L192-195"
+        ],
+        "quote": "To analyze internationalization risk, this study adopts Cavusgil et al.’s (2019) framework, which classifies risks into four dimensions: intercultural, currency, country and commercial",
+        "note": "Estrutura a revisão, as categorias de análise e a apresentação dos resultados."
+      },
+      {
+        "item_id": "T2",
+        "name": "Modelo de Uppsala de internacionalização gradual",
+        "verdict": "uses",
+        "source_refs": [
+          "p.12/L727-732",
+          "p.6/L305-309"
+        ],
+        "quote": "According to the Uppsala Model (Johanson and Vahlne, 1977, 2009), accumulated experience in international markets facilitates entry into new ones",
+        "note": "O modelo de Uppsala é usado para interpretar os casos e é enriquecido pela teoria institucional."
+      },
+      {
+        "item_id": "T3",
+        "name": "Teoria institucional / visão baseada em instituições",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5/L272-277",
+          "p.6/L286-326",
+          "p.16/L942-949"
+        ],
+        "quote": "Institutional Theory can enrich the Uppsala Model by explaining barriers and facilitators that are not only psychic in nature but also regulatory, normative and cultural-cognitive",
+        "note": "Há uma seção própria (2.3) e a teoria é usada para explicar diferenças de risco entre tipos de serviço."
+      },
+      {
+        "item_id": "T4",
+        "name": "Teoria dos custos de transação",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Custos de transação aparecem apenas como benefício do investimento direto (p.3/L143-145); a teoria não é apresentada."
+      },
+      {
+        "item_id": "T5",
+        "name": "Classificação de serviços hard/soft e firmas de serviços profissionais (PSFs)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3/L134-148",
+          "p.3/L155-164"
+        ],
+        "quote": "A key distinction is proposed by Erramilli (1990), who classifies services as hard or soft. Hard services allow production and consumption to be separated, making exportation feasible",
+        "note": "A classificação em serviços hard, soft e PSFs organiza a amostra, a análise e as conclusões."
+      },
+      {
+        "item_id": "T6",
+        "name": "Born global",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Born global aparece na introdução (p.2/L051) e para classificar uma empresa do caso (p.14/L853-855), sem desenvolvimento teórico."
+      },
+      {
+        "item_id": "T7",
+        "name": "Estratégia follow-the-client das PSFs",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.14/L812-815",
+          "p.14/L830-833"
+        ],
+        "quote": "aligns with Prashantham et al.’s (2019) theory that PSFs follow their clients into new markets and establish partnerships to optimize resources",
+        "note": "A estratégia follow-the-client é apresentada no referencial (p.3/L157-159) e usada para interpretar dois casos."
+      },
+      {
+        "item_id": "T8",
+        "name": "Paradigma eclético (OLI)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "O paradigma eclético não é mencionado."
+      },
+      {
+        "item_id": "T9",
+        "name": "Conceito de risco em negócios internacionais",
+        "verdict": "uses",
+        "source_refs": [
+          "p.4/L178-184"
+        ],
+        "quote": "Risk has been conceptualized as danger, uncertainty or opportunity, reflecting the possibility of negative outcomes as well as potential gains",
+        "note": "O conceito de risco fundamenta a seção 2.2 e o estudo de percepção de risco."
+      },
+      {
+        "item_id": "T10",
+        "name": "Confiança interorganizacional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "A confiança aparece como apoio em citações (p.14/L824-827; p.15/L908-909), sem desenvolvimento da teoria de confiança interorganizacional."
+      },
+      {
+        "item_id": "T11",
+        "name": "Liability of foreignness e outsidership",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.4/L207-210",
+          "p.2/L078-080"
+        ],
+        "quote": "service firms face the liability of foreignness, which manifests in regulatory unfamiliarity, network deficiencies and legitimacy challenges",
+        "note": "Descrita no referencial e na agenda futura (p.18/L1017), mas não estrutura a análise."
+      },
+      {
+        "item_id": "T12",
+        "name": "Teoria de redes",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "A teoria de redes aparece só como sugestão de pesquisa futura (p.18/L1019-1020)."
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Riscos de internacionalização (quatro dimensões)",
+        "definition": "Classificação de Cavusgil et al. (2019) em riscos intercultural, cambial, de país e comercial, adotada para analisar a percepção de risco.",
+        "quote": "To analyze internationalization risk, this study adopts Cavusgil et al.’s (2019) framework, which classifies risks into four dimensions: intercultural, currency, country and commercial",
+        "source_refs": [
+          "p.2/L085-088",
+          "p.4/L192-195"
+        ]
+      },
+      {
+        "concept": "Risco intercultural",
+        "definition": "Risco que decorre de diferenças de valores, normas e práticas que criam distância psíquica entre as empresas e os mercados estrangeiros.",
+        "quote": "Intercultural risk arises from differences in values, norms and practices that create psychic distance between firms and foreign markets",
+        "source_refs": [
+          "p.4/L196-206"
+        ]
+      },
+      {
+        "concept": "Risco cambial",
+        "definition": "Perdas potenciais por flutuações da taxa de câmbio que afetam preços, receitas e custos em transações internacionais.",
+        "quote": "Currency risk refers to the potential losses arising from exchange rate fluctuations that affect pricing, revenues and costs in international transactions",
+        "source_refs": [
+          "p.4/L214-218"
+        ]
+      },
+      {
+        "concept": "Risco de país",
+        "definition": "Fatores políticos, legais, econômicos e sociais que podem afetar adversamente operações no exterior; é dinâmico e depende do contexto.",
+        "quote": "Country risk encompasses political, legal, economic and social factors",
+        "source_refs": [
+          "p.5/L225-232"
+        ]
+      },
+      {
+        "concept": "Risco comercial",
+        "definition": "Perdas decorrentes de decisões estratégicas e operacionais, como seleção de parceiros, momento de entrada e preços.",
+        "quote": "Commercial risk refers to losses arising from strategic and operational decisions, including partner selection, entry timing and pricing strategies",
+        "source_refs": [
+          "p.5/L259-265"
+        ]
+      },
+      {
+        "concept": "Serviços hard, soft e PSFs",
+        "definition": "Serviços hard permitem separar produção e consumo e facilitam a exportação; soft exigem coprodução e proximidade; PSFs são intensivas em conhecimento e pouco intensivas em capital.",
+        "quote": "PSFs, such as consultancies, investment banks and law firms, constitute a distinct segment characterized by high knowledge intensity, low capital intensity and reliance on highly skilled professionals",
+        "source_refs": [
+          "p.3/L134-148",
+          "p.3/L155-157"
+        ]
+      },
+      {
+        "concept": "Entrada virtual",
+        "definition": "Modo emergente de internacionalização que permite atender mercados estrangeiros sem deslocamento físico, alterando a estrutura de custos e a exposição a risco.",
+        "quote": "Virtual entry enables firms to serve foreign markets without physical relocation, altering both cost structures and risk exposure",
+        "source_refs": [
+          "p.3/L165-171"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico (qualitativo)",
+      "design": "Estudo de casos múltiplos, qualitativo, exploratório e indutivo, com abordagem processual, em 15 empresas brasileiras de serviços com atividade internacional.",
+      "sample_type": "empresas de serviços hard, soft e PSFs com experiência de internacionalização, selecionadas de modo intencional",
+      "sample_size": 15,
+      "sector": "serviços (software, consultoria, educação, direito e agência de viagens, entre outros)",
+      "period": "entrevistas em 2023, com duas em novembro de 2025; dados secundários de 2022 e 2023",
+      "methods": [
+        "estudo de casos múltiplos",
+        "entrevistas semiestruturadas",
+        "análise de dados secundários",
+        "codificação aberta no ATLAS.ti",
+        "comparação entre casos"
+      ],
+      "analysis_note": "Os casos foram escolhidos em duas etapas: uma primeira com 3 empresas, que serviu de piloto, e uma segunda com 12, a partir de 7.221 empresas elegíveis do Siscoserv, de contatos por e-mail e de uma campanha no LinkedIn (p.7/L374-384; p.8/L386-394). Foram feitas 15 entrevistas, uma conferência e vídeos como dados secundários, com mais de 17 horas de coleta e análise (p.8/L400-407). A análise usou abordagem processual, planilhas, codificação aberta linha a linha no ATLAS.ti 23 e comparação constante (p.8/L419-432), com estratégias de credibilidade e verificação de saturação (p.8/L433-437; p.10/L616-633).",
+      "source_refs": [
+        "p.6/L328-331",
+        "p.7/L348-353",
+        "p.7/L360-365",
+        "p.8/L393-407",
+        "p.8/L419-432",
+        "p.10/L627-633"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "Entre os serviços hard, três das quatro empresas operam remotamente, em linha com a dissociação entre produção e consumo.",
+        "type": "empirical",
+        "quote": "Three of the four companies studied – B, D and K – align with Erramilli’s (1990) theory regarding the dissociation of production and consumption, enabling export without requiring physical presence abroad",
+        "source_refs": [
+          "p.12/L714-726"
+        ]
+      },
+      {
+        "finding": "Entre os serviços hard, o risco de país, ligado a tributação e burocracia, foi um grande desafio, e o risco comercial foi menos relevante.",
+        "type": "empirical",
+        "quote": "Country risk was identified as a major challenge, particularly concerning taxation and bureaucracy",
+        "source_refs": [
+          "p.12/L743-754"
+        ]
+      },
+      {
+        "finding": "Várias empresas de soft services e PSFs usam modos virtuais de entrada, o que desafia a literatura que enfatiza a proximidade física.",
+        "type": "empirical",
+        "quote": "The results underscore the diversity of approaches and the growing role of virtual presence in internationalization. Companies such as E, F, L and G leverage virtual entry modes, challenging traditional literature that emphasizes the need for physical proximity in highly customized services",
+        "source_refs": [
+          "p.14/L859-865"
+        ]
+      },
+      {
+        "finding": "Soft services e PSFs não percebem riscos de internacionalização maiores que os dos hard services; em vários casos o risco percebido foi igual ou menor, sobretudo com entrada virtual.",
+        "type": "empirical",
+        "quote": "contrary to dominant assumptions in the literature, soft services and PSFs do not perceive internationalization risks as higher than those faced by hard services. In several cases, perceived risk was equal to or even lower, particularly when firms adopted virtual entry modes",
+        "source_refs": [
+          "p.15/L872-879",
+          "p.15/L913-914"
+        ]
+      },
+      {
+        "finding": "O risco intercultural está presente, mas não é barreira à internacionalização; o cambial foi amplamente gerido, o de país variou e o comercial foi visto como baixo.",
+        "type": "empirical",
+        "quote": "intercultural risk, although present, is not a barrier to internationalization",
+        "source_refs": [
+          "p.15/L892-911"
+        ]
+      },
+      {
+        "finding": "O risco percebido é igual ou menor em soft services e PSFs que em hard services, para cada um dos quatro tipos de risco (proposições P1 a P4).",
+        "type": "proposition",
+        "quote": "it is concluded that the perceived risk of internationalization in soft services/PSFs is equal to or lower than that of hard services",
+        "source_refs": [
+          "p.15/L911-914",
+          "p.16/L921-936"
+        ]
+      },
+      {
+        "finding": "No framework, a exportação é a etapa de menor risco, seguida de acordos contratuais e do investimento direto, e o modo virtual reduz riscos.",
+        "type": "model",
+        "quote": "Export is identified as the lowest-risk step, followed by contractual agreements and, finally, FDI, which represents the highest-risk stage in the internationalization process. Conversely, the Virtual mode presents reduced risks",
+        "source_refs": [
+          "p.16/L938-941"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "Aponta três contribuições: a adoção de modos virtuais de entrada por serviços hard e soft/PSFs, que sugere que a distinção hard e soft pode prever menos os modos de internacionalização; a percepção de riscos igual ou menor em soft services e PSFs; e a distinção explícita entre tipos de serviço como condição de contorno teoricamente relevante (p.17/L961-991). Refina a aplicação do framework de Cavusgil et al. a tipos de serviço (p.2/L108-115).",
+      "practical": "Indica que o modo virtual é um mecanismo eficaz para soft services e PSFs, que o investimento direto pode trazer legitimidade e menor exposição a risco cambial e de país, e que gestores de serviços intensivos em conhecimento devem ver a internacionalização como estratégia viável de crescimento (p.17/L993-1002). Os autores ressalvam que o estudo não examinou estratégias de mitigação de risco (p.17/L993)."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}
