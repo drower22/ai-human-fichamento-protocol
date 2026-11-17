@@ -65,7 +65,9 @@ li{{margin:5px 0}}
   text-decoration:none;color:var(--navy)}}
 .links a:hover{{background:#dbeafe;border-color:var(--blue)}}
 .links .aid{{font-weight:700;font-size:14px;white-space:nowrap}}
-.links .ttl{{flex:1;font-weight:400;color:var(--slate);font-size:12px;line-height:1.35}}
+.links .ttl{{flex:1;color:var(--slate);font-size:11.5px;line-height:1.4}}
+.links .ttl b{{display:block;color:#1f2937;font-size:13.5px;font-weight:600;
+  line-height:1.35;margin-bottom:2px}}
 .links .st{{font-size:11px;font-weight:700;border-radius:999px;padding:3px 10px;
   white-space:nowrap}}
 .links .st.pend{{background:#fef9c3;color:#854d0e}}
@@ -149,10 +151,13 @@ def build(round_: int, prazo: str) -> None:
             done = eval_done(round_, art, slug)
             badge = ('<span class="st done">✓ enviado</span>' if done
                      else '<span class="st pend">pendente</span>')
+            cit = " · ".join(x for x in (
+                ", ".join(a.get("authors") or []),
+                str(a.get("year") or ""), a.get("venue", "")) if x)
             links += (f'<a class="{"done" if done else ""}" '
                       f'href="/juizes/?j={slug}&r={round_}&a={art}">'
                       f'<span class="aid">Artigo {art}</span>'
-                      f'<span class="ttl">{e(a["title"])}</span>'
+                      f'<span class="ttl"><b>{e(a["title"])}</b>{e(cit)}</span>'
                       f'{badge}<span class="arrow">→</span></a>')
         out = SITE / "juizes" / "j" / slug
         out.mkdir(parents=True, exist_ok=True)

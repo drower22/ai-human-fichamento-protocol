@@ -112,10 +112,16 @@
   .done p{font-size:17px;color:var(--slate);line-height:1.6}
   .done .check{width:64px;height:64px;border-radius:50%;background:var(--blue);
     display:inline-flex;align-items:center;justify-content:center}
+  .backhome{display:inline-block;font-size:14px;color:var(--blue);
+    text-decoration:none;font-weight:600;margin-bottom:14px}
+  .backhome:hover{text-decoration:underline}
+  .done .backhome{font-size:16px;margin-top:22px}
 </style>
 </head>
 <body>
 <div class="wrap">
+
+<a class="backhome" id="backTop" href="#" hidden>← voltar para a sua página</a>
 
 <div class="errors" id="errors"></div>
 <div class="ok" id="ok"></div>
@@ -312,6 +318,7 @@
     <span class="check"><svg viewBox="0 0 24 24" style="width:34px;height:34px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M20 6L9 17l-5-5"/></svg></span>
     <h2>Avaliação enviada!</h2>
     <p id="doneMsg"></p>
+    <a class="backhome" id="backDone" href="#" hidden>← voltar para a sua página e abrir o próximo artigo</a>
     <p>Obrigado — você já pode fechar esta página.</p>
   </div>
 </div>
@@ -428,6 +435,10 @@ const _r=_p.get('r'), _a=(_p.get('a')||'').toUpperCase();
 const NAMES={nz4f:'Natália',bq8w:'Bruno',mv3r:'Marcos',gx6t:'Gustavo',
   teste:'Teste'};
 if(_j&&(NAMES[_j]||/^[1-4]$/.test(_j))){
+  // link de volta à página pessoal do juiz (topo + tela de envio)
+  if(NAMES[_j])for(const id of ['backTop','backDone']){
+    const l=document.getElementById(id);
+    l.href=`/juizes/j/${_j}/`;l.hidden=false;}
   const sel=q('[name="judge_id"]'),lock=document.getElementById('judgeLock');
   if(NAMES[_j]){sel.add(new Option(_j,_j));sel.value=_j;lock.value=NAMES[_j];}
   else{sel.value='J'+_j;lock.value='Identificado pelo seu link';} // teste interno
