@@ -125,7 +125,7 @@
 
 <div class="errors" id="errors"></div>
 <div class="ok" id="ok"></div>
-<div class="warndemo" id="demo">MODO DEMONSTRAÇÃO — este par contém conteúdo de exemplo, não os fichamentos reais.</div>
+<div class="warndemo" id="demo">MODO DEMONSTRAÇÃO: este par contém conteúdo de exemplo, não os fichamentos reais.</div>
 
 <form id="f" novalidate>
 
@@ -148,8 +148,8 @@
   liberando tempo do pesquisador para reflexão e análise teórica.</p>
 
   <h3>O que a sua participação envolve</h3>
-  <p>Avaliar pares de fichamentos do mesmo artigo de forma cega — sem saber qual
-  foi produzido por estudante e qual por IA — atribuindo notas por seção,
+  <p>Avaliar pares de fichamentos do mesmo artigo de forma cega (sem saber qual
+  foi produzido por estudante e qual por IA), atribuindo notas por seção,
   classificando eventuais erros e respondendo a perguntas comparativas.</p>
 
   <h3>Critério de seleção</h3>
@@ -197,7 +197,7 @@
     <label><input type="radio" name="tcle" value="nao_aceito"> Não aceito participar</label>
   </div>
   <p id="decline" style="display:none;margin-top:14px;font-size:15px;color:var(--slate)">
-    Sem problema — obrigado pela atenção. Você pode fechar esta página.
+    Sem problema, obrigado pela atenção. Você pode fechar esta página.
     Se mudar de ideia, marque "Li e aceito participar".</p>
 </section>
 
@@ -219,7 +219,7 @@
       <option>J1</option><option>J2</option><option>J3</option><option>J4</option></select>
       <input id="judgeLock" hidden disabled style="background:#f8fafc;font-weight:700"></div>
     <div><label class="q">Rodada</label>
-      <select name="round"><option value="0">0 — Piloto</option>
+      <select name="round"><option value="0">0 · Piloto</option>
       <option value="1">1</option><option value="2">2</option></select>
       <input id="roundLock" hidden disabled style="background:#f8fafc;font-weight:700"></div>
     <div><label class="q">Par (artigo)</label>
@@ -241,22 +241,21 @@
 
 <section>
   <h2>3. Avaliação</h2>
-  <p class="desc">Neste piloto você avalia <b>dois fichamentos do mesmo artigo</b>,
-  rotulados A e B, sem indicação de origem — um de cada vez, seção por seção.
-  O objetivo é <b>calibrar a régua entre os juízes</b>: suas notas serão comparadas
-  às dos demais sobre o mesmo material, e delas saem as âncoras finais das rodadas
-  oficiais. Avalie com calma e marque os tipos de erro por seção.</p>
+  <p class="desc">Você avalia <b>dois fichamentos do mesmo artigo</b>,
+  rotulados A e B, sem indicação de origem: um de cada vez, seção por seção.
+  Avalie com calma, marque os tipos de erro por seção e, no final, diga
+  <b>qual dos dois você usaria na sua revisão de literatura</b>.</p>
   <div class="pairinfo" id="pairinfo"></div>
   <ol class="steps">
     <li>Leia a seção à esquerda e marque a nota (1–7) à direita.</li>
     <li>Se encontrar erro, abra <i>Erros nesta seção</i> e marque o tipo.</li>
     <li>Alterne <b>A | B</b> nas abas e repita para o outro fichamento.</li>
     <li>No fim de cada fichamento, responda o que questionaria e o que faltou.</li>
-    <li>Com as notas de A e B completas, o <b>Comparativo</b> aparece — escolha e envie.</li>
+    <li>Com as notas de A e B completas, o <b>Comparativo</b> aparece: escolha e envie.</li>
   </ol>
-  <p class="desc" style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:12px 16px"><b>Regra geral — fidelidade limita a nota.</b> Completude não compensa
-  fabricação nem cópia literal: uma seção com conteúdo inventado, extrapolado ou
-  copiado literalmente do artigo <b>não passa de 4</b>, independente do volume de acertos.</p>
+  <p class="desc" style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:12px 16px"><b>Regra geral: fidelidade limita a nota.</b> Completude não compensa
+  fabricação nem cópia literal: uma seção com conteúdo inventado, extrapolado,
+  inchado ou copiado literalmente do artigo <b>não passa de 4</b>, independente do volume de acertos.</p>
   <div class="tabbar">
     <button type="button" class="tab on" id="tabA">Fichamento A</button>
     <button type="button" class="tab" id="tabB">Fichamento B</button>
@@ -265,21 +264,21 @@
   <div id="secrows"></div>
   <div class="qualblk">
     <div id="finalA">
-      <p class="panelT">Considerações finais — Fichamento A</p>
+      <p class="panelT">Considerações finais · Fichamento A</p>
       <label class="q">O que você questionaria ou corrigiria no Fichamento A?</label>
       <textarea name="qa_A" class="short"></textarea>
       <label class="q">O que faltou no Fichamento A?</label>
       <textarea name="miss_A" class="short"></textarea>
-      <label class="q">Nota sobre os erros<small>opcional — descreva os erros marcados, se "outro" ou se quiser detalhar</small></label>
+      <label class="q">Nota sobre os erros<small>opcional: descreva os erros marcados, se "outro" ou se quiser detalhar</small></label>
       <textarea name="enote_A" class="short"></textarea>
     </div>
     <div id="finalB" hidden>
-      <p class="panelT">Considerações finais — Fichamento B</p>
+      <p class="panelT">Considerações finais · Fichamento B</p>
       <label class="q">O que você questionaria ou corrigiria no Fichamento B?</label>
       <textarea name="qa_B" class="short"></textarea>
       <label class="q">O que faltou no Fichamento B?</label>
       <textarea name="miss_B" class="short"></textarea>
-      <label class="q">Nota sobre os erros<small>opcional — descreva os erros marcados, se "outro" ou se quiser detalhar</small></label>
+      <label class="q">Nota sobre os erros<small>opcional: descreva os erros marcados, se "outro" ou se quiser detalhar</small></label>
       <textarea name="enote_B" class="short"></textarea>
     </div>
   </div>
@@ -299,12 +298,12 @@
   <div class="row2">
     <div><label class="q">Sua familiaridade com este artigo<small>você indicou este artigo? leu antes?</small></label>
       <select name="confidence"><option value="">—</option>
-      <option value="alta">Alta — é um artigo que eu indiquei / conheço bem</option>
-      <option value="media">Média — conheço, mas não em detalhe</option>
-      <option value="baixa">Baixa — não conhecia este artigo</option></select></div>
+      <option value="alta">Alta: é um artigo que eu indiquei / conheço bem</option>
+      <option value="media">Média: conheço, mas não em detalhe</option>
+      <option value="baixa">Baixa: não conhecia este artigo</option></select></div>
     <div></div>
   </div>
-  <label class="q">Observações gerais<small>opcional — impressões sobre o par, suspeitas de origem, etc.</small></label>
+  <label class="q">Observações gerais<small>opcional: impressões sobre o par, suspeitas de origem, etc.</small></label>
   <textarea name="notes" class="short"></textarea>
 </section>
 
@@ -319,7 +318,7 @@
     <h2>Avaliação enviada!</h2>
     <p id="doneMsg"></p>
     <a class="backhome" id="backDone" href="#" hidden>← voltar para a sua página e abrir o próximo artigo</a>
-    <p>Obrigado — você já pode fechar esta página.</p>
+    <p>Obrigado, você já pode fechar esta página.</p>
   </div>
 </div>
 
@@ -334,7 +333,7 @@ const ANCHORS={
 executive_summary:{a1:'Ausente, genérico a ponto de valer para qualquer artigo, ou contradiz o artigo',
   a4:'Cobre problema, método e resultado centrais, mas perde nuances ou omite partes importantes, ou é colagem de trechos literais em vez de síntese elaborada',
   a7:'Síntese fiel e completa (~300 palavras), com elaboração própria: problema, método, achados e contribuição; quem lê entende o artigo sem abrir o PDF'},
-research_question:{a1:'Ausente ou errada (não é a pergunta do artigo) — inclui inventar uma questão explícita que o artigo não enuncia',
+research_question:{a1:'Ausente ou errada (não é a pergunta do artigo); inclui inventar uma questão explícita que o artigo não enuncia',
   a4:'Correta mas imprecisa: ampla demais, captura só parte, ou copia o objetivo declarado quando a questão real é outra',
   a7:'Formula precisamente a pergunta do artigo, no escopo correto; se implícita, reconstruí-la a partir do objetivo/argumento/conclusão e sinalizar que é implícita conta como precisão'},
 theories:{a1:'Teorias centrais ausentes ou inventadas',
@@ -350,7 +349,7 @@ main_findings:{a1:'Achados inventados, invertidos ou que o artigo não sustenta'
   a4:'Achados corretos mas incompletos, ou sem distinguir evidência de especulação',
   a7:'Captura todos os achados/proposições centrais, distinguindo empírico de proposição/modelo'},
 contribution:{a1:'Ausente ou não corresponde ao que o artigo reivindica/entrega',
-  a4:'Identifica contribuição real mas superficial (repete o abstract) ou a infla — inflar mantém a nota em 4',
+  a4:'Identifica contribuição real mas superficial (repete o abstract) ou a infla; inflar mantém a nota em 4',
   a7:'Articula avanço teórico e utilidade prática com a força que o artigo sustenta: nem repete a retórica inflada do próprio artigo, nem infla, nem reduz'}};
 
 const VL={uses:'USA',discusses:'DISCUTE',does_not_use:'NÃO USA'};
@@ -446,7 +445,7 @@ if(_j&&(NAMES[_j]||/^[1-4]$/.test(_j))){
   // ?j&r&a: trava rodada e par pelos parâmetros da URL (links do painel);
   // ?j sozinho mantém o comportamento original do piloto (R0 + PILOTO)
   const rVal=_r!==null?_r:'0', aVal=_a||'PILOTO';
-  for(const [nm,val,lid,label] of [['round',rVal,'roundLock',rVal==='0'?'0 — Piloto':rVal],
+  for(const [nm,val,lid,label] of [['round',rVal,'roundLock',rVal==='0'?'0 · Piloto':rVal],
                                   ['article_id',aVal,'artLock',aVal]]){
     const s=q(`[name="${nm}"]`),l=document.getElementById(lid);
     s.value=val;s.hidden=true;l.hidden=false;l.value=label;
@@ -537,7 +536,7 @@ const scoreSide=(k,s)=>`
 document.getElementById('secrows').innerHTML=SECS.map(s=>`
   <div class="secrow">
     <div class="sectxt"><h4>${PT[s]}</h4>
-      <div id="txtA_${s}"><p class="refs">— o texto aparece aqui depois de carregar o par —</p></div>
+      <div id="txtA_${s}"><p class="refs">o texto aparece aqui depois de carregar o par</p></div>
       <div id="txtB_${s}" hidden></div>
     </div>
     <div class="slot" style="margin:0"><h3>${PT[s]}</h3>
@@ -622,8 +621,8 @@ document.getElementById('f').addEventListener('submit',async e=>{
   }catch{
     baixar();
     okb.textContent=location.protocol==='file:'
-      ?`Você está testando o arquivo local — o envio só funciona no link publicado. Baixamos ${fname} para conferir o conteúdo.`
-      :`O envio automático falhou. Baixamos o arquivo ${dlname} para você — envie-o EM ANEXO por e-mail à coordenação.`;
+      ?`Você está testando o arquivo local: o envio só funciona no link publicado. Baixamos ${fname} para conferir o conteúdo.`
+      :`O envio automático falhou. Baixamos o arquivo ${dlname} para você; envie-o EM ANEXO por e-mail à coordenação.`;
     okb.style.display='block';window.scrollTo({top:0,behavior:'smooth'});
   }
 });
