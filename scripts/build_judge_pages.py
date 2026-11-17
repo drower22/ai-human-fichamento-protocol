@@ -138,7 +138,18 @@ ordem que quiser e voltar aqui para abrir o próximo.</p>
 
 <p class="foot">Dúvidas: ismar.drower@ufpr.br · Protocolo de validação
 iterativa IA·humano para fichamentos (UFPR).</p>
-</div></body></html>
+</div>
+<script>
+// badge otimista: o form grava a chave sent_r<rodada>_<artigo> no
+// localStorage ao enviar;
+// vale no navegador do juiz até a avaliação ser importada no painel.
+document.querySelectorAll('.links a[data-art]').forEach(a=>{{
+  if(localStorage.getItem('sent_r'+a.dataset.r+'_'+a.dataset.art)){{
+    a.classList.add('done');
+    const b=a.querySelector('.st');
+    if(b){{b.className='st done';b.textContent='✓ enviado';}}
+  }}}});
+</script></body></html>
 """
 
 
@@ -155,6 +166,7 @@ def build(round_: int, prazo: str) -> None:
                 ", ".join(a.get("authors") or []),
                 str(a.get("year") or ""), a.get("venue", "")) if x)
             links += (f'<a class="{"done" if done else ""}" '
+                      f'data-r="{round_}" data-art="{art}" '
                       f'href="/juizes/?j={slug}&r={round_}&a={art}">'
                       f'<span class="aid">Artigo {art}</span>'
                       f'<span class="ttl"><b>{e(a["title"])}</b>{e(cit)}</span>'

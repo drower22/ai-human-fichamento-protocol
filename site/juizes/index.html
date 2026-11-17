@@ -603,6 +603,7 @@ document.getElementById('f').addEventListener('submit',async e=>{
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({filename:fname,json:jtxt})});
     if(!r.ok)throw 0;
+    try{localStorage.setItem(`sent_r${payload.round}_${payload.article_id}`,'1');}catch{}
     document.getElementById('f').style.display='none';
     document.getElementById('doneMsg').textContent=`Recebemos a sua avaliação do par ${payload.article_id}.`;
     document.getElementById('done').hidden=false;
