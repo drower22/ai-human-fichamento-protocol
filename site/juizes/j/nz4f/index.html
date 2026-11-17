@@ -32,7 +32,9 @@ li{margin:5px 0}
   white-space:nowrap}
 .links .st.pend{background:#fef9c3;color:#854d0e}
 .links .st.done{background:#dcfce7;color:#166534}
-.links a.done{opacity:.75}
+.links a.done{opacity:.6;cursor:default}
+.links a.done:hover{background:#eff6ff;border-color:#bfdbfe}
+.links a.done .arrow{display:none}
 .links .arrow{font-size:16px;color:var(--blue)}
 .foot{font-size:12px;color:#94a3b8;margin-top:6px}
 </style></head><body><div class="wrap">
@@ -103,11 +105,12 @@ iterativa IA·humano para fichamentos (UFPR).</p>
 // "enviado" em duas fontes: localStorage (instantâneo no envio) e
 // /api/status (definitivo: arquivo já persistido no repo pelo /api/send).
 const SLUG='nz4f';
-const mark=a=>{a.classList.add('done');
+const mark=a=>{a.classList.add('done');a.removeAttribute('href');
   const b=a.querySelector('.st');
   if(b){b.className='st done';b.textContent='✓ enviado';}};
 document.querySelectorAll('.links a[data-art]').forEach(a=>{
-  if(localStorage.getItem('sent_r'+a.dataset.r+'_'+a.dataset.art))mark(a);});
+  if(a.classList.contains('done'))a.removeAttribute('href');
+  else if(localStorage.getItem('sent_r'+a.dataset.r+'_'+a.dataset.art))mark(a);});
 fetch('/api/status?r=1').then(r=>r.json()).then(d=>{
   const sent=new Set(d.files||[]);
   document.querySelectorAll('.links a[data-art]').forEach(a=>{
