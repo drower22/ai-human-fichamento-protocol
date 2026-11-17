@@ -1,0 +1,122 @@
+{
+  "kind": "evaluation",
+  "judge_id": "bq8w",
+  "round": 1,
+  "article_id": "A05",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 5,
+      "methodology": 6,
+      "main_findings": 6,
+      "contribution": 6
+    },
+    "B": {
+      "executive_summary": 4,
+      "research_question": 1,
+      "theories": 6,
+      "key_concepts": 6,
+      "methodology": 2,
+      "main_findings": 3,
+      "contribution": 3
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Em relação as teorias mobilizadas, o fichamento A trás conceitos como teorias, por exemplo, o Hibridismo. Bem como mecanismos como os tipos ideiais Webereianos são tratados como teorias. Ademais, nos conceitos chaves o fichamento desconsiderou EaD, oligopólio, financeirização e outros conceitos fundamentais. Nos achados há uma extrapolação em relação ao mecanismos isomórficos, os quais não constitutem o objetivo do artigo.",
+      "missing": "Na metodologia faltou mencionar a tpipificação ideal Weberiana, fudnamental ao trabalho."
+    },
+    "B": {
+      "question_would_ask": "Bem, nesse fichamento a interpretação é complexa, tanto que nem sei por onde começar.\nO resumo contém um problema/objetivo de pesquisa inventado. Embroa ele esteja bem declarado no artigo, aqui ele não aparece. Segundo, os conceitos estão incompletos. Terceiro, a metodologia não foi lida com atenção, por exemplo, o uso dos tipos ideiais Weberianos e o período de 1990 a 2017, bem como os ciclos de codificação. Os achados não se referem ao que foi feito noa rtigo, muito menos a contribuição teórica e prática.",
+      "missing": "Faltou compreender o objetivo do estudo, a metodologia, os achados e as contribuições."
+    },
+    "preferred": "A",
+    "why": "O fichamento A compreendeu aspectos fundamentais como problema, metodologia e achados. Enquanto o fichamento B, inventou várias informações e mostra um entendimento limitado e inventivo do artigo.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {
+        "theories": {
+          "codes": [
+            "misattribution",
+            "terminology"
+          ],
+          "other_note": ""
+        },
+        "key_concepts": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "methodology": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "contribution": {
+          "codes": [
+            "extrapolation"
+          ],
+          "other_note": ""
+        }
+      },
+      "note": "Não há"
+    },
+    "B": {
+      "by_section": {
+        "executive_summary": {
+          "codes": [
+            "hallucination"
+          ],
+          "other_note": ""
+        },
+        "research_question": {
+          "codes": [
+            "hallucination"
+          ],
+          "other_note": ""
+        },
+        "theories": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "key_concepts": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "methodology": {
+          "codes": [
+            "hallucination",
+            "misinterpretation"
+          ],
+          "other_note": ""
+        },
+        "main_findings": {
+          "codes": [
+            "hallucination"
+          ],
+          "other_note": ""
+        },
+        "contribution": {
+          "codes": [
+            "hallucination",
+            "omission"
+          ],
+          "other_note": ""
+        }
+      },
+      "note": "não há"
+    }
+  },
+  "notes": ""
+}
