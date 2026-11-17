@@ -38,7 +38,7 @@ export default async function handler(req, res) {
   }
 
   // grava no repo: data/evaluations/round{r}/{filename}
-  let persisted = false;
+  let persisted = false, gh_error = null;
   const gh = process.env.GITHUB_TOKEN;
   const repo = process.env.GITHUB_REPO || 'drower22/ai-human-fichamento-protocol';
   const m = filename.match(/^E-R(\d+)-[\w.\-]+\.json$/);
@@ -56,7 +56,8 @@ export default async function handler(req, res) {
             message: `avaliação recebida: ${filename}`,
             content: Buffer.from(json).toString('base64') }) });
       persisted = g.ok || g.status === 422; // 422 = arquivo já existe
-    } catch { /* e-mail já é o recibo; persistência falhou silenciosamente */ }
-  }
-  return res.status(200).json({ ok: true, persisted });
+      if (!persisted) gh_error = `github ${g.status}: ${(await g.text()).slice(0, 300)}`;
+    } catch (err) { gh_error = `github fetch: ${String(err).slice(0, 200)}`; }
+  } else if (!gh) gh_error = 'GITHUB_TOKEN ausente';
+  return res.status(200).json({ ok: true, persisted, gh_error });
 }
