@@ -1,0 +1,45 @@
+# Índice de evidências — A15 (425 linhas)
+
+T1 Desempenho organizacional como construto multidimensional (objetivo x subjetivo)
+  radical: constr | desemp | multid | objeti | subjet
+  L060(p.2), L150(p.4), L328(p.8), L332(p.8), L333(p.8), L336(p.8), L345(p.8)
+
+T2 Teoria da contingência
+  radical: contin
+  —
+
+T3 Três enquadramentos de eficácia organizacional
+  radical: eficac | enquad | tres
+  —
+
+T4 Efeitos de indústria sobre a rentabilidade da firma
+  radical: efeito | firma | indust | rentab
+  L065(p.2), L072(p.3), L077(p.3), L079(p.3), L081(p.3), L086(p.3), L087(p.3), L090(p.3), L098(p.3), L112(p.3), L150(p.4), L152(p.4), L194(p.5), L199(p.5), L203(p.5), L217(p.6), L296(p.7), L316(p.8), L348(p.8), L349(p.8), L368(p.9), L405(p.9)
+
+T5 Teoria da agência
+  radical: agenci
+  —
+
+T6 Créditos idiossincráticos
+  radical: credit | idioss
+  L129(p.4), L130(p.4), L131(p.4), L133(p.4)
+
+T7 Aspirações e desempenho relativo ao desejado
+  radical: aspira | deseja | desemp | relati
+  L087(p.3), L102(p.3), L136(p.4), L141(p.4), L143(p.4), L145(p.4), L190(p.5), L217(p.6), L225(p.6), L231(p.6), L232(p.6), L237(p.6), L238(p.6), L239(p.6), L241(p.6), L245(p.6), L248(p.6), L280(p.7), L287(p.7), L288(p.7), L297(p.7), L298(p.7), L316(p.8), L317(p.8), L320(p.8), L334(p.8), L339(p.8), L349(p.8)
+
+T8 Níveis de estratégia: corporativa vs. de negócio
+  radical: corpor | estrat | negoci | niveis
+  L038(p.2), L048(p.2), L082(p.3), L126(p.4), L151(p.4), L222(p.6), L230(p.6), L365(p.9), L366(p.9), L399(p.9), L405(p.9)
+
+T9 Equipe de alta gestão (TMT) e decisões estratégicas
+  radical: alta | deciso | equipe | estrat | gestao
+  —
+
+T10 Teoria normativa da gestão estratégica baseada em evidência
+  radical: basead | estrat | eviden | gestao | normat
+  L046(p.2), L078(p.3), L097(p.3), L110(p.3)
+
+T11 Organização e ambiente
+  radical: ambien | organi
+  L001(p.1), L022(p.2), L034(p.2), L043(p.2), L045(p.2), L053(p.2), L055(p.2), L056(p.2), L057(p.2), L099(p.3), L103(p.3), L121(p.4), L126(p.4), L147(p.4), L149(p.4), L151(p.4), L160(p.4), L185(p.5), L190(p.5), L201(p.5), L215(p.6), L306(p.7), L313(p.8), L323(p.8), L353(p.8), L379(p.9), L380(p.9), L386(p.9), L391(p.9), L396(p.9), L398(p.9), L415(p.9), L418(p.10), L422(p.10)

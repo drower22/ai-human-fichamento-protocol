@@ -1,0 +1,143 @@
+SUMMARY = (
+    "O artigo apresenta um referencial teórico sobre adaptação organizacional, tema que, segundo os autores, recebeu "
+    "tratamento teórico limitado e fragmentado (p.1/L011-013). O referencial trata das formas pelas quais as "
+    "organizações definem seus domínios produto-mercado (estratégia) e constroem mecanismos, isto é, estruturas e "
+    "processos, para persegui-las, e se baseia na interpretação da literatura e em estudos em andamento em quatro "
+    "setores: publicação de livros-texto, eletrônica, processamento de alimentos e saúde (p.1/L014-020). Tem dois "
+    "elementos: um modelo geral do processo adaptativo e uma tipologia de padrões de comportamento adaptativo "
+    "(p.2/L098-105). O ciclo adaptativo, alinhado à abordagem da escolha estratégica, organiza as decisões da alta "
+    "gestão em três problemas: o empreendedor, o de engenharia e o administrativo (p.3/L241-259; p.4/L287-293; "
+    "p.4/L312-322; p.4/L340-352). O problema administrativo envolve racionalizar o que já funciona e, ao mesmo tempo, "
+    "viabilizar a inovação futura (p.4/L347-352; p.5/L369-379). A partir disso, os autores identificam quatro tipos "
+    "estratégicos: Defenders, Prospectors e Analyzers, que mantêm configuração consistente entre estratégia, "
+    "tecnologia, estrutura e processo, e Reactors, nos quais há inconsistência entre esses elementos e que são uma "
+    "estratégia residual (p.5/L399-411; p.12/L1049-1062). Cada tipo é descrito por seus problemas e soluções e por "
+    "seus riscos: ineficácia para o Defender, baixa rentabilidade e dispersão de recursos para o Prospector, e perda "
+    "do equilíbrio entre estabilidade e flexibilidade para o Analyzer (p.6/L502-504; p.8/L701-707; p.12/L1031-1034). "
+    "Por fim, relacionam a tipologia a teorias da administração (Tradicional, Relações Humanas e Recursos Humanos), "
+    "com resultados tentativos: crenças Tradicional e de Relações Humanas aparecem mais em Defenders e Reactors, e "
+    "as de Recursos Humanos mais em Analyzers e Prospectors (p.15/L1358-1368). O texto não detalha procedimentos de "
+    "coleta ou análise e declara que a pesquisa está em estágio preliminar (p.13/L1170-1172)."
+)
+
+RESEARCH_QUESTION = (
+    "O artigo não enuncia uma pergunta de pesquisa formal; declara como propósito apresentar um referencial teórico "
+    "para analisar a organização como um todo integrado e dinâmico (p.2/L091-096). O texto se organiza por duas "
+    "perguntas que formula: como descrever o processo adaptativo em sua totalidade (p.3/L236-239) e que estratégias "
+    "as organizações empregam para resolver seus problemas empreendedor, de engenharia e administrativo "
+    "(p.5/L393-398)."
+)
+
+V = lambda i, v, refs, quote, note: (i, v, refs, quote, note)
+VERDICTS = [
+    V("T1", "uses", ["p.3/L241-253"],
+      "Consistent with the strategic-choice approach to the study of organizations, the model parallels and expands ideas formulated by theorists such as Chandler (9), Child (10)",
+      "O ciclo adaptativo se apoia na premissa de que as escolhas da alta gestão determinam estrutura e processo."),
+    V("T2", "uses", ["p.13/L1175-1203", "p.15/L1318-1347"],
+      "conformed to what has been termed the Traditional model",
+      "Os três modelos (Tradicional, Relações Humanas e Recursos Humanos) são descritos e ligados à tipologia."),
+    V("T3", "does_not_use", [],
+      "",
+      "Não há menção à teoria institucional no texto."),
+    V("T4", "uses", ["p.6/L477-479", "p.8/L686-696"],
+      "process mechanisms that can be generally described as \"mechanistic\"",
+      "Usa mecanicista e orgânico (Burns e Stalker) para caracterizar o sistema administrativo do Defender e do Prospector."),
+    V("T5", "does_not_use", [],
+      "",
+      "'Contingent' aparece apenas em 'tecnologia contingente' do Prospector (p.8/L659-661) e na menção a uma teoria 'contingente' da administração (p.15/L1338-1344), sem desenvolvimento da teoria contingencial."),
+    V("T6", "does_not_use", [],
+      "",
+      "A visão baseada em recursos não é mencionada."),
+    V("T7", "uses", ["p.4/L311-322", "p.4/L334-338"],
+      "Such a system requires management to select an appropriate technology (input-transformation-output process) for producing and distributing chosen products or services",
+      "A tecnologia é o objeto do problema de engenharia e um dos quatro elementos da tipologia; Woodward é citado (p.4/L334-338)."),
+    V("T8", "discusses", ["p.5/L412-418"],
+      "our formulation specifies relationships among strategy, technology, structure, and process to the point where entire organizations can be viewed as integrated wholes",
+      "Contrasta a tipologia com outras tipologias de comportamento organizacional, citadas apenas por número de referência."),
+]
+
+KEY_CONCEPTS = [
+    dict(concept="Ciclo adaptativo",
+         definition="Modelo geral do processo adaptativo, que descreve as principais decisões necessárias para a organização manter alinhamento efetivo com o ambiente.",
+         quote="We have developed a general model of the adaptive process which we call the adaptive cycle",
+         source_refs=["p.3/L241-259", "p.2/L098-103"]),
+    dict(concept="Problemas empreendedor, de engenharia e administrativo",
+         definition="Três problemas amplos de adaptação: definir um domínio produto-mercado, criar o sistema que o operacionaliza (tecnologia e ligações de informação e controle) e racionalizar o sistema e viabilizar a inovação.",
+         quote="the solution to the entrepreneurial problem is marked by management's acceptance of a particular product-market domain",
+         source_refs=["p.4/L287-293", "p.4/L312-322", "p.4/L340-352"]),
+    dict(concept="Tipologia estratégica",
+         definition="Quatro tipos de organização (Defenders, Prospectors, Analyzers e Reactors), com estratégias próprias de relação com o mercado e configuração coerente de tecnologia, estrutura e processo.",
+         quote="every organization that we have observed appears, when compared to other organizations in its industry, to fit predominantly into one of the four categories",
+         source_refs=["p.5/L399-411", "p.5/L422-427"]),
+    dict(concept="Defender",
+         definition="Organização que promove e mantém um ambiente para o qual uma forma estável é adequada, com domínio estreito, tecnologia única eficiente e controle estrito.",
+         quote="deliberately enacts and maintains an environment for which a stable form of organization is appropriate",
+         source_refs=["p.5/L431-447", "p.6/L456-492"]),
+    dict(concept="Prospector",
+         definition="Organização cuja principal capacidade é encontrar e explorar novas oportunidades de produto e mercado, com tecnologia e sistema administrativo flexíveis.",
+         quote="the Prospector's prime capability is that of finding and exploiting new product and market opportunities",
+         source_refs=["p.6/L527-540", "p.8/L653-700"]),
+    dict(concept="Analyzer",
+         definition="Combinação singular de Prospector e Defender, que busca minimizar o risco e maximizar a oportunidade de lucro, com núcleo tecnológico duplo e estrutura matricial.",
+         quote="The Analyzer is a unique combination of the Prospector and Defender types and represents a viable alternative to these other strategies",
+         source_refs=["p.8/L729-736", "p.10/L859-868", "p.10/L895-922"]),
+    dict(concept="Reactor",
+         definition="Tipo em que há inconsistência entre estratégia, tecnologia, estrutura e processo; é uma forma de 'fracasso' estratégico e uma estratégia residual.",
+         quote="The Reactor is a form of strategic \"failure\" in that inconsistencies exist among its strategy, technology, structure, and process",
+         source_refs=["p.5/L407-411", "p.12/L1049-1062"]),
+    dict(concept="Teoria da administração (três componentes)",
+         definition="Conjunto de pressupostos sobre atitudes e comportamentos humanos, políticas e ações gerenciais coerentes com eles e expectativas de desempenho, usado para relacionar os modelos Tradicional, de Relações Humanas e de Recursos Humanos à tipologia.",
+         quote="A theory of management has three basic components: (a) a set of assumptions about human attitudes and behaviors, (b) managerial policies and actions consistent with these assumptions, and (c) expectations about employee performance",
+         source_refs=["p.13/L1175-1182"]),
+]
+
+METHODOLOGY = dict(
+    study_type="teórico-conceitual (referencial teórico baseado em literatura e estudos em andamento)",
+    design="Proposição de um referencial teórico (ciclo adaptativo e tipologia estratégica), ilustrado com o exemplo de uma divisão (Porter Pump and Valve) e relacionado a teorias da administração.",
+    sample_type="organizações de quatro setores, em estudos em andamento (tamanho da amostra não informado)",
+    sample_size=None,
+    sector="publicação de livros-texto universitários, eletrônica, processamento de alimentos e saúde",
+    period="",
+    methods=["desenvolvimento teórico", "interpretação da literatura", "estudos em quatro setores (não detalhados)"],
+    analysis_note=("O artigo afirma que o referencial se baseia na interpretação da literatura e em estudos contínuos em quatro "
+                   "setores (p.1/L018-020), mas não descreve procedimentos de coleta ou de análise de dados. Os autores indicam que a "
+                   "pesquisa sobre a relação com teorias da administração está em estágio preliminar e que os resultados são "
+                   "tentativos (p.13/L1170-1172; p.15/L1358-1362)."),
+    source_refs=["p.1/L018-020", "p.13/L1170-1172", "p.15/L1358-1362"],
+)
+
+F = lambda f, t, q, refs: dict(finding=f, type=t, quote=q, source_refs=refs)
+FINDINGS = [
+    F("O ciclo adaptativo descreve a adaptação organizacional por meio de três problemas que a alta gestão resolve: empreendedor, de engenharia e administrativo.",
+      "model",
+      "the solution to the entrepreneurial problem is marked by management's acceptance of a particular product-market domain",
+      ["p.3/L241-259", "p.4/L287-293", "p.4/L340-352"]),
+    F("Há quatro tipos de organização em uma indústria: Defenders, Prospectors, Analyzers e Reactors, e o comportamento de cada uma é em geral previsível pela classificação.",
+      "model",
+      "every organization that we have observed appears, when compared to other organizations in its industry, to fit predominantly into one of the four categories",
+      ["p.5/L399-411", "p.5/L422-427"]),
+    F("Cada tipo estratégico tem riscos próprios: ineficácia no Defender, baixa rentabilidade e extensão excessiva de recursos no Prospector e perda de equilíbrio entre estabilidade e flexibilidade no Analyzer.",
+      "proposition",
+      "Defender's primary risk is that of ineffectiveness",
+      ["p.6/L502-504", "p.8/L701-707", "p.12/L1031-1034"]),
+    F("O Reactor é uma estratégia residual, decorrente de estratégia mal articulada, estrutura e processos que não se ajustam à estratégia ou manutenção da relação estratégia-estrutura diante de mudanças ambientais.",
+      "proposition",
+      "Thus, the Reactor is a \"residual\" strategy, arising when one of the other three strategies is improperly pursued",
+      ["p.12/L1056-1066", "p.12/L1091-1098", "p.13/L1120-1129"]),
+    F("Há um padrão tentativo entre tipo estratégico e teoria de administração do alto escalão: um gestor Tradicional ou de Relações Humanas dificilmente dirige com eficácia um Prospector, enquanto um gestor de Recursos Humanos pode liderar um Defender.",
+      "proposition",
+      "it seems highly unlikely that a Traditional or Human Relations manager can function effectively as the head of a Prospector organization",
+      ["p.15/L1358-1377"]),
+]
+
+CONTRIBUTION = dict(
+    theoretical=("Oferece um referencial composto por um modelo do processo adaptativo e uma tipologia de quatro formas de "
+                 "adaptação, e o relaciona a teorias da administração (p.16/L1469-1476). Diferencia-se de outras tipologias ao "
+                 "especificar relações entre estratégia, tecnologia, estrutura e processo, de modo que organizações inteiras "
+                 "possam ser vistas como totalidades integradas (p.5/L414-418), e fornece uma linguagem para discutir o "
+                 "comportamento organizacional no nível do sistema total (p.16/L1463-1469)."),
+    practical=("Os autores afirmam que o referencial pode ser usado por gestores e estudiosos para analisar a organização como um "
+               "todo integrado (p.2/L091-096) e que maior compreensão do processo adaptativo pode facilitar o equilíbrio "
+               "organização-ambiente (p.2/L113-118); esperam que ofereça uma teoria e uma linguagem para esse entendimento "
+               "(p.16/L1481-1486). O artigo não traz seção de implicações gerenciais."),
+)
