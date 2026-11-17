@@ -135,7 +135,8 @@ def judge_row(round_: int, art: str, jid: str, live: bool) -> str:
         return f'<div class="jrow"><span class="jname">{jid}</span>{status}</div>'
     status = ('<span class="st done">respondido</span>' if done
               else '<span class="st pend">pendente</span>')
-    return (f'<div class="jrow"><span class="jname">{jid}</span>{status}'
+    return (f'<div class="jrow" data-r="{round_}" data-art="{art}" '
+            f'data-slug="{tok}"><span class="jname">{jid}</span>{status}'
             f'{link_btn(round_, art, tok, live)}</div>')
 
 
@@ -377,6 +378,22 @@ table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
 </div>
 <p class="foot">Cada juiz avalia apenas os artigos que indicou (4 por rodada).
 Página gerada por scripts/build_painel.py.</p>
+<script>
+// status ao vivo: /api/status lista os E-R*.json já persistidos no repo
+// pelo /api/send — o painel marca "respondido" sem precisar de rebuild.
+(async()=>{{
+  const sent={{}}; // r -> Set(files)
+  for(const r of ['1','2']){{
+    try{{const d=await (await fetch('/api/status?r='+r)).json();
+      sent[r]=new Set(d.files||[]);}}catch{{sent[r]=new Set();}}
+  }}
+  document.querySelectorAll('.jrow[data-art]').forEach(row=>{{
+    const f='E-R'+row.dataset.r+'-'+row.dataset.art+'-'+row.dataset.slug;
+    const b=row.querySelector('.st');
+    if(b&&b.classList.contains('pend')&&(sent[row.dataset.r]||new Set()).has(f)){{
+      b.className='st done';b.textContent='respondido';}}
+  }});}})();
+</script>
 </body></html>"""
 
     out = SITE / "acompanhar" / "index.html"

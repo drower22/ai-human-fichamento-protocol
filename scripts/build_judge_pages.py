@@ -140,15 +140,19 @@ ordem que quiser e voltar aqui para abrir o próximo.</p>
 iterativa IA·humano para fichamentos (UFPR).</p>
 </div>
 <script>
-// badge otimista: o form grava a chave sent_r<rodada>_<artigo> no
-// localStorage ao enviar;
-// vale no navegador do juiz até a avaliação ser importada no painel.
+// "enviado" em duas fontes: localStorage (instantâneo no envio) e
+// /api/status (definitivo: arquivo já persistido no repo pelo /api/send).
+const SLUG='{slug}';
+const mark=a=>{{a.classList.add('done');
+  const b=a.querySelector('.st');
+  if(b){{b.className='st done';b.textContent='✓ enviado';}}}};
 document.querySelectorAll('.links a[data-art]').forEach(a=>{{
-  if(localStorage.getItem('sent_r'+a.dataset.r+'_'+a.dataset.art)){{
-    a.classList.add('done');
-    const b=a.querySelector('.st');
-    if(b){{b.className='st done';b.textContent='✓ enviado';}}
-  }}}});
+  if(localStorage.getItem('sent_r'+a.dataset.r+'_'+a.dataset.art))mark(a);}});
+fetch('/api/status?r={r}').then(r=>r.json()).then(d=>{{
+  const sent=new Set(d.files||[]);
+  document.querySelectorAll('.links a[data-art]').forEach(a=>{{
+    if(sent.has('E-R'+a.dataset.r+'-'+a.dataset.art+'-'+SLUG))mark(a);}});}})
+.catch(()=>{{}});
 </script></body></html>
 """
 
@@ -174,7 +178,7 @@ def build(round_: int, prazo: str) -> None:
         out = SITE / "juizes" / "j" / slug
         out.mkdir(parents=True, exist_ok=True)
         (out / "index.html").write_text(
-            PAGE.format(r=round_, nome=e(nome), n=len(arts),
+            PAGE.format(r=round_, nome=e(nome), n=len(arts), slug=slug,
                         links=links, prazo=e(prazo)))
         n_done = sum(eval_done(round_, a["article_id"], slug) for a in arts)
         print(f"{jid} ({slug}): {len(arts)} pares, {n_done} enviados "
