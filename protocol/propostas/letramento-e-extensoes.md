@@ -119,26 +119,41 @@ O que o fichamento já treina por construção:
 O que falta é fechar o circuito: hoje a avaliação do juiz entra na
 análise e morre aí. As ações formativas propostas:
 
-### 7.1 Devolutiva individual (após a R1 fechar, durante a R2)
+### 7.1 Devolutiva individual (após a R1 fechar, antes da produção da R2)
 
-Página pessoal por estudante com:
+Página pessoal por estudante, acessada antes de ele começar a fichar o
+artigo novo. Funciona como portão de entrada da R2.
 
-- Notas do juiz por seção, próprio × IA, lado a lado.
-- Preferência do juiz e erros marcados por seção.
-- A autoavaliação do próprio aluno ao lado (tabela de calibração).
-- Os dois fichamentos completos do par.
+Conteúdo: notas do juiz por seção, próprio × IA, lado a lado; preferência
+do juiz e erros marcados por seção; a autoavaliação do próprio aluno ao
+lado (tabela de calibração); os dois fichamentos completos do par.
 
-### 7.2 O aluno como juiz do próprio par
+### 7.2 O aluno como juiz do próprio par (duas sessões)
 
-O aluno é quem mais conhece o artigo. Exercício em 3 passos:
+O aluno é quem mais conhece o artigo. Duas sessões, uma por rodada,
+transformam o exercício em instrumento longitudinal.
 
-1. Versões cegas "X / Y" do próprio par; ele marca por seção qual é
-   melhor (cegueira fraca, reconhece o próprio texto, mas a justificativa
-   continua válida).
-2. Revelação das identidades + placar do juiz.
-3. Análise guiada: onde discorda do juiz? onde a IA foi melhor? onde ele
+**Sessão 1 — par da R1, embutida na devolutiva, antes de produzir a R2:**
+
+1. Par cego como "versão X / Y"; ele marca por seção qual é melhor,
+   antes de ver qualquer nota (se vir o placar do juiz antes, a própria
+   avaliação fica contaminada).
+2. Revelação junta: identidades, notas do juiz e a autoavaliação dele.
+3. Reflexão guiada: onde discorda do juiz? onde a IA foi melhor? onde ele
    foi melhor? o que a IA se recusou a afirmar, e essa cautela era certa
    ou perda? o que faria diferente na R2?
+
+**Sessão 2 — par da R2, após os juízes fecharem a rodada:**
+
+Mesmo exercício, com a pergunta-guia trocada para "o que mudou do seu
+primeiro para o segundo fichamento?". Cabe na janela da discussão de
+calibração em grupo.
+
+Comparando as duas sessões: se na segunda o aluno julga o próprio par
+mais parecido com o juiz, isso é letramento avaliativo medido no ato, não
+inferido. A cegueira na sessão 1 é fraca (ele reconhece o próprio texto),
+mas a tarefa de justificar continua válida; na sessão 2 ele já conhece a
+régua, o que é o ponto.
 
 Dados novos gerados: preferência do aluno no próprio par (sinal de
 honestidade avaliativa), discordância aluno × juiz por seção, reflexão
@@ -167,8 +182,9 @@ com registro (página + respostas do exercício).
 ## 9. Encaixe no cronograma
 
 - 17–22/11: avaliações da R1 pelos juízes (em curso).
-- 23/11: alunos recebem artigos da R2.
-- 23–25/11: devolutivas individuais + exercício do par.
+- 23/11: alunos recebem artigos da R2 + devolutiva da R1.
+- 23–25/11: devolutiva + exercício do par da R1 (portão: antes de
+  produzir o fichamento da R2).
 - 29/11: entregas da R2.
 - Início de dez: avaliações da R2 + discussão de calibração em grupo.
 - Após R2: R3 de juízes (confiabilidade), se aprovada.
@@ -186,3 +202,8 @@ com registro (página + respostas do exercício).
 6. Triagem de artigos por estudantes: qual formato (A, B ou C), se
    aprovada?
 7. Delphi de corpus: fica no escopo deste estudo ou é trabalho futuro?
+8. **DECIDIDO (17/11):** todo aluno mantém o mesmo juiz da R1 para a R2,
+   para a devolutiva ter régua consistente e o delta de calibração não
+   confundir aprendizagem com troca de avaliador. Executado: 3 trocas de
+   artigo em `assignments-round2.json` (S03/S14, S07/S09, S06/S11); os 16
+   alunos ficaram com o mesmo juiz nas duas rodadas.
