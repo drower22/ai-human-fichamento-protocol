@@ -1,0 +1,65 @@
+{
+  "kind": "evaluation",
+  "judge_id": "gx6t",
+  "round": 1,
+  "article_id": "A13",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 6,
+      "research_question": 6,
+      "theories": 4,
+      "key_concepts": 3,
+      "methodology": 6,
+      "main_findings": 5,
+      "contribution": 6
+    },
+    "B": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 4,
+      "methodology": 7,
+      "main_findings": 6,
+      "contribution": 7
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Melhoraria os conceitos-chave e as contribuições.",
+      "missing": "Faltou explorar, nos achados, a experiência relatada no artigo."
+    },
+    "B": {
+      "question_would_ask": "Os conceitos-chave estão extrapolados. Achei o fichamento completo e bem detalhado.",
+      "missing": "Achei o fichamento completo e bem detalhado."
+    },
+    "preferred": "B",
+    "why": "Achei o fichamento B completo e bem detalhado. Traduz melhor o cerne do artigo.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {
+        "theories": {
+          "codes": [
+            "extrapolation"
+          ],
+          "other_note": ""
+        }
+      },
+      "note": ""
+    },
+    "B": {
+      "by_section": {
+        "key_concepts": {
+          "codes": [
+            "extrapolation"
+          ],
+          "other_note": ""
+        }
+      },
+      "note": ""
+    }
+  },
+  "notes": ""
+}
