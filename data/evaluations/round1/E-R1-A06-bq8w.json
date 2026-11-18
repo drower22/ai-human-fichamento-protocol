@@ -1,0 +1,128 @@
+{
+  "kind": "evaluation",
+  "judge_id": "bq8w",
+  "round": 1,
+  "article_id": "A06",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 5,
+      "research_question": 7,
+      "theories": 5,
+      "key_concepts": 5,
+      "methodology": 7,
+      "main_findings": 4,
+      "contribution": 7
+    },
+    "B": {
+      "executive_summary": 3,
+      "research_question": 1,
+      "theories": 3,
+      "key_concepts": 1,
+      "methodology": 2,
+      "main_findings": 2,
+      "contribution": 3
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "O estudo nãoa borda o capitalismo acadêmico, mas a financeirização, são abordagens distintas. No resumo atribui os tipos ideais a autores diferentes, a técnica corresponde a Thorton, contudo, o conceito é Weberiano. Os cocneitos chaves também são suscinto, falta, inclusive, o conceito de práticas sociais.",
+      "missing": "Faltou o conceito de práticas sociais, financeirização e público/privado que são fundamentais ao estudo."
+    },
+    "B": {
+      "question_would_ask": "O fichamento parece de outro artigo, o problema/objetivo esta cincorreto, os resulatdos. A metodologia esta incompleta. Os achados não correspondem ao estudo. Inclusive o problema é inventado.",
+      "missing": "Problema, conceitos chave, metodologia e resultados."
+    },
+    "preferred": "A",
+    "why": "O fichamento A conseguiu ao menos captar a ideia central do artigo e a metodologia. Embora omitiu algumas contribuições, a análise mostra uma leitura aprofundada do artigo. O fichamento B possui informações inventadas.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {
+        "executive_summary": {
+          "codes": [
+            "misinterpretation"
+          ],
+          "other_note": ""
+        },
+        "theories": {
+          "codes": [
+            "hallucination"
+          ],
+          "other_note": ""
+        },
+        "key_concepts": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "main_findings": {
+          "codes": [
+            "hallucination",
+            "misinterpretation"
+          ],
+          "other_note": ""
+        }
+      },
+      "note": ""
+    },
+    "B": {
+      "by_section": {
+        "executive_summary": {
+          "codes": [
+            "hallucination",
+            "omission",
+            "misinterpretation"
+          ],
+          "other_note": ""
+        },
+        "research_question": {
+          "codes": [
+            "hallucination"
+          ],
+          "other_note": ""
+        },
+        "theories": {
+          "codes": [
+            "hallucination",
+            "misinterpretation",
+            "terminology"
+          ],
+          "other_note": ""
+        },
+        "key_concepts": {
+          "codes": [
+            "omission",
+            "terminology"
+          ],
+          "other_note": ""
+        },
+        "methodology": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "main_findings": {
+          "codes": [
+            "hallucination",
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "contribution": {
+          "codes": [
+            "hallucination",
+            "omission",
+            "misinterpretation"
+          ],
+          "other_note": ""
+        }
+      },
+      "note": ""
+    }
+  },
+  "notes": ""
+}
