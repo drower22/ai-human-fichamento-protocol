@@ -1,0 +1,84 @@
+{
+  "kind": "evaluation",
+  "judge_id": "gx6t",
+  "round": 1,
+  "article_id": "A14",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 4,
+      "key_concepts": 6,
+      "methodology": 4,
+      "main_findings": 7,
+      "contribution": 7
+    },
+    "B": {
+      "executive_summary": 6,
+      "research_question": 7,
+      "theories": 4,
+      "key_concepts": 5,
+      "methodology": 4,
+      "main_findings": 5,
+      "contribution": 5
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Uma interpretação errada nas teorias apresentadas. A seção mais frágil foi a parte de teorias.",
+      "missing": "Ele está completo, com apenas alguns pontos errados."
+    },
+    "B": {
+      "question_would_ask": "A parte da Teoria apresenta alguns erros, faltam dados da metodologia que estão no artigo.",
+      "missing": "Poderia ser mais detalhado nos resutados e contribuições."
+    },
+    "preferred": "A",
+    "why": "Mais completo e detalhado.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {
+        "theories": {
+          "codes": [
+            "misinterpretation"
+          ],
+          "other_note": ""
+        },
+        "methodology": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "Foi apenas uma coleta em 2025."
+        }
+      },
+      "note": ""
+    },
+    "B": {
+      "by_section": {
+        "theories": {
+          "codes": [
+            "misinterpretation",
+            "extrapolation"
+          ],
+          "other_note": ""
+        },
+        "key_concepts": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "Poderia expandir outros conceitos do artigo."
+        },
+        "methodology": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "O período foi informado na tabela na página que registra as datas de cada entrevista."
+        }
+      },
+      "note": ""
+    }
+  },
+  "notes": ""
+}
