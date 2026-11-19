@@ -63,6 +63,9 @@ def _ns(d):
 
 JUDGES = {"J1": "nz4f", "J2": "bq8w", "J3": "mv3r", "J4": "gx6t"}
 
+# omitir o conteúdo das avaliações dos juízes da página (status segue visível)
+SHOW_EVAL = False
+
 SECS = [
     ("executive_summary", "Resumo"),
     ("research_question", "Questão de pesquisa"),
@@ -245,7 +248,7 @@ def piloto_card() -> str:
         status = ('<span class="st done">respondido</span>' if done
                   else '<span class="st pend">não respondeu</span>')
         row = f'<div class="jrow"><span class="jname">{jid}</span>{status}</div>'
-        if done:
+        if done and SHOW_EVAL:
             ev = json.loads(p.read_text())
             row += (f'<details class="det"><summary>ver resposta de {jid}</summary>'
                     f'{eval_html(ev)}</details>')
