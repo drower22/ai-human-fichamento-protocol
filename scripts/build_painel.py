@@ -294,10 +294,8 @@ def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
     ai = _ai_fich(round_, art)
     ai_html = ""
     if ai:
-        g = ai.get("generator") or {}
-        model = g.get("model") or "IA"
         ai_html = (f'<details class="det"><summary>ver Fichamento '
-                   f'<span class="artt">({e(model)})</span></summary>'
+                   f'<span class="artt">(IA)</span></summary>'
                    f'<div class="fich">{_fich_html(ai.get("content") or {})}</div>'
                    f'</details>')
     show_link = round_ != 1  # R1: botão "abrir" removido (fichamentos embutidos)
