@@ -312,7 +312,7 @@ def card(round_: int, art: str, jid: str, live: bool, title: str = "",
                    f'<span class="artt">(IA)</span></summary>'
                    f'<div class="fich">{_fich_html(ai.get("content") or {})}</div>'
                    f'</details>')
-    show_link = round_ != 1  # R1: botão "abrir" removido (fichamentos embutidos)
+    show_link = False  # sem botão "abrir"/"aguardando" em nenhuma rodada
     return (f'<div class="card"><div class="art">Artigo {art[1:]} {badge}</div>{s}{t}'
             f'{judge_row(round_, art, jid, live, show_link)}{ai_html}{stu}</div>')
 
