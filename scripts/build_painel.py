@@ -103,6 +103,15 @@ def articles_by_round() -> dict[int, list[dict]]:
     return out
 
 
+def student_map(round_: int) -> dict[str, str]:
+    """article_id -> student_id conforme data/private/assignments-roundN.json."""
+    p = DATA / "private" / f"assignments-round{round_}.json"
+    if not p.exists():
+        return {}
+    return {en["article_id"]: en["student_id"]
+            for en in json.loads(p.read_text())["entries"]}
+
+
 def eval_path(round_: int, article_id: str, token: str) -> Path:
     if round_ == 0:
         return DATA / "piloto" / "evaluations" / f"E-R0-{article_id}-{token}.json"
@@ -257,9 +266,11 @@ def _ai_fich(round_: int, art: str) -> dict | None:
     return json.loads(p.read_text()) if p.exists() else None
 
 
-def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
+def card(round_: int, art: str, jid: str, live: bool, title: str = "",
+         sid: str = "") -> str:
     badge = ('<span class="pair live">par no ar</span>' if live
              else '<span class="pair soon">par pendente</span>')
+    s = f'<div class="artt">estudante <b>{e(sid)}</b></div>' if sid else ""
     t = f'<div class="artt">Título: {e(title)}</div>' if title else ""
     # lado do estudante: resposta completa + autoavaliação + tempo + log
     fich = _human_fich(round_, art)
@@ -299,21 +310,30 @@ def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
                    f'<div class="fich">{_fich_html(ai.get("content") or {})}</div>'
                    f'</details>')
     show_link = round_ != 1  # R1: botão "abrir" removido (fichamentos embutidos)
-    return (f'<div class="card"><div class="art">Artigo {art[1:]} {badge}</div>{t}'
+    return (f'<div class="card"><div class="art">Artigo {art[1:]} {badge}</div>{s}{t}'
             f'{judge_row(round_, art, jid, live, show_link)}{ai_html}{stu}</div>')
 
 
 def build() -> Path:
     by_round = articles_by_round()
+    smap = {r: student_map(r) for r in (1, 2)}
+    # ordena as colunas pelo respondente (S01..S16): a linha i da R1 e a
+    # linha i da R2 pertencem ao mesmo estudante; fallback = id do artigo
+    for r in (1, 2):
+        if smap[r]:
+            by_round[r].sort(key=lambda a: smap[r].get(a["article_id"],
+                                                       "Z" + a["article_id"]))
 
     col0 = piloto_card()
     col1 = "".join(card(1, a["article_id"], a["nominated_by"],
                         pair_live(a["article_id"], a["nominated_by"]),
-                        a.get("title", ""))
+                        a.get("title", ""),
+                        smap[1].get(a["article_id"], ""))
                    for a in by_round[1])
     col2 = "".join(card(2, a["article_id"], a["nominated_by"],
                         pair_live(a["article_id"], a["nominated_by"]),
-                        a.get("title", ""))
+                        a.get("title", ""),
+                        smap[2].get(a["article_id"], ""))
                    for a in by_round[2])
 
     now = datetime.now().astimezone().strftime("%d/%m/%Y %H:%M")
