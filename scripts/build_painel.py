@@ -328,16 +328,21 @@ def build() -> Path:
                                                        "Z" + a["article_id"]))
 
     col0 = piloto_card()
-    col1 = "".join(card(1, a["article_id"], a["nominated_by"],
-                        pair_live(a["article_id"], a["nominated_by"]),
-                        a.get("title", ""),
-                        smap[1].get(a["article_id"], ""))
-                   for a in by_round[1])
-    col2 = "".join(card(2, a["article_id"], a["nominated_by"],
-                        pair_live(a["article_id"], a["nominated_by"]),
-                        a.get("title", ""),
-                        smap[2].get(a["article_id"], ""))
-                   for a in by_round[2])
+    # cards pareados por estudante: mesma linha visual R1 | R2
+    srows = []
+    for i in range(max(len(by_round[1]), len(by_round[2]))):
+        c1 = (card(1, by_round[1][i]["article_id"], by_round[1][i]["nominated_by"],
+                   pair_live(by_round[1][i]["article_id"], by_round[1][i]["nominated_by"]),
+                   by_round[1][i].get("title", ""),
+                   smap[1].get(by_round[1][i]["article_id"], ""))
+              if i < len(by_round[1]) else "<div></div>")
+        c2 = (card(2, by_round[2][i]["article_id"], by_round[2][i]["nominated_by"],
+                   pair_live(by_round[2][i]["article_id"], by_round[2][i]["nominated_by"]),
+                   by_round[2][i].get("title", ""),
+                   smap[2].get(by_round[2][i]["article_id"], ""))
+              if i < len(by_round[2]) else "<div></div>")
+        srows.append(f'<div class="srow">{c1}{c2}</div>')
+    pairzone = "".join(srows)
 
     now = datetime.now().astimezone().strftime("%d/%m/%Y %H:%M")
     n_done = sum(eval_done(0, "PILOTO", t) for t in JUDGES.values())
@@ -355,9 +360,15 @@ body{{background:var(--bg);font-family:"Segoe UI",system-ui,sans-serif;
   color:#1f2937;padding:28px 18px}}
 h1{{color:var(--navy);font-size:26px;margin-bottom:4px}}
 .sub{{color:#64748b;font-size:15px;margin-bottom:20px}}
-.grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
+.grid{{display:grid;grid-template-columns:1fr 2fr;gap:18px;
   max-width:1500px;margin:0 auto;align-items:start}}
-@media(max-width:900px){{.grid{{grid-template-columns:1fr}}}}
+@media(max-width:900px){{.grid{{grid-template-columns:1fr}}
+.srow{{grid-template-columns:1fr !important}}}}
+.hdr2{{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:12px}}
+.srow{{display:grid;grid-template-columns:1fr 1fr;gap:18px;
+  align-items:stretch;border-left:3px solid var(--line);padding-left:10px;
+  margin-bottom:14px}}
+.srow .card{{margin-bottom:0}}
 .col h2{{color:var(--navy);font-size:18px;text-transform:uppercase;
   letter-spacing:.4px;margin-bottom:4px}}
 .col .meta{{font-size:14px;color:#64748b;margin-bottom:12px}}
@@ -411,8 +422,13 @@ table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
 </div>
 <div class="grid">
   <div class="col"><h2>Piloto (R0)</h2><div class="meta">{n_done}/4 avaliações recebidas</div>{col0}</div>
-  <div class="col"><h2>Rodada 1</h2><div class="meta">{n1}/{len(by_round[1])} avaliações recebidas · juízes 16–22/11</div>{col1}</div>
-  <div class="col"><h2>Rodada 2</h2><div class="meta">{n2}/{len(by_round[2])} avaliações recebidas · início 23/11</div>{col2}</div>
+  <div class="col">
+    <div class="hdr2">
+      <div><h2>Rodada 1</h2><div class="meta">{n1}/{len(by_round[1])} avaliações recebidas · juízes 16–22/11</div></div>
+      <div><h2>Rodada 2</h2><div class="meta">{n2}/{len(by_round[2])} avaliações recebidas · início 23/11</div></div>
+    </div>
+    {pairzone}
+  </div>
 </div>
 <p class="foot">Cada juiz avalia apenas os artigos que indicou (4 por rodada).
 Página gerada por scripts/build_painel.py.</p>
