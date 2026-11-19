@@ -296,10 +296,8 @@ def card(round_: int, art: str, jid: str, live: bool, title: str = "",
                         "theory_verdicts", "key_concepts", "methodology",
                         "main_findings", "contribution")}
             sid = d.get("participant_id", "")
-            stu = ('<div class="artt">recebido: aguardando validação</div>'
-                   f'<details class="det"><summary>ver Fichamento '
-                   f'<span class="artt">(estudante {e(sid)}; '
-                   f'aguardando validação)</span></summary>'
+            stu = (f'<details class="det"><summary>ver Fichamento '
+                   f'<span class="artt">(estudante {e(sid)})</span></summary>'
                    f'<div class="fich">{_fich_html(content)}</div>'
                    f'{student_html(d.get("elapsed_minutes"),
                                    d.get("self_assessment"),
@@ -365,9 +363,9 @@ h1{{color:var(--navy);font-size:26px;margin-bottom:4px}}
 @media(max-width:900px){{.grid{{grid-template-columns:1fr}}
 .srow{{grid-template-columns:1fr !important}}}}
 .hdr2{{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:12px}}
-.srow{{display:grid;grid-template-columns:1fr 1fr;gap:18px;
-  align-items:stretch;border-left:3px solid var(--line);padding-left:10px;
-  margin-bottom:14px}}
+.srow{{display:grid;grid-template-columns:1fr 1fr;gap:14px;
+  align-items:stretch;background:#eef2f7;border-radius:12px;
+  padding:12px;margin-bottom:14px}}
 .srow .card{{margin-bottom:0}}
 .col h2{{color:var(--navy);font-size:18px;text-transform:uppercase;
   letter-spacing:.4px;margin-bottom:4px}}
