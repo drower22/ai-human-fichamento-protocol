@@ -330,55 +330,55 @@ def build() -> Path:
 *{{box-sizing:border-box;margin:0}}
 body{{background:var(--bg);font-family:"Segoe UI",system-ui,sans-serif;
   color:#1f2937;padding:28px 18px}}
-h1{{color:var(--navy);font-size:22px;margin-bottom:4px}}
-.sub{{color:#64748b;font-size:13px;margin-bottom:20px}}
+h1{{color:var(--navy);font-size:26px;margin-bottom:4px}}
+.sub{{color:#64748b;font-size:15px;margin-bottom:20px}}
 .grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
   max-width:1500px;margin:0 auto;align-items:start}}
 @media(max-width:900px){{.grid{{grid-template-columns:1fr}}}}
-.col h2{{color:var(--navy);font-size:15px;text-transform:uppercase;
+.col h2{{color:var(--navy);font-size:18px;text-transform:uppercase;
   letter-spacing:.4px;margin-bottom:4px}}
-.col .meta{{font-size:12px;color:#64748b;margin-bottom:12px}}
+.col .meta{{font-size:14px;color:#64748b;margin-bottom:12px}}
 .card{{background:var(--card);border:1px solid var(--line);border-radius:12px;
-  padding:12px 14px;margin-bottom:10px}}
-.art{{font-weight:700;color:var(--navy);font-size:14px;
+  padding:14px 16px;margin-bottom:10px}}
+.art{{font-weight:700;color:var(--navy);font-size:16px;
   display:flex;justify-content:space-between;align-items:center;gap:8px}}
-.artt{{font-size:11px;color:#64748b;margin:4px 0 2px;line-height:1.35}}
-.pair{{font-size:10px;font-weight:600;border-radius:999px;padding:2px 8px;white-space:nowrap}}
+.artt{{font-size:13px;color:#64748b;margin:4px 0 2px;line-height:1.4}}
+.pair{{font-size:11px;font-weight:600;border-radius:999px;padding:2px 8px;white-space:nowrap}}
 .pair.live{{background:#dcfce7;color:#166534}}
 .pair.soon{{background:#f1f5f9;color:#64748b}}
 .jrow{{display:flex;align-items:center;gap:8px;margin-top:8px;
   border-top:1px solid var(--line);padding-top:8px}}
-.jname{{font-size:13px;font-weight:700;color:var(--navy);flex:1}}
-.st{{font-size:11px;font-weight:600;border-radius:999px;padding:2px 9px}}
+.jname{{font-size:15px;font-weight:700;color:var(--navy);flex:1}}
+.st{{font-size:12px;font-weight:600;border-radius:999px;padding:2px 9px}}
 .st.done{{background:#dcfce7;color:#166534}}
 .st.pend{{background:#fef9c3;color:#854d0e}}
-.go{{font-size:12px;font-weight:600;color:var(--blue);text-decoration:none;
+.go{{font-size:13px;font-weight:600;color:var(--blue);text-decoration:none;
   border:1.5px solid var(--blue);border-radius:8px;padding:3px 10px;white-space:nowrap}}
 .go:hover{{background:#eff6ff}}
 .go.off{{color:#94a3b8;border-color:#e2e8f0;cursor:default;font-weight:500}}
 .det{{margin-top:6px}}
-.det summary{{font-size:12px;color:var(--blue);cursor:pointer;font-weight:600}}
-.resp{{margin-top:8px;font-size:12px;line-height:1.55}}
+.det summary{{font-size:14px;color:var(--blue);cursor:pointer;font-weight:600}}
+.resp{{margin-top:8px;font-size:13.5px;line-height:1.55}}
 .prefline{{background:#eff6ff;border-radius:8px;padding:6px 10px;margin-bottom:8px}}
-table.sc{{border-collapse:collapse;width:100%;margin:6px 0;font-size:11.5px}}
+table.sc{{border-collapse:collapse;width:100%;margin:6px 0;font-size:13px}}
 table.sc th{{background:var(--navy);color:#fff;padding:3px 8px;text-align:left}}
 table.sc td{{border:1px solid var(--line);padding:3px 8px}}
 table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
 .qside{{background:#f8fafc;border:1px solid var(--line);border-radius:8px;
   padding:6px 10px;margin:6px 0}}
 .errs{{margin:2px 0 6px 8px}}
-.errl{{font-size:11px;color:#7f1d1d;margin:2px 0}}
+.errl{{font-size:12.5px;color:#7f1d1d;margin:2px 0}}
 .pairview{{background:#f8fafc;border:1px solid var(--line);border-radius:8px;
   padding:8px 10px;margin:8px 0}}
-.fich{{font-size:11.5px;line-height:1.55;margin-top:8px;
+.fich{{font-size:13.5px;line-height:1.6;margin-top:8px;
   max-height:480px;overflow:auto;border-top:1px solid var(--line);padding-top:6px}}
-.fich h2{{font-size:12px;color:var(--navy);margin:10px 0 4px}}
+.fich h2{{font-size:14px;color:var(--navy);margin:10px 0 4px}}
 .fich ul{{padding-left:18px}}
 .fich blockquote{{border-left:3px solid var(--line);color:#64748b;
   margin:4px 0;padding:2px 10px;font-style:italic}}
-.meta2{{font-size:11px;color:#64748b;margin:8px 0 4px}}
+.meta2{{font-size:13px;color:#64748b;margin:8px 0 4px}}
 .meta a{{color:var(--blue);text-decoration:none;font-weight:600}}
-.foot{{max-width:1500px;margin:22px auto 0;font-size:11px;color:#94a3b8}}
+.foot{{max-width:1500px;margin:22px auto 0;font-size:12.5px;color:#94a3b8}}
 </style></head><body>
 <div style="max-width:1500px;margin:0 auto 16px">
   <h1>Acompanhamento das avaliações</h1>
