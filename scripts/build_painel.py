@@ -126,7 +126,8 @@ def link_btn(round_: int, art: str, tok: str, live: bool) -> str:
     return '<span class="go off" title="par ainda não publicado">aguardando</span>'
 
 
-def judge_row(round_: int, art: str, jid: str, live: bool) -> str:
+def judge_row(round_: int, art: str, jid: str, live: bool,
+              show_link: bool = True) -> str:
     tok = JUDGES[jid]
     done = eval_done(round_, art, tok)
     if round_ == 0:  # piloto encerrado: sem link, falta = não respondeu
@@ -135,9 +136,10 @@ def judge_row(round_: int, art: str, jid: str, live: bool) -> str:
         return f'<div class="jrow"><span class="jname">{jid}</span>{status}</div>'
     status = ('<span class="st done">respondido</span>' if done
               else '<span class="st pend">pendente</span>')
+    btn = link_btn(round_, art, tok, live) if show_link else ""
     return (f'<div class="jrow" data-r="{round_}" data-art="{art}" '
             f'data-slug="{tok}"><span class="jname">{jid}</span>{status}'
-            f'{link_btn(round_, art, tok, live)}</div>')
+            f'{btn}</div>')
 
 
 def eval_html(ev: dict) -> str:
@@ -250,6 +252,11 @@ def _human_fich(round_: int, art: str) -> dict | None:
     return json.loads(p.read_text()) if p.exists() else None
 
 
+def _ai_fich(round_: int, art: str) -> dict | None:
+    p = DATA / "fichamentos" / f"round{round_}" / "ai" / f"F-R{round_}-{art}-AI.json"
+    return json.loads(p.read_text()) if p.exists() else None
+
+
 def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
     badge = ('<span class="pair live">par no ar</span>' if live
              else '<span class="pair soon">par pendente</span>')
@@ -283,8 +290,19 @@ def card(round_: int, art: str, jid: str, live: bool, title: str = "") -> str:
                    f'{student_html(d.get("elapsed_minutes"),
                                    d.get("self_assessment"),
                                    d.get("reflection_log"), REFL_R1)}</details>')
+    # lado da IA: fichamento completo embutido quando existir
+    ai = _ai_fich(round_, art)
+    ai_html = ""
+    if ai:
+        g = ai.get("generator") or {}
+        model = g.get("model") or "IA"
+        ai_html = (f'<details class="det"><summary>ver Fichamento '
+                   f'<span class="artt">({e(model)})</span></summary>'
+                   f'<div class="fich">{_fich_html(ai.get("content") or {})}</div>'
+                   f'</details>')
+    show_link = round_ != 1  # R1: botão "abrir" removido (fichamentos embutidos)
     return (f'<div class="card"><div class="art">Artigo {art[1:]} {badge}</div>{t}'
-            f'{judge_row(round_, art, jid, live)}{stu}</div>')
+            f'{judge_row(round_, art, jid, live, show_link)}{ai_html}{stu}</div>')
 
 
 def build() -> Path:
