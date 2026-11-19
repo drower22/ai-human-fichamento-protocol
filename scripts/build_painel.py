@@ -411,8 +411,7 @@ table.sc tr.tot td{{font-weight:700;background:#f1f5f9}}
 </div>
 <div class="grid">
   <div class="col"><h2>Piloto (R0)</h2><div class="meta">{n_done}/4 avaliações recebidas</div>{col0}</div>
-  <div class="col"><h2>Rodada 1</h2><div class="meta">{n1}/{len(by_round[1])} avaliações recebidas · juízes 16–22/11 · páginas:
-    {" ".join(f'<a href="/juizes/j/{t}/">{j}</a>' for j, t in JUDGES.items())}</div>{col1}</div>
+  <div class="col"><h2>Rodada 1</h2><div class="meta">{n1}/{len(by_round[1])} avaliações recebidas · juízes 16–22/11</div>{col1}</div>
   <div class="col"><h2>Rodada 2</h2><div class="meta">{n2}/{len(by_round[2])} avaliações recebidas · início 23/11</div>{col2}</div>
 </div>
 <p class="foot">Cada juiz avalia apenas os artigos que indicou (4 por rodada).
