@@ -1,0 +1,102 @@
+{
+  "kind": "evaluation",
+  "judge_id": "bq8w",
+  "round": 1,
+  "article_id": "A07",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 5,
+      "research_question": 6,
+      "theories": 6,
+      "key_concepts": 6,
+      "methodology": 3,
+      "main_findings": 6,
+      "contribution": 4
+    },
+    "B": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 6,
+      "methodology": 7,
+      "main_findings": 7,
+      "contribution": 7
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Os conceitos centrais desconsideram temas importantes do artigo.",
+      "missing": "Os achados teóricos não foram mencionados com clareza, somente a implicação prática."
+    },
+    "B": {
+      "question_would_ask": "o fichamento está muito bom. Há uma leitura clara do que o artigo trata.",
+      "missing": "Nos conceitos chave há pontos que precisam ser mencionados, por exemplo, a gestão da diversidade ou diversity management."
+    },
+    "preferred": "B",
+    "why": "O fichamento B compreende melhor o que oa rtigo se refere, destaca que é um editorial de diversidade e qual o propósito do artigo. Outro ponto relevante, é que se trata de um ensaio, então não é uma análise histórica conceitual, mas um ensaio teórico.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {
+        "executive_summary": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "research_question": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "theories": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "key_concepts": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "methodology": {
+          "codes": [
+            "hallucination",
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "contribution": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        }
+      },
+      "note": ""
+    },
+    "B": {
+      "by_section": {
+        "theories": {
+          "codes": [
+            "misinterpretation"
+          ],
+          "other_note": ""
+        },
+        "key_concepts": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        }
+      },
+      "note": ""
+    }
+  },
+  "notes": ""
+}
