@@ -1,0 +1,89 @@
+{
+  "kind": "evaluation",
+  "judge_id": "gx6t",
+  "round": 1,
+  "article_id": "A16",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 5,
+      "research_question": 3,
+      "theories": 5,
+      "key_concepts": 6,
+      "methodology": 7,
+      "main_findings": 5,
+      "contribution": 6
+    },
+    "B": {
+      "executive_summary": 6,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 2,
+      "methodology": 7,
+      "main_findings": 3,
+      "contribution": 4
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Não apresenta uma pergunta de pesquisa, mas sim um objetivo. Alguns conceitos poderiam ter sido elencados.",
+      "missing": "Mais aprofundamento nos achados e nas contribuições."
+    },
+    "B": {
+      "question_would_ask": "A análise das teorias é a parte mais questionável. tem pontos que precisam ser ajustados.",
+      "missing": "Faltam vários pontos relacionados aos achados principais e contribuições."
+    },
+    "preferred": "A",
+    "why": "Comparando ambos traz mais riqueza e aprofundamento, mesmo ambos contendo alguns erros.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {
+        "research_question": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "O artigo não possui perguntas de pesquisa."
+        },
+        "theories": {
+          "codes": [
+            "misinterpretation"
+          ],
+          "other_note": ""
+        },
+        "key_concepts": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "Faltou conceito de risco puro."
+        }
+      },
+      "note": ""
+    },
+    "B": {
+      "by_section": {
+        "key_concepts": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "Faltaram outros conceitos discutidos no arttigo como: sobreconfiança, ambiente e risco, nível de análise"
+        },
+        "main_findings": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "Falta aprofundar os achados."
+        },
+        "contribution": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "Falta aprofundamento e discussão."
+        }
+      },
+      "note": ""
+    }
+  },
+  "notes": ""
+}
