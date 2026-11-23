@@ -6,6 +6,9 @@ import json
 import re
 
 import litellm
+from dotenv import load_dotenv
+
+load_dotenv()  # ANTHROPIC_API_KEY etc. a partir de .env (gitignored)
 
 
 def extract_json(text: str) -> dict:

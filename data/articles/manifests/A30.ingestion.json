@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A30",
+  "pdf_path": "data/articles/pdfs/A30.pdf",
+  "pdf_sha256": "35647367c74b9c8f4184936771fed911206a99b7318688756cd328d3153c3ed5",
+  "md_path": "data/articles/markdown/A30.md",
+  "md_sha256": "db9853012f7e524fa42d5b9fee2110190bc197946dd4583c0548aa5261fda01c",
+  "tool": "pymupdf 1.28.2",
+  "ocr_tool": null,
+  "pages_pdf": 16,
+  "pages_extracted": 16,
+  "est_tokens": 14081,
+  "pages": [
+    {
+      "page": 1,
+      "n_lines": 55,
+      "n_chars": 2851,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 2,
+      "n_lines": 51,
+      "n_chars": 3767,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 3,
+      "n_lines": 53,
+      "n_chars": 3995,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 4,
+      "n_lines": 51,
+      "n_chars": 3752,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 5,
+      "n_lines": 52,
+      "n_chars": 3963,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 6,
+      "n_lines": 96,
+      "n_chars": 3066,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 7,
+      "n_lines": 109,
+      "n_chars": 2473,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 8,
+      "n_lines": 62,
+      "n_chars": 3494,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 9,
+      "n_lines": 62,
+      "n_chars": 3158,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 10,
+      "n_lines": 25,
+      "n_chars": 1739,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 11,
+      "n_lines": 64,
+      "n_chars": 4321,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 12,
+      "n_lines": 52,
+      "n_chars": 4057,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 13,
+      "n_lines": 33,
+      "n_chars": 2418,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 14,
+      "n_lines": 52,
+      "n_chars": 3979,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 15,
+      "n_lines": 62,
+      "n_chars": 4778,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 16,
+      "n_lines": 59,
+      "n_chars": 4514,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    }
+  ],
+  "coverage_complete": true,
+  "overrides": [],
+  "created_at": "2026-11-23T22:41:06.877270Z"
+}

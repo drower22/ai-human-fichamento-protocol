@@ -1,0 +1,27 @@
+{
+  "participant_id": "S00",
+  "article_id": "PILOTO",
+  "round": 0,
+  "demo": true,
+  "title": "MODO TESTE — artigo-piloto (não conta no estudo)",
+  "authors": "Souza, C. M. L.",
+  "year": 2011,
+  "venue": "RAC 15(5)",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Teoria A (exemplo)",
+      "authors": "Autor X"
+    },
+    {
+      "item_id": "T2",
+      "name": "Teoria B (exemplo)",
+      "authors": "Autor Y"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria C (exemplo)",
+      "authors": "Autor Z"
+    }
+  ]
+}

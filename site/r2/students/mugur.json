@@ -1,0 +1,90 @@
+{
+  "participant_id": "S01",
+  "article_id": "A23",
+  "round": 2,
+  "title": "Workplace diversity initiatives: more than ticking a box",
+  "authors": "Amy K. Weaver; Nicholas E. Libby; Grant Goodale; Steve Alexander",
+  "year": 2025,
+  "venue": "Discover Social Science and Health 5, 33",
+  "full_name": "Ricardo Luvizotto Doria",
+  "age": "41",
+  "gender": "Masculino",
+  "program": "Doutorado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Employee engagement",
+      "authors": "Downey, van der Werff, Thomas & Plaut; Press Ganey"
+    },
+    {
+      "item_id": "T2",
+      "name": "Heterogeneidade demográfica (Índice de Blau)",
+      "authors": "Blau; Biemann & Kearney"
+    },
+    {
+      "item_id": "T3",
+      "name": "Tokenismo",
+      "authors": "Kanter (não citado); termo usado pelos autores"
+    },
+    {
+      "item_id": "T4",
+      "name": "Efeito halo (na percepção de equidade)",
+      "authors": "autores"
+    },
+    {
+      "item_id": "T5",
+      "name": "Cultura organizacional saudável / cultura tóxica",
+      "authors": "Sull, Sull & Zweig; Sull et al."
+    },
+    {
+      "item_id": "T6",
+      "name": "Viés implícito",
+      "authors": "FitzGerald & Hurst; Brondolo et al."
+    },
+    {
+      "item_id": "T7",
+      "name": "Concordância racial paciente-prestador",
+      "authors": "Nguyen et al.; Greenwood et al.; Snyder et al."
+    },
+    {
+      "item_id": "T8",
+      "name": "Teoria da identidade social",
+      "authors": "Tajfel & Turner"
+    },
+    {
+      "item_id": "T9",
+      "name": "Hipótese do contato intergrupal",
+      "authors": "Allport; Pettigrew"
+    },
+    {
+      "item_id": "T10",
+      "name": "Isomorfismo institucional",
+      "authors": "DiMaggio & Powell"
+    },
+    {
+      "item_id": "T11",
+      "name": "Modelagem de equações estruturais",
+      "authors": "Hair et al."
+    },
+    {
+      "item_id": "T12",
+      "name": "Teoria do contrato psicológico",
+      "authors": "Rousseau"
+    },
+    {
+      "item_id": "T13",
+      "name": "Teoria crítica da raça",
+      "authors": "Crenshaw; Delgado"
+    },
+    {
+      "item_id": "T14",
+      "name": "Visão baseada em recursos (RBV)",
+      "authors": "Barney"
+    },
+    {
+      "item_id": "T15",
+      "name": "Teoria da sinalização",
+      "authors": "Spence"
+    }
+  ]
+}

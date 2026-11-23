@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R2-A29-AI",
+  "article_id": "A29",
+  "round": 2,
+  "source": "ai",
+  "generator": {
+    "kind": "ai",
+    "provider": "anthropic",
+    "model": "claude-sonnet-5.5-medium (execução assistida; spec de leitura integral, sem API)",
+    "prompt_version": "1.1.0-calibrated",
+    "temperature": null,
+    "seed": null,
+    "generated_at": "2026-11-23T23:10:42.683611Z",
+    "input_tokens": null,
+    "output_tokens": null,
+    "latency_s": null,
+    "md_sha256": "031d4429d4e24d7e5d54037a4bfe7e5f45ed70e8cb4b80aca471562802a10826",
+    "forced": false,
+    "verdicts_prompt_version": "1.1.0-theory-verdicts"
+  },
+  "content": {
+    "executive_summary": "O artigo defende que a pesquisa qualitativa adote uma visão processual de validade: a validade não deve ser produto de um único teste ou etapa, mas uma busca contínua que atravessa todas as fases da pesquisa, do desenho à publicação (p.3/L056-071; p.7-8/L282-299). Os autores revisam a validade nos estudos quantitativos — confiabilidade como estabilidade e repetibilidade dos resultados — e as propostas qualitativas: os cinco tipos de Maxwell (descritiva, interpretativa, teórica, generalização, avaliativa), a trustworthiness de Lincoln e Guba (credibilidade, transferibilidade, dependabilidade, confirmabilidade) e os cinco critérios de Paiva, Leão e Mello (triangulação, corpus, descrição densa, surpresa, feedback dos informantes) (p.5-7/L151-273). A abordagem processual é então proposta em cinco etapas recursivas (A–E), com raízes na filosofia do processo e no argumento de Morse et al. de que a validade deve ser ativamente alcançada durante a investigação, não proclamada post hoc (p.8-9/L300-370). A aplicação é ilustrada pela tese de um dos coautores sobre a cadeia produtiva do vinho — 45 entrevistas semiestruturadas, observação não-participante, imersão prévia de três meses, teste piloto, triangulação de dados e de teorias, saturação, feedback de informantes e especialistas, participação em congresso internacional e revisão por três pesquisadores independentes (p.9-11/L381-493). A validade processual, concluem, é instrumento de aprendizagem do pesquisador e guia da pesquisa — não uma camisa de força mecânica (p.12/L496-536).",
+    "research_question": "O artigo declara objetivo — 'This article aims to analyze the processual aspect of validity in qualitative research' (p.3/L085-089) — e formula uma pergunta retórica explícita: 'Why should a researcher adopt a processual rather than a traditional validity approach?' (p.3/L088-089, p.4/L090-093).",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Trustworthiness (credibilidade, transferibilidade, dependabilidade, confirmabilidade)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6/L212-218",
+          "p.8/L294-299"
+        ],
+        "quote": "the trustworthiness of a research study is the central aspect of the issues that are conventionally called validity and reliability",
+        "note": "O alicerce com o qual a proposta processual se alinha explicitamente."
+      },
+      {
+        "item_id": "T2",
+        "name": "Tipologia de validades de Maxwell (descritiva, interpretativa, teórica, generalização, avaliativa)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5/L170-190",
+          "p.6/L191-208"
+        ],
+        "quote": "five different types of validity: descriptive, interpretive, theoretical, generalization and evaluative",
+        "note": "Taxonomia revisada em detalhe; descritiva, interpretativa e teórica apontadas como as mais importantes."
+      },
+      {
+        "item_id": "T3",
+        "name": "Abordagem processual / filosofia do processo",
+        "verdict": "uses",
+        "source_refs": [
+          "p.7/L284-290",
+          "p.8/L311-318"
+        ],
+        "quote": "A processual approach aims to have a temporal interconnected search for holistic explanations",
+        "note": "O conceito central proposto pelo artigo."
+      },
+      {
+        "item_id": "T4",
+        "name": "Estratégias de verificação durante a pesquisa (Morse et al.)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.10/L396-404",
+          "p.8/L300-303"
+        ],
+        "quote": "reliability and validity are actively attained, rather than proclaimed by external reviewers on the completion of the project",
+        "note": "A base direta da proposta: a validade construída durante a investigação, não post hoc."
+      },
+      {
+        "item_id": "T5",
+        "name": "Triangulação",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6/L226-234",
+          "p.11/L471-478"
+        ],
+        "quote": "triangulation makes it possible to compare and to cross-check data",
+        "note": "Critério de validade operacionalizado no estudo ilustrativo (dados e teorias)."
+      },
+      {
+        "item_id": "T6",
+        "name": "Saturação de dados",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6/L238-242",
+          "p.11/L474-478"
+        ],
+        "quote": "The researcher has continued sampling and analyzing data until no new data appear",
+        "note": "Critério aplicado com as mais de 40 entrevistas do estudo ilustrativo."
+      },
+      {
+        "item_id": "T7",
+        "name": "Os cinco critérios de Paiva, Leão & Mello",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6/L219-225",
+          "p.7/L245-273"
+        ],
+        "quote": "five validity criteria in qualitative research: triangulation, the construction of a research corpus, a clear, rich and detailed description",
+        "note": "A proposição brasileira discutida em detalhe, incluindo o exemplo Hawthorne para 'surpresa'."
+      },
+      {
+        "item_id": "T8",
+        "name": "Descrição densa (thick description)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.7/L245-250",
+          "p.6/L227-229"
+        ],
+        "quote": "a dense description of the phenomenon",
+        "note": "Critério de validade e confiabilidade, não a lente interpretativa do artigo."
+      },
+      {
+        "item_id": "T9",
+        "name": "Validade em métodos mistos / framework unificado",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.7/L274-290"
+        ],
+        "quote": "many efforts seem to be directed toward reduction of barriers",
+        "note": "Contexto contrastado: esses esforços não discutiram a natureza distinta da validade qualitativa — a questão central."
+      },
+      {
+        "item_id": "T10",
+        "name": "Reflexividade crítica e o papel do pesquisador",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.8/L305-310",
+          "p.11/L452-453"
+        ],
+        "quote": "The critical reflexivity developed by the researcher serves as a personal strategy to alternate and oscillate between the abstract world of theory and the practical reality",
+        "note": "Fundamenta a necessidade da validade processual; não é desenvolvida como construto próprio."
+      },
+      {
+        "item_id": "T11",
+        "name": "Peer review como garantia de validade",
+        "verdict": "uses",
+        "source_refs": [
+          "p.11/L479-489"
+        ],
+        "quote": "peer-review represents one of the fundamental pillars of science",
+        "note": "Operacionalizado na ilustração: congresso internacional + três revisores independentes."
+      },
+      {
+        "item_id": "T12",
+        "name": "Big data e IA na pesquisa qualitativa",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.5/L141-150"
+        ],
+        "quote": "new ways of researching with big data and artificial intelligence (AI) seem to promote new discussions",
+        "note": "Mencionado como desenvolvimento que traz novas discussões de validade, sem aplicação."
+      },
+      {
+        "item_id": "T13",
+        "name": "Grounded theory (Glaser & Strauss)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ausente: codificação é mencionada genericamente, sem a metodologia Glaser/Strauss."
+      },
+      {
+        "item_id": "T14",
+        "name": "Metodologia Gioia (estrutura de dados 1ª/2ª ordem)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ausente — os autores de rigor citados são Morse, Lincoln & Guba, Maxwell, Whittemore."
+      },
+      {
+        "item_id": "T15",
+        "name": "Teoria institucional / isomorfismo",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ausente — artigo metodológico, sem teoria organizacional substancial."
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Validade processual",
+        "definition": "A validade como processo contínuo e recursivo que atravessa todas as etapas da pesquisa, não como produto de um teste único ou de uma etapa isolada — construída ex ante e ex post.",
+        "quote": "validity cannot be seen as a product or something isolated",
+        "source_refs": [
+          "p.8/L293-299"
+        ]
+      },
+      {
+        "concept": "Trustworthiness",
+        "definition": "Os critérios de Lincoln e Guba que substituem validade interna, externa, confiabilidade e objetividade na pesquisa qualitativa: credibilidade, transferibilidade, dependabilidade e confirmabilidade.",
+        "quote": "credibility, transferability, dependability and confirmability",
+        "source_refs": [
+          "p.6/L212-218"
+        ]
+      },
+      {
+        "concept": "Triangulação",
+        "definition": "A inter-relação de informações de diferentes fontes — de dados e teórica — para cruzar e aprofundar a compreensão do fenômeno, conferindo consistência e densidade descritiva.",
+        "quote": "triangulation makes it possible to compare and to cross-check data",
+        "source_refs": [
+          "p.6/L226-234"
+        ]
+      },
+      {
+        "concept": "Saturação de dados",
+        "definition": "A continuação da amostragem e análise até que nenhum dado novo apareça e todos os conceitos estejam desenvolvidos — 'gold standard' para demonstrar a qualidade da pesquisa.",
+        "quote": "The researcher has continued sampling and analyzing data until no new data appear",
+        "source_refs": [
+          "p.6/L238-242",
+          "p.11/L474-478"
+        ]
+      },
+      {
+        "concept": "Fluxo processual em cinco etapas (A–E)",
+        "definition": "As etapas recursivas da construção da validade: atenção ao projeto e alinhamento tema-desenho-método (A); organização da coleta (B); codificação e estruturação de conceitos (C); análise com múltiplas fontes (D); discussão dos resultados e retorno à teoria (E).",
+        "quote": "The goal of processual construction of validity",
+        "source_refs": [
+          "p.9/L338-358"
+        ]
+      },
+      {
+        "concept": "Surpresa e feedback dos informantes",
+        "definition": "Dois dos cinco critérios de Paiva, Leão e Mello: a salvaguarda do potencial inovador e da mudança de mentalidade cristalizada; e a 'validade comunicativa' — a auditoria regular do que o pesquisador obteve versus o que o informante quis dizer.",
+        "quote": "Surprise is a criterion of validity in qualitative research",
+        "source_refs": [
+          "p.7/L251-269"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "ensaio metodológico com ilustração empírica ('how to article')",
+      "design": "Proposição teórico-metodológica construída sobre revisão das propostas de validade qualitativa, ilustrada pela aplicação da abordagem processual na tese de doutorado de um dos coautores sobre a cadeia produtiva do vinho",
+      "sample_type": "a ilustração: 45 pessoas entrevistadas numa das maiores vinícolas brasileiras, com observação não-participante junto a representantes comerciais e lojista",
+      "sample_size": 45,
+      "sector": "ilustração: vitivinicultura (Rio Grande do Sul/Porto Alegre)",
+      "period": "tese de 2011; imersão prévia de três meses como observador participante numa loja de vinhos",
+      "methods": [
+        "revisão das propostas de validade (Maxwell; Lincoln & Guba; Paiva et al.; Morse et al.)",
+        "ilustração processual com tabela de medidas ex ante e ex post (imersão prévia, piloto, triangulação, descrição rica, feedback, exposição prolongada, saturação, evento científico, peer review)"
+      ],
+      "analysis_note": "Não é estudo empírico primário: o desenho é um ensaio metodológico que deriva a proposta processual da literatura e a ilustra com as medidas de validade adotadas na tese de Hayashi (2011) — imersão prévia de três meses, piloto em vinícola similar, triangulação de dados e de teorias, mais de 40 entrevistas até saturação, feedback de informantes e especialistas, dois artigos aprovados em congresso internacional e peer review por três pesquisadores independentes (p.9-11/L381-493).",
+      "source_refs": [
+        "p.3/L056-071",
+        "p.9/L338-358",
+        "p.9/L381-383",
+        "p.10/L384-445",
+        "p.11/L446-493"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "A validade difere de natureza entre quantitativo e qualitativo: nos estudos quantitativos ela é produto de testes; nos qualitativos envolve contexto, interpretação do pesquisador e construção/reflexão/reconstrução da informação — logo deve ser processual.",
+        "type": "proposition",
+        "quote": "Validity is not in any simple sense a unitary concept",
+        "source_refs": [
+          "p.7/L282-290",
+          "p.8/L291-299"
+        ]
+      },
+      {
+        "finding": "A literatura oferece múltiplas propostas — 17 termos diferentes (Dellinger e Leech), cinco tipos de Maxwell, trustworthiness de Lincoln e Guba, cinco critérios de Paiva et al. — cuja variedade evidencia a importância e a necessidade de novas formas de organizar a questão.",
+        "type": "empirical",
+        "quote": "found seventeen different terms related to the concept of validity",
+        "source_refs": [
+          "p.5/L168-172",
+          "p.7/L270-273"
+        ]
+      },
+      {
+        "finding": "A abordagem processual da validade organiza-se em cinco etapas recursivas (A–E) — projeto, coleta, codificação, análise, discussão/retorno à teoria — com movimento contínuo sobretudo entre B-C-D e D-E-A, e raízes na filosofia do processo, teorias sistêmicas e pós-estruturalistas.",
+        "type": "model",
+        "quote": "an ongoing movement between the different steps is necessary. This process is recursive, particularly between steps B, C and D and between steps D, E and A",
+        "source_refs": [
+          "p.9/L338-370"
+        ]
+      },
+      {
+        "finding": "No estudo ilustrativo, a validade foi assegurada ex ante e ex post: imersão prévia de três meses numa loja de vinhos, piloto em vinícola similar, triangulação de dados e teórica, descrição rica de campo, feedback de informantes e especialistas, exposição prolongada e saturação.",
+        "type": "empirical",
+        "quote": "the researcher remained a participant observer in a wine shop for three months in order to compose a research proposal",
+        "source_refs": [
+          "p.10/L405-445",
+          "p.11/L459-478"
+        ]
+      },
+      {
+        "finding": "A fase ex post foi reforçada por participação em congresso internacional — dois artigos da tese aprovados — e por peer review de três pesquisadores independentes, cujas críticas foram discutidas até resolução.",
+        "type": "empirical",
+        "quote": "peer-review represents one of the fundamental pillars of science, and reviewers can help build good practice that encourages more valid results",
+        "source_refs": [
+          "p.11/L479-489"
+        ]
+      },
+      {
+        "finding": "A validade processual converte a validade em instrumento de aprendizagem do pesquisador — aproveita a tensão entre criatividade e rigor sem operar como regra mecânica — e afasta a acusação de encontrar apenas o que se quer encontrar.",
+        "type": "proposition",
+        "quote": "Validity ceases to be a product that is verified only at the end using numerical tests and begins to serve as a learning instrument for the researcher himself",
+        "source_refs": [
+          "p.12/L503-520"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "Contribui um enquadramento da validade como processo contínuo e multicritério — não produto de teste único — coerente com as ontologias processuais da literatura organizacional, e que desloca a validade de verificação final para guia e instrumento de aprendizagem do pesquisador (p.12/L496-520).",
+      "practical": "Operacionaliza a proposta em cinco etapas recursivas (A–E) e uma tabela de medidas concretas por fase da pesquisa — imersão prévia, piloto, triangulações, descrição rica, feedback, exposição prolongada, saturação, evento científico e peer review — ilustradas num caso real de tese (p.9-11/L338-493)."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

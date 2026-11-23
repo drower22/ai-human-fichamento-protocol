@@ -1,0 +1,85 @@
+{
+  "participant_id": "S06",
+  "article_id": "A24",
+  "round": 2,
+  "title": "Translating Institutional Logics: When the Media Logic Meets Professions",
+  "authors": "Josef Pallas; Magnus Fredriksson; Linda Wedlin",
+  "year": 2016,
+  "venue": "Organization Studies 37(11), 1661-1684",
+  "full_name": "Luciana Cristina da Costa",
+  "age": "42",
+  "gender": "Feminino",
+  "program": "Doutorado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Lógicas institucionais",
+      "authors": "Friedland & Alford; Thornton, Ocasio & Lounsbury"
+    },
+    {
+      "item_id": "T2",
+      "name": "Teoria da tradução (scandinavian institutionalism)",
+      "authors": "Czarniawska & Sevón; Sahlin & Wedlin; Boxenbaum"
+    },
+    {
+      "item_id": "T3",
+      "name": "Teoria ator-rede (raízes da tradução)",
+      "authors": "Callon; Latour"
+    },
+    {
+      "item_id": "T4",
+      "name": "Lógica da mídia / midiatização",
+      "authors": "Altheide & Snow; Hjarvard; Schillemans; Donges & Jarren"
+    },
+    {
+      "item_id": "T5",
+      "name": "Elementos/portadores institucionais de Scott",
+      "authors": "Scott"
+    },
+    {
+      "item_id": "T6",
+      "name": "Profissões, jurisdições e sistemas de valores profissionais",
+      "authors": "McPherson & Sauder; Bévort & Suddaby; Currie & Spyridonidis"
+    },
+    {
+      "item_id": "T7",
+      "name": "Complexidade institucional e respostas a lógicas múltiplas",
+      "authors": "Greenwood et al.; Pache & Santos; Smets et al.; Reay & Hinings; Kraatz & Block"
+    },
+    {
+      "item_id": "T8",
+      "name": "Gerencialismo / ideia geral de management (NPM)",
+      "authors": "Chandler; Pollitt"
+    },
+    {
+      "item_id": "T9",
+      "name": "Institutional work",
+      "authors": "Boxenbaum & Strandgaard Pedersen; Lawrence, Suddaby & Leca"
+    },
+    {
+      "item_id": "T10",
+      "name": "Isomorfismo institucional",
+      "authors": "DiMaggio & Powell"
+    },
+    {
+      "item_id": "T11",
+      "name": "Sensemaking (Weick)",
+      "authors": "Weick"
+    },
+    {
+      "item_id": "T12",
+      "name": "Teoria dos stakeholders",
+      "authors": "Freeman"
+    },
+    {
+      "item_id": "T13",
+      "name": "Teoria da agência",
+      "authors": "Jensen & Meckling"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria da dependência de recursos",
+      "authors": "Pfeffer & Salancik"
+    }
+  ]
+}

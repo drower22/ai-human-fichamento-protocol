@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A31",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "ad209538e4967d1fd4feff47b96a935a2cdf69aa34d7e7f9ee3672d1c89d9e77"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Strategy-as-practice: practitioners, practices e praxis",
+      "definition": "Os três parâmetros inter-relacionados do campo: quem faz o trabalho da estratégia, as ferramentas sociais, simbólicas e materiais usadas, e o fluxo de atividade em que a estratégia se realiza.",
+      "tradition": "estratégia como prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Teoria social da prática (bundles, sociomaterialidade, corpo)",
+      "definition": "Práticas como feixes inter-relacionados de fazeres sociais, materiais e corporificados — nem sempre articulados ou conscientes ao ator.",
+      "tradition": "teoria da prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Praxis como síntese dialética micro-macro (Sztompka)",
+      "definition": "A praxis como fluxo de atividade que interconecta as ações micro de indivíduos e grupos às instituições mais amplas — níveis que se interpenetram.",
+      "tradition": "teoria social",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Pesquisa de processo em estratégia (process tradition)",
+      "definition": "A tradição processual de que a SAP herda o débito intelectual, e o debate sobre se a SAP difere dela na visão de agência e nos níveis de ação.",
+      "tradition": "estratégia — processo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "RBV e dynamic capabilities",
+      "definition": "A visão baseada em recursos e as capacidades dinâmicas, criticadas pela ausência do ator humano e estendidas pela SAP ao dinamismo prático.",
+      "tradition": "estratégia — recursos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Práticas discursivas / virada linguística",
+      "definition": "A abordagem mais comum de practices no campo — as formas de fala e discursos dos estrategistas como práticas.",
+      "tradition": "análise do discurso organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Episódios estratégicos: reuniões e workshops como práticas",
+      "definition": "Modos de fazer estratégia — reuniões, workshops, away-days — como episódios concentrados de praxis, estruturados por rituais e práticas próprias.",
+      "tradition": "estratégia como prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Institucionalização da estratégia e teoria institucional",
+      "definition": "A estratégia como campo institucional com identidade coletiva; como práticas e recursos estratégicos se institucionalizam e a chamada a ligar teoria da prática e teoria institucional.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Sensemaking organizacional",
+      "definition": "Os processos de construção de sentido pelos quais gerentes médios interpretam mudança e traduzem direções estratégicas.",
+      "tradition": "comportamento organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Etnometodologia e análise conversacional",
+      "definition": "A análise do talk-in-interaction para demonstrar a relação entre a fala dos gestores e a praxis de decisões estratégicas específicas.",
+      "tradition": "microsociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Mecanismos generativos e métodos comparativos para outcomes",
+      "definition": "Dois tipos de explicação de outcomes adequados à SAP: análise detalhada dos mecanismos generativos em casos únicos e métodos comparativos que explicam variações.",
+      "tradition": "metodologia de pesquisa de processo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Identidade do estrategista",
+      "definition": "Como indivíduos constroem e avançam a si mesmos como atores estratégicos — papéis, identidades e posições na praxis estratégica.",
+      "tradition": "identidade organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Teoria da estruturação (Giddens) e agência-estrutura",
+      "definition": "A reciprocidade entre agência e estrutura como recurso teórico para incorporar ação na teoria institucional e na praxis macro.",
+      "tradition": "teoria social",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teoria ator-rede",
+      "definition": "Agência distribuída entre humanos e não-humanos em redes heterogêneas.",
+      "tradition": "TAR",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Teoria da atividade (activity theory)",
+      "definition": "A atividade mediada por ferramentas como unidade de análise da ação humana situada.",
+      "tradition": "psicologia social / AT",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

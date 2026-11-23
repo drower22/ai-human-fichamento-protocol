@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A20",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "c00d4b92f9645a00f68f1fec403c7e32950a436da14c6f7ac2cad5b892311f8e"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Estratégia como prática social (strategy-as-practice)",
+      "definition": "Perspectiva que desloca a estratégia de atributo das organizações para atividade realizada por pessoas — algo que as pessoas fazem —, passível de estudo como qualquer outra prática social.",
+      "tradition": "estratégia / sociologia das práticas",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Modernismo e primazia da racionalidade teorética",
+      "definition": "Programa epistemológico que privilegia imparcialidade científica, leis gerais e quantificação sobre o contextual, o local e o qualitativo — a forma modernista original das ciências sociais.",
+      "tradition": "filosofia das ciências sociais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "'Após o modernismo' e a recuperação da razão prática",
+      "definition": "A segunda transformação de Toulmin: não a rejeição pós-moderna da ciência, mas sua incorporação a um contexto mais amplo de prática racional — mais inclusiva e pragmática que modernismo e pós-modernismo.",
+      "tradition": "filosofia das ciências sociais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Pós-modernismo",
+      "definition": "Ceticismo diante de leis científicas universais, reafirmando habilidades específicas, contexto e narrativa — corrente que minou o monopólio modernista nas ciências sociais.",
+      "tradition": "teoria social / filosofia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Sociologia das elites",
+      "definition": "Sociologia que investiga quem detém o poder, como as pessoas poderosas se conectam e influenciam a sociedade e como o poder varia no tempo e no lugar.",
+      "tradition": "sociologia política",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Sociologia do trabalho e do conhecimento",
+      "definition": "Tradição que analisa a divisão do trabalho, as habilidades requeridas e suas transformações — aplicável à 'fábrica' de fazer estratégia como a de carros e sanduíches.",
+      "tradition": "sociologia do trabalho",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Sociologia da ciência e da tecnologia (CTS)",
+      "definition": "Abordagem que reconcebe ciência e tecnologia como construídas socialmente e interpretadas no uso; aplicada ao desenho, difusão e uso das ferramentas da estratégia ('vida em laboratório').",
+      "tradition": "estudos de ciência e tecnologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Tradição mintzberguiana e estratégia emergente",
+      "definition": "Perspectiva em que estratégias 'simplesmente surgem' do processo, e o planejamento formal é menos essencial que as práticas emergentes e a gerência média.",
+      "tradition": "estratégia / escola do aprendizado",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Escola do planejamento estratégico",
+      "definition": "Corrente dos anos 1960 que desenvolveu ferramentas e modos de fazer estratégia a partir de experiências intensas com empresas americanas — marginalizada depois pelo cientificismo.",
+      "tradition": "estratégia / tradição prescritiva",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Economia industrial positivista da estratégia",
+      "definition": "A corrente 'ciência positiva' de Harvard: grandes bases de dados, fundamento na teoria econômica, foco em diversificação/divisionalização e performance da firma.",
+      "tradition": "estratégia / economia industrial",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Modo 2 de produção de conhecimento / pesquisa engajada",
+      "definition": "Transição do estilo imparcial Modo 1 para o Modo 2, mais engajado, reconciliando teoria acadêmica e realidade gerencial.",
+      "tradition": "gestão do conhecimento / metodologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Sociologia institucional comparativa",
+      "definition": "Ramo sociológico que compara instituições e arranjos capitalistas entre sociedades.",
+      "tradition": "sociologia institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Teoria ator-rede (TAR)",
+      "definition": "Abordagem em que práticas se difundem por redes de atores humanos e não-humanos via tradução.",
+      "tradition": "sociologia / CTS",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teoria dos stakeholders",
+      "definition": "Perspectiva que define a empresa pelas relações com grupos que a afetam ou são afetados por ela.",
+      "tradition": "estratégia / ética empresarial",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Teoria da estruturação (Giddens)",
+      "definition": "Teoria da dualidade estrutura-ação que enquadra práticas como produzidas e reproduzidas por regras e recursos.",
+      "tradition": "sociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T16",
+      "kind": "theory",
+      "name": "Teoria da agência",
+      "definition": "Perspectiva contratual das relações principal-agente e custos de agência.",
+      "tradition": "economia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

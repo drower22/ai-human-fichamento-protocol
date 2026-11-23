@@ -1,0 +1,90 @@
+{
+  "participant_id": "S02",
+  "article_id": "A21",
+  "round": 2,
+  "title": "O declarado e o não declarado na manifestação de lógicas institucionais: um estudo da prática do teatro em uma organização cultural",
+  "authors": "Bruno Eduardo Slongo Garcia; Queila Regina Souza Matitz",
+  "year": 2024,
+  "venue": "Revista Eletrônica de Ciência Administrativa (RECADM) 23(1), 46-82",
+  "full_name": "Vanessa Serafim",
+  "age": "24",
+  "gender": "Feminino",
+  "program": "Mestrado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Lógicas institucionais",
+      "authors": "Friedland & Alford; Thornton, Ocasio & Lounsbury; Friedland et al.; Friedland & Arjaliès"
+    },
+    {
+      "item_id": "T2",
+      "name": "Enculturação e modelo dual da cultura em ação",
+      "authors": "Lizardo; Vaisey; DiMaggio"
+    },
+    {
+      "item_id": "T3",
+      "name": "Tipificação ideal (tipos ideais weberianos)",
+      "authors": "Thornton et al.; Reay & Jones"
+    },
+    {
+      "item_id": "T4",
+      "name": "Promulgação (enactment) de elementos institucionais",
+      "authors": "Pallas, Fredriksson & Wedlin; Spyridonidis & Currie"
+    },
+    {
+      "item_id": "T5",
+      "name": "Recursividade entre sociedade, campo e lógicas",
+      "authors": "York, Hargrave & Pacheco; Cloutier & Langley; Picheth; Zanin & Cunha"
+    },
+    {
+      "item_id": "T6",
+      "name": "Teoria da estruturação (Giddens)",
+      "authors": "Giddens; Rossoni et al."
+    },
+    {
+      "item_id": "T7",
+      "name": "Organizações como entidades fluidas / ontologia relacional",
+      "authors": "Law; Burrell; Cavalcanti & Alcadipani"
+    },
+    {
+      "item_id": "T8",
+      "name": "Complexidade institucional",
+      "authors": "Spyridonidis & Currie; Teixeira"
+    },
+    {
+      "item_id": "T9",
+      "name": "Construção social da realidade (externalização)",
+      "authors": "Berger & Luckmann"
+    },
+    {
+      "item_id": "T10",
+      "name": "Tipologias históricas das lógicas do teatro brasileiro",
+      "authors": "Faria & Guinsburg; Souza; Silva; Camargo"
+    },
+    {
+      "item_id": "T11",
+      "name": "Teatro do Oprimido (Boal)",
+      "authors": "Boal; Chiari & Braga"
+    },
+    {
+      "item_id": "T12",
+      "name": "Isomorfismo institucional (DiMaggio & Powell)",
+      "authors": "DiMaggio & Powell"
+    },
+    {
+      "item_id": "T13",
+      "name": "Estratégia como prática (strategy-as-practice)",
+      "authors": "Whittington; Jarzabkowski"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria dos stakeholders",
+      "authors": "Freeman"
+    },
+    {
+      "item_id": "T15",
+      "name": "Ecologia populacional de organizações",
+      "authors": "Hannan & Freeman"
+    }
+  ]
+}

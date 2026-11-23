@@ -1,0 +1,90 @@
+{
+  "participant_id": "S16",
+  "article_id": "A29",
+  "round": 2,
+  "title": "Validity in Qualitative Research: A Processual Approach",
+  "authors": "Paulo Hayashi Jr; Gustavo Abib; Norberto Hoppen",
+  "year": 2019,
+  "venue": "The Qualitative Report 24(1), 98-112",
+  "full_name": "Gianini Scarllat Coelho da Cruz",
+  "age": "27",
+  "gender": "Feminino",
+  "program": "Doutorado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Trustworthiness (credibilidade, transferibilidade, dependabilidade, confirmabilidade)",
+      "authors": "Lincoln & Guba"
+    },
+    {
+      "item_id": "T2",
+      "name": "Tipologia de validades de Maxwell (descritiva, interpretativa, teórica, generalização, avaliativa)",
+      "authors": "Maxwell; Johnson"
+    },
+    {
+      "item_id": "T3",
+      "name": "Abordagem processual / filosofia do processo",
+      "authors": "Pettigrew; Mintzberg; Chia; Cooper"
+    },
+    {
+      "item_id": "T4",
+      "name": "Estratégias de verificação durante a pesquisa (Morse et al.)",
+      "authors": "Morse, Barret, Mayan, Olson & Spiers"
+    },
+    {
+      "item_id": "T5",
+      "name": "Triangulação",
+      "authors": "Jick; Patton; Paiva, Leão & Mello"
+    },
+    {
+      "item_id": "T6",
+      "name": "Saturação de dados",
+      "authors": "Morse; Saunders et al.; Fusch & Ness"
+    },
+    {
+      "item_id": "T7",
+      "name": "Os cinco critérios de Paiva, Leão & Mello",
+      "authors": "Paiva, Leão & Mello"
+    },
+    {
+      "item_id": "T8",
+      "name": "Descrição densa (thick description)",
+      "authors": "Geertz; Jick"
+    },
+    {
+      "item_id": "T9",
+      "name": "Validade em métodos mistos / framework unificado",
+      "authors": "Onwuegbuzie & Johnson; Dellinger & Leech"
+    },
+    {
+      "item_id": "T10",
+      "name": "Reflexividade crítica e o papel do pesquisador",
+      "authors": "Wainwright; Aguinaldo; Drapeau"
+    },
+    {
+      "item_id": "T11",
+      "name": "Peer review como garantia de validade",
+      "authors": "Hammarberg, Kirkman & Lacey"
+    },
+    {
+      "item_id": "T12",
+      "name": "Big data e IA na pesquisa qualitativa",
+      "authors": "Evers; Daniel"
+    },
+    {
+      "item_id": "T13",
+      "name": "Grounded theory (Glaser & Strauss)",
+      "authors": "Glaser & Strauss"
+    },
+    {
+      "item_id": "T14",
+      "name": "Metodologia Gioia (estrutura de dados 1ª/2ª ordem)",
+      "authors": "Gioia, Corley & Hamilton"
+    },
+    {
+      "item_id": "T15",
+      "name": "Teoria institucional / isomorfismo",
+      "authors": "DiMaggio & Powell; Meyer & Rowan"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A28",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "3733acf4d32a900656737b100fd6e1b83944a5d55356fe0a34de224636692106"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Rotinas na visão prática (ostensivo × performativo)",
+      "definition": "Rotinas como interação recursiva entre o aspecto performativo — ações concretas de pessoas em tempos e lugares — e o ostensivo — a ideia abstrata e generalizada do padrão.",
+      "tradition": "rotinas organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Talk como ação e reflexão coletiva",
+      "definition": "A fala como tipo específico de ação — 'naturally occurring talk' — que promulga reflexão coletiva e expressa a reflexividade dos atores na perspectiva prática heideggeriana.",
+      "tradition": "prática / comunicação organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Modelo evolucionário de mudança endógena de rotinas (variação e retenção seletiva)",
+      "definition": "A mudança de rotinas como processo evolucionário: adaptações flexíveis nas performances produzem variações que são retidas seletivamente no padrão ostensivo, que se modifica.",
+      "tradition": "rotinas organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "O 'paradoxo do mundo (n)unca mutável' — consistência e mudança",
+      "definition": "Toda performance difere mas é reconhecida como 'a mesma' rotina — o 'pattern-in-variety'; como os membros equilibram pressões por consistência e por mudança.",
+      "tradition": "rotinas organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Reflexão grupal e aprendizagem em equipe na mudança de rotinas",
+      "definition": "A reflexão em nível de grupo — debriefings, conversas informais, revisão de dados — como facilitadora da mudança de rotinas; e os riscos de sua ausência.",
+      "tradition": "aprendizagem organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Sensemaking coletivo",
+      "definition": "A construção coletiva de sentido por meio da conversa, especialmente diante de eventos disruptivos.",
+      "tradition": "comportamento organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Effortful accomplishment e reflexividade nas rotinas",
+      "definition": "Cada performance requer esforço e reflexão — atores escolhem ações à luz da situação e de iterações anteriores; a 'family resemblance' entre performances.",
+      "tradition": "rotinas organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Espaços institucionalizados de reflexão (episódios estratégicos, debriefings)",
+      "definition": "Episódios e reuniões dedicados como espaços que vencem a dificuldade de promover mudança fundamental de rotinas.",
+      "tradition": "mudança organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Rotinas como memória procedimental e SOPs",
+      "definition": "A visão inicial das rotinas como padrões estáveis de comportamento 'altamente automático' armazenado em regras e procedimentos.",
+      "tradition": "rotinas organizacionais clássicas",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Gêneros de comunicação organizacional",
+      "definition": "Os gêneros — documentos, e-mails, comunicação síncrona/assíncrona — como formas que estruturam a interação organizacional.",
+      "tradition": "comunicação organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Poder e política na reflexão coletiva",
+      "definition": "Como posição, autoridade e poder condicionam quem participa e quem é ouvido no talk organizacional.",
+      "tradition": "estudos críticos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Análise crítica do discurso / aspectos linguísticos",
+      "definition": "A análise de estilos retóricos, persuasão e estrutura linguística do discurso organizacional.",
+      "tradition": "análise do discurso",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Isomorfismo institucional",
+      "definition": "Homogeneização organizacional por pressões coercitiva, mimética e normativa.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teoria ator-rede",
+      "definition": "Agência distribuída entre humanos e não-humanos em redes heterogêneas.",
+      "tradition": "sociologia da ciência / TAR",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Visão baseada em recursos (RBV)",
+      "definition": "Vantagem competitiva de recursos internos valiosos, raros e inimitáveis.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

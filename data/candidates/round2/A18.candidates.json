@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A18",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "e16d8cfa3ddad761c35f6069bff23d7fc3c4352d038ec46b1cd4352caef72d45"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Estratégia como prática social (strategy-as-practice, SAP)",
+      "definition": "Perspectiva que entende a estratégia como realização de pessoas — práticas, práxis e praticantes — e não como ativo ou propriedade da organização.",
+      "tradition": "estratégia / virada prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Strategizing",
+      "definition": "O processo pelo qual práticas, práxis e praticantes se articulam no fazer estratégico; o que a pesquisa busca compreender de forma ampla.",
+      "tradition": "estratégia / virada prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Sensemaking",
+      "definition": "Processo social, impulsionado pela violação de expectativas, de criação de significado intersubjetivo por ciclos de interpretação e ação.",
+      "tradition": "estudos organizacionais / construção de sentido",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Sensegiving",
+      "definition": "Esforço intencional de influenciar a construção de significados de outros, a partir de uma perspectiva preferencial da realidade organizacional.",
+      "tradition": "estudos organizacionais / construção de sentido",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Pesquisa narrativa / paradigma narrativo organizacional",
+      "definition": "Abordagem que trata a narrativa como constitutiva da compreensão humana e meio de apreensão da construção social da estratégia.",
+      "tradition": "estudos organizacionais / abordagem narrativa",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Textos da estratégia",
+      "definition": "Artefatos discursivos e materiais (planos, relatórios, ferramentas visuais) que medeiam sensegiving e sensemaking e materializam o strategizing.",
+      "tradition": "estratégia / materialidade discursiva",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Jogos de linguagem / abordagem linguística da estratégia",
+      "definition": "Entendimento da estratégia como jogo de linguagem jogado pelos praticantes, cujas regras conectam micro interações aos macro discursos do campo.",
+      "tradition": "filosofia da linguagem / estratégia discursiva",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Construção social da realidade",
+      "definition": "Ontologia segundo a qual a realidade é socialmente construída e os sujeitos incorporam subjetivamente a dimensão objetiva compartilhada intersubjetivamente.",
+      "tradition": "sociologia do conhecimento",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Teorias da prática social",
+      "definition": "Corpo teórico que define prática como modo rotinizado de comportamento — corpos, objetos, descrições e compreensão do mundo — e sustenta a virada prática.",
+      "tradition": "teoria social / virada prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Teoria da estruturação (regras e recursos)",
+      "definition": "Quadro em que a ação é condicionada e possibilitada por regras e recursos estruturais que os agentes (re)produzem na prática.",
+      "tradition": "sociologia / teoria social",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Institucionalismo organizacional / lógicas institucionais",
+      "definition": "Perspectiva que trata das tensões geradas por lógicas institucionais dissonantes, especialmente em organizações híbridas.",
+      "tradition": "sociologia organizacional / teoria institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Storytelling organizacional / estrategista como storyteller",
+      "definition": "Tradição que trata a narração de histórias como trabalho central do estrategista na conformação da direção organizacional.",
+      "tradition": "estudos organizacionais / narrativa",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Teoria dos stakeholders",
+      "definition": "Perspectiva que define a empresa por suas relações com os grupos que afetam ou são afetados por ela.",
+      "tradition": "estratégia / ética empresarial",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Isomorfismo institucional",
+      "definition": "Mecanismos coercitivos, miméticos e normativos de homogeneização organizacional.",
+      "tradition": "sociologia organizacional / teoria institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Aprendizagem organizacional",
+      "definition": "Teorias sobre como organizações adquirem, codificam e incorporam conhecimento em rotinas.",
+      "tradition": "estudos organizacionais / aprendizagem",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T16",
+      "kind": "theory",
+      "name": "Sociologia da tradução / teoria ator-rede",
+      "definition": "Abordagem em que ideias e práticas circulam sendo transformadas (traduzidas) por redes de atores humanos e não-humanos.",
+      "tradition": "sociologia / CTS",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

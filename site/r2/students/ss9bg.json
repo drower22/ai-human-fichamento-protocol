@@ -1,0 +1,90 @@
+{
+  "participant_id": "S04",
+  "article_id": "A26",
+  "round": 2,
+  "title": "Subjetividade e papéis das mulheres empreendedoras: histórias parnanguaras",
+  "authors": "Gabrielly Kalbusch Passos; Stephanye Lohana da Silva Correa; Leticia do Rocio da Silva Jianni; Marcos Vinícius Pereira Correa; Thálita Anny Estefanuto Orsiolli",
+  "year": 2025,
+  "venue": "RELISE - Revista Livre de Sustentabilidade e Empreendedorismo 10, 133-162",
+  "full_name": "Felipe Stainsack do Rosário",
+  "age": "25",
+  "gender": "Masculino",
+  "program": "Mestrado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Empreendedorismo (processo de criação de valor e inovação)",
+      "authors": "GEM; Dornelas; Schumpeter; Bolson, Oliveira & Vale"
+    },
+    {
+      "item_id": "T2",
+      "name": "Subjetividade (sentidos únicos e construção dinâmica)",
+      "authors": "Rey (González Rey); Ferreira & Nogueira"
+    },
+    {
+      "item_id": "T3",
+      "name": "Identidade e estereótipos de gênero",
+      "authors": "Ferreira & Nogueira; Alperstedt, Ferreira & Serafim"
+    },
+    {
+      "item_id": "T4",
+      "name": "Conflito trabalho-família",
+      "authors": "Greenhaus & Beutell; Hall; Shelton; Jonathan; Vilela"
+    },
+    {
+      "item_id": "T5",
+      "name": "Empreendedorismo por necessidade vs. por oportunidade",
+      "authors": "Bandeira, Amorim & Oliveira; Jonathan"
+    },
+    {
+      "item_id": "T6",
+      "name": "Rede de apoio e apoio familiar",
+      "authors": "Silva, Mainardes & Lasso"
+    },
+    {
+      "item_id": "T7",
+      "name": "Análise narrativa",
+      "authors": "Boje; Riessman; Gibbs; Bauer & Gaskell"
+    },
+    {
+      "item_id": "T8",
+      "name": "Estudo de caso qualitativo",
+      "authors": "Yin; Creswell; Bauer & Gaskell"
+    },
+    {
+      "item_id": "T9",
+      "name": "Motivações do empreendedorismo feminino",
+      "authors": "Jonathan; Dornelas; Bolson, Oliveira & Vale"
+    },
+    {
+      "item_id": "T10",
+      "name": "Capital social (Bourdieu/Putnam)",
+      "authors": "Bourdieu; Putnam"
+    },
+    {
+      "item_id": "T11",
+      "name": "Interseccionalidade (Crenshaw)",
+      "authors": "Crenshaw"
+    },
+    {
+      "item_id": "T12",
+      "name": "Effectuation (Sarasvathy)",
+      "authors": "Sarasvathy"
+    },
+    {
+      "item_id": "T13",
+      "name": "Identidade narrativa / identity work",
+      "authors": "Ibarra & Barbulescu; Sveningsson & Alvesson"
+    },
+    {
+      "item_id": "T14",
+      "name": "Isomorfismo institucional",
+      "authors": "DiMaggio & Powell"
+    },
+    {
+      "item_id": "T15",
+      "name": "Subjetivação foucaultiana / tecnologias do self",
+      "authors": "Foucault"
+    }
+  ]
+}

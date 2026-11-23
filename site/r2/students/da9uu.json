@@ -1,0 +1,90 @@
+{
+  "participant_id": "S11",
+  "article_id": "A30",
+  "round": 2,
+  "title": "Gerenciamento de Riscos em Born globals: o caso das Cervejarias Artesanais Brasileiras",
+  "authors": "Fabricio Stocker; Gustavo Abib",
+  "year": 2019,
+  "venue": "BBR. Brazilian Business Review 16(4)",
+  "full_name": "Márcia Pereira da Costa",
+  "age": "30",
+  "gender": "Feminino",
+  "program": "Doutorado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Born globals / novos empreendimentos internacionais (INV)",
+      "authors": "Oviatt & McDougall; Knight & Cavusgil; Gabrielsson et al.; Madsen & Servais"
+    },
+    {
+      "item_id": "T2",
+      "name": "Classificação dos riscos em negócios internacionais (comercial, monetário, país, intercultural)",
+      "authors": "Cavusgil, Knight & Riesenberger"
+    },
+    {
+      "item_id": "T3",
+      "name": "Percepção de risco (Sitkin & Weingart)",
+      "authors": "Sitkin & Weingart; Dimitratos et al.; Grichnik"
+    },
+    {
+      "item_id": "T4",
+      "name": "Modelo de gestão de risco na internacionalização de novos empreendimentos (Oviatt, Shrader & McDougall)",
+      "authors": "Oviatt, Shrader & McDougall; Miller"
+    },
+    {
+      "item_id": "T5",
+      "name": "Modelo de Uppsala e incerteza na internacionalização",
+      "authors": "Johanson & Vahlne; Figueira-de-Lemos, Johanson & Vahlne"
+    },
+    {
+      "item_id": "T6",
+      "name": "Orientação internacional do empreendedor",
+      "authors": "Acedo & Jones; Acedo & Florin; Jin, Jung & Jeong"
+    },
+    {
+      "item_id": "T7",
+      "name": "Abordagem de redes nos negócios internacionais",
+      "authors": "Andersson, Johanson & Vahlne; Madsen & Servais"
+    },
+    {
+      "item_id": "T8",
+      "name": "Teorias econômicas de internacionalização (ciclo do produto, poder de mercado, internalização, paradigma eclético)",
+      "authors": "Vernon; Hymer; Buckley & Casson; Dunning"
+    },
+    {
+      "item_id": "T9",
+      "name": "Gestão estratégica de riscos (enterprise risk management)",
+      "authors": "Frigo & Anderson; Frigo"
+    },
+    {
+      "item_id": "T10",
+      "name": "Risco × incerteza (March & Shapira; Knight)",
+      "authors": "March & Shapira"
+    },
+    {
+      "item_id": "T11",
+      "name": "Metodologia de estudos de caso múltiplos e rigor qualitativo",
+      "authors": "Eisenhardt; Miles & Huberman; Bardin; Telles"
+    },
+    {
+      "item_id": "T12",
+      "name": "Capacidades dinâmicas na internacionalização acelerada",
+      "authors": "Weerawardena, Mort, Liesch & Knight"
+    },
+    {
+      "item_id": "T13",
+      "name": "Liability of foreignness",
+      "authors": "Zaheer"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria institucional / isomorfismo",
+      "authors": "DiMaggio & Powell; Meyer & Rowan"
+    },
+    {
+      "item_id": "T15",
+      "name": "Visão baseada em recursos (RBV)",
+      "authors": "Barney"
+    }
+  ]
+}

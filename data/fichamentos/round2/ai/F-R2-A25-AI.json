@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R2-A25-AI",
+  "article_id": "A25",
+  "round": 2,
+  "source": "ai",
+  "generator": {
+    "kind": "ai",
+    "provider": "anthropic",
+    "model": "claude-sonnet-5.5-medium (execução assistida; spec de leitura integral, sem API)",
+    "prompt_version": "1.1.0-calibrated",
+    "temperature": null,
+    "seed": null,
+    "generated_at": "2026-11-23T23:02:46.705309Z",
+    "input_tokens": null,
+    "output_tokens": null,
+    "latency_s": null,
+    "md_sha256": "08c03604990641b1d985b8b41350ee3aafa3eb93c9f18f08c6b6482e08072d78",
+    "forced": false,
+    "verdicts_prompt_version": "1.1.0-theory-verdicts"
+  },
+  "content": {
+    "executive_summary": "O artigo usa a sociologia da tradução (Callon) da Teoria Ator-Rede para estudar um 'caso extremo' de participação não-humana: o novo coronavírus. A pergunta é dupla — como líderes de Brasil, Itália e Estados Unidos tentaram, num processo de tradução, tomar a voz do vírus; e como o vírus resistiu à imposição de papéis por esses atores humanos (p.2/L073-074). Com dados de pronunciamentos oficiais, entrevistas e postagens em redes sociais (jan–mai/2020), analisados temática e indutivamente sob simetria analítica, o artigo teoriza o processo de desinteressement: o atuante não-humano resiste às ofensivas de interessement e o papel atribuído nunca se estabiliza (p.5/L203-220; p.11/L615-626). Quatro movimentos dos líderes organizam os resultados — subjugação (silenciar), domesticação (controlar), acomodação (restringir) e incorporação/embodiment (re-enquadrar via guerra e forças superiores) (p.7-10/L317-607). O desinteressement difere da dissidência, do contra-alistamento e do desemaranhamento porque nenhum alinhamento jamais se alcança: a recalcitrância do vírus desordena as reivindicações de controle (p.12/L684-721). A contribuição é dobrada: elementos teóricos novos para a escassa literatura de resistência na tradução, e a 'deflação humana' como questão moral e analítica — ignorar não-humanos é ignorar nosso papel de teóricos sociais (p.12-13/L727-762).",
+    "research_question": "Dupla e explícita: 'we seek to understand how the leaders of three countries (Brazil, Italy and the United States) tried, in a translation process, to take the voice of the new coronavirus; and how the virus resisted the imposition of roles by these leaders' (p.2/L073-074). O objetivo mais amplo é investigar a participação de atuantes não-humanos nos arranjos organizacionais — em particular a tentativa de tradução para lhe conferir um papel e falar em seu nome (p.2/L057-061).",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Teoria ator-rede (TAR/ANT)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.2/L077-089",
+          "p.3/L098-099"
+        ],
+        "quote": "society is composed, made, built, stabilized, maintained, (re)assembled and challenged",
+        "note": "O enquadre ontológico geral: o social como efeito de associações, não causa."
+      },
+      {
+        "item_id": "T2",
+        "name": "Sociologia da tradução (os quatro momentos de Callon)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3/L110-119",
+          "p.3/L131-140",
+          "p.4/L141-174"
+        ],
+        "quote": "to translate “is to establish oneself as a spokesman”",
+        "note": "A lente analítica adotada; os quatro momentos de Callon organizam o contraponto teórico."
+      },
+      {
+        "item_id": "T3",
+        "name": "Interessement e suas imperfeições (dissidência, contra-alistamento, desemaranhamento)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.4/L180-186",
+          "p.12/L684-721"
+        ],
+        "quote": "The roles and identity attributed to the non-human actant are annulled by its recalcitrance in maintaining its flow of action",
+        "note": "O conceito-oposição: o desinteressement é definido contra o interessement e distinguido das outras traduções 'malsucedidas'."
+      },
+      {
+        "item_id": "T4",
+        "name": "Simetria humano/não-humano e o atuante (actant)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3/L100-104",
+          "p.5/L206-208"
+        ],
+        "quote": "the term actant indicates anything that acts in the relational system",
+        "note": "O compromisso metodológico: simetria analítica sem ausência nem 'absurda', operacionalizada em três regras do desenho."
+      },
+      {
+        "item_id": "T5",
+        "name": "Pós-humanismo, sociomaterialidade e agência distribuída",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.11/L674-676",
+          "p.13/L756-762"
+        ],
+        "quote": "there cannot be any theory of sociomateriality without a theory of mediated action",
+        "note": "Barad fundamenta o movimento de embodiment; a agência distribuída e o pós-humanismo fecham a discussão e a agenda."
+      },
+      {
+        "item_id": "T6",
+        "name": "Poder, sujeição e resistência",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.12/L735-738"
+        ],
+        "quote": "adding new theoretical elements to the few studies that deal with resistance in the translation process",
+        "note": "A literatura de poder e resistência na tradução — e da crítica da TAR — que a contribuição endereça."
+      },
+      {
+        "item_id": "T7",
+        "name": "Três correntes da tradução nos estudos organizacionais (TAR, knowledge-based, institucionalismo escandinavo)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.3/L124-130"
+        ],
+        "quote": "(i) actor-network theory, (ii) knowledge-based theory, and (iii) Scandinavian institutionalism",
+        "note": "A tipologia de Wæraas & Nielsen situa a vertente adotada; as outras duas correntes são citadas mas não mobilizadas."
+      },
+      {
+        "item_id": "T8",
+        "name": "Caso extremo como estratégia de teorização",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5/L209-214"
+        ],
+        "quote": "an extreme case of non-human participation and therefore a privileged space for theorization",
+        "note": "A justificativa do desenho: o vírus desestabiliza relações antes invisíveis, expondo-as à teorização."
+      },
+      {
+        "item_id": "T9",
+        "name": "Análise de narrativas/discurso como método",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Explicitamente rejeitada nos métodos: 'we do not conduct data analysis guided by structuralist methods of language' (p.5/L238-239)."
+      },
+      {
+        "item_id": "T10",
+        "name": "Lógicas institucionais",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ausente — a 'tradução' aqui é a de Callon/TAR, não o institucionalismo escandinavo."
+      },
+      {
+        "item_id": "T11",
+        "name": "Sensemaking (Weick)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "A interpretação dos líderes é analisada como interessement, não como sensemaking; Weick não é citado."
+      },
+      {
+        "item_id": "T12",
+        "name": "Teoria do framing (Goffman)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Os enunciados são tratados como ofensivas de tradução, não como frames goffmanianos."
+      },
+      {
+        "item_id": "T13",
+        "name": "Gestão de crises",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "O fenômeno é a pandemia, mas a lente é TAR, não a literatura de gestão de crises."
+      },
+      {
+        "item_id": "T14",
+        "name": "Isomorfismo institucional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ausente; a conformidade buscada é a do alistamento na rede, não a isomórfica."
+      },
+      {
+        "item_id": "T15",
+        "name": "Campos de batalha da pandemia: teoria dos jogos / estratégia militar",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "A metáfora de guerra pertence aos enunciados dos líderes, não a uma lente estratégica do estudo."
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Atuante (actant)",
+        "definition": "Qualquer coisa que age no sistema relacional — humano ou não-humano — adotado em sentido semiótico, não sociológico; 'ator' é o que se torna fonte de uma ação.",
+        "quote": "the term actant indicates anything that acts in the relational system",
+        "source_refs": [
+          "p.3/L100-104"
+        ]
+      },
+      {
+        "concept": "Tradução",
+        "definition": "O processo pelo qual algumas entidades passam a representar outras — estabelecer-se como porta-voz — através dos quatro momentos de problematização, interessement, alistamento e mobilização.",
+        "quote": "to translate “is to establish oneself as a spokesman”",
+        "source_refs": [
+          "p.3/L110-119",
+          "p.3/L131-133"
+        ]
+      },
+      {
+        "concept": "Interessement",
+        "definition": "O segundo momento da tradução: as ofensivas pelas quais um atuante tenta convencer outros de que os benefícios que definiu para eles estão alinhados aos seus próprios — estabilizando papéis e identidades.",
+        "quote": "the aim is to stabilize the actors’ roles",
+        "source_refs": [
+          "p.4/L151-162"
+        ]
+      },
+      {
+        "concept": "Desinteressement",
+        "definition": "O processo teorizado pelo artigo — oposto ao interessement — em que atuantes resistem às ofensivas de outros atuantes que tentam impor-lhes papéis ou identidades; o papel atribuído é anulado pela recalcitrância e nenhum alinhamento se alcança.",
+        "quote": "the participation of the new actant has not been stabilized",
+        "source_refs": [
+          "p.11/L624-626",
+          "p.12/L709-721"
+        ]
+      },
+      {
+        "concept": "Recalcitrância e participação ativa",
+        "definition": "Os dois polos didáticos da participação do não-humano: ser ativo — alterar planos e ações humanos na rede — e ser recalcitrante — resistir, por desinteresse, aos papéis impostos.",
+        "quote": "(i) is active in terms of participation in the network since it even alters human plans and actions in the system, and (ii) has recalcitrance since it has resisted (out of disinterest) the roles imposed on it",
+        "source_refs": [
+          "p.11/L668-676"
+        ]
+      },
+      {
+        "concept": "Simetria analítica",
+        "definition": "O compromisso de tratar humanos e não-humanos na mesma gramática — evitando tanto a 'ausência' (análise centrada no humano) quanto a 'simetria absurda' — para acompanhar a negociação de papéis entre atuantes.",
+        "quote": "in analytical symmetry is recognized to understand how the relationships between them are translated",
+        "source_refs": [
+          "p.3/L098-109",
+          "p.5/L206-208"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico qualitativo (análise longitudinal de casos extremos múltiplos)",
+      "design": "Estudo qualitativo de três casos extremos — Brasil, Itália e Estados Unidos, escolhidos por volume de casos, dificuldade política e contraste de contextos; a China foi incluída inicialmente e excluída por restrição de acesso ao discurso oficial. Análise temática e indutiva sob simetria analítica da TAR, com teorização conjunta (não comparada par a par) e saturação teórica como critério de corte temporal.",
+      "sample_type": "líderes de três países tratados como porta-vozes ('micro-actors sitting on many black boxes') e seus enunciados públicos sobre o novo coronavírus",
+      "sample_size": 3,
+      "sector": "governo federal / gestão pública da pandemia de COVID-19",
+      "period": "21/jan/2020 a 20/mai/2020 — do primeiro diagnóstico nos EUA à saturação teórica",
+      "methods": [
+        "declarações oficiais à nação (Brasil 8, Itália 19, EUA 3)",
+        "postagens em redes sociais (230 + 138 + 237)",
+        "entrevistas e coletivas de imprensa (11 + 17 + 53)",
+        "análise temática indutiva orientada pela tradução TAR (sem métodos estruturalistas de linguagem)"
+      ],
+      "analysis_note": "Critérios explícitos: inclusão apenas de enunciados 'directly and expressly related' a novo coronavírus/pandemia/COVID-19; análise sensível a três pontos — como os líderes buscaram falar em nome do vírus, as mudanças de postura diante dos papéis 'interessados' e a dimensão de ação do vírus contra as ofensivas de silenciá-lo; teorização conjunta entre os países, não comparação par a par (p.6/L270-282).",
+      "source_refs": [
+        "p.5/L202-243",
+        "p.6/L251-282"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "O vírus, como atuante não-humano em caso extremo, desestabilizou a rede relacional: os líderes foram forçados a mudar discursos e ações, expondo tentativas de assumir autoridade sobre o 'novo entrante' — o processo de tradução fracassou.",
+        "type": "empirical",
+        "quote": "the leaders tried, in multiple attempts, to speak in the name of the virus, but were forced (by the relations triggered by the virus itself), to change their discourses and the course of their actions",
+        "source_refs": [
+          "p.11/L616-626"
+        ]
+      },
+      {
+        "finding": "Movimento 1 — Subjugação: tentativa de silenciar o vírus — minimizar seus efeitos, impor-lhe duração breve e manter a estabilidade da rede — alinhada à chegada do vírus em cada país.",
+        "type": "empirical",
+        "quote": "a direct (not necessarily intentional) attempt to silence the virus, speak on its behalf, and maintain the relative stability of the network in question",
+        "source_refs": [
+          "p.7/L321-367"
+        ]
+      },
+      {
+        "finding": "Movimento 2 — Domesticação: os líderes passam a demonstrar controle e preparo — segmentando os efeitos do vírus, reivindicando ação planejada e significando a supremacia humana — em lugar de negá-lo.",
+        "type": "empirical",
+        "quote": "the leaders sought to demonstrate control over the virus, instead of denying its effects",
+        "source_refs": [
+          "p.8/L429-444"
+        ]
+      },
+      {
+        "finding": "Movimento 3 — Acomodação: com a transmissão comunitária, já não é possível negar nem controlar; os líderes gerenciam os efeitos indiscutíveis, reconhecem a força do vírus e exigem mudança nos padrões de comportamento.",
+        "type": "empirical",
+        "quote": "the leaders no longer can deny, minimize or have plain control (intentional and unproblematic) over the new coronavirus",
+        "source_refs": [
+          "p.9/L506-519"
+        ]
+      },
+      {
+        "finding": "Movimento 4 — Incorporação (embodiment): a ação do vírus é incorporada a fenômenos extremos — 'inimigo invisível', guerra, forças divinas e sobre-humanas — para re-enquadrar sua participação e justificar posições diante da impossibilidade de contê-lo.",
+        "type": "empirical",
+        "quote": "human actors began to embody the action of the virus into extreme phenomena to justify their positions, their roles and their actions",
+        "source_refs": [
+          "p.10/L585-600"
+        ]
+      },
+      {
+        "finding": "O desinteressement é teorizado como mecanismo de tradução 'malsucedida' — distinto de dissidência, contra-alistamento e desemaranhamento porque nenhum alinhamento ou acordo foi alcançado para ser desfeito: a recalcitrância anula os papéis atribuídos.",
+        "type": "model",
+        "quote": "the participation of the new actant has not been stabilized",
+        "source_refs": [
+          "p.11/L624-626",
+          "p.12/L688-721"
+        ]
+      },
+      {
+        "finding": "Os efeitos da participação do não-humano — 'condições infelizes' — geram trajetórias indesejadas, desconstroem narrativas lineares, mudam comportamentos sociais e destituem quem quer falar em seu nome: poder, tamanho e força não bastam, como em Davi e Golias.",
+        "type": "proposition",
+        "quote": "power, size, and strength are not enough to define the designees of action",
+        "source_refs": [
+          "p.10/L601-607",
+          "p.12/L722-726"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "O desinteressement adiciona elementos teóricos novos à escassa literatura de resistência na tradução: um quarto mecanismo de tradução 'malsucedida', distinto de dissidência, contra-alistamento e desemaranhamento por não pressupor alinhamento prévio — e a demonstração de que o não-humano é ativo e recalcitrante sem antropomorfismo (p.12/L684-738). O caso mobiliza os estudos organizacionais para perspectivas processuais e pós-humanistas e torna a 'deflação humana' uma questão moral (p.13/L756-762).",
+      "practical": "A análise das quatro ofensivas — subjugar, domesticar, acomodar e incorporar — oferece um mapa dos discursos de líderes diante de atuantes não-humanos recalcitrantes e dos limites de falar em nome do que não negocia (p.7-10/L317-607)."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

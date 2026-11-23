@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A26",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "01197597da09bba6641216beccd0eb1e1bf6c0534200f9548c33c69ec9e5da2f"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Empreendedorismo (processo de criação de valor e inovação)",
+      "definition": "Processo dinâmico de criação de valor — nova empresa, atividade autônoma ou expansão — com o empreendedor como agente que impulsiona a inovação.",
+      "tradition": "empreendedorismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Subjetividade (sentidos únicos e construção dinâmica)",
+      "definition": "A subjetividade como processo dinâmico construído a partir de sentidos únicos que vão além de influências externas diretas — moldada por experiências que se acumulam e transformam.",
+      "tradition": "psicologia social / epistemologia qualitativa",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Identidade e estereótipos de gênero",
+      "definition": "A identidade de gênero como moldante da percepção da jornada empreendedora — expectativas sociais sobre o papel feminino e o 'contexto machista' do ambiente empresarial brasileiro.",
+      "tradition": "estudos de gênero",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Conflito trabalho-família",
+      "definition": "O atrito entre responsabilidades profissionais e familiares — a 'multiplicidade de papéis' das mulheres — e as ações de enfrentamento (eliminar, minimizar, compartilhar os fatores geradores).",
+      "tradition": "comportamento organizacional / gênero",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Empreendedorismo por necessidade vs. por oportunidade",
+      "definition": "A distinção entre empreender por necessidade (desemprego, conciliação familiar) e por oportunidade de mercado — mais comum entre homens.",
+      "tradition": "empreendedorismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Rede de apoio e apoio familiar",
+      "definition": "Os relacionamentos que oferecem suporte emocional, financeiro e prático — com o marido como principal apoiador identificado nas trajetórias.",
+      "tradition": "empreendedorismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Análise narrativa",
+      "definition": "A interpretação de histórias de vida considerando contexto sociocultural e os significados atribuídos aos eventos — com a entrevista narrativa de roteiro mínimo como técnica de coleta.",
+      "tradition": "métodos qualitativos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Estudo de caso qualitativo",
+      "definition": "O estudo de caso como desenho que permite análise aprofundada do fenômeno em seu contexto real, com o pesquisador em papel ativo e cuidado contra viés.",
+      "tradition": "métodos qualitativos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Motivações do empreendedorismo feminino",
+      "definition": "As motivações além da renda — independência financeira, autonomia, realização pessoal, nichos promissores — que impulsionam mulheres a empreender.",
+      "tradition": "empreendedorismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Capital social (Bourdieu/Putnam)",
+      "definition": "Recursos acessados via redes de relações duráveis.",
+      "tradition": "sociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Interseccionalidade (Crenshaw)",
+      "definition": "A sobreposição de categorias — raça, classe, gênero — na produção de desvantagens compostas.",
+      "tradition": "estudos de gênero",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Effectuation (Sarasvathy)",
+      "definition": "Lógica de ação empreendedora que parte dos meios disponíveis e constrói efeitos com parceiros.",
+      "tradition": "empreendedorismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Identidade narrativa / identity work",
+      "definition": "O trabalho identitário contínuo pelo qual narrativas constroem e reparam o self profissional.",
+      "tradition": "comportamento organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Isomorfismo institucional",
+      "definition": "Homogeneização organizacional por pressões coercitiva, mimética e normativa.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Subjetivação foucaultiana / tecnologias do self",
+      "definition": "A constituição do sujeito pelos dispositivos de poder e pelas práticas de si.",
+      "tradition": "pós-estruturalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

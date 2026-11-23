@@ -1,0 +1,95 @@
+{
+  "participant_id": "S15",
+  "article_id": "A18",
+  "round": 2,
+  "title": "O Vir a Ser da Estratégia como uma Prática Social",
+  "authors": "Natália Rese; Flávia Harumi Souza Kuabara; Eduardo Guedes Villar; Jane Mendes Ferreira",
+  "year": 2017,
+  "venue": "RAC 21(2), art. 5, 227-248",
+  "full_name": "Andrew Vinicius de Freitas Gil",
+  "age": "29",
+  "gender": "Masculino",
+  "program": "Doutorado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Estratégia como prática social (strategy-as-practice, SAP)",
+      "authors": "Whittington; Jarzabkowski, Balogun & Seidl; Johnson, Langley, Melin & Whittington"
+    },
+    {
+      "item_id": "T2",
+      "name": "Strategizing",
+      "authors": "Jarzabkowski, Balogun & Seidl (2007)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Sensemaking",
+      "authors": "Weick (1995); Maitlis & Christianson (2014); Holt & Cornelissen"
+    },
+    {
+      "item_id": "T4",
+      "name": "Sensegiving",
+      "authors": "Gioia & Chittipeddi (1991); Søderberg (2003)"
+    },
+    {
+      "item_id": "T5",
+      "name": "Pesquisa narrativa / paradigma narrativo organizacional",
+      "authors": "Czarniawska; Fenton & Langley (2011); O'Connor (2002); Pentland (1999)"
+    },
+    {
+      "item_id": "T6",
+      "name": "Textos da estratégia",
+      "authors": "Fenton & Langley (2011); La Ville & Mounoud; Meyer, Höllerer, Jancsary & van Leeuwen"
+    },
+    {
+      "item_id": "T7",
+      "name": "Jogos de linguagem / abordagem linguística da estratégia",
+      "authors": "Wittgenstein; Mantere (2013); Oliveira & Bulgacov (2013)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Construção social da realidade",
+      "authors": "Berger & Luckmann"
+    },
+    {
+      "item_id": "T9",
+      "name": "Teorias da prática social",
+      "authors": "Reckwitz; Nicolini"
+    },
+    {
+      "item_id": "T10",
+      "name": "Teoria da estruturação (regras e recursos)",
+      "authors": "Giddens"
+    },
+    {
+      "item_id": "T11",
+      "name": "Institucionalismo organizacional / lógicas institucionais",
+      "authors": "Battilana & Dorado; Battilana & Lee; Smets, Greenwood & Lounsbury"
+    },
+    {
+      "item_id": "T12",
+      "name": "Storytelling organizacional / estrategista como storyteller",
+      "authors": "Boje; Samra-Fredericks"
+    },
+    {
+      "item_id": "T13",
+      "name": "Teoria dos stakeholders",
+      "authors": "Freeman"
+    },
+    {
+      "item_id": "T14",
+      "name": "Isomorfismo institucional",
+      "authors": "DiMaggio & Powell"
+    },
+    {
+      "item_id": "T15",
+      "name": "Aprendizagem organizacional",
+      "authors": "Argyris & Schön; March"
+    },
+    {
+      "item_id": "T16",
+      "name": "Sociologia da tradução / teoria ator-rede",
+      "authors": "Latour; Callon"
+    }
+  ]
+}

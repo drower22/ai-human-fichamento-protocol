@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A21",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "7efa4a405a32b70c69e6f84fc9073adf037d4459485f87e1548f93055a91b606"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Lógicas institucionais",
+      "definition": "Padrões históricos socialmente construídos de símbolos culturais e práticas materiais — suposições, valores e crenças — pelos quais indivíduos e organizações dão sentido à atividade diária; formuladas como troika sujeito-práticas-objeto mediada por um bem e seus valores.",
+      "tradition": "neoinstitucionalismo / estudos organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Enculturação e modelo dual da cultura em ação",
+      "definition": "Processo cognitivo de internalização de elementos culturais — codificados, armazenados e depois externalizados — nos níveis declarado (intencional, aquisição rápida) e não declarado (não intencional, aprendizado lento), pessoal e público.",
+      "tradition": "sociologia da cultura / cognição",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Tipificação ideal (tipos ideais weberianos)",
+      "definition": "Ferramenta analítica que identifica o essencial de um fenômeno pelo 'exagero' de aspectos — metáfora raiz, fontes de legitimidade, autoridade e identidade — para medir a distância entre observações e a forma pura.",
+      "tradition": "metodologia institucionalista",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Promulgação (enactment) de elementos institucionais",
+      "definition": "Ativação dos elementos institucionais internalizados para uso em situações do dia a dia — o elo entre a cultura pessoal e a pública, que permite modificar práticas e as próprias instituições.",
+      "tradition": "institucionalismo / tradução",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Recursividade entre sociedade, campo e lógicas",
+      "definition": "A relação recursiva entre atores e instituições — como práticas e lógicas se constituem mutuamente —, debatida como ponto ainda incompleto e contraditório da literatura.",
+      "tradition": "institucionalismo / agência-estrutura",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Teoria da estruturação (Giddens)",
+      "definition": "Dualidade estrutura-ação: agência e estrutura são recursivas; a estrutura é ao mesmo tempo meio e resultado das práticas.",
+      "tradition": "sociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Organizações como entidades fluidas / ontologia relacional",
+      "definition": "Concepção de organizações como processos fluidos — aplicada aqui às organizações culturais — e postura onto-epistemológica relacional do estudo.",
+      "tradition": "sociologia / TAR adjacente",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Complexidade institucional",
+      "definition": "Situação em que organizações convivem com lógicas institucionais múltiplas e por vezes contraditórias, podendo respondê-las de formas distintas.",
+      "tradition": "institucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Construção social da realidade (externalização)",
+      "definition": "Dialética de externalização, objetivação e internalização pela qual a realidade social é construída.",
+      "tradition": "sociologia do conhecimento",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Tipologias históricas das lógicas do teatro brasileiro",
+      "definition": "Periodização das lógicas que conduziram o teatro no Brasil — religiosa, colonial, profissional, amadora e moderna — e fases da prática teatral (pré-produção, produção, pós-produção).",
+      "tradition": "história das artes cênicas",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Teatro do Oprimido (Boal)",
+      "definition": "Abordagem teatral criada para dar voz aos oprimidos e conduzir à reflexão político-social da opressão.",
+      "tradition": "artes cênicas / método teatral",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Isomorfismo institucional (DiMaggio & Powell)",
+      "definition": "Mecanismos coercivo, mimético e normativo que homogeneizam organizações em um campo.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Estratégia como prática (strategy-as-practice)",
+      "definition": "Perspectiva que trata a estratégia como atividade realizada por praticantes.",
+      "tradition": "estratégia / prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teoria dos stakeholders",
+      "definition": "Perspectiva que define a organização pelas relações com seus públicos.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Ecologia populacional de organizações",
+      "definition": "Seleção ambiental explicando a distribuição de formas organizacionais.",
+      "tradition": "ecologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

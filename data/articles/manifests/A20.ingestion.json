@@ -4,7 +4,7 @@
   "pdf_path": "data/articles/pdfs/A20.pdf",
   "pdf_sha256": "43bed783526888fcdf06790086cbb3b2194d8d2cc6bbae0f317ebaf4ec4c5c66",
   "md_path": "data/articles/markdown/A20.md",
-  "md_sha256": "2598f788d0d3f15fdb8f7214fffbf20b117aba7edc9dcc74d06def406d7b2fb8",
+  "md_sha256": "c00d4b92f9645a00f68f1fec403c7e32950a436da14c6f7ac2cad5b892311f8e",
   "tool": "pymupdf 1.28.2",
   "ocr_tool": null,
   "pages_pdf": 10,
@@ -94,5 +94,5 @@
   ],
   "coverage_complete": true,
   "overrides": [],
-  "created_at": "2026-11-07T18:56:46.891195Z"
+  "created_at": "2026-11-23T22:41:04.443969Z"
 }

@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A27",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "ad155a22209fd61b4cc6bfc59b3b11a672fbd882fb5ec526f468a149475042de"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Dinâmica de rotinas — visão performativa (ostensive/performative)",
+      "definition": "Rotinas como realizações esforçadas e mutuamente constituídas por um aspecto ostensivo — a ideia abstrata e generalizada do padrão — e performances específicas de pessoas em tempos e lugares concretos.",
+      "tradition": "rotinas organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "A tensão padronização–flexibilidade",
+      "definition": "A tensão central da teoria de rotinas: padronização garante consistência e eficiência; flexibilidade evita complacência e inércia diante da variação.",
+      "tradition": "rotinas organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Padrões ostensivos coexistentes e performance seletiva",
+      "definition": "Padronização e flexibilidade como padrões ostensivos que coexistem e são promulgados simultaneamente, com sua dominância variando — atores primeiro performam seletivamente um objetivo e depois o outro.",
+      "tradition": "rotinas organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Interdependência, ecologias e embeddedness de rotinas",
+      "definition": "Qualquer rotina está enredada em teias de interdependência com rotinas adjacentes — conexões, ecologias de rotinas e embeddedness — que podem tanto gerar complementaridade quanto conflito.",
+      "tradition": "rotinas organizacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Artefatos e representações artefatuais nas rotinas",
+      "definition": "Artefatos como representações abstratas inscritas de padrões de ação — guiam mas não determinam performances; o rating sheet como artefato central e os artefatos suplementares das rotinas interseccionais.",
+      "tradition": "sociomaterialidade / rotinas",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Interdependência sequencial vs. recíproca (Thompson)",
+      "definition": "A tipologia de interdependência de Thompson: sequencial (ao longo do tempo entre tarefas) versus recíproca (interação intensa e mútua entre partes constituintes).",
+      "tradition": "teoria organizacional clássica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Serviços profissionais e habilidade/julgamento profissional",
+      "definition": "Serviços profissionais como trabalho de alta customização — 'little can be reliably made routine' — que ainda exige padronização para accountability e confiabilidade; o julgamento profissional como mecanismo de equilíbrio.",
+      "tradition": "sociologia das profissões",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Rotinas mindful e effortful accomplishment",
+      "definition": "Performances de rotina como atividades mindful — não automáticas — nas quais o ator seleciona habilmente quando e como performar cada padrão.",
+      "tradition": "rotinas organizacionais / aprendizagem",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Atenção sequencial a objetivos concorrentes",
+      "definition": "A resposta clássica à tensão: regras organizacionais priorizam um objetivo por vez, com a atenção alternando sequencialmente entre exploração e explotação.",
+      "tradition": "teoria comportamental da firma",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Objetos de fronteira e coordenação do conhecimento",
+      "definition": "Artefatos específicos de ocupações que inscrevem conhecimento e o tornam acessível através de fronteiras, habilitando ou constrangendo ações interdependentes.",
+      "tradition": "conhecimento organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Ambidestria organizacional",
+      "definition": "A capacidade de explorar e explotar simultaneamente por meio de separação estrutural ou contextual.",
+      "tradition": "estratégia / aprendizagem",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Lógicas institucionais",
+      "definition": "Sistemas de significado de campo que orientam a ação organizacional.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Sensemaking (Weick)",
+      "definition": "Construção retrospectiva de sentido diante da equivocidade.",
+      "tradition": "comportamento organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teoria da contingência",
+      "definition": "O ajuste estrutural da organização às demandas ambientais de diferenciação e integração.",
+      "tradition": "teoria organizacional clássica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Teoria ator-rede",
+      "definition": "Agência distribuída entre humanos e não-humanos em redes heterogêneas.",
+      "tradition": "sociologia da ciência / TAR",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

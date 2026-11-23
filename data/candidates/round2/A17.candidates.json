@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A17",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "09d2d28130f14c276103125bfa3e9cb4d67a8fe944c1a33c88c23a04baa81bbc"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Estratégia como prática social (strategy-as-practice, SAP)",
+      "definition": "Perspectiva que entende a estratégia como prática social situada, realizada por praticantes por meio de práticas e praxis, e não como propriedade da organização.",
+      "tradition": "estratégia / virada prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Strategizing",
+      "definition": "O fazer estratégico enquanto processo contínuo de ações, interações e negociações de sentido a partir das quais as práticas organizacionais se estabelecem.",
+      "tradition": "estratégia / virada prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Sensegiving",
+      "definition": "Processo de influência sobre a construção de significados (sensemaking) do outro em direção a uma redefinição preferível da realidade organizacional.",
+      "tradition": "estudos organizacionais / construção de sentido",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Sensemaking",
+      "definition": "Processo retrospectivo pelo qual os sujeitos produzem significados sobre suas experiências, transformando circunstâncias em situações compreendidas em palavras que servem de suporte para ação.",
+      "tradition": "estudos organizacionais / construção de sentido",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Narrativas organizacionais (virada narrativa)",
+      "definition": "Abordagem que trata narrativas como construções discursivas temporais, fontes de estabilidade e mudança, que moldam e transmitem sensemaking e sensegiving nas organizações.",
+      "tradition": "estudos organizacionais / abordagem narrativa",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Legitimação discursiva / legitimidade organizacional",
+      "definition": "Processo recursivo pelo qual ações organizacionais são legitimadas (ou deslegitimadas) por meio do discurso, em diálogo com audiências e instituições.",
+      "tradition": "sociologia organizacional / teoria institucional discursiva",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Open strategy (estratégia aberta)",
+      "definition": "Perspectiva sobre a abertura do processo estratégico a mais atores, com dimensões de transparência e inclusão e dilemas associados.",
+      "tradition": "estratégia / abertura e transparência",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Teorias da prática social",
+      "definition": "Conjunto de teorias que entendem a prática como unidade básica do social — rotinas corporizadas, habitus, estruturação e nexos de atividades.",
+      "tradition": "teoria social / virada prática",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Dimensão ético-moral da estratégia (ética das virtudes, práxis)",
+      "definition": "Conclamação de Tsoukas para integrar a dimensão ético-moral à estratégia como prática, entendendo práxis como atividade de agentes reflexivos e moralmente responsáveis.",
+      "tradition": "filosofia / ética organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Homo narrans (paradigma narrativo)",
+      "definition": "Metáfora de Fisher para a natureza humana como essencialmente narrativa: os seres humanos como contadores de histórias, e a racionalidade como narrativa.",
+      "tradition": "comunicação / antropologia narrativa",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Licença social para operar (social license to operate)",
+      "definition": "Aprovação social contínua, concedida por comunidades e partes interessadas, para as operações de uma organização; distinta do licenciamento formal.",
+      "tradition": "gestão socioambiental",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Teoria dos stakeholders",
+      "definition": "Perspectiva que define a empresa por suas relações com grupos que afetam ou são afetados por ela, com obrigações para além dos acionistas.",
+      "tradition": "estratégia / ética empresarial",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Isomorfismo institucional",
+      "definition": "Mecanismos coercitivos, miméticos e normativos pelos quais organizações de um campo se tornam homogêneas.",
+      "tradition": "sociologia organizacional / teoria institucional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teoria do reparo de imagem (image repair)",
+      "definition": "Tipologia de estratégias retóricas (negação, evasão de responsabilidade, redução de ofensividade, ação corretiva, mortificação) para restaurar imagem após crise.",
+      "tradition": "comunicação / gestão de crises",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

@@ -17,11 +17,19 @@ from fichamento import paths  # noqa: E402
 from fichamento.models import AIGenerator, Fichamento, FichamentoContent  # noqa: E402
 
 MODEL = "claude-sonnet-5.5-medium (execução assistida, sem API)"
+MODEL_API = "claude-sonnet-5.5-medium"
+
+
+def _opt(flag, default=None):
+    return sys.argv[sys.argv.index(flag) + 1] if flag in sys.argv else default
 
 
 def main():
     art = sys.argv[1]
-    rnd = int(sys.argv[sys.argv.index("--round") + 1]) if "--round" in sys.argv else 1
+    rnd = int(_opt("--round", 1))
+    prompt_version = _opt("--prompt-version", "1.0.0-baseline" if rnd == 1 else "1.1.0-calibrated")
+    verdicts_version = _opt("--verdicts-version", "1.0.0-theory-verdicts" if rnd == 1 else "1.1.0-theory-verdicts")
+    model = MODEL if rnd == 1 else f"{MODEL_API} (execução assistida; spec de leitura integral, sem API)"
     spec_path = paths.DATA / "prep" / "specs" / f"{art}.py"
     spec = importlib.util.spec_from_file_location("spec", spec_path)
     s = importlib.util.module_from_spec(spec)
@@ -44,10 +52,10 @@ def main():
     fich = Fichamento(
         fichamento_id=f"F-R{rnd}-{art}-AI", article_id=art, round=rnd, source="ai",
         generator=AIGenerator(
-            provider="anthropic", model=MODEL, prompt_version="1.0.0-baseline",
+            provider="anthropic", model=model, prompt_version=prompt_version,
             temperature=None, generated_at=datetime.now(timezone.utc),
             md_sha256=manifest["md_sha256"], forced=False,
-            verdicts_prompt_version="1.0.0-theory-verdicts"),
+            verdicts_prompt_version=verdicts_version),
         content=content)
     out = paths.fichamento_path(rnd, art, "ai")
     out.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,90 @@
+{
+  "participant_id": "S07",
+  "article_id": "A22",
+  "round": 2,
+  "title": "Hermenêutica de profundidade nas pesquisas em Ciências Sociais: um estudo da Educação a Distância no ensino superior",
+  "authors": "Johnny Ribas da Motta; Bruno Eduardo Slongo Garcia",
+  "year": 2026,
+  "venue": "Sociedade e Cultura 29, e82767",
+  "full_name": "Victoria Barboza de Castro Cunha",
+  "age": "30",
+  "gender": "Feminino",
+  "program": "Doutorado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Hermenêutica de Profundidade (enfoque tríplice)",
+      "authors": "Thompson"
+    },
+    {
+      "item_id": "T2",
+      "name": "Teoria Social Crítica",
+      "authors": "Horkheimer; Adorno; Habermas; Marx; Kant; Hegel"
+    },
+    {
+      "item_id": "T3",
+      "name": "Tradição hermenêutica fenomenológica",
+      "authors": "Ricoeur; Dilthey; Heidegger; Gadamer; Husserl"
+    },
+    {
+      "item_id": "T4",
+      "name": "Interpretação da doxa (hermenêutica da vida cotidiana)",
+      "authors": "Thompson"
+    },
+    {
+      "item_id": "T5",
+      "name": "Análise de Conteúdo e Ciclos de Codificação",
+      "authors": "Bardin; Saldaña"
+    },
+    {
+      "item_id": "T6",
+      "name": "Análise Axiológica",
+      "authors": "Nishiyama"
+    },
+    {
+      "item_id": "T7",
+      "name": "Mudança institucional endógena (desvio–sancionamento–legitimidade)",
+      "authors": "Dellaposta; Nee; Opper"
+    },
+    {
+      "item_id": "T8",
+      "name": "Ideologia e estratégias de operação (legitimação)",
+      "authors": "Thompson"
+    },
+    {
+      "item_id": "T9",
+      "name": "Campo e estrutura social (Bourdieu)",
+      "authors": "Bourdieu"
+    },
+    {
+      "item_id": "T10",
+      "name": "Análise do Discurso / Análise Crítica do Discurso",
+      "authors": "Maingueneau; Resende & Acosta"
+    },
+    {
+      "item_id": "T11",
+      "name": "Financeirização e mercantilização do ensino superior",
+      "authors": "Oliveira, Casagrande & Kerbauy; Ruas; Giolo"
+    },
+    {
+      "item_id": "T12",
+      "name": "Isomorfismo institucional (DiMaggio & Powell)",
+      "authors": "DiMaggio & Powell"
+    },
+    {
+      "item_id": "T13",
+      "name": "Teoria ator-rede (TAR)",
+      "authors": "Latour; Law"
+    },
+    {
+      "item_id": "T14",
+      "name": "Grounded theory",
+      "authors": "Glaser & Strauss"
+    },
+    {
+      "item_id": "T15",
+      "name": "Teoria da estruturação (Giddens)",
+      "authors": "Giddens"
+    }
+  ]
+}

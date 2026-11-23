@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A24",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "7c7f15043996db221ccd547c24120714f11bd87769e2e4eb2c05b249e12345ea"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Lógicas institucionais",
+      "definition": "Sistemas de significado de nível de campo — práticas materiais e construções simbólicas que constituem princípios orientadores da ação organizacional.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Teoria da tradução (scandinavian institutionalism)",
+      "definition": "O processo nunca finalizado pelo qual ideias, modelos e práticas são notados, selecionados e dados sentido ao viajar entre campos e contextos — transformando tanto o objeto traduzido quanto a organização que traduz.",
+      "tradition": "institucionalismo escandinavo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Teoria ator-rede (raízes da tradução)",
+      "definition": "A origem da teoria da tradução na sociologia da ciência e nas abordagens ator-rede.",
+      "tradition": "sociologia da ciência / TAR",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Lógica da mídia / midiatização",
+      "definition": "Conjunto de ideias, normas, princípios, rotinas e atividades que orienta o trabalho jornalístico — e, crescentemente, as atividades das organizações, que internalizam a lógica da mídia em suas práticas.",
+      "tradition": "comunicação / midiatização",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Elementos/portadores institucionais de Scott",
+      "definition": "As quatro formas pelas quais as instituições são carregadas e decodificadas: artefatos, rotinas, sistemas simbólicos e sistemas relacionais.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Profissões, jurisdições e sistemas de valores profissionais",
+      "definition": "Os grupos profissionais como intérpretes localmente situados cujos valores e jurisdições moldam como as lógicas são entendidas, adotadas, resistidas ou modificadas — 'fluid negotiations' entre jurisdições.",
+      "tradition": "sociologia das profissões",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Complexidade institucional e respostas a lógicas múltiplas",
+      "definition": "A literatura sobre como organizações e indivíduos respondem a lógicas concorrentes — acoplamento seletivo, segmentação, ponte e demarcação.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Gerencialismo / ideia geral de management (NPM)",
+      "definition": "A concepção gerencialista da mídia como recurso estratégico para competitividade, reputação e autonomia — compatível com a 'general idea of management'.",
+      "tradition": "administração pública",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Institutional work",
+      "definition": "O trabalho intencional dos atores de criar, manter e interromper instituições.",
+      "tradition": "institucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Isomorfismo institucional",
+      "definition": "Homogeneização de campos por mecanismos coercivo, mimético e normativo.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Sensemaking (Weick)",
+      "definition": "A construção retrospectiva de sentido pelos atores em ambientes equivocados.",
+      "tradition": "comportamento organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Teoria dos stakeholders",
+      "definition": "A organização definida por suas relações com públicos afetados.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Teoria da agência",
+      "definition": "Relações principal-agente e custos de agência.",
+      "tradition": "economia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teoria da dependência de recursos",
+      "definition": "Organizações gerenciando dependências externas de recursos.",
+      "tradition": "economia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

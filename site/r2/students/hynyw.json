@@ -1,0 +1,90 @@
+{
+  "participant_id": "S10",
+  "article_id": "A27",
+  "round": 2,
+  "title": "The Influence of Routine Interdependence and Skillful Accomplishment on the Coordination of Standardizing and Customizing",
+  "authors": "Paul Spee; Paula Jarzabkowski; Michael Smets",
+  "year": 2016,
+  "venue": "Organization Science 27(3), 759-781",
+  "full_name": "Luis Fernando de Sousa",
+  "age": "46",
+  "gender": "Masculino",
+  "program": "Mestrado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Dinâmica de rotinas — visão performativa (ostensive/performative)",
+      "authors": "Feldman & Pentland; Pentland, Feldman, Becker & Liu; Feldman"
+    },
+    {
+      "item_id": "T2",
+      "name": "A tensão padronização–flexibilidade",
+      "authors": "Cyert & March; Nelson & Winter; Adler, Goldoftas & Levine; Stene; Becker"
+    },
+    {
+      "item_id": "T3",
+      "name": "Padrões ostensivos coexistentes e performance seletiva",
+      "authors": "D’Adderio; Turner & Rindova; Howard-Grenville"
+    },
+    {
+      "item_id": "T4",
+      "name": "Interdependência, ecologias e embeddedness de rotinas",
+      "authors": "Feldman; Feldman & Rafaeli; Birnholtz, Cohen & Hoch; Howard-Grenville; Zbaracki & Bergen"
+    },
+    {
+      "item_id": "T5",
+      "name": "Artefatos e representações artefatuais nas rotinas",
+      "authors": "D’Adderio; Pentland & Feldman; Leonardi; Orlikowski"
+    },
+    {
+      "item_id": "T6",
+      "name": "Interdependência sequencial vs. recíproca (Thompson)",
+      "authors": "Thompson"
+    },
+    {
+      "item_id": "T7",
+      "name": "Serviços profissionais e habilidade/julgamento profissional",
+      "authors": "Maister; Abbott; Empson; Greenwood, Hinings & Brown"
+    },
+    {
+      "item_id": "T8",
+      "name": "Rotinas mindful e effortful accomplishment",
+      "authors": "Pentland & Rueter; Levinthal & Rerup"
+    },
+    {
+      "item_id": "T9",
+      "name": "Atenção sequencial a objetivos concorrentes",
+      "authors": "Cyert & March"
+    },
+    {
+      "item_id": "T10",
+      "name": "Objetos de fronteira e coordenação do conhecimento",
+      "authors": "Carlile; Bechky; Majchrzak, More & Faraj; Kellogg, Orlikowski & Yates"
+    },
+    {
+      "item_id": "T11",
+      "name": "Ambidestria organizacional",
+      "authors": "March; O’Reilly & Tushman"
+    },
+    {
+      "item_id": "T12",
+      "name": "Lógicas institucionais",
+      "authors": "Thornton, Ocasio & Lounsbury"
+    },
+    {
+      "item_id": "T13",
+      "name": "Sensemaking (Weick)",
+      "authors": "Weick"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria da contingência",
+      "authors": "Lawrence & Lorsch"
+    },
+    {
+      "item_id": "T15",
+      "name": "Teoria ator-rede",
+      "authors": "Callon; Latour"
+    }
+  ]
+}

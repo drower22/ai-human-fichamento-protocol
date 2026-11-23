@@ -1,0 +1,327 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R2-A22-AI",
+  "article_id": "A22",
+  "round": 2,
+  "source": "ai",
+  "generator": {
+    "kind": "ai",
+    "provider": "anthropic",
+    "model": "claude-sonnet-5.5-medium (execução assistida; spec de leitura integral, sem API)",
+    "prompt_version": "1.1.0-calibrated",
+    "temperature": null,
+    "seed": null,
+    "generated_at": "2026-11-23T22:59:18.264142Z",
+    "input_tokens": null,
+    "output_tokens": null,
+    "latency_s": null,
+    "md_sha256": "7a48c4141a56c4e5f0594a62d8aadb31da240559ded125c0872f7f034dc379c9",
+    "forced": false,
+    "verdicts_prompt_version": "1.1.0-theory-verdicts"
+  },
+  "content": {
+    "executive_summary": "O ensaio apresenta a Hermenêutica de Profundidade (HP) de J. B. Thompson como referencial teórico-metodológico para investigar fenômenos sociais complexos, fundamentada na Teoria Social Crítica e na hermenêutica ricoeuriana (p.3/L074-079; p.7/L223-245). Após reconstruir a gênese da hermenêutica — da exegese dos textos sagrados à ciência da compreensão, à base metodológica das ciências humanas (Dilthey), à hermenêutica do Dasein (Heidegger, Gadamer) e ao sistema de interpretação de Ricoeur (p.4-6/L119-200) —, o artigo detalha o método: a interpretação da doxa como pré-etapa etnográfica e o enfoque tríplice de análise sócio-histórica, análise formal/discursiva e interpretação/re-interpretação (p.9-15/L286-563). A aplicabilidade é demonstrada no caso da EaD superior no Brasil: os atos normativos como formas simbólicas, analisados por Ciclos de Codificação, Análise de Conteúdo e Análise Axiológica, revelam uma legislação de baixo poder regulador cuja função foi legitimar uma modalidade já aceita e permitir a livre atuação das organizações privadas — o que favoreceu a formação de um oligopólio (p.15-21/L555-781). O estudo responde à questão de como a HP contribui para compreender as dinâmicas sociais em cenários institucionais, destacando a contextualização sócio-histórica e o tensionamento interpretativo — e as armadilhas do internalismo e do reducionismo (p.4/L110-118; p.22/L795-817).",
+    "research_question": "O artigo formula a questão explicitamente: 'como a Hermenêutica de Profundidade pode contribuir para a compreensão das dinâmicas sociais em cenários institucionais?' (p.4/L112-114). Para ilustrar a aplicabilidade, os autores analisam a formação de um oligopólio na Educação a Distância no Brasil, investigando como as regulações influenciaram a consolidação de um pequeno grupo de organizações privadas no setor (p.4/L115-118).",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Hermenêutica de Profundidade (enfoque tríplice)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6/L197-200",
+          "p.9/L286-293"
+        ],
+        "quote": "1) Análise Sócio-histórica; 2) Análise Formal ou Discursiva; e 3) Interpretação/Re-interpretação",
+        "note": "Objeto do ensaio e método demonstrado no caso da EaD — enfoque tríplice sobre formas simbólicas."
+      },
+      {
+        "item_id": "T2",
+        "name": "Teoria Social Crítica",
+        "verdict": "uses",
+        "source_refs": [
+          "p.7/L223-230",
+          "p.7/L238-245"
+        ],
+        "quote": "contribuem para a reprodução das relações de poder e dominação",
+        "note": "Uma das duas proposições filosóficas da HP; sustenta a criticidade da fase de re-interpretação."
+      },
+      {
+        "item_id": "T3",
+        "name": "Tradição hermenêutica fenomenológica",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.4/L119-146",
+          "p.5/L179-185"
+        ],
+        "quote": "um processo em que o significado se revelaria para além do conteúdo manifesto",
+        "note": "A genealogia da hermenêutica reconstruída como primeira base da HP — fundamento, não ferramenta."
+      },
+      {
+        "item_id": "T4",
+        "name": "Interpretação da doxa (hermenêutica da vida cotidiana)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.11/L357-374",
+          "p.23/L834-840"
+        ],
+        "quote": "um momento etnográfico da pesquisa, realizado com base em entrevistas, observações participantes",
+        "note": "Pré-etapa da HP descrita como indispensável, mas o próprio estudo admite não tê-la aprofundado — limite declarado."
+      },
+      {
+        "item_id": "T5",
+        "name": "Análise de Conteúdo e Ciclos de Codificação",
+        "verdict": "uses",
+        "source_refs": [
+          "p.14/L490-494",
+          "p.17/L626-634"
+        ],
+        "quote": "optaram pelos Ciclos de Codificação (Saldaña, 2015) e, posteriormente, pela Análise de Conteúdo (Bardin, 2011)",
+        "note": "As técnicas efetivamente empregadas na Análise Formal dos atos normativos, com auxílio do Atlas.ti."
+      },
+      {
+        "item_id": "T6",
+        "name": "Análise Axiológica",
+        "verdict": "uses",
+        "source_refs": [
+          "p.17/L635-640"
+        ],
+        "quote": "A fase de interpretação dos achados foi realizada por meio da Análise Axiológica dos normativos",
+        "note": "O método de Nishiyama operacionaliza a re-interpretação dos normativos da EaD."
+      },
+      {
+        "item_id": "T7",
+        "name": "Mudança institucional endógena (desvio–sancionamento–legitimidade)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.16/L582-591",
+          "p.21/L772-781"
+        ],
+        "quote": "o sancionamento é um mecanismo formal emitido por meio de documentos normativos, os quais buscam desestimular o desvio ou atribuir-lhe legitimidade",
+        "note": "A tríade desvio–sancionamento–legitimidade de Dellaposta, Nee e Opper interpreta a institucionalização da EaD."
+      },
+      {
+        "item_id": "T8",
+        "name": "Ideologia e estratégias de operação (legitimação)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.7/L227-230",
+          "p.16/L574-581"
+        ],
+        "quote": "as estratégias de operação da ideologia",
+        "note": "O conceito de legitimidade de Thompson é o eixo da leitura crítica das formas simbólicas normativas."
+      },
+      {
+        "item_id": "T9",
+        "name": "Campo e estrutura social (Bourdieu)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.10/L330-336",
+          "p.12/L413-418"
+        ],
+        "quote": "resultante de processos de diferenciação social, vinculados aos modos de ser e às formas de apreensão do mundo",
+        "note": "Bourdieu é citado para o aspecto estrutural das formas simbólicas e o 'campo de interação' da análise sócio-histórica."
+      },
+      {
+        "item_id": "T10",
+        "name": "Análise do Discurso / Análise Crítica do Discurso",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Listada no Quadro 2 entre as técnicas possíveis e sugerida como abordagem complementar para mitigar internalismo/reducionismo — não empregada no caso."
+      },
+      {
+        "item_id": "T11",
+        "name": "Financeirização e mercantilização do ensino superior",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.18/L647-653",
+          "p.23/L838-840"
+        ],
+        "quote": "a política neoliberal que influenciou a composição do normativo fez com que as atividades básicas da população fossem descentralizadas",
+        "note": "Contexto interpretativo do caso; mercantilização e financeirização reaparecem como conceitos a investigar na agenda futura."
+      },
+      {
+        "item_id": "T12",
+        "name": "Isomorfismo institucional (DiMaggio & Powell)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Armadilha plausível: o caso trata de legitimidade e mudança institucional, mas via Dellaposta/Nee/Opper (mudança endógena) e Thompson — DiMaggio & Powell não são citados."
+      },
+      {
+        "item_id": "T13",
+        "name": "Teoria ator-rede (TAR)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ausente; a análise é hermenêutica e institucional, não de redes de atores."
+      },
+      {
+        "item_id": "T14",
+        "name": "Grounded theory",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Os Ciclos de Codificação de Saldaña são técnica auxiliar da análise formal, não grounded theory; Glaser & Strauss não são citados."
+      },
+      {
+        "item_id": "T15",
+        "name": "Teoria da estruturação (Giddens)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ausente; a agência interpretativa vem da hermenêutica de Thompson, não de Giddens."
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Hermenêutica de Profundidade (HP)",
+        "definition": "Referencial teórico-metodológico de J. B. Thompson para interpretar formas simbólicas, articulando análise sócio-histórica, análise formal/discursiva e interpretação/re-interpretação — dimensões de um mesmo processo, não estágios sequenciais.",
+        "quote": "1) Análise Sócio-histórica; 2) Análise Formal ou Discursiva; e 3) Interpretação/Re-interpretação",
+        "source_refs": [
+          "p.6/L197-200",
+          "p.8/L274-280",
+          "p.9/L286-293"
+        ]
+      },
+      {
+        "concept": "Formas simbólicas",
+        "definition": "Construções significativas — ações, falas, textos e imagens — que demandam interpretação e são delineadas por cinco aspectos: intencional, convencional, estrutural, referencial e contextual.",
+        "quote": "construções significativas, que demandam uma interpretação",
+        "source_refs": [
+          "p.9/L294-300",
+          "p.9/L304-319",
+          "p.10/L320-354"
+        ]
+      },
+      {
+        "concept": "Interpretação da doxa",
+        "definition": "Pré-etapa da HP: a hermenêutica da vida cotidiana, que interpreta as opiniões, crenças e entendimentos compartilhados pelos sujeitos — 'momento etnográfico' que dá o ponto de partida à investigação.",
+        "quote": "um momento etnográfico da pesquisa, realizado com base em entrevistas, observações participantes",
+        "source_refs": [
+          "p.11/L357-374"
+        ]
+      },
+      {
+        "concept": "Análise sócio-histórica",
+        "definition": "Primeira etapa do enfoque tríplice: reconstruir as condições sociais e históricas de produção, circulação e recepção das formas simbólicas — situações espaço-temporais, campos de interação, instituições, estrutura social e meios técnicos.",
+        "quote": "reconstruir as condições sociais e históricas de produção, circulação e recepção das formas simbólicas",
+        "source_refs": [
+          "p.11/L383-389",
+          "p.12/L394-436"
+        ]
+      },
+      {
+        "concept": "Re-interpretação",
+        "definition": "Última fase do enfoque tríplice: retomada crítica e criativa dos resultados, em que o hermeneuta 'realiza uma interpretação da interpretação', podendo divergir do sentido atribuído pelos próprios sujeitos.",
+        "quote": "re-interpreta aquilo que já foi interpretado",
+        "source_refs": [
+          "p.14/L521-525",
+          "p.15/L526-545"
+        ]
+      },
+      {
+        "concept": "Desvio, sancionamento e legitimidade",
+        "definition": "Mecanismos endógenos de mudança institucional: o desvio se afasta do padrão aceito, o sancionamento é o mecanismo formal que o desestimula ou legitima via documentos normativos, e a legitimidade ocorre quando o desvio é compartilhado e aceito.",
+        "quote": "o sancionamento é um mecanismo formal emitido por meio de documentos normativos, os quais buscam desestimular o desvio ou atribuir-lhe legitimidade",
+        "source_refs": [
+          "p.16/L582-591"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "ensaio teórico-metodológico com demonstração de caso",
+      "design": "Ensaio que discute e demonstra as etapas da Hermenêutica de Profundidade e ilustra sua aplicabilidade reexaminando um caso já estudado: a formação de um oligopólio na EaD superior brasileira, com base nos atos normativos federais como formas simbólicas.",
+      "sample_type": "atos normativos federais da EaD — leis, decretos, portarias, pareceres e instruções normativas (caso secundário de Slongo Garcia, 2019, e Slongo Garcia et al., 2024)",
+      "sample_size": null,
+      "sector": "educação superior a distância",
+      "period": "análise sócio-histórica dos anos 1900 a 2020, com ênfase na regulamentação de 1988–2017",
+      "methods": [
+        "Hermenêutica de Profundidade (análise sócio-histórica, análise formal/discursiva, re-interpretação)",
+        "Ciclos de Codificação (Saldaña)",
+        "Análise de Conteúdo (Bardin) com software Atlas.ti",
+        "Análise Axiológica (Nishiyama)"
+      ],
+      "analysis_note": "É um ensaio de demonstração, não um estudo empírico primário: o caso EaD reutiliza os achados de Slongo Garcia (2019) e Slongo Garcia et al. (2024), que aplicaram Ciclos de Codificação e Análise de Conteúdo aos atos normativos com o Atlas.ti, e Análise Axiológica na interpretação (p.15/L555-563; p.17/L626-640). A pré-etapa da doxa é declarada não aprofundada — o que os autores registram como limite e agenda (p.22-23/L807-843).",
+      "source_refs": [
+        "p.15/L555-563",
+        "p.17/L626-640",
+        "p.23/L834-843"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "A HP se articula em duas proposições filosóficas — a hermenêutica fenomenológica (Husserl, Heidegger, Gadamer, Ricoeur) e a Teoria Social Crítica (Marx, Horkheimer, Adorno, Habermas) — e se estrutura na pré-etapa da doxa e no enfoque tríplice: análise sócio-histórica, análise formal/discursiva e re-interpretação.",
+        "type": "proposition",
+        "quote": "1) Análise Sócio-histórica; 2) Análise Formal ou Discursiva; e 3) Interpretação/Re-interpretação",
+        "source_refs": [
+          "p.7/L231-245",
+          "p.9/L286-293"
+        ]
+      },
+      {
+        "finding": "A interpretação da doxa é a pré-etapa indispensável da HP — um 'momento etnográfico' que interpreta os entendimentos compartilhados dos sujeitos; negligenciá-la é ignorar como os sujeitos interpretam as formas simbólicas, mas considerá-la única fase é abstrair o que torna o método profundo.",
+        "type": "proposition",
+        "quote": "não considerar essa pré-etapa é negligenciar a maneira com que os sujeitos que constituem este mundo social interpretam as formas simbólicas",
+        "source_refs": [
+          "p.11/L357-374"
+        ]
+      },
+      {
+        "finding": "A análise sócio-histórica reconstrói as condições de produção, circulação e recepção das formas simbólicas — no caso da EaD, os atos normativos foram as formas simbólicas que substituíram correios, rádio e televisão quando a modalidade passou a incorporar o ensino superior e cumprir metas do poder público.",
+        "type": "empirical",
+        "quote": "os atos normativos foram as formas simbólicas utilizadas",
+        "source_refs": [
+          "p.11/L383-389",
+          "p.16/L599-602",
+          "p.17/L620-625"
+        ]
+      },
+      {
+        "finding": "A leitura hermenêutica dos normativos mostra uma legislação de baixo poder regulador cuja função foi legitimar uma modalidade já aceita socialmente, permitindo a livre atuação das organizações privadas — o Estado como facilitador e as organizações privadas como operacionalizadoras.",
+        "type": "empirical",
+        "quote": "a legislação estudada demonstra baixo poder regulador e sua função foi legitimar a modalidade que já era aceita pela sociedade",
+        "source_refs": [
+          "p.21/L764-781"
+        ]
+      },
+      {
+        "finding": "A ausência de políticas efetivas para a modalidade, somada às metas estatais de escolarização e à rentabilidade vislumbrada pelos grupos empresariais entre 2010 e 2020, favoreceu a formação de um oligopólio na EaD superior brasileira.",
+        "type": "empirical",
+        "quote": "A ausência de políticas efetivas para a modalidade resultou na formação de um oligopólio no ensino superior EaD",
+        "source_refs": [
+          "p.17/L611-619",
+          "p.21/L761-771"
+        ]
+      },
+      {
+        "finding": "As normas avaliativas priorizaram estrutura física e recursos humanos — dispensa de avaliação in loco via IGC e Conceito Institucional — com reduzido poder de sancionar a ausência de qualidade pedagógica, o que consolida a crítica ao sucateamento da modalidade.",
+        "type": "empirical",
+        "quote": "a qual apresentava reduzido poder de sancionar a continuidade institucional em casos de ausência de qualidade do modelo pedagógico",
+        "source_refs": [
+          "p.19/L692-716",
+          "p.20/L717-744"
+        ]
+      },
+      {
+        "finding": "Dois riscos metodológicos limitam a HP: o internalismo — tratar as formas simbólicas como analisáveis em si, ignorando suas condições sócio-históricas — e o reducionismo — o oposto, analisá-las apenas por suas condições sociais; sugere-se a Análise Crítica do Discurso como complemento.",
+        "type": "proposition",
+        "quote": "O internalismo ocorre na medida em que ao analisar as formas simbólicas desconsideram-se os contextos de produção e reprodução",
+        "source_refs": [
+          "p.22/L795-806"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "Demonstra a relevância da HP para investigar transformações institucionais e normativas: reconstrói a gênese hermenêutica, sistematiza o enfoque tríplice e suas técnicas, e mostra como o tensionamento interpretativo — a re-interpretação que pode divergir do sentido dos sujeitos — sustenta a análise crítica (p.9-15/L286-563; p.22/L818-830). Contribui também ao delimitar internalismo e reducionismo como armadilhas do método (p.22/L795-806).",
+      "practical": "Oferece um percurso aplicável — sem pretensão de manual — para pesquisadores das Ciências Sociais analisarem formas simbólicas e a ideologia nos fenômenos; o caso da EaD mostra como atos normativos podem ser lidos hermeneuticamente para desvelar legitimidade, sancionamento e formação de oligopólio (p.15/L555-563; p.22/L824-830)."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

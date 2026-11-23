@@ -1,0 +1,321 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R2-A28-AI",
+  "article_id": "A28",
+  "round": 2,
+  "source": "ai",
+  "generator": {
+    "kind": "ai",
+    "provider": "anthropic",
+    "model": "claude-sonnet-5.5-medium (execução assistida; spec de leitura integral, sem API)",
+    "prompt_version": "1.1.0-calibrated",
+    "temperature": null,
+    "seed": null,
+    "generated_at": "2026-11-23T23:08:43.164319Z",
+    "input_tokens": null,
+    "output_tokens": null,
+    "latency_s": null,
+    "md_sha256": "3733acf4d32a900656737b100fd6e1b83944a5d55356fe0a34de224636692106",
+    "forced": false,
+    "verdicts_prompt_version": "1.1.0-theory-verdicts"
+  },
+  "content": {
+    "executive_summary": "O artigo examina o papel do talk reflexivo — a fala como forma de reflexão coletiva — na mudança de rotinas organizacionais (p.2/L038-049). A lacuna: estudos indicam que o talk reflexivo facilita ou até previne a quebra de rotinas, mas não especificam os processos pelos quais o talk está envolvido na mudança (p.2/L051-073). Com a perspectiva prática de rotinas — a interação recursiva entre aspecto performativo e ostensivo (Feldman e Pentland) — e um estudo etnográfico de um ano na CellCo, startup farmacêutica de 18 empregados (30 entrevistas, ~1.000 páginas de notas, 150h de áudio, ~8.000 documentos, mais de 100 performances de shipping observadas; p.4-5/L304-410), os autores identificam três aspectos pelos quais o talk promulga reflexão coletiva — nomear e situar, vislumbrar e explorar, avaliar e questionar — e duas formas complementares: reflexão sobre ações situadas (performativo) contra o padrão, e reflexão sobre variações do padrão (ostensivo) contra performances concretas (p.3/L122-145). Adaptações flexíveis envolvem sobretudo a primeira forma; mudanças de padrão combinam ambas, com deslocamentos frequentes entre elas; e o desdobramento progressivo do talk abre oportunidades distintas de mudança — embora discussões excessivamente abstratas possam bloqueá-la (p.12-14/L1156-433). O talk é assim fonte de variação e mecanismo adicional de retenção seletiva, e a reflexão coletiva equilibra as pressões por consistência e mudança, preservando o 'pattern-in-variety' (p.15-17/L1462-688).",
+    "research_question": "O artigo não enuncia uma pergunta de pesquisa formal; o objetivo declarado é examinar 'how reﬂective talk contributes to routine change' (p.2/L105-108) — isto é, como o talk promulga a reflexão coletiva e está envolvido nos diferentes tipos de mudança de rotinas, lacuna deixada aberta pela literatura (p.4/L299-303).",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Rotinas na visão prática (ostensivo × performativo)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.2/L081-086",
+          "p.3/L197-217"
+        ],
+        "quote": "abstract, generalized idea of the routine",
+        "note": "O enquadre central: a distinção ostensivo/performativo estrutura toda a análise e os dois tipos de mudança."
+      },
+      {
+        "item_id": "T2",
+        "name": "Talk como ação e reflexão coletiva",
+        "verdict": "uses",
+        "source_refs": [
+          "p.2/L050-056",
+          "p.5/L441-446"
+        ],
+        "quote": "Talk is at the heart of all organizations",
+        "note": "O fenômeno estudado: o talk como ação que expressa reflexividade e promulga reflexão coletiva (perspectiva prática heideggeriana)."
+      },
+      {
+        "item_id": "T3",
+        "name": "Modelo evolucionário de mudança endógena de rotinas (variação e retenção seletiva)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3/L218-228",
+          "p.4/L229-232",
+          "p.15/L1548-555",
+          "p.16/L1556-587"
+        ],
+        "quote": "variations that are selectively retained in the abstract, general pattern of the routine",
+        "note": "A segunda contribuição: o talk reflexivo como fonte de variação e mecanismo adicional de seleção estende o modelo evolucionário."
+      },
+      {
+        "item_id": "T4",
+        "name": "O 'paradoxo do mundo (n)unca mutável' — consistência e mudança",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3/L203-217",
+          "p.16/L1640-648"
+        ],
+        "quote": "pattern-in-variety",
+        "note": "A terceira contribuição: a reflexão coletiva como modo de equilibrar o 'paradoxo do mundo (n)unca mutável'."
+      },
+      {
+        "item_id": "T5",
+        "name": "Reflexão grupal e aprendizagem em equipe na mudança de rotinas",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.4/L247-260",
+          "p.4/L286-296"
+        ],
+        "quote": "group-level reﬂection",
+        "note": "A literatura que indica a importância da reflexão grupal sem analisar como o talk a viabiliza — a lacuna do estudo."
+      },
+      {
+        "item_id": "T6",
+        "name": "Sensemaking coletivo",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.2/L054-056"
+        ],
+        "quote": "collective sensemaking, collective learning and, more generally, collective reﬂection",
+        "note": "Citado entre as funções do talk; a lente adotada é a de reflexão coletiva, não de sensemaking."
+      },
+      {
+        "item_id": "T7",
+        "name": "Effortful accomplishment e reflexividade nas rotinas",
+        "verdict": "uses",
+        "source_refs": [
+          "p.3/L190-197",
+          "p.9/L817-830"
+        ],
+        "quote": "effortful accomplishment",
+        "note": "As adaptações idiossincráticas promulgadas via talk são descritas como effortful accomplishment."
+      },
+      {
+        "item_id": "T8",
+        "name": "Espaços institucionalizados de reflexão (episódios estratégicos, debriefings)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.15/L1530-538"
+        ],
+        "quote": "institutionalized spaces for reﬂecting on routines, such as debrieﬁng meetings",
+        "note": "Estendido: o estudo mostra como o talk dentro desses espaços promulga a reflexão coletiva."
+      },
+      {
+        "item_id": "T9",
+        "name": "Rotinas como memória procedimental e SOPs",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.3/L165-185"
+        ],
+        "quote": "highly automatic or mindless behaviors",
+        "note": "A visão tradicional de rotinas como comportamento automático que a perspectiva prática superou."
+      },
+      {
+        "item_id": "T10",
+        "name": "Gêneros de comunicação organizacional",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.17/L1729-740"
+        ],
+        "quote": "talk may be less prevalent or replaced by other genres of communication",
+        "note": "Invocado na limitação: em organizações maiores outros gêneros podem suplantar o talk."
+      },
+      {
+        "item_id": "T11",
+        "name": "Poder e política na reflexão coletiva",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Poder/política tratado explicitamente como limitação (poucos conflitos na CellCo), não como lente mobilizada."
+      },
+      {
+        "item_id": "T12",
+        "name": "Análise crítica do discurso / aspectos linguísticos",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Aspectos linguísticos do talk (retórica, persuasão) são explicitamente delegados a pesquisa futura — o foco é a função do talk, não a análise do discurso."
+      },
+      {
+        "item_id": "T13",
+        "name": "Isomorfismo institucional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ausente; a mudança estudada é endógena e micro-processual, sem pressões institucionais."
+      },
+      {
+        "item_id": "T14",
+        "name": "Teoria ator-rede",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ação analisada pela perspectiva prática de rotinas, não por redes de atuantes."
+      },
+      {
+        "item_id": "T15",
+        "name": "Visão baseada em recursos (RBV)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ausente — o talk reflexivo não é tratado como recurso estratégico."
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Talk reflexivo (reflective talk)",
+        "definition": "A fala empregada como forma de reflexão coletiva — quando atores conversam sobre a rotina e seu padrão para nomear problemas, imaginar alternativas e avaliá-las em conjunto.",
+        "quote": "reﬂective talk—that is, when actors engage in talk as a form of collective reﬂection",
+        "source_refs": [
+          "p.5/L441-446"
+        ]
+      },
+      {
+        "concept": "Aspecto ostensivo × performativo",
+        "definition": "O ostensivo é a ideia abstrata e generalizada da rotina; o performativo são as ações específicas de pessoas em tempos e lugares. Os dois aspectos interagem recursivamente e definem os dois tipos de mudança.",
+        "quote": "abstract, generalized idea of the routine",
+        "source_refs": [
+          "p.2/L081-086",
+          "p.3/L197-217"
+        ]
+      },
+      {
+        "concept": "Adaptação flexível × mudança de padrão",
+        "definition": "Dois tipos de mudança de rotina: desvios temporários do padrão em performances específicas versus alterações duradouras no padrão ostensivo — ligados pelo processo de variação e retenção seletiva.",
+        "quote": "the ﬂexible adaptation of individual performances",
+        "source_refs": [
+          "p.3/L218-228"
+        ]
+      },
+      {
+        "concept": "Nomear/situar, vislumbrar/explorar, avaliar/questionar",
+        "definition": "Os três aspectos pelos quais o talk promulga a reflexão coletiva: situar o objeto de discussão em contexto, gerar e explorar alternativas de promulgação, e avaliá-las criticamente de ângulos diferentes.",
+        "quote": "naming and situating problems or opportunities",
+        "source_refs": [
+          "p.3/L122-130",
+          "p.7/L558-595"
+        ]
+      },
+      {
+        "concept": "Variação e retenção seletiva",
+        "definition": "O processo evolucionário endógeno pelo qual variações nas performances são retidas seletivamente no padrão ostensivo — o talk reflexivo atua como fonte de variação e estágio adicional de seleção.",
+        "quote": "variations that are selectively retained in the abstract, general pattern of the routine",
+        "source_refs": [
+          "p.4/L229-232",
+          "p.16/L1562-587"
+        ]
+      },
+      {
+        "concept": "Desdobramento progressivo do talk",
+        "definition": "À medida que a conversa avança, o talk revela aspectos relevantes adicionais e abre oportunidades distintas de levantar tópicos e conectar elementos da rotina, promovendo reflexão e mudança.",
+        "quote": "reﬂective talk also provided distinct opportunities for routine change by highlighting the relevance of other elements",
+        "source_refs": [
+          "p.12/L1161-168"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico qualitativo (etnografia)",
+      "design": "Etnografia de um ano na CellCo — startup farmacêutica spin-off universitária de 18 empregados — focada na rotina de expedição (shipping), ilustrada por vinhetas detalhadas de talk gravado em áudio; acesso por imersão de 2–3 dias/semana e participação em reuniões e eventos sociais",
+      "sample_type": "os membros da CellCo envolvidos na rotina de shipping (CEO, funcionários de laboratório, gerente de qualidade, export manager); seis rotinas acompanhadas, com shipping como caso saliente",
+      "sample_size": 18,
+      "sector": "indústria farmacêutica — produção de placas e tecidos celulares",
+      "period": "12 meses de campo contínuo; mais de 100 performances de shipping observadas",
+      "methods": [
+        "observação etnográfica não-participante com notas de campo expandidas em 24h",
+        "gravação de áudio de reuniões e talk durante performances (~150h)",
+        "30 entrevistas semiestruturadas (30min–2,5h) complementadas por discussões informais",
+        "documentos e dados arquivísticos (~8.000 documentos internos)"
+      ],
+      "analysis_note": "Análise iterativa em cinco estágios: (1) timeline de eventos das seis rotinas, com foco em shipping; (2) códigos descritivos dos usos do talk, com ampliação da literatura para estudos práticos — a perspectiva heideggeriana (Dreyfus; Tsoukas) revelou o talk reflexivo como foco; (3) identificação de todas as instâncias de talk sobre mudar a rotina e codificação das três categorias (nomear/situar, vislumbrar/explorar, avaliar/questionar); (4) comparação das instâncias e distinção das duas formas de talk reflexivo; (5) análise de como as formas e os deslocamentos entre elas promulgavam mudança flexível ou de padrão (p.5/L411-456, p.7/L558-627).",
+      "source_refs": [
+        "p.4/L304-342",
+        "p.5/L343-410",
+        "p.5/L411-456",
+        "p.7/L558-627"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "O talk promulga reflexão coletiva por três aspectos: nomear e situar problemas ou oportunidades em relação aos aspectos performativo e ostensivo; vislumbrar e explorar conjuntamente formas alternativas de promulgação; e avaliar e questionar as sugestões de ângulos diferentes — em prática, entrelaçados.",
+        "type": "empirical",
+        "quote": "We clustered the ways in which talk supports the enactment of collective reﬂection into three distinct categories",
+        "source_refs": [
+          "p.5/L447-456",
+          "p.7/L558-595"
+        ]
+      },
+      {
+        "finding": "Duas formas complementares de talk reflexivo emergem: uma reflete sobre ações situadas (performativo) contra o pano de fundo do padrão ostensivo; a outra reflete sobre padrões alternativos (ostensivo) contra performances concretas ou imaginadas — distintas no que vislumbram e avaliam.",
+        "type": "empirical",
+        "quote": "we decided to distinguish between the two forms of reﬂective talk that we described earlier",
+        "source_refs": [
+          "p.7/L596-617",
+          "p.12/L1103-134"
+        ]
+      },
+      {
+        "finding": "A adaptação flexível de performances tende a envolver a primeira forma de talk; mudanças no padrão da rotina tendem a combinar as duas formas, com deslocamentos frequentes — refletir sobre ações situadas recontextualiza o discutido em abstrato e facilita a promulgação das mudanças.",
+        "type": "empirical",
+        "quote": "the ﬂexible adaptation of speciﬁc routine performances tends to involve the former form of reﬂective talk, whereas changes in the routine’s pattern tend to involve a combination of both forms",
+        "source_refs": [
+          "p.3/L139-145",
+          "p.13/L1281-326",
+          "p.14/L1327-362"
+        ]
+      },
+      {
+        "finding": "O talk reflexivo permite adaptar uma performance e ao mesmo tempo manter a consistência: as variações são reconhecidas como idiossincráticas e o padrão é implicitamente reconfirmado; mas o talk também pode bloquear variações — como na recusa da sugestão de eliminar a membrana respirável.",
+        "type": "empirical",
+        "quote": "reﬂective talk allows the participants to adapt a speciﬁc performance and at the same time maintain consistency in future performances",
+        "source_refs": [
+          "p.9/L826-830",
+          "p.9/L832-849",
+          "p.11/L1069-093",
+          "p.12/L1094-102"
+        ]
+      },
+      {
+        "finding": "O desdobramento progressivo do talk cria oportunidades distintas de mudança — atores aproveitam a conversa para endereçar problemas já reconhecidos (centralização do shipping, documento ligando pedido e expedição) — e conversas que começam sem intenção reflexiva podem revelar problemas; já discussões excessivamente abstratas sobre contingências podem impedir a promulgação.",
+        "type": "empirical",
+        "quote": "reﬂective talk also provided distinct opportunities for routine change by highlighting the relevance of other elements",
+        "source_refs": [
+          "p.12/L1161-182",
+          "p.14/L1407-433"
+        ]
+      },
+      {
+        "finding": "O talk reflexivo é fonte de variação — ao vislumbrar alternativas — e mecanismo adicional de seleção — ao eliminar alternativas por avaliação —, inclusive gerando variações deliberadas no aspecto ostensivo; e a reflexão coletiva equilibra as pressões por consistência e mudança, comunicando o 'pattern-in-variety'.",
+        "type": "model",
+        "quote": "reﬂective talk acts as a mechanism of selection when actors eliminate certain alternatives by evaluating and questioning them",
+        "source_refs": [
+          "p.16/L1562-587",
+          "p.16/L1640-648",
+          "p.17/L1683-688"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "Três contribuições declaradas: (1) avança a compreensão da reflexão em rotinas ao mostrar como o talk produz formas distintas e complementares de reflexão coletiva; (2) estende o modelo evolucionário de mudança endógena (Feldman e Pentland 2003), identificando no talk reflexivo fonte de variação das performances e estágio adicional de retenção seletiva — inclusive de variações no próprio aspecto ostensivo, que precisam ser recontextualizadas em performances concretas; (3) mostra a reflexão coletiva como modo adicional de equilibrar as pressões concorrentes por consistência e mudança (p.3/L146-162; p.15/L1462-500).",
+      "practical": "Para praticantes: examinar a presença das diferentes formas de talk reflexivo e prover espaços para ele aumenta a variabilidade das rotinas sem impactos negativos diretos — permite experimentar ideias em comunicação antes de promulgá-las — e ajuda a reconstruir senso de continuidade diante de mudanças radicais (p.18/L1814-874)."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A25",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "08c03604990641b1d985b8b41350ee3aafa3eb93c9f18f08c6b6482e08072d78"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Teoria ator-rede (TAR/ANT)",
+      "definition": "Mudança ontológica que trata o social como composto, montado e (re)estabilizado em redes heterogêneas — sem tomar o 'social' como causa; atores são efeitos de relações.",
+      "tradition": "sociologia da ciência / TAR",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Sociologia da tradução (os quatro momentos de Callon)",
+      "definition": "O processo — problematização, interessement, alistamento (enrolment) e mobilização — pelo qual atores são definidos, interessados, alistados e representados por um porta-voz em uma rede.",
+      "tradition": "TAR",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Interessement e suas imperfeições (dissidência, contra-alistamento, desemaranhamento)",
+      "definition": "O momento em que os papéis definidos na problematização são testados e estabilizados — e os mecanismos já teorizados de tradução 'malsucedida' contra os quais o desinteressement é distinguido.",
+      "tradition": "TAR",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Simetria humano/não-humano e o atuante (actant)",
+      "definition": "O compromisso metodológico de tratar humanos e não-humanos na mesma gramática analítica — 'actant' como qualquer coisa que age no sistema relacional — evitando a ausência e a simetria 'absurda'.",
+      "tradition": "TAR / método",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Pós-humanismo, sociomaterialidade e agência distribuída",
+      "definition": "A ação como mediada e distribuída entre humanos e não-humanos — 'não pode haver teoria da sociomaterialidade sem teoria da ação mediada'.",
+      "tradition": "pós-humanismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Poder, sujeição e resistência",
+      "definition": "A sujeição como direcionamento disciplinar da liberdade de uma entidade; a resistência como problema teórico da tradução e da crítica da TAR.",
+      "tradition": "estudos críticos / TAR crítica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Três correntes da tradução nos estudos organizacionais (TAR, knowledge-based, institucionalismo escandinavo)",
+      "definition": "A tipologia que organiza a literatura de tradução em estudos organizacionais em três desenvolvimentos — sendo o enfoque deste estudo a vertente da TAR.",
+      "tradition": "teoria da tradução",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Caso extremo como estratégia de teorização",
+      "definition": "O caso extremo como espaço privilegiado de teorização: ao desestabilizar relações antes invisíveis, o caso expõe as (re)negociações que o observador pode traçar.",
+      "tradition": "métodos qualitativos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Análise de narrativas/discurso como método",
+      "definition": "Técnicas de análise de linguagem — narrativa e discurso — para tratamento de enunciados.",
+      "tradition": "métodos qualitativos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Lógicas institucionais",
+      "definition": "Sistemas de significado de campo que orientam a ação organizacional.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Sensemaking (Weick)",
+      "definition": "Construção retrospectiva de sentido diante da equivocidade.",
+      "tradition": "comportamento organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Teoria do framing (Goffman)",
+      "definition": "Esquemas interpretativos que organizam a experiência e o discurso.",
+      "tradition": "sociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Gestão de crises",
+      "definition": "Sentido, decisão e coordenação organizacional sob ameaças de alta urgência.",
+      "tradition": "administração pública",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Isomorfismo institucional",
+      "definition": "Homogeneização organizacional por pressões coercitiva, mimética e normativa.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Campos de batalha da pandemia: teoria dos jogos / estratégia militar",
+      "definition": "Conflito como interação estratégica entre adversários racionais.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

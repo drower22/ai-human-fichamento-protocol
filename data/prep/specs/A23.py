@@ -1,0 +1,165 @@
+SUMMARY = (
+    "A comunicação breve testa se as percepções dos empregados sobre diversidade, equidade e inclusão "
+    "(DEI) dependem da composição demográfica das organizações — respondendo à preocupação de clientes "
+    "da Press Ganey de que organizações homogêneas teriam escores artificialmente inflados no módulo de "
+    "diversidade (p.2/L057-067). O contexto é o descolamento entre as iniciativas de DEI das "
+    "organizações e a percepção dos empregados: 97% dos líderes de RH relataram mudanças, mas só 37% "
+    "dos empregados notaram melhora (p.2/L048-053). O módulo de diversidade foi validado "
+    "psicometricamente em 91.956 respondentes de 25 organizações de saúde (PCA, dois fatores, 64,9% da "
+    "variância; alfa 0,855), e a análise principal comparou 43 organizações, 505 unidades e 106.711 "
+    "respondentes, ranqueadas em quartis pelo escore de diversidade e medidas pelo Índice de Blau "
+    "modificado em sexo, raça e etnia (p.2-3/L074-118). Os resultados mostram composições demográficas "
+    "semelhantes em todos os quartis e nenhuma diferença significativa nos índices de Blau — mas fortes "
+    "associações entre o módulo de diversidade e as métricas de engajamento e segurança (p.4/L151-176). "
+    "A conclusão é que a contratação simbólica ('token hiring') não melhora a percepção de DEI: as "
+    "percepções derivam mais de como a organização trata os empregados do que da composição do quadro, "
+    "exigindo políticas culturais que façam todos se sentirem valorizados e ouvidos (p.4/L177-192; "
+    "p.6-7/L293-321)."
+)
+
+RESEARCH_QUESTION = (
+    "Duas perguntas explícitas motivadas pelas preocupações dos clientes: (1) organizações mais "
+    "homogêneas apresentam desempenho artificialmente inflado no módulo de diversidade? e (2) a "
+    "presença de uma força de trabalho demograficamente diversa afeta as percepções de DEI refletidas "
+    "no desempenho do módulo — o que sugeriria uma espécie de 'halo effect' (p.2/L061-067). A questão "
+    "mais ampla é 'whether employee experiences within healthcare organizations were dependent on "
+    "demographic compositions of employee populations' (p.1/L010-011)."
+)
+
+V = lambda i, v, refs, quote, note: (i, v, refs, quote, note)
+VERDICTS = [
+    V("T1", "uses", ["p.2/L041-047", "p.4/L173-176"],
+      "an engaged workforce tends to be more productive, more collaborative, more innovative, and has higher retention rates",
+      "Construto central: o engajamento é a variável à qual a percepção de diversidade se associa fortemente."),
+    V("T2", "uses", ["p.3/L091-118"],
+      "a score of 0 represents a completely homogeneous group (i.e., no variety/all individuals fall into the same response category)",
+      "Instrumento analítico: o Índice de Blau modificado gera os escores demográficos por unidade."),
+    V("T3", "discusses", ["p.1/L013-016", "p.4/L188-192"],
+      "token hiring of a diverse workforce will not improve perceptions of DEI in the workplace",
+      "Palavra-chave e conceito da conclusão — invocado sem âncora na literatura de Kanter."),
+    V("T4", "discusses", ["p.2/L065-067", "p.4/L178-182"],
+      "a kind of “halo effect,” where organizations are perceived as fairer and more equitable by virtue of the demographic makeup of their staff",
+      "A segunda questão de pesquisa — testada e rejeitada: não há halo demográfico."),
+    V("T5", "discusses", ["p.1/L023-025", "p.6/L293-298"],
+      "unhealthy work culture was one of the main reasons for worker attrition",
+      "Motivação e direção prática: políticas culturais precisam complementar a contratação diversa."),
+    V("T6", "discusses", ["p.7/L303-307"],
+      "patients are more trusting of and more likely to share information with providers that exhibit lower levels of implicit bias",
+      "Aparece nas implicações para a saúde — treinamento de viés implícito como política sugerida."),
+    V("T7", "discusses", ["p.7/L307-311"],
+      "racial concordance between providers and their patients can improve patient health outcomes",
+      "Evidência citada para a importância do DEI na saúde — não é objeto da análise empírica."),
+    V("T8", "does_not_use", [], "",
+      "Armadilha natural para um estudo de percepção de diversidade — Tajfel & Turner não são citados."),
+    V("T9", "does_not_use", [], "",
+      "Ausente; a diversidade demográfica é variável de composição, não contato que muda atitudes."),
+    V("T10", "does_not_use", [], "",
+      "Ausente; a adoção de DEI é tratada como política interna, não como conformidade institucional."),
+    V("T11", "does_not_use", [], "",
+      "Os métodos são PCA, ANOVA, qui-quadrado e correlações — SEM não é empregada."),
+    V("T12", "does_not_use", [], "",
+      "Ausente; o foco é a percepção de DEI, não a reciprocidade contratual."),
+    V("T13", "does_not_use", [], "",
+      "Ausente; discriminação e raça entram como dados e categorias demográficas, sem lente crítica."),
+    V("T14", "does_not_use", [], "",
+      "O argumento 'talento de toda a força de trabalho' é gerencial, não ancorado em RBV."),
+    V("T15", "does_not_use", [], "",
+      "Ausente; a diversidade do quadro não é analisada como sinal de qualidade organizacional."),
+]
+
+KEY_CONCEPTS = [
+    dict(concept="Diversidade, equidade e inclusão (DEI)",
+         definition="Políticas e práticas desenhadas para criar locais de trabalho onde pessoas de origens distintas se sintam incluídas e plenamente apoiadas — distintas da percepção que os empregados têm delas.",
+         quote="policies and practices designed to create workplaces where people from different backgrounds feel included and fully supported",
+         source_refs=["p.1/L026-027"]),
+    dict(concept="Módulo de Diversidade (Press Ganey)",
+         definition="Conjunto de cinco itens em escala Likert que mede, da perspectiva dos empregados, o desempenho da organização em valorizar origens diversas, demonstrar compromisso com a diversidade e tratar todos igualmente.",
+         quote="a general indicator of how well organizations perform on key aspects of diversity from the perspective of their employees",
+         source_refs=["p.2/L054-057", "p.3/L120-146"]),
+    dict(concept="Heterogeneidade demográfica (Índice de Blau modificado)",
+         definition="Medida de variedade por unidade — 0 para grupo completamente homogêneo e 1 para completamente heterogêneo; a versão modificada remove a influência do número de categorias no cálculo.",
+         quote="a score of 0 represents a completely homogeneous group (i.e., no variety/all individuals fall into the same response category)",
+         source_refs=["p.3/L103-113"]),
+    dict(concept="Descolamento iniciativa–percepção",
+         definition="A distância entre as iniciativas de DEI implementadas pelas organizações e a percepção que os empregados têm delas — 97% dos líderes de RH relataram mudanças, mas só 37% dos empregados notaram melhora e 34% nem sabiam das ações.",
+         quote="while 97% of HR leaders reported that their organization had made changes to improve DEI in the workplace, only 37% of their employees noted a strong positive change",
+         source_refs=["p.2/L048-053"]),
+    dict(concept="Employee engagement",
+         definition="Construto medido por seis itens — satisfação, orgulho, lealdade e intenção de permanecer — associado a produtividade, colaboração, inovação e retenção.",
+         quote="an engaged workforce tends to be more productive, more collaborative, more innovative, and has higher retention rates",
+         source_refs=["p.2/L041-047"]),
+    dict(concept="Contratação simbólica (token hiring)",
+         definition="A simples contratação de uma força de trabalho diversa, sem esforços culturais que façam os empregados se sentirem valorizados e ouvidos — insuficiente para melhorar a percepção de DEI.",
+         quote="token hiring of a diverse workforce will not improve perceptions of DEI in the workplace",
+         source_refs=["p.1/L013-016", "p.4/L188-192"]),
+]
+
+METHODOLOGY = dict(
+    study_type="empírico quantitativo (comunicação breve)",
+    design="Dois estudos ligados: (1) validação psicométrica do módulo de diversidade Press Ganey por análise de componentes principais com rotação Promax, consistência interna (alfa de Cronbach) e validades convergente/discriminante; (2) estudo observacional comparando escores de diversidade com heterogeneidade demográfica, organizações ranqueadas em quartis, com ANOVAs one-way, qui-quadrado e correlações de Pearson no SPSS 25.",
+    sample_type="empregados de organizações de saúde dos EUA que responderam ao censo de engajamento Press Ganey",
+    sample_size=106711,
+    sector="saúde (organizações de saúde dos EUA)",
+    period="piloto psicométrico de 2019; estudo demográfico com dados de 2022",
+    methods=["análise de componentes principais (rotação Promax, cargas ≥ 0,700)", "alfa de Cronbach e validades convergente/discriminante", "Índice de Blau modificado", "quartis de desempenho + ANOVA one-way e qui-quadrado", "correlações de Pearson (SPSS 25)"],
+    analysis_note=("O piloto validou o módulo em 91.956 respondentes de 25 organizações (2019); a análise "
+                   "principal usou 43 organizações, 505 unidades e 106.711 respondentes de 2022, "
+                   "distribuídas em quartis pelo escore médio de diversidade (p.2-3/L074-099). Os dados "
+                   "são proprietários Press Ganey — censo de engajamento dos clientes — o que limita a "
+                   "generalização externa (p.7/L326-328)."),
+    source_refs=["p.2/L069-077", "p.3/L091-099", "p.4/L151-159"],
+)
+
+F = lambda f, t, q, refs: dict(finding=f, type=t, quote=q, source_refs=refs)
+FINDINGS = [
+    F("O módulo de diversidade é psicometricamente válido e distinto do engajamento: a PCA extraiu dois fatores que explicam 64,9% da variância — engajamento (52,3%) e diversidade (12,6%) — com alfa de Cronbach de 0,855 e correlações item-total acima de 0,60.",
+      "empirical",
+      "the two components accounted for 64.9% of the variance in the items",
+      ["p.4/L153-159"]),
+    F("As proporções demográficas são semelhantes em todos os quartis de desempenho em diversidade — em média 79% mulheres, 65% brancos e 80% não hispânicos — e os índices de Blau não diferem significativamente entre quartis (sexo p=0,557; raça p=0,989; etnia p=0,554).",
+      "empirical",
+      "were not significantly different between the quartiles",
+      ["p.4/L161-169"]),
+    F("Não há relação entre heterogeneidade demográfica e as métricas padrão da Press Ganey; em compensação, o módulo de diversidade se associa fortemente ao engajamento e à segurança — a percepção de diversidade nasce de como a organização trata os empregados, não da composição do quadro.",
+      "empirical",
+      "there were strong associations between the Diversity Module and both the Engagement and Safety metrics",
+      ["p.4/L170-176", "p.4/L183-187"]),
+    F("As duas preocupações que motivaram o estudo são rejeitadas: organizações homogêneas não têm escores artificialmente inflados e não há 'halo effect' — as organizações não são percebidas como mais justas apenas pela composição demográfica do quadro.",
+      "empirical",
+      "It is unlikely, therefore, that organizations are perceived by employees as fairer and more equitable solely based on the demographic makeup of their staff",
+      ["p.4/L178-182"]),
+    F("A contratação simbólica não basta: apenas contratar uma força de trabalho diversa não melhora a percepção de diversidade sem esforços culturais que façam os empregados se sentirem valorizados e ouvidos; desempenhar bem nas medidas de diversidade exige melhorar a experiência de trabalho.",
+      "proposition",
+      "just hiring a more diverse workforce will not improve perceptions of workplace diversity unless other cultural efforts are implemented to help all employees feel valued and heard",
+      ["p.4/L188-192", "p.6/L293-298"]),
+    F("Unidades grandes (>500 respondentes) são mais diversa sexual e racialmente do que as pequenas, embora isso não se traduza em diferença nos escores de diversidade percebida.",
+      "empirical",
+      "large locations (> 500 respondents) were found to be more sexually and racially diverse than small locations",
+      ["p.4/L168-169"]),
+    F("Na saúde, o DEI transcende o clima organizacional: pacientes confiam mais em prestadores com menos viés implícito, a concordância racial melhora desfechos, e a diversidade do quadro se associa à redução de desfechos maternos graves e a maior expectativa de vida da população negra.",
+      "empirical",
+      "racial concordance between providers and their patients can improve patient health outcomes",
+      ["p.7/L303-311"]),
+]
+
+CONTRIBUTION = dict(
+    theoretical=("Dissocia dois mecanismos que a preocupação prática confundia: mostra, com dados de 106 mil "
+                 "empregados, que a percepção de DEI é um construto de engajamento — 'stem more from how "
+                 "an organization treats its employees than just the demographic makeup' — e não uma função "
+                 "da composição demográfica; refuta empiricamente a hipótese do halo demográfico "
+                 "(p.4/L178-192)."),
+    practical=("Orienta que as organizações adotem objetivos claros e mensuráveis de DEI — programas de "
+               "treinamento, revisão de disparidades em recrutamento, retenção, promoção e remuneração, e "
+               "monitoramento da experiência dos empregados — e, na saúde, comecem a inclusão de práticas "
+               "culturalmente responsivas já na formação médica, com financiamento, compartilhamento de "
+               "informação e avaliação regular (p.6/L293-298; p.7/L312-321)."),
+    limitations=("As percepções de diversidade 'are likely multifactorial in nature' — o estudo mede a "
+                 "composição, não os mecanismos que as produzem (p.4/L188). Os dados são de censo "
+                 "proprietário Press Ganey de organizações de saúde dos EUA, o que restringe a "
+                 "generalização e o compartilhamento (p.7/L326-328); não há análise de resultados para "
+                 "pacientes nem medidas longitudinais."),
+    future_research=("O artigo não traz agenda explícita de pesquisa; implica a necessidade de decompor os "
+                     "determinantes multifatoriais da percepção de diversidade e de avaliar como políticas "
+                     "culturais específicas a melhoram (p.4/L188-192; p.7/L312-321)."),
+    source_refs=["p.4/L178-192", "p.6/L293-298", "p.7/L303-321"],
+)

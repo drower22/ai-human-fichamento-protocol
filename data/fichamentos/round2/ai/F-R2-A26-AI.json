@@ -1,0 +1,322 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R2-A26-AI",
+  "article_id": "A26",
+  "round": 2,
+  "source": "ai",
+  "generator": {
+    "kind": "ai",
+    "provider": "anthropic",
+    "model": "claude-sonnet-5.5-medium (execução assistida; spec de leitura integral, sem API)",
+    "prompt_version": "1.1.0-calibrated",
+    "temperature": null,
+    "seed": null,
+    "generated_at": "2026-11-23T23:04:09.562696Z",
+    "input_tokens": null,
+    "output_tokens": null,
+    "latency_s": null,
+    "md_sha256": "01197597da09bba6641216beccd0eb1e1bf6c0534200f9548c33c69ec9e5da2f",
+    "forced": false,
+    "verdicts_prompt_version": "1.1.0-theory-verdicts"
+  },
+  "content": {
+    "executive_summary": "O artigo investiga a subjetividade de mulheres empreendedoras de Paranaguá (PR), cidade litorânea de relevância econômica e cultural, buscando analisar como as experiências de vida influenciam a construção da subjetividade dessas mulheres no cenário empreendedor (p.4/L114-131). O referencial combina três esferas — o empreendedorismo feminino (GEM, Dornelas, Jonathan), a subjetividade como processo dinâmico de sentidos únicos (Rey; Ferreira e Nogueira) e o contexto familiar com o conflito trabalho-família (Greenhaus e Beutell; Hall; Shelton; Jonathan) (p.4-9/L145-318). O estudo de caso qualitativo reúne entrevistas narrativas com três empreendedoras — Vitória (clínica de estética), Geovana (loja e ateliê Floratta) e Luísa (Maya Modas) — analisadas em quatro dimensões predefinidas: motivação, rede de apoio, equilíbrio vida-trabalho e perspectiva de futuro (p.10-13/L324-457). As histórias mostram motivações por necessidade (Geovana, Luísa) e por oportunidade (Vitória), apoio familiar desigual, conflito trabalho-família intenso — maternidade, burnout, divórcio — e visões de legado: transmitir o negócio aos filhos e inspirar outras mulheres (p.13-25/L458-845). A conclusão é que a subjetividade é moldada por trajetórias, contextos culturais e experiências — sem pretensão de generalizar — e que o suporte externo fortalece a resiliência (p.26-27/L927-953).",
+    "research_question": "O artigo não formula pergunta explícita; enuncia objetivo: 'este estudo busca analisar como as experiências de vida influenciam a construção da subjetividade dessas mulheres no cenário empreendedor do litoral paranaense' (p.4/L129-131), com foco nos papéis e na construção da subjetividade das empreendedoras de Paranaguá (p.4/L114-118).",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Empreendedorismo (processo de criação de valor e inovação)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.4/L151-154",
+          "p.5/L155-171"
+        ],
+        "quote": "destaca o empreendedor como um objeto central em seu sistema econômico, pelo fato de ser ele quem impulsiona o processo da inovação",
+        "note": "Enquadramento conceitual do empreendedorismo (GEM, Dornelas, Schumpeter)."
+      },
+      {
+        "item_id": "T2",
+        "name": "Subjetividade (sentidos únicos e construção dinâmica)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.7/L223-228",
+          "p.8/L265-272"
+        ],
+        "quote": "a subjetividade é um processo dinâmico, construído a partir de sentidos únicos que vão além de influências externas diretas",
+        "note": "O construto teórico central (Rey; Ferreira e Nogueira)."
+      },
+      {
+        "item_id": "T3",
+        "name": "Identidade e estereótipos de gênero",
+        "verdict": "uses",
+        "source_refs": [
+          "p.7/L229-235"
+        ],
+        "quote": "a maneira como as mulheres percebem sua jornada no empreendedorismo é diretamente influenciada pelas expectativas sociais em relação ao papel feminino",
+        "note": "Identidade e estereótipos de gênero como moldantes da subjetividade empreendedora."
+      },
+      {
+        "item_id": "T4",
+        "name": "Conflito trabalho-família",
+        "verdict": "uses",
+        "source_refs": [
+          "p.8/L279-283",
+          "p.9/L289-298"
+        ],
+        "quote": "multiplicidade de papéis tende a ser considerada uma característica do universo feminino, levando ao reconhecimento de um talento nas mulheres para fazer e pensar várias coisas simultaneamente",
+        "note": "O conflito trabalho-família e as ações de enfrentamento de Hall e Shelton."
+      },
+      {
+        "item_id": "T5",
+        "name": "Empreendedorismo por necessidade vs. por oportunidade",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6/L195-201",
+          "p.20/L667-677"
+        ],
+        "quote": "as empreendedoras brasileiras tendem a se envolver no empreendedorismo por questões de necessidade, como enfrentamento do desemprego, ao invés de apenas oportunidades de mercado",
+        "note": "Organiza a análise das motivações: necessidade (Geovana, Luísa) vs. oportunidade (Vitória)."
+      },
+      {
+        "item_id": "T6",
+        "name": "Rede de apoio e apoio familiar",
+        "verdict": "uses",
+        "source_refs": [
+          "p.9/L299-305"
+        ],
+        "quote": "boa parte das mulheres entrevistadas identificam os maridos como principal apoiador para que elas permaneçam em atividade nos negócios",
+        "note": "A rede de apoio como dimensão analítica, contrastada com os relatos."
+      },
+      {
+        "item_id": "T7",
+        "name": "Análise narrativa",
+        "verdict": "uses",
+        "source_refs": [
+          "p.11/L374-385",
+          "p.11/L391-398",
+          "p.12/L399-405"
+        ],
+        "quote": "essa abordagem busca interpretar as experiências dos indivíduos, considerando o contexto social e cultural, e como eles atribuem significado aos eventos importantes de suas vidas",
+        "note": "Entrevista narrativa e análise narrativa como método (Boje; Riessman; Gibbs)."
+      },
+      {
+        "item_id": "T8",
+        "name": "Estudo de caso qualitativo",
+        "verdict": "uses",
+        "source_refs": [
+          "p.10/L325-329"
+        ],
+        "quote": "sendo especificamente um estudo de caso, pois permite uma análise aprofundada do fenômeno investigado",
+        "note": "O desenho de pesquisa (Yin; Creswell)."
+      },
+      {
+        "item_id": "T9",
+        "name": "Motivações do empreendedorismo feminino",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5/L179-182",
+          "p.13/L431-437"
+        ],
+        "quote": "sendo as principais relacionadas à realização pessoal e o anseio por autonomia",
+        "note": "As motivações do empreendedorismo feminino mapeadas nas narrativas."
+      },
+      {
+        "item_id": "T10",
+        "name": "Capital social (Bourdieu/Putnam)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "A 'rede de apoio' é tratada como suporte familiar e emocional, não como capital social (Bourdieu/Putnam)."
+      },
+      {
+        "item_id": "T11",
+        "name": "Interseccionalidade (Crenshaw)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Gênero é tratado como eixo único; raça, classe e suas interseções não são mobilizadas."
+      },
+      {
+        "item_id": "T12",
+        "name": "Effectuation (Sarasvathy)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Os inícios improvisados ('vender do carro') são descritos empiricamente, sem a lente da effectuation."
+      },
+      {
+        "item_id": "T13",
+        "name": "Identidade narrativa / identity work",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "As narrativas são método de coleta e análise, não teoria do trabalho identitário."
+      },
+      {
+        "item_id": "T14",
+        "name": "Isomorfismo institucional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Ausente do referencial."
+      },
+      {
+        "item_id": "T15",
+        "name": "Subjetivação foucaultiana / tecnologias do self",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "A subjetividade é de Rey (processo dinâmico de sentidos únicos), não o assujeitamento foucaultiano."
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Empreendedorismo feminino",
+        "definition": "A atividade empreendedora liderada por mulheres — criação de valor por novos negócios, atividade autônoma ou expansão — motivada por independência financeira, autonomia e realização pessoal, e marcada por barreiras históricas e culturais.",
+        "quote": "uma atividade empreendedora liderada por mulheres",
+        "source_refs": [
+          "p.3/L077-083",
+          "p.4/L147-154"
+        ]
+      },
+      {
+        "concept": "Subjetividade",
+        "definition": "Processo dinâmico construído a partir de sentidos únicos que vão além de influências externas diretas — moldado por experiências pessoais que se acumulam e se transformam ao longo do tempo.",
+        "quote": "a subjetividade é um processo dinâmico, construído a partir de sentidos únicos que vão além de influências externas diretas",
+        "source_refs": [
+          "p.7/L223-228"
+        ]
+      },
+      {
+        "concept": "Conflito trabalho-família",
+        "definition": "O atrito entre responsabilidades profissionais e familiares — intensificado pela 'multiplicidade de papéis' atribuída às mulheres — com ações de enfrentamento que eliminam, minimizam ou compartilham os fatores geradores.",
+        "quote": "Equilibrar as responsabilidades pessoais e profissionais é uma constante nos conflitos relacionados entre o trabalho e a família",
+        "source_refs": [
+          "p.8/L273-283",
+          "p.9/L306-310"
+        ]
+      },
+      {
+        "concept": "Rede de apoio",
+        "definition": "Os relacionamentos que oferecem suporte emocional, financeiro e prático às empreendedoras — com o marido recorrentemente identificado como principal apoiador.",
+        "quote": "A rede de apoio inclui relacionamentos que oferecem suporte emocional, financeiro e prático às empreendedoras",
+        "source_refs": [
+          "p.9/L299-305",
+          "p.13/L438-442"
+        ]
+      },
+      {
+        "concept": "Entrevista e análise narrativa",
+        "definition": "Técnica de coleta em que o entrevistado compartilha sua vivência espontaneamente, seguindo estrutura de início-meio-fim, e método de interpretação das histórias no contexto sociocultural em que significados são atribuídos.",
+        "quote": "O intuito é permitir que ele compartilhe sua vivência de forma espontânea, com suas próprias palavras",
+        "source_refs": [
+          "p.11/L374-385",
+          "p.11/L391-395"
+        ]
+      },
+      {
+        "concept": "Motivação empreendedora (necessidade vs. oportunidade)",
+        "definition": "O desejo de empreender e a coragem do primeiro passo — por necessidade (desemprego, conciliação familiar) ou por oportunidade de mercado — visíveis nas iniciativas e na determinação das empreendedoras.",
+        "quote": "sendo as principais relacionadas à realização pessoal e o anseio por autonomia",
+        "source_refs": [
+          "p.6/L195-201",
+          "p.13/L431-437"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico qualitativo (estudo de caso)",
+      "design": "Estudo de caso qualitativo (Creswell; Yin) com entrevistas narrativas individuais, presenciais no local de trabalho de cada empreendedora, gravadas com consentimento; transcrição literal com limpeza de vícios de linguagem e reescrita de trechos para coesão; análise narrativa (Gibbs; Boje; Riessman) estruturada em quatro categorias predefinidas — motivação, rede de apoio, equilíbrio e perspectiva de futuro — com sigilo e nomes fictícios.",
+      "sample_type": "três mulheres empreendedoras com no mínimo quatro anos de atividade em Paranaguá (PR), escolhidas por proximidade das pesquisadoras, uso prévio dos serviços e divulgação em redes sociais",
+      "sample_size": 3,
+      "sector": "comércio e serviços locais — clínica de estética, loja-ateliê de moda e loja de vestuário feminino",
+      "period": "não informado explicitamente; dados tratados como coletados em 2024 (fonte dos quadros 'Os autores (2024)')",
+      "methods": [
+        "entrevista narrativa individual (roteiro de uma página)",
+        "gravação e transcrição literal",
+        "análise narrativa com categorias predefinidas"
+      ],
+      "analysis_note": "A análise combinou narrativa com quatro dimensões predefinidas (Quadro 1): Motivação Empreendedora, Rede de Apoio, Equilíbrio entre Vida Pessoal e Profissional e Perspectiva de Futuro — depois contrastadas com fragmentos das narrativas no Quadro 2; a maternidade emergiu como experiência comum mas não recorrente em todas as entrevistas, ficando fora do quadro (p.12-13/L407-425; p.25/L842-845).",
+      "source_refs": [
+        "p.10/L324-365",
+        "p.11/L369-390",
+        "p.12/L401-425",
+        "p.13/L426-457"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "As três trajetórias convergem em motivações por necessidade (Geovana e Luísa — pandemia, gravidez, insatisfação com a liderança masculina) e por oportunidade (Vitória — seguro-desemprego), corroborando Jonathan; e as motivações se modificaram ao longo do tempo, tornando o empreendedorismo realização e prazer pessoal.",
+        "type": "empirical",
+        "quote": "Geovana e Luísa iniciaram seus empreendimentos por necessidade, motivadas pelas circunstâncias incertas que enfrentavam em suas vidas",
+        "source_refs": [
+          "p.19/L657-663",
+          "p.20/L669-697"
+        ]
+      },
+      {
+        "finding": "O início foi modesto e improvisado para todas — vender do carro, atender em casa, loja online — após experiências em empregos formais; as motivações foram além da renda: autonomia, satisfação pessoal e identificação de nichos.",
+        "type": "empirical",
+        "quote": "todas iniciaram suas jornadas empreendedoras ainda jovens, após acumularem experiências anteriores em empregos formais",
+        "source_refs": [
+          "p.20/L698-706",
+          "p.21/L707-718"
+        ]
+      },
+      {
+        "finding": "A rede de apoio foi desigual: Vitória teve apoio braçal do pai e depois emocional dos pais e do namorado-sócio; Geovana enfrentou sozinha a ausência de familiares e amigos; Luísa contou apenas com marido e sogra — contrastes parciais com o estudo de Silva, Mainardes e Lasso.",
+        "type": "empirical",
+        "quote": "a empreendedora também conta com o suporte do seu namorado, que hoje é um dos sócios da empresa",
+        "source_refs": [
+          "p.21/L719-737"
+        ]
+      },
+      {
+        "finding": "O conflito trabalho-família é a dimensão mais intensa: maternidade levada para as lojas, burnout de Geovana (2022-2023), divórcio, doença da mãe e filho autista, momentos perdidos dos filhos de Luísa — sobrecarga que reflete a literatura sobre mulheres como principais cuidadoras.",
+        "type": "empirical",
+        "quote": "Essa sobrecarga reflete o que Jonathan (2005) e Vilela (2018) descrevem sobre o papel social das mulheres como principais cuidadoras",
+        "source_refs": [
+          "p.22/L741-762"
+        ]
+      },
+      {
+        "finding": "As estratégias de enfrentamento seguem Hall e Shelton: compartilhar responsabilidades (divisão de tarefas com o marido e sogra de Luísa), delegar (colaboradoras treinadas) e eliminar/minimizar geradores de conflito (Vitória planejando reduzir a carga horária).",
+        "type": "empirical",
+        "quote": "focando em eliminar, minimizar ou compartilhar seus fatores geradores",
+        "source_refs": [
+          "p.23/L780-793"
+        ]
+      },
+      {
+        "finding": "A perspectiva de futuro articula legado: Geovana e Luísa querem transmitir os negócios aos filhos; Vitória quer ser mentora e exemplo para outras mulheres — 'Eu trago mais como uma missão para mim, ensinar outras pessoas'.",
+        "type": "empirical",
+        "quote": "Ela agora busca ser mentora e exemplo, demonstrando um compromisso com o futuro do empreendedorismo feminino",
+        "source_refs": [
+          "p.24/L819-827",
+          "p.26/L905-920"
+        ]
+      },
+      {
+        "finding": "A subjetividade das empreendedoras é moldada por trajetórias, contextos culturais e experiências de vida — sem pretensão de generalização; o suporte externo fortalece a resiliência e a disciplina em definir prioridades minimiza os conflitos.",
+        "type": "proposition",
+        "quote": "A pesquisa não visa generalizar, mas apresentar como a identidade de cada empreendedora se forma por meio de suas experiências",
+        "source_refs": [
+          "p.24/L833-837",
+          "p.25/L838-845",
+          "p.27/L947-953"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "O estudo enriquece a literatura brasileira sobre empreendedorismo feminino — onde há carência de estudos sobre subjetividade — ao mostrar, em narrativas de vida, como experiências individuais e coletivas constroem a subjetividade das empreendedoras, corroborando Ferreira e Nogueira e Rey (p.26-27/L927-953).",
+      "practical": "Os resultados podem orientar políticas públicas, programas de apoio e práticas de instituições financeiras, além de fortalecer a inclusão de gênero no mercado — e revelam a importância do apoio emocional familiar e da gestão financeira para a resiliência dos negócios (p.26-27/L934-958)."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

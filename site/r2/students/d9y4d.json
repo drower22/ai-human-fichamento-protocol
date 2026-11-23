@@ -1,0 +1,95 @@
+{
+  "participant_id": "S03",
+  "article_id": "A20",
+  "round": 2,
+  "title": "Estratégia após o modernismo: recuperando a prática",
+  "authors": "Richard Whittington",
+  "year": 2004,
+  "venue": "RAE-Revista de Administração de Empresas 44(4), 44-53",
+  "full_name": "Ricardo José Dória",
+  "age": "67",
+  "gender": "Masculino",
+  "program": "Doutorado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Estratégia como prática social (strategy-as-practice)",
+      "authors": "Whittington; Johnson et al."
+    },
+    {
+      "item_id": "T2",
+      "name": "Modernismo e primazia da racionalidade teorética",
+      "authors": "Toulmin; tradição iluminista"
+    },
+    {
+      "item_id": "T3",
+      "name": "'Após o modernismo' e a recuperação da razão prática",
+      "authors": "Toulmin; Smith; Whittington & Meyer"
+    },
+    {
+      "item_id": "T4",
+      "name": "Pós-modernismo",
+      "authors": "Lyotard; Cooper & Burrell; Chia; Clegg & Kornberger; Rosenau; Gray"
+    },
+    {
+      "item_id": "T5",
+      "name": "Sociologia das elites",
+      "authors": "Mills; Scott; Pettigrew"
+    },
+    {
+      "item_id": "T6",
+      "name": "Sociologia do trabalho e do conhecimento",
+      "authors": "Braverman; Ritzer; Beynon; Lichtenstein"
+    },
+    {
+      "item_id": "T7",
+      "name": "Sociologia da ciência e da tecnologia (CTS)",
+      "authors": "Latour & Woolgar; Orlikowski; Kidder"
+    },
+    {
+      "item_id": "T8",
+      "name": "Tradição mintzberguiana e estratégia emergente",
+      "authors": "Mintzberg; Floyd & Wooldridge; Regnér"
+    },
+    {
+      "item_id": "T9",
+      "name": "Escola do planejamento estratégico",
+      "authors": "Ansoff; Ackoff; Drucker; Steiner"
+    },
+    {
+      "item_id": "T10",
+      "name": "Economia industrial positivista da estratégia",
+      "authors": "Chandler; Porter; Williamson; Rumelt et al.; Barney"
+    },
+    {
+      "item_id": "T11",
+      "name": "Modo 2 de produção de conhecimento / pesquisa engajada",
+      "authors": "Gibbons et al.; Pettigrew; Tranfield & Starkey; Huff"
+    },
+    {
+      "item_id": "T12",
+      "name": "Sociologia institucional comparativa",
+      "authors": "Hall & Soskice; Whitley (mencionados genericamente)"
+    },
+    {
+      "item_id": "T13",
+      "name": "Teoria ator-rede (TAR)",
+      "authors": "Latour; Callon"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria dos stakeholders",
+      "authors": "Freeman"
+    },
+    {
+      "item_id": "T15",
+      "name": "Teoria da estruturação (Giddens)",
+      "authors": "Giddens"
+    },
+    {
+      "item_id": "T16",
+      "name": "Teoria da agência",
+      "authors": "Jensen & Meckling"
+    }
+  ]
+}

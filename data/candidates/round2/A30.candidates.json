@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A30",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "db9853012f7e524fa42d5b9fee2110190bc197946dd4583c0548aa5261fda01c"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Born globals / novos empreendimentos internacionais (INV)",
+      "definition": "Empresas com visão global desde a fundação e produtos com potencial global para internacionalização acelerada — em vez do processo gradual.",
+      "tradition": "empreendedorismo internacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Classificação dos riscos em negócios internacionais (comercial, monetário, país, intercultural)",
+      "definition": "Os quatro tipos principais de risco da internacionalização — incontroláveis e inevitáveis, mas passíveis de mitigação pela percepção e avaliação.",
+      "tradition": "negócios internacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Percepção de risco (Sitkin & Weingart)",
+      "definition": "A avaliação do nível de risco inerente a uma situação, associada à incerteza e ao controle percebido sobre os resultados possíveis.",
+      "tradition": "comportamento decisório",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Modelo de gestão de risco na internacionalização de novos empreendimentos (Oviatt, Shrader & McDougall)",
+      "definition": "O modelo baseado no conceito integrado de Miller — riscos ambientais gerais, de indústria e específicos da empresa — com a especificação da mediação entre os agrupamentos no nível de risco.",
+      "tradition": "negócios internacionais / gestão de riscos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Modelo de Uppsala e incerteza na internacionalização",
+      "definition": "O modelo gradualista que trata a incerteza como falta de conhecimento e experiência de mercado — sem distinguir risco de incerteza, lacuna endereçada por Figueira-de-Lemos et al.",
+      "tradition": "negócios internacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Orientação internacional do empreendedor",
+      "definition": "A orientação internacional do indivíduo — conhecimento, experiência, idiomas, viagens — que reduz a percepção de risco e acelera o comprometimento internacional.",
+      "tradition": "empreendedorismo internacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Abordagem de redes nos negócios internacionais",
+      "definition": "As redes de relacionamento como mecanismo de internacionalização e de mitigação de risco — parceiros, distribuidores, missões e festivais.",
+      "tradition": "negócios internacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Teorias econômicas de internacionalização (ciclo do produto, poder de mercado, internalização, paradigma eclético)",
+      "definition": "As teorias econômicas clássicas em que as decisões de internacionalização se ligam aos riscos comerciais, monetários e políticos dos países de expansão.",
+      "tradition": "negócios internacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Gestão estratégica de riscos (enterprise risk management)",
+      "definition": "O gerenciamento de risco como processo contínuo de identificar, avaliar e gerenciar riscos para proteger e criar valor, interligado às estratégias de decisão.",
+      "tradition": "estratégia / riscos corporativos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Risco × incerteza (March & Shapira; Knight)",
+      "definition": "O risco como a significância de resultados indesejáveis, em função de fontes de incerteza externas (ambiente) ou internas (organização).",
+      "tradition": "comportamento decisório",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Metodologia de estudos de caso múltiplos e rigor qualitativo",
+      "definition": "Estudo de caso múltiplo para construção de teoria, com protocolo, diário de campo, matriz de amarração teórico-metodológica e análise de conteúdo.",
+      "tradition": "metodologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Capacidades dinâmicas na internacionalização acelerada",
+      "definition": "As dynamic capabilities como base da internacionalização acelerada das born globals.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Liability of foreignness",
+      "definition": "Os custos adicionais enfrentados por empresas que operam fora de seus países de origem.",
+      "tradition": "negócios internacionais",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teoria institucional / isomorfismo",
+      "definition": "Homogeneização por pressões coercitiva, mimética e normativa do ambiente institucional.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Visão baseada em recursos (RBV)",
+      "definition": "Vantagem competitiva de recursos internos valiosos, raros e inimitáveis.",
+      "tradition": "estratégia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A18",
+  "pdf_path": "data/articles/pdfs/A18.pdf",
+  "pdf_sha256": "fb8c9b155a048a3d19704945b93180445125f24c8dca599b66bfb4711d5dfd07",
+  "md_path": "data/articles/markdown/A18.md",
+  "md_sha256": "e16d8cfa3ddad761c35f6069bff23d7fc3c4352d038ec46b1cd4352caef72d45",
+  "tool": "pymupdf 1.28.2",
+  "ocr_tool": null,
+  "pages_pdf": 22,
+  "pages_extracted": 22,
+  "est_tokens": 19978,
+  "pages": [
+    {
+      "page": 1,
+      "n_lines": 14,
+      "n_chars": 481,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 2,
+      "n_lines": 30,
+      "n_chars": 3044,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 3,
+      "n_lines": 51,
+      "n_chars": 4763,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 4,
+      "n_lines": 51,
+      "n_chars": 4836,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 5,
+      "n_lines": 32,
+      "n_chars": 3200,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 6,
+      "n_lines": 51,
+      "n_chars": 4862,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 7,
+      "n_lines": 53,
+      "n_chars": 5193,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 8,
+      "n_lines": 49,
+      "n_chars": 3625,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 9,
+      "n_lines": 19,
+      "n_chars": 1702,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 10,
+      "n_lines": 116,
+      "n_chars": 3358,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 11,
+      "n_lines": 53,
+      "n_chars": 4872,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 12,
+      "n_lines": 53,
+      "n_chars": 4849,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 13,
+      "n_lines": 53,
+      "n_chars": 4840,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 14,
+      "n_lines": 39,
+      "n_chars": 3527,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 15,
+      "n_lines": 33,
+      "n_chars": 3104,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 16,
+      "n_lines": 53,
+      "n_chars": 4931,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 17,
+      "n_lines": 50,
+      "n_chars": 4704,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 18,
+      "n_lines": 59,
+      "n_chars": 2967,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 19,
+      "n_lines": 52,
+      "n_chars": 3295,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 20,
+      "n_lines": 73,
+      "n_chars": 3393,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 21,
+      "n_lines": 64,
+      "n_chars": 3328,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    },
+    {
+      "page": 22,
+      "n_lines": 21,
+      "n_chars": 1041,
+      "method": "text",
+      "needs_review": false,
+      "warnings": []
+    }
+  ],
+  "coverage_complete": true,
+  "overrides": [],
+  "created_at": "2026-11-23T22:41:00.114788Z"
+}

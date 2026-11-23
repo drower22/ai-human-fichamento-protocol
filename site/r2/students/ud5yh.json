@@ -1,0 +1,100 @@
+{
+  "participant_id": "S08",
+  "article_id": "A19",
+  "round": 2,
+  "title": "The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Fields",
+  "authors": "Paul J. DiMaggio; Walter W. Powell",
+  "year": 1983,
+  "venue": "American Sociological Review 48(2), 147-160",
+  "full_name": "Ligia Nauiack",
+  "age": "43",
+  "gender": "Feminino",
+  "program": "PPGADM",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Isomorfismo institucional",
+      "authors": "DiMaggio & Powell (o próprio artigo); Hawley; Meyer & Fennell"
+    },
+    {
+      "item_id": "T2",
+      "name": "Campo organizacional e sua estruturação",
+      "authors": "DiMaggio & Powell; DiMaggio (1982); Giddens (estruturação)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Racionalização e burocracia weberiana (gaiola de ferro)",
+      "authors": "Weber"
+    },
+    {
+      "item_id": "T4",
+      "name": "Institucionalização como mito e cerimônia",
+      "authors": "Meyer & Rowan (1977); Meyer & Hannan"
+    },
+    {
+      "item_id": "T5",
+      "name": "Dependência de recursos",
+      "authors": "Pfeffer & Salancik; Thompson"
+    },
+    {
+      "item_id": "T6",
+      "name": "Profissionalização",
+      "authors": "Larson; Collins; Hall"
+    },
+    {
+      "item_id": "T7",
+      "name": "Ecologia populacional de organizações",
+      "authors": "Hannan & Freeman; Carroll & Delacroix; Freeman (John)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Institucionalismo clássico (infusão de valor)",
+      "authors": "Selznick"
+    },
+    {
+      "item_id": "T9",
+      "name": "Racionalidade limitada e teoria comportamental da firma",
+      "authors": "March & Simon; Cyert & March; Cohen, March & Olsen"
+    },
+    {
+      "item_id": "T10",
+      "name": "Seleção natural e imitação evolutiva",
+      "authors": "Alchian; Nelson & Winter"
+    },
+    {
+      "item_id": "T11",
+      "name": "Teorias macrossociais (funcionalismo e marxismo)",
+      "authors": "Parsons; Chandler; Althusser; Domhoff; Bowles & Gintis"
+    },
+    {
+      "item_id": "T12",
+      "name": "Poder como definição de premissas e intervenção crítica",
+      "authors": "March & Simon; Domhoff; Lukes; Perrow"
+    },
+    {
+      "item_id": "T13",
+      "name": "Modelos de limiar e comportamento coletivo",
+      "authors": "Granovetter; Schelling"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria da contingência estrutural",
+      "authors": "Woodward; Child & Kieser; Thompson"
+    },
+    {
+      "item_id": "T15",
+      "name": "Teoria dos stakeholders",
+      "authors": "Freeman (R. Edward)"
+    },
+    {
+      "item_id": "T16",
+      "name": "Teoria ator-rede / sociologia da tradução",
+      "authors": "Latour; Callon"
+    },
+    {
+      "item_id": "T17",
+      "name": "Teoria da agência",
+      "authors": "Jensen & Meckling"
+    }
+  ]
+}

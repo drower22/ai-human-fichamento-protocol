@@ -1,0 +1,321 @@
+{
+  "schema_version": "1.0.0",
+  "fichamento_id": "F-R2-A17-AI",
+  "article_id": "A17",
+  "round": 2,
+  "source": "ai",
+  "generator": {
+    "kind": "ai",
+    "provider": "anthropic",
+    "model": "claude-sonnet-5.5-medium (execução assistida; spec de leitura integral, sem API)",
+    "prompt_version": "1.1.0-calibrated",
+    "temperature": null,
+    "seed": null,
+    "generated_at": "2026-11-23T22:47:40.603489Z",
+    "input_tokens": null,
+    "output_tokens": null,
+    "latency_s": null,
+    "md_sha256": "09d2d28130f14c276103125bfa3e9cb4d67a8fe944c1a33c88c23a04baa81bbc",
+    "forced": false,
+    "verdicts_prompt_version": "1.1.0-theory-verdicts"
+  },
+  "content": {
+    "executive_summary": "O artigo analisa como ocorreu o processo de sensegiving nas narrativas produzidas pela Samarco após o rompimento da barragem de Fundão (novembro de 2015), entendido como prática estratégica dentro do strategizing de uma organização em crise, sob a perspectiva da estratégia como prática social (SAP) (p.1/L021-025; p.4/L138-140). Trata-se de pesquisa qualitativa baseada em dados secundários divulgados pela própria empresa entre 5/11/2015 e agosto de 2017: 307 arquivos do site da Samarco (893 páginas), 297 arquivos do site da Fundação Renova (647 páginas) e 52 vídeos do canal do YouTube Samarco Mineração (191 minutos) (p.8/L335-342; p.8/L343-366). O trabalho mobiliza os construtos de sensemaking e sensegiving (Weick; Gioia & Chittipeddi; Maitlis & Lawrence) e a abordagem narrativa organizacional (Vaara, Sonenshein & Boje) para apreender como a empresa influenciou o sentido atribuído ao desastre (p.6/L234-277; p.7/L284-299). Metodologicamente, uma análise de conteúdo com Atlas.ti identificou os direcionamentos de conteúdo em oito períodos, dos quais se inferiram seis momentos narrativos analisados pela abordagem interacional de Shuman (p.8/L368-372; p.9/L380-399). Os resultados mostram que a Samarco construiu uma grande narrativa que a posiciona como heroína e vítima de uma 'injustiça' — a impossibilidade de operar — evoluindo de esclarecimentos e comprometimento, pelo discurso responsivo, o 'recomeço' da Fundação Renova, a justificação da inação e a ênfase nos impactos econômicos, até a conclamação pela volta das operações (p.10/L487-496; p.11/L497-501; p.19/L849-864). As contribuições teóricas apontam o sensegiving como prática proeminente no strategizing em crises, a abertura da estratégia sob pressão social proporcional à magnitude da crise, e a necessidade de incorporar a dimensão ético-moral da práxis à SAP (p.19/L879-895; p.20/L896-928).",
+    "research_question": "O artigo não enuncia uma pergunta de pesquisa em forma interrogativa; declara como objetivo 'analisar como ocorreu o processo de sensegiving nas narrativas da Samarco, como uma prática estratégica dentro do strategizing de uma organização em crise' (p.1/L021-025; p.4/L138-140). Reconstruída como pergunta implícita: como a Samarco, por meio de suas narrativas, buscou influenciar o sentido atribuído ao desastre corporativo do rompimento da barragem de Fundão?",
+    "theories": [],
+    "theory_verdicts": [
+      {
+        "item_id": "T1",
+        "name": "Estratégia como prática social (strategy-as-practice, SAP)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5/L204-211",
+          "p.5/L223-229",
+          "p.11/L531-534",
+          "p.20/L902-908"
+        ],
+        "quote": "a perspectiva da estratégia como prática social evidencia o strategizing",
+        "note": "Lente principal: narrativas e sensegiving são apreendidos como práticas estratégicas na perspectiva da SAP."
+      },
+      {
+        "item_id": "T2",
+        "name": "Strategizing",
+        "verdict": "uses",
+        "source_refs": [
+          "p.11/L531-537",
+          "p.11/L538-542",
+          "p.19/L879-885"
+        ],
+        "quote": "o strategizing comporta todas as ações, interações e negociações de sentido a partir das quais as práticas organizacionais se estabelecem",
+        "note": "Construto que nomeia o processo analisado: o sensegiving narrativo é prática inerente ao strategizing pós-desastre."
+      },
+      {
+        "item_id": "T3",
+        "name": "Sensegiving",
+        "verdict": "uses",
+        "source_refs": [
+          "p.6/L244-254",
+          "p.6/L262-270",
+          "p.18/L820-823"
+        ],
+        "quote": "processo de influência sobre a construção de significados (sensemaking) do outro em direção a uma redefinição preferível da realidade organizacional",
+        "note": "Objeto principal de análise; cada momento narrativo é lido como exercício de sensegiving."
+      },
+      {
+        "item_id": "T4",
+        "name": "Sensemaking",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.6/L236-243",
+          "p.6/L271-277",
+          "p.19/L869-876"
+        ],
+        "quote": "sensemaking envolve transformar as circunstâncias em uma situação que seja compreendida explicitamente em palavras e que servem como um suporte para ação",
+        "note": "Contraparte necessária do sensegiving, com seção própria no referencial; a análise usa o par, mas foca o sensegiving — no achado, a ausência de espaço para sensemaking alheio."
+      },
+      {
+        "item_id": "T5",
+        "name": "Narrativas organizacionais (virada narrativa)",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5/L204-217",
+          "p.7/L284-299",
+          "p.7/L300-323",
+          "p.8/L324-334"
+        ],
+        "quote": "as narrativas sejam relevantes para compreender o fenômeno e se tornam um recurso importante para a sua apreensão na perspectiva da SAP",
+        "note": "Unidade de análise; as seis características das narrativas de Vaara, Sonenshein e Boje (2016) estruturam a justificativa do método."
+      },
+      {
+        "item_id": "T6",
+        "name": "Legitimação discursiva / legitimidade organizacional",
+        "verdict": "uses",
+        "source_refs": [
+          "p.5/L221-223",
+          "p.8/L331-334",
+          "p.17/L776-778",
+          "p.18/L816-820"
+        ],
+        "quote": "dependente de um processo de legitimação social (Vaara & Monin, 2010; Whittington, 2017)",
+        "note": "A finalidade do sensegiving analisado é recuperar imagem e legitimidade rumo à retomada; cada narrativa é avaliada por seu papel legitimador."
+      },
+      {
+        "item_id": "T7",
+        "name": "Open strategy (estratégia aberta)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.11/L518-519",
+          "p.19/L892-895",
+          "p.20/L896-901"
+        ],
+        "quote": "diante da pressão pela abertura dessa estratégia (Hautz, Seidl, & Whittington, 2017)",
+        "note": "Interpreta a estratégia tornado 'assunto aberto' pós-desastre e fundamenta a segunda contribuição teórica; não estrutura o referencial."
+      },
+      {
+        "item_id": "T8",
+        "name": "Teorias da prática social",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.4/L152-182",
+          "p.5/L183-185"
+        ],
+        "quote": "a prática social é representada pelos padrões de comportamento permeados pelas conexões de diversos elementos",
+        "note": "Fundação teórica da SAP (Reckwitz, Bourdieu, Giddens, Schatzki, De Certeau) desenvolvida no referencial; a lente operacional é a SAP."
+      },
+      {
+        "item_id": "T9",
+        "name": "Dimensão ético-moral da estratégia (ética das virtudes, práxis)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.2/L049-050",
+          "p.5/L186-187",
+          "p.20/L902-924"
+        ],
+        "quote": "se começarmos a discutir a dimensão ética da estratégia, conforme conclama Tsoukas (2018)",
+        "note": "Motiva a pesquisa e ancora a terceira contribuição (ética da práxis); não é usada como lente analítica dos dados."
+      },
+      {
+        "item_id": "T10",
+        "name": "Homo narrans (paradigma narrativo)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.3/L130-135",
+          "p.19/L886-887"
+        ],
+        "quote": "a metáfora do homo narrans para caracterizar a natureza humana (FISHER, 1984)",
+        "note": "Metáfora que justifica a centralidade das narrativas; suporte retórico à abordagem narrativa."
+      },
+      {
+        "item_id": "T11",
+        "name": "Licença social para operar (social license to operate)",
+        "verdict": "discusses",
+        "source_refs": [
+          "p.2/L085-086",
+          "p.11/L535-537",
+          "p.14/L644"
+        ],
+        "quote": "a Samarco, consequentemente perde sua licença social para operar",
+        "note": "Conceito que nomeia o ativo perdido no desastre; usado para caracterizar o caso, sem desenvolvimento teórico próprio."
+      },
+      {
+        "item_id": "T12",
+        "name": "Teoria dos stakeholders",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Stakeholders aparecem apenas como termo solto ('stakeholders, interessados', p.12/L547); a teoria de Freeman não é mencionada nem mobilizada."
+      },
+      {
+        "item_id": "T13",
+        "name": "Isomorfismo institucional",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "Apesar do tema 'legitimidade', DiMaggio & Powell e o vocabulário de isomorfismo não são citados."
+      },
+      {
+        "item_id": "T14",
+        "name": "Teoria do reparo de imagem (image repair)",
+        "verdict": "does_not_use",
+        "source_refs": [],
+        "quote": "",
+        "note": "A recuperação da imagem organizacional é tema do caso e Valdebenito (2013) é citado como trabalho relacionado (p.5/L222-223), mas a tipologia de Benoit não é nomeada nem aplicada."
+      }
+    ],
+    "key_concepts": [
+      {
+        "concept": "Sensegiving",
+        "definition": "Processo de influência sobre a construção de significados (sensemaking) do outro em direção a uma redefinição preferível da realidade organizacional.",
+        "quote": "processo de influência sobre a construção de significados (sensemaking) do outro em direção a uma redefinição preferível da realidade organizacional",
+        "source_refs": [
+          "p.6/L244-246"
+        ]
+      },
+      {
+        "concept": "Strategizing",
+        "definition": "O fazer estratégico como processo contínuo de ações, interações e negociações de sentido a partir das quais as práticas organizacionais se estabelecem.",
+        "quote": "o strategizing comporta todas as ações, interações e negociações de sentido a partir das quais as práticas organizacionais se estabelecem",
+        "source_refs": [
+          "p.11/L531-535"
+        ]
+      },
+      {
+        "concept": "Narrativas organizacionais",
+        "definition": "Construções discursivas temporais que fornecem meio para sensemaking e sensegiving individual, social e organizacional, com papel performativo na estabilidade e mudança organizacional.",
+        "quote": "narrativas organizacionais são construções discursivas temporais que proporcionam um meio para o sensemaking e o sensegiving individual, social e organizacional",
+        "source_refs": [
+          "p.7/L300-303"
+        ]
+      },
+      {
+        "concept": "Desastre corporativo",
+        "definition": "Evento de grandes proporções causado por uma organização, com impactos socioambientais severos, que produz crise e motiva processos de sensegiving.",
+        "quote": "um período de crise organizacional ou de enfrentamento a um desastre corporativo são episódios que podem gerar a motivação – isto é, ser um gatilho – para os processos de sensegiving",
+        "source_refs": [
+          "p.6/L266-270"
+        ]
+      },
+      {
+        "concept": "Legitimidade / licença social",
+        "definition": "Reconhecimento social do propósito e da conduta da organização; a Samarco perde a licença social para operar e orienta seu sensegiving para recuperá-la.",
+        "quote": "a Samarco, consequentemente perde sua licença social para operar e, assim, seu strategizing perde seu lastro operacional",
+        "source_refs": [
+          "p.11/L535-537"
+        ]
+      },
+      {
+        "concept": "Momentos narrativos",
+        "definition": "Períodos inferidos da análise de conteúdo em que a empresa altera significativamente o enfoque do conteúdo publicado, compondo o enredo da grande narrativa pós-rompimento.",
+        "quote": "a cada três ou quatro meses a Samarco alterou de maneira significativa os temas que eram publicados",
+        "source_refs": [
+          "p.10/L451-452",
+          "p.10/L487-496",
+          "p.11/L497-501"
+        ]
+      }
+    ],
+    "methodology": {
+      "study_type": "empírico (qualitativo)",
+      "design": "Estudo de caso único baseado em dados secundários, com nível de análise organizacional e unidade de análise nas narrativas organizacionais da Samarco.",
+      "sample_type": "documentos e vídeos publicados pela Samarco e pela Fundação Renova (307 arquivos do site da Samarco, 893 páginas; 297 arquivos do site da Fundação Renova, 647 páginas; 52 vídeos do YouTube, 191 minutos)",
+      "sample_size": null,
+      "sector": "mineração (Samarco) e desastre corporativo",
+      "period": "5 de novembro de 2015 (rompimento) a agosto de 2017",
+      "methods": [
+        "análise de conteúdo (Saldaña) com Atlas.ti",
+        "construção de linha do tempo e inferência de momentos narrativos",
+        "análise de narrativa interacional (Shuman)"
+      ],
+      "analysis_note": "A análise procedeu em fases: (1) coleta de dados secundários nos sites da Samarco e da Fundação Renova e no canal do YouTube (p.8/L338-366); (2) análise de conteúdo por leitura flutuante extraindo tipo de documento, tema geral e mensagem geral (p.8/L368-372); (3) inferência de oito enfoques de conteúdo e seis momentos narrativos (p.10/L453-496; p.11/L497-501); e (4) análise de narrativa das seis narrativas emblemáticas, na sequência de tellability, posicionamento, formato, intertextualidade, categoria sociopolítica e mote, com análise cronológica (p.9/L386-399; p.9/L433-437).",
+      "source_refs": [
+        "p.8/L335-372",
+        "p.9/L380-437",
+        "p.10/L449-496",
+        "p.11/L497-501"
+      ]
+    },
+    "main_findings": [
+      {
+        "finding": "A Samarco construiu, no período pós-rompimento, seis momentos narrativos: (1) esclarecimentos e comprometimento; (2) discurso responsivo de ação e proximidade; (3) narrativa de renascimento com a Fundação Renova; (4) narrativa defensiva que justifica a inação pela magnitude do desastre; (5) discurso sobre a não operação e seus impactos econômicos; e (6) narrativa da necessidade de voltar a operar.",
+        "type": "empirical",
+        "quote": "infere-se a construção de uma narrativa baseada em seis momentos, os quais se direcionam ao slogan",
+        "source_refs": [
+          "p.10/L487-496",
+          "p.11/L497-501"
+        ]
+      },
+      {
+        "finding": "A sequência dos momentos compõe uma grande narrativa que posiciona a Samarco como heroína e vítima de uma 'injustiça' — a impossibilidade de operar — e estabelece a retomada das operações como única solução possível.",
+        "type": "empirical",
+        "quote": "Toda a construção dessa narrativa posiciona a Samarco como herói e vítima de uma injustiça: a impossibilidade de voltar a operar",
+        "source_refs": [
+          "p.19/L849-860"
+        ]
+      },
+      {
+        "finding": "A narrativa da empresa opera por negociação de vozes sucessivas (CEOs da Vale e BHP, Samarco, Fundação Renova, novo diretor-presidente) e sem espaço para sensemaking por outros atores: publicações respondem a questionamentos sem expô-los e só veiculam a versão da organização.",
+        "type": "empirical",
+        "quote": "Ela não dá espaço aos questionados e só expõe seu lado, seu sentindo, sua versão. Ou ainda, quando abre algum tipo de espaço, são para versões que corroboram seu processo de sensegiving",
+        "source_refs": [
+          "p.19/L866-876"
+        ]
+      },
+      {
+        "finding": "As escolhas discursivas dos momentos exercem função estratégica: minimizar o evento ('acidente'), omitir responsabilidade, transferir protagonismo à Fundação Renova, deslocar culpa para quem impede a retomada e coagir pela ameaça de impactos econômicos.",
+        "type": "empirical",
+        "quote": "os locutores, ao escolherem a palavra “acidente”, amenizam o acontecimento",
+        "source_refs": [
+          "p.12/L576-580",
+          "p.18/L833-836"
+        ]
+      },
+      {
+        "finding": "O sensegiving se constitui como prática estratégica proeminente no strategizing de organizações em crise, em que a narrativa figura como recurso performativo de estabilidade e mudança.",
+        "type": "proposition",
+        "quote": "o sensegiving se constitui como uma prática estratégica proeminente no strategizing de organizações em crise",
+        "source_refs": [
+          "p.19/L879-890"
+        ]
+      },
+      {
+        "finding": "Em situações de crise, o grau de abertura da estratégia (transparência e inclusão) necessário para a legitimação parece proporcional ao tamanho da crise, do desastre ou da necessidade reputacional.",
+        "type": "proposition",
+        "quote": "O grau de transparência e inclusão necessário nesse processo de abertura parece ser proporcional ao tamanho da crise, desastre ou necessidade reputacional",
+        "source_refs": [
+          "p.19/L892-895",
+          "p.20/L896-901"
+        ]
+      }
+    ],
+    "contribution": {
+      "theoretical": "Três contribuições teóricas: (1) identificar o sensegiving como prática estratégica proeminente no strategizing de organizações em crise, com as narrativas como recurso performativo (p.19/L879-890); (2) sugerir que o grau de abertura da estratégia (transparência e inclusão) é proporcional à magnitude da crise (p.19/L892-895; p.20/L896-901); e (3) dar corpo à conclamação de Tsoukas (2018) pela dimensão ético-moral da práxis na SAP, ao evidenciar a tentativa de desresponsabilização que o caso torna visível (p.20/L902-924).",
+      "practical": "Não há seção de implicações gerenciais própria; o estudo indica como contribuição metodológica o caminho seguido (análise de conteúdo sobre grande volume de dados secundários + análise de narrativa interacional) para apreender sensegiving e estratégia sob a SAP (p.9/L430-432)."
+    }
+  },
+  "human_review": {
+    "reviewed": false,
+    "reviewer_id": "",
+    "reviewed_at": null,
+    "changes_summary": ""
+  }
+}

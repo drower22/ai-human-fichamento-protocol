@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A19",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "c3bb64140d2b8673b5e88e2787d9e00eaf2aba65c8cacf9d0741455d5578d1cf"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Isomorfismo institucional",
+      "definition": "Processo constritivo que força unidades de uma população a se assemelharem quando sujeitas às mesmas condições ambientais; distinguindo isomorfismo competitivo (seleção) e institucional (coercivo, mimético e normativo).",
+      "tradition": "sociologia organizacional / neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Campo organizacional e sua estruturação",
+      "definition": "Unidade de análise que reúne, no agregado, organizações que constituem uma área reconhecida da vida institucional; sua estruturação ocorre por interação crescente, dominação e coalizões, carga informacional e consciência mútua de empreendimento comum.",
+      "tradition": "sociologia organizacional / neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Racionalização e burocracia weberiana (gaiola de ferro)",
+      "definition": "A ordem racionalista burocrática como 'gaiola de ferro': burocratização movida por competição capitalista, competição entre estados e demandas burguesas por proteção legal.",
+      "tradition": "sociologia clássica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Institucionalização como mito e cerimônia",
+      "definition": "Perspectiva em que estruturas organizacionais refletem regras institucionalizadas e legitimadas pelo ambiente — adoções que conferem legitimidade além de desempenho técnico.",
+      "tradition": "sociologia organizacional / neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Dependência de recursos",
+      "definition": "Perspectiva em que a dependência de organizações externas por recursos modela a estrutura e o comportamento organizacional.",
+      "tradition": "teoria organizacional / poder e dependência",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Profissionalização",
+      "definition": "Luta coletiva dos membros de uma ocupação para definir condições e métodos de trabalho, controlar 'a produção dos produtores' e estabelecer base cognitiva e legitimação da autonomia ocupacional.",
+      "tradition": "sociologia das profissões",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Ecologia populacional de organizações",
+      "definition": "Abordagem que explica a distribuição de formas organizacionais por seleção ambiental: formas não ótimas são eliminadas da população.",
+      "tradition": "ecologia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Institucionalismo clássico (infusão de valor)",
+      "definition": "Concepção de institucionalização como infusão de valor: práticas adquirem significado para além dos requisitos técnicos da tarefa.",
+      "tradition": "sociologia organizacional / institucionalismo clássico",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Racionalidade limitada e teoria comportamental da firma",
+      "definition": "Perspectiva da organização como sistema de decisão sob racionalidade limitada, metas ambíguas e tecnologias incertas (busca problemística, lata de lixo).",
+      "tradition": "ciência da decisão / behaviorismo organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Seleção natural e imitação evolutiva",
+      "definition": "Explicações evolucionárias para homogeneidade e inovação: seleção de formas aptas e inovação não intencional por imitação imperfeita.",
+      "tradition": "economia evolutiva",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Teorias macrossociais (funcionalismo e marxismo)",
+      "definition": "Visões em que a sociedade funciona como edifício bem proporcionado — por eficiência, valor dominante ou lógica da acumulação — contrastando com a desordem das organizações reais.",
+      "tradition": "sociologia macro / funcionalismo e marxismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Poder como definição de premissas e intervenção crítica",
+      "definition": "Visão bifocal do poder: o poder de definir premissas e normas que canalizam o comportamento, e o ponto de intervenção crítica em que elites definem modelos que perduram.",
+      "tradition": "teoria política / poder",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Modelos de limiar e comportamento coletivo",
+      "definition": "Modelos em que a adoção de uma forma dominante acelera após um ponto de inflexão, por efeitos de contágio ou micromotivos.",
+      "tradition": "sociologia / modelos de comportamento coletivo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Teoria da contingência estrutural",
+      "definition": "Perspectiva que explica a variação estrutural pelas contingências tecnológicas e ambientais de cada organização.",
+      "tradition": "teoria organizacional clássica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Teoria dos stakeholders",
+      "definition": "Perspectiva que define a empresa pelas relações com grupos que a afetam ou são afetados por ela.",
+      "tradition": "estratégia / ética empresarial",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T16",
+      "kind": "theory",
+      "name": "Teoria ator-rede / sociologia da tradução",
+      "definition": "Abordagem em que práticas circulam transformadas por redes de atores humanos e não-humanos.",
+      "tradition": "sociologia / CTS",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T17",
+      "kind": "theory",
+      "name": "Teoria da agência",
+      "definition": "Perspectiva contratual das relações principal-agente e seus custos.",
+      "tradition": "economia organizacional",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

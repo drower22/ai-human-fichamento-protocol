@@ -1,0 +1,85 @@
+{
+  "participant_id": "S13",
+  "article_id": "A17",
+  "round": 2,
+  "title": "Samarco e o rompimento na barragem de Fundão: a narrativa como um recurso performativo da prática estratégica de sensegiving inerente ao strategizing pós-desastre",
+  "authors": "Jéssica Cristina Cenia; Natália Rese",
+  "year": 2020,
+  "venue": "Organizações & Sociedade 27(93), 268-291",
+  "full_name": "Diego Yukio Tominaga",
+  "age": "40",
+  "gender": "Masculino",
+  "program": "Mestrado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Estratégia como prática social (strategy-as-practice, SAP)",
+      "authors": "Whittington; Jarzabkowski, Balogun & Seidl; Vaara & Whittington"
+    },
+    {
+      "item_id": "T2",
+      "name": "Strategizing",
+      "authors": "Jarzabkowski, Balogun & Seidl (2007)"
+    },
+    {
+      "item_id": "T3",
+      "name": "Sensegiving",
+      "authors": "Gioia & Chittipeddi (1991); Maitlis & Lawrence (2007)"
+    },
+    {
+      "item_id": "T4",
+      "name": "Sensemaking",
+      "authors": "Weick (1995); Weick, Sutcliffe & Obstfeld (2005)"
+    },
+    {
+      "item_id": "T5",
+      "name": "Narrativas organizacionais (virada narrativa)",
+      "authors": "Vaara, Sonenshein & Boje (2016); Fenton & Langley; Barry & Elmes"
+    },
+    {
+      "item_id": "T6",
+      "name": "Legitimação discursiva / legitimidade organizacional",
+      "authors": "Vaara & Monin (2010); Luckmann (1987)"
+    },
+    {
+      "item_id": "T7",
+      "name": "Open strategy (estratégia aberta)",
+      "authors": "Hautz, Seidl & Whittington (2017)"
+    },
+    {
+      "item_id": "T8",
+      "name": "Teorias da prática social",
+      "authors": "Reckwitz; Bourdieu; Giddens; Schatzki; De Certeau"
+    },
+    {
+      "item_id": "T9",
+      "name": "Dimensão ético-moral da estratégia (ética das virtudes, práxis)",
+      "authors": "Tsoukas (2018)"
+    },
+    {
+      "item_id": "T10",
+      "name": "Homo narrans (paradigma narrativo)",
+      "authors": "Fisher (1984)"
+    },
+    {
+      "item_id": "T11",
+      "name": "Licença social para operar (social license to operate)",
+      "authors": "Prno & Slocombe; literatura de licenciamento social"
+    },
+    {
+      "item_id": "T12",
+      "name": "Teoria dos stakeholders",
+      "authors": "Freeman"
+    },
+    {
+      "item_id": "T13",
+      "name": "Isomorfismo institucional",
+      "authors": "DiMaggio & Powell"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria do reparo de imagem (image repair)",
+      "authors": "Benoit"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+SUMMARY = (
+    "O artigo (ensaio programático de Richard Whittington) identifica para os pesquisadores europeus uma "
+    "oportunidade de desenvolver um programa de pesquisa para a estratégia 'após o modernismo', mais sensível à "
+    "prática: o vínculo intelectual da disciplina com a imparcialidade modernista e com a teoria econômica pode "
+    "agora ser diluído, abrindo espaço para os recursos da sociologia no entendimento da estratégia como "
+    "prática social (p.1/L005-016). O enquadre é a dupla transformação de Toulmin: a modernista, que pôs a "
+    "racionalidade teorética acima da razão prática, e a atual, de repúdio ao modernismo e recuperação da "
+    "prática — posição 'após o modernismo' mais inclusiva e pragmática que o ceticismo pós-moderno (p.2/L120-126; p.3/L127-181). "
+    "A análise historiográfica mostra que a origem da disciplina nos EUA dos anos 1960 a prendeu à ciência "
+    "positiva: Chandler e a Escola de Harvard, com grandes bases de dados e fundamento na teoria econômica de "
+    "Williamson, marginalizaram os pioneiros do planejamento orientado à prática (Ansoff, Ackoff, Drucker, "
+    "Steiner); o Strategic Management Journal publicou só 14 estudos de caso em 20 anos, 80% de autores "
+    "americanos, e 66% dos CEOs nem conheciam o periódico (p.4/L236-304). Daí a proposta de agenda dupla: "
+    "(a) sociológica — estratégia como campo de atividade social, pesquisável pelas sociologias das elites "
+    "(quem se torna poderoso para fazer estratégia), do trabalho (quais habilidades e que divisão de tarefas o "
+    "fazer estratégico envolve) e da ciência e tecnologia (como as ferramentas estratégicas são desenhadas, "
+    "difundidas e usadas) (p.5/L355-385; p.5/L386-425; p.6/L426-495); (b) gerencial — traduzir a compreensão sociológica em "
+    "vantagem prática: como se torna estrategista, como se adquirem as habilidades e como se desenham e usam "
+    "as tecnologias estratégicas (p.6/L496-511; p.6/L512-526; p.7/L527-605). Isso exige ampliar os métodos — etnografia, "
+    "pesquisa-ação e auto-investigação dos praticantes, com a pesquisa quantitativa ainda presente mas voltada "
+    "a outras variáveis (p.7/L606-628). Conclui declarando o 'fim da omissão sociológica' e uma agenda "
+    "pós-Mintzberg: a estratégia formal merece ser levada a sério porque suas ramificações para pessoas e "
+    "sociedade excedem o que Mintzberg reconhece (p.8/L634-714)."
+)
+
+RESEARCH_QUESTION = (
+    "O artigo não formula perguntas de pesquisa explícitas, mas declara seu propósito programático: 'Este "
+    "artigo identifica uma oportunidade para os pesquisadores europeus desenvolverem um programa de pesquisa "
+    "para a estratégia após o modernismo mais direcionado à prática', delineando 'elementos de uma agenda "
+    "dupla' — sociológica (compreender as elites, habilidades e tecnologias da estratégia) e gerencial "
+    "(transformar essa compreensão em vantagem prática) (p.1/L005-015; p.2/L083-102). As questões que a agenda "
+    "suscita são exemplificadas: quem alcança o poder para fazer estratégia; qual o trabalho e quais as "
+    "habilidades envolvidas; como se desenham e usam as ferramentas estratégicas; e como se torna estrategista "
+    "(p.5/L368-385; p.6/L438-441; p.6/L515-526; p.7/L527-537)."
+)
+
+V = lambda i, v, refs, quote, note: (i, v, refs, quote, note)
+VERDICTS = [
+    V("T1", "uses", ["p.2/L057-066", "p.4/L318-324", "p.2/L067-082"],
+      "A estratégia é algo que as pessoas fazem",
+      "O conceito central: a estratégia como prática social e atividade das pessoas, recuperada da posição marginal no programa modernista."),
+    V("T2", "uses", ["p.2/L034-047", "p.3/L130-143"],
+      "considerou a imparcialidade científica superior ao engajamento prático, o geral superior ao contextual, e o quantitativo superior ao qualitativo",
+      "O diagnóstico: o modernismo restringiu epistemologicamente a estratégia desde a origem nos EUA dos anos 1960."),
+    V("T3", "uses", ["p.3/L144-166", "p.3/L167-181"],
+      "um momento de repúdio ao modernismo e de recuperação da razão prática",
+      "O enquadre adotado: a segunda transformação de Toulmin — incorporar a ciência a um contexto mais amplo de prática, sem cair no pós-modernismo."),
+    V("T4", "discusses", ["p.2/L041-047", "p.3/L144-155", "p.3/L186-213"],
+      "o ceticismo pós-moderno vem minando cada vez mais a confiança em leis científicas universais",
+      "A força que dissolve o lock-in modernista; mas o artigo a rejeita como destino ('não se trata de uma simples rejeição pós-moderna')."),
+    V("T5", "uses", ["p.5/L373-386", "p.5/L386-425"],
+      "podemos nos basear na sociologia das elites para entender quem alcança o poder para fazer a estratégia",
+      "Primeira tradição da agenda sociológica: elites estratégicas internas e externas — gerentes, gurus, consultores e acadêmicos."),
+    V("T6", "uses", ["p.5/L376-379", "p.6/L430-461"],
+      "podemos perguntar: qual o trabalho envolvido ao se fazer a estratégia? Quais as habilidades necessárias?",
+      "Segunda tradição: a estratégia como trabalho, com habilidades e divisão de tarefas em grande transformação."),
+    V("T7", "uses", ["p.5/L379-385", "p.6/L462-495", "p.7/L601-605"],
+      "A sociologia da ciência e da tecnologia pode nos ajudar a analisar a criação, o uso e os efeitos das ferramentas estratégicas",
+      "Terceira tradição: ferramentas da estratégia como artefatos construídos e interpretados no uso; a 'vida em laboratório' do modelo Porter."),
+    V("T8", "discusses", ["p.4/L278-283", "p.6/L443-449", "p.8/L684-714"],
+      "Mintzberg (1994) nos ensinou que, na realidade, com grande freqüência, as estratégias simplesmente surgem",
+      "Interlocução substantiva: o artigo se declara pós-Mintzberg — a estratégia formal tem ramificações sociais que a emergência não justifica ignorar."),
+    V("T9", "discusses", ["p.4/L237-265", "p.4/L278-283", "p.8/L650-657"],
+      "O planejamento buscou validação pelo uso",
+      "A tradição marginalizada a ser recuperada: os pioneiros do planejamento, com foco na prática, perderam para a 'ciência positiva'."),
+    V("T10", "discusses", ["p.2/L091-102", "p.4/L256-304"],
+      "a diversificação e divisionalização encontraram sua base lógica na teoria econômica de Williamson (1975)",
+      "A corrente hegemônica criticada: a 'ciência positiva' de Harvard, baseada na economia, que distanciou a disciplina da prática."),
+    V("T11", "discusses", ["p.3/L189-199"],
+      "transformação do estilo imparcial do Modo 1 de pesquisa em Administração para o Modo 2, mais engajado",
+      "Contexto metodológico: o movimento Modo 1→Modo 2 é a trilha pela qual a agenda após-modernista pede métodos engajados."),
+    V("T12", "does_not_use", [], "",
+      "Mencionada apenas como avenida potencial na conclusão — 'sociologia institucional comparativa' (p.8/L673-675), sem mobilização analítica."),
+    V("T13", "does_not_use", [], "",
+      "Latour & Woolgar (1979) é citado para a 'vida em laboratório' das ferramentas (p.7/L601), mas a teoria ator-rede como programa não é invocada."),
+    V("T14", "does_not_use", [], "", "Os atores externos aparecem como elites da estratégia; a teoria dos stakeholders de Freeman não é citada."),
+    V("T15", "does_not_use", [], "", "A perspectiva de prática vem de Johnson et al. e da comunidade strategy-as-practice; Giddens não é citado."),
+    V("T16", "does_not_use", [], "", "A crítica à economia visa seu cientificismo e positivismo; a teoria da agência não aparece."),
+]
+
+KEY_CONCEPTS = [
+    dict(concept="Estratégia como prática social",
+         definition="A estratégia entendida como atividade que as pessoas realizam — uma prática social como qualquer outra (doméstica, política, educacional) —, e não apenas como atributo das organizações.",
+         quote="A estratégia é algo que as pessoas fazem",
+         source_refs=["p.2/L057-066"]),
+    dict(concept="Modernismo (na ciência social)",
+         definition="Programa epistemológico de origem iluminista que privilegia imparcialidade científica, generalidade, quantificação e elitismo científico — e que prendeu a estratégia à sua origem nos EUA dos anos 1960.",
+         quote="considerou a imparcialidade científica superior ao engajamento prático, o geral superior ao contextual, e o quantitativo superior ao qualitativo",
+         source_refs=["p.2/L037-041", "p.3/L135-143"]),
+    dict(concept="Após o modernismo",
+         definition="Posição pós-lock-in que não rejeita a ciência mas a incorpora a um contexto amplo de prática racional; mais inclusiva e pragmática que modernismo e pós-modernismo, permitindo pluralidade de práticas.",
+         quote="constitui uma formulação mais inclusiva e pragmática do que seus rivais, o modernismo e o pós-modernismo",
+         source_refs=["p.3/L167-181"]),
+    dict(concept="Agenda dupla",
+         definition="O desenho do artigo: uma agenda sociológica (entender a estratégia como prática social — elites, trabalho, tecnologias) e uma agenda gerencial (traduzir a compreensão sociológica em vantagem prática).",
+         quote="O envolvimento com a prática, no entanto, coloca a necessidade de uma agenda dupla",
+         source_refs=["p.2/L083-102", "p.5/L345-354"]),
+    dict(concept="Elites da estratégia",
+         definition="Os atores que detêm o poder de fazer estratégia: não só gerentes e planejadores seniores, mas gurus, consultores e acadêmicos influentes fora da organização, com trajetórias e redes investigáveis.",
+         quote="significa focalizar não somente os gerentes e planejadores profissionais seniores, mas também os gurus e os destacados acadêmicos",
+         source_refs=["p.5/L386-403"]),
+    dict(concept="Tecnologias da estratégia",
+         definition="As ferramentas conceituais, organizacionais e materiais para fazer estratégia — das cinco forças a ações de recuo, forças-tarefa, flip charts e gráficos — construídas socialmente e carregadas de uso retórico, político e legitimatório.",
+         quote="não precisa estar confinada ao aparato analítico que nos é familiar, mas poderia incluir também as tecnologias organizacionais da estratégia",
+         source_refs=["p.6/L462-474", "p.7/L574-590"]),
+]
+
+METHODOLOGY = dict(
+    study_type="teórico (ensaio programático de posição)",
+    design="Ensaio de proposta teórico-programática: combina historiografia da disciplina de estratégia, diagnóstico filosófico (as transformações de Toulmin) e proposta de agenda de pesquisa; sem coleta ou análise de dados primários.",
+    sample_type="não aplicável (artigo programático); usa dados bibliométricos e de pesquisa de terceiros como evidência do lock-in modernista",
+    sample_size=None,
+    sector="não aplicável",
+    period="perspectiva histórica dos anos 1960 a 2004",
+    methods=["argumentação teórica programática", "análise historiográfica da disciplina", "uso ilustrativo de evidências bibliométricas e de pesquisa publicadas por terceiros"],
+    analysis_note=("Trata-se de um ensaio de fórum, não de pesquisa empírica: o desenho é (1) diagnosticar o lock-in "
+                   "modernista da estratégia pela origem nos EUA dos anos 1960 (p.4/L236-304), ilustrado por evidências "
+                   "de terceiros — 14 estudos de caso no SMJ em 20 anos, ~80% de autores americanos, 66% dos CEOs "
+                   "desconhecendo o periódico (p.4/L290-304); (2) fornecer o enquadre filosófico das duas "
+                   "transformações de Toulmin (p.2-3/L120-181); e (3) propor a agenda dupla e suas implicações "
+                   "metodológicas — ampliar para etnografia, pesquisa-ação e auto-investigação, mantendo a "
+                   "quantitativa para outras variáveis (p.7/L606-628; p.8/L629-633)."),
+    source_refs=["p.4/L290-304", "p.7/L606-628", "p.8/L629-633"],
+)
+
+F = lambda f, t, q, refs: dict(finding=f, type=t, quote=q, source_refs=refs)
+FINDINGS = [
+    F("A estratégia está finalmente se afastando das suposições modernistas com que esteve comprometida desde a origem, há quatro décadas, nos EUA dos anos 1960 — um lock-in epistemológico marcado por confiança em números e imparcialidade.",
+      "proposition",
+      "a pesquisa em estratégia está finalmente se afastando das suposições modernistas com as quais esteve firmemente comprometida desde seu surgimento, há quatro décadas",
+      ["p.8/L634-648", "p.4/L236-255"]),
+    F("A origem americana da disciplina explica seu cientificismo: a 'ciência positiva' de Harvard, com grandes bases de dados e apoio na teoria econômica, marginalizou os pioneiros do planejamento prático — o SMJ publicou apenas 14 estudos de caso em 20 anos e 66% dos CEOs não conheciam o periódico.",
+      "proposition",
+      "o Strategic Management Journal publicou somente 14 artigos baseados em estudos de caso em seus 20 primeiros anos de existência",
+      ["p.4/L256-304"]),
+    F("A estratégia como prática social exige uma agenda dupla: a sociológica, que a trata como campo de atividade importante para a sociedade, e a gerencial, que transforma a compreensão sociológica em vantagem prática.",
+      "proposition",
+      "O envolvimento com a prática, no entanto, coloca a necessidade de uma agenda dupla",
+      ["p.2/L083-102", "p.5/L345-354"]),
+    F("A agenda sociológica se apoia em três tradições: a sociologia das elites (quem faz estratégia e como se conecta), a do trabalho (quais habilidades e que divisão de tarefas) e a da ciência e tecnologia (como as ferramentas estratégicas são criadas, difundidas e usadas).",
+      "proposition",
+      "podemos nos basear na sociologia das elites para entender quem alcança o poder para fazer a estratégia",
+      ["p.5/L368-385", "p.6/L430-495"]),
+    F("A agenda gerencial traduz a compreensão sociológica em perguntas práticas: como alguém se torna estrategista, quais habilidades são requeridas e como adquiri-las, e como desenhar, usar e disseminar tecnologias estratégicas.",
+      "proposition",
+      "um esboço sociológico da formação educacional e da trajetória de carreira do indivíduo em questão forneceria um início, mas a agenda gerencial procura traduzir essas questões em orientações mais práticas",
+      ["p.6/L496-526", "p.7/L527-537", "p.7/L538-605"]),
+    F("A agenda exige ampliar os métodos: etnografia, pesquisa em ação e auto-investigação dos praticantes trarão os insights mais profundos; a quantitativa segue, mas com a variável dependente ampliada para os padrões da sociedade e a eficácia dos praticantes.",
+      "proposition",
+      "Métodos como a etnografia, a pesquisa em ação e a auto-investigação dos praticantes provavelmente fornecerão os insights mais profundos sobre a natureza da prática",
+      ["p.7/L606-628", "p.8/L629-633"]),
+    F("A agenda é também pós-Mintzberg: é erro deduzir da emergência que a estratégia formal não importa — ela tem ramificações mais amplas para pessoas e sociedades, e a 'omissão sociológica' da disciplina deve terminar.",
+      "proposition",
+      "Devemos considerar a estratégia formal mais seriamente do que Mintzberg, pois ela possui ramificações mais amplas do que ele reconhece, para as pessoas e as sociedades",
+      ["p.8/L684-714"]),
+]
+
+CONTRIBUTION = dict(
+    theoretical=("Oferece um programa de pesquisa 'após o modernismo' para a estratégia: (1) reformula a estratégia como "
+                 "prática social e desloca o nível de análise para acima e abaixo da firma, trocando a variável de "
+                 "interesse de performance da firma para a performance do campo e dos praticantes (p.4-5/L318-344); "
+                 "(2) explicita a agenda dupla sociológica-gerencial e as três tradições sociológicas que a sustentam "
+                 "(p.5-7/L345-605); e (3) declara o fim da 'omissão sociológica' e uma agenda pós-Mintzberg que leva a "
+                 "estratégia formal a sério por suas ramificações sociais (p.8/L634-714)."),
+    practical=("A agenda gerencial transforma a compreensão sociológica em vantagem para gestores e escolas de "
+               "Administração: desenvolvimento pessoal como estrategista, identificação das 'cinco forças' que compõem "
+               "o praticante, formas formais e informais de adquirir habilidades, e melhor desenho, uso e disseminação "
+               "de ferramentas estratégicas — questões diretamente relevantes para estudantes e praticantes "
+               "(p.6/L496-526; p.7/L527-537; p.7/L538-605)."),
+    limitations=("O próprio artigo se apresenta como esboço: a agenda 'não pretende ser exaustiva' e serve para "
+                 "ilustrar o potencial de uma abordagem mais sensível à prática (p.5/L351-354). Como ensaio "
+                 "programático, não testa as proposições e depende de evidências de terceiros para caracterizar o "
+                 "lock-in modernista (p.4/L290-304)."),
+    future_research=("A agenda proposta é ela mesma o programa de pesquisa futura: estudos das elites da estratégia, "
+                     "do trabalho e das habilidades envolvidas, e das tecnologias estratégicas — com métodos "
+                     "ampliados (etnografia, pesquisa-ação, auto-investigação) e a quantitativa reorientada para "
+                     "novas variáveis dependentes (p.5-7/L345-633)."),
+    source_refs=["p.4-5/L318-344", "p.7/L606-628", "p.8/L629-633", "p.8/L634-714"],
+)

@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "article_id": "A22",
+  "round": 2,
+  "kind": "theory",
+  "generated_by": {
+    "provider": "devin",
+    "model": "swe-2-high (leitura integral assistida; data/articles/markdown/)",
+    "prompt_version": "n/a",
+    "at": "2026-11-23T23:15:38.042167+00:00",
+    "md_sha256": "7a48c4141a56c4e5f0594a62d8aadb31da240559ded125c0872f7f034dc379c9"
+  },
+  "items": [
+    {
+      "item_id": "T1",
+      "kind": "theory",
+      "name": "Hermenêutica de Profundidade (enfoque tríplice)",
+      "definition": "Referencial teórico-metodológico para interpretar formas simbólicas em três dimensões — análise sócio-histórica, análise formal/discursiva e interpretação/re-interpretação — precedidas da interpretação da doxa; baseado na Teoria Social Crítica e na hermenêutica ricoeuriana.",
+      "tradition": "sociologia da cultura / método interpretativo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T2",
+      "kind": "theory",
+      "name": "Teoria Social Crítica",
+      "definition": "Tradição que busca compreender como os efeitos sociais das formas simbólicas penetram o mundo social e reproduzem relações de poder e dominação — segunda proposição filosófica da HP.",
+      "tradition": "Escola de Frankfurt / teoria crítica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T3",
+      "kind": "theory",
+      "name": "Tradição hermenêutica fenomenológica",
+      "definition": "A genealogia da hermenêutica — da exegese dos textos sagrados à ciência da compreensão, à base metodológica das ciências humanas, à hermenêutica do Dasein e ao sistema de interpretação ricoeuriano — primeira proposição filosófica da HP.",
+      "tradition": "filosofia / hermenêutica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T4",
+      "kind": "theory",
+      "name": "Interpretação da doxa (hermenêutica da vida cotidiana)",
+      "definition": "Pré-etapa da HP: interpretação das opiniões, crenças e entendimentos compartilhados pelos sujeitos — 'momento etnográfico' que dá o ponto de partida ao trabalho hermenêutico.",
+      "tradition": "método interpretativo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T5",
+      "kind": "theory",
+      "name": "Análise de Conteúdo e Ciclos de Codificação",
+      "definition": "Técnicas de análise formal: codificação cíclica e análise sistemática de conteúdo, aplicadas com o software Atlas.ti aos atos normativos da EaD.",
+      "tradition": "métodos qualitativos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T6",
+      "kind": "theory",
+      "name": "Análise Axiológica",
+      "definition": "Método de interpretação de normativos que examina os valores inscritos nos textos legais — usado na fase de interpretação dos achados do caso.",
+      "tradition": "métodos jurídico-interpretativos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T7",
+      "kind": "theory",
+      "name": "Mudança institucional endógena (desvio–sancionamento–legitimidade)",
+      "definition": "Mecanismos endógenos de mudança: desvio do padrão, sancionamento formal por documentos normativos e legitimidade quando o desvio é compartilhado e aceito.",
+      "tradition": "institucionalismo / sociologia econômica",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T8",
+      "kind": "theory",
+      "name": "Ideologia e estratégias de operação (legitimação)",
+      "definition": "A ideologia como funcionamento das formas simbólicas que sustentam relações de dominação; a legitimidade como aceitação que as estratégias ideológicas produzem.",
+      "tradition": "teoria crítica / ideologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T9",
+      "kind": "theory",
+      "name": "Campo e estrutura social (Bourdieu)",
+      "definition": "O campo como espaço de posições e trajetórias resultante de processos de diferenciação social e de relações de força entre agentes e instituições.",
+      "tradition": "sociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T10",
+      "kind": "theory",
+      "name": "Análise do Discurso / Análise Crítica do Discurso",
+      "definition": "Estudo do discurso como conexão entre linguístico e extralinguístico nas relações sujeito-sociedade-ideologia.",
+      "tradition": "análise do discurso",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T11",
+      "kind": "theory",
+      "name": "Financeirização e mercantilização do ensino superior",
+      "definition": "A captura do ensino superior pela lógica financeira e mercantil — contexto do oligopólio da EaD.",
+      "tradition": "sociologia da educação",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T12",
+      "kind": "theory",
+      "name": "Isomorfismo institucional (DiMaggio & Powell)",
+      "definition": "Mecanismos coercivo, mimético e normativo de homogeneização organizacional.",
+      "tradition": "neoinstitucionalismo",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T13",
+      "kind": "theory",
+      "name": "Teoria ator-rede (TAR)",
+      "definition": "Ontologia relacional de redes heterogêneas de humanos e não-humanos.",
+      "tradition": "sociologia da ciência",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T14",
+      "kind": "theory",
+      "name": "Grounded theory",
+      "definition": "Construção de teoria a partir dos dados por codificação aberta, axial e seletiva.",
+      "tradition": "métodos qualitativos",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    },
+    {
+      "item_id": "T15",
+      "kind": "theory",
+      "name": "Teoria da estruturação (Giddens)",
+      "definition": "Dualidade estrutura-ação como meio e resultado das práticas.",
+      "tradition": "sociologia",
+      "origin": "ai",
+      "source_refs": [],
+      "active": true
+    }
+  ],
+  "curated": false,
+  "curated_by": "",
+  "notes": "Pool R2 construído da extração de teorias (leitura integral) + itens plausíveis-ausentes no padrão do piloto/R1. Vereditos NÃO constam aqui — estão no gabarito privado. Curadoria humana pendente."
+}

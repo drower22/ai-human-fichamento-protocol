@@ -1,0 +1,90 @@
+{
+  "participant_id": "S05",
+  "article_id": "A32",
+  "round": 2,
+  "title": "Firm Resources and Sustained Competitive Advantage",
+  "authors": "Jay Barney",
+  "year": 1991,
+  "venue": "Journal of Management 17(1), 99-120",
+  "full_name": "Leonardo Kussek de Aguiar",
+  "age": "29",
+  "gender": "Masculino",
+  "program": "Doutorado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Visão baseada em recursos (resource-based view/model)",
+      "authors": "Barney; Wernerfelt; Rumelt; Penrose"
+    },
+    {
+      "item_id": "T2",
+      "name": "Modelos ambientais de vantagem competitiva (SCP; cinco forças)",
+      "authors": "Porter; Bain; Scherer; Caves"
+    },
+    {
+      "item_id": "T3",
+      "name": "Estrutura SWOT tradicional",
+      "authors": "Andrews; Ansoff; Learned et al.; Hofer & Schendel"
+    },
+    {
+      "item_id": "T4",
+      "name": "Ambiguidade causal",
+      "authors": "Lippman & Rumelt; Reed & DeFillippi; Demsetz"
+    },
+    {
+      "item_id": "T5",
+      "name": "Dependência de trajetória e condições históricas únicas",
+      "authors": "Arthur; David; Ricardo"
+    },
+    {
+      "item_id": "T6",
+      "name": "Complexidade social dos recursos",
+      "authors": "Dierickx & Cool; Barney; Hambrick"
+    },
+    {
+      "item_id": "T7",
+      "name": "Vantagens de primeiro movedor (first-mover advantages)",
+      "authors": "Lieberman & Montgomery"
+    },
+    {
+      "item_id": "T8",
+      "name": "Barreiras de entrada/mobilidade e grupos estratégicos",
+      "authors": "Bain; Caves & Porter; McGee & Thomas"
+    },
+    {
+      "item_id": "T9",
+      "name": "Mercados de fatores estratégicos",
+      "authors": "Barney; Hirshleifer"
+    },
+    {
+      "item_id": "T10",
+      "name": "Choques schumpeterianos",
+      "authors": "Schumpeter; Rumelt & Wensley; Barney"
+    },
+    {
+      "item_id": "T11",
+      "name": "Mercados contestáveis",
+      "authors": "Baumol, Panzar & Willig"
+    },
+    {
+      "item_id": "T12",
+      "name": "Cadeia de valor",
+      "authors": "Porter"
+    },
+    {
+      "item_id": "T13",
+      "name": "Ecologia populacional",
+      "authors": "Hannan & Freeman"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria evolucionária da firma (recursos tácitos)",
+      "authors": "Nelson & Winter; Polanyi; Winter"
+    },
+    {
+      "item_id": "T15",
+      "name": "Teoria institucional e isomorfismo",
+      "authors": "DiMaggio & Powell; Meyer & Rowan"
+    }
+  ]
+}

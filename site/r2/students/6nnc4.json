@@ -1,0 +1,90 @@
+{
+  "participant_id": "S09",
+  "article_id": "A25",
+  "round": 2,
+  "title": "David versus Goliath – The resistance of non-humans in the translation process: the case of the new coronavirus disinteressement",
+  "authors": "Eduardo Guedes Villar; Karina De Déa Roglio; Marcos Vinícius Pereira Correa; Rodrigo Seefeld",
+  "year": 2021,
+  "venue": "Cadernos EBAPE.BR 19(4), 946-961",
+  "full_name": "Paulo Fernando Chmik",
+  "age": "46",
+  "gender": "Masculino",
+  "program": "Doutorado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Teoria ator-rede (TAR/ANT)",
+      "authors": "Latour; Law; Callon; Blok, Farias & Roberts"
+    },
+    {
+      "item_id": "T2",
+      "name": "Sociologia da tradução (os quatro momentos de Callon)",
+      "authors": "Callon; Akrich et al."
+    },
+    {
+      "item_id": "T3",
+      "name": "Interessement e suas imperfeições (dissidência, contra-alistamento, desemaranhamento)",
+      "authors": "Akrich, Callon, Latour & Monaghan; Bergström & Diedrich; Vickers & Fox; Greener"
+    },
+    {
+      "item_id": "T4",
+      "name": "Simetria humano/não-humano e o atuante (actant)",
+      "authors": "McLean & Hassard; Greener; Sayes; Latour"
+    },
+    {
+      "item_id": "T5",
+      "name": "Pós-humanismo, sociomaterialidade e agência distribuída",
+      "authors": "Barad; Lorino; Rammert; Sayes"
+    },
+    {
+      "item_id": "T6",
+      "name": "Poder, sujeição e resistência",
+      "authors": "Knights & Willmott; Whittle & Spicer"
+    },
+    {
+      "item_id": "T7",
+      "name": "Três correntes da tradução nos estudos organizacionais (TAR, knowledge-based, institucionalismo escandinavo)",
+      "authors": "Wæraas & Nielsen; Czarniawska & Sevón"
+    },
+    {
+      "item_id": "T8",
+      "name": "Caso extremo como estratégia de teorização",
+      "authors": "Pisano et al.; Latour"
+    },
+    {
+      "item_id": "T9",
+      "name": "Análise de narrativas/discurso como método",
+      "authors": "Rantakari & Vaara; métodos estruturalistas"
+    },
+    {
+      "item_id": "T10",
+      "name": "Lógicas institucionais",
+      "authors": "Friedland & Alford; Thornton et al."
+    },
+    {
+      "item_id": "T11",
+      "name": "Sensemaking (Weick)",
+      "authors": "Weick"
+    },
+    {
+      "item_id": "T12",
+      "name": "Teoria do framing (Goffman)",
+      "authors": "Goffman"
+    },
+    {
+      "item_id": "T13",
+      "name": "Gestão de crises",
+      "authors": "Boin; James & Wooten"
+    },
+    {
+      "item_id": "T14",
+      "name": "Isomorfismo institucional",
+      "authors": "DiMaggio & Powell"
+    },
+    {
+      "item_id": "T15",
+      "name": "Campos de batalha da pandemia: teoria dos jogos / estratégia militar",
+      "authors": "Clausewitz; Schelling"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "participant_id": "S12",
+  "article_id": "A31",
+  "round": 2,
+  "title": "Strategy-as-practice: A review and future directions for the field",
+  "authors": "Paula Jarzabkowski; Andreas Paul Spee",
+  "year": 2009,
+  "venue": "International Journal of Management Reviews 11(1), 69-95",
+  "full_name": "Rafael Bittencourt Riscarolli",
+  "age": "36",
+  "gender": "Masculino",
+  "program": "Doutorado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Strategy-as-practice: practitioners, practices e praxis",
+      "authors": "Jarzabkowski; Whittington; Johnson, Langley, Melin & Whittington"
+    },
+    {
+      "item_id": "T2",
+      "name": "Teoria social da prática (bundles, sociomaterialidade, corpo)",
+      "authors": "Schatzki; Reckwitz; Orlikowski; Chia; Bourdieu"
+    },
+    {
+      "item_id": "T3",
+      "name": "Praxis como síntese dialética micro-macro (Sztompka)",
+      "authors": "Sztompka; Reckwitz"
+    },
+    {
+      "item_id": "T4",
+      "name": "Pesquisa de processo em estratégia (process tradition)",
+      "authors": "Langley; Carter, Clegg & Kornberger; Johnson et al.; Pettigrew"
+    },
+    {
+      "item_id": "T5",
+      "name": "RBV e dynamic capabilities",
+      "authors": "Johnson et al.; Regnér; Ambrosini et al.; Barney"
+    },
+    {
+      "item_id": "T6",
+      "name": "Práticas discursivas / virada linguística",
+      "authors": "Alvesson & Karreman; Vaara; Samra-Fredericks; Balogun & Johnson"
+    },
+    {
+      "item_id": "T7",
+      "name": "Episódios estratégicos: reuniões e workshops como práticas",
+      "authors": "Hendry & Seidl; Jarzabkowski & Seidl; Hodgkinson et al.; Bourque & Johnson"
+    },
+    {
+      "item_id": "T8",
+      "name": "Institucionalização da estratégia e teoria institucional",
+      "authors": "Whittington; Lounsbury & Crumley; Lawrence & Suddaby"
+    },
+    {
+      "item_id": "T9",
+      "name": "Sensemaking organizacional",
+      "authors": "Weick; Balogun & Johnson; Rouleau; Stensaker & Falkenberg"
+    },
+    {
+      "item_id": "T10",
+      "name": "Etnometodologia e análise conversacional",
+      "authors": "Samra-Fredericks; Garfinkel"
+    },
+    {
+      "item_id": "T11",
+      "name": "Mecanismos generativos e métodos comparativos para outcomes",
+      "authors": "Tsoukas; Eisenhardt; Langley"
+    },
+    {
+      "item_id": "T12",
+      "name": "Identidade do estrategista",
+      "authors": "Beech & Johnson; Mantere"
+    },
+    {
+      "item_id": "T13",
+      "name": "Teoria da estruturação (Giddens) e agência-estrutura",
+      "authors": "Giddens; Bourdieu"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria ator-rede",
+      "authors": "Callon; Latour"
+    },
+    {
+      "item_id": "T15",
+      "name": "Teoria da atividade (activity theory)",
+      "authors": "Engeström; Jarzabkowski"
+    }
+  ]
+}

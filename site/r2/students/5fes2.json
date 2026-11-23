@@ -1,0 +1,90 @@
+{
+  "participant_id": "S14",
+  "article_id": "A28",
+  "round": 2,
+  "title": "Talking About Routines: The Role of Reflective Talk in Routine Change",
+  "authors": "Katharina Dittrich; Stéphane Guérard; David Seidl",
+  "year": 2016,
+  "venue": "Organization Science 27(3), 678-697",
+  "full_name": "Arthur Lezan Fernandes",
+  "age": "25",
+  "gender": "Masculino",
+  "program": "Mestrado",
+  "pool": [
+    {
+      "item_id": "T1",
+      "name": "Rotinas na visão prática (ostensivo × performativo)",
+      "authors": "Feldman & Pentland; Pentland & Feldman; Howard-Grenville"
+    },
+    {
+      "item_id": "T2",
+      "name": "Talk como ação e reflexão coletiva",
+      "authors": "Boden; Gherardi; Silverman; Dreyfus; Tsoukas"
+    },
+    {
+      "item_id": "T3",
+      "name": "Modelo evolucionário de mudança endógena de rotinas (variação e retenção seletiva)",
+      "authors": "Feldman & Pentland; Nelson & Winter; Pentland et al."
+    },
+    {
+      "item_id": "T4",
+      "name": "O 'paradoxo do mundo (n)unca mutável' — consistência e mudança",
+      "authors": "Cohen; Birnholtz, Cohen & Hoch; Turner & Rindova"
+    },
+    {
+      "item_id": "T5",
+      "name": "Reflexão grupal e aprendizagem em equipe na mudança de rotinas",
+      "authors": "Edmondson, Bohmer & Pisano; Obstfeld; Weick"
+    },
+    {
+      "item_id": "T6",
+      "name": "Sensemaking coletivo",
+      "authors": "Weick; Weick, Sutcliffe & Obstfeld"
+    },
+    {
+      "item_id": "T7",
+      "name": "Effortful accomplishment e reflexividade nas rotinas",
+      "authors": "Pentland & Rueter; Feldman; Dionysiou & Tsoukas"
+    },
+    {
+      "item_id": "T8",
+      "name": "Espaços institucionalizados de reflexão (episódios estratégicos, debriefings)",
+      "authors": "Hendry & Seidl; Edmondson et al.; Obstfeld"
+    },
+    {
+      "item_id": "T9",
+      "name": "Rotinas como memória procedimental e SOPs",
+      "authors": "Nelson & Winter; Cohen et al.; March & Simon"
+    },
+    {
+      "item_id": "T10",
+      "name": "Gêneros de comunicação organizacional",
+      "authors": "Orlikowski & Yates; Yates & Orlikowski; Fayard & Metiu"
+    },
+    {
+      "item_id": "T11",
+      "name": "Poder e política na reflexão coletiva",
+      "authors": "Mueller et al.; Samra-Fredericks"
+    },
+    {
+      "item_id": "T12",
+      "name": "Análise crítica do discurso / aspectos linguísticos",
+      "authors": "Fairclough; Watson; Samra-Fredericks"
+    },
+    {
+      "item_id": "T13",
+      "name": "Isomorfismo institucional",
+      "authors": "DiMaggio & Powell"
+    },
+    {
+      "item_id": "T14",
+      "name": "Teoria ator-rede",
+      "authors": "Callon; Latour"
+    },
+    {
+      "item_id": "T15",
+      "name": "Visão baseada em recursos (RBV)",
+      "authors": "Barney; Wernerfelt"
+    }
+  ]
+}
