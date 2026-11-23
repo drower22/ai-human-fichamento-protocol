@@ -124,6 +124,9 @@
     font-size:13.5px;margin:0 0 8px}
   .meta dt{font-weight:700;color:var(--slate);white-space:nowrap}
   .meta dd{margin:0;color:var(--ink)}
+  .refc{display:inline-block;font-size:10px;font-family:monospace;
+    background:#eef2ff;color:#4338ca;border-radius:4px;
+    padding:1px 5px;margin-left:5px;vertical-align:middle}
   @media(max-width:1350px){#pairSec{margin-left:0;margin-right:0}}
   @media(max-width:900px){.paircols{grid-template-columns:1fr}
     .pcol .body{height:auto;max-height:70vh}}
@@ -512,22 +515,23 @@ function renderFich(c){
   const m=c.methodology||{};
   let h=`<h4>Resumo executivo</h4><p>${esc(c.executive_summary)}</p>
     <h4>Questão de pesquisa</h4><p>${esc(c.research_question)}</p>`;
+  const rfs=r=>(r||[]).map(x=>`<span class="refc">${esc(x)}</span>`).join('');
   if((c.theory_verdicts||[]).length)h+=`<h4>Teorias</h4>`+
     li(c.theory_verdicts.map(v=>`${esc(v.name)}`+
-      `<span class="verd ${v.verdict}">${VPT[v.verdict]||v.verdict}</span>`));
+      `<span class="verd ${v.verdict}">${VPT[v.verdict]||v.verdict}</span>${rfs(v.source_refs)}`));
   if((c.theories||[]).length)h+=`<h4>Outras teorias citadas</h4>`+
-    li(c.theories.map(t=>esc(t.name)));
+    li(c.theories.map(t=>esc(t.name)+rfs(t.source_refs)));
   if((c.key_concepts||[]).length)h+=`<h4>Conceitos-chave</h4>`+
-    li(c.key_concepts.map(k=>`<b>${esc(k.concept)}</b> ${esc(k.definition)}`));
+    li(c.key_concepts.map(k=>`<b>${esc(k.concept)}</b> ${esc(k.definition)}${rfs(k.source_refs)}`));
   const rows=[['Tipo',m.study_type],['Desenho',m.design],
     ['Amostra',[m.sample_type,m.sample_size!=null?`N=${m.sample_size}`:''].filter(Boolean).join(' · ')],
     ['Setor',m.sector],['Período',m.period],
     ['Métodos',(m.methods||[]).join(', ')]].filter(r=>r[1]);
   h+=`<h4>Metodologia</h4><dl class="meta">`+
     rows.map(r=>`<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join('')+`</dl>`;
-  if(m.analysis_note)h+=`<p>${esc(m.analysis_note)}</p>`;
+  if(m.analysis_note)h+=`<p>${esc(m.analysis_note)}${rfs(m.source_refs)}</p>`;
   if((c.main_findings||[]).length)h+=`<h4>Achados principais</h4>`+
-    li(c.main_findings.map(f=>esc(f.finding)));
+    li(c.main_findings.map(f=>esc(f.finding)+rfs(f.source_refs)));
   const cb=c.contribution||{};
   if(cb.theoretical||cb.practical)h+=`<h4>Contribuição</h4>
     <dl class="meta"><dt>Teórica</dt><dd>${esc(cb.theoretical)}</dd>
