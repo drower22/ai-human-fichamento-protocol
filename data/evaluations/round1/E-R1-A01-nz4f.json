@@ -1,0 +1,51 @@
+{
+  "kind": "evaluation",
+  "judge_id": "nz4f",
+  "round": 1,
+  "article_id": "A01",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 7,
+      "key_concepts": 7,
+      "methodology": 7,
+      "main_findings": 7,
+      "contribution": 7
+    },
+    "B": {
+      "executive_summary": 6,
+      "research_question": 6,
+      "theories": 6,
+      "key_concepts": 6,
+      "methodology": 5,
+      "main_findings": 6,
+      "contribution": 6
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "O fichamento está muito bem elaborado.",
+      "missing": "O fichamento está muito bem elaborado."
+    },
+    "B": {
+      "question_would_ask": "O fichamento está bem elaborado, porém os achados apontados não são exaustivos.",
+      "missing": "Faltou detalhamento e também compreensão do conjunto teórico utilizado."
+    },
+    "preferred": "A",
+    "why": "Está mais detalhado e apresenta maior domínio do escopo ampliado do trabalho.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {},
+      "note": ""
+    },
+    "B": {
+      "by_section": {},
+      "note": ""
+    }
+  },
+  "notes": ""
+}
