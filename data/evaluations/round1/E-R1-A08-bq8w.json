@@ -1,0 +1,97 @@
+{
+  "kind": "evaluation",
+  "judge_id": "bq8w",
+  "round": 1,
+  "article_id": "A08",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 6,
+      "research_question": 2,
+      "theories": 5,
+      "key_concepts": 5,
+      "methodology": 4,
+      "main_findings": 6,
+      "contribution": 7
+    },
+    "B": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 7,
+      "key_concepts": 7,
+      "methodology": 7,
+      "main_findings": 7,
+      "contribution": 6
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Questionaria, especialmente, o problema/objetivo do artigo. Além das Teorias que são mobilizadas.",
+      "missing": "Faltaram conceitos centrais como figura, vent, comunicação. Além do mais, o problema de pesquisa não corresponde ao que o estudo se propõe."
+    },
+    "B": {
+      "question_would_ask": "Questionaria as contribuições, acredito que o artigo tem mais elementos.",
+      "missing": "A única questão que ficou faltando foi a  contribuição a respeito dos conceitos de ventriloquismo."
+    },
+    "preferred": "B",
+    "why": "O fichamento B está bem completo, é muito bem feito e atende a maioria dos itens. O fichamento A demonstra uma leitura superficial do artigo.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {
+        "executive_summary": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "research_question": {
+          "codes": [
+            "hallucination",
+            "misinterpretation"
+          ],
+          "other_note": ""
+        },
+        "theories": {
+          "codes": [
+            "hallucination",
+            "misinterpretation"
+          ],
+          "other_note": ""
+        },
+        "key_concepts": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "methodology": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        },
+        "main_findings": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        }
+      },
+      "note": ""
+    },
+    "B": {
+      "by_section": {
+        "contribution": {
+          "codes": [
+            "omission"
+          ],
+          "other_note": ""
+        }
+      },
+      "note": ""
+    }
+  },
+  "notes": ""
+}
