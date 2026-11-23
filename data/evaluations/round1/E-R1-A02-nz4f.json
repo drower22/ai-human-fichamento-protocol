@@ -1,0 +1,51 @@
+{
+  "kind": "evaluation",
+  "judge_id": "nz4f",
+  "round": 1,
+  "article_id": "A02",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 7,
+      "key_concepts": 7,
+      "methodology": 7,
+      "main_findings": 7,
+      "contribution": 7
+    },
+    "B": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 7,
+      "methodology": 6,
+      "main_findings": 6,
+      "contribution": 7
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "O fichamento está bem desenvolvido.",
+      "missing": "O fichamento está bem desenvolvido."
+    },
+    "B": {
+      "question_would_ask": "O fichamento está bem desenvolvido.",
+      "missing": "O fichamento está bem desenvolvido."
+    },
+    "preferred": "empate",
+    "why": "Os dois fichamentos conseguem fazer uma excelente apreensão do texto. Usam formas de apresentação distintas, mas o objeto está bem contemplado nos dois.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {},
+      "note": ""
+    },
+    "B": {
+      "by_section": {},
+      "note": ""
+    }
+  },
+  "notes": ""
+}
