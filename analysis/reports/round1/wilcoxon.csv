@@ -1,0 +1,9 @@
+section,n,median_diff,mean_diff,p_wilcoxon,rank_biserial
+executive_summary,12,1.0,0.69,0.0383,0.654
+research_question,10,0.5,1.19,0.1002,0.582
+theories,9,0.0,0.44,0.1003,0.6
+key_concepts,11,0.5,0.88,0.0546,0.636
+methodology,13,2.0,2.06,0.0013,1.0
+main_findings,12,1.0,1.38,0.0019,1.0
+contribution,13,1.5,1.38,0.0053,0.868
+TOTAL (todas as seções),80,1.0,1.14,0.0,0.796

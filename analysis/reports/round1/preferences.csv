@@ -1,0 +1,17 @@
+article,judge,choice,preferred_source,confidence,why
+A01,nz4f,A,ai,alta,Está mais detalhado e apresenta maior domínio do escopo ampliado do trabalho.
+A02,nz4f,empate,tie,alta,"Os dois fichamentos conseguem fazer uma excelente apreensão do texto. Usam formas de apresentação distintas, mas o objeto está bem contemplado nos dois."
+A03,nz4f,B,ai,alta,Ele é detalhado e fiel ao que o artigo apresenta.
+A04,nz4f,B,ai,alta,É mais fiel e preciso ao texto objeto do fichamento.
+A05,bq8w,A,ai,alta,"O fichamento A compreendeu aspectos fundamentais como problema, metodologia e achados. Enquanto o fichamento B, inventou várias informações e mostra um entendimento limitado e inventivo do artigo."
+A06,bq8w,A,ai,alta,"O fichamento A conseguiu ao menos captar a ideia central do artigo e a metodologia. Embora omitiu algumas contribuições, a análise mostra uma leitura aprofundada do artigo. O fichamento B possui informações inventadas."
+A07,bq8w,B,ai,alta,"O fichamento B compreende melhor o que oa rtigo se refere, destaca que é um editorial de diversidade e qual o propósito do artigo. Outro ponto relevante, é que se trata de um ensaio, então não é uma análise histórica conceitual, mas um ensaio teórico."
+A08,bq8w,B,ai,alta,"O fichamento B está bem completo, é muito bem feito e atende a maioria dos itens. O fichamento A demonstra uma leitura superficial do artigo."
+A09,mv3r,empate,tie,alta,"Os dois fichamentos apresentam uma estrutura semelhante, mas o fichamento B conseguiu evoluiu um pouco mais os aspectos teóricos."
+A10,mv3r,B,ai,alta,"O fichamento B considerou mais elementos no fichamento, principalmente conceitos e teorias."
+A11,mv3r,empate,tie,alta,Ambos os fichamentos apresentaram uma estrutura muito próxima e completa para sintetizar as ideias principais do texto.
+A12,mv3r,A,ai,media,O fichamento A ficou mais organizado e conseguiu sintetizar os aspectos principais do estudo.
+A13,gx6t,B,ai,alta,Achei o fichamento B completo e bem detalhado. Traduz melhor o cerne do artigo.
+A14,gx6t,A,ai,alta,Mais completo e detalhado.
+A15,gx6t,B,ai,alta,"Mais completo e detalhado, além de reproduzir com mais fidedignidade os achados do artigo."
+A16,gx6t,A,ai,alta,"Comparando ambos traz mais riqueza e aprofundamento, mesmo ambos contendo alguns erros."
