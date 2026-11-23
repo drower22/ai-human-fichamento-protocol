@@ -1,0 +1,51 @@
+{
+  "kind": "evaluation",
+  "judge_id": "nz4f",
+  "round": 1,
+  "article_id": "A03",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 6,
+      "methodology": 5,
+      "main_findings": 5,
+      "contribution": 5
+    },
+    "B": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 5,
+      "methodology": 7,
+      "main_findings": 7,
+      "contribution": 7
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Detalhamento, o fichamento é sintético demais, não representando a potência da contribuição do trabalho.",
+      "missing": "Faltou detalhar todos os aspectos e aprofundar melhor o domínio teórico envolvido."
+    },
+    "B": {
+      "question_would_ask": "A classificação do uso das teorias envolvidas.",
+      "missing": "Precisão em alguns aspectos, mas ele é bem abrangente e bastante fiel."
+    },
+    "preferred": "B",
+    "why": "Ele é detalhado e fiel ao que o artigo apresenta.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {},
+      "note": ""
+    },
+    "B": {
+      "by_section": {},
+      "note": ""
+    }
+  },
+  "notes": ""
+}
