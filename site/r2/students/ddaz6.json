@@ -86,5 +86,487 @@
       "name": "Teoria da atividade (activity theory)",
       "authors": "Engeström; Jarzabkowski"
     }
-  ]
+  ],
+  "r1_pair": {
+    "article_id": "A13",
+    "title": "Observação participante em estudos de Administração da Informação no Brasil",
+    "authors": "Gustavo Abib, Norberto Hoppen, Paulo Hayashi Junior",
+    "year": 2013,
+    "venue": "RAE-Revista de Administração de Empresas 53(6), 604-616",
+    "A": {
+      "executive_summary": "Problema: “O uso da observação participante nos estudos da área de Administração da Informação (AI) no Brasil ainda é incipiente” (p.1 L019 - L020) \nabordagem teórica: Este artigo apresenta elementos essenciais do uso da observação participante, seus principais benefícios, suas dificuldades e desafios enfrentados para a sua adoção (p.1 L020 - L021) \nMétodo: “Foram analisados estudos empíricos de AI que adotaram a observação participante e uma experiência vivenciada em pesquisa com 12 meses no campo” (p.1 L021 - L023)\nAchados e contribuições: “discutindo as lições apreendidas e apresentando sugestões para fomentar a adoção da observação participante em pesquisas de AI.” (p.1 L023 - L024)",
+      "research_question": "Quais são os principais benefícios, as fragilidades e as dificuldades verificados com a adoção da observação participante e como eles influenciam a pesquisa?",
+      "theories": [],
+      "theory_verdicts": [
+        {
+          "item_id": "T1",
+          "name": "Observação participante / etnografia",
+          "verdict": "uses",
+          "source_refs": [
+            "p.4 L269",
+            "p.4 L273",
+            "L290"
+          ],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T2",
+          "name": "Tipologia de papéis de membro em pesquisa de campo",
+          "verdict": "uses",
+          "source_refs": [
+            "p.4 L272",
+            "L345"
+          ],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T3",
+          "name": "Teoria ator-rede",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T4",
+          "name": "Elementos empíricos e teóricos do método (liberdade, acesso, relacionamento, confiabilidade, especificidade, objetividade)",
+          "verdict": "uses",
+          "source_refs": [
+            "p.11 L1163",
+            "L1173"
+          ],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T5",
+          "name": "Confiabilidade e validade na pesquisa qualitativa",
+          "verdict": "uses",
+          "source_refs": [
+            "p.11 L1111",
+            "L112",
+            "p.12 L1236",
+            "L1239"
+          ],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T6",
+          "name": "Epistemologias interpretativa e crítica vs. positivista",
+          "verdict": "uses",
+          "source_refs": [
+            "p.2 L076",
+            "L081",
+            "p.3 L196",
+            "L202",
+            "p.3 L218",
+            "L224",
+            "p.3 L230",
+            "L233",
+            "p.2 L109",
+            "L118"
+          ],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T7",
+          "name": "Metodologias qualitativas e teoria fundamentada nos dados",
+          "verdict": "uses",
+          "source_refs": [
+            "p.3 L206",
+            "L217"
+          ],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T8",
+          "name": "Fenomenologia",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T9",
+          "name": "Estudo de caso único e revelador",
+          "verdict": "uses",
+          "source_refs": [
+            "p.7 L781",
+            "L787"
+          ],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T10",
+          "name": "Alinhamento estratégico negócio-TI e sua dimensão social",
+          "verdict": "uses",
+          "source_refs": [
+            "p.7 L735",
+            "L749",
+            "p.11 L1151",
+            "L1162"
+          ],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T11",
+          "name": "Drifting da tecnologia",
+          "verdict": "uses",
+          "source_refs": [
+            "p.3 L193",
+            "L205"
+          ],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T12",
+          "name": "Estratégia como prática",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T13",
+          "name": "Dualidade da tecnologia",
+          "verdict": "uses",
+          "source_refs": [
+            "p.2 L109",
+            "L111",
+            "p.3 L193",
+            "L205"
+          ],
+          "quote": "",
+          "note": ""
+        }
+      ],
+      "key_concepts": [
+        {
+          "concept": "Observação participante",
+          "definition": "um método no qual o observador participa \ndo dia a dia das pessoas que estão sendo estu\ndadas, seja abertamente no papel de pesquisa\ndor ou secretamente em algum papel disfarçado, \nobservando como as coisas acontecem, ouvindo \no que é dito e questionado pelas pessoas duran\nte um período de tempo. (p.3 L245 -  L251)\n\nNuma definição mais operacional, Denzin (1989, p. 157\n158) apresenta a observação participante “como uma estratégia \nde campo que combina, simultaneamente, a análise de documentos, a entrevista de informantes, a participação, a observa\nção direta, e a introspecção” (p.4 L269 - L317)",
+          "quote": "",
+          "source_refs": [
+            "p.3 L245",
+            "L251",
+            "p.4 L269",
+            "L317"
+          ]
+        }
+      ],
+      "methodology": {
+        "study_type": "revisão",
+        "design": "A análise da adoção da observação participante em AI teve  como base: (i) a revisão dos artigos da área que utilizam a ob servação participante como método de coleta de dados publi cados, nos últimos 10 anos, em periódicos de qualidade do Bra sil, e (ii) o estudo de uma experiência vivenciada com a adoção  do método",
+        "sample_type": "Foram analisados 273 arti gos publicados em 12 periódicos nacionais da área de Adminis tração, dos extratos A (1 e 2) e B (1 e 2)",
+        "sample_size": null,
+        "sector": "Onze dos periódicos abrangem toda a área e  um é específico de AI",
+        "period": "O interstício de 2000-2010",
+        "methods": [
+          "Revisão bibliográfica",
+          "análise documental",
+          "observação participante",
+          "entrevistas"
+        ],
+        "analysis_note": "Foi realizada a revisão de 273 artigos combinado com o relator de uma experiência empírica de um estudo de caso punico",
+        "source_refs": []
+      },
+      "main_findings": [
+        {
+          "finding": "Baixa utilização da observação participante",
+          "type": "empirical",
+          "quote": "",
+          "source_refs": [
+            "p.6 L598-599"
+          ]
+        },
+        {
+          "finding": "Descrição metodológica com fragilidade",
+          "type": "empirical",
+          "quote": "",
+          "source_refs": [
+            "p.6 L646-654"
+          ]
+        }
+      ],
+      "contribution": {
+        "theoretical": "A principal contribuição do artigo é metodológica, com implicações teóricas. Os autores não apresentam uma nova teoria organizacional, mas sistematizam os conhecimentos sobre a observação participante, evidenciando seus benefícios, fragilidades e dificuldades de aplicação nas pesquisas em Administração da Informação",
+        "practical": "A contribuição prática está na apresentação de orientações para planejar, executar e analisar pesquisas que utilizam observação participante."
+      }
+    },
+    "B": {
+      "executive_summary": "O artigo apresenta elementos essenciais da observação participante, seus benefícios, dificuldades e desafios de adoção em estudos de Administração da Informação (AI) no Brasil, onde seu uso ainda é incipiente (p.1/L019-024; p.2/L114-118). Parte do crescimento das pesquisas qualitativas e do deslocamento da AI do tecnológico para o gerencial, o organizacional e o social, que pede abordagens interpretativas e críticas (p.2/L073-081; p.3/L193-205). Define a observação participante, ligada à etnografia, apresenta seus três tipos (periférica, ativa e completa) e discute críticas como a perda de objetividade e a não generalização (p.3/L239-261; p.4/L322-324; p.4/L299-312; p.4/L357-367). O método combina duas fontes: a revisão de 273 artigos de 12 periódicos nacionais de Administração publicados de 2000 a 2010, dos quais apenas cinco (1,8%) usaram observação participante, e a análise de uma experiência de 12 meses de um dos autores, em um estudo de caso único e revelador sobre alinhamento estratégico entre negócio e TI em uma empresa de nome fictício, TESLA (p.2/L144-166; p.3/L170-191; p.6/L598-599; p.7/L735-749; p.7/L772-779). Os cinco artigos descrevem pouco o método, e nenhum detalha o papel do observador, mas mostram ganhos como captar engajamento e frustrações (p.6/L646-652; p.6/L702-706; p.7/L707-711). A experiência mostrou benefícios, como acessar conhecimentos tácitos e pontos de vista informais, e dificuldades, como a demora de seis meses até a reunião que viabilizou a pesquisa, a definição do papel, a aceitação, a objetividade e o tempo (p.8/L808-854; p.8/L877-882; p.8/L893-902; p.9/L903-941; p.9/L952-973; p.10/L1005-1009). O artigo propõe ações com base em seis elementos: liberdade de movimentação, acesso, relacionamento, confiabilidade, especificidade e objetividade (p.11/L1166-1173; p.11/L1174-1204; p.12/L1208-1251).",
+      "research_question": "O artigo não enuncia uma pergunta de pesquisa; declara como objetivo identificar e discutir os principais benefícios, fragilidades e dificuldades da adoção da observação participante em estudos de AI (p.2/L114-118). A pergunta citada no texto, sobre a dimensão social no alinhamento estratégico, pertence ao estudo de caso usado como experiência (p.7/L737-740). Reconstruída como pergunta implícita: que benefícios, fragilidades e dificuldades a observação participante traz à pesquisa em AI no Brasil e como superá-las (p.2/L114-118; p.11/L1163-1166).",
+      "theories": [],
+      "theory_verdicts": [
+        {
+          "item_id": "T1",
+          "name": "Observação participante / etnografia",
+          "verdict": "uses",
+          "source_refs": [
+            "p.2/L114-121",
+            "p.3/L239-242"
+          ],
+          "quote": "o objetivo deste estudo é identificar e discutir os principais benefícios, as fragilidades e as dificuldades verificados com a adoção da observação participante",
+          "note": "Método que é objeto do artigo; descrito como principal ferramenta operacional da etnografia."
+        },
+        {
+          "item_id": "T2",
+          "name": "Tipologia de papéis de membro em pesquisa de campo",
+          "verdict": "uses",
+          "source_refs": [
+            "p.4/L322-324",
+            "p.4/L272-290",
+            "p.8/L893-902"
+          ],
+          "quote": "Adler e Adler (1987) dividem a observação participante em três categorias – periférica, ativa e completa",
+          "note": "A tipologia de Adler e Adler (Quadro 1) é usada para classificar o papel do pesquisador na experiência (observação completa)."
+        },
+        {
+          "item_id": "T3",
+          "name": "Teoria ator-rede",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "A teoria ator-rede não é mencionada; aparece apenas um título de referência com 'actor' (p.13/L1291)."
+        },
+        {
+          "item_id": "T4",
+          "name": "Elementos empíricos e teóricos do método (liberdade, acesso, relacionamento, confiabilidade, especificidade, objetividade)",
+          "verdict": "uses",
+          "source_refs": [
+            "p.11/L1166-1173"
+          ],
+          "quote": "Esses elementos teóricos são: a liberdade de movimentação do pesquisador na organização; o acesso a informações relevantes para o estudo; a construção de relacionamento com os informantes; a confiabilidade da coleta e análise das informações; a atenção com a especificidade do conhecimento e a objetividade do pesquisador",
+          "note": "Os seis elementos, adaptados de Johnson et al. (2006), organizam a síntese de desafios e ações."
+        },
+        {
+          "item_id": "T5",
+          "name": "Confiabilidade e validade na pesquisa qualitativa",
+          "verdict": "uses",
+          "source_refs": [
+            "p.11/L1111-1135"
+          ],
+          "quote": "a confiabilidade na observação participante caracteriza-se pelo grau em que os achados independem de circunstâncias acidentais",
+          "note": "Confiabilidade e validade são discutidas com Angrosino e Kirk e Miller e ligadas aos procedimentos da experiência."
+        },
+        {
+          "item_id": "T6",
+          "name": "Epistemologias interpretativa e crítica vs. positivista",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.3/L193-205"
+          ],
+          "quote": "requer abordagens epistemológicas, como a interpretativa e a crítica, em contraponto à positivista, e metodologias de pesquisa qualitativas em substituição às quantitativas",
+          "note": "Posiciona a observação participante entre abordagens interpretativa e crítica, em contraste com a positivista."
+        },
+        {
+          "item_id": "T7",
+          "name": "Metodologias qualitativas e teoria fundamentada nos dados",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.3/L206-217",
+            "p.2/L087-091"
+          ],
+          "quote": "As metodologias qualitativas, conforme Strauss e Corbin (2008), têm como principais contribuições: (i) a necessidade de sair a campo para descobrir o que está acontecendo",
+          "note": "Metodologias qualitativas, incluindo a grounded theory, são apresentadas como contexto da observação participante."
+        },
+        {
+          "item_id": "T8",
+          "name": "Fenomenologia",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "A fenomenologia aparece apenas em uma lista de metodologias pouco usadas em AI (p.5/L494-495)."
+        },
+        {
+          "item_id": "T9",
+          "name": "Estudo de caso único e revelador",
+          "verdict": "uses",
+          "source_refs": [
+            "p.7/L781-787"
+          ],
+          "quote": "O estudo de caso, caracterizado como caso único e revelador, é adequado às pesquisas em AI quando se busca o entendimento de interações complexas e ambíguas entre organizações, tecnologias e pessoas",
+          "note": "O desenho da experiência relatada é um estudo de caso único e revelador."
+        },
+        {
+          "item_id": "T10",
+          "name": "Alinhamento estratégico negócio-TI e sua dimensão social",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.7/L735-749"
+          ],
+          "quote": "A experiência vivenciada com a observação participante envolveu o estudo da dimensão social no processo de alinhamento estratégico entre negócio e TI",
+          "note": "É o tema da experiência usada para ilustrar a observação participante, não o foco teórico do artigo."
+        },
+        {
+          "item_id": "T11",
+          "name": "Drifting da tecnologia",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "O drifting aparece em um item da lista de benefícios, com definição de Ciborra (p.8/L838-843), sem desenvolvimento."
+        },
+        {
+          "item_id": "T12",
+          "name": "Estratégia como prática",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "'Práticas e práxis estratégicas' aparece em um item da lista de benefícios (p.8/L836-837) e no título da tese de Abib (p.13/L1279-1280), sem desenvolvimento."
+        },
+        {
+          "item_id": "T13",
+          "name": "Dualidade da tecnologia",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "A dualidade da tecnologia aparece só como citação de Orlikowski (1992) (p.3/L195-196) e em referência (p.13/L1373)."
+        }
+      ],
+      "key_concepts": [
+        {
+          "concept": "Observação participante",
+          "definition": "Estratégia de pesquisa em que observador e observados interagem no ambiente de trabalho destes, com aprendizado pelo envolvimento nas atividades cotidianas; os observados são vistos como sujeitos que contribuem para o estudo.",
+          "quote": "Angrosino (2009), por sua vez, caracteriza a observação participante como um processo de aprendizagem pelo envolvimento nas atividades cotidianas de quem participa da pesquisa",
+          "source_refs": [
+            "p.3/L252-261",
+            "p.4/L263-268"
+          ]
+        },
+        {
+          "concept": "Tipos de observação participante (periférica, ativa e completa)",
+          "definition": "Três categorias de Adler e Adler: periférica, de posição marginal e pouco comprometida; ativa, de papel mais central e funcional; completa, por oportunidade ou por conversão.",
+          "quote": "Adler e Adler (1987) dividem a observação participante em três categorias – periférica, ativa e completa",
+          "source_refs": [
+            "p.4/L322-324",
+            "p.4/L272-290"
+          ]
+        },
+        {
+          "concept": "Participação natural e artificial",
+          "definition": "Na natural o observador já faz parte do grupo e deve cuidar da pluralidade de visões e da capacidade crítica; na artificial ele se junta ao grupo para pesquisar e precisa de aceitação e legitimação.",
+          "quote": "A participação resulta de um processo natural ou artificial",
+          "source_refs": [
+            "p.4/L291-298"
+          ]
+        },
+        {
+          "concept": "Confiabilidade e validade na observação participante",
+          "definition": "Confiabilidade é o grau em que os achados independem de circunstâncias acidentais; validade é o grau em que as informações são interpretadas corretamente e críveis para observados e leitores.",
+          "quote": "a confiabilidade na observação participante caracteriza-se pelo grau em que os achados independem de circunstâncias acidentais",
+          "source_refs": [
+            "p.11/L1111-1127"
+          ]
+        },
+        {
+          "concept": "Objetividade do pesquisador",
+          "definition": "Compromisso com a exposição sistemática das ideias e do conhecimento adquirido para que sejam criticados e complementados, e não neutralidade.",
+          "quote": "A objetividade do pesquisador (em vez da neutralidade muitas vezes mencionada) resulta do seu comprometimento com as atividades de campo e da transparência das suas ações",
+          "source_refs": [
+            "p.12/L1236-1244"
+          ]
+        }
+      ],
+      "methodology": {
+        "study_type": "empírico (qualitativo)",
+        "design": "Revisão de artigos nacionais de AI que usaram observação participante, somada à análise de uma experiência de observação participante em estudo de caso único e revelador.",
+        "sample_type": "273 artigos de 12 periódicos nacionais (cinco com observação participante) e uma experiência de 12 meses em uma empresa de energia renovável",
+        "sample_size": 273,
+        "sector": "administração da informação (artigos); energia renovável (experiência relatada)",
+        "period": "artigos publicados de 2000 a 2010; 12 meses de campo na experiência relatada",
+        "methods": [
+          "revisão da literatura",
+          "classificação de artigos",
+          "estudo de caso único",
+          "observação participante",
+          "análise de conteúdo categórica"
+        ],
+        "analysis_note": "Os autores analisaram 273 artigos de 12 periódicos A1, A2, B1 e B2 no período 2000-2010 (p.2/L150-166), leram resumos e seções de metodologia, criaram uma base de classificação e analisaram em profundidade os artigos com observação participante, com segunda análise três meses depois (p.3/L170-184). A experiência foi um estudo de caso de 12 meses, com 29 reuniões e 79 páginas de notas (p.7/L772-799), complementada por entrevistas e análise de documentos (p.8/L858-865) e analisada por análise de conteúdo categórica (p.9/L993-998).",
+        "source_refs": [
+          "p.2/L143-166",
+          "p.3/L170-191",
+          "p.7/L772-799",
+          "p.9/L993-998"
+        ]
+      },
+      "main_findings": [
+        {
+          "finding": "Apenas cinco dos 273 artigos de AI da última década (1,8%) adotaram a observação participante como estratégia de coleta de dados.",
+          "type": "empirical",
+          "quote": "Na amostra pesquisada, apenas cinco artigos (1,8% dos artigos publicados em AI na última década) adotaram a",
+          "source_refs": [
+            "p.6/L598-599",
+            "p.6/L658-661"
+          ]
+        },
+        {
+          "finding": "Os artigos que usaram observação participante descrevem pouco o método e nenhum detalha o papel do observador.",
+          "type": "empirical",
+          "quote": "Alguns artigos mencionaram que, além das entrevistas ou questionários, adotaram a observação para coletar dados, mas não apresentaram detalhes",
+          "source_refs": [
+            "p.6/L646-652",
+            "p.6/L697-701"
+          ]
+        },
+        {
+          "finding": "A observação participante permitiu captar aspectos individuais, como engajamento e frustrações, e uma compreensão mais detalhada do fenômeno.",
+          "type": "empirical",
+          "quote": "O foco no nível micro traz como benefício uma compreensão mais detalhada do fenômeno, enriquecendo o entendimento do todo",
+          "source_refs": [
+            "p.6/L702-706",
+            "p.7/L707-711"
+          ]
+        },
+        {
+          "finding": "Na experiência vivenciada, a observação participante facilitou a compreensão de aspectos sociais ligados a conhecimentos tácitos e pontos de vista informais, que entrevistas e questionários não explicitam.",
+          "type": "empirical",
+          "quote": "A observação participante facilitou a compreensão de aspectos sociais que resultaram de conhecimentos tácitos e pontos de vista informais raramente exteriorizados, não explicitados em entrevistas e tampouco em questionários",
+          "source_refs": [
+            "p.8/L808-854"
+          ]
+        },
+        {
+          "finding": "Entrar no campo, definir o papel do pesquisador e ser aceito e legitimado pelo grupo foram dificuldades da experiência, com meses de espera para a primeira reunião formal.",
+          "type": "empirical",
+          "quote": "O contato direto com a presidência resultou numa demora de quatro meses para se agendar uma reunião presencial",
+          "source_refs": [
+            "p.8/L871-887",
+            "p.8/L893-902",
+            "p.9/L914-920"
+          ]
+        },
+        {
+          "finding": "Há uma síntese de ações para adotar a observação participante em AI: tratar a entrada no nível estratégico e formalizar o papel, entregar relatório executivo, preferir não gravar, usar protocolo e base de dados e planejar o tempo.",
+          "type": "proposition",
+          "quote": "Sugere-se, por isso, que a entrada do pesquisador no campo seja tratada no nível estratégico da organização e que seu papel e as expectativas sejam formalizados por ambas as partes",
+          "source_refs": [
+            "p.11/L1174-1184",
+            "p.11/L1192-1204",
+            "p.12/L1216-1222",
+            "p.10/L1005-1009"
+          ]
+        },
+        {
+          "finding": "Apesar da limitação da influência da visão pessoal do pesquisador, os benefícios da observação participante justificam seu uso em pesquisas de AI.",
+          "type": "proposition",
+          "quote": "Uma importante limitação dos estudos que adotam a observação participante decorre da influência da visão pessoal dos pesquisadores nos resultados, contudo os benefícios potenciais proporcionados pela metodologia para as pesquisas de AI",
+          "source_refs": [
+            "p.12/L1265-1277"
+          ]
+        }
+      ],
+      "contribution": {
+        "theoretical": "Contribui para o conhecimento sobre métodos qualitativos e, em especial, sobre a observação participante em AI, ao sistematizar elementos do método, benefícios, fragilidades e dificuldades (p.2/L128-133; p.1/L019-024). Organiza seis elementos de rigor da observação participante a partir de Johnson et al. (2006) (p.11/L1166-1173) e espera estimular pesquisas qualitativas longitudinais no Brasil (p.12/L1272-1277).",
+        "practical": "Dirige-se a pesquisadores de AI e oferece sugestões práticas de entrada no campo, papel do pesquisador, registro de notas e protocolo (p.11/L1174-1205; p.12/L1206-1235). Não traz implicações gerenciais para organizações."
+      }
+    },
+    "human_side": "A"
+  }
 }

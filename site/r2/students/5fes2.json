@@ -86,5 +86,523 @@
       "name": "Visão baseada em recursos (RBV)",
       "authors": "Barney; Wernerfelt"
     }
-  ]
+  ],
+  "r1_pair": {
+    "article_id": "A12",
+    "title": "What makes activities strategic: Toward a new framework for strategy-as-practice research",
+    "authors": "David Seidl, Shenghui Ma, Violetta Splitter",
+    "year": 2024,
+    "venue": "Strategic Management Journal 45(12), 2395-2419",
+    "A": {
+      "executive_summary": "O artigo, do tipo prospectivo, trata de uma ambiguidade central na pesquisa de strategy as practice (SAP): o que caracteriza uma atividade como estratégica (p.2/L097-100; p.3/L126-129). Os autores observam que os principais frameworks de SAP, como os 3Ps, o Who/What/How e os 4Ps, não especificam que atividades qualificam como estratégicas (p.2/L100-117). Contra a proposta recente de ligar atividades estratégicas à consequencialidade, defendem apreciar a pluralidade de visões implícitas na literatura (p.3/L130-141). A partir de uma categorização sistemática das conceituações implícitas em estudos de SAP, identificam quatro visões: atividades com consequências importantes, atividades rotuladas como estratégicas, atividades realizadas por estrategistas e atividades que performam um padrão recorrente importante (p.3/L142-150; p.5/L319-330; p.6/L410-414; p.9/L548-550; p.11/L680-681). Cada visão suscita perguntas de pesquisa próprias, ilustradas com estudos existentes (p.5/L354-360; p.7/L428-432; p.9/L564-567; p.12/L738-741). Argumentam que as quatro visões formam um framework que complementa os existentes, ajuda a escolher a visão e a enquadrar estudos como SAP e amplia a agenda de pesquisa (p.14/L817-828; p.15/L879-912). Discutem implicações onto-epistemológicas quanto ao ponto de entrada, ao momento da identificação e à postura emic ou etic (p.16/L952-961; p.17/L983-1029). Mostram ainda conexões com outras correntes, como cognição e visão baseada em atenção, planejamento estratégico e performatividade, liderança estratégica e capacidades gerenciais dinâmicas, e estratégia emergente e capacidades dinâmicas (p.18/L1057-1078; p.19/L1079-1128; p.20/L1129-1136), e sustentam que o framework amplia a noção de estratégia além do desempenho da firma (p.20/L1137-1150). Por ser um artigo conceitual, não gera dados novos (p.20/L1155).",
+      "research_question": "O artigo não enuncia uma pergunta de pesquisa explícita; identifica como problema a ambiguidade sobre o que caracteriza uma atividade como estratégica no domínio de SAP (p.2/L097-100) e propõe diferenciar várias definições paralelas em vez de adotar uma só (p.3/L136-141). Reconstruída como pergunta implícita: que visões existem sobre o que torna uma atividade estratégica e que perguntas e implicações cada uma traz para a pesquisa em SAP (p.3/L142-150).",
+      "theories": [],
+      "theory_verdicts": [
+        {
+          "item_id": "T1",
+          "name": "Estratégia como prática (strategy-as-practice)",
+          "verdict": "uses",
+          "source_refs": [
+            "p.2/L084-096"
+          ],
+          "quote": "SAP treats strategy as a particular practice, that is, as something that people do rather than something that firms have",
+          "note": "Abordagem sobre a qual o artigo constrói o framework."
+        },
+        {
+          "item_id": "T2",
+          "name": "Estratégia como padrão em fluxo de ações / estratégia emergente",
+          "verdict": "uses",
+          "source_refs": [
+            "p.11/L691-704",
+            "p.19/L1116-1126"
+          ],
+          "quote": "typically refer to Mintzberg and Waters' (1985) classic conceptualization of strategy as a pattern in a stream of actions",
+          "note": "Fundamenta a visão do padrão e a conexão com estratégia emergente."
+        },
+        {
+          "item_id": "T3",
+          "name": "Consequencialidade das atividades estratégicas",
+          "verdict": "uses",
+          "source_refs": [
+            "p.5/L319-330",
+            "p.3/L130-141"
+          ],
+          "quote": "activity is considered strategic to the extent that it is consequential for the strategic outcomes, directions, survival and competitive advantage of the firm",
+          "note": "Primeira das quatro visões e ponto de partida da crítica de Jarzabkowski et al. (2021)."
+        },
+        {
+          "item_id": "T4",
+          "name": "Teoria da dependência de recursos",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "A teoria da dependência de recursos não é mencionada."
+        },
+        {
+          "item_id": "T5",
+          "name": "Frameworks centrais de SAP: 3Ps, Who/What/How, 4Ps",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.2/L097-117",
+            "p.16/L924-931"
+          ],
+          "quote": "the four-views framework constitutes an important complement to these earlier frameworks",
+          "note": "Os frameworks 3Ps, Who/What/How e 4Ps são discutidos como foco nos aspectos da prática, que o novo framework complementa."
+        },
+        {
+          "item_id": "T6",
+          "name": "Visão nominalista: estratégia como rótulo/discurso",
+          "verdict": "uses",
+          "source_refs": [
+            "p.6/L410-414"
+          ],
+          "quote": "Within the second view, which we refer to as nominalist view, activities treated as strategic are those that are labeled as such",
+          "note": "Segunda das quatro visões, desenvolvida com perguntas e exemplos."
+        },
+        {
+          "item_id": "T7",
+          "name": "Ontologia da prática e conhecimento prático ('coping')",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.13/L782-790",
+            "p.16/L944-948"
+          ],
+          "quote": "MacKay et al. (2021) traced the emergence of new patterns back to a recursive process in which situated coping actions result in a particular disposition",
+          "note": "Coping, disposições corporais e ontologia da prática aparecem na visão do padrão e como opção de lente para análise."
+        },
+        {
+          "item_id": "T8",
+          "name": "Visão baseada em conhecimento (KBV)",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "A visão baseada em conhecimento não é mencionada."
+        },
+        {
+          "item_id": "T9",
+          "name": "Cognição gerencial e visão baseada em atenção (ABV)",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.18/L1057-1074"
+          ],
+          "quote": "the consequentiality view can help connect SAP research, for example, with the broad literature on strategy cognition and attention",
+          "note": "Apresentada como conexão da visão da consequencialidade com cognição gerencial e visão baseada em atenção."
+        },
+        {
+          "item_id": "T10",
+          "name": "Planejamento estratégico e performatividade da estratégia",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.18/L1075-1078",
+            "p.19/L1079-1094"
+          ],
+          "quote": "the focus on activities formally labeled strategic can also serve as a basis for connecting SAP research with the performativity perspective on strategy",
+          "note": "Conexão da visão nominalista com planejamento estratégico e performatividade."
+        },
+        {
+          "item_id": "T11",
+          "name": "Liderança estratégica / upper echelons",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.19/L1095-1107"
+          ],
+          "quote": "strategic leadership research strives to establish the link between CEOs, TMTs, and boards of directors and strategy outcomes and organizational performance",
+          "note": "Conexão da visão baseada em papéis com liderança estratégica e upper echelons."
+        },
+        {
+          "item_id": "T12",
+          "name": "Capacidades dinâmicas e capacidades gerenciais dinâmicas",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.19/L1107-1115",
+            "p.19/L1127-1128",
+            "p.20/L1132-1136"
+          ],
+          "quote": "the role-based view can help advance our understanding of what dynamic managerial capabilities are, how they are enacted, and how they can be acquired",
+          "note": "Capacidades dinâmicas e gerenciais dinâmicas são apresentadas como pontos de integração com as visões baseada em papéis e do padrão."
+        },
+        {
+          "item_id": "T13",
+          "name": "Perspectivas emic x etic",
+          "verdict": "uses",
+          "source_refs": [
+            "p.17/L1006-1029",
+            "p.17/L983-992"
+          ],
+          "quote": "The third onto-epistemological implication concerns the extent to which researchers take an emic or etic stance (Morris et al., 1999) toward the identification of strategic activities",
+          "note": "A postura emic ou etic é uma das três implicações onto-epistemológicas do framework (Tabela 2)."
+        },
+        {
+          "item_id": "T14",
+          "name": "Fronteiras do campo de gestão estratégica",
+          "verdict": "uses",
+          "source_refs": [
+            "p.20/L1137-1150",
+            "p.4/L239-243"
+          ],
+          "quote": "the four-views framework also contributes to the discussion about the boundaries of the field",
+          "note": "A discussão sobre fronteiras e identidade da gestão estratégica é uma das contribuições declaradas."
+        },
+        {
+          "item_id": "T15",
+          "name": "Sensemaking e sensebreaking",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "Sensebreaking e sensemaking aparecem como exemplos de estudos citados (p.6/L381-385; p.8/L463-469), sem desenvolvimento teórico."
+        },
+        {
+          "item_id": "T16",
+          "name": "Estratégia aberta (open strategy)",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.6/L392-406",
+            "p.8/L531-536",
+            "p.10/L620-631"
+          ],
+          "quote": "in their study of open strategizing, Luedicke et al. (2017) revealed how “radically open” strategizing activities are complemented by “counterbalancing” strategizing activities to yield strategic outcomes",
+          "note": "Estudos de estratégia aberta são descritos repetidamente como exemplos de cada visão, não como lente do artigo."
+        },
+        {
+          "item_id": "T17",
+          "name": "Dinâmica de rotinas",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "Dinâmica de rotinas aparece em uma analogia de Feldman (2024) entre ação estratégica e padrão (p.11/L701-709) e em exemplos de rotinas operacionais (p.15/L896-898), sem desenvolvimento."
+        },
+        {
+          "item_id": "T18",
+          "name": "Performatividade de gênero",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.11/L684-690"
+          ],
+          "quote": "This is analogous to how gender, defined as a particular behavioral pattern (Butler, 1988), is performed through the way that people behave",
+          "note": "Usada como analogia para distinguir a visão do padrão (atividade que performa) da visão da consequencialidade."
+        }
+      ],
+      "key_concepts": [
+        {
+          "concept": "Atividade estratégica (ambiguidade em SAP)",
+          "definition": "Noção central de SAP cuja delimitação é ambígua: não está claro o que caracteriza uma atividade como estratégica e, portanto, como parte do domínio de pesquisa de SAP.",
+          "quote": "there is still significant ambiguity around what characterizes an activity as strategic, thereby falling into the domain of SAP research",
+          "source_refs": [
+            "p.2/L097-100",
+            "p.3/L126-129"
+          ]
+        },
+        {
+          "concept": "Visão da consequencialidade",
+          "definition": "Define atividades estratégicas como aquelas que geram consequências importantes, em qualquer nível; é a visão dos dois números especiais seminais de SAP.",
+          "quote": "activity is considered strategic to the extent that it is consequential for the strategic outcomes, directions, survival and competitive advantage of the firm",
+          "source_refs": [
+            "p.5/L319-330"
+          ]
+        },
+        {
+          "concept": "Visão nominalista",
+          "definition": "Define atividades estratégicas como aquelas rotuladas como tal, porque os praticantes as chamam de estratégicas ou porque fazem parte do discurso institucionalizado de estratégia.",
+          "quote": "Within the second view, which we refer to as nominalist view, activities treated as strategic are those that are labeled as such",
+          "source_refs": [
+            "p.6/L410-414"
+          ]
+        },
+        {
+          "concept": "Visão baseada em papéis",
+          "definition": "Define atividades estratégicas como aquelas realizadas por atores formalmente reconhecidos como estrategistas, que estão oficialmente encarregados do trabalho de estratégia.",
+          "quote": "The third view, which we refer to as role-based view, defines strategic activities as those that are enacted by actors who are formally recognized as strategists because they are officially charged with strategy work",
+          "source_refs": [
+            "p.9/L548-555"
+          ]
+        },
+        {
+          "concept": "Visão do padrão",
+          "definition": "Define atividades estratégicas como aquelas que performam um padrão recorrente importante de atividades; a atividade performa o padrão, em vez de levar a um resultado separado.",
+          "quote": "The fourth view, which we refer to as pattern view, defines strategic activities as those that perform an important recurrent pattern of activities",
+          "source_refs": [
+            "p.11/L680-690"
+          ]
+        },
+        {
+          "concept": "Framework das quatro visões",
+          "definition": "Quadro que reúne as quatro visões como complemento aos frameworks de SAP existentes, cobrindo o aspecto estratégico das atividades enquanto os outros cobrem o aspecto da prática.",
+          "quote": "Together, the four views identified above can be understood as constituting a new research framework for SAP, complementing the existing SAP frameworks",
+          "source_refs": [
+            "p.14/L817-820",
+            "p.16/L928-931"
+          ]
+        }
+      ],
+      "methodology": {
+        "study_type": "teórico (artigo prospectivo)",
+        "design": "Categorização sistemática das conceituações de atividade estratégica implícitas em estudos de SAP, que leva à diferenciação de quatro visões e a um framework de pesquisa, com discussão de implicações.",
+        "sample_type": "não se aplica (literatura de SAP; sem coleta de dados)",
+        "sample_size": null,
+        "sector": "",
+        "period": "",
+        "methods": [
+          "categorização sistemática da literatura",
+          "desenvolvimento de framework conceitual"
+        ],
+        "analysis_note": "Os autores afirmam partir de uma categorização sistemática das conceituações de atividades estratégicas implícitas em estudos de SAP (p.3/L142-144), mas não descrevem critérios de busca ou de seleção da literatura. O artigo declara que nenhum dado novo foi gerado (p.20/L1155).",
+        "source_refs": [
+          "p.3/L142-150",
+          "p.20/L1155"
+        ]
+      },
+      "main_findings": [
+        {
+          "finding": "Além da consequencialidade, atividades podem ser tratadas como estratégicas por serem rotuladas como tal, realizadas por estrategistas ou parte de um padrão recorrente importante.",
+          "type": "model",
+          "quote": "activities can be treated as strategic to the extent that they are labeled strategic (e.g., Whittington, 2003), to the extent that they are carried out by strategists (e.g., Samra-Fredericks, 2003), or to the extent that they perform an important recurrent pattern (e.g., Chia & MacKay, 2007)",
+          "source_refs": [
+            "p.3/L142-150"
+          ]
+        },
+        {
+          "finding": "Cada visão foca um conjunto distinto de atividades e abre uma agenda de pesquisa com perguntas próprias.",
+          "type": "model",
+          "quote": "each focuses on a different set of activities and each opens up a distinctive research agenda with different sets of research questions",
+          "source_refs": [
+            "p.3/L147-150",
+            "p.4/L170-243"
+          ]
+        },
+        {
+          "finding": "A visão do padrão difere da da consequencialidade: na primeira a atividade performa um padrão, na segunda leva a um resultado separado.",
+          "type": "proposition",
+          "quote": "the first view is concerned with A (activity) leading to B (important outcome), while the fourth view is concerned with A (activity) performing B (important pattern)",
+          "source_refs": [
+            "p.11/L680-690"
+          ]
+        },
+        {
+          "finding": "As visões diferem em ponto de entrada, momento de identificação e postura: a consequencialidade identifica atividades ex post e de modo etic, enquanto as demais as identificam ex ante.",
+          "type": "model",
+          "quote": "For researchers adopting the consequentiality view, the starting point of the analysis is the outcome, as this is what defines the activities as strategic. This means that activities can be identified as strategic ex post only",
+          "source_refs": [
+            "p.16/L956-961",
+            "p.17/L983-992",
+            "p.17/L997-1005"
+          ]
+        },
+        {
+          "finding": "O framework ajuda a escolher a visão e a enquadrar estudos como SAP e amplia a agenda, pois a pesquisa passada foi pouco sistemática no foco.",
+          "type": "proposition",
+          "quote": "past SAP research has been somewhat random and sporadic in where it put its focus",
+          "source_refs": [
+            "p.15/L906-912",
+            "p.16/L913-917"
+          ]
+        },
+        {
+          "finding": "Cada visão conecta SAP a outras correntes de pesquisa em estratégia, o que abre oportunidades de integração.",
+          "type": "proposition",
+          "quote": "our framework highlights the interests SAP shares with other streams of strategy research and thus reveals distinct opportunities for cross-fertilization and integration",
+          "source_refs": [
+            "p.3/L161-169",
+            "p.18/L1050-1056"
+          ]
+        },
+        {
+          "finding": "Ao ir além da consequencialidade, o framework amplia a noção de estratégia para além do desempenho da firma.",
+          "type": "proposition",
+          "quote": "Our analysis helps to broaden the notion of strategy beyond its association with firm performance and outcomes",
+          "source_refs": [
+            "p.20/L1137-1150"
+          ]
+        }
+      ],
+      "contribution": {
+        "theoretical": "Propõe um framework que complementa os frameworks de SAP centrados na prática, ao focar o aspecto estratégico das atividades (p.3/L151-160), e estabelece uma agenda de pesquisa ampliada (p.15/L906-912). Revela conexões com outras correntes de estratégia (p.18/L1050-1056) e contribui para o debate sobre as fronteiras do campo, ampliando a noção de estratégia (p.20/L1137-1150).",
+        "practical": "O artigo traz um Managerial Summary que apenas resume o framework de quatro visões (p.2/L059-077); não apresenta implicações gerenciais específicas."
+      }
+    },
+    "B": {
+      "executive_summary": "A estratégia como prática é uma área da administração que vem ganhando força nos últimos anos, sua criação ocorreu no início dos anos 2000, na qual foi necessário uma abordagem que pudessem analisar a evolução da organização e de seus funcionários com o passar do tempo (Johnson at al. 2003).  Ao contrário de outras estratégias que tem a prática como algo aprendido previamente ou como algo fixo, a SAP analisa esse fenômeno como algo que se altera e evolui com o passar dos anos, na qual a experiência e a vivência de um gestor podem alterar signitivamente sua maneira de ver o mundo e seu aprendizado em uma determinada área. Esse foco no aprendizado e em uma visão mais humana, faz com que os estudos da área tenham sido incrmentados com diversas teorias que tentam compreender e análisar o funcionamento da Estratégia como Prática (Kohtamaki et al., 2022, p. 211). Apesar de ter ganhado uma relevância muito forte nos últimos anos, seus estudos continuam dispersos e em muitas situações acabam nem conversando entre si, de maneira que acaba prejudicando a evolução da área como uma significante representação do funcionament organizacional. Observando esse fenômeno que anda ocorrendo, este artigo propoes uma análise profunda sobre as diversas teorias que sustentam a SAP, e compreender de qual maneira elas estão interligadas e podem se complementar, sendo um trabalho que visa abrir uma \"Luz\" para futuras pesquisas. Compreendendo a necessidade desse alinahmento entre as diversas teorias, iremos analisar a teoria abordada nos últimos 20 anos, compreender a metamorfose que ocorreu e de que maneira podemos observar que todas conversam entre si, compreendedo que a estratégia ela se move com o tempo, e o mesmo ocorre com a própria teoria, que é formada com o momento que vive e com os novos estudos lançados nela.",
+      "research_question": "Como a literatura se formou durante os anos e como se relaciona?",
+      "theories": [],
+      "theory_verdicts": [
+        {
+          "item_id": "T1",
+          "name": "Estratégia como prática (strategy-as-practice)",
+          "verdict": "uses",
+          "source_refs": [],
+          "quote": "Em quase todo o texto",
+          "note": ""
+        },
+        {
+          "item_id": "T2",
+          "name": "Estratégia como padrão em fluxo de ações / estratégia emergente",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "2014 typically refer to Mintzberg and Waters' 1985 classic conceptualization of strat gy as a pattern in a stream of actions even though the concept is used somewhat differently here.",
+          "note": ""
+        },
+        {
+          "item_id": "T3",
+          "name": "Consequencialidade das atividades estratégicas",
+          "verdict": "uses",
+          "source_refs": [],
+          "quote": "In particular in the first SAP special issue Johnson et al. 2003 p. 3",
+          "note": ""
+        },
+        {
+          "item_id": "T4",
+          "name": "Teoria da dependência de recursos",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T5",
+          "name": "Frameworks centrais de SAP: 3Ps, Who/What/How, 4Ps",
+          "verdict": "uses",
+          "source_refs": [],
+          "quote": "Discutidos em vários momentos do texto",
+          "note": ""
+        },
+        {
+          "item_id": "T6",
+          "name": "Visão nominalista: estratégia como rótulo/discurso",
+          "verdict": "uses",
+          "source_refs": [],
+          "quote": "The third view which we refer to as role based view defines strategic activities as those that are enacted by actors who are formally recognized as strategists because they are officially charged with strategy work.",
+          "note": ""
+        },
+        {
+          "item_id": "T7",
+          "name": "Ontologia da prática e conhecimento prático ('coping')",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "Thus in line with the widest and most basic notion of practice as \"signifying the commonsensical notion of practical activity and direct experience\" Orlikowski 2015 p. 24",
+          "note": ""
+        },
+        {
+          "item_id": "T8",
+          "name": "Visão baseada em conhecimento (KBV)",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "Recent studies on strategic planning have shifted attention to how strategic planning operates and what role it actually plays in organizations Grant 2003",
+          "note": ""
+        },
+        {
+          "item_id": "T9",
+          "name": "Cognição gerencial e visão baseada em atenção (ABV)",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "There is thus an opportunity for cross fertilization with cognition research in strategy by examining the concrete cognition related activities that bring about strategic outcomes. Similar opportunities for cross fertilization exist for connecting SAP with the ABV.",
+          "note": ""
+        },
+        {
+          "item_id": "T10",
+          "name": "Planejamento estratégico e performatividade da estratégia",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "In contrast to the consequentiality view the nominalist view and its associated research questions about the activities labeled strategic enable us for example to better see the con nections with the literature on strategic planning and the performativity of strategy. Strategic planning was a prominent topic in early strategy process research with its interest in understanding how the setup of strategic planning affects strategy formulation and emergence Ansoff 1980 Mintzberg 1981 1994",
+          "note": ""
+        },
+        {
+          "item_id": "T11",
+          "name": "Liderança estratégica / upper echelons",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T12",
+          "name": "Capacidades dinâmicas e capacidades gerenciais dinâmicas",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "strategy. This common interest in recurrent patterns of activities thus might serve as a basis for a focused dialogue and integration between these lines of inquiry e.g. Burgelman et al. 2018 . Furthermore there is an opportunity for cross fertilization with the dynamic capabilities per spective on strategy. In particular recent developments in dynamic capabilities have started to examine the micro foundations of dynamic capabilities which involve how micro activities processes or routines are patterned in a firm's capacity to sense and seize opportunities and rec onfigure resources Eisenhardt & Martin",
+          "note": ""
+        },
+        {
+          "item_id": "T13",
+          "name": "Perspectivas emic x etic",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "The third onto epistemological implication concerns the extent to which researchers take an emic or etic stance Morris et al. 1999 toward the identification of strategic activities that is whether the practitioners themselves emic stance or the researchers etic stance categorize the activities as strategic.",
+          "note": ""
+        },
+        {
+          "item_id": "T14",
+          "name": "Fronteiras do campo de gestão estratégica",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T15",
+          "name": "Sensemaking e sensebreaking",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "For example Mantere et al. 2012 revealed how sensebreaking activities related to strategic change i.e. activities directed at the symbolic destruction of an existing strategy to make room for a new strategy impacted later sensemaking around subsequent change efforts.",
+          "note": ""
+        },
+        {
+          "item_id": "T16",
+          "name": "Estratégia aberta (open strategy)",
+          "verdict": "uses",
+          "source_refs": [],
+          "quote": "This question has thus prompted SAP studies to investigate the complex and dynamic interrelations of multiple activities in shaping strategic outcomes. For example in their study of open strategizing Luedicke et al. 2017 revealed how \"radically open\" strategizing activities are complemented by \"counterbalancing\" strategizing activities to yield strategic outcomes.",
+          "note": ""
+        },
+        {
+          "item_id": "T17",
+          "name": "Dinâmica de rotinas",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "The authors compare this to how a person's identity is consti tuted by patterned consistency of the person's actions. Similarly Feldman 2024 speaks about how \" strategic patterns are created through strategic actions\" and accordingly she defines actions as strategic to the extent that they re produce the strategic pattern.",
+          "note": ""
+        },
+        {
+          "item_id": "T18",
+          "name": "Performatividade de gênero",
+          "verdict": "discusses",
+          "source_refs": [],
+          "quote": "This is analogous to how gender defined as a particular behavioral pattern Butler 1988 is performed through the way that people behave gender is not an outcome separate from the behaviors enacting it.This is analogous to how gender defined as a particular behavioral pattern Butler 1988 is performed through the way that people behave gender is not an outcome separate from the behaviors enacting it.",
+          "note": ""
+        }
+      ],
+      "key_concepts": [
+        {
+          "concept": "Estratégia como Prática (SAP)",
+          "definition": "Over the last two decades, strategy as practice (SAP) has established itself as a distinctive\nresearch approach in strategic management with its own Interest Group at the Strategic Man-\nagement Society and with the Strategic Management Journal as its key outlet. In contrast to\nother approaches, SAP treats strategy as a particular practice, that is, as something that people\ndo rather than something that firms have (Johnson et al., 2003). Thus, in line with the widest\nand most basic notion of practice as \"signifying the commonsensical notion of practical activity\nand direct experience\" (Orlikowski, 2015, p. 24), SAP is interested in the activities of strategy\nmaking or in \"strategy as it is done\" (Kohtamäki et al., 2022, p. 211). By foregrounding strategic\nactivities, this practice approach has significantly widened and deepened our understanding of\nstrategic management.",
+          "quote": "",
+          "source_refs": []
+        }
+      ],
+      "methodology": {
+        "study_type": "teórico",
+        "design": "Bibliográfico",
+        "sample_type": "Literatura sobre SAP",
+        "sample_size": null,
+        "sector": "SAP",
+        "period": "Mais de 20 anos",
+        "methods": [
+          "Análise documental"
+        ],
+        "analysis_note": "",
+        "source_refs": []
+      },
+      "main_findings": [
+        {
+          "finding": "A SAP estava muito dispersas em suas áreas, sem um alinhamento que pudessem auxiliar na evolução da área, muito das teorias não conversavam diretamente.",
+          "type": "model",
+          "quote": "",
+          "source_refs": []
+        }
+      ],
+      "contribution": {
+        "theoretical": "Um maior clareamenti sobre as divisões da SAP.",
+        "practical": "Auxilio na criação de futuros estudos na área."
+      }
+    },
+    "human_side": "B"
+  }
 }

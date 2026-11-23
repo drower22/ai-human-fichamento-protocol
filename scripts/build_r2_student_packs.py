@@ -154,6 +154,39 @@ def main() -> None:
         "(amarrado por desenho de letramento, 3 trocas de 17/11).",
         "students": [],
     }
+    # par R1 do aluno (devolutiva/warm-up): assignments-round1 + pair-map +
+    # arquivo cego A/B que o juiz avaliou (mesmas versões, sem notas)
+    assign1 = {
+        e["student_id"]: e["article_id"]
+        for e in json.loads((PRIV / "assignments-round1.json").read_text())["entries"]
+    }
+    pairmap = {
+        p["article_id"]: p
+        for p in json.loads((PRIV / "pair-map-round1.json").read_text())["pairs"]
+    }
+    pairs_dir = Path(__file__).resolve().parents[1] / "site" / "juizes" / "pairs"
+
+    def r1_pair_for(sid: str):
+        art1 = assign1.get(sid)
+        pm = pairmap.get(art1) if art1 else None
+        if not pm:
+            return None
+        pf = pairs_dir / pm["pair_file"]
+        if not pf.exists():
+            return None
+        d = json.loads(pf.read_text())
+        human_side = "A" if pm["A"] == "human" else "B"
+        return {
+            "article_id": art1,
+            "title": d.get("title", ""),
+            "authors": d.get("authors", ""),
+            "year": d.get("year", ""),
+            "venue": d.get("venue", ""),
+            "A": d["A"],
+            "B": d["B"],
+            "human_side": human_side,
+        }
+
     skipped = []
     for ent in sorted(assign["entries"], key=lambda e: e["student_id"]):
         sid, art = ent["student_id"], ent["article_id"]
@@ -176,6 +209,7 @@ def main() -> None:
             "gender": person.get("gender", ""),
             "program": person.get("program", ""),
             "pool": pools[art],
+            "r1_pair": r1_pair_for(sid),
         }
         (students_dir / f"{tok}.json").write_text(
             json.dumps(pack, indent=2, ensure_ascii=False)

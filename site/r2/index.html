@@ -14,6 +14,7 @@
   header{background:var(--navy);color:#fff;border-radius:14px;padding:30px 34px;margin-bottom:26px}
   header h1{font-size:30px}
   header p{font-size:16px;color:#cbd5e1;margin-top:8px}
+  [hidden]{display:none!important}
   section{background:var(--card);border:1px solid var(--line);border-radius:14px;
     padding:28px 30px;margin-bottom:22px}
   section h2{font-size:22px;color:var(--navy);margin-bottom:6px}
@@ -80,6 +81,53 @@
   .tcle h3{font-size:15px;color:var(--navy);margin:18px 0 6px}
   .tcle h3:first-child{margin-top:0}
   .tcle p{margin:0 0 10px}
+  .contbtn{width:auto;padding:13px 34px;font-size:16px;margin-top:14px}
+  .modal{position:fixed;inset:0;background:rgba(8,13,26,.82);z-index:50;
+    display:flex;align-items:center;justify-content:center;padding:20px}
+  .modal .box{background:#fff;border-radius:16px;max-width:580px;width:100%;
+    padding:34px 38px;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+  .modal .box h2{font-size:24px;margin:0 0 14px}
+  .modal .box p{font-size:15px;line-height:1.6;color:var(--ink);margin:0 0 12px}
+  .modal .box ol{margin:0 0 20px;padding-left:22px;font-size:15px;
+    line-height:1.7;color:var(--ink)}
+  .modal .box .foot{display:flex;justify-content:flex-end;margin-top:6px}
+  .modal .box .foot .contbtn{margin-top:0}
+  #pairSec{margin-left:-190px;margin-right:-190px}
+  .paircols{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:14px 0 22px}
+  .pcol{border:1px solid var(--soft);border-radius:12px;overflow:hidden;
+    background:#fff}
+  .pcol h3{margin:0;padding:12px 16px;font-size:15px;background:var(--navy);
+    color:#fff;position:sticky;top:0;display:flex;
+    justify-content:space-between;align-items:center;gap:10px}
+  .pcol h3 .tag{font-size:11px;font-weight:700;letter-spacing:.4px;
+    padding:3px 10px;border-radius:20px;white-space:nowrap}
+  .pcol h3 .tag.mine{background:#059669;color:#fff}
+  .pcol h3 .tag.ai{background:#f59e0b;color:#1f2937}
+  .pcol .body{padding:18px 20px;font-size:14px;height:62vh;overflow-y:auto}
+  .pcol .body h4{font-size:11px;text-transform:uppercase;letter-spacing:.8px;
+    color:var(--blue);margin:20px 0 8px;padding-bottom:4px;
+    border-bottom:1px solid var(--line)}
+  .pcol .body h4:first-child{margin-top:0}
+  .pcol .body p{color:var(--ink);line-height:1.65;margin:0 0 10px;
+    text-align:justify}
+  .pcol .body ul{list-style:none;padding:0;margin:0 0 6px}
+  .pcol .body li{color:var(--ink);line-height:1.55;padding:5px 0 5px 14px;
+    border-left:2px solid var(--soft);margin-bottom:6px}
+  .pcol .body li b{color:var(--navy)}
+  .verd{display:inline-block;font-size:10.5px;font-weight:700;
+    letter-spacing:.4px;padding:2px 9px;border-radius:12px;margin-left:6px;
+    vertical-align:middle}
+  .verd.uses{background:#dcfce7;color:#166534}
+  .verd.discusses{background:#fef3c7;color:#92400e}
+  .verd.does_not_use{background:#f1f5f9;color:#64748b}
+  .meta{display:grid;grid-template-columns:auto 1fr;gap:3px 14px;
+    font-size:13.5px;margin:0 0 8px}
+  .meta dt{font-weight:700;color:var(--slate);white-space:nowrap}
+  .meta dd{margin:0;color:var(--ink)}
+  @media(max-width:1350px){#pairSec{margin-left:0;margin-right:0}}
+  @media(max-width:900px){.paircols{grid-template-columns:1fr}
+    .pcol .body{height:auto;max-height:70vh}}
+  .contbtn:disabled{opacity:.45;cursor:not-allowed}
 </style>
 </head>
 <body>
@@ -90,7 +138,80 @@
 
 <form id="f" novalidate>
 
-<section id="tcleSec">
+<div class="modal" id="welcomeModal" hidden>
+  <div class="box">
+    <h2>Bem-vindo à segunda rodada</h2>
+    <p>Na Rodada 1, o seu fichamento foi avaliado lado a lado com outro
+    fichamento do mesmo artigo, produzido por inteligência artificial. O
+    juiz não sabia qual era qual.</p>
+    <p><b>Agora é a sua vez de olhar esse par.</b> Os dois fichamentos estão
+    atrás desta janela, lado a lado, como A e B, sem notas e sem respostas
+    do juiz. O que vai acontecer:</p>
+    <ol>
+      <li>Leia os dois fichamentos com calma;</li>
+      <li>Escolha qual você usaria na sua revisão de literatura / aula;</li>
+      <li>Responda duas perguntas rápidas de reflexão;</li>
+      <li>Abra o termo de consentimento e comece o fichamento da segunda
+      fase: um artigo novo, que passará por essa mesma comparação às cegas.</li>
+    </ol>
+    <div class="foot">
+      <button type="button" class="contbtn" id="btnWelcome">Começar</button>
+    </div>
+  </div>
+</div>
+
+<section id="pairSec" hidden>
+  <h2>Seu par da Rodada 1</h2>
+  <p class="desc">Estes são os dois fichamentos do artigo que você fichou na
+  Rodada 1. Um deles é seu. Leia os dois lado a lado, com calma, antes de
+  responder.</p>
+  <div class="paircols">
+    <div class="pcol"><h3>Fichamento A</h3><div class="body" id="fichA"></div></div>
+    <div class="pcol"><h3>Fichamento B</h3><div class="body" id="fichB"></div></div>
+  </div>
+
+  <p class="desc" style="margin-top:26px">Agora responda às três perguntas
+  sobre a sua leitura:</p>
+
+  <label class="q"><b>1.</b> Após ler os dois fichamentos, qual você escolheria
+  para usar na sua revisão de literatura / aula?</label>
+  <div class="radios">
+    <label><input type="radio" name="w_pref" value="A"> Fichamento A</label>
+    <label><input type="radio" name="w_pref" value="B"> Fichamento B</label>
+  </div>
+
+  <div id="reflBox" hidden>
+    <label class="q"><b>2.</b> Após a leitura dos dois fichamentos, o que você
+    aprendeu?</label>
+    <textarea name="w_learned" class="short"></textarea>
+    <label class="q"><b>3.</b> Você faria algo diferente se pudesse refazer o
+    seu fichamento? O quê?</label>
+    <textarea name="w_redo" class="short"></textarea>
+    <div style="display:flex;justify-content:flex-end">
+      <button type="button" class="contbtn" id="btnRefl" disabled>Continuar</button>
+    </div>
+  </div>
+</section>
+
+<section id="phase2" hidden>
+  <h2>Segunda fase: um novo artigo</h2>
+  <p class="desc">Agora começa a segunda rodada. Você receberá um artigo
+  <b>diferente</b> do da Rodada 1 e produzirá um novo fichamento com o mesmo
+  instrumento: resumo, questão de pesquisa, vereditos de teorias, conceitos,
+  metodologia, achados e contribuição - tudo com referências de página e linha
+  (p.N Lnnn).
+
+  Como na primeira rodada, o seu fichamento será comparado, às cegas, com um
+  fichamento do mesmo artigo produzido por IA. Juízes avaliam os dois com a mesma
+  régua, sem saber qual é qual - exatamente o que você acabou de fazer com o seu
+  próprio par.
+
+  Leve o que você observou na reflexão anterior para esta nova produção. Ao final,
+  você também fará a auto-avaliação e o registro de reflexão, como na Rodada 1.</p>
+  <button type="button" class="contbtn" id="btnPhase2">Ir para o termo de consentimento</button>
+</section>
+
+<section id="tcleSec" hidden>
   <h2>1. Termo de Consentimento Livre e Esclarecido</h2>
   <p class="desc">Leia o termo abaixo por completo antes de decidir. O formulário só
   será liberado depois da sua resposta.</p>
@@ -171,7 +292,8 @@
 <div id="resto" hidden>
 
 <header>
-  <h1>Fichamento - Rodada 2</h1>
+  <h1>Fichamento - Rodada 2 <a id="restart" href="#" title="Limpar rascunho e recomeçar"
+    style="float:right;font-size:12px;font-weight:400;color:rgba(255,255,255,.55);text-decoration:none">recomeçar</a></h1>
   <p><b>Antes de começar:</b> leia o artigo numerado por completo e tenha-o aberto ao lado.
   Escreva em português, com suas palavras. Toda afirmação sobre o artigo leva a referência
   da linha entre parênteses, no formato <b>(p.N Lnnn)</b> - ex.: (p.5 L165) ou um intervalo
@@ -378,8 +500,76 @@ const showErr=t=>{const e=document.getElementById('errors');
     else{el.readOnly=false;el.placeholder='preencha';}});
   renderTheories();
   restoreSaved();
+  initFlow();
   submitBtn.disabled=false;
 })();
+
+// warm-up: boas-vindas -> par R1 + reflexão -> card fase 2 -> TCLE
+const VPT={uses:'USA',discusses:'DISCUTE',does_not_use:'NÃO USA'};
+const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function renderFich(c){
+  const li=a=>`<ul>${a.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+  const m=c.methodology||{};
+  let h=`<h4>Resumo executivo</h4><p>${esc(c.executive_summary)}</p>
+    <h4>Questão de pesquisa</h4><p>${esc(c.research_question)}</p>`;
+  if((c.theory_verdicts||[]).length)h+=`<h4>Teorias</h4>`+
+    li(c.theory_verdicts.map(v=>`${esc(v.name)}`+
+      `<span class="verd ${v.verdict}">${VPT[v.verdict]||v.verdict}</span>`));
+  if((c.theories||[]).length)h+=`<h4>Outras teorias citadas</h4>`+
+    li(c.theories.map(t=>esc(t.name)));
+  if((c.key_concepts||[]).length)h+=`<h4>Conceitos-chave</h4>`+
+    li(c.key_concepts.map(k=>`<b>${esc(k.concept)}</b> ${esc(k.definition)}`));
+  const rows=[['Tipo',m.study_type],['Desenho',m.design],
+    ['Amostra',[m.sample_type,m.sample_size!=null?`N=${m.sample_size}`:''].filter(Boolean).join(' · ')],
+    ['Setor',m.sector],['Período',m.period],
+    ['Métodos',(m.methods||[]).join(', ')]].filter(r=>r[1]);
+  h+=`<h4>Metodologia</h4><dl class="meta">`+
+    rows.map(r=>`<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join('')+`</dl>`;
+  if(m.analysis_note)h+=`<p>${esc(m.analysis_note)}</p>`;
+  if((c.main_findings||[]).length)h+=`<h4>Achados principais</h4>`+
+    li(c.main_findings.map(f=>esc(f.finding)));
+  const cb=c.contribution||{};
+  if(cb.theoretical||cb.practical)h+=`<h4>Contribuição</h4>
+    <dl class="meta"><dt>Teórica</dt><dd>${esc(cb.theoretical)}</dd>
+    <dt>Prática</dt><dd>${esc(cb.practical)}</dd></dl>`;
+  return h;
+}
+let PAIR=null;
+function initFlow(){
+  PAIR=PACK.r1_pair||null;
+  if(!PAIR){document.getElementById('tcleSec').hidden=false;return;}
+  document.getElementById('fichA').innerHTML=renderFich(PAIR.A);
+  document.getElementById('fichB').innerHTML=renderFich(PAIR.B);
+  ['A','B'].forEach(s=>{
+    const mine=s===PAIR.human_side;
+    document.querySelector(`#fich${s}`).previousElementSibling.innerHTML=
+      `Fichamento ${s}<span class="tag ${mine?'mine':'ai'}">`+
+      (mine?'ESTE É O SEU':'FEITO POR IA')+'</span>';});
+  document.getElementById('welcomeModal').hidden=false;
+  document.getElementById('btnWelcome').onclick=()=>{
+    document.getElementById('welcomeModal').hidden=true;
+    document.getElementById('pairSec').hidden=false;
+    window.scrollTo({top:0,behavior:'smooth'});};
+  const btnRefl=document.getElementById('btnRefl');
+  const checkRefl=()=>{
+    btnRefl.disabled=!(g('w_pref')&&g('w_learned')&&g('w_redo'));};
+  const showRefl=()=>{
+    document.getElementById('reflBox').hidden=false;checkRefl();};
+  document.querySelectorAll('input[name=w_pref]').forEach(r=>
+    r.addEventListener('change',showRefl));
+  ['w_learned','w_redo'].forEach(n=>
+    document.querySelector(`[name=${n}]`).addEventListener('input',checkRefl));
+  if(g('w_pref')){document.getElementById('welcomeModal').hidden=true;
+    document.getElementById('pairSec').hidden=false;showRefl();}
+  btnRefl.onclick=()=>{
+    document.getElementById('pairSec').hidden=true;
+    document.getElementById('phase2').hidden=false;
+    window.scrollTo({top:0,behavior:'smooth'});};
+  document.getElementById('btnPhase2').onclick=()=>{
+    document.getElementById('phase2').hidden=true;
+    document.getElementById('tcleSec').hidden=false;
+    window.scrollTo({top:0,behavior:'smooth'});};
+}
 
 // contador de palavras do resumo executivo (teto 300)
 const _es=document.querySelector('[name=executive_summary]');
@@ -389,7 +579,9 @@ _es.addEventListener('input',()=>{
   document.getElementById('wc').style.color=n>300?'var(--err)':'';});
 
 // rascunho automático no navegador (por link): restaura ao abrir, limpa ao enviar
-const LSKEY='fich_r1_'+_tok;
+const LSKEY='fich_r2_'+_tok;
+document.getElementById('restart').onclick=e=>{e.preventDefault();
+  if(confirm('Limpar tudo e recomeçar do zero?')){localStorage.removeItem(LSKEY);location.reload();}};
 let _svT;
 function saveDraft(){clearTimeout(_svT);_svT=setTimeout(()=>{
   const o={};
@@ -632,7 +824,9 @@ document.getElementById('f').addEventListener('submit',async e=>{
     main_findings:findings,
     contribution:{theoretical:g('c_theo'),practical:g('c_prac')},
     self_assessment:sa,
-    reflection_log:{q1:g('r1'),q2:g('r2'),q3:g('r3'),q4:g('r4')}
+    reflection_log:{q1:g('r1'),q2:g('r2'),q3:g('r3'),q4:g('r4')},
+    r2_warmup:PAIR?{r1_article:PAIR.article_id,pair_preference:g('w_pref'),
+      learned:g('w_learned'),redo:g('w_redo')}:null
   };
   // R2: arquivo identificado pelo código S travado no link pessoal
   const fname=`${payload.participant_id||'S00'}_${payload.article_id||'SEM'}.json`;

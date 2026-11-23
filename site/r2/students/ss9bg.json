@@ -86,5 +86,506 @@
       "name": "Subjetivação foucaultiana / tecnologias do self",
       "authors": "Foucault"
     }
-  ]
+  ],
+  "r1_pair": {
+    "article_id": "A11",
+    "title": "Resources, Resourcing, and Ampliative Cycles in Organizations",
+    "authors": "Martha S. Feldman, Monica Worline",
+    "year": 2011,
+    "venue": "The Oxford Handbook of Positive Organizational Scholarship (ch. 47)",
+    "A": {
+      "executive_summary": "O texto trata não de um artigo científico, mas sim, de um capítulo de livro que aborda uma visão geral da Resourcing Theory, a comparando com outras teorias centradas em recursos, tal como a Teoria da Dependência de Recursos (TDR) (Pfeffer & Salancik, 1978), Visão Baseada em Recursos (Barney, 1991) e Capacidades Dinâmicas (Eisenhardt & Martin, 2000). (p.2 L021 - 027)\n\nAs autoras apresentam um panorama geral da Resourcing Theory, conceituando a centralidade das práticas no processo de \"resourcing\", de acordo com esta lente teórica, o recurso só ganha importância quando é utilizado em uma ação que permita a extração das suas qualidades (p.4 L078 - 080). Visando facilitar a explicação e visualização, exemplos práticos e históricos são discutidos, como o uso do pão para fazer bolinhos de carne, em um cenário anterior ao racionamento provocado pela guerra, este não era um recurso relevante para essa atividade, mas em um contexto de pouca carne, o pão assume um papel quase central como recurso utilizado nos bolinhos (p.4 L063 - 120).\n\nNeste cenário, o ajuste mútuo entre os recursos em potencial e o contexto social se torna um mecanismo explicativo da teoria, no qual novos recursos podem surgir em resposta às condições ambientais e vice-versa, podendo gerar um ciclo de retroalimentação que pode continuar indefinitivamente (p.14 L317 - 318). A justaposição e narrating também são mecanismos que podem gerar e identificar recursos em potencial. (p.14 L336; p.17 L394).\n\nEsse busca por / uso de recursos pode ocorrer de maneira endógena, criando ciclos ampliativos entre o contexto social e os recursos (p.20 477 - 479). No entanto, cabe destacar que essa habilidade de produzir ciclos ampliativos não estão necessariamente associados a resultados positivos, visto que recursos só podem ser tidos como bons ou ruins a partir do seu uso.",
+      "research_question": "Não há uma pergunta de pesquisa explícita, mas o capítulo busca apresentar um panorama geral da Resourcing Theory, comparando com outras teorias centradas em recursos, abordando seus mecanismos explicativos, e trazendo exemplos práticos para facilitar o entendimento.",
+      "theories": [],
+      "theory_verdicts": [
+        {
+          "item_id": "T1",
+          "name": "Teoria do resourcing",
+          "verdict": "uses",
+          "source_refs": [
+            "p.2 L021-027"
+          ],
+          "quote": "A Resourcing Theory é o cerne do capítulo do livro é discutida ao longo de todo o texto englobando seus mecanismos perspectivas e comparação com outras lentes teóricas como exemplificado no abstract",
+          "note": ""
+        },
+        {
+          "item_id": "T2",
+          "name": "Ciclos ampliativos e resourcing endógeno",
+          "verdict": "uses",
+          "source_refs": [
+            "p.18 L433-439"
+          ],
+          "quote": "\"Scholars have noted that what is a framework or schema in one context can be a resource in another Sewell 1992 Eisenhardt and Schoonhoven 1996 Barney 2001 Leblebici 1991 . Resourcing theory helps us to see that action is an essential feature of this relationship. As we showed in the previous section action is the driving force that creates alters and combines assets with frameworks. Here we point out that action is also essential for the creation of ampliative cycles through endogenous resourcing which involves using a resourced framework as a new resource.\"",
+          "note": ""
+        },
+        {
+          "item_id": "T3",
+          "name": "Mecanismos de resourcing: ajuste mútuo, justaposição e narração",
+          "verdict": "uses",
+          "source_refs": [
+            "p.12 L276",
+            "p.15 L346",
+            "p.17 L399"
+          ],
+          "quote": "278 \"Mutual adjusting as a resourcing mechanism helps illuminate the link between resources in use and frameworks for organizing by showing how potential resources and frameworks are adjusted to one another in the context of practice.\" 352 \"In terms of resourcing theory mundane or everyday events such as workshops are potential resources that are taken up and used by change agents within the framework of the organizational culture as a site for actively juxtaposing familiar and unfamiliar symbols in context. The use of these everyday organizational events as a resource for juxtaposing the old and the new gives rise to a new resource liminality defined as a sense of being between. This new sense of being between things in turn becomes available as a potential resource for changing the cultural repertoires in the organization.\" 400 \"Narrating is action that transforms potential resources to resources in use by altering the framework or what is being resourced Cooren 2000 Quinn & Worline 2008 .\"",
+          "note": ""
+        },
+        {
+          "item_id": "T4",
+          "name": "Teoria da agência",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T5",
+          "name": "Positive Organizational Scholarship (espirais positivas)",
+          "verdict": "uses",
+          "source_refs": [
+            "p.21 L510"
+          ],
+          "quote": "\"Resourcing theory is relevant to positive organizational scholarship for several reasons. First the awareness of resourcing dynamics on the part of organizational participants affects their ability to engage these dynamics constructively.\" 512",
+          "note": ""
+        },
+        {
+          "item_id": "T6",
+          "name": "Teoria da dependência de recursos",
+          "verdict": "uses",
+          "source_refs": [
+            "p.2 L021"
+          ],
+          "quote": "Apesar de não ser a teoria central do capítulo a TDR é utilizada como contraponto para explicar as nuances entre esta e a teoria abordada no capítulo 022 .",
+          "note": ""
+        },
+        {
+          "item_id": "T7",
+          "name": "Visão baseada em recursos (RBV)",
+          "verdict": "uses",
+          "source_refs": [
+            "p.2 L021"
+          ],
+          "quote": "Semelhante a TDR a VBR também é utilizada como suporte na explicação das diferenças entre a Resourcing Theory com as demais teorias organizacionais 022 .",
+          "note": ""
+        },
+        {
+          "item_id": "T8",
+          "name": "Capacidades dinâmicas",
+          "verdict": "uses",
+          "source_refs": [
+            "p.2 L031"
+          ],
+          "quote": "Capacidades dinâmicas são discutidas junto a VBR como uma \"continuidade\" dessa corrente teórica 037 .",
+          "note": ""
+        },
+        {
+          "item_id": "T9",
+          "name": "Teoria institucional",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T10",
+          "name": "Teoria de Sewell: estrutura como esquemas e recursos",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T11",
+          "name": "Práticas cotidianas",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.5 L102"
+          ],
+          "quote": "103 \"In this view your cooking practices themselves provide an array of alternative actions for your use de Certeau 1984 .\"",
+          "note": ""
+        },
+        {
+          "item_id": "T12",
+          "name": "Sensemaking e linguagem",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.18 L426"
+          ],
+          "quote": "427 \"Narrating is a powerful mechanism for resourcing in that it draws upon language which is one of the most readily available potential resources in organizations Weick 1995 .\"",
+          "note": ""
+        },
+        {
+          "item_id": "T13",
+          "name": "Objetos de fronteira e tecnologia em uso",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        },
+        {
+          "item_id": "T14",
+          "name": "Teorias de emoções positivas (broaden-and-build)",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": ""
+        }
+      ],
+      "key_concepts": [
+        {
+          "concept": "Recurso (como visto na TDR, VBR e Capacidades Dinâmicas)",
+          "definition": "(p.3 L058 - 069) \"The most typical view of resources in organization theory, adopted in resource dependence theories\n(Pfeffer and Salancik, 1978) and in the resource based view of the firm (Barney, 1991), imagines them as\ntangible or intangible assets that can be possessed or owned (Amit & Shoemaker, 1993; Barney, 1991;\nPenrose, 1959; Wang, 2009). This view suggests that resources are valuable because of some innate\nquality/ties contained within them. In keeping with this view, Eisenhardt and Martin (2000, p. 1107). define resources as ―specific physical (e.g., specialized equipment, geographic location), human (e.g.,\nexpertise in chemistry), and organizational (e.g. superior sales force) assets that can be used to implement\nvalue creating strategies.‖ The resource based view of the firm argues that the innate qualities of\nresources are highly valuable: ―competitive advantage derives from the resources and capabilities a firm\ncontrols that are valuable, rare, imperfectly imitable, and not substitutable‖ (Barney, Wright, & Ketchen,\n2001, p. 625).\"",
+          "quote": "",
+          "source_refs": [
+            "p.3 L058"
+          ]
+        },
+        {
+          "concept": "Recurso (como visto na Resourcing Theory)",
+          "definition": "(p.4 L070 - 082) \"Resourcing theory defines resources differently. Feldman (2004) suggests that the typical view of resources hinders scholars‘ understanding of how resources are useful in organizations because it focuses on innate features of assets rather than how they are brought into use. Resourcing theory points to a\ndefinition of resources focusing on how organizational members take up and use assets as they pursue activities in line with what they wish to make happen in the world. This more expansive and less innate characterization leads to a new definition of a resource as anything that allows an actor to enact a schema (Feldman, 2004; Sewell, 1992).i This way of defining resources acknowledges that things have innate qualities (e.g., rocks are heavy) and that these qualities give them potential as resources (e.g., rocks can be used as building material). Resourcing theory emphasizes that until action is taken to use these qualities, the thing does not fulfill its potential and become a resource, or what we refer to as a resource in use (e.g., rocks just sit there until people develop the ability to use rocks to build). Moreover, how the potential resource is used determines what kind of a resource it becomes or what is resourced (e.g., rocks can be used to build bridges and resource connections or to build fortresses and resource defense).\"",
+          "quote": "",
+          "source_refs": [
+            "p.4 L070"
+          ]
+        },
+        {
+          "concept": "Recurso em potencial e recursos em uso",
+          "definition": "(p.6 L121 - 123) \"Theories of resourcing posit that potential resources only become resources, or what we will term ―resources in use when they are used to enact some schema or framework (Feldman, 2004).\"",
+          "quote": "",
+          "source_refs": [
+            "p.6 L121"
+          ]
+        },
+        {
+          "concept": "Mecanismo de ajuste mútuo",
+          "definition": "(p.12 L276 - 279) \"Mutual adjusting as a resourcing mechanism helps illuminate the link between resources in use and frameworks for organizing by showing how potential resources and frameworks are adjusted to one another in the context of practice.\"",
+          "quote": "",
+          "source_refs": [
+            "p.12 L276"
+          ]
+        },
+        {
+          "concept": "Mecanismo de justaposição",
+          "definition": "(p.15 L346 - 352) \"In terms of resourcing theory, mundane or everyday events such as workshops are potential resources that are taken up and used by change agents within the framework of the organizational culture as a site for actively juxtaposing familiar and unfamiliar symbols in context. The use of these everyday organizational events as a resource for juxtaposing the old and the new gives rise to a new resource, liminality, defined as a sense of being between. This new sense of being between things in turn becomes available as a potential resource for changing the cultural repertoires in the organization.\"",
+          "quote": "",
+          "source_refs": [
+            "p.15 L346"
+          ]
+        },
+        {
+          "concept": "Resourcing endógeno e ciclos ampliativos",
+          "definition": "(p.19 L446 - 448) \"What makes endogenous resourcing ampliative is that the potential resources created in the recursive resourcing cycles are harnessed to move in a general direction, thereby keeping the resourcing cycles in motion and further enlarging the available potential resources.\"",
+          "quote": "",
+          "source_refs": [
+            "p.19 L446"
+          ]
+        }
+      ],
+      "methodology": {
+        "study_type": "teórico",
+        "design": "Visão geral de resourcing theory, articulando com outras teorias",
+        "sample_type": "N/A",
+        "sample_size": null,
+        "sector": "N/A",
+        "period": "N/A",
+        "methods": [
+          "N/A"
+        ],
+        "analysis_note": "Não se trata de um artigo científico, mas sim, de um capítulo de livro que aborda a Resourcing Theory de maneira geral, seus mecanismos, benefícios, e contrastes com outras teorias de recurso.",
+        "source_refs": []
+      },
+      "main_findings": [
+        {
+          "finding": "As proposições teóricas foram colocadas em formato de conceitos.",
+          "type": "proposition",
+          "quote": "",
+          "source_refs": []
+        }
+      ],
+      "contribution": {
+        "theoretical": "O capítulo do livro contribui para a literatura ao reunir e discutir o arcabouço sobre Resourcing Theory, trazendo intepretações de casos empíricos através da lente da RT. O capítulo do livro também traz cinco direcionamentos futuros importantes para o avanço da teoria.",
+        "practical": "As contribuições práticas são mais concentradas em como a interpretação de fenômenos pela perspectiva da Resource Theory pode oferecer um olhar diferente para o uso de recursos nas organizações. Podem ser consideradas implicações práticas também o uso dessa perspectiva por acadêmicos no avanço do conhecimento, principalmente relacionados ao POS."
+      }
+    },
+    "B": {
+      "executive_summary": "O capítulo apresenta uma visão geral da teoria do resourcing, comparando-a com a dependência de recursos e a visão baseada em recursos, e a relaciona à pesquisa em Positive Organizational Scholarship (POS) (p.2/L021-027). As autoras criticam a visão típica de recursos como ativos com qualidades inatas e definem recurso como qualquer coisa que permita a um ator atualizar um esquema, distinguindo recursos potenciais e recursos em uso, que dependem de prática (p.3/L058-062; p.4/L070-082; p.7/L146-149). Ilustram a diferença com um experimento mental sobre donas de casa que fazem almôndegas sob racionamento de carne na Segunda Guerra e contrastam as previsões da dependência de recursos, das capacidades dinâmicas e do resourcing (p.4/L083-088; p.5/L089-108; p.9/L190-212; p.10/L216-241; p.11/L242-247). Em seguida descrevem três mecanismos de resourcing, extraídos de pesquisas empíricas anteriores: ajuste mútuo (equity sticks em salas de aula), justaposição (mudança cultural e liminaridade) e narração (o voo 93) (p.11/L258-265; p.12/L276-283; p.15/L342-352; p.17/L394-411). Introduzem o resourcing endógeno e os ciclos ampliativos, em que um framework criado vira recurso e os ciclos crescem em uma direção, e mostram que nem todo resourcing endógeno é ampliativo nem produz resultados positivos (p.18/L437-439; p.19/L443-450; p.20/L481-493; p.22/L523-527). Argumentam que a teoria interessa à POS porque a consciência dessas dinâmicas permite dirigi-las (p.21/L510-517). Encerram com cinco direções de pesquisa, como a sinergia com capacidades dinâmicas e o estudo de ciclos ampliativos (p.22/L529-543; p.23/L544-565; p.24/L571-582). O texto é teórico e não tem coleta de dados própria.",
+      "research_question": "O capítulo não enuncia uma pergunta de pesquisa formal; declara como propósito apresentar a teoria do resourcing, explicar três mecanismos e explorar como o resourcing endógeno e os ciclos ampliativos sustentam espirais positivas (p.2/L021-027). O texto se organiza em torno de questões centrais sobre o que constitui um recurso, como as ações criam recursos e como se dão os ciclos ampliativos (p.3/L051-056). Reconstruída como pergunta implícita: como o resourcing redefine recursos e que mecanismos e ciclos podem promover resultados positivos em organizações (p.3/L039-050).",
+      "theories": [],
+      "theory_verdicts": [
+        {
+          "item_id": "T1",
+          "name": "Teoria do resourcing",
+          "verdict": "uses",
+          "source_refs": [
+            "p.4/L070-076"
+          ],
+          "quote": "Resourcing theory points to a definition of resources focusing on how organizational members take up and use assets as they pursue activities in line with what they wish to make happen in the world",
+          "note": "Teoria central do capítulo."
+        },
+        {
+          "item_id": "T2",
+          "name": "Ciclos ampliativos e resourcing endógeno",
+          "verdict": "uses",
+          "source_refs": [
+            "p.19/L443-450",
+            "p.3/L043-050"
+          ],
+          "quote": "What makes endogenous resourcing ampliative is that the potential resources created in the recursive resourcing cycles are harnessed to move in a general direction",
+          "note": "Segunda parte da contribuição: o resourcing endógeno e os ciclos ampliativos."
+        },
+        {
+          "item_id": "T3",
+          "name": "Mecanismos de resourcing: ajuste mútuo, justaposição e narração",
+          "verdict": "uses",
+          "source_refs": [
+            "p.11/L258-265",
+            "p.12/L271-283",
+            "p.14/L338-341",
+            "p.17/L394-399"
+          ],
+          "quote": "we draw upon research related to three resourcing mechanisms in organizations",
+          "note": "Os três mecanismos (ajuste mútuo, justaposição e narração) organizam a seção central do capítulo."
+        },
+        {
+          "item_id": "T4",
+          "name": "Teoria da agência",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "A teoria da agência não é mencionada; o texto usa 'agentic' para a ação dos atores."
+        },
+        {
+          "item_id": "T5",
+          "name": "Positive Organizational Scholarship (espirais positivas)",
+          "verdict": "uses",
+          "source_refs": [
+            "p.2/L024-027",
+            "p.3/L039-043"
+          ],
+          "quote": "mechanisms of resourcing in context that arise from recent empirical research and are likely to be of value to positive organizational scholars",
+          "note": "O capítulo é escrito para estudiosos de POS e ancora a relevância da teoria em espirais positivas."
+        },
+        {
+          "item_id": "T6",
+          "name": "Teoria da dependência de recursos",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.5/L090-093",
+            "p.9/L193-198"
+          ],
+          "quote": "Theories of resource dependence (Pfeffer & Salancik, 1978) might predict that the homemaker would skip making meatballs and make something else for the family meal",
+          "note": "Comparada com o resourcing na Figura 2, como visão em que a ação depende da disponibilidade de recursos."
+        },
+        {
+          "item_id": "T7",
+          "name": "Visão baseada em recursos (RBV)",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.4/L064-069",
+            "p.9/L200-214"
+          ],
+          "quote": "The resource based view of the firm argues that the innate qualities of resources are highly valuable",
+          "note": "Comparada e criticada como visão de recursos com qualidades inatas; também aparece como possível sinergia (p.22/L541-543)."
+        },
+        {
+          "item_id": "T8",
+          "name": "Capacidades dinâmicas",
+          "verdict": "discusses",
+          "source_refs": [
+            "p.5/L094-100",
+            "p.22/L535-543",
+            "p.23/L544-547"
+          ],
+          "quote": "theories of dynamic capabilities (Eisenhardt & Martin, 2000; Teece, et al., 1997) make a slightly different prediction",
+          "note": "Comparada com o resourcing, e proposta como área de sinergia nas direções futuras."
+        },
+        {
+          "item_id": "T9",
+          "name": "Teoria institucional",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "A teoria institucional não é mencionada; 'institucionalização' aparece só em títulos de referências (p.28/L678; p.28/L688)."
+        },
+        {
+          "item_id": "T10",
+          "name": "Teoria de Sewell: estrutura como esquemas e recursos",
+          "verdict": "uses",
+          "source_refs": [
+            "p.4/L074-076",
+            "p.18/L434-436"
+          ],
+          "quote": "a new definition of a resource as anything that allows an actor to enact a schema",
+          "note": "A definição de recurso e a relação entre esquema e recurso derivam de Sewell (1992)."
+        },
+        {
+          "item_id": "T11",
+          "name": "Práticas cotidianas",
+          "verdict": "uses",
+          "source_refs": [
+            "p.5/L101-105",
+            "p.6/L127-129"
+          ],
+          "quote": "Theories of resourcing offer a third prediction, in part because this body of theory posits the relationship between resources and action as it is lived in practice",
+          "note": "As práticas cotidianas, com de Certeau, são o que transforma recursos potenciais em recursos em uso."
+        },
+        {
+          "item_id": "T12",
+          "name": "Sensemaking e linguagem",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "Weick é citado só para dizer que a linguagem é um recurso potencial disponível (p.18/L426-427); sensemaking não é desenvolvido."
+        },
+        {
+          "item_id": "T13",
+          "name": "Objetos de fronteira e tecnologia em uso",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "Objetos de fronteira e tecnologia em uso aparecem em duas menções breves de apoio à generalização dos mecanismos (p.14/L321-323; p.16/L387-390)."
+        },
+        {
+          "item_id": "T14",
+          "name": "Teorias de emoções positivas (broaden-and-build)",
+          "verdict": "does_not_use",
+          "source_refs": [],
+          "quote": "",
+          "note": "Teorias de emoção positiva (broaden-and-build) são citadas apenas como área de interesse nas direções futuras (p.23/L559-561)."
+        }
+      ],
+      "key_concepts": [
+        {
+          "concept": "Recurso (definição do resourcing)",
+          "definition": "Qualquer coisa que permita a um ator atualizar um esquema; define recursos pelo modo como são usados, e não apenas por qualidades inatas.",
+          "quote": "a new definition of a resource as anything that allows an actor to enact a schema",
+          "source_refs": [
+            "p.4/L074-076"
+          ]
+        },
+        {
+          "concept": "Recursos potenciais e recursos em uso",
+          "definition": "Ativos com qualidades que lhes dão potencial só se tornam recursos em uso quando são tomados e usados na atualização de um framework, por meio de prática.",
+          "quote": "potential resources become resources in use when they are taken up in enacting a framework",
+          "source_refs": [
+            "p.7/L146-149",
+            "p.6/L121-129"
+          ]
+        },
+        {
+          "concept": "Ajuste mútuo (mutual adjusting)",
+          "definition": "Mecanismo em que recursos potenciais e frameworks se ajustam entre si no contexto da prática, em contraste com o ajuste estático (matching).",
+          "quote": "Mutual adjusting as a resourcing mechanism helps illuminate the link between resources in use and frameworks for organizing by showing how potential resources and frameworks are adjusted to one another in the context of practice",
+          "source_refs": [
+            "p.12/L276-283"
+          ]
+        },
+        {
+          "concept": "Justaposição (juxtaposing)",
+          "definition": "Ação de colocar lado a lado símbolos ou práticas familiares e não familiares, com a qual atores criam recursos, como a liminaridade, e energizam frameworks para facilitar mudança.",
+          "quote": "emphasizes the action of juxtaposing as an important means by which actors in organizations create resources and energize frameworks to facilitate change",
+          "source_refs": [
+            "p.15/L342-352"
+          ]
+        },
+        {
+          "concept": "Narração (narrating)",
+          "definition": "Ação que transforma recursos potenciais em recursos em uso ao alterar o framework ou o que está sendo reforçado, apoiando-se na linguagem.",
+          "quote": "Narrating is action that transforms potential resources to resources in use by altering the framework or what is being resourced",
+          "source_refs": [
+            "p.17/L395-400",
+            "p.18/L424-432"
+          ]
+        },
+        {
+          "concept": "Resourcing endógeno e ciclos ampliativos",
+          "definition": "O resourcing endógeno usa um framework já criado como novo recurso; é ampliativo quando os ciclos crescem em uma direção e dão energia a um metaframework.",
+          "quote": "We use the term ampliative to refer to resourcing cycles that grow in a general direction, providing more energy for what one might refer to as a meta-framework or a larger framework",
+          "source_refs": [
+            "p.19/L443-450",
+            "p.18/L437-439"
+          ]
+        }
+      ],
+      "methodology": {
+        "study_type": "teórico (capítulo conceitual)",
+        "design": "Capítulo que apresenta a teoria do resourcing, compara-a com a dependência de recursos e a visão baseada em recursos e a ilustra com um experimento mental e com estudos empíricos publicados.",
+        "sample_type": "não se aplica (sem coleta de dados); exemplos de estudos anteriores",
+        "sample_size": null,
+        "sector": "",
+        "period": "",
+        "methods": [
+          "capítulo teórico",
+          "experimento mental",
+          "análise de estudos empíricos publicados"
+        ],
+        "analysis_note": "As autoras usam um experimento mental sobre donas de casa sob racionamento de carne na Segunda Guerra (p.4/L083-088; p.5/L089-108) e reinterpretam estudos de outros autores, como Jaquith, Howard-Grenville et al., Quinn e Worline e Feldman e Quick, como exemplos de mecanismos de resourcing (p.11/L258-265).",
+        "source_refs": [
+          "p.2/L021-027",
+          "p.4/L083-088",
+          "p.5/L089-108",
+          "p.11/L258-265"
+        ]
+      },
+      "main_findings": [
+        {
+          "finding": "Recursos potenciais se tornam recursos em uso por meio de práticas, e a centralidade das práticas é um traço distintivo da teoria do resourcing.",
+          "type": "proposition",
+          "quote": "it is these cooking practices that transformed bread from a potential resource to a resource in use. Emphasizing practices as central to resources is a unique and important aspect of theories of resourcing",
+          "source_refs": [
+            "p.6/L121-129"
+          ]
+        },
+        {
+          "finding": "O resourcing é um processo dinâmico de ajuste mútuo entre recursos potenciais e frameworks emergentes, e não de combinação de objetos estáticos.",
+          "type": "proposition",
+          "quote": "the process is not one of matching two static objects (ingredients and meatballs), but of mutual adjustment between potential resources and emerging frameworks",
+          "source_refs": [
+            "p.7/L150-160"
+          ]
+        },
+        {
+          "finding": "A teoria do resourcing foca as ações dentro das organizações, e não as ações da organização em relação ao ambiente, o que a diferencia da dependência de recursos e da visão baseada em recursos.",
+          "type": "model",
+          "quote": "The focus of resourcing theory, by contrast, is on actions in organizations (specific, identifiable actions taken by specific people (or sometimes machines such as computers) at specific times and places) rather than the actions of organizations in relation to their environments",
+          "source_refs": [
+            "p.10/L228-240"
+          ]
+        },
+        {
+          "finding": "Há três mecanismos de resourcing: ajuste mútuo, justaposição e narração, ilustrados por equity sticks, mudança cultural e o voo 93.",
+          "type": "model",
+          "quote": "we draw upon research related to three resourcing mechanisms in organizations",
+          "source_refs": [
+            "p.11/L258-265",
+            "p.12/L276-283",
+            "p.15/L342-352",
+            "p.17/L394-411"
+          ]
+        },
+        {
+          "finding": "O resourcing endógeno nem sempre é ampliativo; depende de o framework energizado ser usado como recurso para estender um metaframework.",
+          "type": "proposition",
+          "quote": "endogenous resourcing is not always ampliative",
+          "source_refs": [
+            "p.20/L477-493",
+            "p.21/L494-508"
+          ]
+        },
+        {
+          "finding": "Recursos só podem ser julgados como bons ou ruins no contexto de seu uso, o que permite separar a avaliação do processo da avaliação do resultado.",
+          "type": "proposition",
+          "quote": "it shows that resources can only be judged as good or bad in the context of their use",
+          "source_refs": [
+            "p.22/L520-527"
+          ]
+        }
+      ],
+      "contribution": {
+        "theoretical": "Apresenta a teoria do resourcing como alternativa à dependência de recursos e à visão baseada em recursos, ao enfocar a ação que transforma recursos potenciais em recursos em uso (p.4/L070-082; p.10/L216-241). Descreve três mecanismos de resourcing e propõe o resourcing endógeno e os ciclos ampliativos como ponte para a POS (p.11/L258-265; p.19/L443-450). Aponta cinco direções de pesquisa (p.22/L529-543; p.23/L544-565; p.24/L571-582).",
+        "practical": "O capítulo não traz seção de implicações gerenciais. Afirma que entender o processo de resourcing é uma ferramenta para estudiosos e gestores que querem promover espirais positivas, ao permitir criar ciclos ampliativos e separar a avaliação do processo da do resultado (p.3/L040-050; p.21/L510-517)."
+      }
+    },
+    "human_side": "A"
+  }
 }

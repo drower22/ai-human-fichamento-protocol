@@ -33,7 +33,7 @@ def fichamento_dir(round_: int, source: str) -> Path:
 
 
 def fichamento_path(round_: int, article_id: str, source: str) -> Path:
-    tag = "AI" if source == "ai" else "HUM"
+    tag = "AI" if source.startswith("ai") else "HUM"
     return fichamento_dir(round_, source) / f"F-R{round_}-{article_id}-{tag}.json"
 
 
