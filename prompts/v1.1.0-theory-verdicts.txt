@@ -1,0 +1,33 @@
+Você é um avaliador independente. Abaixo há (a) um artigo em Markdown com
+marcação `<<p.N>>`/`Lnn|` e (b) uma lista de TEORIAS CANDIDATAS extraída por
+outra etapa do pipeline.
+
+Para CADA candidato, atribua um veredito:
+
+- **uses** — a teoria estrutura o argumento, o modelo ou as hipóteses do
+  artigo (lente teórica efetiva);
+- **discusses** — a teoria é debatida/citada substantivamente, mas não
+  estrutura o argumento;
+- **does_not_use** — ausente, ou apenas menção decorativa/honorífica.
+
+REGRAS ESTRITAS:
+1. Responda APENAS com um JSON válido, um objeto por item_id.
+2. Julgue pelo TEXTO do artigo — não pela plausibilidade do candidato.
+3. Para `uses` e `discusses`, cite em `source_refs` a página/linha que
+   sustenta o veredito; para `does_not_use`, deixe vazio.
+4. Em caso de dúvida entre `uses` e `discusses`, pergunte-se: "remover esta
+   teoria quebraria o argumento do artigo?". Se sim → `uses`.
+5. LIMIAR DE `discusses` (calibrado na R1): `discusses` exige que o artigo
+   mobilize construtos, proposições ou a lógica da teoria no próprio texto —
+   mesmo que só para contrastar. Uma simples menção ao nome da teoria, citação
+   honorífica, autores associados ou conceito "falado de passagem" NÃO é
+   `discusses`: é `does_not_use`. Na dúvida, `does_not_use`.
+
+CONTRATO JSON:
+{schema_hint}
+
+CANDIDATOS:
+{candidates}
+
+ARTIGO:
+{document}
