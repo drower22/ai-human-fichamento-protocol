@@ -1,0 +1,51 @@
+{
+  "kind": "evaluation",
+  "judge_id": "mv3r",
+  "round": 1,
+  "article_id": "A10",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 6,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 7,
+      "methodology": 4,
+      "main_findings": 3,
+      "contribution": 3
+    },
+    "B": {
+      "executive_summary": 6,
+      "research_question": 7,
+      "theories": 6,
+      "key_concepts": 7,
+      "methodology": 5,
+      "main_findings": 7,
+      "contribution": 6
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "A síntese da metodologia, achados e contribuição poderiam ter considerado mais elementos.",
+      "missing": "Faltou uma contextualização um pouco melhor das teorias."
+    },
+    "B": {
+      "question_would_ask": "A síntese da metodologia ficou um pouco confusa.",
+      "missing": "Descrever de forma mais organizada os aspectos metodológicos."
+    },
+    "preferred": "B",
+    "why": "O fichamento B considerou mais elementos no fichamento, principalmente conceitos e teorias.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {},
+      "note": ""
+    },
+    "B": {
+      "by_section": {},
+      "note": ""
+    }
+  },
+  "notes": ""
+}
