@@ -1,0 +1,51 @@
+{
+  "kind": "evaluation",
+  "judge_id": "mv3r",
+  "round": 1,
+  "article_id": "A09",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 6,
+      "research_question": 7,
+      "theories": 7,
+      "key_concepts": 6,
+      "methodology": 6,
+      "main_findings": 6,
+      "contribution": 7
+    },
+    "B": {
+      "executive_summary": 6,
+      "research_question": 7,
+      "theories": 7,
+      "key_concepts": 7,
+      "methodology": 4,
+      "main_findings": 6,
+      "contribution": 6
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Para fins de fichamento, não há nada que eu questionaria, pois contemplou os aspectos gerais do trabalho.",
+      "missing": "Faltou desenvolver um pouco melhor a síntese da dimensão processual dos recursos."
+    },
+    "B": {
+      "question_would_ask": "Não.",
+      "missing": "Para fins de fichamento não faltou nada."
+    },
+    "preferred": "empate",
+    "why": "Os dois fichamentos apresentam uma estrutura semelhante, mas o fichamento B conseguiu evoluiu um pouco mais os aspectos teóricos.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {},
+      "note": ""
+    },
+    "B": {
+      "by_section": {},
+      "note": ""
+    }
+  },
+  "notes": "Tenho uma suspeita que os dois trabalhos foram avaliados por I.A pelas similaridades de estrutura."
+}
