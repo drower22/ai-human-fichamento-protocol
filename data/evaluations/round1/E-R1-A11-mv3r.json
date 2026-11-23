@@ -1,0 +1,51 @@
+{
+  "kind": "evaluation",
+  "judge_id": "mv3r",
+  "round": 1,
+  "article_id": "A11",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 7,
+      "key_concepts": 7,
+      "methodology": 7,
+      "main_findings": 7,
+      "contribution": 7
+    },
+    "B": {
+      "executive_summary": 6,
+      "research_question": 7,
+      "theories": 7,
+      "key_concepts": 7,
+      "methodology": 7,
+      "main_findings": 7,
+      "contribution": 7
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Nada, pois o fichamento considerou todos os elementos centrais do capítulo.",
+      "missing": "Nada"
+    },
+    "B": {
+      "question_would_ask": "Nada, pois considerou os aspectos centrais do estudo.",
+      "missing": "Nada"
+    },
+    "preferred": "empate",
+    "why": "Ambos os fichamentos apresentaram uma estrutura muito próxima e completa para sintetizar as ideias principais do texto.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {},
+      "note": ""
+    },
+    "B": {
+      "by_section": {},
+      "note": ""
+    }
+  },
+  "notes": ""
+}
