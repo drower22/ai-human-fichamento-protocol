@@ -1,0 +1,83 @@
+{
+  "kind": "evaluation",
+  "judge_id": "gx6t",
+  "round": 1,
+  "article_id": "A15",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 7,
+      "research_question": 3,
+      "theories": 4,
+      "key_concepts": 4,
+      "methodology": 3,
+      "main_findings": 6,
+      "contribution": 6
+    },
+    "B": {
+      "executive_summary": 6,
+      "research_question": 7,
+      "theories": 3,
+      "key_concepts": 4,
+      "methodology": 5,
+      "main_findings": 6,
+      "contribution": 5
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Ajustaria a parte de metodologia e conceitos-chave.",
+      "missing": "Inserir mais informações da tedotologia e outros achados. Na parte de achados vale uma discussãoi mais profunda."
+    },
+    "B": {
+      "question_would_ask": "A parte de de implicações poderia ser melhorada e questionaria alguns conceitos-chave apresentados (ex. creditos idiossincráticos).",
+      "missing": "Ler os achados além dos números."
+    },
+    "preferred": "B",
+    "why": "Mais completo e detalhado, além de reproduzir com mais fidedignidade os achados do artigo.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {
+        "research_question": {
+          "codes": [
+            "misinterpretation"
+          ],
+          "other_note": ""
+        },
+        "methodology": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "Faltam informações do metodo que estavam no texto. 3 fases, numero de entrevistas, respondentes, entre outros."
+        }
+      },
+      "note": ""
+    },
+    "B": {
+      "by_section": {
+        "theories": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "Tem conceitos que são apenas falados e estão como discutidos aqui. Exemplo: créditos idiossincráticos."
+        },
+        "key_concepts": {
+          "codes": [
+            "hallucination"
+          ],
+          "other_note": ""
+        },
+        "methodology": {
+          "codes": [
+            "other"
+          ],
+          "other_note": "Faltou falar da terceira fase."
+        }
+      },
+      "note": "Invenção: Créditos idiossincráticos: Capital de confiança que o pesquisador acumula com o dono da firma por conhecimento, interesse e conformidade às suas normas, e que 'gasta' ao pedir tempo e informações específicas. [p.4/L128-133]"
+    }
+  },
+  "notes": ""
+}
