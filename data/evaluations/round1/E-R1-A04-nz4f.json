@@ -1,0 +1,51 @@
+{
+  "kind": "evaluation",
+  "judge_id": "nz4f",
+  "round": 1,
+  "article_id": "A04",
+  "consent": "aceito",
+  "scores": {
+    "A": {
+      "executive_summary": 5,
+      "research_question": 6,
+      "theories": 3,
+      "key_concepts": 4,
+      "methodology": 3,
+      "main_findings": 5,
+      "contribution": 5
+    },
+    "B": {
+      "executive_summary": 7,
+      "research_question": 7,
+      "theories": 5,
+      "key_concepts": 7,
+      "methodology": 7,
+      "main_findings": 7,
+      "contribution": 7
+    }
+  },
+  "qualitative": {
+    "A": {
+      "question_would_ask": "Não compreende o domínio teórico em diálogo e nem apresenta os conceitos centrais que são discutidos no trabalho.",
+      "missing": "Detalhamento, precisão e ultrapassar uma visão genérica."
+    },
+    "B": {
+      "question_would_ask": "A compreensão correta da linha teórica que o artigo discute.",
+      "missing": "Precisão para compreender a base teórica utilizada."
+    },
+    "preferred": "B",
+    "why": "É mais fiel e preciso ao texto objeto do fichamento.",
+    "confidence": "alta"
+  },
+  "error_taxonomy": {
+    "A": {
+      "by_section": {},
+      "note": ""
+    },
+    "B": {
+      "by_section": {},
+      "note": ""
+    }
+  },
+  "notes": ""
+}
