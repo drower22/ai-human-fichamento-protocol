@@ -143,7 +143,7 @@
 
 <div class="modal" id="welcomeModal" hidden>
   <div class="box">
-    <h2>Bem-vindo à segunda rodada</h2>
+    <h2>Bem-vindo à segunda rodada<span id="wname"></span></h2>
     <p>Na Rodada 1, o seu fichamento foi avaliado lado a lado com outro
     fichamento do mesmo artigo, produzido por inteligência artificial. O
     juiz não sabia qual era qual.</p>
@@ -542,6 +542,8 @@ let PAIR=null;
 function initFlow(){
   PAIR=PACK.r1_pair||null;
   if(!PAIR){document.getElementById('tcleSec').hidden=false;return;}
+  const fn=(PACK.full_name||'').split(' ')[0];
+  if(fn)document.getElementById('wname').textContent=', '+fn+'!';
   document.getElementById('fichA').innerHTML=renderFich(PAIR.A);
   document.getElementById('fichB').innerHTML=renderFich(PAIR.B);
   ['A','B'].forEach(s=>{
