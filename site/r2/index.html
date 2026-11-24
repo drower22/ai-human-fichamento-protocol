@@ -554,16 +554,17 @@ function initFlow(){
     document.getElementById('welcomeModal').hidden=true;
     document.getElementById('pairSec').hidden=false;
     window.scrollTo({top:0,behavior:'smooth'});};
+  const gpref=()=>document.querySelector('input[name=w_pref]:checked')?.value||'';
   const btnRefl=document.getElementById('btnRefl');
   const checkRefl=()=>{
-    btnRefl.disabled=!(g('w_pref')&&g('w_learned')&&g('w_redo'));};
+    btnRefl.disabled=!(gpref()&&g('w_learned')&&g('w_redo'));};
   const showRefl=()=>{
     document.getElementById('reflBox').hidden=false;checkRefl();};
   document.querySelectorAll('input[name=w_pref]').forEach(r=>
     r.addEventListener('change',showRefl));
   ['w_learned','w_redo'].forEach(n=>
     document.querySelector(`[name=${n}]`).addEventListener('input',checkRefl));
-  if(g('w_pref')){document.getElementById('welcomeModal').hidden=true;
+  if(gpref()){document.getElementById('welcomeModal').hidden=true;
     document.getElementById('pairSec').hidden=false;showRefl();}
   btnRefl.onclick=()=>{
     document.getElementById('pairSec').hidden=true;
@@ -829,7 +830,8 @@ document.getElementById('f').addEventListener('submit',async e=>{
     contribution:{theoretical:g('c_theo'),practical:g('c_prac')},
     self_assessment:sa,
     reflection_log:{q1:g('r1'),q2:g('r2'),q3:g('r3'),q4:g('r4')},
-    r2_warmup:PAIR?{r1_article:PAIR.article_id,pair_preference:g('w_pref'),
+    r2_warmup:PAIR?{r1_article:PAIR.article_id,
+      pair_preference:(document.querySelector('input[name=w_pref]:checked')||{}).value||null,
       learned:g('w_learned'),redo:g('w_redo')}:null
   };
   // R2: arquivo identificado pelo código S travado no link pessoal
